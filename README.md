@@ -125,27 +125,16 @@ Open http://localhost:5173 in your browser.
 
 **Backend Setup (Python)**:
 
-Note: The backend integration is currently in progress (11.01.2026). The logic below is just an idea based on our Persona_Evolution_2.ipynb notebook.
-
-```bash
-cd backend
-pip install -r requirements.txt
-uvicorn main:app --reload
-```
-
 **Dataset Download**:
 
 Download the OPeRA dataset from HuggingFace:
 
+Optional: Create .env with HF_TOKEN for authenticated access
+
 ```bash
-# Optional: Create .env with HF_TOKEN for authenticated access
-echo "HF_TOKEN=your_token_here" > backend/.env
-
 # Run the download script
-python backend/scripts/download_hf_dataset.py
+py backend/scripts/download_hf_dataset.py
 ```
-
-The script downloads all dataset configs to `backend/data/NEU-HAI__OPeRA/`. To use a different dataset, edit `REPO` and `CONFIGS` in the script.
 
 
 ## Data Analysis Workflow
