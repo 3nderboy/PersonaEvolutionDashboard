@@ -25,8 +25,12 @@ def main() -> int:
         from datasets.utils.logging import set_verbosity_warning
         from huggingface_hub import hf_hub_download
     except ImportError:
-        print("[ERROR] pip install datasets huggingface_hub", file=sys.stderr)
-        return 1
+        import subprocess
+        print("[INFO] Installing dependencies...")
+        subprocess.check_call([sys.executable, "-m", "pip", "install", "datasets", "huggingface_hub"])
+        from datasets import load_dataset
+        from datasets.utils.logging import set_verbosity_warning
+        from huggingface_hub import hf_hub_download
 
     set_verbosity_warning()
     OUTPUT.mkdir(parents=True, exist_ok=True)
