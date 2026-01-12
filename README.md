@@ -37,13 +37,15 @@ The project follows a modern **Client–Server architecture** to separate data-h
 │   │   ├── deploy.yml       
 │
 ├── /backend                 # Python/ipynb-Notebook Stuff
-│   ├── /data                # Raw data (csv, json)
+│   ├── /data                # Downloaded datasets (json)
+│   ├── /scripts             # Utility scripts
+│   │   └── download_hf_dataset.py
 │   ├── /analysis            # Logic from notebook
 │   │   ├── clustering.py    # K-Means, DBSCAN logic
 │   │   ├── preprocessing.py # Data Cleaning
 │   │   └── evolution.py     # Logic for persona evolution
 │   ├── main.py              # API-Server (FastAPI)
-│   └── requirements.txt     # Python Libraries (pandas, sklearn, fastapi...)
+│   └── requirements.txt     # Python Libraries
 │
 ├── /frontend                # React-Stuff (Vite)
 │   ├── /public              # Web-Application Icon
@@ -125,11 +127,25 @@ Open http://localhost:5173 in your browser.
 
 Note: The backend integration is currently in progress (11.01.2026). The logic below is just an idea based on our Persona_Evolution_2.ipynb notebook.
 
-```text
+```bash
 cd backend
 pip install -r requirements.txt
 uvicorn main:app --reload
 ```
+
+**Dataset Download**:
+
+Download the OPeRA dataset from HuggingFace:
+
+```bash
+# Optional: Create .env with HF_TOKEN for authenticated access
+echo "HF_TOKEN=your_token_here" > backend/.env
+
+# Run the download script
+python backend/scripts/download_hf_dataset.py
+```
+
+The script downloads all dataset configs to `backend/data/NEU-HAI__OPeRA/`. To use a different dataset, edit `REPO` and `CONFIGS` in the script.
 
 
 ## Data Analysis Workflow
