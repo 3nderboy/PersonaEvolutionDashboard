@@ -11,7 +11,8 @@ const App = () => {
   const [method, setMethod] = useState("kmeans");
   const [selectedPersonaId, setSelectedPersonaId] = useState("A");
 
-  const clusters = CLUSTERS_BY_TIME[timeWindow];
+  // Fallback in case of missing data
+  const clusters = CLUSTERS_BY_TIME[timeWindow] || [];
   const selectedPersona = PERSONAS.find((p) => p.id === selectedPersonaId);
 
   return (
