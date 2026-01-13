@@ -1,0 +1,34 @@
+[
+  {
+    "timestamp": "2025-05-07T15:31:12.496000+00:00",
+    "action_type": "navigation",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0
+  },
+  {
+    "timestamp": "2025-05-07T15:36:12.402000+00:00",
+    "action_type": "navigation",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 299.906
+  },
+  {
+    "timestamp": "2025-05-07T15:37:13.825000+00:00",
+    "action_type": "tab_activate",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 61.423
+  },
+  {
+    "timestamp": "2025-05-07T15:37:16.437000+00:00",
+    "action_type": "click",
+    "click_type": "purchase",
+    "category": "conversion",
+    "product": "{\"name\": \"product_details\", \"data\": \"{\\\"asin\\\":\\\"0",
+    "delay_from_previous_sec": 2.612
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "timestamp": "2025-04-09T18:30:40.985000+00:00",
+    "action_type": "click",
+    "click_type": "other",
+    "category": "navigation",
+    "product": "{\"name\": \"\", \"data\": \"\"}",
+    "delay_from_previous_sec": 0
+  },
+  {
+    "timestamp": "2025-04-09T18:30:42.639000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.654
+  },
+  {
+    "timestamp": "2025-04-09T18:30:45.868000+00:00",
+    "action_type": "click",
+    "click_type": "quantity",
+    "category": "navigation",
+    "product": "{\"name\": \"active_items\", \"data\": \"{\\\"title\\\":\\\"Leg",
+    "delay_from_previous_sec": 3.229
+  },
+  {
+    "timestamp": "2025-04-09T18:30:46.725000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0.857
+  },
+  {
+    "timestamp": "2025-04-09T18:30:50.333000+00:00",
+    "action_type": "click",
+    "click_type": "purchase",
+    "category": "conversion",
+    "product": "{\"name\": \"\", \"data\": \"\"}",
+    "delay_from_previous_sec": 3.608
+  }
+]

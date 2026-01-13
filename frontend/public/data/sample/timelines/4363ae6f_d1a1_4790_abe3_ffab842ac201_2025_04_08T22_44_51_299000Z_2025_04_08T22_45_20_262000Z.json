@@ -1,0 +1,74 @@
+[
+  {
+    "timestamp": "2025-04-08T22:44:51.299000+00:00",
+    "action_type": "tab_activate",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0
+  },
+  {
+    "timestamp": "2025-04-08T22:44:52.014000+00:00",
+    "action_type": "navigation",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0.715
+  },
+  {
+    "timestamp": "2025-04-08T22:44:54.885000+00:00",
+    "action_type": "click",
+    "click_type": "suggested_term",
+    "category": "navigation",
+    "product": "{\"name\": \"\", \"data\": \"\"}",
+    "delay_from_previous_sec": 2.871
+  },
+  {
+    "timestamp": "2025-04-08T22:44:57.223000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 2.338
+  },
+  {
+    "timestamp": "2025-04-08T22:45:03.456000+00:00",
+    "action_type": "tab_activate",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 6.233
+  },
+  {
+    "timestamp": "2025-04-08T22:45:05.505000+00:00",
+    "action_type": "tab_activate",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 2.049
+  },
+  {
+    "timestamp": "2025-04-08T22:45:05.723000+00:00",
+    "action_type": "navigation",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0.218
+  },
+  {
+    "timestamp": "2025-04-08T22:45:06.197000+00:00",
+    "action_type": "tab_activate",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0.474
+  },
+  {
+    "timestamp": "2025-04-08T22:45:20.262000+00:00",
+    "action_type": "click",
+    "click_type": "purchase",
+    "category": "conversion",
+    "product": "{\"name\": \"product_details\", \"data\": \"{\\\"asin\\\":\\\"B",
+    "delay_from_previous_sec": 14.065
+  }
+]

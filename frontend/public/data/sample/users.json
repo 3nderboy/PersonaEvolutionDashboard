@@ -1,0 +1,349 @@
+[
+  {
+    "user_id": "3a65c43e",
+    "name": "User c43e",
+    "persona_type": "Decisive Shopper",
+    "transcribed_interview": "### Demographic Information\n[Participant] lives in Boston with roommates, with whom they likely share expenses. They are a PhD student in electrical and computer engineering at a university, focusing on microfabrication technology for power electronics devices.\n\n### Self Description\n[Participant] starts their day at 9 AM by checking GitHub and having breakfast before taking the subway to campus for their PhD work, which includes experiments in a clean room and typically concludes by 4 PM. After ",
+    "behavioral_metrics": {
+      "decisiveness": 0.7859813084112149,
+      "exploration": 0.022185361808003318,
+      "research_depth": 1.0,
+      "price_sensitivity": 0.0,
+      "engagement": 1.0
+    },
+    "impact_factors": {
+      "decisiveness": [
+        "High Purchase Rate"
+      ]
+    },
+    "sessions_count": 57,
+    "total_actions": 4823,
+    "stats": {
+      "total_sessions": 1,
+      "total_time": "15m",
+      "avg_cart": "$100"
+    }
+  },
+  {
+    "user_id": "4363ae6f",
+    "name": "User ae6f",
+    "persona_type": "Decisive Shopper",
+    "transcribed_interview": "### Demographic Information\n[Participant] resides in Jersey City, New Jersey, with two roommates, and is a graduate student specializing in financial management and public finance at a university.\n\n### Self Description\n[Participant] starts their day by analyzing financial data using Excel and writing public memos as part of their graduate studies. After completing their academic tasks, they enjoy playing computer games, shopping online, and making trips to the supermarket, while weekends are oft",
+    "behavioral_metrics": {
+      "decisiveness": 0.7571428571428571,
+      "exploration": 0.04660452729693742,
+      "research_depth": 1.0,
+      "price_sensitivity": 0.019973368841544607,
+      "engagement": 1.0
+    },
+    "impact_factors": {
+      "decisiveness": [
+        "High Purchase Rate"
+      ]
+    },
+    "sessions_count": 19,
+    "total_actions": 1502,
+    "stats": {
+      "total_sessions": 1,
+      "total_time": "15m",
+      "avg_cart": "$100"
+    }
+  },
+  {
+    "user_id": "dd4fa2e8",
+    "name": "User a2e8",
+    "persona_type": "Decisive Shopper",
+    "transcribed_interview": "### Demographic Information\n[Participant] lives in Boston with his wife and is a PhD student conducting research in AI and health.\n\n### Self Description\n[Participant] starts their day working remotely from home, focusing on coding and data analysis for their AI research, punctuated by twice-weekly visits to the office for meetings. After work, they prioritize exercise like running or playing pickleball, and enjoy spending weekends attending church in Boston, while also making time for socializin",
+    "behavioral_metrics": {
+      "decisiveness": 0.9666666666666666,
+      "exploration": 0.05366726296958855,
+      "research_depth": 1.0,
+      "price_sensitivity": 0.0,
+      "engagement": 1.0
+    },
+    "impact_factors": {
+      "decisiveness": [
+        "High Purchase Rate"
+      ]
+    },
+    "sessions_count": 26,
+    "total_actions": 1118,
+    "stats": {
+      "total_sessions": 1,
+      "total_time": "15m",
+      "avg_cart": "$100"
+    }
+  },
+  {
+    "user_id": "fec7fcca",
+    "name": "User fcca",
+    "persona_type": "Decisive Shopper",
+    "transcribed_interview": "I usually know exactly what I want. I don't like to waste time scrolling. If the price is right and the reviews are good, I buy it immediately.",
+    "behavioral_metrics": {
+      "decisiveness": 0.7848484848484849,
+      "exploration": 0.033950617283950615,
+      "research_depth": 1.0,
+      "price_sensitivity": 0.0,
+      "engagement": 1.0
+    },
+    "impact_factors": {
+      "decisiveness": [
+        "High Purchase Rate"
+      ]
+    },
+    "sessions_count": 18,
+    "total_actions": 972,
+    "stats": {
+      "total_sessions": 1,
+      "total_time": "15m",
+      "avg_cart": "$100"
+    }
+  },
+  {
+    "user_id": "5632b752",
+    "name": "User b752",
+    "persona_type": "Decisive Shopper",
+    "transcribed_interview": "### Demographic Information\n[Participant] lives in Chicago with two roommates, with whom they share grocery and household shopping responsibilities, while they shop individually for personal items. They are a third-year PhD student in cancer biology at [ORG_MASKED] University.\n\n### Self Description\n[Participant] starts their day at 8 AM with breakfast before commuting to [ORG_MASKED] University, either by bus or bike depending on the weather. Their day involves data analysis and meetings with th",
+    "behavioral_metrics": {
+      "decisiveness": 1.0,
+      "exploration": 0.007945516458569807,
+      "research_depth": 1.0,
+      "price_sensitivity": 0.0,
+      "engagement": 1.0
+    },
+    "impact_factors": {
+      "decisiveness": [
+        "High Purchase Rate"
+      ]
+    },
+    "sessions_count": 22,
+    "total_actions": 881,
+    "stats": {
+      "total_sessions": 1,
+      "total_time": "15m",
+      "avg_cart": "$100"
+    }
+  },
+  {
+    "user_id": "ffa9a771",
+    "name": "User a771",
+    "persona_type": "Explorer",
+    "transcribed_interview": "### Demographic Information\n[Participant] resides in Boston, sharing an apartment with a friend, and is a PhD student in computer science at [ORG_MASKED] University.\n\n### Self Description\n[Participant] starts their day by diving straight into work, skipping breakfast, and continues their research on robotics in human-centered environments until lunch. After a day of focusing on developing decision-making frameworks for robots, they might hit the gym either before or after dinner, and often unwin",
+    "behavioral_metrics": {
+      "decisiveness": 0.0,
+      "exploration": 0.0,
+      "research_depth": 0.0,
+      "price_sensitivity": 0.0,
+      "engagement": 0.32
+    },
+    "impact_factors": {},
+    "sessions_count": 1,
+    "total_actions": 32,
+    "stats": {
+      "total_sessions": 1,
+      "total_time": "15m",
+      "avg_cart": "$100"
+    }
+  },
+  {
+    "user_id": "2af67bcd",
+    "name": "User 7bcd",
+    "persona_type": "Explorer",
+    "transcribed_interview": "### Demographic Information\n[Participant] lives in the Bay Area with his wife and works in software engineering and development.\n\n### Self Description\n[Participant] starts their day as a software engineer in the Bay Area with a focus on meetings and extensive document work, spending about 70-80% of their time on data preparation and the rest on experiments. After work, they typically unwind by browsing videos and exploring interesting websites online.\n\n### Personality\n[Participant] appears to be",
+    "behavioral_metrics": {
+      "decisiveness": 0.0,
+      "exploration": 0.06896551724137931,
+      "research_depth": 0.0,
+      "price_sensitivity": 0.0,
+      "engagement": 0.29
+    },
+    "impact_factors": {},
+    "sessions_count": 1,
+    "total_actions": 29,
+    "stats": {
+      "total_sessions": 1,
+      "total_time": "15m",
+      "avg_cart": "$100"
+    }
+  },
+  {
+    "user_id": "9c9f3204",
+    "name": "User 3204",
+    "persona_type": "Explorer",
+    "transcribed_interview": "### Demographic Information\n[Participant] lives in Boston with a roommate, and they make purchases separately; [Participant] is a PhD student.\n\n### Self Description\n[Participant] typically starts their day between 8 AM and 10 AM, balancing coursework and meetings with students, advisors, and collaborators as part of their PhD in computer science, focusing on natural language processing and human-computer interaction. After spending most of their day at school, they usually head home between 6 PM",
+    "behavioral_metrics": {
+      "decisiveness": 0.0,
+      "exploration": 0.0,
+      "research_depth": 0.0,
+      "price_sensitivity": 0.2272727272727273,
+      "engagement": 0.22
+    },
+    "impact_factors": {},
+    "sessions_count": 2,
+    "total_actions": 22,
+    "stats": {
+      "total_sessions": 1,
+      "total_time": "15m",
+      "avg_cart": "$100"
+    }
+  },
+  {
+    "user_id": "87163a9a",
+    "name": "User 3a9a",
+    "persona_type": "Explorer",
+    "transcribed_interview": "I love just browsing and seeing what's new. Sometimes I end up with 50 tabs open! I might not buy today, but I'm always looking for inspiration.",
+    "behavioral_metrics": {
+      "decisiveness": 0.0,
+      "exploration": 0.0,
+      "research_depth": 0.0,
+      "price_sensitivity": 0.0,
+      "engagement": 0.16
+    },
+    "impact_factors": {},
+    "sessions_count": 3,
+    "total_actions": 16,
+    "stats": {
+      "total_sessions": 1,
+      "total_time": "15m",
+      "avg_cart": "$100"
+    }
+  },
+  {
+    "user_id": "31aa3621",
+    "name": "User 3621",
+    "persona_type": "Explorer",
+    "transcribed_interview": "### Demographic Information\n[Participant] lives in Menlo Park, California, with their wife and works as an applied scientist at [ORG_MASKED].\n\n### Self Description\n[Participant] starts their day with occasional early meetings at home before driving about half an hour to their office in Santa Clara. They spend their workday in meetings and coding, typically leaving the office between 4 and 5 PM, and after work they either dine out or buy groceries to cook at home, reserving weekends for jogging o",
+    "behavioral_metrics": {
+      "decisiveness": 0.0,
+      "exploration": 0.0,
+      "research_depth": 0.0,
+      "price_sensitivity": 0.0,
+      "engagement": 0.15
+    },
+    "impact_factors": {},
+    "sessions_count": 1,
+    "total_actions": 15,
+    "stats": {
+      "total_sessions": 1,
+      "total_time": "15m",
+      "avg_cart": "$100"
+    }
+  },
+  {
+    "user_id": "d78a2d81",
+    "name": "User 2d81",
+    "persona_type": "Methodical",
+    "transcribed_interview": "I stick to brands I trust. I have a routine when I shop, and I value consistency and good customer service over flashy new trends.",
+    "behavioral_metrics": {
+      "decisiveness": 0.44559386973180076,
+      "exploration": 0.17552118359112306,
+      "research_depth": 0.4942528735632184,
+      "price_sensitivity": 0.01008742434431742,
+      "engagement": 1.0
+    },
+    "impact_factors": {},
+    "sessions_count": 36,
+    "total_actions": 1487,
+    "stats": {
+      "total_sessions": 1,
+      "total_time": "15m",
+      "avg_cart": "$100"
+    }
+  },
+  {
+    "user_id": "fe3ffaca",
+    "name": "User faca",
+    "persona_type": "Methodical",
+    "transcribed_interview": "I stick to brands I trust. I have a routine when I shop, and I value consistency and good customer service over flashy new trends.",
+    "behavioral_metrics": {
+      "decisiveness": 0.5857142857142856,
+      "exploration": 0.041791044776119404,
+      "research_depth": 0.8571428571428571,
+      "price_sensitivity": 0.029850746268656716,
+      "engagement": 1.0
+    },
+    "impact_factors": {
+      "decisiveness": [
+        "High Purchase Rate"
+      ]
+    },
+    "sessions_count": 10,
+    "total_actions": 1005,
+    "stats": {
+      "total_sessions": 1,
+      "total_time": "15m",
+      "avg_cart": "$100"
+    }
+  },
+  {
+    "user_id": "7f0c8207",
+    "name": "User 8207",
+    "persona_type": "Methodical",
+    "transcribed_interview": "### Demographic Information\n[Participant] lives in Blacksburg, Virginia, alone, and is a PhD student studying computer science with a focus on machine learning.\n\n### Self Description\n[Participant] starts their day early by cooking and packing food before heading to the lab to study and work on tasks like model training and writing papers. In the afternoon, they attend meetings, and after work, they go to the gym, cook dinner, and relax at home, occasionally doing some online shopping; on weekend",
+    "behavioral_metrics": {
+      "decisiveness": 0.5564102564102564,
+      "exploration": 0.10263157894736842,
+      "research_depth": 1.0,
+      "price_sensitivity": 0.0,
+      "engagement": 1.0
+    },
+    "impact_factors": {
+      "decisiveness": [
+        "High Purchase Rate"
+      ]
+    },
+    "sessions_count": 17,
+    "total_actions": 380,
+    "stats": {
+      "total_sessions": 1,
+      "total_time": "15m",
+      "avg_cart": "$100"
+    }
+  },
+  {
+    "user_id": "27d8261e",
+    "name": "User 261e",
+    "persona_type": "Methodical",
+    "transcribed_interview": "I stick to brands I trust. I have a routine when I shop, and I value consistency and good customer service over flashy new trends.",
+    "behavioral_metrics": {
+      "decisiveness": 0.0,
+      "exploration": 0.018575851393188854,
+      "research_depth": 1.0,
+      "price_sensitivity": 0.04643962848297213,
+      "engagement": 1.0
+    },
+    "impact_factors": {},
+    "sessions_count": 1,
+    "total_actions": 323,
+    "stats": {
+      "total_sessions": 1,
+      "total_time": "15m",
+      "avg_cart": "$100"
+    }
+  },
+  {
+    "user_id": "f5891f31",
+    "name": "User 1f31",
+    "persona_type": "Methodical",
+    "transcribed_interview": "I stick to brands I trust. I have a routine when I shop, and I value consistency and good customer service over flashy new trends.",
+    "behavioral_metrics": {
+      "decisiveness": 0.5352941176470588,
+      "exploration": 0.05821917808219178,
+      "research_depth": 0.1764705882352941,
+      "price_sensitivity": 0.11986301369863013,
+      "engagement": 1.0
+    },
+    "impact_factors": {
+      "decisiveness": [
+        "High Purchase Rate"
+      ]
+    },
+    "sessions_count": 4,
+    "total_actions": 292,
+    "stats": {
+      "total_sessions": 1,
+      "total_time": "15m",
+      "avg_cart": "$100"
+    }
+  }
+]

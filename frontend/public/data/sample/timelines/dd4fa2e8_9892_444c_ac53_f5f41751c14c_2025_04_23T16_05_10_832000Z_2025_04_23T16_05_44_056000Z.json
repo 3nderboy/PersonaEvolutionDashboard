@@ -1,0 +1,66 @@
+[
+  {
+    "timestamp": "2025-04-23T16:05:10.832000+00:00",
+    "action_type": "navigation",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0
+  },
+  {
+    "timestamp": "2025-04-23T16:05:12.008000+00:00",
+    "action_type": "click",
+    "click_type": "nav_bar",
+    "category": "navigation",
+    "product": "{\"name\": \"\", \"data\": \"\"}",
+    "delay_from_previous_sec": 1.176
+  },
+  {
+    "timestamp": "2025-04-23T16:05:14.464000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 2.456
+  },
+  {
+    "timestamp": "2025-04-23T16:05:17.605000+00:00",
+    "action_type": "click",
+    "click_type": "quantity",
+    "category": "navigation",
+    "product": "{\"name\": \"active_items\", \"data\": \"{\\\"title\\\":\\\"plu",
+    "delay_from_previous_sec": 3.141
+  },
+  {
+    "timestamp": "2025-04-23T16:05:33.014000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 15.409
+  },
+  {
+    "timestamp": "2025-04-23T16:05:39.968000+00:00",
+    "action_type": "click",
+    "click_type": "cart_page_select",
+    "category": "navigation",
+    "product": "{\"name\": \"active_items\", \"data\": \"{\\\"title\\\":\\\"Pla",
+    "delay_from_previous_sec": 6.954
+  },
+  {
+    "timestamp": "2025-04-23T16:05:39.988000+00:00",
+    "action_type": "click",
+    "click_type": "cart_page_select",
+    "category": "navigation",
+    "product": "{\"name\": \"active_items\", \"data\": \"{\\\"title\\\":\\\"Pla",
+    "delay_from_previous_sec": 0.02
+  },
+  {
+    "timestamp": "2025-04-23T16:05:44.056000+00:00",
+    "action_type": "click",
+    "click_type": "purchase",
+    "category": "conversion",
+    "product": "{\"name\": \"\", \"data\": \"\"}",
+    "delay_from_previous_sec": 4.068
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "timestamp": "2025-05-08T00:11:02.705000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0
+  },
+  {
+    "timestamp": "2025-05-08T00:11:23.136000+00:00",
+    "action_type": "tab_activate",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 20.431
+  },
+  {
+    "timestamp": "2025-05-08T00:11:25.887000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 2.751
+  },
+  {
+    "timestamp": "2025-05-08T00:11:48.956000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 23.069
+  },
+  {
+    "timestamp": "2025-05-08T00:11:51.620000+00:00",
+    "action_type": "tab_activate",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 2.664
+  },
+  {
+    "timestamp": "2025-05-08T00:12:28.926000+00:00",
+    "action_type": "click",
+    "click_type": "purchase",
+    "category": "conversion",
+    "product": "{\"name\": \"product_details\", \"data\": \"{\\\"asin\\\":\\\"B",
+    "delay_from_previous_sec": 37.306
+  }
+]

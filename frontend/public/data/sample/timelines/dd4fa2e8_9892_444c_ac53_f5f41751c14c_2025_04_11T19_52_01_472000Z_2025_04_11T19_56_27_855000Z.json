@@ -1,0 +1,34 @@
+[
+  {
+    "timestamp": "2025-04-11T19:55:19.172000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0
+  },
+  {
+    "timestamp": "2025-04-11T19:55:19.466000+00:00",
+    "action_type": "navigation",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0.294
+  },
+  {
+    "timestamp": "2025-04-11T19:55:58.489000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 39.023
+  },
+  {
+    "timestamp": "2025-04-11T19:56:27.855000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 29.366
+  }
+]

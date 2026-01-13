@@ -1,42 +1,39 @@
-import React, { useState } from "react";
-import Sidebar from "./components/layout/Sidebar.jsx";
-import DashboardLayout from "./components/layout/DashboardLayout.jsx";
-import ClusterOverview from "./components/dashboard/ClusterOverview.jsx";
-import PersonaPanel from "./components/dashboard/PersonaPanel.jsx";
-import { CLUSTERS_BY_TIME, PERSONAS } from "./data/mockData.js";
+import React, { useState } from 'react';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import Sidebar from './components/layout/Sidebar.jsx';
+import DashboardLayout from './components/layout/DashboardLayout.jsx';
+import OverviewView from './components/views/OverviewView.jsx';
+import UsersView from './components/views/UsersView.jsx';
+import SessionsView from './components/views/SessionsView.jsx';
+import SessionDetailView from './components/views/SessionDetailView.jsx';
 
-// Main App
+// Main App Component
 const App = () => {
-  const [timeWindow, setTimeWindow] = useState("2025-01");
-  const [method, setMethod] = useState("kmeans");
-  const [selectedPersonaId, setSelectedPersonaId] = useState("A");
+    // Legacy state for existing cluster visualization (kept for backward compatibility)
+    const [timeWindow, setTimeWindow] = useState("2025-01");
+    const [method, setMethod] = useState("kmeans");
 
-  // Fallback in case of missing data
-  const clusters = CLUSTERS_BY_TIME[timeWindow] || [];
-  const selectedPersona = PERSONAS.find((p) => p.id === selectedPersonaId);
-
-  return (
-    <div className="min-h-screen bg-slate-950 text-slate-50 flex font-sans">
-      <Sidebar
-        timeWindow={timeWindow}
-        setTimeWindow={setTimeWindow}
-        method={method}
-        setMethod={setMethod}
-      />
-      <DashboardLayout>
-        <ClusterOverview
-          timeWindow={timeWindow}
-          method={method}
-          clusters={clusters}
-        />
-        <PersonaPanel
-          personas={PERSONAS}
-          selectedPersona={selectedPersona}
-          onSelectPersona={setSelectedPersonaId}
-        />
-      </DashboardLayout>
-    </div>
-  );
+    return (
+        <BrowserRouter>
+            <div className="min-h-screen bg-slate-950 text-slate-200 flex">
+                <Sidebar
+                    timeWindow={timeWindow}
+                    setTimeWindow={setTimeWindow}
+                    method={method}
+                    setMethod={setMethod}
+                />
+                <DashboardLayout>
+                    <Routes>
+                        <Route path="/" element={<OverviewView />} />
+                        <Route path="/users" element={<UsersView />} />
+                        <Route path="/sessions" element={<SessionsView />} />
+                        <Route path="/session/:sessionId" element={<SessionDetailView />} />
+                        <Route path="*" element={<Navigate to="/" replace />} />
+                    </Routes>
+                </DashboardLayout>
+            </div>
+        </BrowserRouter>
+    );
 };
 
 export default App;

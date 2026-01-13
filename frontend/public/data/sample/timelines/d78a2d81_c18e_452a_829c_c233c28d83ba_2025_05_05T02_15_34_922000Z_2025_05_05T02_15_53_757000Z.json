@@ -1,0 +1,98 @@
+[
+  {
+    "timestamp": "2025-05-05T02:15:34.922000+00:00",
+    "action_type": "tab_activate",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0
+  },
+  {
+    "timestamp": "2025-05-05T02:15:36.460000+00:00",
+    "action_type": "click",
+    "click_type": "review",
+    "category": "research",
+    "product": "{\"name\": \"\", \"data\": \"\"}",
+    "delay_from_previous_sec": 1.538
+  },
+  {
+    "timestamp": "2025-05-05T02:15:37.231000+00:00",
+    "action_type": "tab_activate",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0.771
+  },
+  {
+    "timestamp": "2025-05-05T02:15:38.916000+00:00",
+    "action_type": "tab_activate",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.685
+  },
+  {
+    "timestamp": "2025-05-05T02:15:39.512000+00:00",
+    "action_type": "tab_activate",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0.596
+  },
+  {
+    "timestamp": "2025-05-05T02:15:40.786000+00:00",
+    "action_type": "tab_activate",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.274
+  },
+  {
+    "timestamp": "2025-05-05T02:15:43.404000+00:00",
+    "action_type": "click",
+    "click_type": "cart_side_bar",
+    "category": "navigation",
+    "product": "{\"name\": \"cart_items\", \"data\": \"{\\\"title\\\":\\\"heara",
+    "delay_from_previous_sec": 2.618
+  },
+  {
+    "timestamp": "2025-05-05T02:15:46.596000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 3.192
+  },
+  {
+    "timestamp": "2025-05-05T02:15:48.284000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.688
+  },
+  {
+    "timestamp": "2025-05-05T02:15:50.512000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 2.228
+  },
+  {
+    "timestamp": "2025-05-05T02:15:51.878000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.366
+  },
+  {
+    "timestamp": "2025-05-05T02:15:53.757000+00:00",
+    "action_type": "click",
+    "click_type": "purchase",
+    "category": "conversion",
+    "product": "{\"name\": \"product_details\", \"data\": \"{\\\"asin\\\":\\\"B",
+    "delay_from_previous_sec": 1.879
+  }
+]

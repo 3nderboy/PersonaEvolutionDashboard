@@ -1,0 +1,74 @@
+[
+  {
+    "timestamp": "2025-04-11T22:32:06.268000+00:00",
+    "action_type": "navigation",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0
+  },
+  {
+    "timestamp": "2025-04-11T22:32:25.395000+00:00",
+    "action_type": "click",
+    "click_type": "search",
+    "category": "navigation",
+    "product": "{\"name\": \"search_term\", \"data\": \"{\\\"term\\\":\\\"\\\"}\"}",
+    "delay_from_previous_sec": 19.127
+  },
+  {
+    "timestamp": "2025-04-11T22:32:30.706000+00:00",
+    "action_type": "click",
+    "click_type": "search",
+    "category": "navigation",
+    "product": "{\"name\": \"\", \"data\": \"\"}",
+    "delay_from_previous_sec": 5.311
+  },
+  {
+    "timestamp": "2025-04-11T22:32:37.817000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 7.111
+  },
+  {
+    "timestamp": "2025-04-11T22:32:42.448000+00:00",
+    "action_type": "input",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 4.631
+  },
+  {
+    "timestamp": "2025-04-11T22:32:45.077000+00:00",
+    "action_type": "click",
+    "click_type": "search",
+    "category": "navigation",
+    "product": "{\"name\": \"\", \"data\": \"\"}",
+    "delay_from_previous_sec": 2.629
+  },
+  {
+    "timestamp": "2025-04-11T22:32:57.785000+00:00",
+    "action_type": "click",
+    "click_type": "search",
+    "category": "navigation",
+    "product": "{\"name\": \"search_term\", \"data\": \"{\\\"term\\\":\\\"shima",
+    "delay_from_previous_sec": 12.708
+  },
+  {
+    "timestamp": "2025-04-11T22:33:00.222000+00:00",
+    "action_type": "click",
+    "click_type": "search",
+    "category": "navigation",
+    "product": "{\"name\": \"\", \"data\": \"\"}",
+    "delay_from_previous_sec": 2.437
+  },
+  {
+    "timestamp": "2025-04-11T22:33:06.788000+00:00",
+    "action_type": "click",
+    "click_type": "product_link",
+    "category": "navigation",
+    "product": "{\"name\": \"search_results\", \"data\": \"{\\\"title\\\":\\\"G",
+    "delay_from_previous_sec": 6.566
+  }
+]

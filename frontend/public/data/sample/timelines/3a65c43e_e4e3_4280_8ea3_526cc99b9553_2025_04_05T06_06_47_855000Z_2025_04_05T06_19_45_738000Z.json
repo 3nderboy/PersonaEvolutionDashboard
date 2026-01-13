@@ -1,0 +1,698 @@
+[
+  {
+    "timestamp": "2025-04-05T06:06:47.855000+00:00",
+    "action_type": "navigation",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0
+  },
+  {
+    "timestamp": "2025-04-05T06:06:48.528000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0.673
+  },
+  {
+    "timestamp": "2025-04-05T06:06:49.513000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0.985
+  },
+  {
+    "timestamp": "2025-04-05T06:07:09.035000+00:00",
+    "action_type": "click",
+    "click_type": "nav_bar",
+    "category": "navigation",
+    "product": "{\"name\": \"\", \"data\": \"\"}",
+    "delay_from_previous_sec": 19.522
+  },
+  {
+    "timestamp": "2025-04-05T06:07:28.184000+00:00",
+    "action_type": "input",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 19.149
+  },
+  {
+    "timestamp": "2025-04-05T06:07:28.318000+00:00",
+    "action_type": "click",
+    "click_type": "suggested_term",
+    "category": "navigation",
+    "product": "{\"name\": \"\", \"data\": \"\"}",
+    "delay_from_previous_sec": 0.134
+  },
+  {
+    "timestamp": "2025-04-05T06:07:30.316000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.998
+  },
+  {
+    "timestamp": "2025-04-05T06:07:31.632000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.316
+  },
+  {
+    "timestamp": "2025-04-05T06:07:38.382000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 6.75
+  },
+  {
+    "timestamp": "2025-04-05T06:07:41.465000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 3.083
+  },
+  {
+    "timestamp": "2025-04-05T06:07:42.402000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0.937
+  },
+  {
+    "timestamp": "2025-04-05T06:07:43.243000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0.841
+  },
+  {
+    "timestamp": "2025-04-05T06:07:44.069000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0.826
+  },
+  {
+    "timestamp": "2025-04-05T06:07:45.611000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.542
+  },
+  {
+    "timestamp": "2025-04-05T06:07:47.160000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.549
+  },
+  {
+    "timestamp": "2025-04-05T06:07:49.407000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 2.247
+  },
+  {
+    "timestamp": "2025-04-05T06:07:51.749000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 2.342
+  },
+  {
+    "timestamp": "2025-04-05T06:07:52.889000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.1400000000000001
+  },
+  {
+    "timestamp": "2025-04-05T06:07:55.299000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 2.41
+  },
+  {
+    "timestamp": "2025-04-05T06:07:58.285000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 2.9859999999999998
+  },
+  {
+    "timestamp": "2025-04-05T06:07:59.791000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.506
+  },
+  {
+    "timestamp": "2025-04-05T06:08:03.145000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 3.354
+  },
+  {
+    "timestamp": "2025-04-05T06:08:04.125000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0.98
+  },
+  {
+    "timestamp": "2025-04-05T06:08:05.222000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.097
+  },
+  {
+    "timestamp": "2025-04-05T06:08:05.965000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0.743
+  },
+  {
+    "timestamp": "2025-04-05T06:08:10.753000+00:00",
+    "action_type": "click",
+    "click_type": "search",
+    "category": "navigation",
+    "product": "{\"name\": \"search_term\", \"data\": \"{\\\"term\\\":\\\"lianl",
+    "delay_from_previous_sec": 4.788
+  },
+  {
+    "timestamp": "2025-04-05T06:08:12.168000+00:00",
+    "action_type": "input",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.415
+  },
+  {
+    "timestamp": "2025-04-05T06:08:16.363000+00:00",
+    "action_type": "click",
+    "click_type": "product_link",
+    "category": "navigation",
+    "product": "{\"name\": \"\", \"data\": \"\"}",
+    "delay_from_previous_sec": 4.195
+  },
+  {
+    "timestamp": "2025-04-05T06:08:45.438000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 29.075
+  },
+  {
+    "timestamp": "2025-04-05T06:08:45.838000+00:00",
+    "action_type": "navigation",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0.4
+  },
+  {
+    "timestamp": "2025-04-05T06:08:52.460000+00:00",
+    "action_type": "navigation",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 6.622
+  },
+  {
+    "timestamp": "2025-04-05T06:08:52.657000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0.197
+  },
+  {
+    "timestamp": "2025-04-05T06:08:54.980000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 2.323
+  },
+  {
+    "timestamp": "2025-04-05T06:08:56.064000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.084
+  },
+  {
+    "timestamp": "2025-04-05T06:08:58.092000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 2.028
+  },
+  {
+    "timestamp": "2025-04-05T06:09:39.461000+00:00",
+    "action_type": "input",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 41.369
+  },
+  {
+    "timestamp": "2025-04-05T06:09:41.684000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 2.223
+  },
+  {
+    "timestamp": "2025-04-05T06:09:42.343000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0.659
+  },
+  {
+    "timestamp": "2025-04-05T06:09:42.973000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0.63
+  },
+  {
+    "timestamp": "2025-04-05T06:09:43.529000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0.556
+  },
+  {
+    "timestamp": "2025-04-05T06:09:44.119000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0.59
+  },
+  {
+    "timestamp": "2025-04-05T06:09:47.488000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 3.3689999999999998
+  },
+  {
+    "timestamp": "2025-04-05T06:09:51.584000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 4.096
+  },
+  {
+    "timestamp": "2025-04-05T06:09:53.063000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.479
+  },
+  {
+    "timestamp": "2025-04-05T06:09:55.452000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 2.3890000000000002
+  },
+  {
+    "timestamp": "2025-04-05T06:09:57.264000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.812
+  },
+  {
+    "timestamp": "2025-04-05T06:09:58.778000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.514
+  },
+  {
+    "timestamp": "2025-04-05T06:09:59.543000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0.765
+  },
+  {
+    "timestamp": "2025-04-05T06:10:00.856000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.313
+  },
+  {
+    "timestamp": "2025-04-05T06:10:03.209000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 2.3529999999999998
+  },
+  {
+    "timestamp": "2025-04-05T06:10:06.981000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 3.7720000000000002
+  },
+  {
+    "timestamp": "2025-04-05T06:10:12.835000+00:00",
+    "action_type": "click",
+    "click_type": "product_link",
+    "category": "navigation",
+    "product": "{\"name\": \"search_results\", \"data\": \"{\\\"title\\\":\\\"K",
+    "delay_from_previous_sec": 5.854
+  },
+  {
+    "timestamp": "2025-04-05T06:10:18.089000+00:00",
+    "action_type": "click",
+    "click_type": "other",
+    "category": "navigation",
+    "product": "{\"name\": \"\", \"data\": \"\"}",
+    "delay_from_previous_sec": 5.254
+  },
+  {
+    "timestamp": "2025-04-05T06:11:01.297000+00:00",
+    "action_type": "click",
+    "click_type": "quantity",
+    "category": "navigation",
+    "product": "{\"name\": \"cart_items\", \"data\": \"{\\\"title\\\":\\\"NZXT ",
+    "delay_from_previous_sec": 43.208
+  },
+  {
+    "timestamp": "2025-04-05T06:11:06.024000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 4.727
+  },
+  {
+    "timestamp": "2025-04-05T06:11:07.481000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.457
+  },
+  {
+    "timestamp": "2025-04-05T06:11:18.302000+00:00",
+    "action_type": "click",
+    "click_type": "product_option",
+    "category": "navigation",
+    "product": "{\"name\": \"product_options\", \"data\": \"{\\\"Color\\\":\\\"",
+    "delay_from_previous_sec": 10.821
+  },
+  {
+    "timestamp": "2025-04-05T06:11:46.999000+00:00",
+    "action_type": "click",
+    "click_type": "product_option",
+    "category": "navigation",
+    "product": "{\"name\": \"product_options\", \"data\": \"{\\\"Color\\\":\\\"",
+    "delay_from_previous_sec": 28.697
+  },
+  {
+    "timestamp": "2025-04-05T06:13:19.860000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 92.861
+  },
+  {
+    "timestamp": "2025-04-05T06:13:21.531000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.671
+  },
+  {
+    "timestamp": "2025-04-05T06:13:23.777000+00:00",
+    "action_type": "click",
+    "click_type": "cart_side_bar",
+    "category": "navigation",
+    "product": "{\"name\": \"cart_items\", \"data\": \"{\\\"title\\\":\\\"ARCTI",
+    "delay_from_previous_sec": 2.246
+  },
+  {
+    "timestamp": "2025-04-05T06:16:27.554000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 183.777
+  },
+  {
+    "timestamp": "2025-04-05T06:16:29.740000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 2.186
+  },
+  {
+    "timestamp": "2025-04-05T06:16:44.017000+00:00",
+    "action_type": "tab_activate",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 14.277
+  },
+  {
+    "timestamp": "2025-04-05T06:17:43.033000+00:00",
+    "action_type": "tab_activate",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 59.016
+  },
+  {
+    "timestamp": "2025-04-05T06:17:53.303000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 10.27
+  },
+  {
+    "timestamp": "2025-04-05T06:17:56.539000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 3.2359999999999998
+  },
+  {
+    "timestamp": "2025-04-05T06:18:09.540000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 13.001
+  },
+  {
+    "timestamp": "2025-04-05T06:18:11.367000+00:00",
+    "action_type": "click",
+    "click_type": "search",
+    "category": "navigation",
+    "product": "{\"name\": \"search_term\", \"data\": \"{\\\"term\\\":\\\"\\\"}\"}",
+    "delay_from_previous_sec": 1.827
+  },
+  {
+    "timestamp": "2025-04-05T06:18:18.015000+00:00",
+    "action_type": "click",
+    "click_type": "search",
+    "category": "navigation",
+    "product": "{\"name\": \"\", \"data\": \"\"}",
+    "delay_from_previous_sec": 6.648
+  },
+  {
+    "timestamp": "2025-04-05T06:18:20.226000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 2.211
+  },
+  {
+    "timestamp": "2025-04-05T06:18:31.785000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 11.559
+  },
+  {
+    "timestamp": "2025-04-05T06:18:52.276000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 20.491
+  },
+  {
+    "timestamp": "2025-04-05T06:18:54.498000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 2.222
+  },
+  {
+    "timestamp": "2025-04-05T06:19:04.031000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 9.533
+  },
+  {
+    "timestamp": "2025-04-05T06:19:06.422000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 2.391
+  },
+  {
+    "timestamp": "2025-04-05T06:19:08.373000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.951
+  },
+  {
+    "timestamp": "2025-04-05T06:19:09.174000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0.801
+  },
+  {
+    "timestamp": "2025-04-05T06:19:09.991000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0.817
+  },
+  {
+    "timestamp": "2025-04-05T06:19:11.470000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.479
+  },
+  {
+    "timestamp": "2025-04-05T06:19:12.394000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0.924
+  },
+  {
+    "timestamp": "2025-04-05T06:19:12.900000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0.506
+  },
+  {
+    "timestamp": "2025-04-05T06:19:24.559000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 11.659
+  },
+  {
+    "timestamp": "2025-04-05T06:19:29.301000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 4.742
+  },
+  {
+    "timestamp": "2025-04-05T06:19:29.825000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0.524
+  },
+  {
+    "timestamp": "2025-04-05T06:19:43.978000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 14.153
+  },
+  {
+    "timestamp": "2025-04-05T06:19:45.738000+00:00",
+    "action_type": "click",
+    "click_type": "purchase",
+    "category": "conversion",
+    "product": "{\"name\": \"\", \"data\": \"\"}",
+    "delay_from_previous_sec": 1.76
+  }
+]

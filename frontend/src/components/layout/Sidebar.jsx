@@ -1,84 +1,52 @@
-import React from "react";
-import { CalendarIcon, TargetIcon, LayersIcon } from "../icons/Icons.jsx";
+import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 
-// Sidebar Component
-const Sidebar = ({ timeWindow, setTimeWindow, method, setMethod }) => {
+const Sidebar = () => {
+  const [sampleMode, setSampleMode] = useState(true);
+
   return (
-    <aside className="w-64 border-r border-slate-800 bg-slate-900 p-4 flex flex-col gap-6 rounded-r-xl shadow-2xl h-screen sticky top-0">
-      <div>
-        <h1 className="text-xl font-extrabold tracking-tight text-sky-400">
-          Persona Evolution Dashboard (DEMO)
-        </h1>
-        <p className="mt-1 text-xs text-slate-400">
-          Demo-dashboard for cluster & persona evolution.
-        </p>
+    <div className="w-64 bg-slate-900 border-r border-slate-800 flex flex-col fixed inset-y-0 pb-10">
+      {/* Logo */}
+      <div className="h-16 flex items-center px-6 border-b border-slate-800">
+        <div className="w-8 h-8 bg-sky-500 rounded-lg flex items-center justify-center mr-3 shadow-lg shadow-sky-500/20">
+          <span className="text-white font-bold text-lg">O</span>
+        </div>
+        <span className="text-white font-bold text-lg tracking-tight">OPeRA</span>
       </div>
 
-      <div className="space-y-6">
-        {/* 1. Time Window: */}
-        <div>
-          <h2 className="text-xs font-semibold uppercase tracking-wider text-slate-400 mb-3 flex items-center gap-2">
-            <CalendarIcon className="text-sky-400" /> Timestamp
-          </h2>
-          <div className="flex flex-col gap-3">
-            {["2025-01", "2025-07"].map((tw) => (
-              <button
-                key={tw}
-                onClick={() => setTimeWindow(tw)}
-                className={`flex flex-col p-3 rounded-xl border transition duration-200 shadow-lg text-left
-                  ${
-                    timeWindow === tw
-                      ? "border-sky-500 bg-sky-500/20 ring-4 ring-sky-500/20"
-                      : "border-slate-700 hover:border-sky-500/40 bg-slate-800 hover:bg-slate-700/80"
-                  }`}
-              >
-                <span className={`text-sm font-semibold ${timeWindow === tw ? "text-sky-100" : "text-slate-300"}`}>
-                  {tw === "2025-01" ? "Initial Status (January)" : "Status After Changes (July)"}
-                </span>
-                <span className={`text-xs mt-1 ${timeWindow === tw ? "text-sky-300" : "text-slate-400"}`}>
-                  {tw} – {tw === "2025-01" ? "Baseline" : "Evaluation"}
-                </span>
-              </button>
-            ))}
-          </div>
-        </div>
+      {/* Navigation */}
+      <nav className="flex-1 px-4 py-8 space-y-2">
+        <NavLink to="/" className={({ isActive }) => `flex items-center px-4 py-3 rounded-xl transition-all duration-200 group ${isActive ? 'bg-sky-500 text-white shadow-lg shadow-sky-500/25' : 'text-slate-400 hover:bg-slate-800 hover:text-white'}`}>
+          <span className="text-xl mr-3">📊</span>
+          <span className="font-medium">Overview</span>
+        </NavLink>
 
-        {/* 2. Clustering Method: */}
-        <div>
-          <h2 className="text-xs font-semibold uppercase tracking-wider text-slate-400 mb-3 flex items-center gap-2">
-            <TargetIcon className="text-sky-400" /> Clustering Method
-          </h2>
-          <div className="mt-3 flex gap-2">
-            <button
-              onClick={() => setMethod("kmeans")}
-              className={`flex-1 text-sm px-3 py-2 rounded-xl border transition duration-200 shadow-md flex items-center justify-center gap-2
-                ${
-                  method === "kmeans"
-                    ? "border-sky-500 bg-sky-500/20 text-sky-100 font-medium ring-2 ring-sky-500/20"
-                    : "border-slate-700 hover:border-sky-500/40 bg-slate-800 text-slate-300 hover:bg-slate-700/80"
-                }`}
-            >
-              <LayersIcon /> K-Means
-            </button>
-            <button
-              onClick={() => setMethod("dbscan")}
-              className={`flex-1 text-sm px-3 py-2 rounded-xl border transition duration-200 shadow-md flex items-center justify-center gap-2
-                ${
-                  method === "dbscan"
-                    ? "border-sky-500 bg-sky-500/20 text-sky-100 font-medium ring-2 ring-sky-500/20"
-                    : "border-slate-700 hover:border-sky-500/40 bg-slate-800 text-slate-300 hover:bg-slate-700/80"
-                }`}
-            >
-              <TargetIcon /> DBSCAN
-            </button>
+        <NavLink to="/users" className={({ isActive }) => `flex items-center px-4 py-3 rounded-xl transition-all duration-200 group ${isActive ? 'bg-sky-500 text-white shadow-lg shadow-sky-500/25' : 'text-slate-400 hover:bg-slate-800 hover:text-white'}`}>
+          <span className="text-xl mr-3">👥</span>
+          <span className="font-medium">Users</span>
+        </NavLink>
+
+        <NavLink to="/sessions" className={({ isActive }) => `flex items-center px-4 py-3 rounded-xl transition-all duration-200 group ${isActive ? 'bg-sky-500 text-white shadow-lg shadow-sky-500/25' : 'text-slate-400 hover:bg-slate-800 hover:text-white'}`}>
+          <span className="text-xl mr-3">⏱️</span>
+          <span className="font-medium">Sessions</span>
+        </NavLink>
+      </nav>
+
+      {/* Mode Toggle */}
+      <div className="px-6 mt-auto">
+        <div className="bg-slate-800 rounded-xl p-4 border border-slate-700/50">
+          <div className="flex items-center justify-between mb-3 text-sm">
+            <span className="text-slate-400">Data Mode</span>
+            <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-green-500/20 text-green-400">
+              {sampleMode ? 'Sample' : 'Full'}
+            </span>
+          </div>
+          <div className="text-[10px] text-slate-500 leading-tight">
+            Using curated sample set (25 users) for GitHub Pages compatibility.
           </div>
         </div>
       </div>
-
-      <div className="mt-auto text-[10px] text-slate-500 pt-4 border-t border-slate-800">
-        IP5 – Data-Driven Persona Development
-      </div>
-    </aside>
+    </div>
   );
 };
 

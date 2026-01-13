@@ -1,0 +1,2182 @@
+[
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_03T00_18_19_896000Z_2025_04_03T00_22_04_407000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_03T00_18_19_896000Z_2025_04_03T00_22_04_407000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-03T00:18:19.896000+00:00",
+    "duration_sec": 224,
+    "action_count": 60,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_03T00_24_54_274000Z_2025_04_03T00_27_06_753000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_03T00_24_54_274000Z_2025_04_03T00_27_06_753000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-03T00:24:54.274000+00:00",
+    "duration_sec": 132,
+    "action_count": 29,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_03T01_12_51_432000Z_2025_04_03T01_44_19_704000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_03T01_12_51_432000Z_2025_04_03T01_44_19_704000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-03T01:12:51.432000+00:00",
+    "duration_sec": 20,
+    "action_count": 3,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_05T02_16_00_270000Z_2025_04_05T02_19_24_135000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_05T02_16_00_270000Z_2025_04_05T02_19_24_135000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-05T02:16:00.270000+00:00",
+    "duration_sec": 203,
+    "action_count": 55,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_05T02_19_28_993000Z_2025_04_05T02_24_47_508000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_05T02_19_28_993000Z_2025_04_05T02_24_47_508000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-05T02:19:28.993000+00:00",
+    "duration_sec": 318,
+    "action_count": 36,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_05T02_24_48_690000Z_2025_04_05T02_29_21_699000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_05T02_24_48_690000Z_2025_04_05T02_29_21_699000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-05T02:24:48.690000+00:00",
+    "duration_sec": 273,
+    "action_count": 77,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_05T04_43_45_894000Z_2025_04_05T05_16_54_023000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_05T04_43_45_894000Z_2025_04_05T05_16_54_023000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-05T04:43:45.894000+00:00",
+    "duration_sec": 1988,
+    "action_count": 326,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_05T05_16_55_252000Z_2025_04_05T05_18_40_079000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_05T05_16_55_252000Z_2025_04_05T05_18_40_079000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-05T05:16:55.252000+00:00",
+    "duration_sec": 104,
+    "action_count": 27,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_05T05_18_41_272000Z_2025_04_05T06_06_42_461000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_05T05_18_41_272000Z_2025_04_05T06_06_42_461000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-05T05:18:41.272000+00:00",
+    "duration_sec": 2881,
+    "action_count": 81,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_05T06_06_47_855000Z_2025_04_05T06_19_45_738000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_05T06_06_47_855000Z_2025_04_05T06_19_45_738000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-05T06:06:47.855000+00:00",
+    "duration_sec": 777,
+    "action_count": 87,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_05T06_19_48_950000Z_2025_04_05T06_35_26_760000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_05T06_19_48_950000Z_2025_04_05T06_35_26_760000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-05T06:19:48.950000+00:00",
+    "duration_sec": 937,
+    "action_count": 86,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_05T15_53_35_622000Z_2025_04_05T15_58_31_545000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_05T15_53_35_622000Z_2025_04_05T15_58_31_545000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-05T15:53:37.270000+00:00",
+    "duration_sec": 294,
+    "action_count": 115,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_06T01_15_31_552000Z_2025_04_06T01_17_24_129000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_06T01_15_31_552000Z_2025_04_06T01_17_24_129000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-06T01:15:31.552000+00:00",
+    "duration_sec": 112,
+    "action_count": 51,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_06T04_19_03_143000Z_2025_04_06T04_21_13_655000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_06T04_19_03_143000Z_2025_04_06T04_21_13_655000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-06T04:19:03.143000+00:00",
+    "duration_sec": 130,
+    "action_count": 41,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_06T04_21_17_629000Z_2025_04_06T04_41_24_014000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_06T04_21_17_629000Z_2025_04_06T04_41_24_014000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-06T04:21:17.629000+00:00",
+    "duration_sec": 1206,
+    "action_count": 82,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_06T04_42_20_110000Z_2025_04_06T04_42_50_228000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_06T04_42_20_110000Z_2025_04_06T04_42_50_228000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-06T04:42:20.110000+00:00",
+    "duration_sec": 30,
+    "action_count": 8,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_06T18_56_18_613000Z_2025_04_06T18_58_39_213000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_06T18_56_18_613000Z_2025_04_06T18_58_39_213000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-06T18:56:18.613000+00:00",
+    "duration_sec": 140,
+    "action_count": 29,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_06T19_57_50_366000Z_2025_04_06T20_39_41_282000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_06T19_57_50_366000Z_2025_04_06T20_39_41_282000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-06T19:57:50.366000+00:00",
+    "duration_sec": 2502,
+    "action_count": 352,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_07T00_29_59_985000Z_2025_04_07T00_37_05_824000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_07T00_29_59_985000Z_2025_04_07T00_37_05_824000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-07T00:29:59.985000+00:00",
+    "duration_sec": 425,
+    "action_count": 69,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_07T04_28_29_329000Z_2025_04_07T04_28_35_286000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_07T04_28_29_329000Z_2025_04_07T04_28_35_286000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-07T04:28:29.329000+00:00",
+    "duration_sec": 5,
+    "action_count": 7,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_08T00_57_33_612000Z_2025_04_08T02_19_08_786000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_08T00_57_33_612000Z_2025_04_08T02_19_08_786000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-08T00:57:34.612000+00:00",
+    "duration_sec": 4894,
+    "action_count": 94,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_08T02_19_13_119000Z_2025_04_08T02_38_04_254000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_08T02_19_13_119000Z_2025_04_08T02_38_04_254000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-08T02:19:13.119000+00:00",
+    "duration_sec": 1131,
+    "action_count": 152,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_08T07_02_28_441000Z_2025_04_08T07_03_19_000000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_08T07_02_28_441000Z_2025_04_08T07_03_19_000000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-08T07:02:28.441000+00:00",
+    "duration_sec": 50,
+    "action_count": 18,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_10T19_30_21_425000Z_2025_04_10T19_33_12_574000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_10T19_30_21_425000Z_2025_04_10T19_33_12_574000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-10T19:30:21.425000+00:00",
+    "duration_sec": 171,
+    "action_count": 39,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_10T19_34_33_710000Z_2025_04_10T20_15_15_031000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_10T19_34_33_710000Z_2025_04_10T20_15_15_031000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-10T19:34:33.710000+00:00",
+    "duration_sec": 2441,
+    "action_count": 248,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_11T03_55_24_210000Z_2025_04_11T05_54_34_290000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_11T03_55_24_210000Z_2025_04_11T05_54_34_290000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-11T03:55:24.210000+00:00",
+    "duration_sec": 7150,
+    "action_count": 111,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_14T05_04_55_881000Z_2025_04_14T05_16_22_264000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_14T05_04_55_881000Z_2025_04_14T05_16_22_264000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-14T05:04:55.881000+00:00",
+    "duration_sec": 686,
+    "action_count": 139,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_14T05_18_54_314000Z_2025_04_14T07_08_42_512000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_14T05_18_54_314000Z_2025_04_14T07_08_42_512000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-14T05:20:21.741000+00:00",
+    "duration_sec": 6500,
+    "action_count": 286,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_15T18_30_23_495000Z_2025_04_15T18_33_00_598000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_15T18_30_23_495000Z_2025_04_15T18_33_00_598000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-15T18:30:23.495000+00:00",
+    "duration_sec": 157,
+    "action_count": 70,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_15T18_33_02_062000Z_2025_04_15T18_33_24_472000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_15T18_33_02_062000Z_2025_04_15T18_33_24_472000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-15T18:33:02.062000+00:00",
+    "duration_sec": 22,
+    "action_count": 7,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_16T04_37_16_119000Z_2025_04_16T04_37_29_110000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_16T04_37_16_119000Z_2025_04_16T04_37_29_110000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-16T04:37:16.119000+00:00",
+    "duration_sec": 12,
+    "action_count": 5,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_16T17_12_26_099000Z_2025_04_16T18_06_47_920000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_16T17_12_26_099000Z_2025_04_16T18_06_47_920000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-16T17:12:26.099000+00:00",
+    "duration_sec": 3261,
+    "action_count": 253,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_18T03_36_23_154000Z_2025_04_18T03_36_47_859000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_18T03_36_23_154000Z_2025_04_18T03_36_47_859000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-18T03:36:23.154000+00:00",
+    "duration_sec": 24,
+    "action_count": 16,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_20T05_39_25_963000Z_2025_04_20T05_39_42_597000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_20T05_39_25_963000Z_2025_04_20T05_39_42_597000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-20T05:39:25.963000+00:00",
+    "duration_sec": 16,
+    "action_count": 15,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_21T07_29_29_239000Z_2025_04_21T07_41_40_678000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_21T07_29_29_239000Z_2025_04_21T07_41_40_678000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-21T07:29:29.239000+00:00",
+    "duration_sec": 731,
+    "action_count": 251,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_21T17_18_05_345000Z_2025_04_21T17_18_40_848000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_21T17_18_05_345000Z_2025_04_21T17_18_40_848000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-21T17:18:05.345000+00:00",
+    "duration_sec": 35,
+    "action_count": 12,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_21T17_18_45_887000Z_2025_04_21T17_28_49_828000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_21T17_18_45_887000Z_2025_04_21T17_28_49_828000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-21T17:18:45.887000+00:00",
+    "duration_sec": 603,
+    "action_count": 133,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_21T17_28_51_787000Z_2025_04_21T17_31_23_911000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_21T17_28_51_787000Z_2025_04_21T17_31_23_911000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-21T17:28:51.787000+00:00",
+    "duration_sec": 152,
+    "action_count": 34,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_21T17_31_25_771000Z_2025_04_21T17_50_44_976000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_21T17_31_25_771000Z_2025_04_21T17_50_44_976000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-21T17:31:31.756000+00:00",
+    "duration_sec": 1153,
+    "action_count": 57,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_21T17_50_46_681000Z_2025_04_21T19_01_11_580000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_21T17_50_46_681000Z_2025_04_21T19_01_11_580000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-21T17:50:46.681000+00:00",
+    "duration_sec": 4224,
+    "action_count": 284,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_21T20_35_04_289000Z_2025_04_21T20_43_26_657000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_21T20_35_04_289000Z_2025_04_21T20_43_26_657000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-21T20:35:04.289000+00:00",
+    "duration_sec": 502,
+    "action_count": 80,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_22T01_36_56_039000Z_2025_04_22T01_40_56_253000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_22T01_36_56_039000Z_2025_04_22T01_40_56_253000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-22T01:36:56.039000+00:00",
+    "duration_sec": 235,
+    "action_count": 68,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_22T03_10_34_886000Z_2025_04_22T03_18_24_905000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_22T03_10_34_886000Z_2025_04_22T03_18_24_905000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-22T03:10:34.886000+00:00",
+    "duration_sec": 470,
+    "action_count": 118,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_22T05_27_13_266000Z_2025_04_22T05_27_54_261000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_22T05_27_13_266000Z_2025_04_22T05_27_54_261000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-22T05:27:13.266000+00:00",
+    "duration_sec": 40,
+    "action_count": 12,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_23T01_36_57_055000Z_2025_04_23T01_50_04_610000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_23T01_36_57_055000Z_2025_04_23T01_50_04_610000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-23T01:36:57.055000+00:00",
+    "duration_sec": 787,
+    "action_count": 103,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_23T03_35_46_326000Z_2025_04_23T03_38_54_119000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_23T03_35_46_326000Z_2025_04_23T03_38_54_119000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-23T03:35:46.326000+00:00",
+    "duration_sec": 187,
+    "action_count": 101,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_23T22_47_19_908000Z_2025_04_23T23_19_05_985000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_23T22_47_19_908000Z_2025_04_23T23_19_05_985000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-23T22:47:19.908000+00:00",
+    "duration_sec": 1906,
+    "action_count": 260,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_24T00_49_08_269000Z_2025_04_24T00_49_43_014000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_24T00_49_08_269000Z_2025_04_24T00_49_43_014000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-24T00:49:08.269000+00:00",
+    "duration_sec": 34,
+    "action_count": 12,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_24T00_49_44_522000Z_2025_04_24T00_49_56_545000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_24T00_49_44_522000Z_2025_04_24T00_49_56_545000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-24T00:49:44.522000+00:00",
+    "duration_sec": 12,
+    "action_count": 5,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_24T00_49_58_698000Z_2025_04_24T00_50_22_678000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_24T00_49_58_698000Z_2025_04_24T00_50_22_678000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-24T00:49:58.698000+00:00",
+    "duration_sec": 23,
+    "action_count": 8,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_24T00_50_24_075000Z_2025_04_24T00_50_54_598000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_24T00_50_24_075000Z_2025_04_24T00_50_54_598000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-24T00:50:24.075000+00:00",
+    "duration_sec": 30,
+    "action_count": 5,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_24T00_51_31_476000Z_2025_04_24T00_51_50_353000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_24T00_51_31_476000Z_2025_04_24T00_51_50_353000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-24T00:51:31.476000+00:00",
+    "duration_sec": 18,
+    "action_count": 7,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_24T00_52_08_458000Z_2025_04_24T00_52_20_757000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_04_24T00_52_08_458000Z_2025_04_24T00_52_20_757000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-04-24T00:52:08.458000+00:00",
+    "duration_sec": 12,
+    "action_count": 6,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_05_02T20_43_29_472000Z_2025_05_02T20_46_03_030000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_05_02T20_43_29_472000Z_2025_05_02T20_46_03_030000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-05-02T20:43:29.472000+00:00",
+    "duration_sec": 149,
+    "action_count": 15,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_05_03T01_40_49_179000Z_2025_05_03T01_41_26_104000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_05_03T01_40_49_179000Z_2025_05_03T01_41_26_104000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-05-03T01:41:19.112000+00:00",
+    "duration_sec": 6,
+    "action_count": 4,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_05_04T00_50_27_762000Z_2025_05_04T01_32_44_178000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_05_04T00_50_27_762000Z_2025_05_04T01_32_44_178000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-05-04T00:50:27.762000+00:00",
+    "duration_sec": 2536,
+    "action_count": 6,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_05_05T19_00_47_057000Z_2025_05_05T19_13_24_469000Z",
+    "safe_id": "3a65c43e_e4e3_4280_8ea3_526cc99b9553_2025_05_05T19_00_47_057000Z_2025_05_05T19_13_24_469000Z",
+    "user_id": "3a65c43e",
+    "start_ts": "2025-05-05T19:00:47.057000+00:00",
+    "duration_sec": 757,
+    "action_count": 168,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "4363ae6f_d1a1_4790_abe3_ffab842ac201_2025_04_08T21_23_19_808000Z_2025_04_08T21_28_11_305000Z",
+    "safe_id": "4363ae6f_d1a1_4790_abe3_ffab842ac201_2025_04_08T21_23_19_808000Z_2025_04_08T21_28_11_305000Z",
+    "user_id": "4363ae6f",
+    "start_ts": "2025-04-08T21:23:19.808000+00:00",
+    "duration_sec": 291,
+    "action_count": 28,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "4363ae6f_d1a1_4790_abe3_ffab842ac201_2025_04_08T21_28_12_340000Z_2025_04_08T21_37_00_260000Z",
+    "safe_id": "4363ae6f_d1a1_4790_abe3_ffab842ac201_2025_04_08T21_28_12_340000Z_2025_04_08T21_37_00_260000Z",
+    "user_id": "4363ae6f",
+    "start_ts": "2025-04-08T21:28:12.340000+00:00",
+    "duration_sec": 527,
+    "action_count": 84,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "4363ae6f_d1a1_4790_abe3_ffab842ac201_2025_04_08T21_37_16_517000Z_2025_04_08T21_49_55_124000Z",
+    "safe_id": "4363ae6f_d1a1_4790_abe3_ffab842ac201_2025_04_08T21_37_16_517000Z_2025_04_08T21_49_55_124000Z",
+    "user_id": "4363ae6f",
+    "start_ts": "2025-04-08T21:37:16.517000+00:00",
+    "duration_sec": 758,
+    "action_count": 115,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "4363ae6f_d1a1_4790_abe3_ffab842ac201_2025_04_08T21_49_56_387000Z_2025_04_08T21_50_16_934000Z",
+    "safe_id": "4363ae6f_d1a1_4790_abe3_ffab842ac201_2025_04_08T21_49_56_387000Z_2025_04_08T21_50_16_934000Z",
+    "user_id": "4363ae6f",
+    "start_ts": "2025-04-08T21:49:56.387000+00:00",
+    "duration_sec": 20,
+    "action_count": 5,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "4363ae6f_d1a1_4790_abe3_ffab842ac201_2025_04_08T21_51_08_463000Z_2025_04_08T21_52_54_494000Z",
+    "safe_id": "4363ae6f_d1a1_4790_abe3_ffab842ac201_2025_04_08T21_51_08_463000Z_2025_04_08T21_52_54_494000Z",
+    "user_id": "4363ae6f",
+    "start_ts": "2025-04-08T21:51:08.463000+00:00",
+    "duration_sec": 106,
+    "action_count": 12,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "4363ae6f_d1a1_4790_abe3_ffab842ac201_2025_04_08T21_52_56_418000Z_2025_04_08T22_10_44_964000Z",
+    "safe_id": "4363ae6f_d1a1_4790_abe3_ffab842ac201_2025_04_08T21_52_56_418000Z_2025_04_08T22_10_44_964000Z",
+    "user_id": "4363ae6f",
+    "start_ts": "2025-04-08T21:52:56.418000+00:00",
+    "duration_sec": 1068,
+    "action_count": 85,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "4363ae6f_d1a1_4790_abe3_ffab842ac201_2025_04_08T22_10_47_087000Z_2025_04_08T22_13_41_715000Z",
+    "safe_id": "4363ae6f_d1a1_4790_abe3_ffab842ac201_2025_04_08T22_10_47_087000Z_2025_04_08T22_13_41_715000Z",
+    "user_id": "4363ae6f",
+    "start_ts": "2025-04-08T22:10:47.087000+00:00",
+    "duration_sec": 174,
+    "action_count": 42,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "4363ae6f_d1a1_4790_abe3_ffab842ac201_2025_04_08T22_13_43_483000Z_2025_04_08T22_26_38_608000Z",
+    "safe_id": "4363ae6f_d1a1_4790_abe3_ffab842ac201_2025_04_08T22_13_43_483000Z_2025_04_08T22_26_38_608000Z",
+    "user_id": "4363ae6f",
+    "start_ts": "2025-04-08T22:13:43.483000+00:00",
+    "duration_sec": 775,
+    "action_count": 120,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "4363ae6f_d1a1_4790_abe3_ffab842ac201_2025_04_08T22_26_43_593000Z_2025_04_08T22_44_49_910000Z",
+    "safe_id": "4363ae6f_d1a1_4790_abe3_ffab842ac201_2025_04_08T22_26_43_593000Z_2025_04_08T22_44_49_910000Z",
+    "user_id": "4363ae6f",
+    "start_ts": "2025-04-08T22:26:43.593000+00:00",
+    "duration_sec": 1086,
+    "action_count": 253,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "4363ae6f_d1a1_4790_abe3_ffab842ac201_2025_04_08T22_44_51_299000Z_2025_04_08T22_45_20_262000Z",
+    "safe_id": "4363ae6f_d1a1_4790_abe3_ffab842ac201_2025_04_08T22_44_51_299000Z_2025_04_08T22_45_20_262000Z",
+    "user_id": "4363ae6f",
+    "start_ts": "2025-04-08T22:44:51.299000+00:00",
+    "duration_sec": 28,
+    "action_count": 9,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "4363ae6f_d1a1_4790_abe3_ffab842ac201_2025_04_08T22_45_22_574000Z_2025_04_08T23_04_00_958000Z",
+    "safe_id": "4363ae6f_d1a1_4790_abe3_ffab842ac201_2025_04_08T22_45_22_574000Z_2025_04_08T23_04_00_958000Z",
+    "user_id": "4363ae6f",
+    "start_ts": "2025-04-08T22:45:22.574000+00:00",
+    "duration_sec": 1118,
+    "action_count": 350,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "4363ae6f_d1a1_4790_abe3_ffab842ac201_2025_04_08T23_04_07_171000Z_2025_04_08T23_08_29_618000Z",
+    "safe_id": "4363ae6f_d1a1_4790_abe3_ffab842ac201_2025_04_08T23_04_07_171000Z_2025_04_08T23_08_29_618000Z",
+    "user_id": "4363ae6f",
+    "start_ts": "2025-04-08T23:04:07.171000+00:00",
+    "duration_sec": 262,
+    "action_count": 40,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "4363ae6f_d1a1_4790_abe3_ffab842ac201_2025_04_08T23_08_31_391000Z_2025_04_09T02_03_30_705000Z",
+    "safe_id": "4363ae6f_d1a1_4790_abe3_ffab842ac201_2025_04_08T23_08_31_391000Z_2025_04_09T02_03_30_705000Z",
+    "user_id": "4363ae6f",
+    "start_ts": "2025-04-08T23:08:31.391000+00:00",
+    "duration_sec": 10499,
+    "action_count": 122,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "4363ae6f_d1a1_4790_abe3_ffab842ac201_2025_04_09T02_03_33_871000Z_2025_04_09T02_13_27_014000Z",
+    "safe_id": "4363ae6f_d1a1_4790_abe3_ffab842ac201_2025_04_09T02_03_33_871000Z_2025_04_09T02_13_27_014000Z",
+    "user_id": "4363ae6f",
+    "start_ts": "2025-04-09T02:03:33.871000+00:00",
+    "duration_sec": 593,
+    "action_count": 103,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "4363ae6f_d1a1_4790_abe3_ffab842ac201_2025_04_09T02_13_28_998000Z_2025_04_09T02_15_08_715000Z",
+    "safe_id": "4363ae6f_d1a1_4790_abe3_ffab842ac201_2025_04_09T02_13_28_998000Z_2025_04_09T02_15_08_715000Z",
+    "user_id": "4363ae6f",
+    "start_ts": "2025-04-09T02:13:28.998000+00:00",
+    "duration_sec": 99,
+    "action_count": 32,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "4363ae6f_d1a1_4790_abe3_ffab842ac201_2025_04_09T02_15_10_159000Z_2025_04_09T02_19_39_790000Z",
+    "safe_id": "4363ae6f_d1a1_4790_abe3_ffab842ac201_2025_04_09T02_15_10_159000Z_2025_04_09T02_19_39_790000Z",
+    "user_id": "4363ae6f",
+    "start_ts": "2025-04-09T02:15:10.159000+00:00",
+    "duration_sec": 269,
+    "action_count": 22,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "4363ae6f_d1a1_4790_abe3_ffab842ac201_2025_04_09T02_21_05_745000Z_2025_04_09T03_20_22_644000Z",
+    "safe_id": "4363ae6f_d1a1_4790_abe3_ffab842ac201_2025_04_09T02_21_05_745000Z_2025_04_09T03_20_22_644000Z",
+    "user_id": "4363ae6f",
+    "start_ts": "2025-04-09T02:21:05.745000+00:00",
+    "duration_sec": 3556,
+    "action_count": 49,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "4363ae6f_d1a1_4790_abe3_ffab842ac201_2025_05_04T22_14_32_699000Z_2025_05_04T22_31_37_369000Z",
+    "safe_id": "4363ae6f_d1a1_4790_abe3_ffab842ac201_2025_05_04T22_14_32_699000Z_2025_05_04T22_31_37_369000Z",
+    "user_id": "4363ae6f",
+    "start_ts": "2025-05-04T22:14:32.699000+00:00",
+    "duration_sec": 1024,
+    "action_count": 14,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "4363ae6f_d1a1_4790_abe3_ffab842ac201_2025_05_07T20_15_03_079000Z_2025_05_07T20_20_02_262000Z",
+    "safe_id": "4363ae6f_d1a1_4790_abe3_ffab842ac201_2025_05_07T20_15_03_079000Z_2025_05_07T20_20_02_262000Z",
+    "user_id": "4363ae6f",
+    "start_ts": "2025-05-07T20:15:08.430000+00:00",
+    "duration_sec": 293,
+    "action_count": 17,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_04_05T12_18_05_917000Z_2025_04_05T14_03_52_457000Z",
+    "safe_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_04_05T12_18_05_917000Z_2025_04_05T14_03_52_457000Z",
+    "user_id": "dd4fa2e8",
+    "start_ts": "2025-04-05T12:18:05.917000+00:00",
+    "duration_sec": 6346,
+    "action_count": 61,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_04_05T14_03_53_758000Z_2025_04_05T14_22_19_296000Z",
+    "safe_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_04_05T14_03_53_758000Z_2025_04_05T14_22_19_296000Z",
+    "user_id": "dd4fa2e8",
+    "start_ts": "2025-04-05T14:03:53.758000+00:00",
+    "duration_sec": 1105,
+    "action_count": 52,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_04_07T16_06_01_170000Z_2025_04_07T16_08_47_041000Z",
+    "safe_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_04_07T16_06_01_170000Z_2025_04_07T16_08_47_041000Z",
+    "user_id": "dd4fa2e8",
+    "start_ts": "2025-04-07T16:06:01.170000+00:00",
+    "duration_sec": 165,
+    "action_count": 10,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_04_07T16_08_48_929000Z_2025_04_07T16_23_07_364000Z",
+    "safe_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_04_07T16_08_48_929000Z_2025_04_07T16_23_07_364000Z",
+    "user_id": "dd4fa2e8",
+    "start_ts": "2025-04-07T16:08:48.929000+00:00",
+    "duration_sec": 858,
+    "action_count": 26,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_04_11T19_52_01_472000Z_2025_04_11T19_56_27_855000Z",
+    "safe_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_04_11T19_52_01_472000Z_2025_04_11T19_56_27_855000Z",
+    "user_id": "dd4fa2e8",
+    "start_ts": "2025-04-11T19:55:19.172000+00:00",
+    "duration_sec": 68,
+    "action_count": 4,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_04_12T13_24_37_001000Z_2025_04_12T13_39_53_157000Z",
+    "safe_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_04_12T13_24_37_001000Z_2025_04_12T13_39_53_157000Z",
+    "user_id": "dd4fa2e8",
+    "start_ts": "2025-04-12T13:24:37.001000+00:00",
+    "duration_sec": 916,
+    "action_count": 22,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_04_12T17_45_15_388000Z_2025_04_12T21_14_34_232000Z",
+    "safe_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_04_12T17_45_15_388000Z_2025_04_12T21_14_34_232000Z",
+    "user_id": "dd4fa2e8",
+    "start_ts": "2025-04-12T17:45:22.740000+00:00",
+    "duration_sec": 12551,
+    "action_count": 64,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_04_12T21_14_39_211000Z_2025_04_12T21_18_52_172000Z",
+    "safe_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_04_12T21_14_39_211000Z_2025_04_12T21_18_52_172000Z",
+    "user_id": "dd4fa2e8",
+    "start_ts": "2025-04-12T21:14:39.211000+00:00",
+    "duration_sec": 252,
+    "action_count": 13,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_04_12T21_18_56_893000Z_2025_04_12T21_33_33_585000Z",
+    "safe_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_04_12T21_18_56_893000Z_2025_04_12T21_33_33_585000Z",
+    "user_id": "dd4fa2e8",
+    "start_ts": "2025-04-12T21:18:56.893000+00:00",
+    "duration_sec": 876,
+    "action_count": 57,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_04_12T21_33_37_510000Z_2025_04_12T21_40_25_525000Z",
+    "safe_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_04_12T21_33_37_510000Z_2025_04_12T21_40_25_525000Z",
+    "user_id": "dd4fa2e8",
+    "start_ts": "2025-04-12T21:33:37.510000+00:00",
+    "duration_sec": 408,
+    "action_count": 33,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_04_12T21_40_31_372000Z_2025_04_12T21_59_35_810000Z",
+    "safe_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_04_12T21_40_31_372000Z_2025_04_12T21_59_35_810000Z",
+    "user_id": "dd4fa2e8",
+    "start_ts": "2025-04-12T21:40:31.372000+00:00",
+    "duration_sec": 1144,
+    "action_count": 82,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_04_12T21_59_38_519000Z_2025_04_12T22_08_16_284000Z",
+    "safe_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_04_12T21_59_38_519000Z_2025_04_12T22_08_16_284000Z",
+    "user_id": "dd4fa2e8",
+    "start_ts": "2025-04-12T21:59:38.519000+00:00",
+    "duration_sec": 517,
+    "action_count": 25,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_04_12T22_08_17_761000Z_2025_04_12T22_21_26_620000Z",
+    "safe_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_04_12T22_08_17_761000Z_2025_04_12T22_21_26_620000Z",
+    "user_id": "dd4fa2e8",
+    "start_ts": "2025-04-12T22:08:17.761000+00:00",
+    "duration_sec": 788,
+    "action_count": 43,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_04_12T22_22_23_873000Z_2025_04_12T22_36_56_889000Z",
+    "safe_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_04_12T22_22_23_873000Z_2025_04_12T22_36_56_889000Z",
+    "user_id": "dd4fa2e8",
+    "start_ts": "2025-04-12T22:22:23.873000+00:00",
+    "duration_sec": 873,
+    "action_count": 112,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_04_12T22_37_25_170000Z_2025_04_12T22_37_42_532000Z",
+    "safe_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_04_12T22_37_25_170000Z_2025_04_12T22_37_42_532000Z",
+    "user_id": "dd4fa2e8",
+    "start_ts": "2025-04-12T22:37:33.753000+00:00",
+    "duration_sec": 8,
+    "action_count": 5,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_04_14T23_54_00_059000Z_2025_04_15T01_13_15_680000Z",
+    "safe_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_04_14T23_54_00_059000Z_2025_04_15T01_13_15_680000Z",
+    "user_id": "dd4fa2e8",
+    "start_ts": "2025-04-14T23:55:57.113000+00:00",
+    "duration_sec": 4638,
+    "action_count": 201,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_04_15T01_13_17_342000Z_2025_04_15T01_34_59_243000Z",
+    "safe_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_04_15T01_13_17_342000Z_2025_04_15T01_34_59_243000Z",
+    "user_id": "dd4fa2e8",
+    "start_ts": "2025-04-15T01:13:17.342000+00:00",
+    "duration_sec": 1301,
+    "action_count": 39,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_04_15T23_25_04_162000Z_2025_04_15T23_42_39_659000Z",
+    "safe_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_04_15T23_25_04_162000Z_2025_04_15T23_42_39_659000Z",
+    "user_id": "dd4fa2e8",
+    "start_ts": "2025-04-15T23:38:27.316000+00:00",
+    "duration_sec": 252,
+    "action_count": 29,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_04_15T23_42_40_993000Z_2025_04_16T00_00_22_569000Z",
+    "safe_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_04_15T23_42_40_993000Z_2025_04_16T00_00_22_569000Z",
+    "user_id": "dd4fa2e8",
+    "start_ts": "2025-04-15T23:42:40.993000+00:00",
+    "duration_sec": 1060,
+    "action_count": 62,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_04_17T15_06_30_405000Z_2025_04_17T15_09_30_705000Z",
+    "safe_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_04_17T15_06_30_405000Z_2025_04_17T15_09_30_705000Z",
+    "user_id": "dd4fa2e8",
+    "start_ts": "2025-04-17T15:06:54.332000+00:00",
+    "duration_sec": 156,
+    "action_count": 33,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_04_19T01_51_55_814000Z_2025_04_19T02_58_31_109000Z",
+    "safe_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_04_19T01_51_55_814000Z_2025_04_19T02_58_31_109000Z",
+    "user_id": "dd4fa2e8",
+    "start_ts": "2025-04-19T01:52:24.293000+00:00",
+    "duration_sec": 3966,
+    "action_count": 3,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_04_23T15_56_26_381000Z_2025_04_23T16_05_00_982000Z",
+    "safe_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_04_23T15_56_26_381000Z_2025_04_23T16_05_00_982000Z",
+    "user_id": "dd4fa2e8",
+    "start_ts": "2025-04-23T15:57:04.323000+00:00",
+    "duration_sec": 476,
+    "action_count": 78,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_04_23T16_05_10_832000Z_2025_04_23T16_05_44_056000Z",
+    "safe_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_04_23T16_05_10_832000Z_2025_04_23T16_05_44_056000Z",
+    "user_id": "dd4fa2e8",
+    "start_ts": "2025-04-23T16:05:10.832000+00:00",
+    "duration_sec": 33,
+    "action_count": 8,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_04_27T22_51_04_752000Z_2025_04_27T23_19_11_485000Z",
+    "safe_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_04_27T22_51_04_752000Z_2025_04_27T23_19_11_485000Z",
+    "user_id": "dd4fa2e8",
+    "start_ts": "2025-04-27T22:51:16.855000+00:00",
+    "duration_sec": 1674,
+    "action_count": 46,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_05_07T15_31_12_496000Z_2025_05_07T15_37_16_437000Z",
+    "safe_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_05_07T15_31_12_496000Z_2025_05_07T15_37_16_437000Z",
+    "user_id": "dd4fa2e8",
+    "start_ts": "2025-05-07T15:31:12.496000+00:00",
+    "duration_sec": 363,
+    "action_count": 4,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_05_07T15_37_20_080000Z_2025_05_07T15_47_06_991000Z",
+    "safe_id": "dd4fa2e8_9892_444c_ac53_f5f41751c14c_2025_05_07T15_37_20_080000Z_2025_05_07T15_47_06_991000Z",
+    "user_id": "dd4fa2e8",
+    "start_ts": "2025-05-07T15:37:20.080000+00:00",
+    "duration_sec": 586,
+    "action_count": 6,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "fec7fcca_8603_4684_bee0_14261a3213c3_2025_04_15T22_02_47_504000Z_2025_04_15T22_04_38_225000Z",
+    "safe_id": "fec7fcca_8603_4684_bee0_14261a3213c3_2025_04_15T22_02_47_504000Z_2025_04_15T22_04_38_225000Z",
+    "user_id": "fec7fcca",
+    "start_ts": "2025-04-15T22:02:59.075000+00:00",
+    "duration_sec": 99,
+    "action_count": 17,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "fec7fcca_8603_4684_bee0_14261a3213c3_2025_04_15T22_04_51_986000Z_2025_04_15T23_10_15_196000Z",
+    "safe_id": "fec7fcca_8603_4684_bee0_14261a3213c3_2025_04_15T22_04_51_986000Z_2025_04_15T23_10_15_196000Z",
+    "user_id": "fec7fcca",
+    "start_ts": "2025-04-15T22:04:51.986000+00:00",
+    "duration_sec": 3923,
+    "action_count": 18,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "fec7fcca_8603_4684_bee0_14261a3213c3_2025_04_15T23_10_16_489000Z_2025_04_15T23_11_51_247000Z",
+    "safe_id": "fec7fcca_8603_4684_bee0_14261a3213c3_2025_04_15T23_10_16_489000Z_2025_04_15T23_11_51_247000Z",
+    "user_id": "fec7fcca",
+    "start_ts": "2025-04-15T23:10:16.489000+00:00",
+    "duration_sec": 94,
+    "action_count": 15,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "fec7fcca_8603_4684_bee0_14261a3213c3_2025_04_16T14_31_57_480000Z_2025_04_16T14_32_32_636000Z",
+    "safe_id": "fec7fcca_8603_4684_bee0_14261a3213c3_2025_04_16T14_31_57_480000Z_2025_04_16T14_32_32_636000Z",
+    "user_id": "fec7fcca",
+    "start_ts": "2025-04-16T14:31:57.480000+00:00",
+    "duration_sec": 35,
+    "action_count": 8,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "fec7fcca_8603_4684_bee0_14261a3213c3_2025_04_16T22_12_43_138000Z_2025_04_16T22_21_45_178000Z",
+    "safe_id": "fec7fcca_8603_4684_bee0_14261a3213c3_2025_04_16T22_12_43_138000Z_2025_04_16T22_21_45_178000Z",
+    "user_id": "fec7fcca",
+    "start_ts": "2025-04-16T22:12:43.138000+00:00",
+    "duration_sec": 542,
+    "action_count": 123,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "fec7fcca_8603_4684_bee0_14261a3213c3_2025_04_17T01_05_04_313000Z_2025_04_17T01_59_36_950000Z",
+    "safe_id": "fec7fcca_8603_4684_bee0_14261a3213c3_2025_04_17T01_05_04_313000Z_2025_04_17T01_59_36_950000Z",
+    "user_id": "fec7fcca",
+    "start_ts": "2025-04-17T01:05:04.313000+00:00",
+    "duration_sec": 3272,
+    "action_count": 18,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "fec7fcca_8603_4684_bee0_14261a3213c3_2025_04_19T15_07_55_141000Z_2025_04_19T16_16_20_735000Z",
+    "safe_id": "fec7fcca_8603_4684_bee0_14261a3213c3_2025_04_19T15_07_55_141000Z_2025_04_19T16_16_20_735000Z",
+    "user_id": "fec7fcca",
+    "start_ts": "2025-04-19T15:07:58.058000+00:00",
+    "duration_sec": 4102,
+    "action_count": 51,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "fec7fcca_8603_4684_bee0_14261a3213c3_2025_04_20T21_55_53_949000Z_2025_04_20T23_31_34_805000Z",
+    "safe_id": "fec7fcca_8603_4684_bee0_14261a3213c3_2025_04_20T21_55_53_949000Z_2025_04_20T23_31_34_805000Z",
+    "user_id": "fec7fcca",
+    "start_ts": "2025-04-20T21:55:53.949000+00:00",
+    "duration_sec": 5740,
+    "action_count": 91,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "fec7fcca_8603_4684_bee0_14261a3213c3_2025_04_21T02_00_01_963000Z_2025_04_21T02_12_55_698000Z",
+    "safe_id": "fec7fcca_8603_4684_bee0_14261a3213c3_2025_04_21T02_00_01_963000Z_2025_04_21T02_12_55_698000Z",
+    "user_id": "fec7fcca",
+    "start_ts": "2025-04-21T02:00:01.963000+00:00",
+    "duration_sec": 773,
+    "action_count": 94,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "fec7fcca_8603_4684_bee0_14261a3213c3_2025_04_21T02_12_57_291000Z_2025_04_21T02_20_35_384000Z",
+    "safe_id": "fec7fcca_8603_4684_bee0_14261a3213c3_2025_04_21T02_12_57_291000Z_2025_04_21T02_20_35_384000Z",
+    "user_id": "fec7fcca",
+    "start_ts": "2025-04-21T02:12:57.291000+00:00",
+    "duration_sec": 458,
+    "action_count": 76,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "fec7fcca_8603_4684_bee0_14261a3213c3_2025_04_21T23_59_19_504000Z_2025_04_22T00_02_55_665000Z",
+    "safe_id": "fec7fcca_8603_4684_bee0_14261a3213c3_2025_04_21T23_59_19_504000Z_2025_04_22T00_02_55_665000Z",
+    "user_id": "fec7fcca",
+    "start_ts": "2025-04-21T23:59:19.504000+00:00",
+    "duration_sec": 216,
+    "action_count": 42,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "fec7fcca_8603_4684_bee0_14261a3213c3_2025_04_22T19_33_29_903000Z_2025_04_22T19_34_51_543000Z",
+    "safe_id": "fec7fcca_8603_4684_bee0_14261a3213c3_2025_04_22T19_33_29_903000Z_2025_04_22T19_34_51_543000Z",
+    "user_id": "fec7fcca",
+    "start_ts": "2025-04-22T19:33:29.903000+00:00",
+    "duration_sec": 81,
+    "action_count": 7,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "fec7fcca_8603_4684_bee0_14261a3213c3_2025_04_24T22_03_38_120000Z_2025_04_24T22_58_12_660000Z",
+    "safe_id": "fec7fcca_8603_4684_bee0_14261a3213c3_2025_04_24T22_03_38_120000Z_2025_04_24T22_58_12_660000Z",
+    "user_id": "fec7fcca",
+    "start_ts": "2025-04-24T22:03:38.120000+00:00",
+    "duration_sec": 3274,
+    "action_count": 144,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "fec7fcca_8603_4684_bee0_14261a3213c3_2025_04_24T22_58_14_206000Z_2025_04_24T23_10_06_185000Z",
+    "safe_id": "fec7fcca_8603_4684_bee0_14261a3213c3_2025_04_24T22_58_14_206000Z_2025_04_24T23_10_06_185000Z",
+    "user_id": "fec7fcca",
+    "start_ts": "2025-04-24T22:58:14.206000+00:00",
+    "duration_sec": 711,
+    "action_count": 174,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "fec7fcca_8603_4684_bee0_14261a3213c3_2025_04_24T23_13_09_030000Z_2025_04_24T23_41_49_009000Z",
+    "safe_id": "fec7fcca_8603_4684_bee0_14261a3213c3_2025_04_24T23_13_09_030000Z_2025_04_24T23_41_49_009000Z",
+    "user_id": "fec7fcca",
+    "start_ts": "2025-04-24T23:13:57.935000+00:00",
+    "duration_sec": 1671,
+    "action_count": 59,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "fec7fcca_8603_4684_bee0_14261a3213c3_2025_04_28T14_32_14_859000Z_2025_04_28T14_32_45_689000Z",
+    "safe_id": "fec7fcca_8603_4684_bee0_14261a3213c3_2025_04_28T14_32_14_859000Z_2025_04_28T14_32_45_689000Z",
+    "user_id": "fec7fcca",
+    "start_ts": "2025-04-28T14:32:16.895000+00:00",
+    "duration_sec": 26,
+    "action_count": 7,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "fec7fcca_8603_4684_bee0_14261a3213c3_2025_04_29T01_57_51_295000Z_2025_04_29T01_58_39_393000Z",
+    "safe_id": "fec7fcca_8603_4684_bee0_14261a3213c3_2025_04_29T01_57_51_295000Z_2025_04_29T01_58_39_393000Z",
+    "user_id": "fec7fcca",
+    "start_ts": "2025-04-29T01:57:51.295000+00:00",
+    "duration_sec": 48,
+    "action_count": 14,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "fec7fcca_8603_4684_bee0_14261a3213c3_2025_04_29T21_39_28_957000Z_2025_04_29T21_42_14_820000Z",
+    "safe_id": "fec7fcca_8603_4684_bee0_14261a3213c3_2025_04_29T21_39_28_957000Z_2025_04_29T21_42_14_820000Z",
+    "user_id": "fec7fcca",
+    "start_ts": "2025-04-29T21:39:28.957000+00:00",
+    "duration_sec": 165,
+    "action_count": 14,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "5632b752_29ff_4501_9a85_10490d494777_2025_04_09T18_08_20_989000Z_2025_04_09T18_25_51_283000Z",
+    "safe_id": "5632b752_29ff_4501_9a85_10490d494777_2025_04_09T18_08_20_989000Z_2025_04_09T18_25_51_283000Z",
+    "user_id": "5632b752",
+    "start_ts": "2025-04-09T18:08:20.989000+00:00",
+    "duration_sec": 1050,
+    "action_count": 81,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "5632b752_29ff_4501_9a85_10490d494777_2025_04_09T18_25_52_823000Z_2025_04_09T18_29_25_774000Z",
+    "safe_id": "5632b752_29ff_4501_9a85_10490d494777_2025_04_09T18_25_52_823000Z_2025_04_09T18_29_25_774000Z",
+    "user_id": "5632b752",
+    "start_ts": "2025-04-09T18:25:52.823000+00:00",
+    "duration_sec": 212,
+    "action_count": 32,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "5632b752_29ff_4501_9a85_10490d494777_2025_04_09T18_29_27_310000Z_2025_04_09T18_30_32_522000Z",
+    "safe_id": "5632b752_29ff_4501_9a85_10490d494777_2025_04_09T18_29_27_310000Z_2025_04_09T18_30_32_522000Z",
+    "user_id": "5632b752",
+    "start_ts": "2025-04-09T18:29:27.310000+00:00",
+    "duration_sec": 65,
+    "action_count": 13,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "5632b752_29ff_4501_9a85_10490d494777_2025_04_09T18_30_40_985000Z_2025_04_09T18_30_50_333000Z",
+    "safe_id": "5632b752_29ff_4501_9a85_10490d494777_2025_04_09T18_30_40_985000Z_2025_04_09T18_30_50_333000Z",
+    "user_id": "5632b752",
+    "start_ts": "2025-04-09T18:30:40.985000+00:00",
+    "duration_sec": 9,
+    "action_count": 5,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "5632b752_29ff_4501_9a85_10490d494777_2025_04_09T18_31_22_660000Z_2025_04_09T18_36_56_344000Z",
+    "safe_id": "5632b752_29ff_4501_9a85_10490d494777_2025_04_09T18_31_22_660000Z_2025_04_09T18_36_56_344000Z",
+    "user_id": "5632b752",
+    "start_ts": "2025-04-09T18:31:22.660000+00:00",
+    "duration_sec": 309,
+    "action_count": 113,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "5632b752_29ff_4501_9a85_10490d494777_2025_04_16T14_59_03_157000Z_2025_04_16T15_01_26_754000Z",
+    "safe_id": "5632b752_29ff_4501_9a85_10490d494777_2025_04_16T14_59_03_157000Z_2025_04_16T15_01_26_754000Z",
+    "user_id": "5632b752",
+    "start_ts": "2025-04-16T14:59:58.393000+00:00",
+    "duration_sec": 88,
+    "action_count": 23,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "5632b752_29ff_4501_9a85_10490d494777_2025_04_16T15_01_28_001000Z_2025_04_16T16_49_21_888000Z",
+    "safe_id": "5632b752_29ff_4501_9a85_10490d494777_2025_04_16T15_01_28_001000Z_2025_04_16T16_49_21_888000Z",
+    "user_id": "5632b752",
+    "start_ts": "2025-04-16T15:01:28.001000+00:00",
+    "duration_sec": 6473,
+    "action_count": 16,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "5632b752_29ff_4501_9a85_10490d494777_2025_04_16T16_49_39_119000Z_2025_04_16T16_49_50_602000Z",
+    "safe_id": "5632b752_29ff_4501_9a85_10490d494777_2025_04_16T16_49_39_119000Z_2025_04_16T16_49_50_602000Z",
+    "user_id": "5632b752",
+    "start_ts": "2025-04-16T16:49:39.119000+00:00",
+    "duration_sec": 11,
+    "action_count": 8,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "5632b752_29ff_4501_9a85_10490d494777_2025_04_20T17_53_55_544000Z_2025_04_20T18_01_50_465000Z",
+    "safe_id": "5632b752_29ff_4501_9a85_10490d494777_2025_04_20T17_53_55_544000Z_2025_04_20T18_01_50_465000Z",
+    "user_id": "5632b752",
+    "start_ts": "2025-04-20T17:53:55.544000+00:00",
+    "duration_sec": 474,
+    "action_count": 121,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "5632b752_29ff_4501_9a85_10490d494777_2025_04_20T18_01_52_170000Z_2025_04_20T18_10_46_877000Z",
+    "safe_id": "5632b752_29ff_4501_9a85_10490d494777_2025_04_20T18_01_52_170000Z_2025_04_20T18_10_46_877000Z",
+    "user_id": "5632b752",
+    "start_ts": "2025-04-20T18:01:52.170000+00:00",
+    "duration_sec": 534,
+    "action_count": 93,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "5632b752_29ff_4501_9a85_10490d494777_2025_04_21T16_59_10_167000Z_2025_04_21T16_59_41_798000Z",
+    "safe_id": "5632b752_29ff_4501_9a85_10490d494777_2025_04_21T16_59_10_167000Z_2025_04_21T16_59_41_798000Z",
+    "user_id": "5632b752",
+    "start_ts": "2025-04-21T16:59:10.167000+00:00",
+    "duration_sec": 31,
+    "action_count": 16,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "5632b752_29ff_4501_9a85_10490d494777_2025_04_21T17_00_28_529000Z_2025_04_21T17_06_30_416000Z",
+    "safe_id": "5632b752_29ff_4501_9a85_10490d494777_2025_04_21T17_00_28_529000Z_2025_04_21T17_06_30_416000Z",
+    "user_id": "5632b752",
+    "start_ts": "2025-04-21T17:00:28.529000+00:00",
+    "duration_sec": 361,
+    "action_count": 67,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "5632b752_29ff_4501_9a85_10490d494777_2025_04_21T17_07_05_023000Z_2025_04_21T17_23_14_152000Z",
+    "safe_id": "5632b752_29ff_4501_9a85_10490d494777_2025_04_21T17_07_05_023000Z_2025_04_21T17_23_14_152000Z",
+    "user_id": "5632b752",
+    "start_ts": "2025-04-21T17:07:05.023000+00:00",
+    "duration_sec": 969,
+    "action_count": 23,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "5632b752_29ff_4501_9a85_10490d494777_2025_04_22T14_54_07_794000Z_2025_04_22T14_54_26_261000Z",
+    "safe_id": "5632b752_29ff_4501_9a85_10490d494777_2025_04_22T14_54_07_794000Z_2025_04_22T14_54_26_261000Z",
+    "user_id": "5632b752",
+    "start_ts": "2025-04-22T14:54:07.794000+00:00",
+    "duration_sec": 18,
+    "action_count": 6,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "5632b752_29ff_4501_9a85_10490d494777_2025_04_29T18_17_13_321000Z_2025_04_29T18_19_28_020000Z",
+    "safe_id": "5632b752_29ff_4501_9a85_10490d494777_2025_04_29T18_17_13_321000Z_2025_04_29T18_19_28_020000Z",
+    "user_id": "5632b752",
+    "start_ts": "2025-04-29T18:17:13.321000+00:00",
+    "duration_sec": 134,
+    "action_count": 41,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "5632b752_29ff_4501_9a85_10490d494777_2025_04_29T18_19_30_146000Z_2025_04_29T18_33_06_608000Z",
+    "safe_id": "5632b752_29ff_4501_9a85_10490d494777_2025_04_29T18_19_30_146000Z_2025_04_29T18_33_06_608000Z",
+    "user_id": "5632b752",
+    "start_ts": "2025-04-29T18:19:30.146000+00:00",
+    "duration_sec": 816,
+    "action_count": 47,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "5632b752_29ff_4501_9a85_10490d494777_2025_04_29T21_26_21_878000Z_2025_04_29T21_30_31_620000Z",
+    "safe_id": "5632b752_29ff_4501_9a85_10490d494777_2025_04_29T21_26_21_878000Z_2025_04_29T21_30_31_620000Z",
+    "user_id": "5632b752",
+    "start_ts": "2025-04-29T21:26:21.878000+00:00",
+    "duration_sec": 249,
+    "action_count": 41,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "5632b752_29ff_4501_9a85_10490d494777_2025_04_29T21_30_34_427000Z_2025_04_29T21_31_23_506000Z",
+    "safe_id": "5632b752_29ff_4501_9a85_10490d494777_2025_04_29T21_30_34_427000Z_2025_04_29T21_31_23_506000Z",
+    "user_id": "5632b752",
+    "start_ts": "2025-04-29T21:30:34.427000+00:00",
+    "duration_sec": 49,
+    "action_count": 22,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "5632b752_29ff_4501_9a85_10490d494777_2025_04_29T21_31_25_568000Z_2025_04_29T21_33_11_395000Z",
+    "safe_id": "5632b752_29ff_4501_9a85_10490d494777_2025_04_29T21_31_25_568000Z_2025_04_29T21_33_11_395000Z",
+    "user_id": "5632b752",
+    "start_ts": "2025-04-29T21:31:25.568000+00:00",
+    "duration_sec": 105,
+    "action_count": 30,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "5632b752_29ff_4501_9a85_10490d494777_2025_04_29T21_33_13_077000Z_2025_04_29T21_35_27_696000Z",
+    "safe_id": "5632b752_29ff_4501_9a85_10490d494777_2025_04_29T21_33_13_077000Z_2025_04_29T21_35_27_696000Z",
+    "user_id": "5632b752",
+    "start_ts": "2025-04-29T21:33:13.077000+00:00",
+    "duration_sec": 134,
+    "action_count": 43,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "5632b752_29ff_4501_9a85_10490d494777_2025_04_29T21_35_35_281000Z_2025_04_29T21_36_36_385000Z",
+    "safe_id": "5632b752_29ff_4501_9a85_10490d494777_2025_04_29T21_35_35_281000Z_2025_04_29T21_36_36_385000Z",
+    "user_id": "5632b752",
+    "start_ts": "2025-04-29T21:35:35.281000+00:00",
+    "duration_sec": 61,
+    "action_count": 33,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "5632b752_29ff_4501_9a85_10490d494777_2025_04_29T21_37_07_385000Z_2025_04_29T21_37_21_494000Z",
+    "safe_id": "5632b752_29ff_4501_9a85_10490d494777_2025_04_29T21_37_07_385000Z_2025_04_29T21_37_21_494000Z",
+    "user_id": "5632b752",
+    "start_ts": "2025-04-29T21:37:07.385000+00:00",
+    "duration_sec": 14,
+    "action_count": 7,
+    "session_type": "Decisive Shopper",
+    "timeline_available": true
+  },
+  {
+    "session_id": "ffa9a771_083a_42b1_a41b_bf91bd50030b_2025_04_15T04_41_16_528000Z_2025_04_15T04_43_09_434000Z",
+    "safe_id": "ffa9a771_083a_42b1_a41b_bf91bd50030b_2025_04_15T04_41_16_528000Z_2025_04_15T04_43_09_434000Z",
+    "user_id": "ffa9a771",
+    "start_ts": "2025-04-15T04:41:16.528000+00:00",
+    "duration_sec": 112,
+    "action_count": 32,
+    "session_type": "Explorer",
+    "timeline_available": true
+  },
+  {
+    "session_id": "2af67bcd_8d3b_4d77_9834_4219fbf93540_2025_03_26T00_16_31_047000Z_2025_03_26T00_17_51_431000Z",
+    "safe_id": "2af67bcd_8d3b_4d77_9834_4219fbf93540_2025_03_26T00_16_31_047000Z_2025_03_26T00_17_51_431000Z",
+    "user_id": "2af67bcd",
+    "start_ts": "2025-03-26T00:16:31.047000+00:00",
+    "duration_sec": 80,
+    "action_count": 29,
+    "session_type": "Explorer",
+    "timeline_available": true
+  },
+  {
+    "session_id": "9c9f3204_3b7d_4405_8ee1_ad5fb13aef3d_2025_03_27T18_44_26_761000Z_2025_03_27T18_45_48_113000Z",
+    "safe_id": "9c9f3204_3b7d_4405_8ee1_ad5fb13aef3d_2025_03_27T18_44_26_761000Z_2025_03_27T18_45_48_113000Z",
+    "user_id": "9c9f3204",
+    "start_ts": "2025-03-27T18:44:26.761000+00:00",
+    "duration_sec": 79,
+    "action_count": 18,
+    "session_type": "Explorer",
+    "timeline_available": true
+  },
+  {
+    "session_id": "9c9f3204_3b7d_4405_8ee1_ad5fb13aef3d_2025_03_30T21_28_17_890000Z_2025_03_30T21_29_34_613000Z",
+    "safe_id": "9c9f3204_3b7d_4405_8ee1_ad5fb13aef3d_2025_03_30T21_28_17_890000Z_2025_03_30T21_29_34_613000Z",
+    "user_id": "9c9f3204",
+    "start_ts": "2025-03-30T21:28:17.890000+00:00",
+    "duration_sec": 74,
+    "action_count": 4,
+    "session_type": "Explorer",
+    "timeline_available": true
+  },
+  {
+    "session_id": "87163a9a_91bf_4f9b_adb1_5ad1b0935475_2025_04_26T15_49_45_361000Z_2025_04_26T15_50_06_161000Z",
+    "safe_id": "87163a9a_91bf_4f9b_adb1_5ad1b0935475_2025_04_26T15_49_45_361000Z_2025_04_26T15_50_06_161000Z",
+    "user_id": "87163a9a",
+    "start_ts": "2025-04-26T15:49:45.361000+00:00",
+    "duration_sec": 20,
+    "action_count": 7,
+    "session_type": "Explorer",
+    "timeline_available": true
+  },
+  {
+    "session_id": "87163a9a_91bf_4f9b_adb1_5ad1b0935475_2025_04_28T19_31_39_443000Z_2025_04_28T19_31_46_183000Z",
+    "safe_id": "87163a9a_91bf_4f9b_adb1_5ad1b0935475_2025_04_28T19_31_39_443000Z_2025_04_28T19_31_46_183000Z",
+    "user_id": "87163a9a",
+    "start_ts": "2025-04-28T19:31:39.443000+00:00",
+    "duration_sec": 6,
+    "action_count": 5,
+    "session_type": "Explorer",
+    "timeline_available": true
+  },
+  {
+    "session_id": "87163a9a_91bf_4f9b_adb1_5ad1b0935475_2025_05_03T03_37_09_830000Z_2025_05_03T04_19_12_878000Z",
+    "safe_id": "87163a9a_91bf_4f9b_adb1_5ad1b0935475_2025_05_03T03_37_09_830000Z_2025_05_03T04_19_12_878000Z",
+    "user_id": "87163a9a",
+    "start_ts": "2025-05-03T03:37:09.830000+00:00",
+    "duration_sec": 2451,
+    "action_count": 4,
+    "session_type": "Explorer",
+    "timeline_available": true
+  },
+  {
+    "session_id": "31aa3621_e5b3_4cb1_8283_6712d33cda42_2025_04_18T21_31_11_058000Z_2025_04_18T21_39_47_018000Z",
+    "safe_id": "31aa3621_e5b3_4cb1_8283_6712d33cda42_2025_04_18T21_31_11_058000Z_2025_04_18T21_39_47_018000Z",
+    "user_id": "31aa3621",
+    "start_ts": "2025-04-18T21:31:11.058000+00:00",
+    "duration_sec": 509,
+    "action_count": 15,
+    "session_type": "Explorer",
+    "timeline_available": true
+  },
+  {
+    "session_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_04_09T20_39_10_398000Z_2025_04_09T20_51_03_991000Z",
+    "safe_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_04_09T20_39_10_398000Z_2025_04_09T20_51_03_991000Z",
+    "user_id": "d78a2d81",
+    "start_ts": "2025-04-09T20:39:12.648000+00:00",
+    "duration_sec": 711,
+    "action_count": 139,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_04_09T20_51_32_083000Z_2025_04_09T20_53_08_595000Z",
+    "safe_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_04_09T20_51_32_083000Z_2025_04_09T20_53_08_595000Z",
+    "user_id": "d78a2d81",
+    "start_ts": "2025-04-09T20:51:32.083000+00:00",
+    "duration_sec": 96,
+    "action_count": 22,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_04_09T20_54_22_283000Z_2025_04_09T20_54_32_880000Z",
+    "safe_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_04_09T20_54_22_283000Z_2025_04_09T20_54_32_880000Z",
+    "user_id": "d78a2d81",
+    "start_ts": "2025-04-09T20:54:22.283000+00:00",
+    "duration_sec": 10,
+    "action_count": 8,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_04_12T01_00_39_598000Z_2025_04_12T01_41_02_579000Z",
+    "safe_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_04_12T01_00_39_598000Z_2025_04_12T01_41_02_579000Z",
+    "user_id": "d78a2d81",
+    "start_ts": "2025-04-12T01:04:44.399000+00:00",
+    "duration_sec": 2178,
+    "action_count": 76,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_04_12T01_41_04_121000Z_2025_04_12T02_01_16_599000Z",
+    "safe_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_04_12T01_41_04_121000Z_2025_04_12T02_01_16_599000Z",
+    "user_id": "d78a2d81",
+    "start_ts": "2025-04-12T01:41:04.121000+00:00",
+    "duration_sec": 1212,
+    "action_count": 13,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_04_12T17_21_39_291000Z_2025_04_12T17_24_33_460000Z",
+    "safe_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_04_12T17_21_39_291000Z_2025_04_12T17_24_33_460000Z",
+    "user_id": "d78a2d81",
+    "start_ts": "2025-04-12T17:21:39.291000+00:00",
+    "duration_sec": 174,
+    "action_count": 42,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_04_12T17_24_53_756000Z_2025_04_12T17_27_07_887000Z",
+    "safe_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_04_12T17_24_53_756000Z_2025_04_12T17_27_07_887000Z",
+    "user_id": "d78a2d81",
+    "start_ts": "2025-04-12T17:24:53.756000+00:00",
+    "duration_sec": 114,
+    "action_count": 4,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_04_12T23_46_12_280000Z_2025_04_12T23_47_23_365000Z",
+    "safe_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_04_12T23_46_12_280000Z_2025_04_12T23_47_23_365000Z",
+    "user_id": "d78a2d81",
+    "start_ts": "2025-04-12T23:46:12.280000+00:00",
+    "duration_sec": 53,
+    "action_count": 15,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_04_13T21_11_06_044000Z_2025_04_13T21_15_20_205000Z",
+    "safe_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_04_13T21_11_06_044000Z_2025_04_13T21_15_20_205000Z",
+    "user_id": "d78a2d81",
+    "start_ts": "2025-04-13T21:11:06.044000+00:00",
+    "duration_sec": 254,
+    "action_count": 34,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_04_13T23_29_56_790000Z_2025_04_14T01_40_46_683000Z",
+    "safe_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_04_13T23_29_56_790000Z_2025_04_14T01_40_46_683000Z",
+    "user_id": "d78a2d81",
+    "start_ts": "2025-04-13T23:29:56.790000+00:00",
+    "duration_sec": 7849,
+    "action_count": 16,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_04_14T01_40_47_880000Z_2025_04_14T01_41_27_655000Z",
+    "safe_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_04_14T01_40_47_880000Z_2025_04_14T01_41_27_655000Z",
+    "user_id": "d78a2d81",
+    "start_ts": "2025-04-14T01:40:47.880000+00:00",
+    "duration_sec": 39,
+    "action_count": 10,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_04_14T01_41_58_788000Z_2025_04_14T01_42_48_472000Z",
+    "safe_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_04_14T01_41_58_788000Z_2025_04_14T01_42_48_472000Z",
+    "user_id": "d78a2d81",
+    "start_ts": "2025-04-14T01:42:08.234000+00:00",
+    "duration_sec": 9,
+    "action_count": 4,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_04_15T18_02_51_402000Z_2025_04_15T18_06_09_675000Z",
+    "safe_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_04_15T18_02_51_402000Z_2025_04_15T18_06_09_675000Z",
+    "user_id": "d78a2d81",
+    "start_ts": "2025-04-15T18:02:51.402000+00:00",
+    "duration_sec": 198,
+    "action_count": 41,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_04_29T16_13_53_640000Z_2025_04_29T17_02_19_828000Z",
+    "safe_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_04_29T16_13_53_640000Z_2025_04_29T17_02_19_828000Z",
+    "user_id": "d78a2d81",
+    "start_ts": "2025-04-29T16:13:53.640000+00:00",
+    "duration_sec": 2906,
+    "action_count": 182,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_04_30T01_01_07_098000Z_2025_04_30T01_15_26_216000Z",
+    "safe_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_04_30T01_01_07_098000Z_2025_04_30T01_15_26_216000Z",
+    "user_id": "d78a2d81",
+    "start_ts": "2025-04-30T01:01:07.098000+00:00",
+    "duration_sec": 859,
+    "action_count": 6,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_04_30T16_31_42_730000Z_2025_04_30T17_47_59_645000Z",
+    "safe_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_04_30T16_31_42_730000Z_2025_04_30T17_47_59_645000Z",
+    "user_id": "d78a2d81",
+    "start_ts": "2025-04-30T16:31:42.730000+00:00",
+    "duration_sec": 4576,
+    "action_count": 11,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_05_01T04_23_27_144000Z_2025_05_01T04_35_09_796000Z",
+    "safe_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_05_01T04_23_27_144000Z_2025_05_01T04_35_09_796000Z",
+    "user_id": "d78a2d81",
+    "start_ts": "2025-05-01T04:23:27.144000+00:00",
+    "duration_sec": 702,
+    "action_count": 34,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_05_01T17_48_52_310000Z_2025_05_01T20_24_00_888000Z",
+    "safe_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_05_01T17_48_52_310000Z_2025_05_01T20_24_00_888000Z",
+    "user_id": "d78a2d81",
+    "start_ts": "2025-05-01T17:48:52.310000+00:00",
+    "duration_sec": 9308,
+    "action_count": 15,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_05_02T03_10_47_986000Z_2025_05_02T03_38_02_697000Z",
+    "safe_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_05_02T03_10_47_986000Z_2025_05_02T03_38_02_697000Z",
+    "user_id": "d78a2d81",
+    "start_ts": "2025-05-02T03:10:47.986000+00:00",
+    "duration_sec": 1634,
+    "action_count": 112,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_05_02T03_38_03_956000Z_2025_05_02T03_57_22_247000Z",
+    "safe_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_05_02T03_38_03_956000Z_2025_05_02T03_57_22_247000Z",
+    "user_id": "d78a2d81",
+    "start_ts": "2025-05-02T03:38:03.956000+00:00",
+    "duration_sec": 1158,
+    "action_count": 376,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_05_02T03_57_26_635000Z_2025_05_02T03_59_10_016000Z",
+    "safe_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_05_02T03_57_26_635000Z_2025_05_02T03_59_10_016000Z",
+    "user_id": "d78a2d81",
+    "start_ts": "2025-05-02T03:57:26.635000+00:00",
+    "duration_sec": 103,
+    "action_count": 26,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_05_02T15_12_14_698000Z_2025_05_02T16_02_34_957000Z",
+    "safe_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_05_02T15_12_14_698000Z_2025_05_02T16_02_34_957000Z",
+    "user_id": "d78a2d81",
+    "start_ts": "2025-05-02T15:12:14.698000+00:00",
+    "duration_sec": 3020,
+    "action_count": 9,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_05_02T16_02_38_468000Z_2025_05_02T16_21_35_170000Z",
+    "safe_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_05_02T16_02_38_468000Z_2025_05_02T16_21_35_170000Z",
+    "user_id": "d78a2d81",
+    "start_ts": "2025-05-02T16:02:38.468000+00:00",
+    "duration_sec": 1136,
+    "action_count": 6,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_05_03T01_49_23_365000Z_2025_05_03T03_16_58_207000Z",
+    "safe_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_05_03T01_49_23_365000Z_2025_05_03T03_16_58_207000Z",
+    "user_id": "d78a2d81",
+    "start_ts": "2025-05-03T01:49:23.365000+00:00",
+    "duration_sec": 5254,
+    "action_count": 6,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_05_04T23_56_27_303000Z_2025_05_05T01_59_49_891000Z",
+    "safe_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_05_04T23_56_27_303000Z_2025_05_05T01_59_49_891000Z",
+    "user_id": "d78a2d81",
+    "start_ts": "2025-05-04T23:56:27.303000+00:00",
+    "duration_sec": 7402,
+    "action_count": 33,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_05_05T01_59_51_531000Z_2025_05_05T02_00_44_018000Z",
+    "safe_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_05_05T01_59_51_531000Z_2025_05_05T02_00_44_018000Z",
+    "user_id": "d78a2d81",
+    "start_ts": "2025-05-05T01:59:51.531000+00:00",
+    "duration_sec": 52,
+    "action_count": 11,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_05_05T02_00_45_204000Z_2025_05_05T02_11_44_087000Z",
+    "safe_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_05_05T02_00_45_204000Z_2025_05_05T02_11_44_087000Z",
+    "user_id": "d78a2d81",
+    "start_ts": "2025-05-05T02:00:45.204000+00:00",
+    "duration_sec": 658,
+    "action_count": 34,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_05_05T02_11_45_354000Z_2025_05_05T02_14_51_695000Z",
+    "safe_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_05_05T02_11_45_354000Z_2025_05_05T02_14_51_695000Z",
+    "user_id": "d78a2d81",
+    "start_ts": "2025-05-05T02:11:45.354000+00:00",
+    "duration_sec": 186,
+    "action_count": 30,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_05_05T02_15_34_922000Z_2025_05_05T02_15_53_757000Z",
+    "safe_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_05_05T02_15_34_922000Z_2025_05_05T02_15_53_757000Z",
+    "user_id": "d78a2d81",
+    "start_ts": "2025-05-05T02:15:34.922000+00:00",
+    "duration_sec": 18,
+    "action_count": 12,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_05_05T02_15_57_725000Z_2025_05_05T02_16_19_562000Z",
+    "safe_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_05_05T02_15_57_725000Z_2025_05_05T02_16_19_562000Z",
+    "user_id": "d78a2d81",
+    "start_ts": "2025-05-05T02:15:57.725000+00:00",
+    "duration_sec": 21,
+    "action_count": 11,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_05_05T02_16_59_844000Z_2025_05_05T02_20_13_169000Z",
+    "safe_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_05_05T02_16_59_844000Z_2025_05_05T02_20_13_169000Z",
+    "user_id": "d78a2d81",
+    "start_ts": "2025-05-05T02:16:59.844000+00:00",
+    "duration_sec": 193,
+    "action_count": 11,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_05_05T15_52_38_424000Z_2025_05_05T16_15_35_796000Z",
+    "safe_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_05_05T15_52_38_424000Z_2025_05_05T16_15_35_796000Z",
+    "user_id": "d78a2d81",
+    "start_ts": "2025-05-05T15:52:38.424000+00:00",
+    "duration_sec": 1377,
+    "action_count": 73,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_05_07T15_03_50_774000Z_2025_05_07T15_11_17_623000Z",
+    "safe_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_05_07T15_03_50_774000Z_2025_05_07T15_11_17_623000Z",
+    "user_id": "d78a2d81",
+    "start_ts": "2025-05-07T15:03:50.774000+00:00",
+    "duration_sec": 446,
+    "action_count": 42,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_05_07T15_11_23_029000Z_2025_05_07T15_11_51_624000Z",
+    "safe_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_05_07T15_11_23_029000Z_2025_05_07T15_11_51_624000Z",
+    "user_id": "d78a2d81",
+    "start_ts": "2025-05-07T15:11:23.029000+00:00",
+    "duration_sec": 28,
+    "action_count": 8,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_05_07T18_36_31_422000Z_2025_05_07T22_21_14_483000Z",
+    "safe_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_05_07T18_36_31_422000Z_2025_05_07T22_21_14_483000Z",
+    "user_id": "d78a2d81",
+    "start_ts": "2025-05-07T18:36:31.422000+00:00",
+    "duration_sec": 13483,
+    "action_count": 9,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_05_08T00_11_02_705000Z_2025_05_08T00_12_28_926000Z",
+    "safe_id": "d78a2d81_c18e_452a_829c_c233c28d83ba_2025_05_08T00_11_02_705000Z_2025_05_08T00_12_28_926000Z",
+    "user_id": "d78a2d81",
+    "start_ts": "2025-05-08T00:11:02.705000+00:00",
+    "duration_sec": 86,
+    "action_count": 6,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "fe3ffaca_494e_4554_b298_cdf52bb11b44_2025_04_18T16_56_04_465000Z_2025_04_18T17_17_21_153000Z",
+    "safe_id": "fe3ffaca_494e_4554_b298_cdf52bb11b44_2025_04_18T16_56_04_465000Z_2025_04_18T17_17_21_153000Z",
+    "user_id": "fe3ffaca",
+    "start_ts": "2025-04-18T16:56:04.465000+00:00",
+    "duration_sec": 1276,
+    "action_count": 161,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "fe3ffaca_494e_4554_b298_cdf52bb11b44_2025_04_18T17_17_22_757000Z_2025_04_18T17_17_56_192000Z",
+    "safe_id": "fe3ffaca_494e_4554_b298_cdf52bb11b44_2025_04_18T17_17_22_757000Z_2025_04_18T17_17_56_192000Z",
+    "user_id": "fe3ffaca",
+    "start_ts": "2025-04-18T17:17:22.757000+00:00",
+    "duration_sec": 33,
+    "action_count": 8,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "fe3ffaca_494e_4554_b298_cdf52bb11b44_2025_04_18T17_17_58_311000Z_2025_04_18T17_23_39_445000Z",
+    "safe_id": "fe3ffaca_494e_4554_b298_cdf52bb11b44_2025_04_18T17_17_58_311000Z_2025_04_18T17_23_39_445000Z",
+    "user_id": "fe3ffaca",
+    "start_ts": "2025-04-18T17:17:58.311000+00:00",
+    "duration_sec": 341,
+    "action_count": 64,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "fe3ffaca_494e_4554_b298_cdf52bb11b44_2025_04_18T17_23_41_066000Z_2025_04_18T17_23_53_018000Z",
+    "safe_id": "fe3ffaca_494e_4554_b298_cdf52bb11b44_2025_04_18T17_23_41_066000Z_2025_04_18T17_23_53_018000Z",
+    "user_id": "fe3ffaca",
+    "start_ts": "2025-04-18T17:23:41.066000+00:00",
+    "duration_sec": 11,
+    "action_count": 6,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "fe3ffaca_494e_4554_b298_cdf52bb11b44_2025_04_18T17_25_22_523000Z_2025_04_18T17_26_19_830000Z",
+    "safe_id": "fe3ffaca_494e_4554_b298_cdf52bb11b44_2025_04_18T17_25_22_523000Z_2025_04_18T17_26_19_830000Z",
+    "user_id": "fe3ffaca",
+    "start_ts": "2025-04-18T17:25:22.523000+00:00",
+    "duration_sec": 57,
+    "action_count": 9,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "fe3ffaca_494e_4554_b298_cdf52bb11b44_2025_04_23T17_15_26_052000Z_2025_04_23T17_42_30_856000Z",
+    "safe_id": "fe3ffaca_494e_4554_b298_cdf52bb11b44_2025_04_23T17_15_26_052000Z_2025_04_23T17_42_30_856000Z",
+    "user_id": "fe3ffaca",
+    "start_ts": "2025-04-23T17:15:26.052000+00:00",
+    "duration_sec": 1615,
+    "action_count": 261,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "fe3ffaca_494e_4554_b298_cdf52bb11b44_2025_04_23T17_43_03_466000Z_2025_04_23T18_17_26_197000Z",
+    "safe_id": "fe3ffaca_494e_4554_b298_cdf52bb11b44_2025_04_23T17_43_03_466000Z_2025_04_23T18_17_26_197000Z",
+    "user_id": "fe3ffaca",
+    "start_ts": "2025-04-23T17:43:03.466000+00:00",
+    "duration_sec": 1965,
+    "action_count": 9,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "fe3ffaca_494e_4554_b298_cdf52bb11b44_2025_04_23T21_19_07_583000Z_2025_04_23T21_36_27_995000Z",
+    "safe_id": "fe3ffaca_494e_4554_b298_cdf52bb11b44_2025_04_23T21_19_07_583000Z_2025_04_23T21_36_27_995000Z",
+    "user_id": "fe3ffaca",
+    "start_ts": "2025-04-23T21:19:09.947000+00:00",
+    "duration_sec": 1038,
+    "action_count": 277,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "fe3ffaca_494e_4554_b298_cdf52bb11b44_2025_04_23T21_36_30_058000Z_2025_04_23T21_49_08_810000Z",
+    "safe_id": "fe3ffaca_494e_4554_b298_cdf52bb11b44_2025_04_23T21_36_30_058000Z_2025_04_23T21_49_08_810000Z",
+    "user_id": "fe3ffaca",
+    "start_ts": "2025-04-23T21:36:30.058000+00:00",
+    "duration_sec": 758,
+    "action_count": 207,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "fe3ffaca_494e_4554_b298_cdf52bb11b44_2025_04_23T21_50_42_315000Z_2025_04_23T21_51_24_015000Z",
+    "safe_id": "fe3ffaca_494e_4554_b298_cdf52bb11b44_2025_04_23T21_50_42_315000Z_2025_04_23T21_51_24_015000Z",
+    "user_id": "fe3ffaca",
+    "start_ts": "2025-04-23T21:51:20.303000+00:00",
+    "duration_sec": 3,
+    "action_count": 3,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "7f0c8207_6a6f_49cd_9d7e_17987cfafcb9_2025_04_03T01_08_30_168000Z_2025_04_03T01_09_12_992000Z",
+    "safe_id": "7f0c8207_6a6f_49cd_9d7e_17987cfafcb9_2025_04_03T01_08_30_168000Z_2025_04_03T01_09_12_992000Z",
+    "user_id": "7f0c8207",
+    "start_ts": "2025-04-03T01:08:30.168000+00:00",
+    "duration_sec": 42,
+    "action_count": 6,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "7f0c8207_6a6f_49cd_9d7e_17987cfafcb9_2025_04_03T01_09_14_197000Z_2025_04_03T01_09_37_705000Z",
+    "safe_id": "7f0c8207_6a6f_49cd_9d7e_17987cfafcb9_2025_04_03T01_09_14_197000Z_2025_04_03T01_09_37_705000Z",
+    "user_id": "7f0c8207",
+    "start_ts": "2025-04-03T01:09:14.197000+00:00",
+    "duration_sec": 23,
+    "action_count": 7,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "7f0c8207_6a6f_49cd_9d7e_17987cfafcb9_2025_04_03T21_00_28_513000Z_2025_04_03T21_02_25_738000Z",
+    "safe_id": "7f0c8207_6a6f_49cd_9d7e_17987cfafcb9_2025_04_03T21_00_28_513000Z_2025_04_03T21_02_25_738000Z",
+    "user_id": "7f0c8207",
+    "start_ts": "2025-04-03T21:00:28.513000+00:00",
+    "duration_sec": 100,
+    "action_count": 28,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "7f0c8207_6a6f_49cd_9d7e_17987cfafcb9_2025_04_10T20_21_52_949000Z_2025_04_10T20_24_59_251000Z",
+    "safe_id": "7f0c8207_6a6f_49cd_9d7e_17987cfafcb9_2025_04_10T20_21_52_949000Z_2025_04_10T20_24_59_251000Z",
+    "user_id": "7f0c8207",
+    "start_ts": "2025-04-10T20:21:52.949000+00:00",
+    "duration_sec": 186,
+    "action_count": 36,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "7f0c8207_6a6f_49cd_9d7e_17987cfafcb9_2025_04_10T20_25_00_781000Z_2025_04_10T20_49_55_664000Z",
+    "safe_id": "7f0c8207_6a6f_49cd_9d7e_17987cfafcb9_2025_04_10T20_25_00_781000Z_2025_04_10T20_49_55_664000Z",
+    "user_id": "7f0c8207",
+    "start_ts": "2025-04-10T20:25:00.781000+00:00",
+    "duration_sec": 1494,
+    "action_count": 16,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "7f0c8207_6a6f_49cd_9d7e_17987cfafcb9_2025_04_11T22_31_22_703000Z_2025_04_11T22_33_19_051000Z",
+    "safe_id": "7f0c8207_6a6f_49cd_9d7e_17987cfafcb9_2025_04_11T22_31_22_703000Z_2025_04_11T22_33_19_051000Z",
+    "user_id": "7f0c8207",
+    "start_ts": "2025-04-11T22:32:06.268000+00:00",
+    "duration_sec": 60,
+    "action_count": 9,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "7f0c8207_6a6f_49cd_9d7e_17987cfafcb9_2025_04_14T21_35_32_091000Z_2025_04_14T21_41_14_781000Z",
+    "safe_id": "7f0c8207_6a6f_49cd_9d7e_17987cfafcb9_2025_04_14T21_35_32_091000Z_2025_04_14T21_41_14_781000Z",
+    "user_id": "7f0c8207",
+    "start_ts": "2025-04-14T21:35:32.091000+00:00",
+    "duration_sec": 333,
+    "action_count": 31,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "7f0c8207_6a6f_49cd_9d7e_17987cfafcb9_2025_04_16T23_17_05_184000Z_2025_04_16T23_17_38_489000Z",
+    "safe_id": "7f0c8207_6a6f_49cd_9d7e_17987cfafcb9_2025_04_16T23_17_05_184000Z_2025_04_16T23_17_38_489000Z",
+    "user_id": "7f0c8207",
+    "start_ts": "2025-04-16T23:17:14.698000+00:00",
+    "duration_sec": 8,
+    "action_count": 6,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "7f0c8207_6a6f_49cd_9d7e_17987cfafcb9_2025_04_17T23_06_44_701000Z_2025_04_17T23_08_13_556000Z",
+    "safe_id": "7f0c8207_6a6f_49cd_9d7e_17987cfafcb9_2025_04_17T23_06_44_701000Z_2025_04_17T23_08_13_556000Z",
+    "user_id": "7f0c8207",
+    "start_ts": "2025-04-17T23:06:44.701000+00:00",
+    "duration_sec": 85,
+    "action_count": 21,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "7f0c8207_6a6f_49cd_9d7e_17987cfafcb9_2025_04_18T03_41_18_551000Z_2025_04_18T03_50_08_995000Z",
+    "safe_id": "7f0c8207_6a6f_49cd_9d7e_17987cfafcb9_2025_04_18T03_41_18_551000Z_2025_04_18T03_50_08_995000Z",
+    "user_id": "7f0c8207",
+    "start_ts": "2025-04-18T03:42:14.870000+00:00",
+    "duration_sec": 474,
+    "action_count": 6,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "7f0c8207_6a6f_49cd_9d7e_17987cfafcb9_2025_04_19T03_45_18_706000Z_2025_04_19T03_50_22_856000Z",
+    "safe_id": "7f0c8207_6a6f_49cd_9d7e_17987cfafcb9_2025_04_19T03_45_18_706000Z_2025_04_19T03_50_22_856000Z",
+    "user_id": "7f0c8207",
+    "start_ts": "2025-04-19T03:45:58.045000+00:00",
+    "duration_sec": 264,
+    "action_count": 79,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "7f0c8207_6a6f_49cd_9d7e_17987cfafcb9_2025_04_19T03_51_29_512000Z_2025_04_19T03_55_14_987000Z",
+    "safe_id": "7f0c8207_6a6f_49cd_9d7e_17987cfafcb9_2025_04_19T03_51_29_512000Z_2025_04_19T03_55_14_987000Z",
+    "user_id": "7f0c8207",
+    "start_ts": "2025-04-19T03:51:29.512000+00:00",
+    "duration_sec": 225,
+    "action_count": 24,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "7f0c8207_6a6f_49cd_9d7e_17987cfafcb9_2025_04_23T20_28_01_358000Z_2025_04_23T20_35_54_602000Z",
+    "safe_id": "7f0c8207_6a6f_49cd_9d7e_17987cfafcb9_2025_04_23T20_28_01_358000Z_2025_04_23T20_35_54_602000Z",
+    "user_id": "7f0c8207",
+    "start_ts": "2025-04-23T20:28:07.604000+00:00",
+    "duration_sec": 466,
+    "action_count": 78,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "7f0c8207_6a6f_49cd_9d7e_17987cfafcb9_2025_04_24T18_09_49_665000Z_2025_04_24T19_13_41_971000Z",
+    "safe_id": "7f0c8207_6a6f_49cd_9d7e_17987cfafcb9_2025_04_24T18_09_49_665000Z_2025_04_24T19_13_41_971000Z",
+    "user_id": "7f0c8207",
+    "start_ts": "2025-04-24T18:09:49.665000+00:00",
+    "duration_sec": 3832,
+    "action_count": 7,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "7f0c8207_6a6f_49cd_9d7e_17987cfafcb9_2025_04_26T02_16_47_444000Z_2025_04_26T02_17_12_666000Z",
+    "safe_id": "7f0c8207_6a6f_49cd_9d7e_17987cfafcb9_2025_04_26T02_16_47_444000Z_2025_04_26T02_17_12_666000Z",
+    "user_id": "7f0c8207",
+    "start_ts": "2025-04-26T02:16:47.444000+00:00",
+    "duration_sec": 25,
+    "action_count": 3,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "7f0c8207_6a6f_49cd_9d7e_17987cfafcb9_2025_04_30T02_11_41_346000Z_2025_04_30T03_25_40_825000Z",
+    "safe_id": "7f0c8207_6a6f_49cd_9d7e_17987cfafcb9_2025_04_30T02_11_41_346000Z_2025_04_30T03_25_40_825000Z",
+    "user_id": "7f0c8207",
+    "start_ts": "2025-04-30T02:11:41.346000+00:00",
+    "duration_sec": 4439,
+    "action_count": 9,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "7f0c8207_6a6f_49cd_9d7e_17987cfafcb9_2025_05_01T20_16_58_549000Z_2025_05_01T21_09_29_321000Z",
+    "safe_id": "7f0c8207_6a6f_49cd_9d7e_17987cfafcb9_2025_05_01T20_16_58_549000Z_2025_05_01T21_09_29_321000Z",
+    "user_id": "7f0c8207",
+    "start_ts": "2025-05-01T20:16:58.549000+00:00",
+    "duration_sec": 3150,
+    "action_count": 14,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "27d8261e_fcb9_42d0_a371_995f42c34eb5_2025_04_03T02_01_30_214000Z_2025_04_03T02_27_47_092000Z",
+    "safe_id": "27d8261e_fcb9_42d0_a371_995f42c34eb5_2025_04_03T02_01_30_214000Z_2025_04_03T02_27_47_092000Z",
+    "user_id": "27d8261e",
+    "start_ts": "2025-04-03T02:01:30.214000+00:00",
+    "duration_sec": 1576,
+    "action_count": 323,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "f5891f31_a3bd_498b_9ea3_83e28dd5d1dc_2025_04_05T21_58_16_954000Z_2025_04_05T22_06_10_234000Z",
+    "safe_id": "f5891f31_a3bd_498b_9ea3_83e28dd5d1dc_2025_04_05T21_58_16_954000Z_2025_04_05T22_06_10_234000Z",
+    "user_id": "f5891f31",
+    "start_ts": "2025-04-05T21:58:16.954000+00:00",
+    "duration_sec": 473,
+    "action_count": 46,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "f5891f31_a3bd_498b_9ea3_83e28dd5d1dc_2025_04_07T04_13_18_991000Z_2025_04_07T04_28_10_951000Z",
+    "safe_id": "f5891f31_a3bd_498b_9ea3_83e28dd5d1dc_2025_04_07T04_13_18_991000Z_2025_04_07T04_28_10_951000Z",
+    "user_id": "f5891f31",
+    "start_ts": "2025-04-07T04:13:18.991000+00:00",
+    "duration_sec": 891,
+    "action_count": 153,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "f5891f31_a3bd_498b_9ea3_83e28dd5d1dc_2025_04_09T06_04_00_498000Z_2025_04_09T06_08_14_005000Z",
+    "safe_id": "f5891f31_a3bd_498b_9ea3_83e28dd5d1dc_2025_04_09T06_04_00_498000Z_2025_04_09T06_08_14_005000Z",
+    "user_id": "f5891f31",
+    "start_ts": "2025-04-09T06:04:00.498000+00:00",
+    "duration_sec": 253,
+    "action_count": 11,
+    "session_type": "Methodical",
+    "timeline_available": true
+  },
+  {
+    "session_id": "f5891f31_a3bd_498b_9ea3_83e28dd5d1dc_2025_04_12T20_32_17_459000Z_2025_04_12T20_40_59_923000Z",
+    "safe_id": "f5891f31_a3bd_498b_9ea3_83e28dd5d1dc_2025_04_12T20_32_17_459000Z_2025_04_12T20_40_59_923000Z",
+    "user_id": "f5891f31",
+    "start_ts": "2025-04-12T20:32:17.459000+00:00",
+    "duration_sec": 522,
+    "action_count": 82,
+    "session_type": "Methodical",
+    "timeline_available": true
+  }
+]

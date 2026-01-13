@@ -1,0 +1,90 @@
+[
+  {
+    "timestamp": "2025-04-30T16:31:42.730000+00:00",
+    "action_type": "tab_activate",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0
+  },
+  {
+    "timestamp": "2025-04-30T16:31:44.671000+00:00",
+    "action_type": "tab_activate",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.9409999999999998
+  },
+  {
+    "timestamp": "2025-04-30T16:31:45.493000+00:00",
+    "action_type": "tab_activate",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0.822
+  },
+  {
+    "timestamp": "2025-04-30T16:31:46.967000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.474
+  },
+  {
+    "timestamp": "2025-04-30T16:31:56.547000+00:00",
+    "action_type": "navigation",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 9.58
+  },
+  {
+    "timestamp": "2025-04-30T16:31:58.056000+00:00",
+    "action_type": "tab_activate",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.509
+  },
+  {
+    "timestamp": "2025-04-30T16:32:02.978000+00:00",
+    "action_type": "navigation",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 4.922
+  },
+  {
+    "timestamp": "2025-04-30T16:32:07.446000+00:00",
+    "action_type": "tab_activate",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 4.468
+  },
+  {
+    "timestamp": "2025-04-30T16:32:12.682000+00:00",
+    "action_type": "navigation",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 5.236
+  },
+  {
+    "timestamp": "2025-04-30T16:37:51.783000+00:00",
+    "action_type": "tab_activate",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 339.101
+  },
+  {
+    "timestamp": "2025-04-30T17:47:59.645000+00:00",
+    "action_type": "tab_activate",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 4207.862
+  }
+]

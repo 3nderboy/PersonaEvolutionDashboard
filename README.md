@@ -160,7 +160,13 @@ Data Science: Pandas, Scikit-learn, NumPy.
 
 ## Used Dataset
 
-Currently (11.01.2026), we have only used mock-data for the frontend-part of this project.
+The dashboard uses the **OPeRA dataset** from [NEU-HAI on HuggingFace](https://huggingface.co/datasets/NEU-HAI/OPeRA). The sample data generation script (`backend/scripts/generate_sample_data.py`) extracts user profiles with behavioral metrics and real interview transcripts.
+
+To regenerate sample data:
+```bash
+python backend/scripts/generate_sample_data.py
+```
+Output is placed in `frontend/public/data/sample/`.
 
 
 ## Project Status & Roadmap
