@@ -1,0 +1,274 @@
+[
+  {
+    "timestamp": "2025-05-05T02:00:45.204000+00:00",
+    "action_type": "navigation",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0
+  },
+  {
+    "timestamp": "2025-05-05T02:00:48.398000+00:00",
+    "action_type": "tab_activate",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 3.194
+  },
+  {
+    "timestamp": "2025-05-05T02:00:50.825000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 2.427
+  },
+  {
+    "timestamp": "2025-05-05T02:00:51.674000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0.849
+  },
+  {
+    "timestamp": "2025-05-05T02:00:54.112000+00:00",
+    "action_type": "tab_activate",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 2.438
+  },
+  {
+    "timestamp": "2025-05-05T02:00:59.458000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 5.346
+  },
+  {
+    "timestamp": "2025-05-05T02:01:00.791000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.333
+  },
+  {
+    "timestamp": "2025-05-05T02:01:01.392000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0.601
+  },
+  {
+    "timestamp": "2025-05-05T02:09:59.529000+00:00",
+    "action_type": "navigation",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 538.137
+  },
+  {
+    "timestamp": "2025-05-05T02:10:05.337000+00:00",
+    "action_type": "tab_activate",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 5.808
+  },
+  {
+    "timestamp": "2025-05-05T02:10:08.819000+00:00",
+    "action_type": "click",
+    "click_type": "cart_side_bar",
+    "category": "navigation",
+    "product": "{\"name\": \"cart_items\", \"data\": \"{\\\"title\\\":\\\"Zeago",
+    "delay_from_previous_sec": 3.482
+  },
+  {
+    "timestamp": "2025-05-05T02:10:11.484000+00:00",
+    "action_type": "tab_activate",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 2.665
+  },
+  {
+    "timestamp": "2025-05-05T02:10:11.815000+00:00",
+    "action_type": "navigation",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0.331
+  },
+  {
+    "timestamp": "2025-05-05T02:10:12.368000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0.553
+  },
+  {
+    "timestamp": "2025-05-05T02:10:13.386000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.018
+  },
+  {
+    "timestamp": "2025-05-05T02:10:38.957000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 25.571
+  },
+  {
+    "timestamp": "2025-05-05T02:10:39.150000+00:00",
+    "action_type": "navigation",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0.193
+  },
+  {
+    "timestamp": "2025-05-05T02:10:39.835000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0.685
+  },
+  {
+    "timestamp": "2025-05-05T02:10:40.955000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.12
+  },
+  {
+    "timestamp": "2025-05-05T02:10:58.635000+00:00",
+    "action_type": "tab_activate",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 17.68
+  },
+  {
+    "timestamp": "2025-05-05T02:11:02.804000+00:00",
+    "action_type": "tab_activate",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 4.169
+  },
+  {
+    "timestamp": "2025-05-05T02:11:18.665000+00:00",
+    "action_type": "click",
+    "click_type": "review",
+    "category": "research",
+    "product": "{\"name\": \"\", \"data\": \"\"}",
+    "delay_from_previous_sec": 15.861
+  },
+  {
+    "timestamp": "2025-05-05T02:11:19.250000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0.585
+  },
+  {
+    "timestamp": "2025-05-05T02:11:20.419000+00:00",
+    "action_type": "click",
+    "click_type": "cart_side_bar",
+    "category": "navigation",
+    "product": "{\"name\": \"cart_items\", \"data\": \"{\\\"title\\\":\\\"Zeago",
+    "delay_from_previous_sec": 1.169
+  },
+  {
+    "timestamp": "2025-05-05T02:11:26.633000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 6.214
+  },
+  {
+    "timestamp": "2025-05-05T02:11:27.430000+00:00",
+    "action_type": "navigation",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0.797
+  },
+  {
+    "timestamp": "2025-05-05T02:11:28.079000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0.649
+  },
+  {
+    "timestamp": "2025-05-05T02:11:28.933000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0.854
+  },
+  {
+    "timestamp": "2025-05-05T02:11:30.749000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.8159999999999998
+  },
+  {
+    "timestamp": "2025-05-05T02:11:31.499000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0.75
+  },
+  {
+    "timestamp": "2025-05-05T02:11:36.307000+00:00",
+    "action_type": "click",
+    "click_type": "quantity",
+    "category": "navigation",
+    "product": "{\"name\": \"cart_items\", \"data\": \"{\\\"title\\\":\\\"Zeago",
+    "delay_from_previous_sec": 4.808
+  },
+  {
+    "timestamp": "2025-05-05T02:11:39.174000+00:00",
+    "action_type": "click",
+    "click_type": "product_option",
+    "category": "navigation",
+    "product": "{\"name\": \"product_options\", \"data\": \"{\\\"Color\\\":\\\"",
+    "delay_from_previous_sec": 2.867
+  },
+  {
+    "timestamp": "2025-05-05T02:11:41.583000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 2.409
+  },
+  {
+    "timestamp": "2025-05-05T02:11:44.087000+00:00",
+    "action_type": "click",
+    "click_type": "purchase",
+    "category": "conversion",
+    "product": "{\"name\": \"product_details\", \"data\": \"{\\\"asin\\\":\\\"B",
+    "delay_from_previous_sec": 2.504
+  }
+]

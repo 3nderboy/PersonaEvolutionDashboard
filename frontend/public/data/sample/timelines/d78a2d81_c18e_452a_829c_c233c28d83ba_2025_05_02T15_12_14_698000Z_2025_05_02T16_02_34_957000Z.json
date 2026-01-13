@@ -1,0 +1,74 @@
+[
+  {
+    "timestamp": "2025-05-02T15:12:14.698000+00:00",
+    "action_type": "tab_activate",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0
+  },
+  {
+    "timestamp": "2025-05-02T16:01:58.752000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 2984.054
+  },
+  {
+    "timestamp": "2025-05-02T16:02:03.128000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 4.376
+  },
+  {
+    "timestamp": "2025-05-02T16:02:03.282000+00:00",
+    "action_type": "navigation",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0.154
+  },
+  {
+    "timestamp": "2025-05-02T16:02:04.952000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.67
+  },
+  {
+    "timestamp": "2025-05-02T16:02:29.411000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 24.459
+  },
+  {
+    "timestamp": "2025-05-02T16:02:31.052000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.641
+  },
+  {
+    "timestamp": "2025-05-02T16:02:33.003000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.951
+  },
+  {
+    "timestamp": "2025-05-02T16:02:34.957000+00:00",
+    "action_type": "click",
+    "click_type": "purchase",
+    "category": "conversion",
+    "product": "{\"name\": \"\", \"data\": \"\"}",
+    "delay_from_previous_sec": 1.954
+  }
+]

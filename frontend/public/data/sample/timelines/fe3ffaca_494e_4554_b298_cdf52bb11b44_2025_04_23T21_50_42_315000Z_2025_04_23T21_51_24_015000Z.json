@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2025-04-23T21:51:20.303000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0
+  },
+  {
+    "timestamp": "2025-04-23T21:51:22.038000+00:00",
+    "action_type": "navigation",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.7349999999999999
+  },
+  {
+    "timestamp": "2025-04-23T21:51:24.015000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.9769999999999999
+  }
+]

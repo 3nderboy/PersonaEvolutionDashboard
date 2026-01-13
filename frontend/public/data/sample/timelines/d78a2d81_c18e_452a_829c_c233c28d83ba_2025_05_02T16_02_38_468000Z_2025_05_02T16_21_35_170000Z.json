@@ -1,0 +1,50 @@
+[
+  {
+    "timestamp": "2025-05-02T16:02:38.468000+00:00",
+    "action_type": "tab_activate",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0
+  },
+  {
+    "timestamp": "2025-05-02T16:02:45.903000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 7.435
+  },
+  {
+    "timestamp": "2025-05-02T16:02:50.149000+00:00",
+    "action_type": "tab_activate",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 4.246
+  },
+  {
+    "timestamp": "2025-05-02T16:02:52.388000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 2.239
+  },
+  {
+    "timestamp": "2025-05-02T16:02:55.688000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 3.3
+  },
+  {
+    "timestamp": "2025-05-02T16:21:35.170000+00:00",
+    "action_type": "tab_activate",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1119.482
+  }
+]

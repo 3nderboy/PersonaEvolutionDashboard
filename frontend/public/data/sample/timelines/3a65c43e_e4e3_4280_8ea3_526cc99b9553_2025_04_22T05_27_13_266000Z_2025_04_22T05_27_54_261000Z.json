@@ -1,0 +1,98 @@
+[
+  {
+    "timestamp": "2025-04-22T05:27:13.266000+00:00",
+    "action_type": "navigation",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0
+  },
+  {
+    "timestamp": "2025-04-22T05:27:13.715000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0.449
+  },
+  {
+    "timestamp": "2025-04-22T05:27:17.263000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 3.548
+  },
+  {
+    "timestamp": "2025-04-22T05:27:18.581000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.318
+  },
+  {
+    "timestamp": "2025-04-22T05:27:21.012000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 2.431
+  },
+  {
+    "timestamp": "2025-04-22T05:27:22.192000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.18
+  },
+  {
+    "timestamp": "2025-04-22T05:27:24.237000+00:00",
+    "action_type": "click",
+    "click_type": "cart_side_bar",
+    "category": "navigation",
+    "product": "{\"name\": \"cart_items\", \"data\": \"{\\\"title\\\":\\\"TP-Li",
+    "delay_from_previous_sec": 2.045
+  },
+  {
+    "timestamp": "2025-04-22T05:27:30.247000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 6.01
+  },
+  {
+    "timestamp": "2025-04-22T05:27:32.560000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 2.313
+  },
+  {
+    "timestamp": "2025-04-22T05:27:34.727000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 2.167
+  },
+  {
+    "timestamp": "2025-04-22T05:27:41.053000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 6.326
+  },
+  {
+    "timestamp": "2025-04-22T05:27:54.261000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 13.208
+  }
+]

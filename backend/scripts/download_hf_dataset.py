@@ -54,7 +54,7 @@ def main() -> int:
             ds = load_dataset(REPO, name=cfg, cache_dir=str(cache), token=token)
             out.mkdir()
             for split, data in ds.items():
-                data.to_json(out / f"{split}.json")
+                data.to_csv(out / f"{split}.csv")
             del ds
             gc.collect()
             print(f"[OK] {cfg}")

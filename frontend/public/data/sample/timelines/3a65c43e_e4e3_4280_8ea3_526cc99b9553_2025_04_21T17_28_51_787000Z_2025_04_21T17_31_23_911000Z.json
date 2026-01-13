@@ -1,0 +1,274 @@
+[
+  {
+    "timestamp": "2025-04-21T17:28:51.787000+00:00",
+    "action_type": "navigation",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0
+  },
+  {
+    "timestamp": "2025-04-21T17:28:52.377000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0.59
+  },
+  {
+    "timestamp": "2025-04-21T17:28:54.088000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.7109999999999999
+  },
+  {
+    "timestamp": "2025-04-21T17:29:06.327000+00:00",
+    "action_type": "click",
+    "click_type": "cart_side_bar",
+    "category": "navigation",
+    "product": "{\"name\": \"cart_items\", \"data\": \"{\\\"title\\\":\\\"TP-Li",
+    "delay_from_previous_sec": 12.239
+  },
+  {
+    "timestamp": "2025-04-21T17:29:10.285000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 3.958
+  },
+  {
+    "timestamp": "2025-04-21T17:29:10.992000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0.707
+  },
+  {
+    "timestamp": "2025-04-21T17:29:11.649000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0.657
+  },
+  {
+    "timestamp": "2025-04-21T17:29:15.381000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 3.732
+  },
+  {
+    "timestamp": "2025-04-21T17:29:18.200000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 2.819
+  },
+  {
+    "timestamp": "2025-04-21T17:29:25.028000+00:00",
+    "action_type": "click",
+    "click_type": "cart_side_bar",
+    "category": "navigation",
+    "product": "{\"name\": \"cart_items\", \"data\": \"{\\\"title\\\":\\\"Kasa ",
+    "delay_from_previous_sec": 6.828
+  },
+  {
+    "timestamp": "2025-04-21T17:29:27.076000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 2.048
+  },
+  {
+    "timestamp": "2025-04-21T17:29:27.930000+00:00",
+    "action_type": "navigation",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0.854
+  },
+  {
+    "timestamp": "2025-04-21T17:29:29.479000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.549
+  },
+  {
+    "timestamp": "2025-04-21T17:29:34.694000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 5.215
+  },
+  {
+    "timestamp": "2025-04-21T17:29:45.661000+00:00",
+    "action_type": "input",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 10.967
+  },
+  {
+    "timestamp": "2025-04-21T17:29:45.726000+00:00",
+    "action_type": "click",
+    "click_type": "suggested_term",
+    "category": "navigation",
+    "product": "{\"name\": \"\", \"data\": \"\"}",
+    "delay_from_previous_sec": 0.065
+  },
+  {
+    "timestamp": "2025-04-21T17:29:47.322000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.596
+  },
+  {
+    "timestamp": "2025-04-21T17:29:49.470000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 2.148
+  },
+  {
+    "timestamp": "2025-04-21T17:29:53.485000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 4.015
+  },
+  {
+    "timestamp": "2025-04-21T17:30:47.963000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 54.478
+  },
+  {
+    "timestamp": "2025-04-21T17:30:49.201000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.238
+  },
+  {
+    "timestamp": "2025-04-21T17:30:50.207000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.006
+  },
+  {
+    "timestamp": "2025-04-21T17:30:53.645000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 3.438
+  },
+  {
+    "timestamp": "2025-04-21T17:30:57.735000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 4.09
+  },
+  {
+    "timestamp": "2025-04-21T17:30:59.096000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.361
+  },
+  {
+    "timestamp": "2025-04-21T17:30:59.860000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0.764
+  },
+  {
+    "timestamp": "2025-04-21T17:31:00.659000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0.799
+  },
+  {
+    "timestamp": "2025-04-21T17:31:02.430000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.771
+  },
+  {
+    "timestamp": "2025-04-21T17:31:06.485000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 4.055
+  },
+  {
+    "timestamp": "2025-04-21T17:31:16.298000+00:00",
+    "action_type": "click",
+    "click_type": "quantity",
+    "category": "navigation",
+    "product": "{\"name\": \"cart_items\", \"data\": \"{\\\"title\\\":\\\"Kasa ",
+    "delay_from_previous_sec": 9.813
+  },
+  {
+    "timestamp": "2025-04-21T17:31:19.441000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 3.143
+  },
+  {
+    "timestamp": "2025-04-21T17:31:21.895000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 2.454
+  },
+  {
+    "timestamp": "2025-04-21T17:31:23.012000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.117
+  },
+  {
+    "timestamp": "2025-04-21T17:31:23.911000+00:00",
+    "action_type": "click",
+    "click_type": "purchase",
+    "category": "conversion",
+    "product": "{\"name\": \"search_results\", \"data\": \"{\\\"title\\\":\\\"K",
+    "delay_from_previous_sec": 0.899
+  }
+]

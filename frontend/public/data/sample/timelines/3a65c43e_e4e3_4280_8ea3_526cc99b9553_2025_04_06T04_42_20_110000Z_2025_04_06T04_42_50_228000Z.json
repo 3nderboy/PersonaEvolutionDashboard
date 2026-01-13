@@ -1,0 +1,66 @@
+[
+  {
+    "timestamp": "2025-04-06T04:42:20.110000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0
+  },
+  {
+    "timestamp": "2025-04-06T04:42:21.413000+00:00",
+    "action_type": "navigation",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.303
+  },
+  {
+    "timestamp": "2025-04-06T04:42:23.694000+00:00",
+    "action_type": "click",
+    "click_type": "product_option",
+    "category": "navigation",
+    "product": "{\"name\": \"product_options\", \"data\": \"{\\\"Capacity\\\"",
+    "delay_from_previous_sec": 2.281
+  },
+  {
+    "timestamp": "2025-04-06T04:42:26.339000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 2.645
+  },
+  {
+    "timestamp": "2025-04-06T04:42:27.798000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.459
+  },
+  {
+    "timestamp": "2025-04-06T04:42:31.221000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 3.423
+  },
+  {
+    "timestamp": "2025-04-06T04:42:47.181000+00:00",
+    "action_type": "click",
+    "click_type": "quantity",
+    "category": "navigation",
+    "product": "{\"name\": \"cart_items\", \"data\": \"{\\\"title\\\":\\\"SAMSU",
+    "delay_from_previous_sec": 15.96
+  },
+  {
+    "timestamp": "2025-04-06T04:42:50.228000+00:00",
+    "action_type": "click",
+    "click_type": "purchase",
+    "category": "conversion",
+    "product": "{\"name\": \"product_details\", \"data\": \"{\\\"asin\\\":\\\"B",
+    "delay_from_previous_sec": 3.047
+  }
+]

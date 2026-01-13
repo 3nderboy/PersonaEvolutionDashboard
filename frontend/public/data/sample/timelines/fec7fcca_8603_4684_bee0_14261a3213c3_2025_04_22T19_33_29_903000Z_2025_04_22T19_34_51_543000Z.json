@@ -1,0 +1,58 @@
+[
+  {
+    "timestamp": "2025-04-22T19:33:29.903000+00:00",
+    "action_type": "tab_activate",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0
+  },
+  {
+    "timestamp": "2025-04-22T19:33:34.990000+00:00",
+    "action_type": "click",
+    "click_type": "cart_side_bar",
+    "category": "navigation",
+    "product": "{\"name\": \"cart_items\", \"data\": \"{\\\"title\\\":\\\"Kitch",
+    "delay_from_previous_sec": 5.087
+  },
+  {
+    "timestamp": "2025-04-22T19:33:49.716000+00:00",
+    "action_type": "tab_activate",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 14.725999999999999
+  },
+  {
+    "timestamp": "2025-04-22T19:33:56.089000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 6.373
+  },
+  {
+    "timestamp": "2025-04-22T19:34:28.646000+00:00",
+    "action_type": "tab_activate",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 32.557
+  },
+  {
+    "timestamp": "2025-04-22T19:34:50.277000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 21.631
+  },
+  {
+    "timestamp": "2025-04-22T19:34:51.543000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.266
+  }
+]

@@ -1,0 +1,234 @@
+[
+  {
+    "timestamp": "2025-04-15T23:38:27.316000+00:00",
+    "action_type": "click",
+    "click_type": "search",
+    "category": "navigation",
+    "product": "{\"name\": \"search_term\", \"data\": \"{\\\"term\\\":\\\"\\\"}\"}",
+    "delay_from_previous_sec": 0
+  },
+  {
+    "timestamp": "2025-04-15T23:38:33.887000+00:00",
+    "action_type": "input",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 6.571
+  },
+  {
+    "timestamp": "2025-04-15T23:38:33.975000+00:00",
+    "action_type": "click",
+    "click_type": "suggested_term",
+    "category": "navigation",
+    "product": "{\"name\": \"\", \"data\": \"\"}",
+    "delay_from_previous_sec": 0.088
+  },
+  {
+    "timestamp": "2025-04-15T23:38:49.714000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 15.739
+  },
+  {
+    "timestamp": "2025-04-15T23:38:53.600000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 3.886
+  },
+  {
+    "timestamp": "2025-04-15T23:38:54.815000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.215
+  },
+  {
+    "timestamp": "2025-04-15T23:38:56.300000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.4849999999999999
+  },
+  {
+    "timestamp": "2025-04-15T23:38:57.900000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.6
+  },
+  {
+    "timestamp": "2025-04-15T23:39:00.272000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 2.372
+  },
+  {
+    "timestamp": "2025-04-15T23:39:05.466000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 5.194
+  },
+  {
+    "timestamp": "2025-04-15T23:39:07.099000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.633
+  },
+  {
+    "timestamp": "2025-04-15T23:39:07.748000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0.649
+  },
+  {
+    "timestamp": "2025-04-15T23:39:11.615000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 3.867
+  },
+  {
+    "timestamp": "2025-04-15T23:39:18.956000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 7.341
+  },
+  {
+    "timestamp": "2025-04-15T23:39:19.840000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0.884
+  },
+  {
+    "timestamp": "2025-04-15T23:39:20.616000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 0.776
+  },
+  {
+    "timestamp": "2025-04-15T23:39:28.454000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 7.838
+  },
+  {
+    "timestamp": "2025-04-15T23:39:38.949000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 10.495
+  },
+  {
+    "timestamp": "2025-04-15T23:39:41.988000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 3.039
+  },
+  {
+    "timestamp": "2025-04-15T23:39:50.849000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 8.861
+  },
+  {
+    "timestamp": "2025-04-15T23:39:52.232000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.383
+  },
+  {
+    "timestamp": "2025-04-15T23:39:53.368000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 1.1360000000000001
+  },
+  {
+    "timestamp": "2025-04-15T23:39:55.218000+00:00",
+    "action_type": "click",
+    "click_type": "product_link",
+    "category": "navigation",
+    "product": "{\"name\": \"search_results\", \"data\": \"{\\\"title\\\":\\\"2",
+    "delay_from_previous_sec": 1.85
+  },
+  {
+    "timestamp": "2025-04-15T23:40:49.379000+00:00",
+    "action_type": "navigation",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 54.161
+  },
+  {
+    "timestamp": "2025-04-15T23:40:53.039000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 3.66
+  },
+  {
+    "timestamp": "2025-04-15T23:40:56.543000+00:00",
+    "action_type": "scroll",
+    "click_type": "nan",
+    "category": "navigation",
+    "product": "nan",
+    "delay_from_previous_sec": 3.504
+  },
+  {
+    "timestamp": "2025-04-15T23:41:06.622000+00:00",
+    "action_type": "click",
+    "click_type": "product_link",
+    "category": "navigation",
+    "product": "{\"name\": \"search_results\", \"data\": \"{\\\"title\\\":\\\"2",
+    "delay_from_previous_sec": 10.079
+  },
+  {
+    "timestamp": "2025-04-15T23:42:38.014000+00:00",
+    "action_type": "click",
+    "click_type": "review",
+    "category": "research",
+    "product": "{\"name\": \"\", \"data\": \"\"}",
+    "delay_from_previous_sec": 91.392
+  },
+  {
+    "timestamp": "2025-04-15T23:42:39.659000+00:00",
+    "action_type": "click",
+    "click_type": "purchase",
+    "category": "conversion",
+    "product": "{\"name\": \"product_details\", \"data\": \"{\\\"asin\\\":\\\"B",
+    "delay_from_previous_sec": 1.645
+  }
+]
