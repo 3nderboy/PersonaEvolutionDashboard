@@ -3,3 +3,5 @@ huggingface_hub
 python-dotenv
 pandas
 tqdm
+numpy
+scikit-learn

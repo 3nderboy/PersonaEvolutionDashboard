@@ -1,0 +1,443 @@
+[
+  {
+    "cluster_id": 0,
+    "name": "Curious Browser",
+    "description": "Explores many product pages",
+    "session_count": 116,
+    "centroid": {
+      "pca_x": 0.40279623389565866,
+      "pca_y": -0.14700617189925563
+    },
+    "behavioral_metrics": {
+      "session_duration_seconds": {
+        "value": 0.5618079721607085,
+        "z_score": -0.5217874101930225
+      },
+      "action_density": {
+        "value": 0.4575688073394495,
+        "z_score": 5.26742606202099
+      },
+      "total_action_count": {
+        "value": 0.5891068227354214,
+        "z_score": -0.6610351239466513
+      },
+      "purchase_intent_ratio": {
+        "value": 0.45631327111673525,
+        "z_score": 3.2885985376445674
+      },
+      "search_ratio": {
+        "value": 0.6175953021195825,
+        "z_score": 2.681671582415205
+      },
+      "product_exploration_ratio": {
+        "value": 0.7742704049351471,
+        "z_score": 5.622188923122766
+      },
+      "review_engagement_ratio": {
+        "value": 0.0,
+        "z_score": -0.41698819139385995
+      },
+      "filter_usage_ratio": {
+        "value": 0.10025506168933881,
+        "z_score": 1.5712729939047443
+      },
+      "option_selection_ratio": {
+        "value": 0.27316590653450035,
+        "z_score": 0.7937528629889506
+      },
+      "input_ratio": {
+        "value": 0.6079167984814933,
+        "z_score": 3.586451477730129
+      }
+    },
+    "distinguishing_traits": {
+      "high": [
+        {
+          "metric": "product_exploration_ratio",
+          "z_score": 5.622188923122766
+        },
+        {
+          "metric": "action_density",
+          "z_score": 5.26742606202099
+        },
+        {
+          "metric": "input_ratio",
+          "z_score": 3.586451477730129
+        }
+      ],
+      "low": []
+    },
+    "representative_session": {
+      "session_id": "4d439e8e-69d1-4ee2-8030-7c885c6b1fa2_2025-05-07T17:41:55.780000Z_2025-05-07T17:47:36.465000Z",
+      "user_id": "4d439e8e-69d1-4ee2-8030-7c885c6b1fa2",
+      "month": "2025-05 (May)",
+      "duration_seconds": 0.573394495412844,
+      "action_count": 0,
+      "demographics": {},
+      "personality": {}
+    }
+  },
+  {
+    "cluster_id": 1,
+    "name": "Action-Oriented Shopper",
+    "description": "Quick to make purchase decisions",
+    "session_count": 86,
+    "centroid": {
+      "pca_x": -0.5181000304065515,
+      "pca_y": -0.16261578056224213
+    },
+    "behavioral_metrics": {
+      "session_duration_seconds": {
+        "value": 0.37950714742905906,
+        "z_score": -0.5218954602672443
+      },
+      "action_density": {
+        "value": 0.51394815446981,
+        "z_score": 6.010493064828419
+      },
+      "total_action_count": {
+        "value": 0.22945114145508858,
+        "z_score": -0.6835887375670856
+      },
+      "purchase_intent_ratio": {
+        "value": 0.5054539150842757,
+        "z_score": 3.739842062575415
+      },
+      "search_ratio": {
+        "value": 0.021228931085982505,
+        "z_score": -0.6555117648969447
+      },
+      "product_exploration_ratio": {
+        "value": 0.21787657350117348,
+        "z_score": 1.0326465666094018
+      },
+      "review_engagement_ratio": {
+        "value": 0.10386441220396843,
+        "z_score": 0.13548380713713085
+      },
+      "filter_usage_ratio": {
+        "value": 0.011601237465329633,
+        "z_score": 0.018355027097344972
+      },
+      "option_selection_ratio": {
+        "value": 0.0,
+        "z_score": -0.5872765039578515
+      },
+      "input_ratio": {
+        "value": 0.05700608064860252,
+        "z_score": -0.40625376306338296
+      }
+    },
+    "distinguishing_traits": {
+      "high": [
+        {
+          "metric": "action_density",
+          "z_score": 6.010493064828419
+        },
+        {
+          "metric": "purchase_intent_ratio",
+          "z_score": 3.739842062575415
+        },
+        {
+          "metric": "product_exploration_ratio",
+          "z_score": 1.0326465666094018
+        }
+      ],
+      "low": []
+    },
+    "representative_session": {
+      "session_id": "03a4f3ea-bfb7-4ba9-a7e5-5033f6958ce1_2025-04-24T16:17:18.641000Z_2025-04-24T16:19:33.517000Z",
+      "user_id": "03a4f3ea-bfb7-4ba9-a7e5-5033f6958ce1",
+      "month": "2025-04 (April)",
+      "duration_seconds": 0.36238532110091637,
+      "action_count": 0,
+      "demographics": {
+        "Gender": "Female",
+        "Age": "25-34 years old",
+        "City": "boston",
+        "Education level": "Doctoral degree or current doctoral student (PhD, JD, MD, DDS etc.)",
+        "Living situation": "live with a friend",
+        "Yearly household income or stipend": "$50,000-$74,999",
+        "Employment status": "Student"
+      },
+      "personality": {
+        "MBTI personality type": "INFJ",
+        "Big Five Scores": {
+          "Extraversion": "Medium",
+          "Agreeableness": "Extremely high",
+          "Conscientiousness": "High",
+          "Emotional Stability": "Low",
+          "Intellect": "High"
+        }
+      }
+    }
+  },
+  {
+    "cluster_id": 2,
+    "name": "Decisive Buyer",
+    "description": "High purchase intent with detailed product customization",
+    "session_count": 80,
+    "centroid": {
+      "pca_x": -0.6426111992712117,
+      "pca_y": 0.3208189246206584
+    },
+    "behavioral_metrics": {
+      "session_duration_seconds": {
+        "value": 0.41063646788990804,
+        "z_score": -0.521877009854904
+      },
+      "action_density": {
+        "value": 0.5480791284403669,
+        "z_score": 6.460331557504805
+      },
+      "total_action_count": {
+        "value": 0.37836869266055045,
+        "z_score": -0.6742502811322174
+      },
+      "purchase_intent_ratio": {
+        "value": 0.5748423165137615,
+        "z_score": 4.377014560173129
+      },
+      "search_ratio": {
+        "value": 0.05979071100917431,
+        "z_score": -0.4397254025986231
+      },
+      "product_exploration_ratio": {
+        "value": 0.13470470183486238,
+        "z_score": 0.3465842734685281
+      },
+      "review_engagement_ratio": {
+        "value": 0.06454182196100917,
+        "z_score": -0.07367955842719945
+      },
+      "filter_usage_ratio": {
+        "value": 0.0,
+        "z_score": -0.1848597834853044
+      },
+      "option_selection_ratio": {
+        "value": 0.8740722158511722,
+        "z_score": 3.8317207795493275
+      },
+      "input_ratio": {
+        "value": 0.053081995412844044,
+        "z_score": -0.43469342702157415
+      }
+    },
+    "distinguishing_traits": {
+      "high": [
+        {
+          "metric": "action_density",
+          "z_score": 6.460331557504805
+        },
+        {
+          "metric": "purchase_intent_ratio",
+          "z_score": 4.377014560173129
+        },
+        {
+          "metric": "option_selection_ratio",
+          "z_score": 3.8317207795493275
+        }
+      ],
+      "low": []
+    },
+    "representative_session": {
+      "session_id": "a2f26c6c-832e-47b8-97ca-a292de925223_2025-05-07T07:04:55.273000Z_2025-05-07T07:06:56.515000Z",
+      "user_id": "a2f26c6c-832e-47b8-97ca-a292de925223",
+      "month": "2025-05 (May)",
+      "duration_seconds": 0.3188073394495413,
+      "action_count": 0,
+      "demographics": {
+        "Gender": "Female",
+        "Age": "25-34 years old",
+        "City": "San Diego",
+        "Education level": "Doctoral degree or current doctoral student (PhD, JD, MD, DDS etc.)",
+        "Living situation": "I live with my roommate, who is also a PhD student from UC San Diego",
+        "Yearly household income or stipend": "$25,000-$49,999",
+        "Employment status": "Student"
+      },
+      "personality": {
+        "MBTI personality type": "ESFJ",
+        "Big Five Scores": {
+          "Extraversion": "Extremely high",
+          "Agreeableness": "Extremely high",
+          "Conscientiousness": "Extremely high",
+          "Emotional Stability": "Low",
+          "Intellect": "High"
+        }
+      }
+    }
+  },
+  {
+    "cluster_id": 3,
+    "name": "Informed Evaluator",
+    "description": "Focuses on product reviews before deciding",
+    "session_count": 86,
+    "centroid": {
+      "pca_x": 0.4121820867143572,
+      "pca_y": 0.5295173900687645
+    },
+    "behavioral_metrics": {
+      "session_duration_seconds": {
+        "value": 0.6775122679752507,
+        "z_score": -0.521718832018629
+      },
+      "action_density": {
+        "value": 0.4991199061233198,
+        "z_score": 5.815060116124101
+      },
+      "total_action_count": {
+        "value": 0.8111042955693052,
+        "z_score": -0.647113905715969
+      },
+      "purchase_intent_ratio": {
+        "value": 0.30399242585875824,
+        "z_score": 1.889882737744644
+      },
+      "search_ratio": {
+        "value": 0.4431806059312994,
+        "z_score": 1.705671177433864
+      },
+      "product_exploration_ratio": {
+        "value": 0.5391241732451462,
+        "z_score": 3.6825312034562008
+      },
+      "review_engagement_ratio": {
+        "value": 0.8846735318433967,
+        "z_score": 4.288736741850572
+      },
+      "filter_usage_ratio": {
+        "value": 0.056419351397482394,
+        "z_score": 0.8034182206241091
+      },
+      "option_selection_ratio": {
+        "value": 0.34004960529123107,
+        "z_score": 1.1318929820283026
+      },
+      "input_ratio": {
+        "value": 0.4163377426925539,
+        "z_score": 2.1979892908194807
+      }
+    },
+    "distinguishing_traits": {
+      "high": [
+        {
+          "metric": "action_density",
+          "z_score": 5.815060116124101
+        },
+        {
+          "metric": "review_engagement_ratio",
+          "z_score": 4.288736741850572
+        },
+        {
+          "metric": "product_exploration_ratio",
+          "z_score": 3.6825312034562008
+        }
+      ],
+      "low": []
+    },
+    "representative_session": {
+      "session_id": "4363ae6f-d1a1-4790-abe3-ffab842ac201_2025-04-08T22:13:43.483000Z_2025-04-08T22:26:38.608000Z",
+      "user_id": "4363ae6f-d1a1-4790-abe3-ffab842ac201",
+      "month": "2025-04 (April)",
+      "duration_seconds": 0.7339449541284404,
+      "action_count": 0,
+      "demographics": {
+        "Gender": "Female",
+        "Age": "18-24 years old",
+        "City": "Jersey City",
+        "Education level": "Graduate degree or current grad student (MA, MS, MBA, etc.)",
+        "Living situation": "Live together",
+        "Yearly household income or stipend": "Prefer not to say",
+        "Employment status": "Student"
+      },
+      "personality": {
+        "MBTI personality type": "ENTJ",
+        "Big Five Scores": {
+          "Extraversion": "High",
+          "Agreeableness": "Extremely high",
+          "Conscientiousness": "Extremely high",
+          "Emotional Stability": "Extremely high",
+          "Intellect": "High"
+        }
+      }
+    }
+  },
+  {
+    "cluster_id": 4,
+    "name": "Search-Driven Navigator",
+    "description": "Heavy search and text input usage",
+    "session_count": 69,
+    "centroid": {
+      "pca_x": 0.19990544880187344,
+      "pca_y": -0.5821208180710133
+    },
+    "behavioral_metrics": {
+      "session_duration_seconds": {
+        "value": 0.4286331604839781,
+        "z_score": -0.5218663431781438
+      },
+      "action_density": {
+        "value": 0.49930195452732345,
+        "z_score": 5.817459472782419
+      },
+      "total_action_count": {
+        "value": 0.3363748171785667,
+        "z_score": -0.6768836710419046
+      },
+      "purchase_intent_ratio": {
+        "value": 0.2795007312857333,
+        "z_score": 1.6649829867775703
+      },
+      "search_ratio": {
+        "value": 0.7289589150378939,
+        "z_score": 3.3048468863536065
+      },
+      "product_exploration_ratio": {
+        "value": 0.0,
+        "z_score": -0.7645584095825315
+      },
+      "review_engagement_ratio": {
+        "value": 0.0,
+        "z_score": -0.41698819139385995
+      },
+      "filter_usage_ratio": {
+        "value": 0.07151642068873822,
+        "z_score": 1.0678682920534945
+      },
+      "option_selection_ratio": {
+        "value": 0.05361654035367638,
+        "z_score": -0.3162104045243796
+      },
+      "input_ratio": {
+        "value": 0.7758775428799362,
+        "z_score": 4.803740818270175
+      }
+    },
+    "distinguishing_traits": {
+      "high": [
+        {
+          "metric": "action_density",
+          "z_score": 5.817459472782419
+        },
+        {
+          "metric": "input_ratio",
+          "z_score": 4.803740818270175
+        },
+        {
+          "metric": "search_ratio",
+          "z_score": 3.3048468863536065
+        }
+      ],
+      "low": []
+    },
+    "representative_session": {
+      "session_id": "680c63e0-6620-465b-a9ad-2a187fdf481e_2025-04-20T21:09:29.314000Z_2025-04-20T21:12:32.091000Z",
+      "user_id": "680c63e0-6620-465b-a9ad-2a187fdf481e",
+      "month": "2025-04 (April)",
+      "duration_seconds": 0.4334862385321101,
+      "action_count": 0,
+      "demographics": {},
+      "personality": {}
+    }
+  }
+]
