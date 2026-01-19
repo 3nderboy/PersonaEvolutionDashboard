@@ -98,43 +98,46 @@ The project follows a modern **Client–Server architecture** to separate data-h
 
 ## Getting Started
 
-**Prerequisites:**  
+## Quick Start Guide
 
-- Node.js (v18+, tested with v24.11.1)
-- Python (3.9+, tested with Python 3.14.0)
+Follow these steps to get the project running from scratch.
 
-**Frontend Setup (React)**:
+### 1. Backend Setup (Data Pipeline)
+The backend processes the OPeRA dataset and generates the JSON files required by the frontend.
 
-The frontend handles the visualization. Currently (11.01.2026), it runs on mock data derived from our Python analysis.
+```bash
+cd backend
 
-The whole frontend gets deployed automatically to GitHub-Pages when there is a push/merge to the main-branch.  
+# 1. Install Python dependencies
+pip install -r requirements.txt
 
-The link for the GitHub-Page is the following:  
-Open [Persona Evolution Dashboard](https://3nderboy.github.io/PersonaEvolutionDashboard/) in your browser.
+# 2. Download OPeRA Dataset
+# This downloads the necessary CSV files to backend/data/NEU-HAI__OPeRA
+python scripts/download_hf_dataset.py
 
-If you want to try it out locally, run the following commands in the terminal after forking the project:
+# 3. Run Persona Generation Pipeline
+# This processes independent sessions, clusters them, and generates:
+# - personas.json
+# - sessions.json
+# - monthly_clusters.json
+# Output goes to: frontend/public/data/personas/
+python scripts/persona_clustering.py
+```
 
-```text
+### 2. Frontend Setup (Dashboard)
+The frontend visualizes the generated data.
+
+```bash
 cd frontend
+
+# 1. Install Node.js dependencies
 npm install
+
+# 2. Start the Development Server
 npm run dev
 ```
 
-Open http://localhost:5173 in your browser.
-
-
-**Backend Setup (Python)**:
-
-**Dataset Download**:
-
-Download the OPeRA dataset from HuggingFace:
-
-Optional: Create .env with HF_TOKEN for authenticated access
-
-```bash
-# Run the download script
-py backend/scripts/download_hf_dataset.py
-```
+Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 
 ## Data Analysis Workflow
@@ -160,14 +163,7 @@ Data Science: Pandas, Scikit-learn, NumPy.
 
 ## Used Dataset
 
-The dashboard uses the **OPeRA dataset** from [NEU-HAI on HuggingFace](https://huggingface.co/datasets/NEU-HAI/OPeRA). The sample data generation script (`backend/scripts/generate_sample_data.py`) extracts user profiles with behavioral metrics and real interview transcripts.
-
-To regenerate sample data:
-```bash
-python backend/scripts/generate_sample_data.py
-```
-Output is placed in `frontend/public/data/sample/`.
-
+The dashboard uses the **OPeRA dataset** from [NEU-HAI on HuggingFace](https://huggingface.co/datasets/NEU-HAI/OPeRA).
 
 ## Project Status & Roadmap
 
