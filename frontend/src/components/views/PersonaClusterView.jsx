@@ -28,12 +28,77 @@ const formatMetricName = (name) => {
 };
 
 // Persona Detail Panel Component
-const PersonaDetailPanel = ({ persona, onClose }) => {
+// Persona Detail Panel Component
+const PersonaDetailPanel = ({ persona, onClose, sessions = [], selectedMonth, onMonthChange, availableMonths = [] }) => {
+
+    // Filter sessions for this persona in this month
+    const monthSessions = useMemo(() => {
+        if (!sessions || !selectedMonth || !persona) return [];
+        return sessions.filter(s =>
+            s.cluster_id === persona.cluster_id &&
+            s.month === selectedMonth
+        );
+    }, [sessions, selectedMonth, persona]);
+
+    // Calculate monthly average metrics
+    const monthlyMetrics = useMemo(() => {
+        if (monthSessions.length === 0 || !persona) return persona?.behavioral_metrics;
+
+        const sums = {};
+        const count = monthSessions.length;
+        const keys = Object.keys(monthSessions[0].behavioral_metrics);
+
+        keys.forEach(key => sums[key] = 0);
+
+        monthSessions.forEach(s => {
+            Object.entries(s.behavioral_metrics).forEach(([key, val]) => {
+                sums[key] += val;
+            });
+        });
+
+        const avgs = {};
+        keys.forEach(key => {
+            // Keep original Z-Score for reference (as we can't recompute it easily), but update Value
+            avgs[key] = {
+                value: sums[key] / count,
+                z_score: persona.behavioral_metrics[key]?.z_score || 0
+            };
+        });
+
+        return avgs;
+    }, [monthSessions, persona]);
+
+    // Finds representative session for this month (closest to monthly average)
+    const monthRepSession = useMemo(() => {
+        if (monthSessions.length === 0 || !persona) return persona?.representative_session;
+
+        // Simple: just take the one closest to the average vector
+        let bestSession = monthSessions[0];
+        let minDist = Infinity;
+
+        monthSessions.forEach(session => {
+            let dist = 0;
+            Object.keys(monthlyMetrics).forEach(key => {
+                const diff = session.behavioral_metrics[key] - monthlyMetrics[key].value;
+                dist += diff * diff;
+            });
+
+            if (dist < minDist) {
+                minDist = dist;
+                bestSession = session;
+            }
+        });
+
+        return bestSession;
+    }, [monthSessions, monthlyMetrics, persona]);
+
+    // Render nothing if no persona (but hooks have run)
     if (!persona) return null;
 
-    const metrics = persona.behavioral_metrics || {};
-    const rep = persona.representative_session || {};
+    const metrics = monthlyMetrics || {};
+    const rep = monthRepSession || {};
     const traits = persona.distinguishing_traits || { high: [], low: [] };
+    const sessionCount = monthSessions.length > 0 ? monthSessions.length : 0;
 
     // Prepare radar data
     const radarData = Object.entries(metrics).map(([key, data]) => ({
@@ -42,8 +107,8 @@ const PersonaDetailPanel = ({ persona, onClose }) => {
         fullMark: 1
     }));
 
-    // Prepare bar data for z-scores
-    const barData = Object.entries(metrics)
+    // Prepare bar data for z-scores (Using Global Archetype Z-Scores)
+    const barData = Object.entries(persona.behavioral_metrics) // Use global for Z-scores
         .map(([key, data]) => ({
             metric: formatMetricName(key),
             z_score: data.z_score,
@@ -70,7 +135,26 @@ const PersonaDetailPanel = ({ persona, onClose }) => {
                         <p className="text-slate-400">{persona.description}</p>
                         <div className="flex gap-4 mt-3 text-sm">
                             <span className="text-slate-500">Cluster {persona.cluster_id}</span>
-                            <span className="text-sky-400">{persona.session_count} sessions</span>
+                            <span className="text-sky-400">{sessionCount} sessions ({selectedMonth})</span>
+                        </div>
+
+                        {/* Month Switcher inside Modal */}
+                        <div className="flex gap-2 mt-4">
+                            {availableMonths.map(m => (
+                                <button
+                                    key={m}
+                                    onClick={() => onMonthChange && onMonthChange(m)}
+                                    className={`
+                                        px-3 py-1.5 rounded-lg text-xs font-medium transition-all
+                                        ${selectedMonth === m
+                                            ? 'bg-sky-500/20 text-sky-300 border border-sky-500/50'
+                                            : 'bg-slate-800 text-slate-400 border border-slate-700 hover:bg-slate-700 hover:text-white'
+                                        }
+                                    `}
+                                >
+                                    {m}
+                                </button>
+                            ))}
                         </div>
                     </div>
                     <button
@@ -769,6 +853,10 @@ const PersonaClusterView = () => {
                 <PersonaDetailPanel
                     persona={selectedPersona}
                     onClose={() => setSelectedPersona(null)}
+                    sessions={sessions}
+                    selectedMonth={selectedMonth}
+                    onMonthChange={setSelectedMonth}
+                    availableMonths={sortedMonths}
                 />
             )}
 
