@@ -1,0 +1,95 @@
+{
+  "2025-04 (April)": {
+    "total_sessions": 368,
+    "clusters": [
+      {
+        "cluster_id": 3,
+        "pca_x": 0.41514064328383876,
+        "pca_y": 0.5255765384789209,
+        "session_count": 79
+      },
+      {
+        "cluster_id": 1,
+        "pca_x": -0.52379073925058,
+        "pca_y": -0.1689143643977625,
+        "session_count": 72
+      },
+      {
+        "cluster_id": 2,
+        "pca_x": -0.6455878460224398,
+        "pca_y": 0.288890685265429,
+        "session_count": 61
+      },
+      {
+        "cluster_id": 0,
+        "pca_x": 0.41281696780384625,
+        "pca_y": -0.15039581752043274,
+        "session_count": 98
+      },
+      {
+        "cluster_id": 4,
+        "pca_x": 0.23637955301489322,
+        "pca_y": -0.5870597578044203,
+        "session_count": 58
+      }
+    ]
+  },
+  "2025-03 (March)": {
+    "total_sessions": 12,
+    "clusters": [
+      {
+        "cluster_id": 4,
+        "pca_x": -0.03830026617673293,
+        "pca_y": -0.7001150633507481,
+        "session_count": 2
+      },
+      {
+        "cluster_id": 2,
+        "pca_x": -0.6676821009836608,
+        "pca_y": 0.18780788107889018,
+        "session_count": 4
+      },
+      {
+        "cluster_id": 0,
+        "pca_x": 0.4134199535911763,
+        "pca_y": -0.18929469645480537,
+        "session_count": 6
+      }
+    ]
+  },
+  "2025-05 (May)": {
+    "total_sessions": 57,
+    "clusters": [
+      {
+        "cluster_id": 3,
+        "pca_x": 0.3787926625730646,
+        "pca_y": 0.5739927151541421,
+        "session_count": 7
+      },
+      {
+        "cluster_id": 0,
+        "pca_x": 0.31564838046436755,
+        "pca_y": -0.09817980371520084,
+        "session_count": 12
+      },
+      {
+        "cluster_id": 1,
+        "pca_x": -0.4888335277801196,
+        "pca_y": -0.1302230636938516,
+        "session_count": 14
+      },
+      {
+        "cluster_id": 4,
+        "pca_x": 0.01778471386876996,
+        "pca_y": -0.5240711519491168,
+        "session_count": 9
+      },
+      {
+        "cluster_id": 2,
+        "pca_x": -0.6238205953595642,
+        "pca_y": 0.48613004294306295,
+        "session_count": 15
+      }
+    ]
+  }
+}

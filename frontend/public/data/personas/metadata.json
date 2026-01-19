@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-01-19T23:32:29.681025",
+  "total_sessions": 437,
+  "total_clusters": 5,
+  "months": [
+    "2025-03 (March)",
+    "2025-04 (April)",
+    "2025-05 (May)"
+  ],
+  "bkm_columns": [
+    "session_duration_seconds",
+    "action_density",
+    "total_action_count",
+    "purchase_intent_ratio",
+    "search_ratio",
+    "product_exploration_ratio",
+    "review_engagement_ratio",
+    "filter_usage_ratio",
+    "option_selection_ratio",
+    "input_ratio"
+  ],
+  "pca_bounds": {
+    "x_min": -1.4346060286213425,
+    "x_max": 1.3040182824149833,
+    "y_min": -1.284420941763453,
+    "y_max": 1.3728676696945121
+  }
+}

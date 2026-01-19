@@ -29,4 +29,3 @@ dist-ssr
 !.env.example
 
 # Downloaded data
-backend/data/*
