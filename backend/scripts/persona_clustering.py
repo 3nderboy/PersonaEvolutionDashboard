@@ -1,6 +1,6 @@
 """
-PersonaCraft Pipeline: Session-Based Behavioral Persona Generation
-===================================================================
+Session-Based Behavioral Persona Generation Pipeline
+====================================================
 
 This script implements the PersonaCraft methodology adapted for the OPeRA dataset.
 It processes behavioral action data to generate data-driven personas using:
