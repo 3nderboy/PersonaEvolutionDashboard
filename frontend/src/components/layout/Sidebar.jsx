@@ -9,7 +9,7 @@ const Sidebar = () => {
         <div className="w-8 h-8 bg-sky-500 rounded-lg flex items-center justify-center mr-3 shadow-lg shadow-sky-500/20">
           <span className="text-white font-bold text-lg">P</span>
         </div>
-        <span className="text-white font-bold text-lg tracking-tight">PersonaCraft</span>
+        <span className="text-white font-bold text-lg tracking-tight">Persona Evolution</span>
       </div>
 
       {/* Navigation */}
