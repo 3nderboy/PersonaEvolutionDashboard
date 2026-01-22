@@ -124,7 +124,44 @@ python scripts/download_hf_dataset.py
 python scripts/persona_clustering.py
 ```
 
-### 2. Frontend Setup (Dashboard)
+### 2. LLM Persona Extraction (Optional)
+
+Generate rich narrative personas from interview transcripts using an LLM.
+
+#### How It Works
+
+| Phase | Description |
+|-------|-------------|
+| **1. Load** | Reads interview transcripts from `backend/data/NEU-HAI__OPeRA/user.csv` |
+| **2. Extract** | Sends each transcript to the LLM with a structured prompt |
+| **3. Save** | Stores result as `frontend/public/data/personas/{user_id}.json` |
+
+#### Provider Options
+
+| Provider | Setup | Cost |
+|----------|-------|------|
+| **Ollama (Local)** | Install [Ollama](https://ollama.ai/), run `ollama pull gemma3` | Free |
+| **OpenAI** | Set `OPENAI_API_KEY` in `backend/.env` | ~$0.01/persona |
+
+#### Run Extraction
+
+```bash
+cd backend
+python scripts/extract_personas.py
+```
+
+> **Note:** The script is **resumable** — press `Ctrl+C` to stop, run again to continue.
+
+#### Output
+
+Each extracted persona is saved as an individual JSON file:
+```
+frontend/public/data/personas/{user_id}.json
+```
+
+> **Status:** Dashboard integration for viewing extracted personas is in development.
+
+### 3. Frontend Setup (Dashboard)
 The frontend visualizes the generated data.
 
 ```bash
