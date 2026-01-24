@@ -1,46 +1,47 @@
 import React, { useState, useEffect } from 'react';
 
 /**
- * PersonaGeneratorView - Displays LLM-extracted personas
- * Loads data from /data/personas/{user_id}.json files
+ * UserProfileView - Displays LLM-extracted user profiles
+ * Loads data from /data/users/llm_users.json
  */
-const PersonaGeneratorView = () => {
-    const [personas, setPersonas] = useState([]);
+const UserProfileView = () => {
+    const [userProfiles, setUserProfiles] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
-    const [selectedPersona, setSelectedPersona] = useState(null);
+    const [selectedProfile, setSelectedProfile] = useState(null);
 
     useEffect(() => {
-        loadPersonas();
+        loadUserProfiles();
     }, []);
 
-    const loadPersonas = async () => {
+    const loadUserProfiles = async () => {
         try {
             // Use Vite's BASE_URL for proper path resolution
             const baseUrl = import.meta.env.BASE_URL || '/';
-            const response = await fetch(`${baseUrl}data/personas/llm_personas.json`);
+            const response = await fetch(`${baseUrl}data/users/llm_users.json`);
 
             // If file doesn't exist (404), show empty state instead of error
             if (!response.ok) {
-                setPersonas([]);
+                setUserProfiles([]);
                 setLoading(false);
                 return;
             }
 
             const data = await response.json();
 
-            // Filter to only include LLM-extracted personas (have a "persona" field with demographics)
-            const llmPersonas = data.filter(p =>
-                p.persona && p.persona.demographics
-            );
+            // Filter to only include LLM-extracted user profiles (have a "profile" or "persona" field with demographics)
+            const llmProfiles = data.filter(p => {
+                const profileData = p.profile || p.persona;
+                return profileData && profileData.demographics;
+            });
 
-            setPersonas(llmPersonas);
-            if (llmPersonas.length > 0) {
-                setSelectedPersona(llmPersonas[0]);
+            setUserProfiles(llmProfiles);
+            if (llmProfiles.length > 0) {
+                setSelectedProfile(llmProfiles[0]);
             }
         } catch (err) {
             // JSON parse error or network error - show empty state
-            setPersonas([]);
+            setUserProfiles([]);
         } finally {
             setLoading(false);
         }
@@ -49,7 +50,7 @@ const PersonaGeneratorView = () => {
     if (loading) {
         return (
             <div className="flex items-center justify-center h-64">
-                <div className="text-slate-400">Loading personas...</div>
+                <div className="text-slate-400">Loading user profiles...</div>
             </div>
         );
     }
@@ -57,21 +58,21 @@ const PersonaGeneratorView = () => {
     if (error) {
         return (
             <div className="bg-red-500/10 border border-red-500/30 rounded-xl p-6 text-center">
-                <div className="text-red-400 text-lg mb-2">Failed to load personas</div>
+                <div className="text-red-400 text-lg mb-2">Failed to load user profiles</div>
                 <div className="text-slate-500 text-sm">{error}</div>
             </div>
         );
     }
 
-    if (personas.length === 0) {
+    if (userProfiles.length === 0) {
         return (
             <div className="bg-slate-800/50 border border-slate-700/50 rounded-xl p-8 text-center">
                 <div className="text-4xl mb-4">🤖</div>
-                <div className="text-slate-300 text-lg mb-2">No LLM-Extracted Personas Yet</div>
+                <div className="text-slate-300 text-lg mb-2">No LLM-Extracted User Profiles Yet</div>
                 <div className="text-slate-500 text-sm max-w-md mx-auto">
-                    Run the extraction script to generate personas from interview transcripts:
+                    Run the extraction script to generate user profiles from interview transcripts:
                     <code className="block mt-3 bg-slate-900 px-4 py-2 rounded-lg text-sky-400 text-xs">
-                        python backend/scripts/extract_personas.py
+                        python backend/scripts/extract_users.py
                     </code>
                 </div>
             </div>
@@ -83,38 +84,38 @@ const PersonaGeneratorView = () => {
             {/* Header */}
             <div className="flex items-center justify-between">
                 <div>
-                    <h1 className="text-2xl font-bold text-white">LLM-Extracted Personas</h1>
+                    <h1 className="text-2xl font-bold text-white">LLM-Extracted User Profiles</h1>
                     <p className="text-slate-400 text-sm mt-1">
-                        {personas.length} persona{personas.length !== 1 ? 's' : ''} extracted from interview transcripts
+                        {userProfiles.length} user profile{userProfiles.length !== 1 ? 's' : ''} extracted from interview transcripts
                     </p>
                 </div>
                 <div className="bg-emerald-500/20 text-emerald-400 px-4 py-2 rounded-lg text-sm font-medium">
-                    ✓ {personas.length} Processed
+                    ✓ {userProfiles.length} Processed
                 </div>
             </div>
 
             <div className="grid grid-cols-12 gap-6">
-                {/* Persona List */}
+                {/* User Profile List */}
                 <div className="col-span-4 space-y-3">
-                    {personas.map((p) => (
+                    {userProfiles.map((p) => (
                         <button
                             key={p.user_id}
-                            onClick={() => setSelectedPersona(p)}
-                            className={`w-full text-left p-4 rounded-xl transition-all duration-200 ${selectedPersona?.user_id === p.user_id
+                            onClick={() => setSelectedProfile(p)}
+                            className={`w-full text-left p-4 rounded-xl transition-all duration-200 ${selectedProfile?.user_id === p.user_id
                                 ? 'bg-sky-500/20 border border-sky-500/50'
                                 : 'bg-slate-800/50 border border-slate-700/50 hover:border-slate-600'
                                 }`}
                         >
                             <div className="flex items-center gap-3">
                                 <div className="w-10 h-10 bg-gradient-to-br from-sky-500 to-purple-500 rounded-full flex items-center justify-center text-white font-bold">
-                                    {p.persona?.demographics?.gender?.[0]?.toUpperCase() || '?'}
+                                    {(p.profile || p.persona)?.demographics?.gender?.[0]?.toUpperCase() || '?'}
                                 </div>
                                 <div className="flex-1 min-w-0">
                                     <div className="text-white font-medium truncate">
-                                        {p.persona?.demographics?.occupation || 'Unknown Occupation'}
+                                        {(p.profile || p.persona)?.demographics?.occupation || 'Unknown Occupation'}
                                     </div>
                                     <div className="text-slate-400 text-xs truncate">
-                                        {p.persona?.demographics?.location || 'Unknown Location'}
+                                        {(p.profile || p.persona)?.demographics?.location || 'Unknown Location'}
                                     </div>
                                 </div>
                             </div>
@@ -122,10 +123,10 @@ const PersonaGeneratorView = () => {
                     ))}
                 </div>
 
-                {/* Persona Detail */}
+                {/* User Profile Detail */}
                 <div className="col-span-8">
-                    {selectedPersona && (
-                        <PersonaCard persona={selectedPersona} />
+                    {selectedProfile && (
+                        <UserProfileCard userProfile={selectedProfile} />
                     )}
                 </div>
             </div>
@@ -134,10 +135,10 @@ const PersonaGeneratorView = () => {
 };
 
 /**
- * PersonaCard - Displays detailed persona information
+ * UserProfileCard - Displays detailed user profile information
  */
-const PersonaCard = ({ persona }) => {
-    const p = persona.persona;
+const UserProfileCard = ({ userProfile }) => {
+    const p = userProfile.profile || userProfile.persona;
 
     if (!p) return null;
 
@@ -205,7 +206,7 @@ const PersonaCard = ({ persona }) => {
             {/* Footer */}
             <div className="px-6 py-4 bg-slate-900/50 border-t border-slate-700/50">
                 <div className="text-xs text-slate-500">
-                    User ID: <span className="text-slate-400 font-mono">{persona.user_id}</span>
+                    User ID: <span className="text-slate-400 font-mono">{userProfile.user_id}</span>
                 </div>
             </div>
         </div>
@@ -213,7 +214,7 @@ const PersonaCard = ({ persona }) => {
 };
 
 /**
- * Section component for grouping persona data
+ * Section component for grouping user profile data
  */
 const Section = ({ title, icon, children }) => (
     <div>
@@ -271,4 +272,4 @@ const TagList = ({ label, items, color = 'sky' }) => {
     );
 };
 
-export default PersonaGeneratorView;
+export default UserProfileView;

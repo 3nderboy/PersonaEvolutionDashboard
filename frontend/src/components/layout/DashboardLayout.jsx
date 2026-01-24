@@ -16,7 +16,7 @@ const DashboardLayout = ({ children }) => {
         {children}
       </div>
       <footer className="h-10 border-t border-slate-800 flex items-center px-6 text-xs text-slate-600 bg-slate-900/50">
-        Demo Dashboard - Not finished
+        Persona Evolution Dashboard - Not finished
       </footer>
     </main>
   );

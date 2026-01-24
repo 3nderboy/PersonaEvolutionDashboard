@@ -1,10 +1,10 @@
 """
-Persona Extraction Script
-Extracts structured persona data from OPeRA interview transcripts using LLM.
+User Profile Extraction Script
+Extracts structured user profile data from OPeRA interview transcripts using LLM.
 
 Usage:
-    python extract_personas.py                    # Use Ollama (default)
-    python extract_personas.py --provider openai  # Use OpenAI
+    python extract_users.py                    # Use Ollama (default)
+    python extract_users.py --provider openai  # Use OpenAI
 
 Features:
     - Resumable: Skips already processed users
@@ -12,7 +12,7 @@ Features:
     - Interrupt: Ctrl+C safe, progress is saved
     
 Output:
-    frontend/public/data/personas/{user_id}.json
+    frontend/public/data/users/{user_id}.json
 """
 
 import os
@@ -35,10 +35,10 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
 OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
 
 DATA_DIR = Path(__file__).parent.parent / "data" / "NEU-HAI__OPeRA"
-OUTPUT_DIR = Path(__file__).parent.parent.parent / "frontend" / "public" / "data" / "personas"
+OUTPUT_DIR = Path(__file__).parent.parent.parent / "frontend" / "public" / "data" / "users"
 
 # --- Prompt Template ---
-SYSTEM_PROMPT = """You are a persona extraction expert. Analyze the interview transcript and extract a structured persona.
+SYSTEM_PROMPT = """You are a user profile extraction expert. Analyze the interview transcript and extract a structured user profile.
 
 Return ONLY valid JSON with this exact structure (no markdown, no explanation):
 {
@@ -63,7 +63,7 @@ Return ONLY valid JSON with this exact structure (no markdown, no explanation):
     "research_habits": "string description",
     "brand_loyalty": "string (high/medium/low)"
   },
-  "narrative": "A 2-3 sentence summary of this persona in third person"
+  "narrative": "A 2-3 sentence summary of this user in third person"
 }
 
 Extract ONLY what is explicitly stated or clearly implied in the transcript. Use null for unknown fields."""
@@ -127,13 +127,13 @@ def is_already_processed(user_id: str) -> bool:
     return get_output_path(user_id).exists()
 
 
-def save_persona(user_id: str, persona: dict, survey_data: str = None):
-    """Save extracted persona to JSON file."""
+def save_user_profile(user_id: str, profile: dict, survey_data: str = None):
+    """Save extracted user profile to JSON file."""
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     
     output = {
         "user_id": user_id,
-        "persona": persona,
+        "profile": profile,
         "survey_data": survey_data
     }
     
@@ -142,7 +142,7 @@ def save_persona(user_id: str, persona: dict, survey_data: str = None):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Extract personas from interview transcripts")
+    parser = argparse.ArgumentParser(description="Extract user profiles from interview transcripts")
     parser.add_argument("--provider", choices=["ollama", "openai"], default="ollama",
                         help="LLM provider to use (default: ollama)")
     args = parser.parse_args()
@@ -150,25 +150,25 @@ def main():
     # Select extraction function
     if args.provider == "openai":
         if not OPENAI_API_KEY:
-            print("❌ OPENAI_API_KEY not set in environment")
+            print("[ERR] OPENAI_API_KEY not set in environment")
             return
         extract_fn = extract_with_openai
-        print(f"🔑 Using OpenAI ({OPENAI_MODEL})")
+        print(f"[*] Using OpenAI ({OPENAI_MODEL})")
     else:
         extract_fn = extract_with_ollama
-        print(f"🦙 Using Ollama ({OLLAMA_MODEL})")
+        print(f"[*] Using Ollama ({OLLAMA_MODEL})")
     
     # Load users
-    print("📂 Loading user data...")
+    print("[*] Loading user data...")
     users_df = load_users()
     total = len(users_df)
-    print(f"   Found {total} users with interview transcripts")
+    print(f"    Found {total} users with interview transcripts")
     
     # Count already processed
     already_done = sum(1 for _, row in users_df.iterrows() 
                        if is_already_processed(row["user_id"]))
     if already_done > 0:
-        print(f"⏭️  Skipping {already_done} already processed users")
+        print(f"[*] Skipping {already_done} already processed users")
     
     # Process users
     errors = []
@@ -184,26 +184,26 @@ def main():
             transcript = row["interview_transcript"]
             survey = row.get("survey", None)
             
-            persona = extract_fn(transcript)
-            save_persona(user_id, persona, survey)
+            profile = extract_fn(transcript)
+            save_user_profile(user_id, profile, survey)
             processed += 1
             
         except KeyboardInterrupt:
-            print(f"\n⚠️ Interrupted! Processed {processed} new users.")
-            print("   Run again to resume from where you left off.")
+            print(f"\n[!] Interrupted! Processed {processed} new users.")
+            print("    Run again to resume from where you left off.")
             break
             
         except Exception as e:
             errors.append({"user_id": user_id, "error": str(e)})
-            tqdm.write(f"❌ Error for {user_id}: {e}")
+            tqdm.write(f"[ERR] Error for {user_id}: {e}")
     
     # Save errors log
     if errors:
         error_log = OUTPUT_DIR / "extraction_errors.json"
         error_log.write_text(json.dumps(errors, indent=2))
-        print(f"⚠️ {len(errors)} errors logged to {error_log}")
+        print(f"[!] {len(errors)} errors logged to {error_log}")
     
-    print(f"\n✅ Done! Processed {processed} new users.")
+    print(f"\n[DONE] Processed {processed} new users.")
 
 
 if __name__ == "__main__":

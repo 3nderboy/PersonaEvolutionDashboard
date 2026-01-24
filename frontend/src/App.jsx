@@ -4,7 +4,7 @@ import Sidebar from './components/layout/Sidebar.jsx';
 import DashboardLayout from './components/layout/DashboardLayout.jsx';
 import OverviewView from './components/views/OverviewView.jsx';
 import PersonaClusterView from './components/views/PersonaClusterView.jsx';
-import PersonaGeneratorView from './components/views/PersonaGeneratorView.jsx';
+import UserProfileView from './components/views/UserProfileView.jsx';
 
 // Main App Component
 const App = () => {
@@ -16,7 +16,7 @@ const App = () => {
                     <Routes>
                         <Route path="/" element={<OverviewView />} />
                         <Route path="/personas" element={<PersonaClusterView />} />
-                        <Route path="/generator" element={<PersonaGeneratorView />} />
+                        <Route path="/users" element={<UserProfileView />} />
                         <Route path="*" element={<Navigate to="/" replace />} />
                     </Routes>
                 </DashboardLayout>
