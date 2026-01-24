@@ -117,6 +117,7 @@ python scripts/download_hf_dataset.py
 
 # 3. Run Persona Generation Pipeline
 # This processes independent sessions, clusters them, and generates:
+# - metadata.json
 # - personas.json
 # - sessions.json
 # - monthly_clusters.json
@@ -124,7 +125,53 @@ python scripts/download_hf_dataset.py
 python scripts/persona_clustering.py
 ```
 
-### 2. Frontend Setup (Dashboard)
+### 2. LLM User Profile Extraction (Optional)
+
+Generate rich user profile data from interview transcripts using an LLM.
+
+#### How It Works
+
+| Phase | Description |
+|-------|-------------|
+| **1. Load** | Reads interview transcripts from `backend/data/NEU-HAI__OPeRA/user.csv` |
+| **2. Extract** | Sends each transcript to the LLM with a structured prompt |
+| **3. Save** | Stores result as `frontend/public/data/users/{user_id}.json` |
+| **4. Combine** | Merges all user profiles into `llm_users.json` for the frontend |
+
+#### Provider Options
+
+| Provider | Setup | Cost |
+|----------|-------|------|
+| **Ollama (Local)** | Install [Ollama](https://ollama.ai/), run `ollama pull gemma3` | Free |
+| **OpenAI** | Set `OPENAI_API_KEY` in `backend/.env` | ~$0.01/user |
+
+#### Run Extraction
+
+```bash
+cd backend
+
+# Extract user profiles from transcripts
+python scripts/extract_users.py
+
+# Combine individual files for the frontend
+python scripts/combine_users.py
+```
+
+> **Note:** The extraction script is **resumable** — press `Ctrl+C` to stop, run again to continue.
+
+#### Output
+
+Each extracted user profile is saved as an individual JSON file:
+```
+frontend/public/data/users/{user_id}.json
+```
+
+The combined file for the frontend:
+```
+frontend/public/data/users/llm_users.json
+```
+
+### 3. Frontend Setup (Dashboard)
 The frontend visualizes the generated data.
 
 ```bash

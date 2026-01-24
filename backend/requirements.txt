@@ -5,3 +5,5 @@ pandas
 tqdm
 numpy
 scikit-learn
+requests
+openai
