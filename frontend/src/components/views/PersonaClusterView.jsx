@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { ScatterChart, Scatter, XAxis, YAxis, ZAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell } from 'recharts';
 import { BarChart, Bar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Radar } from 'recharts';
+import { UserProfileCard } from './UserProfileView';
 
 // Cluster colors matching new persona names
 const CLUSTER_COLORS = [
@@ -294,12 +295,12 @@ const PersonaDetailPanel = ({ persona, onClose, sessions = [], selectedMonth, on
 };
 
 // Session Detail Panel Component (for individual session clicks)
-const SessionDetailPanel = ({ session, personas, onClose }) => {
+const SessionDetailPanel = ({ session, personas, userProfiles, onClose }) => {
     if (!session) return null;
 
     const persona = personas.find(p => p.cluster_id === session.cluster_id);
     const metrics = session.behavioral_metrics || {};
-    const user = session.user || {};
+
 
     // Format session time from ID
     const getSessionTime = (sessionId) => {
@@ -388,68 +389,22 @@ const SessionDetailPanel = ({ session, personas, onClose }) => {
                         </div>
                     </div>
 
-                    {/* User Demographics */}
-                    {Object.keys(user.demographics || {}).length > 0 && (
-                        <div>
-                            <h3 className="text-sm font-semibold text-slate-400 uppercase tracking-wider mb-3">
-                                User Demographics
-                            </h3>
-                            <div className="grid grid-cols-2 gap-2">
-                                {Object.entries(user.demographics).map(([key, value]) => (
-                                    <div key={key} className="flex justify-between text-sm">
-                                        <span className="text-slate-400">{key}</span>
-                                        <span className="text-white">{value}</span>
+                    {/* User Profile from LLM (New) */}
+                    {userProfiles && session && (
+                        (() => {
+                            const userProfile = userProfiles.find(p => p.user_id === session.user_id);
+                            if (userProfile) {
+                                return (
+                                    <div>
+                                        <h3 className="text-sm font-semibold text-slate-400 uppercase tracking-wider mb-3">
+                                            User Profile (LLM Extracted)
+                                        </h3>
+                                        <UserProfileCard userProfile={userProfile} />
                                     </div>
-                                ))}
-                            </div>
-                        </div>
-                    )}
-
-                    {/* User Personality */}
-                    {(user.personality?.['MBTI personality type'] || user.personality?.['Big Five Scores']) && (
-                        <div>
-                            <h3 className="text-sm font-semibold text-slate-400 uppercase tracking-wider mb-3">
-                                Personality
-                            </h3>
-                            {user.personality?.['MBTI personality type'] && (
-                                <div className="mb-3">
-                                    <span className="px-3 py-1 bg-sky-500/20 text-sky-300 rounded-full text-sm">
-                                        {user.personality['MBTI personality type']}
-                                    </span>
-                                </div>
-                            )}
-                            {user.personality?.['Big Five Scores'] && (
-                                <div className="grid grid-cols-2 gap-2">
-                                    {Object.entries(user.personality['Big Five Scores']).map(([trait, level]) => (
-                                        <div key={trait} className="flex justify-between text-sm">
-                                            <span className="text-slate-400">{trait}</span>
-                                            <span className={`
-                                                ${level === 'High' || level === 'Extremely high' ? 'text-green-400' : ''}
-                                                ${level === 'Medium' ? 'text-yellow-400' : ''}
-                                                ${level === 'Low' ? 'text-red-400' : ''}
-                                            `}>{level}</span>
-                                        </div>
-                                    ))}
-                                </div>
-                            )}
-                        </div>
-                    )}
-
-                    {/* Shopping Preferences */}
-                    {Object.keys(user.shopping_preferences || {}).length > 0 && (
-                        <div>
-                            <h3 className="text-sm font-semibold text-slate-400 uppercase tracking-wider mb-3">
-                                Shopping Preferences
-                            </h3>
-                            <div className="space-y-2 text-sm">
-                                {Object.entries(user.shopping_preferences).slice(0, 5).map(([key, value]) => (
-                                    <div key={key}>
-                                        <span className="text-slate-400">{key}: </span>
-                                        <span className="text-white">{typeof value === 'string' ? value : JSON.stringify(value)}</span>
-                                    </div>
-                                ))}
-                            </div>
-                        </div>
+                                );
+                            }
+                            return null;
+                        })()
                     )}
                 </div>
             </div>
@@ -460,6 +415,7 @@ const SessionDetailPanel = ({ session, personas, onClose }) => {
 // Main View Component
 const PersonaClusterView = () => {
     const [personas, setPersonas] = useState([]);
+    const [userProfiles, setUserProfiles] = useState([]);
     const [monthlyData, setMonthlyData] = useState({});
     const [sessions, setSessions] = useState([]);
     const [metadata, setMetadata] = useState(null);
@@ -467,6 +423,7 @@ const PersonaClusterView = () => {
     const [selectedPersona, setSelectedPersona] = useState(null);
     const [selectedSession, setSelectedSession] = useState(null);
     const [showSessions, setShowSessions] = useState(false);
+    const [devFilterLLMUsersOnly, setDevFilterLLMUsersOnly] = useState(false);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
 
@@ -475,11 +432,12 @@ const PersonaClusterView = () => {
             try {
                 const baseUrl = import.meta.env.BASE_URL;
 
-                const [personasRes, monthlyRes, metaRes, sessionsRes] = await Promise.all([
+                const [personasRes, monthlyRes, metaRes, sessionsRes, usersRes] = await Promise.all([
                     fetch(`${baseUrl}data/personas/personas.json`),
                     fetch(`${baseUrl}data/personas/monthly_clusters.json`),
                     fetch(`${baseUrl}data/personas/metadata.json`),
-                    fetch(`${baseUrl}data/personas/sessions.json`)
+                    fetch(`${baseUrl}data/personas/sessions.json`),
+                    fetch(`${baseUrl}data/users/llm_users.json`)
                 ]);
 
                 if (!personasRes.ok || !monthlyRes.ok || !metaRes.ok) {
@@ -490,11 +448,13 @@ const PersonaClusterView = () => {
                 const monthlyDataRaw = await monthlyRes.json();
                 const metaData = await metaRes.json();
                 const sessionsData = sessionsRes.ok ? await sessionsRes.json() : [];
+                const userProfilesData = usersRes.ok ? await usersRes.json() : [];
 
                 setPersonas(personasData);
                 setMonthlyData(monthlyDataRaw);
                 setMetadata(metaData);
                 setSessions(sessionsData);
+                setUserProfiles(userProfilesData);
 
                 // Default to month with most sessions
                 const monthsWithData = Object.entries(monthlyDataRaw)
@@ -502,9 +462,9 @@ const PersonaClusterView = () => {
                 if (monthsWithData.length > 0) {
                     setSelectedMonth(monthsWithData[0][0]);
                 }
-            } catch (err) {
-                console.error('Error loading persona data:', err);
-                setError(err.message);
+            } catch {
+                console.error('Error loading persona data');
+                setError('Failed to load persona data');
             } finally {
                 setLoading(false);
             }
@@ -557,7 +517,14 @@ const PersonaClusterView = () => {
         if (!selectedMonth || !sessions.length) return [];
 
         return sessions
-            .filter(s => s.month === selectedMonth)
+            .filter(s => {
+                const inMonth = s.month === selectedMonth;
+                if (!inMonth) return false;
+                if (devFilterLLMUsersOnly) {
+                    return userProfiles.some(u => u.user_id === s.user_id);
+                }
+                return true;
+            })
             .map(session => ({
                 x: session.pca_x,
                 y: session.pca_y,
@@ -566,7 +533,7 @@ const PersonaClusterView = () => {
                 session_id: session.session_id,
                 color: getClusterColor(session.cluster_id)
             }));
-    }, [selectedMonth, sessions]);
+    }, [selectedMonth, sessions, devFilterLLMUsersOnly, userProfiles]);
 
     const handleClusterClick = (data) => {
         const persona = personas.find(p => p.cluster_id === data.cluster_id);
@@ -664,19 +631,34 @@ const PersonaClusterView = () => {
                         <h3 className="text-lg font-semibold text-white">
                             Cluster Distribution
                         </h3>
-                        <button
-                            onClick={() => setShowSessions(!showSessions)}
-                            className={`
-                                px-3 py-1.5 rounded-lg text-xs font-medium transition-all flex items-center gap-2
-                                ${showSessions
-                                    ? 'bg-sky-500 text-white'
-                                    : 'bg-slate-700 text-slate-300 hover:bg-slate-600'
-                                }
-                            `}
-                        >
-                            <span className={`w-2 h-2 rounded-full ${showSessions ? 'bg-white' : 'bg-slate-400'}`} />
-                            {showSessions ? 'Hide' : 'Show'} Sessions ({sessionScatterData.length})
-                        </button>
+                        <div className="flex gap-2">
+                            <button
+                                onClick={() => setDevFilterLLMUsersOnly(!devFilterLLMUsersOnly)}
+                                className={`
+                                    px-3 py-1.5 rounded-lg text-xs font-medium transition-all flex items-center gap-2
+                                    ${devFilterLLMUsersOnly
+                                        ? 'bg-amber-500/20 text-amber-300 border border-amber-500/50'
+                                        : 'bg-slate-700 text-slate-400 border border-transparent hover:bg-slate-600'
+                                    }
+                                `}
+                            >
+                                <span className="text-[10px] bg-amber-500 text-black px-1 rounded font-bold">DEV</span>
+                                Toggle Found User Profiles
+                            </button>
+                            <button
+                                onClick={() => setShowSessions(!showSessions)}
+                                className={`
+                                    px-3 py-1.5 rounded-lg text-xs font-medium transition-all flex items-center gap-2
+                                    ${showSessions
+                                        ? 'bg-sky-500 text-white'
+                                        : 'bg-slate-700 text-slate-300 hover:bg-slate-600'
+                                    }
+                                `}
+                            >
+                                <span className={`w-2 h-2 rounded-full ${showSessions ? 'bg-white' : 'bg-slate-400'}`} />
+                                {showSessions ? 'Hide' : 'Show'} Sessions ({sessionScatterData.length})
+                            </button>
+                        </div>
                     </div>
                     <div className="h-96">
                         <ResponsiveContainer width="100%" height="100%">
@@ -770,9 +752,9 @@ const PersonaClusterView = () => {
                                         onClick={handleSessionClick}
                                         style={{ cursor: 'pointer' }}
                                     >
-                                        {sessionScatterData.map((entry, index) => (
+                                        {sessionScatterData.map((entry) => (
                                             <Cell
-                                                key={`session-${index}`}
+                                                key={`session-${entry.session_id}`}
                                                 fill={entry.color}
                                                 fillOpacity={0.4}
                                                 stroke={entry.color}
@@ -865,6 +847,7 @@ const PersonaClusterView = () => {
                 <SessionDetailPanel
                     session={selectedSession}
                     personas={personas}
+                    userProfiles={userProfiles}
                     onClose={() => setSelectedSession(null)}
                 />
             )}

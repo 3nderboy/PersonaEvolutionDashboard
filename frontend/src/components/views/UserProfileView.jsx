@@ -137,7 +137,7 @@ const UserProfileView = () => {
 /**
  * UserProfileCard - Displays detailed user profile information
  */
-const UserProfileCard = ({ userProfile }) => {
+export const UserProfileCard = ({ userProfile }) => {
     const p = userProfile.profile || userProfile.persona;
 
     if (!p) return null;
@@ -216,7 +216,7 @@ const UserProfileCard = ({ userProfile }) => {
 /**
  * Section component for grouping user profile data
  */
-const Section = ({ title, icon, children }) => (
+export const Section = ({ title, icon, children }) => (
     <div>
         <h3 className="text-white font-semibold mb-3 flex items-center gap-2">
             <span>{icon}</span>
@@ -229,7 +229,7 @@ const Section = ({ title, icon, children }) => (
 /**
  * InfoItem component for key-value display
  */
-const InfoItem = ({ label, value }) => (
+export const InfoItem = ({ label, value }) => (
     <div>
         <div className="text-xs text-slate-500 mb-1">{label}</div>
         <div className="text-sm text-slate-200">{value || '—'}</div>
@@ -239,7 +239,7 @@ const InfoItem = ({ label, value }) => (
 /**
  * TagList component for displaying arrays as tags
  */
-const TagList = ({ label, items, color = 'sky' }) => {
+export const TagList = ({ label, items, color = 'sky' }) => {
     if (!items || items.length === 0) return null;
 
     const colorClasses = {
