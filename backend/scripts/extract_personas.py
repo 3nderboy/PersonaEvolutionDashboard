@@ -79,7 +79,7 @@ def extract_with_ollama(transcript: str) -> dict:
             "stream": False,
             "format": "json"
         },
-        timeout=120
+        timeout=360
     )
     response.raise_for_status()
     result = response.json()

@@ -4,7 +4,7 @@
     "persona": {
       "demographics": {
         "age_range": "25-35",
-        "gender": "Male",
+        "gender": "male",
         "location": "Blacksburg, Virginia",
         "occupation": "PhD Student (Computer Science - Machine Learning)",
         "education": "PhD",
@@ -15,47 +15,104 @@
           "Analytical",
           "Curious",
           "Detail-oriented",
-          "Self-motivated",
-          "Intellectual",
-          "Independent"
+          "Independent",
+          "Introspective",
+          "Learner"
         ],
         "interests": [
           "Machine Learning",
-          "Computer Science",
-          "Cycling",
-          "Hiking",
-          "Swimming",
-          "Reading",
-          "Cats"
+          "Computer Programming",
+          "Outdoor Activities (Cycling, Hiking)",
+          "Fitness (Gym)",
+          "Music",
+          "Shopping (particularly for cats)"
         ],
         "values": [
           "Knowledge",
-          "Continuous Learning",
+          "Self-improvement",
+          "Quality (particularly for cat products)",
           "Efficiency",
-          "Quality",
-          "Personal Growth"
+          "Value"
         ],
-        "lifestyle": "A busy, intellectually driven lifestyle centered around academic research and personal interests. He balances a demanding academic schedule with outdoor activities and a desire for self-improvement."
+        "lifestyle": "A busy academic lifestyle centered around research and learning, balanced with an interest in fitness and outdoor activities.  He values efficiency and quality, particularly when it comes to products for his cat.  His online shopping habits are driven by research and a desire for good deals."
       },
       "shopping_behavior": {
         "frequency": "Moderate",
         "preferred_categories": [
-          "Electronics",
-          "Technology",
-          "Pet Supplies",
-          "Home Goods (occasional)",
-          "Books (digital)"
+          "Electronics (specifically computer hardware & software)",
+          "Cat Supplies",
+          "Nail Polish",
+          "Fitness Equipment/Clothing"
         ],
         "decision_factors": [
           "Product Quality",
           "Shipping Speed",
-          "Price (when comparing)",
-          "Customer Reviews (especially with images)",
-          "Brand Reputation"
+          "Price (though value is more important than simply lowest price)",
+          "Reviews (especially with images)",
+          "Brand Reputation (particularly for cat products)"
         ],
-        "search_behavior": "He primarily relies on recommendations from sources like Little Red Book and actively seeks reviews with images. He is cautious about sponsored products, particularly if they appear on frequently purchased items."
-      }
+        "brand loyalty": "Low - influenced by reviews and specific product attributes",
+        "online shopping habits": "Research-driven; relies heavily on reviews and product images; skeptical of sponsored products; prefers to compare prices across multiple retailers."
+      },
+      "additional_notes": "Highly analytical and cautious consumer.  Prioritizes researching products thoroughly, particularly before making a purchase.  Influenced by online reviews and images, with a strong focus on product quality and value."
     },
     "survey_data": "{\"Demographic Information\": {\"Gender\": \"Female\", \"Age\": \"25-34 years old\", \"City\": \"Blacksburg\", \"Education level\": \"Graduate degree or current grad student (MA, MS, MBA, etc.)\", \"Living situation\": \"\", \"Yearly household income or stipend\": \"$25,000-$49,999\", \"Employment status\": \"Student\"}, \"Self Description\": {\"Two sentence description\": \"I am a PhD student in computer science, specializing in machine learning. I regularly train models, write research papers, and collaborate with other researchers. Additionally, I attend academic seminars, present my findings at conferences, and participate in lab meetings to refine my research directions.\"}, \"Shopping Preference\": {\"Online shopping frequency\": \"Once to twice a week\", \"Monthly online shopping spend $\": \"200\", \"Amazon Prime membership\": \"No\", \"To what extent do you agree with the following statements\": {\"I tend to shop more during holidays.\": \"Somewhat agree\", \"Online Ads attract my attention and are a good source of information.\": \"Somewhat agree\", \"I usually do a lot research (e.g. reading online reviews) before making purchase.\": \"Strongly agree\", \"I prioritize delivery speed and delivery fee of the product.\": \"Somewhat disagree\", \"Getting high-quality online products is very important for me.\": \"Strongly agree\", \"The more expensive online product brands are usually my choice.\": \"Somewhat agree\", \"The more I learn about online products, the harder it seems to choose the best.\": \"Somewhat disagree\", \"I shop quickly for online products, buying the first product or brand I find that seems good enough.\": \"Strongly disagree\", \"Once I find a brand I like, I stick with it.\": \"Neither agree or disagree\", \"I would buy a new or different brand of product just to see what it is like.\": \"Somewhat agree\", \"I enjoy shopping for online products just for the fun of it.\": \"Strongly agree\", \"I look carefully to find the best value for money when shopping online.\": \"Somewhat agree\"}}, \"Personality\": {\"MBTI personality type\": \"infj\", \"Big Five Scores\": {\"Extraversion\": \"Low\", \"Agreeableness\": \"Extremely high\", \"Conscientiousness\": \"High\", \"Emotional Stability\": \"Medium\", \"Intellect\": \"High\"}}}"
+  },
+  {
+    "user_id": "85aeec61-2d4e-489d-93bf-76c928d2d795",
+    "persona": {
+      "demographics": {
+        "age_range": "35-54",
+        "gender": "male",
+        "location": "Boston, MA",
+        "occupation": "Academic Researcher",
+        "education": "Master's Degree (implied)",
+        "living_situation": "Lives alone"
+      },
+      "psychographics": {
+        "personality_traits": [
+          "Analytical",
+          "Rational",
+          "Skeptical",
+          "Independent",
+          "Practical",
+          "Detail-oriented"
+        ],
+        "interests": [
+          "Research",
+          "Technology (specifically audio and recording devices)",
+          "Data Analysis",
+          "Travel (briefly)",
+          "Youtube"
+        ],
+        "values": [
+          "Efficiency",
+          "Value for Money",
+          "Reliability",
+          "Data-Driven Decisions",
+          "Trust in Personal Research"
+        ],
+        "lifestyle": "A solitary and analytical lifestyle focused on research and data, with a preference for independent decision-making and a skeptical approach to readily available information. He prioritizes functionality and cost-effectiveness, relying heavily on self-conducted research."
+      },
+      "shopping_behavior": {
+        "frequency": "Occasional",
+        "preferred_categories": [
+          "Electronics",
+          "Tech Accessories",
+          "Household Supplies (daily necessities)"
+        ],
+        "decision_factors": [
+          "Recording Quality (high priority)",
+          "Price",
+          "Research Findings (self-conducted)",
+          "Product Reviews (disregarded)",
+          "Brand Reputation (dismissed)"
+        ],
+        "research_habits": "He conducts extensive self-research using Google, Youtube, and online articles to compare products and evaluate their features. He heavily relies on data and analysis rather than trusting external reviews or sponsored listings.",
+        "brand_loyalty": "Low"
+      },
+      "narrative": "This persona is a solitary academic researcher in Boston who prioritizes objective data and self-conducted research when making purchasing decisions. He’s a practical and analytical individual, primarily focused on functionality and price, and skeptical of readily available reviews or marketing, preferring to trust his own research findings when selecting electronics and everyday necessities."
+    },
+    "survey_data": "{\"Demographic Information\": {\"Gender\": \"Male\", \"Age\": \"25-34 years old\", \"City\": \"Boston\", \"Education level\": \"Doctoral degree or current doctoral student (PhD, JD, MD, DDS etc.)\", \"Living situation\": \"Live together with roommate\", \"Yearly household income or stipend\": \"$75,000-$99,999\", \"Employment status\": \"Full-time employee\"}, \"Self Description\": {\"Two sentence description\": \"I am a research scientist in Natural Language Processing and Human-Computer Interaction. I conduct scientific research projects, mentor students, and publish academic papers. \"}, \"Shopping Preference\": {\"Online shopping frequency\": \"Once every couple of weeks\", \"Monthly online shopping spend $\": \"500\", \"Amazon Prime membership\": \"Yes\", \"To what extent do you agree with the following statements\": {\"I tend to shop more during holidays.\": \"Somewhat agree\", \"Online Ads attract my attention and are a good source of information.\": \"Strongly disagree\", \"I usually do a lot research (e.g. reading online reviews) before making purchase.\": \"Strongly agree\", \"I prioritize delivery speed and delivery fee of the product.\": \"Somewhat disagree\", \"Getting high-quality online products is very important for me.\": \"Somewhat agree\", \"The more expensive online product brands are usually my choice.\": \"Somewhat disagree\", \"The more I learn about online products, the harder it seems to choose the best.\": \"Somewhat agree\", \"I shop quickly for online products, buying the first product or brand I find that seems good enough.\": \"Strongly disagree\", \"Once I find a brand I like, I stick with it.\": \"Somewhat agree\", \"I would buy a new or different brand of product just to see what it is like.\": \"Neither agree or disagree\", \"I enjoy shopping for online products just for the fun of it.\": \"Somewhat disagree\", \"I look carefully to find the best value for money when shopping online.\": \"Strongly agree\"}}, \"Personality\": {\"MBTI personality type\": \"INTJ\", \"Big Five Scores\": {\"Extraversion\": \"Low\", \"Agreeableness\": \"Low\", \"Conscientiousness\": \"Extremely high\", \"Emotional Stability\": \"High\", \"Intellect\": \"High\"}}}"
   }
 ]
