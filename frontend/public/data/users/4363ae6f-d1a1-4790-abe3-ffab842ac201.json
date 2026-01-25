@@ -1,0 +1,124 @@
+{
+  "user_id": "4363ae6f-d1a1-4790-abe3-ffab842ac201",
+  "profile": {
+    "title": {
+      "user_name": "Participant",
+      "two_word_summary": "Graduate Student Shopper",
+      "confidence_overall": "0.85"
+    },
+    "demographics": {
+      "age_range": {
+        "value": "25-34",
+        "confidence": "0.95",
+        "evidence": "Participant's description as a graduate student and references to online shopping habits align with this age range."
+      },
+      "gender": {
+        "value": "Male",
+        "confidence": "0.60",
+        "evidence": "Based on conversation style and interests expressed (computer games, shopping)."
+      },
+      "nationality_background": {
+        "value": "USA",
+        "confidence": "0.90",
+        "evidence": "Participant's location in New Jersey, USA, and references to brands and products."
+      },
+      "location": {
+        "value": "Jersey City, New Jersey, USA",
+        "confidence": "1.00",
+        "evidence": "Explicitly stated location."
+      },
+      "living_situation": {
+        "value": "With Roommates",
+        "confidence": "1.00",
+        "evidence": "Participant states they live with 2 roommates."
+      },
+      "occupation": {
+        "value": "Graduate Student",
+        "confidence": "1.00",
+        "evidence": "Explicitly stated as a graduate student in public administration."
+      },
+      "education": {
+        "value": "Master's Degree",
+        "confidence": "0.80",
+        "evidence": "Specifying in financial management and public finance suggests a graduate level of education."
+      }
+    },
+    "psychographics": {
+      "goals_and_motivations": {
+        "value": "Practicality, Convenience, Finding Quality Products at Reasonable Prices",
+        "confidence": "0.75",
+        "evidence": "Participant's purchases of everyday items (fish oil, laundry sanitizer, furniture), search for reviews, and focus on price and quality suggest these motivations."
+      },
+      "interests": {
+        "value": [
+          "Computer Games",
+          "Shopping",
+          "Public Administration",
+          "Finance"
+        ],
+        "confidence": "0.90",
+        "evidence": "Explicitly stated interests (computer games), and interests related to their field of study (finance, public administration)."
+      },
+      "values": {
+        "value": [
+          "Quality",
+          "Value",
+          "Efficiency",
+          "Rational Decision Making"
+        ],
+        "confidence": "0.85",
+        "evidence": "Participant's emphasis on quality, price, reviews (looking for easy-to-use and durable products), and preference for filtering reviews by negative ratings align with these values."
+      }
+    },
+    "shopping_behavior": {
+      "frequency_of_use": {
+        "value": "Weekly",
+        "confidence": "0.70",
+        "evidence": "Participant’s purchases of replenishable items and furniture suggests regular shopping."
+      },
+      "where_used_devices": {
+        "value": [
+          "Smartphone",
+          "Desktop"
+        ],
+        "confidence": "0.80",
+        "evidence": "Participant uses Excel on a desktop, and likely uses a smartphone for Amazon browsing and purchases."
+      },
+      "search_style_best_vs_first": {
+        "value": "Best Product / First Product",
+        "confidence": "0.60",
+        "evidence": "Participant often looks at the highest-rated products (stars)."
+      },
+      "price_preference_cheapest_vs_expensive": {
+        "value": "Cheapest Product",
+        "confidence": "0.50",
+        "evidence": "Participant's focus on price as a key decision factor."
+      },
+      "decision_factors": {
+        "value": [
+          "Price",
+          "Brand",
+          "Quality",
+          "Reviews"
+        ],
+        "confidence": "0.95",
+        "evidence": "Participant repeatedly emphasizes price, brand, quality, and the importance of reading reviews."
+      },
+      "preferred_categories": {
+        "value": [
+          "Household Goods",
+          "Health & Wellness",
+          "Furniture"
+        ],
+        "confidence": "0.85",
+        "evidence": "Participant's purchases of laundry sanitizer, milk, fish oil, and furniture."
+      },
+      "pain_points_and_or_challenges": {
+        "value": "Finding Reliable Products with Good Reviews, Balancing Price and Quality",
+        "confidence": "0.80",
+        "evidence": "Participant’s extensive review reading and scrutiny of negative reviews highlight these pain points."
+      }
+    }
+  },
+  "survey_data": "{\"Demographic Information\": {\"Gender\": \"Female\", \"Age\": \"18-24 years old\", \"City\": \"Jersey City\", \"Education level\": \"Graduate degree or current grad student (MA, MS, MBA, etc.)\", \"Living situation\": \"Live together\", \"Yearly household income or stipend\": \"Prefer not to say\", \"Employment status\": \"Student\"}, \"Self Description\": {\"Two sentence description\": \"I am a Graduate student in Public Administration, specializing in financial managment and  public finance. I frequently conduct financial analysis, design financial budget using Excel\"}, \"Shopping Preference\": {\"Online shopping frequency\": \"Once every couple of weeks\", \"Monthly online shopping spend $\": \"10\", \"Amazon Prime membership\": \"No\", \"To what extent do you agree with the following statements\": {\"I tend to shop more during holidays.\": \"Somewhat agree\", \"Online Ads attract my attention and are a good source of information.\": \"Somewhat disagree\", \"I usually do a lot research (e.g. reading online reviews) before making purchase.\": \"Strongly agree\", \"I prioritize delivery speed and delivery fee of the product.\": \"Somewhat agree\", \"Getting high-quality online products is very important for me.\": \"Somewhat agree\", \"The more expensive online product brands are usually my choice.\": \"Neither agree or disagree\", \"The more I learn about online products, the harder it seems to choose the best.\": \"Strongly disagree\", \"I shop quickly for online products, buying the first product or brand I find that seems good enough.\": \"Strongly disagree\", \"Once I find a brand I like, I stick with it.\": \"Somewhat disagree\", \"I would buy a new or different brand of product just to see what it is like.\": \"Somewhat agree\", \"I enjoy shopping for online products just for the fun of it.\": \"Strongly disagree\", \"I look carefully to find the best value for money when shopping online.\": \"Strongly agree\"}}, \"Personality\": {\"MBTI personality type\": \"ENTJ\", \"Big Five Scores\": {\"Extraversion\": \"High\", \"Agreeableness\": \"Extremely high\", \"Conscientiousness\": \"Extremely high\", \"Emotional Stability\": \"Extremely high\", \"Intellect\": \"High\"}}}"
+}

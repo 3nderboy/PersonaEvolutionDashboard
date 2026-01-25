@@ -1,0 +1,126 @@
+{
+  "user_id": "58c72f67-93ab-4fd9-a561-90882899e72c",
+  "profile": {
+    "title": {
+      "user_name": "Participant",
+      "two_word_summary": "PhD Student",
+      "confidence_overall": "0.95"
+    },
+    "demographics": {
+      "age_range": {
+        "value": "21-25",
+        "confidence": "0.98",
+        "evidence": "Participant identifies as a 1st year PhD student."
+      },
+      "gender": {
+        "value": "Female",
+        "confidence": "0.85",
+        "evidence": "Contextual clues in conversation - references to 'cohort', 'friends', and mentions of personal shopping habits."
+      },
+      "nationality_background": {
+        "value": "USA",
+        "confidence": "0.99",
+        "evidence": "Participant resides in Irvine, California."
+      },
+      "location": {
+        "value": "Irvine, California",
+        "confidence": "1.00",
+        "evidence": "Explicitly stated multiple times."
+      },
+      "living_situation": {
+        "value": "Living Alone",
+        "confidence": "0.95",
+        "evidence": "Participant states 'I live mostly by myself in a 1 b one b apartment.'"
+      },
+      "occupation": {
+        "value": "PhD Student",
+        "confidence": "1.00",
+        "evidence": "Explicitly stated multiple times."
+      },
+      "education": {
+        "value": "PhD Candidate",
+        "confidence": "1.00",
+        "evidence": "Explicitly stated multiple times."
+      }
+    },
+    "psychographics": {
+      "goals_and_motivations": {
+        "value": "Academic research success, maintaining a healthy work-life balance, personal development.",
+        "confidence": "0.85",
+        "evidence": "Participant’s discussions of lab work, research survey drafting, scheduling, and prioritizing time off suggest a focus on academic achievement and well-being."
+      },
+      "interests": {
+        "value": [
+          "Research",
+          "Hiking",
+          "Cooking",
+          "Travel",
+          "Snow sports"
+        ],
+        "confidence": "0.75",
+        "evidence": "References to lab work, hiking spa, cooking, skiing equipment, and travel suggest these are interests."
+      },
+      "values": {
+        "value": [
+          "Responsibility",
+          "Collaboration",
+          "Logical Thinking",
+          "Flexibility"
+        ],
+        "confidence": "0.75",
+        "evidence": "Participant describes themselves as responsible and collaborative in their research project, prioritizes logical thinking, and values flexibility in their schedule."
+      }
+    },
+    "shopping_behavior": {
+      "frequency_of_use": {
+        "value": "Weekly",
+        "confidence": "0.75",
+        "evidence": "Participant mentions grocery shopping 'sometimes on work days, because there’s a like a grocery store, and like across the street’ and purchasing equipment for hobbies."
+      },
+      "where_used_devices": {
+        "value": [
+          "Smartphone",
+          "Desktop"
+        ],
+        "confidence": "0.90",
+        "evidence": "Participant uses smartphone for grocery shopping and mentions laptop use for email and homework."
+      },
+      "search_style_best_vs_first": {
+        "value": "Best Product / First Product",
+        "confidence": "0.60",
+        "evidence": "Participant’s preference for looking at top-ranked products on Amazon, rather than starting with sponsored listings."
+      },
+      "price_preference_cheapest_vs_expensive": {
+        "value": "Cheapest Product",
+        "confidence": "0.50",
+        "evidence": "Participant’s emphasis on finding affordable options for household items and equipment."
+      },
+      "decision_factors": {
+        "value": [
+          "Price",
+          "Reviews",
+          "Product Specifications",
+          "Ease of Assembly"
+        ],
+        "confidence": "0.80",
+        "evidence": "Participant prioritizes price, reviews, product dimensions, and assembly ease when making purchases."
+      },
+      "preferred_categories": {
+        "value": [
+          "Home Goods",
+          "Electronics",
+          "Sports & Outdoors",
+          "Health & Personal Care"
+        ],
+        "confidence": "0.70",
+        "evidence": "Items purchased (desk, chair, kitchen items, survey tools, ski equipment, nail tools) fall within these categories."
+      },
+      "pain_points_and_or_challenges": {
+        "value": "Difficulty in accurately assessing product suitability based on descriptions alone, balancing academic workload with personal life.",
+        "confidence": "0.85",
+        "evidence": "Participant explicitly states concern about matching product descriptions with actual user experiences, and struggles to balance research and personal life."
+      }
+    }
+  },
+  "survey_data": "{\"Demographic Information\": {\"Gender\": \"Female\", \"Age\": \"18-24 years old\", \"City\": \"Irvine\", \"Education level\": \"Doctoral degree or current doctoral student (PhD, JD, MD, DDS etc.)\", \"Living situation\": \"live alone\", \"Yearly household income or stipend\": \"$25,000-$49,999\", \"Employment status\": \"Part-time employee,Student\"}, \"Self Description\": {\"Two sentence description\": \"I am a PhD student in informatics, studying human-computer interaction and health informatics. I read relevant literature, design and conduct human studies, and do data analysis. I also attend academic seminars, present my findings at conferences, and participate in lab meetings to refine research directions.\"}, \"Shopping Preference\": {\"Online shopping frequency\": \"Once to twice a week\", \"Monthly online shopping spend $\": \"50-150\", \"Amazon Prime membership\": \"Yes\", \"To what extent do you agree with the following statements\": {\"I tend to shop more during holidays.\": \"Strongly agree\", \"Online Ads attract my attention and are a good source of information.\": \"Neither agree or disagree\", \"I usually do a lot research (e.g. reading online reviews) before making purchase.\": \"Somewhat agree\", \"I prioritize delivery speed and delivery fee of the product.\": \"Somewhat agree\", \"Getting high-quality online products is very important for me.\": \"Somewhat agree\", \"The more expensive online product brands are usually my choice.\": \"Somewhat disagree\", \"The more I learn about online products, the harder it seems to choose the best.\": \"Neither agree or disagree\", \"I shop quickly for online products, buying the first product or brand I find that seems good enough.\": \"Somewhat disagree\", \"Once I find a brand I like, I stick with it.\": \"Somewhat agree\", \"I would buy a new or different brand of product just to see what it is like.\": \"Neither agree or disagree\", \"I enjoy shopping for online products just for the fun of it.\": \"Neither agree or disagree\", \"I look carefully to find the best value for money when shopping online.\": \"Somewhat agree\"}}, \"Personality\": {\"MBTI personality type\": \"ENFJ\", \"Big Five Scores\": {\"Extraversion\": \"High\", \"Agreeableness\": \"Extremely high\", \"Conscientiousness\": \"High\", \"Emotional Stability\": \"High\", \"Intellect\": \"High\"}}}"
+}

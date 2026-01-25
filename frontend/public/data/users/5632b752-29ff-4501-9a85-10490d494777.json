@@ -1,0 +1,134 @@
+{
+  "user_id": "5632b752-29ff-4501-9a85-10490d494777",
+  "profile": {
+    "title": {
+      "user_name": "PhD Student - Chicago",
+      "two_word_summary": "Data Analysis & Shopping",
+      "confidence_overall": "0.95"
+    },
+    "demographics": {
+      "age_range": {
+        "value": "25-34",
+        "confidence": "0.98",
+        "evidence": "Participant states they are a \"PhD student\" and describes their daily routine, suggesting an age range consistent with graduate studies."
+      },
+      "gender": {
+        "value": "Male",
+        "confidence": "0.85",
+        "evidence": "Participant’s language and references to activities (e.g., ‘boyfriend’, ‘skiing’ etc.) suggest male identity."
+      },
+      "nationality_background": {
+        "value": "USA",
+        "confidence": "0.99",
+        "evidence": "Participant’s location is Chicago, a major city in the United States."
+      },
+      "location": {
+        "value": "Chicago, IL",
+        "confidence": "1.00",
+        "evidence": "Explicitly stated in the transcript."
+      },
+      "living_situation": {
+        "value": "With Roommates",
+        "confidence": "1.00",
+        "evidence": "Participant states they live \"near campus\" with 2 roommates."
+      },
+      "occupation": {
+        "value": "PhD Student (Cancer Biology)",
+        "confidence": "1.00",
+        "evidence": "Explicitly stated in the transcript."
+      },
+      "education": {
+        "value": "PhD Candidate",
+        "confidence": "1.00",
+        "evidence": "Explicitly stated in the transcript."
+      }
+    },
+    "psychographics": {
+      "goals_and_motivations": {
+        "value": "Achieving research goals, maintaining a balanced lifestyle, convenience, protecting belongings.",
+        "confidence": "0.80",
+        "evidence": "Participant expresses dedication to their PhD research, a desire to avoid inconvenience (losing wallet), and a focus on practicality."
+      },
+      "interests": {
+        "value": [
+          "Data Analysis",
+          "Cancer Research",
+          "Rock Climbing",
+          "Gaming",
+          "Cooking",
+          "Plants",
+          "Skiing"
+        ],
+        "confidence": "0.75",
+        "evidence": "Participant’s daily activities (data analysis), hobbies (rock climbing, gaming), and purchases (gardening supplies, ski gear) indicate these interests."
+      },
+      "values": {
+        "value": [
+          "Efficiency",
+          "Organization",
+          "Reliability",
+          "Convenience",
+          "Social Connection (with roommates and friends)",
+          "Practicality"
+        ],
+        "confidence": "0.85",
+        "evidence": "Participant’s emphasis on planning, using sticky notes, valuing timely delivery, and enjoying time with roommates demonstrates these values."
+      }
+    },
+    "shopping_behavior": {
+      "frequency_of_use": {
+        "value": "Weekly",
+        "confidence": "0.70",
+        "evidence": "Participant regularly purchases items (toiletries, clothing, gadgets) indicating a weekly shopping frequency."
+      },
+      "where_used_devices": {
+        "value": [
+          "Smartphone",
+          "Desktop"
+        ],
+        "confidence": "0.95",
+        "evidence": "Participant uses a computer for data analysis and searches for products on a smartphone."
+      },
+      "search_style_best_vs_first": {
+        "value": "First",
+        "confidence": "0.60",
+        "evidence": "Participant states they typically start with lower-rated reviews when searching for products."
+      },
+      "price_preference_cheapest_vs_expensive": {
+        "value": "Cheapest Product",
+        "confidence": "0.70",
+        "evidence": "Participant’s stated approach to purchasing items – seeking the cheapest option available – indicates this preference."
+      },
+      "decision_factors": {
+        "value": [
+          "Price",
+          "Color",
+          "Dimensions",
+          "Material Quality",
+          "Delivery Time",
+          "Product Reviews"
+        ],
+        "confidence": "0.90",
+        "evidence": "Participant explicitly outlines these factors as important when making purchasing decisions."
+      },
+      "preferred_categories": {
+        "value": [
+          "Electronics",
+          "Household Goods",
+          "Clothing",
+          "Sports Equipment",
+          "Gardening Supplies",
+          "Gift Items"
+        ],
+        "confidence": "0.85",
+        "evidence": "Participant’s purchase history (earphones, knee brace, potting soil, etc.) demonstrates this categorization."
+      },
+      "pain_points_and_or_challenges": {
+        "value": "Loss of belongings, difficulty finding reviews, messy Amazon interface.",
+        "confidence": "0.95",
+        "evidence": "Participant expresses frustration with losing items (wallet, keys) and describes a negative experience with the Amazon user interface."
+      }
+    }
+  },
+  "survey_data": "{\"Demographic Information\": {\"Gender\": \"Female\", \"Age\": \"25-34 years old\", \"City\": \"Chicago\", \"Education level\": \"Doctoral degree or current doctoral student (PhD, JD, MD, DDS etc.)\", \"Living situation\": \"Two roommates\", \"Yearly household income or stipend\": \"$25,000-$49,999\", \"Employment status\": \"Student\"}, \"Self Description\": {\"Two sentence description\": \"I'm a phd student in Cancer Biology specilize in neuroblastoma. I frequently conduct analyze medical datasets and work with doctors and statistic analytics. I also attend academic seminars, present my findings at conferences and particpate in lab meetings to refine research directions.\"}, \"Shopping Preference\": {\"Online shopping frequency\": \"Once to twice a week\", \"Monthly online shopping spend $\": \"600\", \"Amazon Prime membership\": \"Yes\", \"To what extent do you agree with the following statements\": {\"I tend to shop more during holidays.\": \"Somewhat agree\", \"Online Ads attract my attention and are a good source of information.\": \"Somewhat agree\", \"I usually do a lot research (e.g. reading online reviews) before making purchase.\": \"Strongly agree\", \"I prioritize delivery speed and delivery fee of the product.\": \"Somewhat agree\", \"Getting high-quality online products is very important for me.\": \"Strongly agree\", \"The more expensive online product brands are usually my choice.\": \"Somewhat disagree\", \"The more I learn about online products, the harder it seems to choose the best.\": \"Neither agree or disagree\", \"I shop quickly for online products, buying the first product or brand I find that seems good enough.\": \"Strongly disagree\", \"Once I find a brand I like, I stick with it.\": \"Neither agree or disagree\", \"I would buy a new or different brand of product just to see what it is like.\": \"Somewhat agree\", \"I enjoy shopping for online products just for the fun of it.\": \"Somewhat agree\", \"I look carefully to find the best value for money when shopping online.\": \"Strongly agree\"}}, \"Personality\": {\"MBTI personality type\": \"INTJ\", \"Big Five Scores\": {\"Extraversion\": \"Low\", \"Agreeableness\": \"High\", \"Conscientiousness\": \"High\", \"Emotional Stability\": \"Medium\", \"Intellect\": \"High\"}}}"
+}

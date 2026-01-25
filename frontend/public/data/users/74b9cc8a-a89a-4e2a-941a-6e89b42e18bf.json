@@ -1,0 +1,128 @@
+{
+  "user_id": "74b9cc8a-a89a-4e2a-941a-6e89b42e18bf",
+  "profile": {
+    "title": {
+      "user_name": "Participant",
+      "two_word_summary": "Tech Student",
+      "confidence_overall": "0.90"
+    },
+    "demographics": {
+      "age_range": {
+        "value": "25-34",
+        "confidence": "0.95",
+        "evidence": "Participant's statement regarding taking online courses and recent purchase of electronics (Apple Watch), suggesting a likely age range."
+      },
+      "gender": {
+        "value": "Male",
+        "confidence": "0.85",
+        "evidence": "Participant's language and interests align with typical male preferences (gym, sports, electronics)."
+      },
+      "nationality_background": {
+        "value": "USA",
+        "confidence": "0.90",
+        "evidence": "Location mentioned as Boston (USA)."
+      },
+      "location": {
+        "value": "Boston, MA",
+        "confidence": "1.00",
+        "evidence": "Explicitly stated."
+      },
+      "living_situation": {
+        "value": "With Friends",
+        "confidence": "0.80",
+        "evidence": "Participant states they live in an apartment with friends."
+      },
+      "occupation": {
+        "value": "Student (CS)",
+        "confidence": "1.00",
+        "evidence": "Explicitly states they are a CS student at [ORG_MASKED] University."
+      },
+      "education": {
+        "value": "Bachelor's Degree (CS)",
+        "confidence": "0.75",
+        "evidence": "Taking 2 online courses and 1 in-person course, and being a CS student suggests a Bachelor's level."
+      }
+    },
+    "psychographics": {
+      "goals_and_motivations": {
+        "value": "Achieve academic success, maintain a healthy lifestyle, and acquire useful tech gadgets.",
+        "confidence": "0.85",
+        "evidence": "Participant’s stated course work, gym visits, and purchase of an Apple Watch."
+      },
+      "interests": {
+        "value": [
+          "Technology",
+          "Fitness",
+          "Electronics",
+          "Travel",
+          "Social Activities"
+        ],
+        "confidence": "0.90",
+        "evidence": "Participant's purchasing habits (electronics, humidifier), gym visits, exploring tourist sites and restaurants with friends."
+      },
+      "values": {
+        "value": [
+          "Value for money",
+          "Brand reputation",
+          "Reliability",
+          "Convenience"
+        ],
+        "confidence": "0.80",
+        "evidence": "Participant’s emphasis on price and brand when purchasing electronics, quick purchase decisions, and preference for fast delivery."
+      }
+    },
+    "shopping_behavior": {
+      "frequency_of_use": {
+        "value": "Weekly",
+        "confidence": "0.70",
+        "evidence": "Frequent purchases of daily necessities and electronics suggest regular shopping."
+      },
+      "where_used_devices": {
+        "value": [
+          "Smartphone",
+          "Desktop"
+        ],
+        "confidence": "0.95",
+        "evidence": "Participant uses Smartphone to browse and purchase on Amazon and Desktop for research and potentially placing orders."
+      },
+      "search_style_best_vs_first": {
+        "value": "Best Product / First Product",
+        "confidence": "0.60",
+        "evidence": "Participant's description of quickly finding what they want and buying it, rather than extensive research."
+      },
+      "price_preference_cheapest_vs_expensive": {
+        "value": "Cheapest Product",
+        "confidence": "0.75",
+        "evidence": "Participant’s explicit statement that they choose the cheapest product, particularly with the Apple Watch."
+      },
+      "decision_factors": {
+        "value": [
+          "Price",
+          "Brand",
+          "Color",
+          "Ratings",
+          "Discounts",
+          "Delivery Speed"
+        ],
+        "confidence": "0.90",
+        "evidence": "Participant’s stated priorities during purchase decisions."
+      },
+      "preferred_categories": {
+        "value": [
+          "Electronics",
+          "Personal Health Care",
+          "Books",
+          "Daily Necessities"
+        ],
+        "confidence": "1.00",
+        "evidence": "Participant’s purchase history indicates these categories."
+      },
+      "pain_points_and_or_challenges": {
+        "value": "Overwhelm with options, difficulty assessing long-term product value.",
+        "confidence": "0.70",
+        "evidence": "Participant’s tendency to quickly buy items without extensive research, suggesting a struggle with information overload."
+      }
+    }
+  },
+  "survey_data": "{\"Demographic Information\": {\"Gender\": \"Female\", \"Age\": \"25-34 years old\", \"City\": \"Boston\", \"Education level\": \"Graduate degree or current grad student (MA, MS, MBA, etc.)\", \"Living situation\": \"live with friends\", \"Yearly household income or stipend\": \"$50,000-$74,999\", \"Employment status\": \"Student\"}, \"Self Description\": {\"Two sentence description\": \"I am a CS student currently looking for full time job. My daily life including taking course, applying for jobs and preparing for interview.\"}, \"Shopping Preference\": {\"Online shopping frequency\": \"Once to twice a week\", \"Monthly online shopping spend $\": \"200\", \"Amazon Prime membership\": \"Yes\", \"To what extent do you agree with the following statements\": {\"I tend to shop more during holidays.\": \"Somewhat agree\", \"Online Ads attract my attention and are a good source of information.\": \"Neither agree or disagree\", \"I usually do a lot research (e.g. reading online reviews) before making purchase.\": \"Somewhat disagree\", \"I prioritize delivery speed and delivery fee of the product.\": \"Neither agree or disagree\", \"Getting high-quality online products is very important for me.\": \"Somewhat agree\", \"The more expensive online product brands are usually my choice.\": \"Somewhat disagree\", \"The more I learn about online products, the harder it seems to choose the best.\": \"Somewhat agree\", \"I shop quickly for online products, buying the first product or brand I find that seems good enough.\": \"Somewhat agree\", \"Once I find a brand I like, I stick with it.\": \"Somewhat agree\", \"I would buy a new or different brand of product just to see what it is like.\": \"Somewhat agree\", \"I enjoy shopping for online products just for the fun of it.\": \"Somewhat disagree\", \"I look carefully to find the best value for money when shopping online.\": \"Somewhat agree\"}}, \"Personality\": {\"MBTI personality type\": \"\", \"Big Five Scores\": {\"Extraversion\": \"Medium\", \"Agreeableness\": \"High\", \"Conscientiousness\": \"High\", \"Emotional Stability\": \"Medium\", \"Intellect\": \"Medium\"}}}"
+}

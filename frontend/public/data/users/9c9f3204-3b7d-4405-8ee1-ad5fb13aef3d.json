@@ -1,0 +1,127 @@
+{
+  "user_id": "9c9f3204-3b7d-4405-8ee1-ad5fb13aef3d",
+  "profile": {
+    "title": {
+      "user_name": "PhD Student",
+      "two_word_summary": "Tech Research",
+      "confidence_overall": "0.85"
+    },
+    "demographics": {
+      "age_range": {
+        "value": "30-35",
+        "confidence": "0.90",
+        "evidence": "Participant is a PhD student, suggesting an age range of 30-35."
+      },
+      "gender": {
+        "value": "Male",
+        "confidence": "0.70",
+        "evidence": "Participant's language and interests align with a male profile."
+      },
+      "nationality_background": {
+        "value": "USA",
+        "confidence": "0.95",
+        "evidence": "Mention of Northeastern University and Boston."
+      },
+      "location": {
+        "value": "Boston, MA",
+        "confidence": "1.00",
+        "evidence": "Explicitly stated multiple times."
+      },
+      "living_situation": {
+        "value": "With Roommate",
+        "confidence": "1.00",
+        "evidence": "Directly stated during the interview."
+      },
+      "occupation": {
+        "value": "PhD Student in Computer Science (Natural Language Processing and Human-Computer Interaction)",
+        "confidence": "1.00",
+        "evidence": "Multiple direct statements."
+      },
+      "education": {
+        "value": "PhD",
+        "confidence": "1.00",
+        "evidence": "Explicitly stated during the interview."
+      }
+    },
+    "psychographics": {
+      "goals_and_motivations": {
+        "value": "To advance research in Natural Language Processing and Human-Computer Interaction, seeking efficient tools and technologies for his work.",
+        "confidence": "0.90",
+        "evidence": "References to research, collaboration, and acquiring specific technology (display link hub)."
+      },
+      "interests": {
+        "value": [
+          "Technology",
+          "Computer Science",
+          "Smart Home Devices",
+          "Skiing",
+          "Shopping (specifically tech accessories)"
+        ],
+        "confidence": "0.85",
+        "evidence": "Mention of display link hub, espresso machines, wireless chargers, vacuum cleaners, and trips to outlet malls."
+      },
+      "values": {
+        "value": [
+          "Efficiency",
+          "Value for Money",
+          "Practicality",
+          "Continuous Learning"
+        ],
+        "confidence": "0.80",
+        "evidence": "Prioritizing price over brand for general products, desire for efficient solutions (display link), and active learning (reading operating system documentation)."
+      }
+    },
+    "shopping_behavior": {
+      "frequency_of_use": {
+        "value": "Weekly",
+        "confidence": "0.75",
+        "evidence": "Purchases of a variety of items, suggesting regular online shopping activity."
+      },
+      "where_used_devices": {
+        "value": [
+          "Smartphone",
+          "Laptop",
+          "Tablet"
+        ],
+        "confidence": "0.95",
+        "evidence": "Participant uses a smartphone, laptop, and tablet for research and online shopping."
+      },
+      "search_style_best_vs_first": {
+        "value": "Best Product / First Product",
+        "confidence": "0.60",
+        "evidence": "The participant mentions being willing to choose based on the first available product that meets the needs, and explicitly stating the use of research to assess the "
+      },
+      "price_preference_cheapest_vs_expensive": {
+        "value": "Cheapest Product",
+        "confidence": "0.70",
+        "evidence": "The participant explicitly stated that when purchasing general products, he will seek the cheapest option, while when purchasing specific items he does research to ensure the quality"
+      },
+      "decision_factors": {
+        "value": [
+          "Functionality",
+          "Price",
+          "Quality (for specific products)",
+          "Reviews (dismissed)"
+        ],
+        "confidence": "0.90",
+        "evidence": "Prioritizes functionality and price, but dismisses reviews.  Specific care for quality in certain categories."
+      },
+      "preferred_categories": {
+        "value": [
+          "Electronics",
+          "Home Appliances",
+          "Tech Accessories",
+          "Office Supplies"
+        ],
+        "confidence": "0.85",
+        "evidence": "Purchases of espresso machine, display link hub, windshield repair kit, smart home devices."
+      },
+      "pain_points_and_or_challenges": {
+        "value": "Limited monitor outputs on existing hardware, difficulty finding efficient solutions for everyday tasks.",
+        "confidence": "0.95",
+        "evidence": "The core motivation for purchasing the display link hub reflects a specific pain point."
+      }
+    }
+  },
+  "survey_data": "{\"Demographic Information\": {\"Gender\": \"Male\", \"Age\": \"18-24 years old\", \"City\": \"Boston\", \"Education level\": \"Bachelors' degree or current college student\", \"Living situation\": \"alone\", \"Yearly household income or stipend\": \"$75,000-$99,999\", \"Employment status\": \"Part-time employee,Student\"}, \"Self Description\": {\"Two sentence description\": \"I'm a PhD Student studying computer science. My research interest lies in the intersection between HCI and NLP. I'm also working as a part-time intern at [ORG_MASKED]. \"}, \"Shopping Preference\": {\"Online shopping frequency\": \"Once to twice a week\", \"Monthly online shopping spend $\": \"200\", \"Amazon Prime membership\": \"Yes\", \"To what extent do you agree with the following statements\": {\"I tend to shop more during holidays.\": \"Somewhat agree\", \"Online Ads attract my attention and are a good source of information.\": \"Strongly disagree\", \"I usually do a lot research (e.g. reading online reviews) before making purchase.\": \"Somewhat agree\", \"I prioritize delivery speed and delivery fee of the product.\": \"Somewhat agree\", \"Getting high-quality online products is very important for me.\": \"Strongly agree\", \"The more expensive online product brands are usually my choice.\": \"Strongly disagree\", \"The more I learn about online products, the harder it seems to choose the best.\": \"Strongly disagree\", \"I shop quickly for online products, buying the first product or brand I find that seems good enough.\": \"Somewhat disagree\", \"Once I find a brand I like, I stick with it.\": \"Strongly agree\", \"I would buy a new or different brand of product just to see what it is like.\": \"Neither agree or disagree\", \"I enjoy shopping for online products just for the fun of it.\": \"Strongly disagree\", \"I look carefully to find the best value for money when shopping online.\": \"Somewhat agree\"}}, \"Personality\": {\"MBTI personality type\": \"\", \"Big Five Scores\": {\"Extraversion\": \"Low\", \"Agreeableness\": \"High\", \"Conscientiousness\": \"High\", \"Emotional Stability\": \"High\", \"Intellect\": \"High\"}}}"
+}

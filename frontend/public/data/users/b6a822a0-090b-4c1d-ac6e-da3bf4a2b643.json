@@ -1,0 +1,128 @@
+{
+  "user_id": "b6a822a0-090b-4c1d-ac6e-da3bf4a2b643",
+  "profile": {
+    "title": {
+      "user_name": "[NAME_MASKED]",
+      "two_word_summary": "Online Shopping Habits",
+      "confidence_overall": "0.85"
+    },
+    "demographics": {
+      "age_range": {
+        "value": "35-45",
+        "confidence": "0.95",
+        "evidence": "Participant states they are a university professor, implying a likely age range."
+      },
+      "gender": {
+        "value": "Male",
+        "confidence": "0.60",
+        "evidence": "Implied by common interest in car maintenance and purchasing products for a household."
+      },
+      "nationality_background": {
+        "value": "USA",
+        "confidence": "0.90",
+        "evidence": "References to common products and brands available in the US market."
+      },
+      "location": {
+        "value": "Boston, California",
+        "confidence": "0.70",
+        "evidence": "Mentions living in these cities."
+      },
+      "living_situation": {
+        "value": "With Wife",
+        "confidence": "1.00",
+        "evidence": "Explicitly states 'I live with my wife'."
+      },
+      "occupation": {
+        "value": "University Professor",
+        "confidence": "1.00",
+        "evidence": "Explicitly states 'I'm currently university professor'."
+      },
+      "education": {
+        "value": "Master's Degree or higher",
+        "confidence": "0.75",
+        "evidence": "Holding a university professorship suggests a postgraduate education level."
+      }
+    },
+    "psychographics": {
+      "goals_and_motivations": {
+        "value": "Convenience, Efficiency, Quality, Exploring new experiences",
+        "confidence": "0.80",
+        "evidence": "Desire for quick solutions (window washer fluid), valuing established brands, interest in travel and trying new foods, minimizing decision-making effort."
+      },
+      "interests": {
+        "value": [
+          "Travel",
+          "Food",
+          "Technology",
+          "Cars",
+          "Reading"
+        ],
+        "confidence": "0.70",
+        "evidence": "Explicit mentions of travel and trying new food, reference to iPhones and laptops, and interest in purchasing a Tesla."
+      },
+      "values": {
+        "value": [
+          "Quality",
+          "Efficiency",
+          "Value",
+          "Brand Reputation",
+          "Social Norms"
+        ],
+        "confidence": "0.75",
+        "evidence": "Prioritizes brand reputation for quality, seeks efficient solutions, looks for the best value, considers social norms when purchasing."
+      }
+    },
+    "shopping_behavior": {
+      "frequency_of_use": {
+        "value": "Weekly",
+        "confidence": "0.90",
+        "evidence": "States 'we typically go online shopping 2 or 3 times a week'."
+      },
+      "where_used_devices": {
+        "value": [
+          "Smartphone",
+          "Tablet",
+          "Desktop"
+        ],
+        "confidence": "0.95",
+        "evidence": "Implied by online shopping habits."
+      },
+      "search_style_best_vs_first": {
+        "value": "First Product",
+        "confidence": "0.80",
+        "evidence": "Indicates relying on popular choices and recommendations (e.g., 'the one that most people bought')."
+      },
+      "price_preference_cheapest_vs_expensive": {
+        "value": "Cheapest Product",
+        "confidence": "0.70",
+        "evidence": "Focuses on finding the most cost-effective options."
+      },
+      "decision_factors": {
+        "value": [
+          "Price",
+          "Brand Reputation",
+          "Customer Reviews",
+          "Availability"
+        ],
+        "confidence": "0.90",
+        "evidence": "Explicitly states these are key factors in purchasing decisions."
+      },
+      "preferred_categories": {
+        "value": [
+          "Household Supplies",
+          "Electronics",
+          "Clothing",
+          "Travel Accessories"
+        ],
+        "confidence": "0.85",
+        "evidence": "Mentions purchasing items like toilet paper, dishwasher detergent, car fluids, and clothing."
+      },
+      "pain_points_and_or_challenges": {
+        "value": "Overwhelming Options, Difficulty in Determining Quality, Time Constraints",
+        "confidence": "0.80",
+        "evidence": "Expresses frustration with the number of choices, concern about product quality, and desire for efficient shopping."
+      }
+    }
+  },
+  "survey_data": "{\"Demographic Information\": {\"Gender\": \"Male\", \"Age\": \"35-44 years old\", \"City\": \"Palo Alto\", \"Education level\": \"Doctoral degree or current doctoral student (PhD, JD, MD, DDS etc.)\", \"Living situation\": \"live together with my wife\", \"Yearly household income or stipend\": \"$150,000 or more\", \"Employment status\": \"Full-time employee\"}, \"Self Description\": {\"Two sentence description\": \"I am an Associate Professor at [ORG_MASKED] University, jointly appointed at [ORG_MASKED] and [ORG_MASKED]. I lead the [ORG_MASKED] Lab, and is also the Founding Director of the [ORG_MASKED] Graduate Program. [NAME_MASKED] is also a Visiting Scholar at [ORG_MASKED] University. My research lies at the intersection of human-computer interaction (HCI) and artificial intelligence (AI), with a focus on the exploration, development, and evaluation of human-centered AI (HCAI) systems.\"}, \"Shopping Preference\": {\"Online shopping frequency\": \"Once to twice a week\", \"Monthly online shopping spend $\": \"300\", \"Amazon Prime membership\": \"Yes\", \"To what extent do you agree with the following statements\": {\"I tend to shop more during holidays.\": \"Strongly agree\", \"Online Ads attract my attention and are a good source of information.\": \"Somewhat disagree\", \"I usually do a lot research (e.g. reading online reviews) before making purchase.\": \"Somewhat agree\", \"I prioritize delivery speed and delivery fee of the product.\": \"Somewhat agree\", \"Getting high-quality online products is very important for me.\": \"Somewhat agree\", \"The more expensive online product brands are usually my choice.\": \"Somewhat agree\", \"The more I learn about online products, the harder it seems to choose the best.\": \"Somewhat disagree\", \"I shop quickly for online products, buying the first product or brand I find that seems good enough.\": \"Neither agree or disagree\", \"Once I find a brand I like, I stick with it.\": \"Strongly agree\", \"I would buy a new or different brand of product just to see what it is like.\": \"Somewhat disagree\", \"I enjoy shopping for online products just for the fun of it.\": \"Strongly disagree\", \"I look carefully to find the best value for money when shopping online.\": \"Strongly agree\"}}, \"Personality\": {\"MBTI personality type\": \"ISFJ\", \"Big Five Scores\": {\"Extraversion\": \"High\", \"Agreeableness\": \"Extremely high\", \"Conscientiousness\": \"High\", \"Emotional Stability\": \"Medium\", \"Intellect\": \"High\"}}}"
+}

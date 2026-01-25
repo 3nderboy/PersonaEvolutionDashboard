@@ -1,0 +1,125 @@
+{
+  "user_id": "3f39da26-3cd2-4290-b84c-667762cc59fa",
+  "profile": {
+    "title": {
+      "user_name": "[NAME_MASKED]",
+      "two_word_summary": "Tech-savvy researcher",
+      "confidence_overall": "0.95"
+    },
+    "demographics": {
+      "age_range": {
+        "value": "25-34",
+        "confidence": "0.90",
+        "evidence": "Participant is a Master's student, suggesting age range of 25-34."
+      },
+      "gender": {
+        "value": "Male",
+        "confidence": "0.85",
+        "evidence": "Participant describes himself as 'introverted' and enjoys solitary activities like video games and hiking."
+      },
+      "nationality_background": {
+        "value": "USA",
+        "confidence": "0.95",
+        "evidence": "Participant lives in California."
+      },
+      "location": {
+        "value": "San Diego, California",
+        "confidence": "1.00",
+        "evidence": "Explicitly stated."
+      },
+      "living_situation": {
+        "value": "Living with Roommates",
+        "confidence": "1.00",
+        "evidence": "Explicitly stated."
+      },
+      "occupation": {
+        "value": "Research Assistant & Master's Student",
+        "confidence": "1.00",
+        "evidence": "Explicitly stated."
+      },
+      "education": {
+        "value": "Master's Student",
+        "confidence": "1.00",
+        "evidence": "Explicitly stated."
+      }
+    },
+    "psychographics": {
+      "goals_and_motivations": {
+        "value": "Reduce eye strain, improve productivity, explore new hobbies",
+        "confidence": "0.90",
+        "evidence": "Purchased blue light blocking glasses to alleviate eye strain from screen time, interested in hiking and climbing."
+      },
+      "interests": {
+        "value": [
+          "Computer Science",
+          "AI",
+          "Gaming",
+          "Hiking",
+          "Climbing",
+          "Technology"
+        ],
+        "confidence": "0.85",
+        "evidence": "Participant’s job as a research assistant in computer science, interest in AI, gaming habits, and new hobbies."
+      },
+      "values": {
+        "value": [
+          "Efficiency",
+          "Quality",
+          "Value for Money",
+          "Convenience"
+        ],
+        "confidence": "0.80",
+        "evidence": "Prioritizes quality and price when purchasing items on Amazon, skeptical of sponsored products, values convenience."
+      }
+    },
+    "shopping_behavior": {
+      "frequency_of_use": {
+        "value": "Weekly",
+        "confidence": "0.75",
+        "evidence": "Frequently purchases items on Amazon, including groceries and supplements."
+      },
+      "where_used_devices": {
+        "value": [
+          "Smartphone",
+          "Desktop"
+        ],
+        "confidence": "0.95",
+        "evidence": "Primarily uses Amazon on a smartphone and desktop."
+      },
+      "search_style_best_vs_first": {
+        "value": "First",
+        "confidence": "0.70",
+        "evidence": "Prefers to search for products directly on Amazon rather than researching elsewhere."
+      },
+      "price_preference_cheapest_vs_expensive": {
+        "value": "Cheapest Product",
+        "confidence": "0.75",
+        "evidence": "Chooses the most affordable blue light blocking glasses option."
+      },
+      "decision_factors": {
+        "value": [
+          "Product Rating",
+          "Price",
+          "Reviews"
+        ],
+        "confidence": "0.95",
+        "evidence": "Emphasizes reading product ratings and reviews, considers price, and looks for high ratings on Amazon."
+      },
+      "preferred_categories": {
+        "value": [
+          "Books",
+          "Food & Supplements",
+          "Electronics"
+        ],
+        "confidence": "0.80",
+        "evidence": "Frequently purchases books and food/supplements on Amazon."
+      },
+      "pain_points_and_or_challenges": {
+        "value": "Feeling fatigued from prolonged screen time, difficulty discovering relevant products on Amazon",
+        "confidence": "0.90",
+        "evidence": "Purchased blue light blocking glasses due to eye strain, expressed frustration with recommendations on Amazon."
+      }
+    }
+  },
+  "survey_data": "{\"Demographic Information\": {\"Gender\": \"Male\", \"Age\": \"18-24 years old\", \"City\": \"San Diego\", \"Education level\": \"Graduate degree or current grad student (MA, MS, MBA, etc.)\", \"Living situation\": \"I have a roommate who's a college student.\", \"Yearly household income or stipend\": \"$50,000-$74,999\", \"Employment status\": \"Part-time employee,Student\"}, \"Self Description\": {\"Two sentence description\": \"I'm currently a master's student in CS at [ORG_MASKED] University's [LOCATION_MASKED] Campus. I also work as a research assistant at [ORG_MASKED], so I regularly commute between [LOCATION_MASKED] and [LOCATION_MASKED]. I work primarily around application of AI agents in healthcare/public health.\"}, \"Shopping Preference\": {\"Online shopping frequency\": \"Once to twice a week\", \"Monthly online shopping spend $\": \"200\", \"Amazon Prime membership\": \"Yes\", \"To what extent do you agree with the following statements\": {\"I tend to shop more during holidays.\": \"Somewhat agree\", \"Online Ads attract my attention and are a good source of information.\": \"Somewhat disagree\", \"I usually do a lot research (e.g. reading online reviews) before making purchase.\": \"Strongly disagree\", \"I prioritize delivery speed and delivery fee of the product.\": \"Strongly disagree\", \"Getting high-quality online products is very important for me.\": \"Somewhat disagree\", \"The more expensive online product brands are usually my choice.\": \"Somewhat disagree\", \"The more I learn about online products, the harder it seems to choose the best.\": \"Somewhat agree\", \"I shop quickly for online products, buying the first product or brand I find that seems good enough.\": \"Somewhat agree\", \"Once I find a brand I like, I stick with it.\": \"Strongly agree\", \"I would buy a new or different brand of product just to see what it is like.\": \"Strongly disagree\", \"I enjoy shopping for online products just for the fun of it.\": \"Neither agree or disagree\", \"I look carefully to find the best value for money when shopping online.\": \"Somewhat disagree\"}}, \"Personality\": {\"MBTI personality type\": \"ISTP\", \"Big Five Scores\": {\"Extraversion\": \"Low\", \"Agreeableness\": \"Medium\", \"Conscientiousness\": \"Medium\", \"Emotional Stability\": \"High\", \"Intellect\": \"High\"}}}"
+}

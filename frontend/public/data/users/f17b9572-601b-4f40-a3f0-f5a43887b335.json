@@ -1,0 +1,131 @@
+{
+  "user_id": "f17b9572-601b-4f40-a3f0-f5a43887b335",
+  "profile": {
+    "title": {
+      "user_name": "Participant",
+      "two_word_summary": "Tech Student",
+      "confidence_overall": "0.85"
+    },
+    "demographics": {
+      "age_range": {
+        "value": "25-34",
+        "confidence": "0.95",
+        "evidence": "Participant's description of studying at a Master's level and using tech like Zoom and coding suggests a likely age range."
+      },
+      "gender": {
+        "value": "Male",
+        "confidence": "0.70",
+        "evidence": "Participant's language and choices (e.g., 'work out', 'yoga') are more commonly associated with males."
+      },
+      "nationality_background": {
+        "value": "USA",
+        "confidence": "0.60",
+        "evidence": "Location specified as Cambridge, Massachusetts, strongly suggests a U.S. background."
+      },
+      "location": {
+        "value": "Cambridge, Massachusetts",
+        "confidence": "1.00",
+        "evidence": "Explicitly stated location."
+      },
+      "living_situation": {
+        "value": "With Roommate",
+        "confidence": "1.00",
+        "evidence": "Explicitly stated living situation."
+      },
+      "occupation": {
+        "value": "Student / Part-time Work (Service Industry)",
+        "confidence": "0.90",
+        "evidence": "Multiple mentions of student status and part-time work in the service industry."
+      },
+      "education": {
+        "value": "Master's Degree",
+        "confidence": "1.00",
+        "evidence": "Explicitly stated completion of a Master's degree."
+      }
+    },
+    "psychographics": {
+      "goals_and_motivations": {
+        "value": "Academic achievement, practical skill development (writing tools), maintaining eye health, exploring hobbies",
+        "confidence": "0.80",
+        "evidence": "References to Master's studies, research focus, tutoring, exercise, and social activities."
+      },
+      "interests": {
+        "value": [
+          "Computer Science",
+          "Writing Tools",
+          "HCI",
+          "Yoga",
+          "Social Media",
+          "Gaming"
+        ],
+        "confidence": "0.75",
+        "evidence": "Research focus in HCI and writing tools, mentions of coding, and activity of scrolling through social media; interest in games mentioned."
+      },
+      "values": {
+        "value": [
+          "Efficiency",
+          "Quality",
+          "Value for Money",
+          "Practicality",
+          "Knowledge"
+        ],
+        "confidence": "0.70",
+        "evidence": "Prioritization of price, reading reviews for quality, preference for functional items (sponges), and methodical approach to problem-solving."
+      }
+    },
+    "shopping_behavior": {
+      "frequency_of_use": {
+        "value": "Weekly",
+        "confidence": "0.75",
+        "evidence": "Participant frequently uses Amazon for both research and purchases."
+      },
+      "where_used_devices": {
+        "value": [
+          "Smartphone",
+          "Desktop"
+        ],
+        "confidence": "0.95",
+        "evidence": "Participant uses a computer for research and coding, and a smartphone for browsing and potentially ordering."
+      },
+      "search_style_best_vs_first": {
+        "value": "First Product",
+        "confidence": "0.60",
+        "evidence": "Participant stated: 'I don't really browse Amazon... I already know what I want to buy.'"
+      },
+      "price_preference_cheapest_vs_expensive": {
+        "value": "Cheapest Product",
+        "confidence": "0.85",
+        "evidence": "Explicitly states 'price is the most important thing for me...'"
+      },
+      "decision_factors": {
+        "value": [
+          "Price",
+          "Product Reviews",
+          "Quality",
+          "Quantity",
+          "Shipping",
+          "Packaging/Extras"
+        ],
+        "confidence": "0.90",
+        "evidence": "Detailed breakdown of factors considered during purchasing decisions, including price, reviews, quality, and quantity."
+      },
+      "preferred_categories": {
+        "value": [
+          "Eye Drops",
+          "Phone Cases",
+          "Phone Protectors",
+          "Sponges",
+          "Games"
+        ],
+        "confidence": "0.80",
+        "evidence": "Specific product categories purchased (eye drops, phone cases) and interest in games."
+      },
+      "pain_points_and_or_challenges": {
+        "value": "Overwhelming choice, sponsored products, navigating Amazon's sorting options",
+        "confidence": "0.95",
+        "evidence": "Expresses frustration with sponsored products and difficulty filtering Amazon's vast selection."
+      }
+    }
+  },
+  "survey_data": "{\"Demographic Information\": {\"Gender\": \"Female\", \"Age\": \"25-34 years old\", \"City\": \"Cambridge\", \"Education level\": \"Graduate degree or current grad student (MA, MS, MBA, etc.)\", \"Living situation\": \"Roommate\", \"Yearly household income or stipend\": \"$25,000-$49,999\", \"Employment status\": \"Student\"}, \"Self Description\": {\"Two sentence description\": \"sdfsdf\"}, \"Shopping Preference\": {\"Online shopping frequency\": \"\", \"Monthly online shopping spend $\": \"\", \"Amazon Prime membership\": \"\", \"To what extent do you agree with the following statements\": {\"I tend to shop more during holidays.\": \"\", \"Online Ads attract my attention and are a good source of information.\": \"\", \"I usually do a lot research (e.g. reading online reviews) before making purchase.\": \"\", \"I prioritize delivery speed and delivery fee of the product.\": \"\", \"Getting high-quality online products is very important for me.\": \"\", \"The more expensive online product brands are usually my choice.\": \"\", \"The more I learn about online products, the harder it seems to choose the best.\": \"\", \"I shop quickly for online products, buying the first product or brand I find that seems good enough.\": \"\", \"Once I find a brand I like, I stick with it.\": \"\", \"I would buy a new or different brand of product just to see what it is like.\": \"\", \"I enjoy shopping for online products just for the fun of it.\": \"\", \"I look carefully to find the best value for money when shopping online.\": \"\"}}, \"Personality\": {\"MBTI personality type\": \"\", \"Big Five Scores\": {\"Extraversion\": \"Extremely low\", \"Agreeableness\": \"Extremely low\", \"Conscientiousness\": \"Extremely low\", \"Emotional Stability\": \"Extremely low\", \"Intellect\": \"Extremely low\"}}}"
+}

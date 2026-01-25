@@ -462,9 +462,9 @@ const PersonaClusterView = () => {
                 if (monthsWithData.length > 0) {
                     setSelectedMonth(monthsWithData[0][0]);
                 }
-            } catch {
-                console.error('Error loading persona data');
-                setError('Failed to load persona data');
+            } catch (err) {
+                console.error('Error loading persona data:', err);
+                setError(`Failed to load persona data: ${err.message}`);
             } finally {
                 setLoading(false);
             }
