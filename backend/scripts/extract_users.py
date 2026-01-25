@@ -38,35 +38,114 @@ DATA_DIR = Path(__file__).parent.parent / "data" / "NEU-HAI__OPeRA"
 OUTPUT_DIR = Path(__file__).parent.parent.parent / "frontend" / "public" / "data" / "users"
 
 # --- Prompt Template ---
-SYSTEM_PROMPT = """You are a user profile extraction expert. Analyze the interview transcript and extract a structured user profile.
-
+SYSTEM_PROMPT = """
+You are a user profile extraction expert. Analyze the interview transcript and extract a structured user profile.
 Return ONLY valid JSON with this exact structure (no markdown, no explanation):
 {
+  "title": {
+    "user_name": "user_id",
+    "two_word_summary": "two words",
+    "confidence_overall": "0.00-1.00"
+  },
   "demographics": {
-    "age_range": "string or null",
-    "gender": "string or null",
-    "location": "string or null",
-    "occupation": "string or null",
-    "education": "string or null",
-    "living_situation": "string or null"
+    "age_range": {
+      "value": "age in a range of 5 years or null",
+      "confidence": "0.00-1.00",
+      "evidence": "quote/snippet or null"
+    },
+    "gender": {
+      "value": "Male / Female / Unknown or null",
+      "confidence": "0.00-1.00",
+      "evidence": "quote/snippet or null"
+    },
+    "nationality_background": {
+      "value": "USA / Country / Continent / Unknown or null",
+      "confidence": "0.00-1.00",
+      "evidence": "quote/snippet or null"
+    },
+    "location": {
+      "value": "place of residence or null",
+      "confidence": "0.00-1.00",
+      "evidence": "quote/snippet or null"
+    },
+    "living_situation": {
+      "value": "Alone / With Friend / With Partner / With Friends / With Parents / With Relatives / Unknown or null",
+      "confidence": "0.00-1.00",
+      "evidence": "quote/snippet or null"
+    },
+    "occupation": {
+      "value": "job or null",
+      "confidence": "0.00-1.00",
+      "evidence": "quote/snippet or null"
+    },
+    "education": {
+      "value": "education level or null",
+      "confidence": "0.00-1.00",
+      "evidence": "quote/snippet or null"
+    }
   },
   "psychographics": {
-    "personality_traits": ["list of traits"],
-    "interests": ["list of interests"],
-    "values": ["list of values"],
-    "lifestyle": "string description"
+    "goals_and_motivations": {
+      "value": "string (general goals/motivations) or null",
+      "confidence": "0.00-1.00",
+      "evidence": "quote/snippet or null"
+    },
+    "interests": {
+      "value": ["interest 1", "interest 2", "interest 3"],
+      "confidence": "0.00-1.00",
+      "evidence": "quote/snippet or null"
+    },
+    "values": {
+      "value": ["value 1", "value 2", "value 3"],
+      "confidence": "0.00-1.00",
+      "evidence": "quote/snippet or null"
+    }
   },
   "shopping_behavior": {
-    "frequency": "string",
-    "preferred_categories": ["list"],
-    "decision_factors": ["list of factors they consider"],
-    "research_habits": "string description",
-    "brand_loyalty": "string (high/medium/low)"
-  },
-  "narrative": "A 2-3 sentence summary of this user in third person"
+    "frequency_of_use": {
+      "value": "Several times a day / Once a day / Weekly / Monthly / Very rarely / Unknown or null",
+      "confidence": "0.00-1.00",
+      "evidence": "quote/snippet or null"
+    },
+    "where_used_devices": {
+      "value": ["Smartphone", "Tablet", "Desktop", "Unknown"],
+      "confidence": "0.00-1.00",
+      "evidence": "quote/snippet or null"
+    },
+    "search_style_best_vs_first": {
+      "value": "Best Product / First Product / Unknown or null",
+      "confidence": "0.00-1.00",
+      "evidence": "quote/snippet or null"
+    },
+    "price_preference_cheapest_vs_expensive": {
+      "value": "Cheapest Product / Most Expensive Product / Unknown or null",
+      "confidence": "0.00-1.00",
+      "evidence": "quote/snippet or null"
+    },
+    "decision_factors": {
+      "value": ["factor 1", "factor 2", "factor 3"],
+      "confidence": "0.00-1.00",
+      "evidence": "quote/snippet or null"
+    },
+    "preferred_categories": {
+      "value": ["category 1", "category 2", "category 3"],
+      "confidence": "0.00-1.00",
+      "evidence": "quote/snippet or null"
+    },
+    "pain_points_and_or_challenges": {
+      "value": "most important pain point or null",
+      "confidence": "0.00-1.00",
+      "evidence": "quote/snippet or null"
+    }
+  }
 }
 
-Extract ONLY what is explicitly stated or clearly implied in the transcript. Use null for unknown fields."""
+Extract ONLY what is explicitly stated or clearly implied in the interview_transcript. 
+Use null for unknown fields. 
+For age_range, gender and nationality_background you can interpret these three values strongly and choose the most appropriate one. 
+But no sensitive attributions without basis. 
+However, a value should always be assumed for age_range and gender in particular, even if no value can be clearly read.
+"""
 
 
 def extract_with_ollama(transcript: str) -> dict:

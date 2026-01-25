@@ -1,56 +1,123 @@
 {
   "user_id": "85aeec61-2d4e-489d-93bf-76c928d2d795",
   "profile": {
+    "title": {
+      "user_name": "Researcher_P",
+      "two_word_summary": "Academic Researcher",
+      "confidence_overall": "0.95"
+    },
     "demographics": {
-      "age_range": "35-54",
-      "gender": "male",
-      "location": "Boston, MA",
-      "occupation": "Academic Researcher",
-      "education": "Master's Degree (implied)",
-      "living_situation": "Lives alone"
+      "age_range": {
+        "value": "35-45",
+        "confidence": "0.90",
+        "evidence": "Participant explicitly states 'research experiments' and 'Alexa Echo' suggests a tech-savvy individual likely in a professional age range."
+      },
+      "gender": {
+        "value": "Male",
+        "confidence": "0.85",
+        "evidence": "Participant uses masculine pronouns and references ‘meeting room size’ and ‘people’s voices’."
+      },
+      "nationality_background": {
+        "value": "USA",
+        "confidence": "0.95",
+        "evidence": "Implied through location (Boston) and typical research activities."
+      },
+      "location": {
+        "value": "Boston",
+        "confidence": "1.00",
+        "evidence": "Participant states 'I do academic research in Boston'."
+      },
+      "living_situation": {
+        "value": "Alone",
+        "confidence": "1.00",
+        "evidence": "Participant states 'I live alone'."
+      },
+      "occupation": {
+        "value": "Academic Researcher",
+        "confidence": "1.00",
+        "evidence": "Participant states 'I do academic research' and describes research activities."
+      },
+      "education": {
+        "value": "Master's Degree or Higher",
+        "confidence": "0.80",
+        "evidence": "The nature of 'academic research' implies advanced education."
+      }
     },
     "psychographics": {
-      "personality_traits": [
-        "Analytical",
-        "Methodical",
-        "Skeptical",
-        "Independent",
-        "Practical",
-        "Detail-oriented"
-      ],
-      "interests": [
-        "Human-Computer Interaction",
-        "Natural Language Processing",
-        "Experimentation",
-        "Technology",
-        "Audio/Recording Technologies"
-      ],
-      "values": [
-        "Accuracy",
-        "Efficiency",
-        "Value for money",
-        "Reliability"
-      ],
-      "lifestyle": "A solitary, research-focused lifestyle centered around academic work, with occasional travel for personal enjoyment. He values efficiency and practicality in his purchases and prioritizes thorough research before committing to a purchase."
+      "goals_and_motivations": {
+        "value": "To conduct research, improve experimental data collection methods, and remain current with technology, specifically leveraging Alexa devices for research purposes.",
+        "confidence": "0.95",
+        "evidence": "Participant repeatedly mentions 'research experiments,' 'research meetings,' and wanting an Alexa to 'capture all the people's voices'."
+      },
+      "interests": {
+        "value": [
+          "Human-Computer Interaction",
+          "Natural Language Processing",
+          "Audio Recording Technology",
+          "Research Methodology"
+        ],
+        "confidence": "0.90",
+        "evidence": "Participant's work involves 'human computing action and natural language processing' and the specific Alexa Echo purchase indicates interest in audio recording technology."
+      },
+      "values": {
+        "value": [
+          "Accuracy",
+          "Efficiency",
+          "Data-Driven Decision Making",
+          "Trusting Independent Research"
+        ],
+        "confidence": "0.85",
+        "evidence": "Participant's focus on recording quality and research articles suggests a value for accurate data collection and evidence-based decisions. Preference for researching independently further reinforces this."
+      }
     },
     "shopping_behavior": {
-      "frequency": "Occasional",
-      "preferred_categories": [
-        "Electronics",
-        "Software",
-        "Office Supplies",
-        "Personal Care Products"
-      ],
-      "decision_factors": [
-        "Price",
-        "Performance (based on research)",
-        "Reviews (dismissed as potentially biased)",
-        "Functionality"
-      ],
-      "research_habits": "Conducts thorough research through Google searches, YouTube videos, and articles, focusing on technical specifications and comparisons. He relies on self-conducted research rather than trusting product reviews.",
-      "brand_loyalty": "Low"
-    },
-    "narrative": "This user is a solitary academic researcher living in Boston who prioritizes efficiency and value in his purchases. He conducts extensive research, primarily using online resources, to inform his decisions, focusing on technical specifications and performance. His shopping behavior is driven by a need to support his research activities and a preference for direct purchases from manufacturers."
+      "frequency_of_use": {
+        "value": "Weekly",
+        "confidence": "0.75",
+        "evidence": "Participant purchases necessities (shampoo, face moisture) weekly, and frequently researches products online via YouTube and research articles."
+      },
+      "where_used_devices": {
+        "value": [
+          "Smartphone",
+          "Desktop"
+        ],
+        "confidence": "0.90",
+        "evidence": "Participant uses YouTube and research articles on desktop, and mentions searching for Alexa Echo on a smartphone."
+      },
+      "search_style_best_vs_first": {
+        "value": "First",
+        "confidence": "0.80",
+        "evidence": "Participant initially searches for 'Alexa Echo' and then filters based on research articles and reviews."
+      },
+      "price_preference_cheapest_vs_expensive": {
+        "value": "Cheapest Product",
+        "confidence": "0.70",
+        "evidence": "Participant explicitly states 'I just find the wise, the cheapest' when choosing the Alexa Echo."
+      },
+      "decision_factors": {
+        "value": [
+          "Recording Quality",
+          "Price",
+          "Research Findings"
+        ],
+        "confidence": "0.95",
+        "evidence": "Participant’s primary decision criteria are recording quality, price, and trust in research findings from articles and YouTube."
+      },
+      "preferred_categories": {
+        "value": [
+          "Electronics",
+          "Research Equipment",
+          "Household Supplies"
+        ],
+        "confidence": "0.85",
+        "evidence": "Purchase of the Alexa Echo and regular buying of shampoo and face moisture indicate these categories."
+      },
+      "pain_points_and_or_challenges": {
+        "value": "Lack of readily available, unbiased product reviews; difficulty in accurately assessing product quality based solely on sponsored listings.",
+        "confidence": "0.90",
+        "evidence": "Participant's distrust of sponsored listings and reliance on independent research highlight this pain point."
+      }
+    }
   },
   "survey_data": "{\"Demographic Information\": {\"Gender\": \"Male\", \"Age\": \"25-34 years old\", \"City\": \"Boston\", \"Education level\": \"Doctoral degree or current doctoral student (PhD, JD, MD, DDS etc.)\", \"Living situation\": \"Live together with roommate\", \"Yearly household income or stipend\": \"$75,000-$99,999\", \"Employment status\": \"Full-time employee\"}, \"Self Description\": {\"Two sentence description\": \"I am a research scientist in Natural Language Processing and Human-Computer Interaction. I conduct scientific research projects, mentor students, and publish academic papers. \"}, \"Shopping Preference\": {\"Online shopping frequency\": \"Once every couple of weeks\", \"Monthly online shopping spend $\": \"500\", \"Amazon Prime membership\": \"Yes\", \"To what extent do you agree with the following statements\": {\"I tend to shop more during holidays.\": \"Somewhat agree\", \"Online Ads attract my attention and are a good source of information.\": \"Strongly disagree\", \"I usually do a lot research (e.g. reading online reviews) before making purchase.\": \"Strongly agree\", \"I prioritize delivery speed and delivery fee of the product.\": \"Somewhat disagree\", \"Getting high-quality online products is very important for me.\": \"Somewhat agree\", \"The more expensive online product brands are usually my choice.\": \"Somewhat disagree\", \"The more I learn about online products, the harder it seems to choose the best.\": \"Somewhat agree\", \"I shop quickly for online products, buying the first product or brand I find that seems good enough.\": \"Strongly disagree\", \"Once I find a brand I like, I stick with it.\": \"Somewhat agree\", \"I would buy a new or different brand of product just to see what it is like.\": \"Neither agree or disagree\", \"I enjoy shopping for online products just for the fun of it.\": \"Somewhat disagree\", \"I look carefully to find the best value for money when shopping online.\": \"Strongly agree\"}}, \"Personality\": {\"MBTI personality type\": \"INTJ\", \"Big Five Scores\": {\"Extraversion\": \"Low\", \"Agreeableness\": \"Low\", \"Conscientiousness\": \"Extremely high\", \"Emotional Stability\": \"High\", \"Intellect\": \"High\"}}}"
 }
