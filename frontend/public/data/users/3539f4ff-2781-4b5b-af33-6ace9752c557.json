@@ -1,0 +1,126 @@
+{
+  "user_id": "3539f4ff-2781-4b5b-af33-6ace9752c557",
+  "profile": {
+    "title": {
+      "user_name": "Participant",
+      "two_word_summary": "Gaming Enthusiast",
+      "confidence_overall": "0.85"
+    },
+    "demographics": {
+      "age_range": {
+        "value": "25-34",
+        "confidence": "0.95",
+        "evidence": "Participant stated they graduated last year and is currently searching for a full-time job."
+      },
+      "gender": {
+        "value": "Male",
+        "confidence": "0.90",
+        "evidence": "Participant's language and interests (gaming, tech) are typically associated with males."
+      },
+      "nationality_background": {
+        "value": "USA",
+        "confidence": "0.80",
+        "evidence": "Participant's location is in Arkansas, USA."
+      },
+      "location": {
+        "value": "Bentonville, Arkansas",
+        "confidence": "1.00",
+        "evidence": "Participant explicitly states \"Bentonville\"."
+      },
+      "living_situation": {
+        "value": "Living with Partner",
+        "confidence": "0.95",
+        "evidence": "Participant states \"I'm currently living with my girlfriend.\""
+      },
+      "occupation": {
+        "value": "Contract Researcher/Content Creator",
+        "confidence": "0.90",
+        "evidence": "Participant describes their work as \"researcher and a content creator\" and a \"contract role.\""
+      },
+      "education": {
+        "value": "Master's Degree",
+        "confidence": "1.00",
+        "evidence": "Participant states \"I graduated from [ORG_MASKED] last year. I did. My master's in game science and design bef.\""
+      }
+    },
+    "psychographics": {
+      "goals_and_motivations": {
+        "value": "Seeking full-time employment, acquiring new gaming equipment and experiences, collecting gaming-related items.",
+        "confidence": "0.85",
+        "evidence": "Participant mentions searching for a full-time job, buying controllers and phone cases, collecting Lego and small items."
+      },
+      "interests": {
+        "value": [
+          "Gaming",
+          "Electronics",
+          "TV Shows",
+          "Lego",
+          "Tech"
+        ],
+        "confidence": "0.95",
+        "evidence": "Participant repeatedly refers to gaming, discusses buying controllers and phone cases, mentions TV shows, and mentions collecting Lego."
+      },
+      "values": {
+        "value": [
+          "Value for Money",
+          "Quality",
+          "Convenience",
+          "Community (Reddit)"
+        ],
+        "confidence": "0.75",
+        "evidence": "Participant prioritizes deals, researches products on Reddit, returns unsatisfactory products, and values convenience."
+      }
+    },
+    "shopping_behavior": {
+      "frequency_of_use": {
+        "value": "Frequently",
+        "confidence": "0.90",
+        "evidence": "Participant actively shops on Amazon, constantly searches for deals, and frequently discusses online purchases."
+      },
+      "where_used_devices": {
+        "value": [
+          "Smartphone",
+          "Desktop"
+        ],
+        "confidence": "0.90",
+        "evidence": "Participant uses a smartphone and desktop for online shopping and research."
+      },
+      "search_style_best_vs_first": {
+        "value": "Best Product / First Product",
+        "confidence": "0.70",
+        "evidence": "Participant states they often look for the best-selling products, but also considers other options."
+      },
+      "price_preference_cheapest_vs_expensive": {
+        "value": "Cheapest Product",
+        "confidence": "0.80",
+        "evidence": "Participant frequently searches for deals and is willing to buy products at discounted prices."
+      },
+      "decision_factors": {
+        "value": [
+          "Price",
+          "Reviews",
+          "Quality",
+          "Deals",
+          "Reddit Recommendations"
+        ],
+        "confidence": "0.95",
+        "evidence": "Participant consistently cites price, reviews, and deals as important factors in their purchasing decisions, and frequently consults Reddit for recommendations."
+      },
+      "preferred_categories": {
+        "value": [
+          "Gaming Accessories",
+          "Electronics",
+          "Toys/Collectibles"
+        ],
+        "confidence": "0.85",
+        "evidence": "Participant purchases controllers, phone cases, and Lego sets."
+      },
+      "pain_points_and_or_challenges": {
+        "value": "Difficulty comparing products, overwhelming number of options, ensuring product quality, finding the best deals.",
+        "confidence": "0.90",
+        "evidence": "Participant expresses frustration with comparing products, mentions the high volume of options, and describes instances where products were unsatisfactory."
+      }
+    }
+  },
+  "survey_data": "{\"Demographic Information\": {\"Gender\": \"Male\", \"Age\": \"25-34 years old\", \"City\": \"Arkansas\", \"Education level\": \"Graduate degree or current grad student (MA, MS, MBA, etc.)\", \"Living situation\": \"Living with my partner\", \"Yearly household income or stipend\": \"$25,000-$49,999\", \"Employment status\": \"Part-time employee\"}, \"Self Description\": {\"Two sentence description\": \"I am a researcher & content creator at a startup game company. Interested in research, analytics and marketing looking to meaningfully contribute to the games industry. \"}, \"Shopping Preference\": {\"Online shopping frequency\": \"Once every couple of weeks\", \"Monthly online shopping spend $\": \"30\", \"Amazon Prime membership\": \"Yes\", \"To what extent do you agree with the following statements\": {\"I tend to shop more during holidays.\": \"Strongly agree\", \"Online Ads attract my attention and are a good source of information.\": \"Somewhat agree\", \"I usually do a lot research (e.g. reading online reviews) before making purchase.\": \"Strongly agree\", \"I prioritize delivery speed and delivery fee of the product.\": \"Neither agree or disagree\", \"Getting high-quality online products is very important for me.\": \"Strongly agree\", \"The more expensive online product brands are usually my choice.\": \"Neither agree or disagree\", \"The more I learn about online products, the harder it seems to choose the best.\": \"Neither agree or disagree\", \"I shop quickly for online products, buying the first product or brand I find that seems good enough.\": \"Strongly disagree\", \"Once I find a brand I like, I stick with it.\": \"Somewhat agree\", \"I would buy a new or different brand of product just to see what it is like.\": \"Somewhat agree\", \"I enjoy shopping for online products just for the fun of it.\": \"Somewhat agree\", \"I look carefully to find the best value for money when shopping online.\": \"Strongly agree\"}}, \"Personality\": {\"MBTI personality type\": \"ESTJ-T\", \"Big Five Scores\": {\"Extraversion\": \"Medium\", \"Agreeableness\": \"High\", \"Conscientiousness\": \"Extremely high\", \"Emotional Stability\": \"High\", \"Intellect\": \"High\"}}}"
+}

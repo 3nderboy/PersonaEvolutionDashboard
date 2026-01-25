@@ -34,7 +34,7 @@ OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "gemma3")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
 OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
 
-DATA_DIR = Path(__file__).parent.parent / "data" / "NEU-HAI__OPeRA"
+DATA_DIR = Path(__file__).parent.parent / "data" / "NEU-HAI__OPeRA" / "filtered_user"
 OUTPUT_DIR = Path(__file__).parent.parent.parent / "frontend" / "public" / "data" / "users"
 
 # --- Prompt Template ---
@@ -147,6 +147,15 @@ But no sensitive attributions without basis.
 However, a value should always be assumed for age_range and gender in particular, even if no value can be clearly read.
 """
 
+def validate_utf8(text: str) -> str:
+    """Ensure text is valid UTF-8, replacing invalid characters."""
+    if not isinstance(text, str):
+        return ""
+    return text.encode('utf-8', 'replace').decode('utf-8')
+
+# Ensure SYSTEM_PROMPT is valid UTF-8
+SYSTEM_PROMPT = validate_utf8(SYSTEM_PROMPT)
+
 
 def extract_with_ollama(transcript: str) -> dict:
     """Call Ollama API for extraction."""
@@ -154,7 +163,7 @@ def extract_with_ollama(transcript: str) -> dict:
         OLLAMA_URL,
         json={
             "model": OLLAMA_MODEL,
-            "prompt": f"{SYSTEM_PROMPT}\n\n--- TRANSCRIPT ---\n{transcript}\n--- END TRANSCRIPT ---",
+            "prompt": f"{SYSTEM_PROMPT}\n\n--- TRANSCRIPT ---\n{validate_utf8(transcript)}\n--- END TRANSCRIPT ---",
             "stream": False,
             "format": "json"
         },
@@ -175,7 +184,7 @@ def extract_with_openai(transcript: str) -> dict:
         model=OPENAI_MODEL,
         messages=[
             {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user", "content": f"--- TRANSCRIPT ---\n{transcript}\n--- END TRANSCRIPT ---"}
+            {"role": "user", "content": f"--- TRANSCRIPT ---\n{validate_utf8(transcript)}\n--- END TRANSCRIPT ---"}
         ],
         response_format={"type": "json_object"},
         timeout=60
@@ -186,11 +195,24 @@ def extract_with_openai(transcript: str) -> dict:
 
 def load_users() -> pd.DataFrame:
     """Load user data with interview transcripts."""
-    csv_path = DATA_DIR / "user.csv"
-    if not csv_path.exists():
-        raise FileNotFoundError(f"User data not found at {csv_path}")
+    csv_files = list(DATA_DIR.glob("*.csv"))
+    if not csv_files:
+        raise FileNotFoundError(f"No CSV files found in {DATA_DIR}")
     
-    df = pd.read_csv(csv_path)
+    dfs = []
+    for csv_path in csv_files:
+        print(f"    Loading {csv_path.name}...")
+        try:
+            df_chunk = pd.read_csv(csv_path)
+            dfs.append(df_chunk)
+        except Exception as e:
+            print(f"[ERR] Failed to load {csv_path.name}: {e}")
+
+    if not dfs:
+        return pd.DataFrame()
+        
+    df = pd.concat(dfs, ignore_index=True)
+    
     # Filter to users with interview transcripts
     df = df[df["interview_transcript"].notna() & (df["interview_transcript"] != "")]
     return df
@@ -262,6 +284,10 @@ def main():
         try:
             transcript = row["interview_transcript"]
             survey = row.get("survey", None)
+            
+            # Handle NaN survey data (common in pandas)
+            if pd.isna(survey):
+                survey = None
             
             profile = extract_fn(transcript)
             save_user_profile(user_id, profile, survey)

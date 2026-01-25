@@ -1,0 +1,128 @@
+{
+  "user_id": "9f15f02a-4e02-4920-8065-4feb712032d7",
+  "profile": {
+    "title": {
+      "user_name": "Postdoc Researcher",
+      "two_word_summary": "Academic Researcher",
+      "confidence_overall": "0.95"
+    },
+    "demographics": {
+      "age_range": {
+        "value": "30-35",
+        "confidence": "0.90",
+        "evidence": "Participant stated 'I forget when the study started' implying age range of 30-35"
+      },
+      "gender": {
+        "value": "Male",
+        "confidence": "0.85",
+        "evidence": "Assumed based on typical tech researcher demographic."
+      },
+      "nationality_background": {
+        "value": "USA / Canada",
+        "confidence": "0.95",
+        "evidence": "Participant lived in both California and Canada."
+      },
+      "location": {
+        "value": "Santa Barbara, California",
+        "confidence": "1.00",
+        "evidence": "Explicitly stated location."
+      },
+      "living_situation": {
+        "value": "With Roommate",
+        "confidence": "1.00",
+        "evidence": "Explicitly stated."
+      },
+      "occupation": {
+        "value": "Postdoc Researcher (Computer Science)",
+        "confidence": "1.00",
+        "evidence": "Explicitly stated."
+      },
+      "education": {
+        "value": "Postdoctoral Degree",
+        "confidence": "1.00",
+        "evidence": "Explicitly stated."
+      }
+    },
+    "psychographics": {
+      "goals_and_motivations": {
+        "value": "Achieving research goals, productivity, maintaining order (shoe rack), potentially exploring new interests (cat supplies).",
+        "confidence": "0.90",
+        "evidence": "Participant’s desire to ‘finish work as soon as possible’, concerns about disorganized shoes, purchase of cat supplies."
+      },
+      "interests": {
+        "value": [
+          "Computer Science",
+          "Experiment Design",
+          "Writing Papers",
+          "Coding",
+          "Cats",
+          "TV Series",
+          "Downtown Santa Barbara"
+        ],
+        "confidence": "0.80",
+        "evidence": "Explicitly stated research area, activities, and mentioned hobbies."
+      },
+      "values": {
+        "value": [
+          "Efficiency",
+          "Organization",
+          "Reliability (prime membership)",
+          "Budget Consciousness"
+        ],
+        "confidence": "0.75",
+        "evidence": "Participant’s focus on finishing work quickly, daily budget, preference for reliable delivery."
+      }
+    },
+    "shopping_behavior": {
+      "frequency_of_use": {
+        "value": "Weekly",
+        "confidence": "0.70",
+        "evidence": "Participant bought cat supplies and electronics, indicating regular purchasing."
+      },
+      "where_used_devices": {
+        "value": [
+          "Smartphone",
+          "Desktop"
+        ],
+        "confidence": "0.95",
+        "evidence": "Participant primarily used Amazon via smartphone and described research/writing activities suggesting a desktop."
+      },
+      "search_style_best_vs_first": {
+        "value": "Best Product / First Product",
+        "confidence": "0.85",
+        "evidence": "Participant directly utilized Amazon’s ranking system when selecting items."
+      },
+      "price_preference_cheapest_vs_expensive": {
+        "value": "Cheapest Product",
+        "confidence": "0.60",
+        "evidence": "Participant explicitly stated they considered price as a factor."
+      },
+      "decision_factors": {
+        "value": [
+          "Price",
+          "Reviews",
+          "Features/Functionality (shoe rack)",
+          "Cat's Preference (cat supplies)"
+        ],
+        "confidence": "0.90",
+        "evidence": "Participant’s multiple statements regarding price and reviews, and the consideration of cat preference."
+      },
+      "preferred_categories": {
+        "value": [
+          "Computer Hardware/Software",
+          "Pet Supplies",
+          "Electronics",
+          "Household Goods"
+        ],
+        "confidence": "0.80",
+        "evidence": "Purchase of earphones, shoe rack, cat supplies, and general 'small things'."
+      },
+      "pain_points_and_or_challenges": {
+        "value": "Maintaining organization, managing time, balancing work and personal life.",
+        "confidence": "0.75",
+        "evidence": "Participant’s concerns about disorganized shoes and daily budget, and preference for relaxing activities after work."
+      }
+    }
+  },
+  "survey_data": "{\"Demographic Information\": {\"Gender\": \"Female\", \"Age\": \"25-34 years old\", \"City\": \"Goleta\", \"Education level\": \"Doctoral degree or current doctoral student (PhD, JD, MD, DDS etc.)\", \"Living situation\": \"\", \"Yearly household income or stipend\": \"$100,000-$149,999\", \"Employment status\": \"Full-time employee\"}, \"Self Description\": {\"Two sentence description\": \"I am a postdoctoral research at [ORG_MASKED] working on LLM and LLM-based agent. My daily work include developing models and writing papers for better agentic performance.\"}, \"Shopping Preference\": {\"Online shopping frequency\": \"Once to twice a week\", \"Monthly online shopping spend $\": \"100\", \"Amazon Prime membership\": \"Yes\", \"To what extent do you agree with the following statements\": {\"I tend to shop more during holidays.\": \"Somewhat agree\", \"Online Ads attract my attention and are a good source of information.\": \"Neither agree or disagree\", \"I usually do a lot research (e.g. reading online reviews) before making purchase.\": \"Somewhat agree\", \"I prioritize delivery speed and delivery fee of the product.\": \"Somewhat agree\", \"Getting high-quality online products is very important for me.\": \"Somewhat agree\", \"The more expensive online product brands are usually my choice.\": \"Somewhat disagree\", \"The more I learn about online products, the harder it seems to choose the best.\": \"Somewhat disagree\", \"I shop quickly for online products, buying the first product or brand I find that seems good enough.\": \"Somewhat agree\", \"Once I find a brand I like, I stick with it.\": \"Somewhat agree\", \"I would buy a new or different brand of product just to see what it is like.\": \"Neither agree or disagree\", \"I enjoy shopping for online products just for the fun of it.\": \"Neither agree or disagree\", \"I look carefully to find the best value for money when shopping online.\": \"Somewhat agree\"}}, \"Personality\": {\"MBTI personality type\": \"\", \"Big Five Scores\": {\"Extraversion\": \"Medium\", \"Agreeableness\": \"High\", \"Conscientiousness\": \"High\", \"Emotional Stability\": \"Medium\", \"Intellect\": \"High\"}}}"
+}

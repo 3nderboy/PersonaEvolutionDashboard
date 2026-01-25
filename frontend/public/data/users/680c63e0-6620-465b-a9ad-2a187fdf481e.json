@@ -1,0 +1,123 @@
+{
+  "user_id": "680c63e0-6620-465b-a9ad-2a187fdf481e",
+  "profile": {
+    "title": {
+      "user_name": "Participant",
+      "two_word_summary": "Tech Fitness Man",
+      "confidence_overall": "0.85"
+    },
+    "demographics": {
+      "age_range": {
+        "value": "35-44",
+        "confidence": "0.95",
+        "evidence": "Participant is an assistant professor, suggesting a likely age range for someone in that profession."
+      },
+      "gender": {
+        "value": "Male",
+        "confidence": "0.90",
+        "evidence": "Participant discusses gym workouts, protein consumption, and driving, which are more commonly associated with males."
+      },
+      "nationality_background": {
+        "value": "Russian",
+        "confidence": "0.70",
+        "evidence": "Participant explicitly states \"I'm Russian\"."
+      },
+      "location": {
+        "value": "Allendale, Michigan",
+        "confidence": "1.00",
+        "evidence": "Participant states \"I live in Allendale, Michigan\"."
+      },
+      "living_situation": {
+        "value": "Living Alone",
+        "confidence": "0.95",
+        "evidence": "Participant states \"I live by myself\"."
+      },
+      "occupation": {
+        "value": "Assistant Professor",
+        "confidence": "1.00",
+        "evidence": "Participant explicitly states \"I am an assistant professor in [ORG_MASKED] University\"."
+      },
+      "education": {
+        "value": "Master's Degree or Higher",
+        "confidence": "0.80",
+        "evidence": "Occupation as an Assistant Professor typically requires a doctorate or equivalent advanced degree."
+      }
+    },
+    "psychographics": {
+      "goals_and_motivations": {
+        "value": "Maintain Fitness, Convenience, Informed Purchases",
+        "confidence": "0.85",
+        "evidence": "Participant’s gym workouts, protein consumption, and research into product reviews and features."
+      },
+      "interests": {
+        "value": [
+          "Computer Science",
+          "Fitness",
+          "Technology",
+          "Cars"
+        ],
+        "confidence": "0.90",
+        "evidence": "Participant’s job as a computer science professor, purchase of a portable air compressor and car parts."
+      },
+      "values": {
+        "value": [
+          "Value for Money",
+          "Quality Ingredients",
+          "Reliable Reviews"
+        ],
+        "confidence": "0.80",
+        "evidence": "Participant’s prioritizing price and ingredients, and focus on customer reviews."
+      }
+    },
+    "shopping_behavior": {
+      "frequency_of_use": {
+        "value": "Weekly",
+        "confidence": "0.75",
+        "evidence": "Participant's purchase of protein and car parts suggests regular shopping behavior."
+      },
+      "where_used_devices": {
+        "value": [
+          "Smartphone"
+        ],
+        "confidence": "1.00",
+        "evidence": "Participant uses a smartphone to research and purchase products."
+      },
+      "search_style_best_vs_first": {
+        "value": "Best Product",
+        "confidence": "0.70",
+        "evidence": "Participant explicitly states he looks for \"the best\" product."
+      },
+      "price_preference_cheapest_vs_expensive": {
+        "value": "Cheapest Product",
+        "confidence": "0.60",
+        "evidence": "Participant mentions that price is important, but ultimately considers deals and discounts."
+      },
+      "decision_factors": {
+        "value": [
+          "Ingredients",
+          "Price",
+          "Brand",
+          "Reviews"
+        ],
+        "confidence": "0.95",
+        "evidence": "Participant explicitly lists these as important factors in his purchase decisions."
+      },
+      "preferred_categories": {
+        "value": [
+          "Protein Supplements",
+          "Car Accessories",
+          "Electronics",
+          "Home Goods"
+        ],
+        "confidence": "0.80",
+        "evidence": "Participant’s purchases of protein, air compressor, car parts, and USB cables."
+      },
+      "pain_points_and_or_challenges": {
+        "value": "Finding high-quality products with good reviews at a reasonable price",
+        "confidence": "0.85",
+        "evidence": "Participant's research into reviews and brand comparison, and consideration of price deals."
+      }
+    }
+  },
+  "survey_data": "{\"Demographic Information\": {\"Gender\": \"Male\", \"Age\": \"25-34 years old\", \"City\": \"Allendale, MI\", \"Education level\": \"Doctoral degree or current doctoral student (PhD, JD, MD, DDS etc.)\", \"Living situation\": \"live alone\", \"Yearly household income or stipend\": \"$100,000-$149,999\", \"Employment status\": \"Full-time employee\"}, \"Self Description\": {\"Two sentence description\": \"I am a computer science professor. My daily work includes teaching, developing and optimizing deep learning models for various fields.\"}, \"Shopping Preference\": {\"Online shopping frequency\": \"Once every couple of weeks\", \"Monthly online shopping spend $\": \"100\", \"Amazon Prime membership\": \"No\", \"To what extent do you agree with the following statements\": {\"I tend to shop more during holidays.\": \"Strongly agree\", \"Online Ads attract my attention and are a good source of information.\": \"Somewhat agree\", \"I usually do a lot research (e.g. reading online reviews) before making purchase.\": \"Strongly agree\", \"I prioritize delivery speed and delivery fee of the product.\": \"Strongly disagree\", \"Getting high-quality online products is very important for me.\": \"Somewhat agree\", \"The more expensive online product brands are usually my choice.\": \"Strongly disagree\", \"The more I learn about online products, the harder it seems to choose the best.\": \"Somewhat disagree\", \"I shop quickly for online products, buying the first product or brand I find that seems good enough.\": \"Strongly disagree\", \"Once I find a brand I like, I stick with it.\": \"Somewhat agree\", \"I would buy a new or different brand of product just to see what it is like.\": \"Somewhat agree\", \"I enjoy shopping for online products just for the fun of it.\": \"Somewhat disagree\", \"I look carefully to find the best value for money when shopping online.\": \"Strongly agree\"}}, \"Personality\": {\"MBTI personality type\": \"\", \"Big Five Scores\": {\"Extraversion\": \"Extremely high\", \"Agreeableness\": \"Extremely high\", \"Conscientiousness\": \"Extremely high\", \"Emotional Stability\": \"High\", \"Intellect\": \"High\"}}}"
+}

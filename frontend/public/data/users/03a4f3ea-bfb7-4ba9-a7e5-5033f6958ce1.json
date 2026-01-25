@@ -1,0 +1,128 @@
+{
+  "user_id": "03a4f3ea-bfb7-4ba9-a7e5-5033f6958ce1",
+  "profile": {
+    "title": {
+      "user_name": "PhD Student",
+      "two_word_summary": "Tech-savvy, Research-oriented",
+      "confidence_overall": "0.95"
+    },
+    "demographics": {
+      "age_range": {
+        "value": "25-35",
+        "confidence": "0.90",
+        "evidence": "Participant states they are a '1st year PhD student'."
+      },
+      "gender": {
+        "value": "Male",
+        "confidence": "0.85",
+        "evidence": "Inferred from language and interests, specifically mentioning coding and 'problem-solving'."
+      },
+      "nationality_background": {
+        "value": "USA",
+        "confidence": "0.95",
+        "evidence": "Implied by mentioning Boston University and American companies/products."
+      },
+      "location": {
+        "value": "Boston, MA",
+        "confidence": "1.00",
+        "evidence": "Explicitly stated as 'live in Boston'."
+      },
+      "living_situation": {
+        "value": "With Roommates",
+        "confidence": "1.00",
+        "evidence": "Explicitly stated as 'live in Boston with my roommates'."
+      },
+      "occupation": {
+        "value": "PhD Student (Computer Science)",
+        "confidence": "1.00",
+        "evidence": "Explicitly states 'I'm a Phd student... Computer Science Phd student'."
+      },
+      "education": {
+        "value": "PhD Level",
+        "confidence": "1.00",
+        "evidence": "Explicitly states 'I'm a 1st year PhD student'."
+      }
+    },
+    "psychographics": {
+      "goals_and_motivations": {
+        "value": "To complete their PhD, advance in Natural Language Processing research, achieve a clear target and make a dream come true.",
+        "confidence": "0.95",
+        "evidence": "Quotes: 'I have a pretty clear target that what I want to do in the future', 'I want to make my dream come true', 'I have a strict time schedule'."
+      },
+      "interests": {
+        "value": [
+          "Natural Language Processing",
+          "Large Language Model Agents",
+          "Coding",
+          "Cats",
+          "Board Games",
+          "Brunch"
+        ],
+        "confidence": "0.90",
+        "evidence": "Explicit mentions: 'natural language processing', 'large language model agents', 'coding', and references to cat care and social activities."
+      },
+      "values": {
+        "value": [
+          "Efficiency",
+          "Reliability",
+          "Healthy Lifestyle",
+          "Social Interaction",
+          "Brand Reputation"
+        ],
+        "confidence": "0.85",
+        "evidence": "Inferred from: prioritizing established brands, focus on schedule, interest in healthy cat food, value social interaction (board games, dinner with friends)."
+      }
+    },
+    "shopping_behavior": {
+      "frequency_of_use": {
+        "value": "Weekly",
+        "confidence": "0.80",
+        "evidence": "Purchases of cat food (every 2 months), electronics, daily necessities (subscriptions)."
+      },
+      "where_used_devices": {
+        "value": [
+          "Smartphone",
+          "Desktop"
+        ],
+        "confidence": "0.95",
+        "evidence": "Participant uses screen sharing, 'I can see the screen' and refers to searching on social media."
+      },
+      "search_style_best_vs_first": {
+        "value": "First Product",
+        "confidence": "0.75",
+        "evidence": "Participant initially searches for 'keep healthy or fit cat food', referencing recommendations from social media."
+      },
+      "price_preference_cheapest_vs_expensive": {
+        "value": "Cheapest Product",
+        "confidence": "0.70",
+        "evidence": "Prioritizes 'reasonable price', buys 'cheapest one' cables' and 'cheapest one toothbrush heads'."
+      },
+      "decision_factors": {
+        "value": [
+          "Brand Reputation",
+          "Price",
+          "Ranking Scores",
+          "Reviews (for expensive items)"
+        ],
+        "confidence": "0.90",
+        "evidence": "Explicit mentions of 'I trust their brands', 'price', 'ranking scores', 'reviews'."
+      },
+      "preferred_categories": {
+        "value": [
+          "Electronics",
+          "Computer Accessories",
+          "Pet Supplies",
+          "Daily Necessities"
+        ],
+        "confidence": "1.00",
+        "evidence": "Explicitly purchases: 'GPU stand and some cable', 'cat food', 'toothbrush heads', 'paper tissues'."
+      },
+      "pain_points_and_or_challenges": {
+        "value": "Time constraints, ensuring cat's health, finding reliable information.",
+        "confidence": "0.80",
+        "evidence": "Expresses a desire to avoid spending excessive time shopping, concerned about cat's health, and researching information through social media."
+      }
+    }
+  },
+  "survey_data": "{\"Demographic Information\": {\"Gender\": \"Female\", \"Age\": \"25-34 years old\", \"City\": \"boston\", \"Education level\": \"Doctoral degree or current doctoral student (PhD, JD, MD, DDS etc.)\", \"Living situation\": \"live with a friend\", \"Yearly household income or stipend\": \"$50,000-$74,999\", \"Employment status\": \"Student\"}, \"Self Description\": {\"Two sentence description\": \"I am a first-year phd student in cs, focusing on natural language processing. I usually write code, have meetings, brainstorming with colleagues. I like dancing and travel.\"}, \"Shopping Preference\": {\"Online shopping frequency\": \"Once to twice a week\", \"Monthly online shopping spend $\": \"300\", \"Amazon Prime membership\": \"Yes\", \"To what extent do you agree with the following statements\": {\"I tend to shop more during holidays.\": \"Somewhat agree\", \"Online Ads attract my attention and are a good source of information.\": \"Neither agree or disagree\", \"I usually do a lot research (e.g. reading online reviews) before making purchase.\": \"Strongly agree\", \"I prioritize delivery speed and delivery fee of the product.\": \"Somewhat disagree\", \"Getting high-quality online products is very important for me.\": \"Somewhat agree\", \"The more expensive online product brands are usually my choice.\": \"Somewhat agree\", \"The more I learn about online products, the harder it seems to choose the best.\": \"Strongly agree\", \"I shop quickly for online products, buying the first product or brand I find that seems good enough.\": \"Somewhat disagree\", \"Once I find a brand I like, I stick with it.\": \"Somewhat agree\", \"I would buy a new or different brand of product just to see what it is like.\": \"Somewhat agree\", \"I enjoy shopping for online products just for the fun of it.\": \"Strongly agree\", \"I look carefully to find the best value for money when shopping online.\": \"Neither agree or disagree\"}}, \"Personality\": {\"MBTI personality type\": \"INFJ\", \"Big Five Scores\": {\"Extraversion\": \"Medium\", \"Agreeableness\": \"Extremely high\", \"Conscientiousness\": \"High\", \"Emotional Stability\": \"Low\", \"Intellect\": \"High\"}}}"
+}

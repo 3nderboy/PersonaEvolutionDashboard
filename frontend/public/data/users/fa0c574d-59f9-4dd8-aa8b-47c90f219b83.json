@@ -1,0 +1,125 @@
+{
+  "user_id": "fa0c574d-59f9-4dd8-aa8b-47c90f219b83",
+  "profile": {
+    "title": {
+      "user_name": "Participant",
+      "two_word_summary": "Student Shopper",
+      "confidence_overall": "0.85"
+    },
+    "demographics": {
+      "age_range": {
+        "value": "25-34",
+        "confidence": "0.95",
+        "evidence": "Participant states he is a master's student, a common age range for graduate studies."
+      },
+      "gender": {
+        "value": "Male",
+        "confidence": "0.90",
+        "evidence": "Participant's language and references (e.g., 'guys,' 'I don't like')."
+      },
+      "nationality_background": {
+        "value": "USA",
+        "confidence": "0.99",
+        "evidence": "Participant lives in Los Angeles and references US-based companies like Amazon."
+      },
+      "location": {
+        "value": "Los Angeles, CA",
+        "confidence": "1.00",
+        "evidence": "Explicitly stated in the transcript."
+      },
+      "living_situation": {
+        "value": "With Roommate",
+        "confidence": "1.00",
+        "evidence": "Explicitly stated in the transcript."
+      },
+      "occupation": {
+        "value": "Master's Student, Part-time AI Worker",
+        "confidence": "0.95",
+        "evidence": "Explicitly stated in the transcript."
+      },
+      "education": {
+        "value": "Master's Degree",
+        "confidence": "1.00",
+        "evidence": "Explicitly stated in the transcript."
+      }
+    },
+    "psychographics": {
+      "goals_and_motivations": {
+        "value": "Practicality, Convenience, Quality, Value",
+        "confidence": "0.80",
+        "evidence": "Participant prioritizes durable products for travel, seeks affordable options, and focuses on quality when making decisions."
+      },
+      "interests": {
+        "value": [
+          "Photography",
+          "Travel",
+          "Technology (AI, Coding)",
+          "Gaming"
+        ],
+        "confidence": "0.75",
+        "evidence": "Participant mentions photography, Hawaii trip, computer science, and playing games."
+      },
+      "values": {
+        "value": [
+          "Organization",
+          "Efficiency",
+          "Practicality",
+          "Value for Money"
+        ],
+        "confidence": "0.85",
+        "evidence": "Participant values a structured schedule, efficient use of time, and finding the best value."
+      }
+    },
+    "shopping_behavior": {
+      "frequency_of_use": {
+        "value": "Weekly",
+        "confidence": "0.70",
+        "evidence": "Participant buys items regularly, including electronics and daily necessities."
+      },
+      "where_used_devices": {
+        "value": [
+          "Smartphone",
+          "Desktop"
+        ],
+        "confidence": "0.90",
+        "evidence": "Participant uses Amazon primarily through his smartphone and likely a desktop for research."
+      },
+      "search_style_best_vs_first": {
+        "value": "First Product / Sometimes Best Product",
+        "confidence": "0.60",
+        "evidence": "Participant initially searches using the general term 'crocs' but then examines results based on visual appeal and quality."
+      },
+      "price_preference_cheapest_vs_expensive": {
+        "value": "Cheapest Product",
+        "confidence": "0.85",
+        "evidence": "Participant explicitly chooses the lowest-priced crocs option."
+      },
+      "decision_factors": {
+        "value": [
+          "Quality",
+          "Price",
+          "Functionality",
+          "Relevance"
+        ],
+        "confidence": "0.95",
+        "evidence": "Participant consistently prioritizes these factors in his purchasing decisions."
+      },
+      "preferred_categories": {
+        "value": [
+          "Electronics",
+          "Home Goods",
+          "Clothing (Sleepwear)",
+          "Daily Necessities"
+        ],
+        "confidence": "0.90",
+        "evidence": "Participant purchases electronics, air purifiers, and everyday items."
+      },
+      "pain_points_and_or_challenges": {
+        "value": "Finding Accurate Search Terms, Sizing Issues, Information Overload",
+        "confidence": "0.80",
+        "evidence": "Participant struggles with imprecise search terms and acknowledges sizing variations across brands."
+      }
+    }
+  },
+  "survey_data": "{\"Demographic Information\": {\"Gender\": \"Male\", \"Age\": \"18-24 years old\", \"City\": \"Los Angeles\", \"Education level\": \"Bachelors' degree or current college student\", \"Living situation\": \"alone\", \"Yearly household income or stipend\": \"Less than $25,000\", \"Employment status\": \"Part-time employee,Student\"}, \"Self Description\": {\"Two sentence description\": \"I am a Master's student in computer science. I am also working part time as an research assistant. My research is primarily in HCI, especially human-centered AI and human-AI collaboration. I usually help with system developments and interviews during the day, and have classes in the evening.\"}, \"Shopping Preference\": {\"Online shopping frequency\": \"Once to twice a week\", \"Monthly online shopping spend $\": \"50\", \"Amazon Prime membership\": \"Yes\", \"To what extent do you agree with the following statements\": {\"I tend to shop more during holidays.\": \"Somewhat disagree\", \"Online Ads attract my attention and are a good source of information.\": \"Somewhat disagree\", \"I usually do a lot research (e.g. reading online reviews) before making purchase.\": \"Neither agree or disagree\", \"I prioritize delivery speed and delivery fee of the product.\": \"Somewhat agree\", \"Getting high-quality online products is very important for me.\": \"Somewhat agree\", \"The more expensive online product brands are usually my choice.\": \"Somewhat disagree\", \"The more I learn about online products, the harder it seems to choose the best.\": \"Somewhat agree\", \"I shop quickly for online products, buying the first product or brand I find that seems good enough.\": \"Somewhat disagree\", \"Once I find a brand I like, I stick with it.\": \"Somewhat agree\", \"I would buy a new or different brand of product just to see what it is like.\": \"Somewhat disagree\", \"I enjoy shopping for online products just for the fun of it.\": \"Neither agree or disagree\", \"I look carefully to find the best value for money when shopping online.\": \"Somewhat agree\"}}, \"Personality\": {\"MBTI personality type\": \"INFJ\", \"Big Five Scores\": {\"Extraversion\": \"Medium\", \"Agreeableness\": \"High\", \"Conscientiousness\": \"High\", \"Emotional Stability\": \"Medium\", \"Intellect\": \"High\"}}}"
+}

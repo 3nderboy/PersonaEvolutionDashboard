@@ -3,121 +3,126 @@
   "profile": {
     "title": {
       "user_name": "Participant",
-      "two_word_summary": "Tech-savvy Researcher",
-      "confidence_overall": "0.85"
+      "two_word_summary": "Computer Science PhD",
+      "confidence_overall": "0.95"
     },
     "demographics": {
       "age_range": {
-        "value": "25-34",
-        "confidence": "0.95",
-        "evidence": "Participant describes a typical day involving PhD study, gym, and cooking, aligning with a 25-34 age group."
+        "value": "25-35",
+        "confidence": "0.90",
+        "evidence": "Participant states they are a PhD student, suggesting an age range consistent with doctoral studies."
       },
       "gender": {
         "value": "Male",
-        "confidence": "0.90",
-        "evidence": "Participant uses masculine pronouns (I, me, my) consistently throughout the transcript."
+        "confidence": "0.85",
+        "evidence": "The participant's language and references (gym, workout) are consistent with a male profile."
       },
       "nationality_background": {
         "value": "USA",
-        "confidence": "0.80",
+        "confidence": "0.95",
         "evidence": "Participant lives in Blacksburg, Virginia - a location within the United States."
       },
       "location": {
         "value": "Blacksburg, Virginia",
         "confidence": "1.00",
-        "evidence": "Explicitly stated in the transcript: 'I live in Blacksburg, Virginia.'"
+        "evidence": "Explicitly stated by the participant."
       },
       "living_situation": {
         "value": "Living Alone",
         "confidence": "1.00",
-        "evidence": "Explicitly stated in the transcript: 'And I'm currently a Phd student. And I'm studying computer science machine learning. And I live by myself.'"
+        "evidence": "Participant states, \"I'm currently a PhD student. And I'm studying computer science machine learning. And I live by myself.\""
       },
       "occupation": {
         "value": "PhD Student (Computer Science - Machine Learning)",
         "confidence": "1.00",
-        "evidence": "Multiple references to being a PhD student studying computer science and machine learning: 'PhD student', 'studying computer science machine learning'."
+        "evidence": "Explicitly stated by the participant."
       },
       "education": {
         "value": "PhD Level",
         "confidence": "1.00",
-        "evidence": "Explicitly stated as a 'PhD student'."
+        "evidence": "Participant identifies as a PhD student."
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Academic Excellence, Personal Wellness, Intellectual Curiosity",
+        "value": "Academic advancement, learning, personal development (specifically through research and fitness), exploring new interests.",
         "confidence": "0.85",
-        "evidence": "Participant's dedication to research (model training, data processing, paper writing), gym routine, and active pursuit of knowledge (reading, deeper understanding of things) indicate these motivations."
+        "evidence": "References to PhD studies, research tasks, interest in learning new things, interest in new outdoor activities, and gym workouts."
       },
       "interests": {
         "value": [
-          "Machine Learning",
-          "Computer Science",
+          "Computer Science (Machine Learning)",
           "Cycling",
           "Hiking",
-          "Cat Care",
-          "Reading"
+          "Shopping (specifically for cats)",
+          "Reading",
+          "Fitness (Gym Workouts)"
         ],
-        "confidence": "0.90",
-        "evidence": "References to 'computer science machine learning,' 'cycling,' 'hiking,' 'cat care,' and 'reading' directly indicate these interests."
+        "confidence": "0.95",
+        "evidence": "Directly stated by the participant – research focus, outdoor activities, cat-related purchases, reading habits, and gym visits."
       },
       "values": {
         "value": [
-          "Quality",
+          "Knowledge",
           "Efficiency",
-          "Continuous Learning",
-          "Animal Welfare"
+          "Quality",
+          "Convenience",
+          "Community (through friendships and collaborations)",
+          "Self-Improvement"
         ],
-        "confidence": "0.75",
-        "evidence": "Concern for product quality ('harm my nails'), efficient shipping speed ('don't need them in a hurry'), desire for continuous learning ('want to deeper my understanding'), and valuing animal welfare (cat care) all suggest these values."
+        "confidence": "0.80",
+        "evidence": "Prioritizing reliable product brands (nails, cat food), valuing time efficiency (cooking meals), seeking recommendations from others (Little Red Book), and engaging in fitness for personal well-being suggests these values."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
-        "confidence": "0.70",
-        "evidence": "Participant describes regularly buying cat supplies and occasionally purchasing nail polish, suggesting a weekly or near-weekly shopping frequency."
+        "confidence": "0.75",
+        "evidence": "Frequent purchases of cat supplies and occasional nail polish purchases suggest weekly shopping behavior."
       },
       "where_used_devices": {
         "value": [
           "Smartphone",
           "Desktop"
         ],
-        "confidence": "0.95",
-        "evidence": "Participant uses a smartphone to browse products and orders online, also spends a significant amount of time working on a computer."
+        "confidence": "0.90",
+        "evidence": "Participant uses smartphone to research products and place orders, and uses a desktop computer for coding and research tasks."
       },
       "search_style_best_vs_first": {
         "value": "Best Product / First Product",
         "confidence": "0.60",
-        "evidence": "Participant's initial browsing behavior suggests a focus on quickly identifying the 'best' or 'first' product available."
+        "evidence": "Participant prioritizes finding products immediately when they want them, often selecting based on initial appearance or recommendations."
       },
       "price_preference_cheapest_vs_expensive": {
-        "value": "Cheapest Product / Most Expensive Product",
-        "confidence": "0.50",
-        "evidence": "Participant explicitly states a preference for the cheapest product and comparing price when making purchases."
+        "value": "Cheapest Product",
+        "confidence": "0.70",
+        "evidence": "Participant compares prices across multiple stores and prioritizes purchasing from the store offering the best deal."
       },
       "decision_factors": {
         "value": [
           "Product Quality",
           "Shipping Speed",
+          "Price",
           "Brand Reputation",
-          "Reviews"
+          "Recommendations (Little Red Book)"
         ],
-        "confidence": "0.85",
-        "evidence": "Participant's detailed scrutiny of reviews, concerns about product quality, and consideration of shipping speed all strongly suggest these as key decision factors."
+        "confidence": "0.95",
+        "evidence": "Explicitly stated factors influencing purchase decisions: quality, shipping speed, price, brand, and recommendations from trusted sources."
       },
       "preferred_categories": {
         "value": [
+          "Computer Hardware/Software",
+          "Cat Supplies",
           "Nail Polish",
-          "Cat Food & Supplies"
+          "Clothing (potentially - inferred from shopping habits)"
         ],
-        "confidence": "1.00",
-        "evidence": "Explicitly stated that the participant purchased nail polish and cat food & supplies."
+        "confidence": "0.80",
+        "evidence": "Specific purchases of cat supplies and nail polish; the participant's habit of using online apps for recommendations suggests an interest in technology and fashion."
       },
       "pain_points_and_or_challenges": {
-        "value": "Slow Shipping, Lack of Local Availability, Uncertainty Regarding Ad Effectiveness",
+        "value": "Long Shipping Times, Difficulty Finding Specific Products Locally, Suspecting Advertisements are Misleading.",
         "confidence": "0.90",
-        "evidence": "Participant's frustration with slow shipping, limited availability in local stores, and skepticism regarding sponsored products highlight these pain points."
+        "evidence": "Participant expresses frustration with long shipping times, difficulty locating products in local stores, and skepticism towards sponsored products."
       }
     }
   },

@@ -3,119 +3,119 @@
   "profile": {
     "title": {
       "user_name": "Researcher_P",
-      "two_word_summary": "Academic Researcher",
+      "two_word_summary": "Research Focused",
       "confidence_overall": "0.95"
     },
     "demographics": {
       "age_range": {
         "value": "35-45",
         "confidence": "0.90",
-        "evidence": "Participant explicitly states 'research experiments' and 'Alexa Echo' suggests a tech-savvy individual likely in a professional age range."
+        "evidence": "Participant describes working with 'Alexa Echo' and 'hypothesis' suggesting a tech-savvy individual likely in the 35-45 age range."
       },
       "gender": {
         "value": "Male",
         "confidence": "0.85",
-        "evidence": "Participant uses masculine pronouns and references ‘meeting room size’ and ‘people’s voices’."
+        "evidence": "Participant's language and technical focus suggest a male user."
       },
       "nationality_background": {
         "value": "USA",
         "confidence": "0.95",
-        "evidence": "Implied through location (Boston) and typical research activities."
+        "evidence": "Context of the interview is conducted in English and the participant discusses 'research meetings' and 'experiments', strongly indicating a US-based academic researcher."
       },
       "location": {
         "value": "Boston",
         "confidence": "1.00",
-        "evidence": "Participant states 'I do academic research in Boston'."
+        "evidence": "Participant states they 'do academic research in Boston.'"
       },
       "living_situation": {
         "value": "Alone",
-        "confidence": "1.00",
-        "evidence": "Participant states 'I live alone'."
+        "confidence": "0.80",
+        "evidence": "Participant states they 'live alone.'"
       },
       "occupation": {
         "value": "Academic Researcher",
         "confidence": "1.00",
-        "evidence": "Participant states 'I do academic research' and describes research activities."
+        "evidence": "Participant explicitly states 'I do academic research.'"
       },
       "education": {
-        "value": "Master's Degree or Higher",
+        "value": "Master's Degree or Ph.D.",
         "confidence": "0.80",
-        "evidence": "The nature of 'academic research' implies advanced education."
+        "evidence": "The research described suggests a high level of education, likely a Master's or Ph.D."
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "To conduct research, improve experimental data collection methods, and remain current with technology, specifically leveraging Alexa devices for research purposes.",
+        "value": "Achieving research goals, staying current with technology, continuous learning.",
         "confidence": "0.95",
-        "evidence": "Participant repeatedly mentions 'research experiments,' 'research meetings,' and wanting an Alexa to 'capture all the people's voices'."
+        "evidence": "Participant repeatedly emphasizes completing projects within timelines, conducting research, and seeking out the 'best performing' devices. Also, desire to continually learn and stay current with technology through research."
       },
       "interests": {
         "value": [
           "Human-Computer Interaction",
           "Natural Language Processing",
           "Audio Recording Technology",
-          "Research Methodology"
+          "Research Methods"
         ],
-        "confidence": "0.90",
-        "evidence": "Participant's work involves 'human computing action and natural language processing' and the specific Alexa Echo purchase indicates interest in audio recording technology."
+        "confidence": "0.95",
+        "evidence": "Participant explicitly mentions 'human computing action and natural language processing', 'Alexa Echo', and references research articles and Youtube videos related to audio recording quality."
       },
       "values": {
         "value": [
           "Accuracy",
           "Efficiency",
           "Data-Driven Decision Making",
-          "Trusting Independent Research"
+          "Quality"
         ],
         "confidence": "0.85",
-        "evidence": "Participant's focus on recording quality and research articles suggests a value for accurate data collection and evidence-based decisions. Preference for researching independently further reinforces this."
+        "evidence": "Participant's preference for 'best performing' devices, scrutiny of research articles, and concern for recording quality reflect valuing accuracy, efficiency, and data-driven decision making."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
-        "confidence": "0.75",
-        "evidence": "Participant purchases necessities (shampoo, face moisture) weekly, and frequently researches products online via YouTube and research articles."
+        "confidence": "0.70",
+        "evidence": "Participant buys necessities ('shampoo', 'face moisture', 'toothpaste') on a regular basis, suggesting weekly or monthly purchases."
       },
       "where_used_devices": {
         "value": [
+          "Desktop",
           "Smartphone",
-          "Desktop"
+          "Tablet"
         ],
         "confidence": "0.90",
-        "evidence": "Participant uses YouTube and research articles on desktop, and mentions searching for Alexa Echo on a smartphone."
+        "evidence": "Participant uses Amazon on a smartphone, conducts research on Google and Youtube, and mentions using 'Alexa Echo' in a meeting room."
       },
       "search_style_best_vs_first": {
-        "value": "First",
+        "value": "First Product",
         "confidence": "0.80",
-        "evidence": "Participant initially searches for 'Alexa Echo' and then filters based on research articles and reviews."
+        "evidence": "Participant initially searches for 'Alexa Echo' and then filters based on price and recording quality, suggesting a preference for the first listed product that meets their criteria."
       },
       "price_preference_cheapest_vs_expensive": {
         "value": "Cheapest Product",
-        "confidence": "0.70",
-        "evidence": "Participant explicitly states 'I just find the wise, the cheapest' when choosing the Alexa Echo."
+        "confidence": "0.90",
+        "evidence": "Participant explicitly states they choose the 'cheapest' device among the functional options and discounts that the sponsored one are not the best ones."
       },
       "decision_factors": {
         "value": [
           "Recording Quality",
           "Price",
-          "Research Findings"
+          "Functionality"
         ],
-        "confidence": "0.95",
-        "evidence": "Participant’s primary decision criteria are recording quality, price, and trust in research findings from articles and YouTube."
+        "confidence": "1.00",
+        "evidence": "Participant identifies these as the primary factors in their purchasing decisions."
       },
       "preferred_categories": {
         "value": [
           "Electronics",
-          "Research Equipment",
-          "Household Supplies"
+          "Personal Care Products"
         ],
-        "confidence": "0.85",
-        "evidence": "Purchase of the Alexa Echo and regular buying of shampoo and face moisture indicate these categories."
+        "confidence": "0.95",
+        "evidence": "Participant purchases 'electronics' (Alexa Echo) and 'personal care products' (shampoo, face moisture)."
       },
       "pain_points_and_or_challenges": {
-        "value": "Lack of readily available, unbiased product reviews; difficulty in accurately assessing product quality based solely on sponsored listings.",
+        "value": "Finding reliable information, ensuring the quality of research equipment.",
         "confidence": "0.90",
-        "evidence": "Participant's distrust of sponsored listings and reliance on independent research highlight this pain point."
+        "evidence": "Participant's reliance on research articles and Youtube videos, and skepticism towards sponsored products, reflects a desire to mitigate these pain points."
       }
     }
   },

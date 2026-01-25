@@ -1,0 +1,124 @@
+{
+  "user_id": "d1f1414b-f059-43fe-838b-9a05c751d3c5",
+  "profile": {
+    "title": {
+      "user_name": "Participant",
+      "two_word_summary": "Student Shopper",
+      "confidence_overall": "0.85"
+    },
+    "demographics": {
+      "age_range": {
+        "value": "19-22",
+        "confidence": "0.95",
+        "evidence": "Participant states they are a student on a campus, suggests a college age range."
+      },
+      "gender": {
+        "value": "Female",
+        "confidence": "0.90",
+        "evidence": "Participant frequently discusses makeup purchases, a product category typically associated with female consumers."
+      },
+      "nationality_background": {
+        "value": "USA",
+        "confidence": "0.95",
+        "evidence": "References to Menlo Park, California, a location in the United States."
+      },
+      "location": {
+        "value": "Menlo Park, California",
+        "confidence": "1.00",
+        "evidence": "Explicitly states 'I live in Menlo Park' and references its proximity to [LOCATION_MASKED]."
+      },
+      "living_situation": {
+        "value": "Living with Family and Roommate",
+        "confidence": "1.00",
+        "evidence": "States 'I live with my mom, and then we also have a spare room in which we rent out to tenants. So I also have a roommate.'"
+      },
+      "occupation": {
+        "value": "Student",
+        "confidence": "1.00",
+        "evidence": "Explicitly states 'I'm a student' and describes their studies in computer science and business."
+      },
+      "education": {
+        "value": "Undergraduate",
+        "confidence": "0.80",
+        "evidence": "Studies computer science and business, indicating an undergraduate level of education."
+      }
+    },
+    "psychographics": {
+      "goals_and_motivations": {
+        "value": "Self-expression through appearance, maintaining healthy skin, finding reliable products, and managing anxiety.",
+        "confidence": "0.75",
+        "evidence": "Discusses makeup purchases, skincare concerns, proactive approach to anxiety, and desire for reliable brands."
+      },
+      "interests": {
+        "value": [
+          "Makeup",
+          "Golf",
+          "Technology (Computer Science)",
+          "Student Clubs"
+        ],
+        "confidence": "0.90",
+        "evidence": "Frequent mentions of makeup purchases, playing golf, studying computer science, and involvement in student clubs."
+      },
+      "values": {
+        "value": [
+          "Reliability",
+          "Reviews",
+          "Price",
+          "Color (for golf balls)"
+        ],
+        "confidence": "0.85",
+        "evidence": "Prioritizes reliable brands (skincare), heavily relies on reviews (makeup), considers price, and prefers colorful golf balls."
+      }
+    },
+    "shopping_behavior": {
+      "frequency_of_use": {
+        "value": "Weekly",
+        "confidence": "0.60",
+        "evidence": "Shopping for makeup and golf balls is described as regular activity."
+      },
+      "where_used_devices": {
+        "value": [
+          "Smartphone"
+        ],
+        "confidence": "1.00",
+        "evidence": "Participant uses a smartphone for browsing Amazon and purchasing products."
+      },
+      "search_style_best_vs_first": {
+        "value": "Best Product / First Product",
+        "confidence": "0.70",
+        "evidence": "Prefers to initially browse the highest-rated products, then filters to find the best options."
+      },
+      "price_preference_cheapest_vs_expensive": {
+        "value": "Cheapest Product",
+        "confidence": "0.60",
+        "evidence": "States a budget of around $50 for makeup products."
+      },
+      "decision_factors": {
+        "value": [
+          "Reviews",
+          "Ratings",
+          "Price",
+          "Brand Reputation"
+        ],
+        "confidence": "0.95",
+        "evidence": "Considers reviews, ratings, price, and brand reputation when making purchasing decisions."
+      },
+      "preferred_categories": {
+        "value": [
+          "Makeup",
+          "Golf Balls",
+          "Skincare",
+          "Tech Accessories (Cables)"
+        ],
+        "confidence": "0.90",
+        "evidence": "Regularly purchases makeup, golf balls, and skincare products, and occasionally cables."
+      },
+      "pain_points_and_or_challenges": {
+        "value": "Finding reliable products, managing anxiety, feeling overwhelmed by choices.",
+        "confidence": "0.80",
+        "evidence": "Expresses anxiety, seeking feedback on products, and sometimes feeling overwhelmed by the variety of options."
+      }
+    }
+  },
+  "survey_data": "{\"Demographic Information\": {\"Gender\": \"Female\", \"Age\": \"18-24 years old\", \"City\": \"Menlo Park\", \"Education level\": \"Bachelors' degree or current college student\", \"Living situation\": \"I live with my mom and a roommate, Gulya.\", \"Yearly household income or stipend\": \"Less than $25,000\", \"Employment status\": \"Student\"}, \"Self Description\": {\"Two sentence description\": \"I am a freshman college student in computer science and business with a concentration in brand management. I go to [ORG_MASKED] University on the [LOCATION_MASKED] campus, where I am the president of the CS and Business Club.\"}, \"Shopping Preference\": {\"Online shopping frequency\": \"Once every couple of weeks\", \"Monthly online shopping spend $\": \"50\", \"Amazon Prime membership\": \"Yes\", \"To what extent do you agree with the following statements\": {\"I tend to shop more during holidays.\": \"Somewhat agree\", \"Online Ads attract my attention and are a good source of information.\": \"Somewhat disagree\", \"I usually do a lot research (e.g. reading online reviews) before making purchase.\": \"Strongly agree\", \"I prioritize delivery speed and delivery fee of the product.\": \"Somewhat agree\", \"Getting high-quality online products is very important for me.\": \"Somewhat agree\", \"The more expensive online product brands are usually my choice.\": \"Somewhat disagree\", \"The more I learn about online products, the harder it seems to choose the best.\": \"Somewhat agree\", \"I shop quickly for online products, buying the first product or brand I find that seems good enough.\": \"Neither agree or disagree\", \"Once I find a brand I like, I stick with it.\": \"Neither agree or disagree\", \"I would buy a new or different brand of product just to see what it is like.\": \"Somewhat agree\", \"I enjoy shopping for online products just for the fun of it.\": \"Somewhat agree\", \"I look carefully to find the best value for money when shopping online.\": \"Somewhat agree\"}}, \"Personality\": {\"MBTI personality type\": \"\", \"Big Five Scores\": {\"Extraversion\": \"Medium\", \"Agreeableness\": \"High\", \"Conscientiousness\": \"High\", \"Emotional Stability\": \"Medium\", \"Intellect\": \"High\"}}}"
+}

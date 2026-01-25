@@ -1,0 +1,126 @@
+{
+  "user_id": "d0440235-fc42-4bfe-89ca-efe949a44287",
+  "profile": {
+    "title": {
+      "user_name": "Participant",
+      "two_word_summary": "Tech Project Manager",
+      "confidence_overall": "0.85"
+    },
+    "demographics": {
+      "age_range": {
+        "value": "30-40",
+        "confidence": "0.95",
+        "evidence": "Participant mentions working as a manager role, waking up at 7:30am, and talking about a new role."
+      },
+      "gender": {
+        "value": "Male",
+        "confidence": "0.90",
+        "evidence": "Participant’s language, discussion of a team, and references to ‘managing’ suggest a male perspective."
+      },
+      "nationality_background": {
+        "value": "USA",
+        "confidence": "0.70",
+        "evidence": "Seattle is a location in the USA."
+      },
+      "location": {
+        "value": "Seattle, WA",
+        "confidence": "1.00",
+        "evidence": "Participant explicitly states 'I live in Seattle'."
+      },
+      "living_situation": {
+        "value": "Living Alone",
+        "confidence": "0.95",
+        "evidence": "Participant states 'I just live by myself' and ‘rented an apartment’."
+      },
+      "occupation": {
+        "value": "Project Manager / AI Model Improvement",
+        "confidence": "0.95",
+        "evidence": "Participant states 'I work for [ORG_MASKED]. So basically do some AI models to improve his shopping business' and later describes taking on a 'manager role'."
+      },
+      "education": {
+        "value": "Bachelor’s Degree or Higher (implied)",
+        "confidence": "0.60",
+        "evidence": "Participant discusses 'roadmap review and planning of the project' and 'technical reports and paper' indicating a level of technical understanding."
+      }
+    },
+    "psychographics": {
+      "goals_and_motivations": {
+        "value": "Improving business performance through AI, professional growth, personal development (gym)",
+        "confidence": "0.90",
+        "evidence": "Participant’s work involves ‘improving his shopping business’ and ‘communicate with different customers to align with their expectations’ along with his frequent gym attendance."
+      },
+      "interests": {
+        "value": [
+          "AI",
+          "Technology",
+          "Fitness",
+          "Shopping",
+          "Project Management"
+        ],
+        "confidence": "0.85",
+        "evidence": "Participant’s work focuses on AI models, mentions reading technical reports, engages in shopping behavior, and goes to the gym."
+      },
+      "values": {
+        "value": [
+          "Efficiency",
+          "Quality",
+          "Customer Satisfaction",
+          "Innovation"
+        ],
+        "confidence": "0.80",
+        "evidence": "Participant’s actions like planning roadmaps, communicating with customers, and working with a new role align with valuing efficiency, quality, and customer satisfaction. Also mentioning innovation."
+      }
+    },
+    "shopping_behavior": {
+      "frequency_of_use": {
+        "value": "Weekly",
+        "confidence": "0.75",
+        "evidence": "Participant buys items like slippers and a body trimmer, suggesting a regular purchasing pattern."
+      },
+      "where_used_devices": {
+        "value": [
+          "Smartphone",
+          "Tablet"
+        ],
+        "confidence": "0.90",
+        "evidence": "Participant uses the Amazon app and mentions searching on Chat GPT, indicating smartphone usage. Likely uses a tablet too."
+      },
+      "search_style_best_vs_first": {
+        "value": "First Product",
+        "confidence": "0.70",
+        "evidence": "Participant states he ‘chooses one with the quickest delivery, and the the highest number of purchases’ when buying items on Amazon."
+      },
+      "price_preference_cheapest_vs_expensive": {
+        "value": "Cheapest Product",
+        "confidence": "0.60",
+        "evidence": "Participant selects products based on delivery speed and popularity, implying a preference for affordable options."
+      },
+      "decision_factors": {
+        "value": [
+          "Delivery Speed",
+          "Purchase Number",
+          "Rating",
+          "Functionality",
+          "Appearance"
+        ],
+        "confidence": "0.85",
+        "evidence": "Participant mentions considering these factors when purchasing items."
+      },
+      "preferred_categories": {
+        "value": [
+          "Beauty/Personal Care",
+          "Electronics",
+          "Home Goods"
+        ],
+        "confidence": "0.70",
+        "evidence": "Participant buys a body trimmer, a calculator, and slippers, all falling within these categories."
+      },
+      "pain_points_and_or_challenges": {
+        "value": "Time constraints for research, managing team expectations, resource allocation",
+        "confidence": "0.80",
+        "evidence": "Participant’s discussion about ‘defining the resources and define my team’, ‘back and forth’ communication, and ‘managing expectations’ indicate these pain points."
+      }
+    }
+  },
+  "survey_data": null
+}

@@ -1,0 +1,123 @@
+{
+  "user_id": "2af67bcd-8d3b-4d77-9834-4219fbf93540",
+  "profile": {
+    "title": {
+      "user_name": "Software Engineer - Bay Area",
+      "two_word_summary": "Tech Explorer",
+      "confidence_overall": "0.90"
+    },
+    "demographics": {
+      "age_range": {
+        "value": "35-45",
+        "confidence": "0.95",
+        "evidence": "Participant’s work involves software engineering and development, suggesting a professional age range."
+      },
+      "gender": {
+        "value": "Male",
+        "confidence": "0.85",
+        "evidence": "Participant identifies as having a wife."
+      },
+      "nationality_background": {
+        "value": "USA",
+        "confidence": "1.00",
+        "evidence": "Participant lives in the Bay Area."
+      },
+      "location": {
+        "value": "Bay Area, California",
+        "confidence": "1.00",
+        "evidence": "Participant explicitly states \"living in Bay Area\"."
+      },
+      "living_situation": {
+        "value": "With Partner",
+        "confidence": "1.00",
+        "evidence": "Participant states \"and like in my family just me and my wife\"."
+      },
+      "occupation": {
+        "value": "Software Engineering and Development",
+        "confidence": "1.00",
+        "evidence": "Participant explicitly states \"Software engineering and development\"."
+      },
+      "education": {
+        "value": "Bachelor’s Degree or Equivalent",
+        "confidence": "0.75",
+        "evidence": "\"Software engineering and development\" implies a formal education in a related field."
+      }
+    },
+    "psychographics": {
+      "goals_and_motivations": {
+        "value": "Continuous Learning, Automation, Building Connections, Experimentation",
+        "confidence": "0.90",
+        "evidence": "Participant expresses a desire to learn new things, automates tasks, seeks to build connections, and conducts experiments."
+      },
+      "interests": {
+        "value": [
+          "Golf",
+          "Technology",
+          "Data Analysis",
+          "Reading"
+        ],
+        "confidence": "0.80",
+        "evidence": "Participant engages in golf, mentions data preparation, discusses reading documents, and utilizes online resources for information."
+      },
+      "values": {
+        "value": [
+          "Quality",
+          "Functionality",
+          "Efficiency",
+          "Community"
+        ],
+        "confidence": "0.70",
+        "evidence": "Participant prioritizes product quality, specific functionality (long teeth in golf), efficient automation, and building connections with others."
+      }
+    },
+    "shopping_behavior": {
+      "frequency_of_use": {
+        "value": "Weekly",
+        "confidence": "0.85",
+        "evidence": "Participant purchases golf accessories regularly (during weekends) and routine items (shampoos, creams) on a subscription basis."
+      },
+      "where_used_devices": {
+        "value": [
+          "Smartphone",
+          "Desktop"
+        ],
+        "confidence": "0.95",
+        "evidence": "Participant uses a smartphone for quick purchases and a desktop for more detailed research and comparisons."
+      },
+      "search_style_best_vs_first": {
+        "value": "First Product",
+        "confidence": "0.75",
+        "evidence": "Participant initially searches for the most relevant product based on recommendations and discussions, then considers alternatives."
+      },
+      "price_preference_cheapest_vs_expensive": {
+        "value": "Cheapest Product",
+        "confidence": "0.60",
+        "evidence": "Participant initially seeks the most affordable option, but ultimately prioritizes quality and functionality."
+      },
+      "decision_factors": {
+        "value": [
+          "Functionality",
+          "Material Quality",
+          "Brand Reputation",
+          "Delivery Time"
+        ],
+        "confidence": "1.00",
+        "evidence": "Participant explicitly states these as key decision factors in his purchases."
+      },
+      "preferred_categories": {
+        "value": [
+          "Golf Accessories",
+          "Personal Care Products"
+        ],
+        "confidence": "1.00",
+        "evidence": "Participant purchases golf accessories and personal care items regularly."
+      },
+      "pain_points_and_or_challenges": {
+        "value": "Frustration with low-quality products, difficulty finding specific items, time-consuming research.",
+        "confidence": "0.90",
+        "evidence": "Participant expresses frustration with poor quality products and spends considerable time researching specific items, particularly the long teeth for golf."
+      }
+    }
+  },
+  "survey_data": "{\"Demographic Information\": {\"Gender\": \"Male\", \"Age\": \"25-34 years old\", \"City\": \"\", \"Education level\": \"Graduate degree or current grad student (MA, MS, MBA, etc.)\", \"Living situation\": \"2\", \"Yearly household income or stipend\": \"$75,000-$99,999\", \"Employment status\": \"Full-time employee\"}, \"Self Description\": {\"Two sentence description\": \"\"}, \"Shopping Preference\": {\"Online shopping frequency\": \"Once to twice a week\", \"Monthly online shopping spend $\": \"500\", \"Amazon Prime membership\": \"Yes\", \"To what extent do you agree with the following statements\": {\"I tend to shop more during holidays.\": \"Neither agree or disagree\", \"Online Ads attract my attention and are a good source of information.\": \"4\", \"I usually do a lot research (e.g. reading online reviews) before making purchase.\": \"4\", \"I prioritize delivery speed and delivery fee of the product.\": \"Neither agree or disagree\", \"Getting high-quality online products is very important for me.\": \"Neither agree or disagree\", \"The more expensive online product brands are usually my choice.\": \"Neither agree or disagree\", \"The more I learn about online products, the harder it seems to choose the best.\": \"Somewhat disagree\", \"I shop quickly for online products, buying the first product or brand I find that seems good enough.\": \"4\", \"Once I find a brand I like, I stick with it.\": \"Somewhat disagree\", \"I would buy a new or different brand of product just to see what it is like.\": \"Neither agree or disagree\", \"I enjoy shopping for online products just for the fun of it.\": \"4\", \"I look carefully to find the best value for money when shopping online.\": \"Somewhat disagree\"}}, \"Personality\": {\"MBTI personality type\": \"\", \"Big Five Scores\": {\"Extraversion\": \"Extremely low\", \"Agreeableness\": \"Extremely low\", \"Conscientiousness\": \"Extremely low\", \"Emotional Stability\": \"Extremely low\", \"Intellect\": \"Extremely low\"}}}"
+}

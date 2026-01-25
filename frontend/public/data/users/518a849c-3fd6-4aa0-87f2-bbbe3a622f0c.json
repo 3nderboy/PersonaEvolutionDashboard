@@ -1,0 +1,127 @@
+{
+  "user_id": "518a849c-3fd6-4aa0-87f2-bbbe3a622f0c",
+  "profile": {
+    "title": {
+      "user_name": "Participant",
+      "two_word_summary": "Research Student",
+      "confidence_overall": "0.95"
+    },
+    "demographics": {
+      "age_range": {
+        "value": "22-25",
+        "confidence": "0.98",
+        "evidence": "Participant's description as a 1st year Ph.D. student, typical age range for this level of study."
+      },
+      "gender": {
+        "value": "Male",
+        "confidence": "0.95",
+        "evidence": "Participant's language and references to hobbies (guitar, video games, dog)."
+      },
+      "nationality_background": {
+        "value": "USA",
+        "confidence": "0.85",
+        "evidence": "Residence in Boston (USA)."
+      },
+      "location": {
+        "value": "Boston, MA",
+        "confidence": "1.00",
+        "evidence": "Explicitly stated location: 'live in Boston.'"
+      },
+      "living_situation": {
+        "value": "Living Alone",
+        "confidence": "1.00",
+        "evidence": "States: 'I live by myself.'"
+      },
+      "occupation": {
+        "value": "Ph.D. Student",
+        "confidence": "1.00",
+        "evidence": "Explicitly states: 'I am now a 1st year Ph.D. student.'"
+      },
+      "education": {
+        "value": "Ph.D. Student",
+        "confidence": "1.00",
+        "evidence": "Explicitly states: 'I am now a 1st year Ph.D. student.'"
+      }
+    },
+    "psychographics": {
+      "goals_and_motivations": {
+        "value": "Pursuing academic knowledge and research in cryptography, building proof systems, and potentially contributing to the field.",
+        "confidence": "0.95",
+        "evidence": "References to research in cryptography, building proof systems, reading papers, and discussing with a professor."
+      },
+      "interests": {
+        "value": [
+          "Cryptography",
+          "Proof Systems",
+          "Cooking",
+          "Guitar",
+          "Video Games",
+          "Dogs"
+        ],
+        "confidence": "0.90",
+        "evidence": "Explicit mentions of cryptography, proof systems, cooking, guitar, video games, and owning a dog."
+      },
+      "values": {
+        "value": [
+          "Accuracy",
+          "Innovation",
+          "Efficiency",
+          "Community (family, friends)"
+        ],
+        "confidence": "0.80",
+        "evidence": "Desire for secure systems (accuracy), development of new systems (innovation), efficiency in problem-solving (efficiency), and reliance on family and friends for support (community)."
+      }
+    },
+    "shopping_behavior": {
+      "frequency_of_use": {
+        "value": "Weekly",
+        "confidence": "0.75",
+        "evidence": "Mention of purchasing food, dog supplies, and potentially other items on a regular basis."
+      },
+      "where_used_devices": {
+        "value": [
+          "Smartphone",
+          "Desktop"
+        ],
+        "confidence": "0.95",
+        "evidence": "States: 'browsing on my phone' and 'think, mainly I will be working on my computer.'"
+      },
+      "search_style_best_vs_first": {
+        "value": "Best Product / First Product",
+        "confidence": "0.60",
+        "evidence": "Preference for products that appear first in search results, influenced by social media advertisements and recommendations."
+      },
+      "price_preference_cheapest_vs_expensive": {
+        "value": "Cheapest Product",
+        "confidence": "0.80",
+        "evidence": "Explicitly states: 'I choose the one with a very cheap price.'"
+      },
+      "decision_factors": {
+        "value": [
+          "Brand Reputation",
+          "Number of Positive Reviews",
+          "Functionality",
+          "Price"
+        ],
+        "confidence": "0.90",
+        "evidence": "Prioritizes brand reputation, considers the number of positive reviews, evaluates functionality, and is mindful of price."
+      },
+      "preferred_categories": {
+        "value": [
+          "Food & Cooking Supplies",
+          "Pet Supplies",
+          "Technology (Slicers)",
+          "Musical Instruments"
+        ],
+        "confidence": "0.85",
+        "evidence": "Purchases of food, dog supplies, a food slicer, and a guitar."
+      },
+      "pain_points_and_or_challenges": {
+        "value": "Difficulty slicing food, complex problem-solving in cryptography",
+        "confidence": "0.95",
+        "evidence": "Expresses annoyance at difficulty slicing food, and describes complex research in cryptography as requiring intuitive analysis and mathematics."
+      }
+    }
+  },
+  "survey_data": "{\"Demographic Information\": {\"Gender\": \"Female\", \"Age\": \"18-24 years old\", \"City\": \"Boston\", \"Education level\": \"Doctoral degree or current doctoral student (PhD, JD, MD, DDS etc.)\", \"Living situation\": \"Live alone\", \"Yearly household income or stipend\": \"$25,000-$49,999\", \"Employment status\": \"Student\"}, \"Self Description\": {\"Two sentence description\": \"I am a PhD student in computer science, specializing in cryptography. My research focuses on proof systems. I often conduct theoretical research, write and prove formal security models. I also attend academic seminars, present my work at conferences, and join lab meetings to discuss research ideas and directions.\"}, \"Shopping Preference\": {\"Online shopping frequency\": \"Once to twice a week\", \"Monthly online shopping spend $\": \"200\", \"Amazon Prime membership\": \"Yes\", \"To what extent do you agree with the following statements\": {\"I tend to shop more during holidays.\": \"Strongly agree\", \"Online Ads attract my attention and are a good source of information.\": \"Somewhat disagree\", \"I usually do a lot research (e.g. reading online reviews) before making purchase.\": \"Somewhat agree\", \"I prioritize delivery speed and delivery fee of the product.\": \"Somewhat agree\", \"Getting high-quality online products is very important for me.\": \"Somewhat agree\", \"The more expensive online product brands are usually my choice.\": \"Neither agree or disagree\", \"The more I learn about online products, the harder it seems to choose the best.\": \"Strongly agree\", \"I shop quickly for online products, buying the first product or brand I find that seems good enough.\": \"Somewhat disagree\", \"Once I find a brand I like, I stick with it.\": \"Somewhat agree\", \"I would buy a new or different brand of product just to see what it is like.\": \"Somewhat disagree\", \"I enjoy shopping for online products just for the fun of it.\": \"Strongly agree\", \"I look carefully to find the best value for money when shopping online.\": \"Somewhat agree\"}}, \"Personality\": {\"MBTI personality type\": \"INFP\", \"Big Five Scores\": {\"Extraversion\": \"Low\", \"Agreeableness\": \"Extremely high\", \"Conscientiousness\": \"Medium\", \"Emotional Stability\": \"Low\", \"Intellect\": \"High\"}}}"
+}
