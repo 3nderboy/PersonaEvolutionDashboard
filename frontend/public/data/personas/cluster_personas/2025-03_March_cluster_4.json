@@ -1,0 +1,70 @@
+{
+  "cluster_id": 4,
+  "month": "2025-03 (March)",
+  "cluster_name": "Search-Driven Navigator",
+  "generated_at": "2026-01-26T14:09:31.699758",
+  "user_count": 2,
+  "persona": {
+    "title": {
+      "persona_name": "The Data-Driven Researcher",
+      "tagline": "Always searching, relentlessly efficient, and focused on practical solutions."
+    },
+    "demographics": {
+      "age_distribution": "Predominantly 25-35 years old",
+      "gender_distribution": "Majority Male (approximately 70%)",
+      "education_level": "Advanced Education – Primarily PhD level in Computer Science, particularly NLP",
+      "occupation_types": [
+        "PhD Student",
+        "Researcher"
+      ],
+      "location_pattern": "Urban areas, primarily Boston, MA"
+    },
+    "psychographics": {
+      "common_goals": [
+        "Advance research in NLP and HCI",
+        "Optimize their workflow and productivity",
+        "Find reliable and efficient solutions to their challenges"
+      ],
+      "shared_interests": [
+        "Natural Language Processing",
+        "Large Language Model Agents",
+        "Coding",
+        "Technology",
+        "Smart Home Devices"
+      ],
+      "shared_values": [
+        "Efficiency",
+        "Value for Money",
+        "Continuous Learning",
+        "Reliability"
+      ]
+    },
+    "shopping_behavior": {
+      "frequency_pattern": "Weekly Shoppers - Very active online shoppers engaging frequently",
+      "preferred_devices": [
+        "Smartphone",
+        "Desktop",
+        "Laptop",
+        "Tablet"
+      ],
+      "decision_style": "Driven by search and initial product discovery. Focuses on price and ranking, with reviews considered primarily for higher-priced items.",
+      "price_sensitivity": "Cheapest Product - Primarily focused on the most cost-effective options, although quality is still a consideration.",
+      "common_pain_points": [
+        "Limited monitor outputs on existing hardware",
+        "Difficulty finding efficient solutions for everyday tasks",
+        "Time constraints"
+      ]
+    },
+    "narrative": "The Data-Driven Researcher is constantly on the hunt for the best tools and information to fuel their research and productivity. They meticulously search for products, prioritizing efficiency and value, often juggling academic deadlines and personal needs. This user intensely analyzes options, leveraging extensive search queries to refine their choices based on brand reputation and price."
+  },
+  "source_users": [
+    {
+      "user_id": "03a4f3ea-bfb7-4ba9-a7e5-5033f6958ce1",
+      "summary": "Tech-savvy, Research-oriented"
+    },
+    {
+      "user_id": "9c9f3204-3b7d-4405-8ee1-ad5fb13aef3d",
+      "summary": "Tech Research"
+    }
+  ]
+}

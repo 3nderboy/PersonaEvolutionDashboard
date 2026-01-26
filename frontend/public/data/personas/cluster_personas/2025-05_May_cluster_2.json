@@ -1,0 +1,69 @@
+{
+  "cluster_id": 2,
+  "month": "2025-05 (May)",
+  "cluster_name": "Decisive Buyer",
+  "generated_at": "2026-01-26T15:48:45.645428",
+  "user_count": 6,
+  "persona": {
+    "title": {
+      "persona_name": "The Focused Buyer",
+      "tagline": "Driven by value, efficiency, and detailed customization choices."
+    },
+    "demographics": {
+      "age_distribution": "Predominantly 22-34 years old, with a slight skew towards the younger end.",
+      "gender_distribution": "Majority female (approximately 60%), with an equal mix of male and female users.",
+      "education_level": "Highly educated; primarily Master's degree holders and students pursuing advanced degrees.",
+      "occupation_types": [
+        "Graduate Student",
+        "Remote Intern",
+        "University Professor"
+      ],
+      "location_pattern": "Concentrated in urban areas, particularly in the San Francisco Bay Area and surrounding cities."
+    },
+    "psychographics": {
+      "common_goals": [
+        "Achieving career goals (especially in tech and data analysis)",
+        "Seeking high-quality products at reasonable prices"
+      ],
+      "shared_interests": [
+        "Technology (AI, Data Management)",
+        "Shopping & Consumer Goods",
+        "Learning & Personal Development"
+      ],
+      "shared_values": [
+        "Value for money",
+        "Efficiency and Convenience",
+        "Rational decision-making and brand reputation"
+      ]
+    },
+    "shopping_behavior": {
+      "frequency_pattern": "Weekly shopping frequency is a consistent trait across the group.",
+      "preferred_devices": [
+        "Smartphone",
+        "Laptop",
+        "Desktop"
+      ],
+      "decision_style": "Highly analytical and data-driven; characterized by extensive option selection and input, prioritizing reviews and ratings.",
+      "price_sensitivity": "Primarily focused on 'Cheapest Product' but ultimately influenced by quality, brand, and positive reviews.",
+      "common_pain_points": [
+        "Overwhelming product choices",
+        "Difficulty validating product quality and reliability"
+      ]
+    },
+    "narrative": "Meet Alex, a 28-year-old graduate student researching the best noise-canceling headphones for his late-night study sessions. Alex meticulously compares models, reading countless reviews and adjusting features to find the perfect balance between price and performance, driven by a desire for efficiency and a reliable product.  Like many in this group, Alex values both getting the best possible value and the confidence that comes from making a thoroughly informed decision."
+  },
+  "source_users": [
+    {
+      "user_id": "4363ae6f-d1a1-4790-abe3-ffab842ac201",
+      "summary": "Graduate Student Shopper"
+    },
+    {
+      "user_id": "47395b78-6336-4546-b97c-7becdf065356",
+      "summary": "Data Student"
+    },
+    {
+      "user_id": "b6a822a0-090b-4c1d-ac6e-da3bf4a2b643",
+      "summary": "Online Shopping Habits"
+    }
+  ]
+}

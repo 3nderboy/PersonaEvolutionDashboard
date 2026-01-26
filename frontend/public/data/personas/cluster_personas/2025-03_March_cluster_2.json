@@ -1,0 +1,73 @@
+{
+  "cluster_id": 2,
+  "month": "2025-03 (March)",
+  "cluster_name": "Decisive Buyer",
+  "generated_at": "2026-01-26T14:33:15.384606",
+  "user_count": 3,
+  "persona": {
+    "title": {
+      "persona_name": "The Detail-Oriented Optimizer",
+      "tagline": "Driven by efficiency, customization, and a desire for the best product."
+    },
+    "demographics": {
+      "age_distribution": "Predominantly 35-45 years old, with a slight skew towards the older end of that range.",
+      "gender_distribution": "Majority male (approximately 70%), with a significant portion being male.",
+      "education_level": "Generally holds a Bachelor's degree or higher, with a concentration in technical fields or advanced degrees.",
+      "occupation_types": [
+        "Software Engineering",
+        "Research (PhD/Master's)",
+        "University Professor"
+      ],
+      "location_pattern": "Concentrated in major metropolitan areas, primarily Boston and the Bay Area, indicating a tech-savvy demographic."
+    },
+    "psychographics": {
+      "common_goals": [
+        "Achieving optimal results through careful selection",
+        "Continuous self-improvement and learning",
+        "Finding reliable and high-quality solutions"
+      ],
+      "shared_interests": [
+        "Technology",
+        "Data Analysis",
+        "Innovation",
+        "Efficiency-focused hobbies (e.g., Golf)"
+      ],
+      "shared_values": [
+        "Quality",
+        "Efficiency",
+        "Brand Reputation",
+        "Value for Money"
+      ]
+    },
+    "shopping_behavior": {
+      "frequency_pattern": "Weekly shoppers, exhibiting a strong and consistent purchasing behavior.",
+      "preferred_devices": [
+        "Smartphone",
+        "Desktop",
+        "Tablet"
+      ],
+      "decision_style": "Highly analytical and detail-oriented, relying on reviews, rankings, and a significant degree of customization.",
+      "price_sensitivity": "Initially price-conscious, but willing to spend more for quality and functionality, particularly if it aligns with their desired specifications.",
+      "common_pain_points": [
+        "Overwhelming choice and information overload",
+        "Difficulty in accurately assessing product quality",
+        "Time constraints limiting extensive research"
+      ]
+    },
+    "narrative": "Mark is a software engineer meticulously researching the perfect golf accessory, spending considerable time comparing features and reading reviews. Like many in this group, he's driven by a need for efficiency and a desire to optimize his performance, often seeking detailed specifications and customization options.  He’s a decisive buyer, but not impulsive, carefully weighing all available data before committing to a purchase."
+  },
+  "source_users": [
+    {
+      "user_id": "03a4f3ea-bfb7-4ba9-a7e5-5033f6958ce1",
+      "summary": "Tech-savvy, Research-oriented"
+    },
+    {
+      "user_id": "2af67bcd-8d3b-4d77-9834-4219fbf93540",
+      "summary": "Tech Explorer"
+    },
+    {
+      "user_id": "b6a822a0-090b-4c1d-ac6e-da3bf4a2b643",
+      "summary": "Online Shopping Habits"
+    }
+  ]
+}
