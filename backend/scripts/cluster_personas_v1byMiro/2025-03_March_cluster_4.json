@@ -1,0 +1,93 @@
+{
+  "cluster_id": 4,
+  "month": "2025-03 (March)",
+  "cluster_name": "Search-Driven Navigator",
+  "generated_at": "2026-01-27T01:19:02.378913",
+  "user_count": 2,
+  "persona": {
+    "title": {
+      "persona_name": "Research Navigator",
+      "tagline": "A data-driven PhD student seeking efficient tech solutions.",
+      "user_profiles": 2
+    },
+    "demographics": {
+      "age_distribution": {
+        "value": "30-35 years old",
+        "num_of_users_in_this_age": 2
+      },
+      "gender_distribution": {
+        "value": "Male",
+        "num_of_users_of_this_gender": 2
+      },
+      "nationality_background": {
+        "value": "American",
+        "num_of_users_from_with_this_nationality": 2
+      },
+      "location_pattern": {
+        "value": "Boston",
+        "num_of_users_with_same_location_pattern": 2
+      },
+      "living_situation": {
+        "value": "With Roommate",
+        "num_of_users_with_this_living_situation_pattern": 2
+      },
+      "occupation": {
+        "value": "PhD Student",
+        "num_of_users_with_same_occupation_type": 2
+      },
+      "education_level": {
+        "value": "PhD",
+        "num_of_users_with_same_education_level": 2
+      }
+    },
+    "psychographics": {
+      "goals": [
+        "Advance research in Natural Language Processing",
+        "Seek efficient tools and technologies"
+      ],
+      "interests": [
+        "Technology",
+        "Computer Science",
+        "Smart Home Devices"
+      ],
+      "values": [
+        "Efficiency",
+        "Value for Money"
+      ]
+    },
+    "shopping_behavior": {
+      "frequency_pattern": {
+        "value": "Weekly",
+        "num_of_users_with_this_frequency": 2
+      },
+      "preferred_devices": [
+        "Smartphone",
+        "Laptop",
+        "Tablet"
+      ],
+      "search_style": "First Product",
+      "price_sensitivity": "Cheapest Product",
+      "decision_style": "Functionality, Price, Quality",
+      "preferred_categories": [
+        "Electronics",
+        "Home Appliances",
+        "Tech Accessories"
+      ],
+      "common_pain_points": [
+        "Limited monitor outputs",
+        "Difficulty finding efficient solutions"
+      ]
+    },
+    "narrative": "This persona is a highly motivated PhD student, relentlessly searching for the best tech solutions to streamline his research and daily tasks. Driven by a need for efficiency and value, he utilizes extensive online searches and prioritizes functional products at competitive prices. He’s a data-driven navigator, intensely focused on finding exactly what he needs, often engaging with search results repeatedly."
+  },
+  "source_users": [
+    {
+      "user_id": "03a4f3ea-bfb7-4ba9-a7e5-5033f6958ce1",
+      "summary": "Tech-savvy, Research-oriented"
+    },
+    {
+      "user_id": "9c9f3204-3b7d-4405-8ee1-ad5fb13aef3d",
+      "summary": "Tech Research"
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "cluster_id": 3,
+  "month": "2025-04 (April)",
+  "cluster_name": "Informed Evaluator",
+  "generated_at": "2026-01-27T16:11:21.673328",
+  "user_count": 31,
+  "persona": {
+    "title": {
+      "persona_name": "The Informed Evaluator",
+      "tagline": "A detail-oriented shopper prioritizing reviews and quality.",
+      "user_profiles": 22
+    },
+    "demographics": {
+      "age_distribution": {
+        "value": "25-34 years old",
+        "num_of_users_in_this_age": 16
+      },
+      "gender_distribution": {
+        "value": "Male",
+        "num_of_users_of_this_gender": 18
+      },
+      "nationality_background": {
+        "value": "American",
+        "num_of_users_from_with_this_nationality": 21
+      },
+      "location_pattern": {
+        "value": "Boston, MA",
+        "num_of_users_with_same_location_pattern": 10
+      },
+      "living_situation": {
+        "value": "With Roommates",
+        "num_of_users_with_this_living_situation_pattern": 15
+      },
+      "occupation": {
+        "value": "Software Engineer",
+        "num_of_users_with_same_occupation_type": 13
+      },
+      "education_level": {
+        "value": "Master's Degree",
+        "num_of_users_with_same_education_level": 15
+      }
+    },
+    "psychographics": {
+      "goals": [
+        "Career Advancement",
+        "Continuous Learning",
+        "Personal Project Development"
+      ],
+      "interests": [
+        "Technology",
+        "Data Science",
+        "Electronics"
+      ],
+      "values": [
+        "Quality",
+        "Value for Money",
+        "Brand Reputation"
+      ]
+    },
+    "shopping_behavior": {
+      "frequency_pattern": {
+        "value": "Weekly",
+        "num_of_users_with_this_frequency": 20
+      },
+      "preferred_devices": [
+        "Smartphone",
+        "Desktop"
+      ],
+      "search_style": "Prefers searching for ‘Best Product’ or ‘First Product’, often focusing on top-rated items.",
+      "price_sensitivity": "Price is a significant factor, typically seeking the ‘Cheapest Product’ but willing to spend more for high-quality items.",
+      "decision_style": "Relies heavily on product reviews and brand reputation when making purchasing decisions.",
+      "preferred_categories": [
+        "Electronics",
+        "Clothing",
+        "Software",
+        "Gadgets"
+      ],
+      "common_pain_points": [
+        "Finding a webcam with the right angle",
+        "Overwhelming number of product options"
+      ]
+    },
+    "narrative": "The Informed Evaluator is a meticulously thoughtful shopper who prioritizes research and expert opinions before committing to a purchase. Driven by a desire for quality and value, they spend considerable time gathering product information, particularly through reviews, to ensure they are making the best possible choice. This persona values strong brand reputations and is often searching for the most technically advanced and well-regarded items available."
+  },
+  "source_users": [
+    {
+      "user_id": "009b6e0c-9aff-41cc-842e-45658133dec6",
+      "summary": "Data Science Student"
+    },
+    {
+      "user_id": "03a4f3ea-bfb7-4ba9-a7e5-5033f6958ce1",
+      "summary": "Tech-savvy, Research-oriented"
+    },
+    {
+      "user_id": "3539f4ff-2781-4b5b-af33-6ace9752c557",
+      "summary": "Gaming Enthusiast"
+    },
+    {
+      "user_id": "3a65c43e-e4e3-4280-8ea3-526cc99b9553",
+      "summary": "PhD Student"
+    },
+    {
+      "user_id": "4363ae6f-d1a1-4790-abe3-ffab842ac201",
+      "summary": "Graduate Student Shopper"
+    },
+    {
+      "user_id": "4711841a-9bbc-4763-bcb2-c5cf78aebacb",
+      "summary": "Student Amazon Shopper"
+    },
+    {
+      "user_id": "4d439e8e-69d1-4ee2-8030-7c885c6b1fa2",
+      "summary": "Research & Relax"
+    },
+    {
+      "user_id": "518a849c-3fd6-4aa0-87f2-bbbe3a622f0c",
+      "summary": "Research Student"
+    },
+    {
+      "user_id": "5632b752-29ff-4501-9a85-10490d494777",
+      "summary": "Data Analysis & Shopping"
+    },
+    {
+      "user_id": "58c72f67-93ab-4fd9-a561-90882899e72c",
+      "summary": "PhD Student"
+    },
+    {
+      "user_id": "677a4341-6b9b-4acc-8d42-8c9189bdb429",
+      "summary": "Tech-savvy Researcher"
+    },
+    {
+      "user_id": "680c63e0-6620-465b-a9ad-2a187fdf481e",
+      "summary": "Tech Fitness Man"
+    },
+    {
+      "user_id": "6d000ee5-fd82-4100-85d4-01ac09852cf8",
+      "summary": "Tech Scientist Shopper"
+    },
+    {
+      "user_id": "74b9cc8a-a89a-4e2a-941a-6e89b42e18bf",
+      "summary": "Tech Student"
+    },
+    {
+      "user_id": "7f0c8207-6a6f-49cd-9d7e-17987cfafcb9",
+      "summary": "Computer Science PhD"
+    },
+    {
+      "user_id": "85aeec61-2d4e-489d-93bf-76c928d2d795",
+      "summary": "Research Focused"
+    },
+    {
+      "user_id": "9f15f02a-4e02-4920-8065-4feb712032d7",
+      "summary": "Academic Researcher"
+    },
+    {
+      "user_id": "d1f1414b-f059-43fe-838b-9a05c751d3c5",
+      "summary": "Student Shopper"
+    },
+    {
+      "user_id": "dd4fa2e8-9892-444c-ac53-f5f41751c14c",
+      "summary": "Tech Researcher"
+    },
+    {
+      "user_id": "f17b9572-601b-4f40-a3f0-f5a43887b335",
+      "summary": "Tech Student"
+    },
+    {
+      "user_id": "f2778310-f9e8-4208-a73f-c098e00cacdc",
+      "summary": "Tech Enthusiast"
+    },
+    {
+      "user_id": "fa0c574d-59f9-4dd8-aa8b-47c90f219b83",
+      "summary": "Student Shopper"
+    }
+  ]
+}

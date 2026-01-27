@@ -1,0 +1,113 @@
+{
+  "cluster_id": 4,
+  "month": "2025-05 (May)",
+  "cluster_name": "Search-Driven Navigator",
+  "generated_at": "2026-01-27T16:12:58.705439",
+  "user_count": 9,
+  "persona": {
+    "title": {
+      "persona_name": "The Value-Driven Navigator",
+      "tagline": "Always searching for the best deals and reliable information.",
+      "user_profiles": 6
+    },
+    "demographics": {
+      "age_distribution": {
+        "value": "25-35 years old",
+        "num_of_users_in_this_age": "6"
+      },
+      "gender_distribution": {
+        "value": "Female",
+        "num_of_users_of_this_gender": "4"
+      },
+      "nationality_background": {
+        "value": "American",
+        "num_of_users_from_with_this_nationality": "5"
+      },
+      "location_pattern": {
+        "value": "San Francisco, California",
+        "num_of_users_with_same_location_pattern": "3"
+      },
+      "living_situation": {
+        "value": "With Roommates",
+        "num_of_users_with_this_living_situation_pattern": "3"
+      },
+      "occupation": {
+        "value": "Graduate Student / Remote Intern",
+        "num_of_users_with_same_occupation_type": "2"
+      },
+      "education_level": {
+        "value": "Master's Degree",
+        "num_of_users_with_same_education_level": "4"
+      }
+    },
+    "psychographics": {
+      "goals": [
+        "Career development in data science",
+        "Convenience, Learning"
+      ],
+      "interests": [
+        "AI",
+        "Data Management",
+        "Music",
+        "Tech",
+        "Travel"
+      ],
+      "values": [
+        "Convenience",
+        "Value",
+        "Reliability"
+      ]
+    },
+    "shopping_behavior": {
+      "frequency_pattern": {
+        "value": "Weekly",
+        "num_of_users_with_this_frequency": "6"
+      },
+      "preferred_devices": [
+        "Smartphone",
+        "Laptop"
+      ],
+      "search_style": "This persona primarily uses ‘First’ search style, prioritizing the most relevant results and frequently conducting detailed searches.",
+      "price_sensitivity": "They’re highly price-sensitive, consistently seeking the cheapest product options, although reviews and ratings significantly influence their decisions.",
+      "decision_style": "They heavily rely on reviews, ratings, and convenience factors when making purchasing choices, seeking recommendations and prioritizing a smooth shopping experience.",
+      "preferred_categories": [
+        "Electronics",
+        "Gift Items",
+        "Home Goods",
+        "Protein Supplements",
+        "Car Accessories"
+      ],
+      "common_pain_points": [
+        "Difficulty transitioning into data roles",
+        "Finding high-quality products"
+      ]
+    },
+    "narrative": "The Value-Driven Navigator is a pragmatic and digitally savvy young professional constantly searching for the best value and reliable information before making a purchase. Driven by career goals and a love for technology, they meticulously research products, prioritizing convenience and trusted reviews. This persona is highly active online, using search extensively to guide their buying decisions."
+  },
+  "source_users": [
+    {
+      "user_id": "47395b78-6336-4546-b97c-7becdf065356",
+      "summary": "Data Student"
+    },
+    {
+      "user_id": "680c63e0-6620-465b-a9ad-2a187fdf481e",
+      "summary": "Tech Fitness Man"
+    },
+    {
+      "user_id": "9f15f02a-4e02-4920-8065-4feb712032d7",
+      "summary": "Academic Researcher"
+    },
+    {
+      "user_id": "b6a822a0-090b-4c1d-ac6e-da3bf4a2b643",
+      "summary": "Online Shopping Habits"
+    },
+    {
+      "user_id": "d0440235-fc42-4bfe-89ca-efe949a44287",
+      "summary": "Tech Project Manager"
+    },
+    {
+      "user_id": "d1f1414b-f059-43fe-838b-9a05c751d3c5",
+      "summary": "Student Shopper"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "cluster_id": 3,
+  "month": "2025-05 (May)",
+  "cluster_name": "Informed Evaluator",
+  "generated_at": "2026-01-27T16:12:24.862295",
+  "user_count": 6,
+  "persona": {
+    "title": {
+      "persona_name": "The Informed Researcher",
+      "tagline": "A meticulous shopper driven by reviews and value.",
+      "user_profiles": 4
+    },
+    "demographics": {
+      "age_distribution": {
+        "value": "25-35 years old",
+        "num_of_users_in_this_age": "4"
+      },
+      "gender_distribution": {
+        "value": "Male",
+        "num_of_users_of_this_gender": "4"
+      },
+      "nationality_background": {
+        "value": "American",
+        "num_of_users_from_with_this_nationality": "4"
+      },
+      "location_pattern": {
+        "value": "Boston, MA",
+        "num_of_users_with_same_location_pattern": "4"
+      },
+      "living_situation": {
+        "value": "With Roommates",
+        "num_of_users_with_this_living_situation_pattern": "4"
+      },
+      "occupation": {
+        "value": "PhD Student",
+        "num_of_users_with_same_occupation_type": "4"
+      },
+      "education_level": {
+        "value": "PhD Level",
+        "num_of_users_with_same_education_level": "4"
+      }
+    },
+    "psychographics": {
+      "goals": [
+        "Academic Achievement",
+        "Career Advancement",
+        "Knowledge Acquisition"
+      ],
+      "interests": [
+        "Natural Language Processing",
+        "Large Language Model Agents",
+        "Power Electronics",
+        "Fitness"
+      ],
+      "values": [
+        "Efficiency",
+        "Reliability",
+        "Value for Money",
+        "Innovation"
+      ]
+    },
+    "shopping_behavior": {
+      "frequency_pattern": {
+        "value": "Weekly",
+        "num_of_users_with_this_frequency": "4"
+      },
+      "preferred_devices": [
+        "Smartphone",
+        "Desktop"
+      ],
+      "search_style": "This user meticulously searches for first product results, prioritizing brands and ranking scores. They are heavily influenced by 'best product' suggestions.",
+      "price_sensitivity": "This user is primarily focused on obtaining the cheapest product, especially when value for money is a priority.",
+      "decision_style": "The user makes purchasing decisions based on extensive research, heavily relying on product reviews and brand reputation.  They meticulously evaluate options before selecting a purchase.",
+      "preferred_categories": [
+        "Electronics",
+        "Computer Accessories",
+        "Pet Supplies",
+        "Protein Supplements"
+      ],
+      "common_pain_points": [
+        "Time Constraints",
+        "Overspending on Non-Essential Items"
+      ]
+    },
+    "narrative": "The Informed Researcher is a dedicated student and early-career professional deeply committed to research and personal development. They meticulously evaluate products, spending significant time reading reviews and comparing options before making a purchase, driven by a desire for efficiency and reliable quality.  This persona’s intense focus on detailed information and product analysis makes them a demanding, but ultimately valuable, customer."
+  },
+  "source_users": [
+    {
+      "user_id": "03a4f3ea-bfb7-4ba9-a7e5-5033f6958ce1",
+      "summary": "Tech-savvy, Research-oriented"
+    },
+    {
+      "user_id": "3a65c43e-e4e3-4280-8ea3-526cc99b9553",
+      "summary": "PhD Student"
+    },
+    {
+      "user_id": "680c63e0-6620-465b-a9ad-2a187fdf481e",
+      "summary": "Tech Fitness Man"
+    },
+    {
+      "user_id": "74b9cc8a-a89a-4e2a-941a-6e89b42e18bf",
+      "summary": "Tech Student"
+    }
+  ]
+}

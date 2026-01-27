@@ -1,0 +1,100 @@
+{
+  "cluster_id": 2,
+  "month": "2025-03 (March)",
+  "cluster_name": "Decisive Buyer",
+  "generated_at": "2026-01-27T16:08:01.249596",
+  "user_count": 3,
+  "persona": {
+    "title": {
+      "persona_name": "The Detail-Oriented Tech Enthusiast",
+      "tagline": "Driven by efficiency, quality, and informed decisions.",
+      "user_profiles": 3
+    },
+    "demographics": {
+      "age_distribution": {
+        "value": "35-45 years old",
+        "num_of_users_in_this_age": 3
+      },
+      "gender_distribution": {
+        "value": "Male",
+        "num_of_users_of_this_gender": 3
+      },
+      "nationality_background": {
+        "value": "American",
+        "num_of_users_from_with_this_nationality": 3
+      },
+      "location_pattern": {
+        "value": "Boston, California",
+        "num_of_users_with_same_location_pattern": 3
+      },
+      "living_situation": {
+        "value": "With Partner",
+        "num_of_users_with_this_living_situation_pattern": 2
+      },
+      "occupation": {
+        "value": "Software Engineer",
+        "num_of_users_with_same_occupation_type": 3
+      },
+      "education_level": {
+        "value": "Bachelor’s Degree or Equivalent",
+        "num_of_users_with_same_education_level": 2
+      }
+    },
+    "psychographics": {
+      "goals": [
+        "Continuous Learning",
+        "Building Connections",
+        "Experimentation"
+      ],
+      "interests": [
+        "Technology",
+        "Data Analysis",
+        "Reading",
+        "Golf"
+      ],
+      "values": [
+        "Quality",
+        "Functionality",
+        "Efficiency"
+      ]
+    },
+    "shopping_behavior": {
+      "frequency_pattern": {
+        "value": "Weekly",
+        "num_of_users_with_this_frequency": 3
+      },
+      "preferred_devices": [
+        "Smartphone",
+        "Desktop"
+      ],
+      "search_style": "Users primarily conduct first product searches based on key features and initial price points.",
+      "price_sensitivity": "Users are focused on finding the cheapest product, but heavily consider price relative to functionality and brand reputation.",
+      "decision_style": "Decisive buyers prioritize brand reputation, functionality, and ranking scores when making purchasing decisions.  They actively seek out reviews for higher-priced items.",
+      "preferred_categories": [
+        "Golf Accessories",
+        "Personal Care Products",
+        "Electronics",
+        "Household Supplies"
+      ],
+      "common_pain_points": [
+        "Difficulty finding specific items",
+        "Overwhelming Options"
+      ]
+    },
+    "narrative": "The Detail-Oriented Tech Enthusiast is a driven software engineer in his late 30s, constantly seeking to improve his skills and explore new technologies. He values efficiency and quality in his purchases, prioritizing products that offer both functionality and a strong brand reputation. Despite time constraints, he’s a decisive buyer, meticulously researching options and focusing on obtaining the best value."
+  },
+  "source_users": [
+    {
+      "user_id": "03a4f3ea-bfb7-4ba9-a7e5-5033f6958ce1",
+      "summary": "Tech-savvy, Research-oriented"
+    },
+    {
+      "user_id": "2af67bcd-8d3b-4d77-9834-4219fbf93540",
+      "summary": "Tech Explorer"
+    },
+    {
+      "user_id": "b6a822a0-090b-4c1d-ac6e-da3bf4a2b643",
+      "summary": "Online Shopping Habits"
+    }
+  ]
+}
