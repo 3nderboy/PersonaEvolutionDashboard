@@ -2,16 +2,16 @@
   "cluster_id": 0,
   "month": "2025-03 (March)",
   "cluster_name": "Curious Browser",
-  "generated_at": "2026-01-27T16:08:09.855480",
+  "generated_at": "2026-01-27T01:22:12.714618",
   "user_count": 3,
   "persona": {
     "title": {
-      "persona_name": "The Diligent Explorer",
-      "tagline": "Always seeking value and new experiences, but overwhelmed by choice."
+      "persona_name": "The Explorer",
+      "tagline": "Driven by discovery and value, always seeking new options."
     },
     "demographics": {
       "age_distribution": {
-        "value": "21-34 years old",
+        "value": "21-45 years old",
         "num_of_users_in_this_age": "2"
       },
       "gender_distribution": {
@@ -27,7 +27,7 @@
         "num_of_users_with_same_location_pattern": "2"
       },
       "living_situation": {
-        "value": "Alone",
+        "value": "Living Alone",
         "num_of_users_with_this_living_situation_pattern": "1"
       },
       "occupation": {
@@ -42,14 +42,15 @@
     "psychographics": {
       "goals": [
         "Academic Success",
-        "Personal Growth"
+        "Personal Development"
       ],
       "interests": [
+        "Research",
         "Travel",
-        "Technology"
+        "Cooking"
       ],
       "values": [
-        "Value",
+        "Responsibility",
         "Quality"
       ]
     },
@@ -62,19 +63,20 @@
         "Smartphone",
         "Desktop"
       ],
-      "search_style": "Prefers searching for 'Best' or 'First' product options, indicating a desire for top recommendations and frequently searches for products.",
-      "price_sensitivity": "Primarily driven by the cheapest product option, suggesting a focus on cost-effectiveness.",
-      "decision_style": "Makes purchasing decisions based on price, reviews, and product specifications, showcasing a methodical approach to evaluating products.",
+      "search_style": "Prefers 'Best Product' and 'First Product' searches, indicating a broad exploration.",
+      "price_sensitivity": "Price is a primary decision factor, favoring 'Cheapest Product'.",
+      "decision_style": "Decision making driven by price, reviews and product specifications.",
       "preferred_categories": [
+        "Home Goods",
         "Electronics",
-        "Home Goods"
+        "Sports & Outdoors"
       ],
       "common_pain_points": [
-        "Overwhelming Options",
-        "Difficulty in Determining Quality"
+        "Difficulty assessing product suitability",
+        "Overwhelming Options"
       ]
     },
-    "narrative": "The Diligent Explorer is a curious individual who enjoys exploring a wide range of products, often getting lost in the vast options available online. Driven by a desire for value and convenience, they’re frequently searching for the best deals and reliable recommendations, though they sometimes struggle to filter through the noise and find exactly what they need.  This user prioritizes price and brand reputation, looking for trustworthy choices that align with their personal aspirations."
+    "narrative": "This persona, ‘The Explorer,’ is a curious and ambitious individual, primarily a PhD student and university professor, constantly searching for the best value and exploring numerous product options. Driven by a desire for both academic success and personal enrichment, they navigate the online world with a focus on price and quality, often overwhelmed by choice. Their exploration is highly focused on practical and enjoyable products, reflecting their diverse interests in research, travel, and various hobbies."
   },
   "source_users": [
     {

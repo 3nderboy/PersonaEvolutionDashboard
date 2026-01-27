@@ -2,12 +2,12 @@
   "cluster_id": 2,
   "month": "2025-03 (March)",
   "cluster_name": "Decisive Buyer",
-  "generated_at": "2026-01-27T16:08:01.249596",
+  "generated_at": "2026-01-27T01:20:40.590132",
   "user_count": 3,
   "persona": {
     "title": {
-      "persona_name": "The Detail-Oriented Tech Enthusiast",
-      "tagline": "Driven by efficiency, quality, and informed decisions.",
+      "persona_name": "The Detail-Oriented Tech Buyer",
+      "tagline": "Driven by efficiency, quality, and a desire for the best possible product.",
       "user_profiles": 3
     },
     "demographics": {
@@ -43,13 +43,12 @@
     "psychographics": {
       "goals": [
         "Continuous Learning",
-        "Building Connections",
-        "Experimentation"
+        "Automation",
+        "Building Connections"
       ],
       "interests": [
         "Technology",
         "Data Analysis",
-        "Reading",
         "Golf"
       ],
       "values": [
@@ -67,21 +66,21 @@
         "Smartphone",
         "Desktop"
       ],
-      "search_style": "Users primarily conduct first product searches based on key features and initial price points.",
-      "price_sensitivity": "Users are focused on finding the cheapest product, but heavily consider price relative to functionality and brand reputation.",
-      "decision_style": "Decisive buyers prioritize brand reputation, functionality, and ranking scores when making purchasing decisions.  They actively seek out reviews for higher-priced items.",
+      "search_style": "First Product",
+      "price_sensitivity": "Cheapest Product",
+      "decision_style": "Emphasis on Brand Reputation and Functionality",
       "preferred_categories": [
         "Golf Accessories",
-        "Personal Care Products",
         "Electronics",
-        "Household Supplies"
+        "Household Supplies",
+        "Clothing"
       ],
       "common_pain_points": [
-        "Difficulty finding specific items",
+        "Difficulty in Determining Quality",
         "Overwhelming Options"
       ]
     },
-    "narrative": "The Detail-Oriented Tech Enthusiast is a driven software engineer in his late 30s, constantly seeking to improve his skills and explore new technologies. He values efficiency and quality in his purchases, prioritizing products that offer both functionality and a strong brand reputation. Despite time constraints, he’s a decisive buyer, meticulously researching options and focusing on obtaining the best value."
+    "narrative": "This persona is a highly motivated tech professional, juggling multiple interests and a desire to optimize his life through technology. He's driven to find the best possible products, meticulously researching and comparing options based on brand reputation, functionality, and price.  His focus on detailed customization and extensive selection choices indicates a strong desire for control and a precise fit with his needs."
   },
   "source_users": [
     {

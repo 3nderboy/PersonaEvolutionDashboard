@@ -1,0 +1,115 @@
+{
+  "cluster_id": 1,
+  "month": "2025-05 (May)",
+  "cluster_name": "Action-Oriented Shopper",
+  "generated_at": "2026-01-27T16:12:47.310009",
+  "user_count": 11,
+  "persona": {
+    "title": {
+      "persona_name": "The Rapid Shopper",
+      "tagline": "Driven by immediate needs and value, this user buys quickly and decisively.",
+      "user_profiles": 7
+    },
+    "demographics": {
+      "age_distribution": {
+        "value": "25-35 years old",
+        "num_of_users_in_this_age": 7
+      },
+      "gender_distribution": {
+        "value": "Male",
+        "num_of_users_of_this_gender": 7
+      },
+      "nationality_background": {
+        "value": "American",
+        "num_of_users_from_with_this_nationality": 7
+      },
+      "location_pattern": {
+        "value": "Boston, California",
+        "num_of_users_with_same_location_pattern": 3
+      },
+      "living_situation": {
+        "value": "Living with Roommates",
+        "num_of_users_with_this_living_situation_pattern": 4
+      },
+      "occupation": {
+        "value": "PhD Student",
+        "num_of_users_with_same_occupation_type": 3
+      },
+      "education_level": {
+        "value": "Master's Degree",
+        "num_of_users_with_same_education_level": 4
+      }
+    },
+    "psychographics": {
+      "goals": [
+        "Acquire new products quickly",
+        "Find the best deals",
+        "Solve immediate needs"
+      ],
+      "interests": [
+        "Electronics",
+        "Gaming",
+        "Tech",
+        "Shopping"
+      ],
+      "values": [
+        "Value for Money",
+        "Efficiency",
+        "Convenience"
+      ]
+    },
+    "shopping_behavior": {
+      "frequency_pattern": {
+        "value": "Weekly",
+        "num_of_users_with_this_frequency": 7
+      },
+      "preferred_devices": [
+        "Smartphone",
+        "Desktop"
+      ],
+      "search_style": "Prefers searching for 'Best Product' or 'First Product' based on immediate needs and reviews.",
+      "price_sensitivity": "Highly price-sensitive, prioritizing the cheapest product option.",
+      "decision_style": "Makes quick purchase decisions based on price, reviews, and immediate availability.",
+      "preferred_categories": [
+        "Electronics",
+        "Gaming Accessories",
+        "Pet Supplies"
+      ],
+      "common_pain_points": [
+        "Overwhelming product options",
+        "Difficulty comparing products"
+      ]
+    },
+    "narrative": "The Rapid Shopper is a decisive user who prioritizes getting what they need quickly and affordably. Driven by immediate demands and a focus on value, they swiftly scan options and jump on deals. This user is often frustrated by the complexity of online shopping and seeks straightforward solutions."
+  },
+  "source_users": [
+    {
+      "user_id": "3539f4ff-2781-4b5b-af33-6ace9752c557",
+      "summary": "Gaming Enthusiast"
+    },
+    {
+      "user_id": "3a65c43e-e4e3-4280-8ea3-526cc99b9553",
+      "summary": "PhD Student"
+    },
+    {
+      "user_id": "4711841a-9bbc-4763-bcb2-c5cf78aebacb",
+      "summary": "Student Amazon Shopper"
+    },
+    {
+      "user_id": "47395b78-6336-4546-b97c-7becdf065356",
+      "summary": "Data Student"
+    },
+    {
+      "user_id": "7f0c8207-6a6f-49cd-9d7e-17987cfafcb9",
+      "summary": "Computer Science PhD"
+    },
+    {
+      "user_id": "b6a822a0-090b-4c1d-ac6e-da3bf4a2b643",
+      "summary": "Online Shopping Habits"
+    },
+    {
+      "user_id": "d0440235-fc42-4bfe-89ca-efe949a44287",
+      "summary": "Tech Project Manager"
+    }
+  ]
+}

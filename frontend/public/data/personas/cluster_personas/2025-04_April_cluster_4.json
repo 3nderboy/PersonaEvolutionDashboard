@@ -1,0 +1,168 @@
+{
+  "cluster_id": 4,
+  "month": "2025-04 (April)",
+  "cluster_name": "Search-Driven Navigator",
+  "generated_at": "2026-01-27T16:12:13.873972",
+  "user_count": 30,
+  "persona": {
+    "title": {
+      "persona_name": "The Search Navigator",
+      "tagline": "Driven by research, efficiency, and value-conscious decisions.",
+      "user_profiles": 20
+    },
+    "demographics": {
+      "age_distribution": {
+        "value": "25-34 years old",
+        "num_of_users_in_this_age": 17
+      },
+      "gender_distribution": {
+        "value": "Male",
+        "num_of_users_of_this_gender": 18
+      },
+      "nationality_background": {
+        "value": "American",
+        "num_of_users_from_with_this_nationality": 19
+      },
+      "location_pattern": {
+        "value": "Boston, MA",
+        "num_of_users_with_same_location_pattern": 11
+      },
+      "living_situation": {
+        "value": "Living with Roommates",
+        "num_of_users_with_this_living_situation_pattern": 12
+      },
+      "occupation": {
+        "value": "PhD Student",
+        "num_of_users_with_same_occupation_type": 12
+      },
+      "education_level": {
+        "value": "PhD Level",
+        "num_of_users_with_same_education_level": 13
+      }
+    },
+    "psychographics": {
+      "goals": [
+        "To achieve their research goals and advance in their field.",
+        "To manage their time efficiently and make informed purchasing decisions."
+      ],
+      "interests": [
+        "Natural Language Processing",
+        "Coding",
+        "Technology",
+        "Gaming"
+      ],
+      "values": [
+        "Efficiency",
+        "Reliability",
+        "Value for Money",
+        "Brand Reputation"
+      ]
+    },
+    "shopping_behavior": {
+      "frequency_pattern": {
+        "value": "Weekly",
+        "num_of_users_with_this_frequency": 18
+      },
+      "preferred_devices": [
+        "Smartphone",
+        "Desktop"
+      ],
+      "search_style": "This persona heavily relies on search, frequently entering keywords and phrases to locate specific products. They prioritize 'Best Product' and 'First Product' search results based on rankings and reviews.",
+      "price_sensitivity": "They are primarily focused on finding the cheapest product, but also consider brand reputation and customer reviews when making higher-priced purchases.",
+      "decision_style": "Decision-making is driven by a combination of factors including brand reputation, price, ranking scores, and user reviews, with an emphasis on value and quality.",
+      "preferred_categories": [
+        "Electronics",
+        "Computer Accessories",
+        "Pet Supplies",
+        "Daily Necessities"
+      ],
+      "common_pain_points": [
+        "Time constraints",
+        "Difficulty comparing products"
+      ]
+    },
+    "narrative": "The Search Navigator is a detail-oriented, highly analytical individual constantly seeking the most efficient solutions and best value. Driven by a strong interest in technology and research, they meticulously search for products based on detailed criteria and rely heavily on rankings and reviews to inform their purchasing decisions.  This persona's constant activity and focus on finding the perfect item makes them a key target for e-commerce brands offering a wide selection and trusted reviews."
+  },
+  "source_users": [
+    {
+      "user_id": "03a4f3ea-bfb7-4ba9-a7e5-5033f6958ce1",
+      "summary": "Tech-savvy, Research-oriented"
+    },
+    {
+      "user_id": "31aa3621-e5b3-4cb1-8283-6712d33cda42",
+      "summary": "Tech Professional"
+    },
+    {
+      "user_id": "3539f4ff-2781-4b5b-af33-6ace9752c557",
+      "summary": "Gaming Enthusiast"
+    },
+    {
+      "user_id": "3a65c43e-e4e3-4280-8ea3-526cc99b9553",
+      "summary": "PhD Student"
+    },
+    {
+      "user_id": "4711841a-9bbc-4763-bcb2-c5cf78aebacb",
+      "summary": "Student Amazon Shopper"
+    },
+    {
+      "user_id": "4d439e8e-69d1-4ee2-8030-7c885c6b1fa2",
+      "summary": "Research & Relax"
+    },
+    {
+      "user_id": "518a849c-3fd6-4aa0-87f2-bbbe3a622f0c",
+      "summary": "Research Student"
+    },
+    {
+      "user_id": "5632b752-29ff-4501-9a85-10490d494777",
+      "summary": "Data Analysis & Shopping"
+    },
+    {
+      "user_id": "58c72f67-93ab-4fd9-a561-90882899e72c",
+      "summary": "PhD Student"
+    },
+    {
+      "user_id": "677a4341-6b9b-4acc-8d42-8c9189bdb429",
+      "summary": "Tech-savvy Researcher"
+    },
+    {
+      "user_id": "680c63e0-6620-465b-a9ad-2a187fdf481e",
+      "summary": "Tech Fitness Man"
+    },
+    {
+      "user_id": "6d000ee5-fd82-4100-85d4-01ac09852cf8",
+      "summary": "Tech Scientist Shopper"
+    },
+    {
+      "user_id": "74b9cc8a-a89a-4e2a-941a-6e89b42e18bf",
+      "summary": "Tech Student"
+    },
+    {
+      "user_id": "85aeec61-2d4e-489d-93bf-76c928d2d795",
+      "summary": "Research Focused"
+    },
+    {
+      "user_id": "9f15f02a-4e02-4920-8065-4feb712032d7",
+      "summary": "Academic Researcher"
+    },
+    {
+      "user_id": "b6a822a0-090b-4c1d-ac6e-da3bf4a2b643",
+      "summary": "Online Shopping Habits"
+    },
+    {
+      "user_id": "dd4fa2e8-9892-444c-ac53-f5f41751c14c",
+      "summary": "Tech Researcher"
+    },
+    {
+      "user_id": "f2778310-f9e8-4208-a73f-c098e00cacdc",
+      "summary": "Tech Enthusiast"
+    },
+    {
+      "user_id": "fa0c574d-59f9-4dd8-aa8b-47c90f219b83",
+      "summary": "Student Shopper"
+    },
+    {
+      "user_id": "ffa9a771-083a-42b1-a41b-bf91bd50030b",
+      "summary": "Robotics Researcher"
+    }
+  ]
+}
