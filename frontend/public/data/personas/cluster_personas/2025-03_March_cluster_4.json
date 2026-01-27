@@ -2,60 +2,83 @@
   "cluster_id": 4,
   "month": "2025-03 (March)",
   "cluster_name": "Search-Driven Navigator",
-  "generated_at": "2026-01-26T14:09:31.699758",
+  "generated_at": "2026-01-27T01:19:02.378913",
   "user_count": 2,
   "persona": {
     "title": {
-      "persona_name": "The Data-Driven Researcher",
-      "tagline": "Always searching, relentlessly efficient, and focused on practical solutions."
+      "persona_name": "Research Navigator",
+      "tagline": "A data-driven PhD student seeking efficient tech solutions.",
+      "user_profiles": 2
     },
     "demographics": {
-      "age_distribution": "Predominantly 25-35 years old",
-      "gender_distribution": "Majority Male (approximately 70%)",
-      "education_level": "Advanced Education – Primarily PhD level in Computer Science, particularly NLP",
-      "occupation_types": [
-        "PhD Student",
-        "Researcher"
-      ],
-      "location_pattern": "Urban areas, primarily Boston, MA"
+      "age_distribution": {
+        "value": "30-35 years old",
+        "num_of_users_in_this_age": 2
+      },
+      "gender_distribution": {
+        "value": "Male",
+        "num_of_users_of_this_gender": 2
+      },
+      "nationality_background": {
+        "value": "American",
+        "num_of_users_from_with_this_nationality": 2
+      },
+      "location_pattern": {
+        "value": "Boston",
+        "num_of_users_with_same_location_pattern": 2
+      },
+      "living_situation": {
+        "value": "With Roommate",
+        "num_of_users_with_this_living_situation_pattern": 2
+      },
+      "occupation": {
+        "value": "PhD Student",
+        "num_of_users_with_same_occupation_type": 2
+      },
+      "education_level": {
+        "value": "PhD",
+        "num_of_users_with_same_education_level": 2
+      }
     },
     "psychographics": {
-      "common_goals": [
-        "Advance research in NLP and HCI",
-        "Optimize their workflow and productivity",
-        "Find reliable and efficient solutions to their challenges"
+      "goals": [
+        "Advance research in Natural Language Processing",
+        "Seek efficient tools and technologies"
       ],
-      "shared_interests": [
-        "Natural Language Processing",
-        "Large Language Model Agents",
-        "Coding",
+      "interests": [
         "Technology",
+        "Computer Science",
         "Smart Home Devices"
       ],
-      "shared_values": [
+      "values": [
         "Efficiency",
-        "Value for Money",
-        "Continuous Learning",
-        "Reliability"
+        "Value for Money"
       ]
     },
     "shopping_behavior": {
-      "frequency_pattern": "Weekly Shoppers - Very active online shoppers engaging frequently",
+      "frequency_pattern": {
+        "value": "Weekly",
+        "num_of_users_with_this_frequency": 2
+      },
       "preferred_devices": [
         "Smartphone",
-        "Desktop",
         "Laptop",
         "Tablet"
       ],
-      "decision_style": "Driven by search and initial product discovery. Focuses on price and ranking, with reviews considered primarily for higher-priced items.",
-      "price_sensitivity": "Cheapest Product - Primarily focused on the most cost-effective options, although quality is still a consideration.",
+      "search_style": "First Product",
+      "price_sensitivity": "Cheapest Product",
+      "decision_style": "Functionality, Price, Quality",
+      "preferred_categories": [
+        "Electronics",
+        "Home Appliances",
+        "Tech Accessories"
+      ],
       "common_pain_points": [
-        "Limited monitor outputs on existing hardware",
-        "Difficulty finding efficient solutions for everyday tasks",
-        "Time constraints"
+        "Limited monitor outputs",
+        "Difficulty finding efficient solutions"
       ]
     },
-    "narrative": "The Data-Driven Researcher is constantly on the hunt for the best tools and information to fuel their research and productivity. They meticulously search for products, prioritizing efficiency and value, often juggling academic deadlines and personal needs. This user intensely analyzes options, leveraging extensive search queries to refine their choices based on brand reputation and price."
+    "narrative": "This persona is a highly motivated PhD student, relentlessly searching for the best tech solutions to streamline his research and daily tasks. Driven by a need for efficiency and value, he utilizes extensive online searches and prioritizes functional products at competitive prices. He’s a data-driven navigator, intensely focused on finding exactly what he needs, often engaging with search results repeatedly."
   },
   "source_users": [
     {

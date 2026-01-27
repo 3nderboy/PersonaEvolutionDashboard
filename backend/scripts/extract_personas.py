@@ -47,7 +47,9 @@ OUTPUT_DIR = DATA_DIR / "personas" / "cluster_personas"
 # --- Prompt Template ---
 SYSTEM_PROMPT = """
 You are a persona synthesis expert. Given multiple individual user profiles from an e-commerce behavioral cluster, 
-synthesize a single representative persona that captures the common patterns, characteristics, and behaviors of this user group.
+synthesize a single representative persona that captures and summarizes the common patterns, characteristics, and behaviors of this user group into one persona.
+
+IMPORTANT: This persona is based on exactly {user_count} user profiles with interview data.
 
 The cluster has the following behavioral characteristics:
 {cluster_info}
@@ -55,37 +57,82 @@ The cluster has the following behavioral characteristics:
 Here are the individual user profiles from this cluster:
 {user_profiles}
 
+=== CRITICAL RULES - YOU MUST FOLLOW THESE EXACTLY ===
+1. The "user_profiles" field in title MUST be exactly: {user_count}
+2. For ALL fields asking for a single value, you MUST provide ONLY ONE value
+   - WRONG: "Software Engineering and Development / University Professor" 
+   - WRONG: "Quality & Functionality"
+   - WRONG: "Technology & Data Analysis"
+   - CORRECT: "Software Engineer"
+   - CORRECT: "Quality"
+   - CORRECT: "Technology"
+3. NEVER use "/" or "&" or "and" to combine multiple values into one
+4. For arrays, each item must be a SINGLE concept, not multiple concepts combined
+   - WRONG: ["Golf & Travel", "Reading & Coding"]
+   - CORRECT: ["Golf", "Travel", "Reading"]
+5. Pick the MOST DOMINANT pattern. If there's a tie, pick any one, but only one.
+===
+
 Return ONLY valid JSON with this exact structure (no markdown, no explanation):
 {{
   "title": {{
-    "persona_name": "A memorable persona name (e.g., 'The Pragmatic Professional')",
-    "tagline": "A short 5-10 word description of this persona"
+    "persona_name": "A memorable two-word persona name",
+    "tagline": "A short 5-10 word description of this persona",
+    "user_profiles": {user_count}
   }},
   "demographics": {{
-    "age_distribution": "Describe the age range pattern (e.g., 'Predominantly 25-34 years old')",
-    "gender_distribution": "Describe gender mix (e.g., 'Majority female' or 'Equal mix')",
-    "education_level": "Common education patterns",
-    "occupation_types": ["occupation 1", "occupation 2"],
-    "location_pattern": "Geographic patterns (e.g., 'Urban areas, primarily Boston')"
+    "age_distribution": {{
+      "value": "Single age range (e.g., '25-34 years old')",
+      "num_of_users_in_this_age": "integer count"
+    }},
+    "gender_distribution": {{
+      "value": "Male OR Female (pick the dominant one)",
+      "num_of_users_of_this_gender": "integer count"
+    }},
+    "nationality_background": {{
+      "value": "Single nationality (e.g., 'American')",
+      "num_of_users_from_with_this_nationality": "integer count"
+    }},
+    "location_pattern": {{
+      "value": "Single city or area (e.g., 'Boston')",
+      "num_of_users_with_same_location_pattern": "integer count"
+    }},
+    "living_situation": {{
+      "value": "One of: Alone, With Friend, With Partner, With Friends, With Parents, With Relatives, With Family, Unknown",
+      "num_of_users_with_this_living_situation_pattern": "integer count"
+    }},
+    "occupation": {{
+      "value": "Single occupation (e.g., 'Software Engineer'). NO slashes or 'and'!",
+      "num_of_users_with_same_occupation_type": "integer count"
+    }},
+    "education_level": {{
+      "value": "Single education level (e.g., 'Master's Degree')",
+      "num_of_users_with_same_education_level": "integer count"
+    }}
   }},
   "psychographics": {{
-    "common_goals": ["goal shared by multiple users", "another common goal"],
-    "shared_interests": ["interest 1", "interest 2", "interest 3"],
-    "shared_values": ["value 1", "value 2", "value 3"]
+    "goals": ["single goal 1", "single goal 2"],
+    "interests": ["single interest 1", "single interest 2", "single interest 3"],
+    "values": ["single value 1", "single value 2", "single value 3"]
   }},
   "shopping_behavior": {{
-    "frequency_pattern": "How often this group shops (e.g., 'Weekly shoppers')",
+    "frequency_pattern": {{
+      "value": "One of: Daily, Weekly, Monthly, Rarely",
+      "num_of_users_with_this_frequency": "integer count"
+    }},
     "preferred_devices": ["device 1", "device 2"],
-    "decision_style": "How they make purchase decisions",
-    "price_sensitivity": "Their price preferences",
+    "search_style": "Brief description of search behavior with at least one sentence",
+    "price_sensitivity": "Brief description of price preference with at least one sentence",
+    "decision_style": "Brief description of decision making with at least one sentence",
+    "preferred_categories": ["category 1", "category 2", "category 3", "category 4"],
     "common_pain_points": ["pain point 1", "pain point 2"]
   }},
-  "narrative": "A 2-3 sentence narrative description of a typical member of this persona group. Make it vivid and human."
+  "narrative": "A 2-3 sentence narrative description of this persona. Make it vivid and human."
 }}
 
-Synthesize patterns across ALL provided user profiles. Focus on commonalities, but note significant variations where relevant.
-If a field has no clear pattern across users, indicate "Varied" or provide the range of observed values.
+Remember: Pick the SINGLE most common value for each field. Never combine multiple values with / or & or 'and'.
 """
+
 
 
 def validate_utf8(text: str) -> str:
@@ -426,7 +473,8 @@ def main():
                 
                 prompt = SYSTEM_PROMPT.format(
                     cluster_info=cluster_info,
-                    user_profiles=user_profiles_text
+                    user_profiles=user_profiles_text,
+                    user_count=len(profiles)
                 )
                 
                 # Generate persona

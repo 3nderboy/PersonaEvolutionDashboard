@@ -2,59 +2,81 @@
   "cluster_id": 0,
   "month": "2025-03 (March)",
   "cluster_name": "Curious Browser",
-  "generated_at": "2026-01-26T14:34:29.149784",
+  "generated_at": "2026-01-27T01:22:12.714618",
   "user_count": 3,
   "persona": {
     "title": {
-      "persona_name": "The Curious Explorer",
-      "tagline": "Driven by discovery, seeking value and information before purchase."
+      "persona_name": "The Explorer",
+      "tagline": "Driven by discovery and value, always seeking new options."
     },
     "demographics": {
-      "age_distribution": "Predominantly 21-45 years old, with a slight skew towards the younger end (21-34).",
-      "gender_distribution": "Majority female (approximately 60%), with a significant, though smaller, male cohort.",
-      "education_level": "Highly educated, with a strong proportion holding Bachelor's degrees or higher, including Master's and PhD levels.",
-      "occupation_types": [
-        "PhD Student",
-        "University Professor"
-      ],
-      "location_pattern": "Primarily located in urban and suburban areas, particularly in the USA (California, Boston)."
+      "age_distribution": {
+        "value": "21-45 years old",
+        "num_of_users_in_this_age": "2"
+      },
+      "gender_distribution": {
+        "value": "Female",
+        "num_of_users_of_this_gender": "1"
+      },
+      "nationality_background": {
+        "value": "American",
+        "num_of_users_from_with_this_nationality": "2"
+      },
+      "location_pattern": {
+        "value": "California",
+        "num_of_users_with_same_location_pattern": "2"
+      },
+      "living_situation": {
+        "value": "Living Alone",
+        "num_of_users_with_this_living_situation_pattern": "1"
+      },
+      "occupation": {
+        "value": "PhD Student",
+        "num_of_users_with_same_occupation_type": "1"
+      },
+      "education_level": {
+        "value": "Master's Degree or higher",
+        "num_of_users_with_same_education_level": "1"
+      }
     },
     "psychographics": {
-      "common_goals": [
-        "To find the best value for their money",
-        "To explore new products and experiences",
-        "To satisfy their curiosity and learn more about things they're interested in"
+      "goals": [
+        "Academic Success",
+        "Personal Development"
       ],
-      "shared_interests": [
+      "interests": [
+        "Research",
         "Travel",
-        "Technology",
-        "Home Goods",
-        "Health & Personal Care",
-        "Outdoor Activities"
+        "Cooking"
       ],
-      "shared_values": [
-        "Value for Money",
-        "Quality",
-        "Information Gathering",
-        "Convenience"
+      "values": [
+        "Responsibility",
+        "Quality"
       ]
     },
     "shopping_behavior": {
-      "frequency_pattern": "Weekly shoppers – actively browsing and researching products on a regular basis.",
+      "frequency_pattern": {
+        "value": "Weekly",
+        "num_of_users_with_this_frequency": "2"
+      },
       "preferred_devices": [
         "Smartphone",
-        "Desktop",
-        "Tablet"
+        "Desktop"
       ],
-      "decision_style": "Research-driven; they start with exploration and comparison before narrowing down choices.",
-      "price_sensitivity": "Primarily 'Cheapest Product' but also considers reviews and specifications.",
+      "search_style": "Prefers 'Best Product' and 'First Product' searches, indicating a broad exploration.",
+      "price_sensitivity": "Price is a primary decision factor, favoring 'Cheapest Product'.",
+      "decision_style": "Decision making driven by price, reviews and product specifications.",
+      "preferred_categories": [
+        "Home Goods",
+        "Electronics",
+        "Sports & Outdoors"
+      ],
       "common_pain_points": [
-        "Overwhelming options",
-        "Difficulty accurately assessing product suitability",
-        "Time constraints"
+        "Difficulty assessing product suitability",
+        "Overwhelming Options"
       ]
     },
-    "narrative": "The Curious Explorer is a thoughtful, digitally-engaged individual who thrives on discovery. They spend considerable time browsing product pages, meticulously comparing options and seeking reassurance through reviews and specifications.  Driven by a desire for value and a thirst for knowledge, they're often juggling multiple interests and priorities, making the decision-making process a balancing act."
+    "narrative": "This persona, ‘The Explorer,’ is a curious and ambitious individual, primarily a PhD student and university professor, constantly searching for the best value and exploring numerous product options. Driven by a desire for both academic success and personal enrichment, they navigate the online world with a focus on price and quality, often overwhelmed by choice. Their exploration is highly focused on practical and enjoyable products, reflecting their diverse interests in research, travel, and various hobbies."
   },
   "source_users": [
     {
