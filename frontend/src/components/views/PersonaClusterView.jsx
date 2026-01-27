@@ -2,6 +2,7 @@ import React, { useState, useEffect, useMemo } from 'react';
 import { ScatterChart, Scatter, XAxis, YAxis, ZAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell } from 'recharts';
 import { BarChart, Bar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Radar } from 'recharts';
 import { UserProfileCard } from './UserProfileView';
+import ClusterPersonaCard from './ClusterPersonaCard';
 
 // Cluster colors matching new persona names
 const CLUSTER_COLORS = [
@@ -29,8 +30,7 @@ const formatMetricName = (name) => {
 };
 
 // Persona Detail Panel Component
-// Persona Detail Panel Component
-const PersonaDetailPanel = ({ persona, onClose, sessions = [], selectedMonth, onMonthChange, availableMonths = [] }) => {
+const PersonaDetailPanel = ({ persona, onClose, sessions = [], selectedMonth, onMonthChange, availableMonths = [], clusterPersona }) => {
 
     // Filter sessions for this persona in this month
     const monthSessions = useMemo(() => {
@@ -235,58 +235,15 @@ const PersonaDetailPanel = ({ persona, onClose, sessions = [], selectedMonth, on
                         </div>
                     </div>
 
-                    {/* Representative Session */}
-                    <div className="bg-slate-800/30 rounded-xl p-6 border border-slate-700/30">
+                    {/* Cluster Persona */}
+                    <div>
                         <h3 className="text-sm font-semibold text-slate-400 uppercase tracking-wider mb-4">
-                            Representative User
+                            Cluster Persona
                         </h3>
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            {/* Demographics */}
-                            <div>
-                                <h4 className="text-xs text-slate-500 mb-2">Demographics</h4>
-                                {Object.keys(rep.demographics || {}).length > 0 ? (
-                                    <div className="space-y-2">
-                                        {Object.entries(rep.demographics).map(([key, value]) => (
-                                            <div key={key} className="flex justify-between text-sm">
-                                                <span className="text-slate-400">{key}</span>
-                                                <span className="text-white">{value}</span>
-                                            </div>
-                                        ))}
-                                    </div>
-                                ) : (
-                                    <p className="text-slate-500 text-sm italic">No demographic data available</p>
-                                )}
-                            </div>
-
-                            {/* Personality */}
-                            <div>
-                                <h4 className="text-xs text-slate-500 mb-2">Personality</h4>
-                                {rep.personality?.['MBTI personality type'] && (
-                                    <div className="mb-3">
-                                        <span className="px-3 py-1 bg-sky-500/20 text-sky-300 rounded-full text-sm">
-                                            {rep.personality['MBTI personality type']}
-                                        </span>
-                                    </div>
-                                )}
-                                {rep.personality?.['Big Five Scores'] && (
-                                    <div className="space-y-1">
-                                        {Object.entries(rep.personality['Big Five Scores']).map(([trait, level]) => (
-                                            <div key={trait} className="flex justify-between text-sm">
-                                                <span className="text-slate-400">{trait}</span>
-                                                <span className={`
-                                                    ${level === 'High' || level === 'Extremely high' ? 'text-green-400' : ''}
-                                                    ${level === 'Medium' ? 'text-yellow-400' : ''}
-                                                    ${level === 'Low' ? 'text-red-400' : ''}
-                                                `}>{level}</span>
-                                            </div>
-                                        ))}
-                                    </div>
-                                )}
-                                {!rep.personality?.['MBTI personality type'] && !rep.personality?.['Big Five Scores'] && (
-                                    <p className="text-slate-500 text-sm italic">No personality data available</p>
-                                )}
-                            </div>
-                        </div>
+                        <ClusterPersonaCard
+                            clusterPersona={clusterPersona}
+                            clusterColor={getClusterColor(persona.cluster_id)}
+                        />
                     </div>
                 </div>
             </div>
@@ -418,6 +375,7 @@ const PersonaClusterView = () => {
     const [userProfiles, setUserProfiles] = useState([]);
     const [monthlyData, setMonthlyData] = useState({});
     const [sessions, setSessions] = useState([]);
+    const [clusterPersonas, setClusterPersonas] = useState({});
     const [metadata, setMetadata] = useState(null);
     const [selectedMonth, setSelectedMonth] = useState(null);
     const [selectedPersona, setSelectedPersona] = useState(null);
@@ -455,6 +413,28 @@ const PersonaClusterView = () => {
                 setMetadata(metaData);
                 setSessions(sessionsData);
                 setUserProfiles(userProfilesData);
+
+                // Load cluster personas dynamically
+                const loadedClusterPersonas = {};
+                const months = metaData?.months || [];
+                const clusterIds = personasData.map(p => p.cluster_id);
+
+                for (const month of months) {
+                    for (const clusterId of clusterIds) {
+                        const filename = `${month.replace(' ', '_').replace('(', '').replace(')', '')}_cluster_${clusterId}.json`;
+                        try {
+                            const res = await fetch(`${baseUrl}data/personas/cluster_personas/${filename}`);
+                            if (res.ok) {
+                                const personaData = await res.json();
+                                const key = `${month}_${clusterId}`;
+                                loadedClusterPersonas[key] = personaData;
+                            }
+                        } catch (e) {
+                            // Cluster persona not available for this month/cluster
+                        }
+                    }
+                }
+                setClusterPersonas(loadedClusterPersonas);
 
                 // Default to month with most sessions
                 const monthsWithData = Object.entries(monthlyDataRaw)
@@ -839,6 +819,7 @@ const PersonaClusterView = () => {
                     selectedMonth={selectedMonth}
                     onMonthChange={setSelectedMonth}
                     availableMonths={sortedMonths}
+                    clusterPersona={clusterPersonas[`${selectedMonth}_${selectedPersona.cluster_id}`]}
                 />
             )}
 

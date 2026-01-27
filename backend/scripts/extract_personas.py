@@ -76,7 +76,7 @@ Here are the individual user profiles from this cluster:
 Return ONLY valid JSON with this exact structure (no markdown, no explanation):
 {{
   "title": {{
-    "persona_name": "A memorable two-word persona name",
+    "persona_name": "A memorable persona name (e.g., 'The Pragmatic Professional')",
     "tagline": "A short 5-10 word description of this persona",
     "user_profiles": {user_count}
   }},
