@@ -363,7 +363,21 @@ const SessionDetailPanel = ({ session, personas, userProfiles, onClose }) => {
                                     </div>
                                 );
                             }
-                            return null;
+                            // No user profile available
+                            return (
+                                <div>
+                                    <h3 className="text-sm font-semibold text-slate-400 uppercase tracking-wider mb-3">
+                                        User Profile
+                                    </h3>
+                                    <div className="bg-slate-800/30 rounded-xl p-6 border border-slate-700/30 text-center">
+                                        <div className="text-4xl mb-3">📝</div>
+                                        <div className="text-slate-400 mb-2">No user profile available for this session</div>
+                                        <div className="text-slate-500 text-sm max-w-md mx-auto">
+                                            User profiles are generated from interview transcripts. This user has no transcript data available.
+                                        </div>
+                                    </div>
+                                </div>
+                            );
                         })()
                     )}
                 </div>
