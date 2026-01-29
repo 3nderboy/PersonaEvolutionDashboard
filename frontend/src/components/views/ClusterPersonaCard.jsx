@@ -133,8 +133,8 @@ const ClusterPersonaCard = ({ clusterPersona, clusterColor }) => {
                         )}
                         <div className="flex gap-4 mt-2 text-xs text-slate-500">
                             {/* <span>Cluster {clusterPersona.cluster_id}</span> */}
-                            <HelpTooltip tooltipText="Only users with complete profiles from the same cluster are used to synthesize the persona.">
-                                {clusterPersona.user_count} user profiles synthesized
+                            <HelpTooltip tooltipText="Only different users with complete profiles from the same cluster are used to synthesize the persona.">
+                                {clusterPersona.user_count} different user profiles synthesized
                             </HelpTooltip>
                         </div>
                     </div>

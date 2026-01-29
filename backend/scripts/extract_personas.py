@@ -461,11 +461,14 @@ def main():
                 cluster_name = meta.get('name', f'Cluster {cluster_id}')
                 
                 # Aggregate user profiles
-                profiles, user_count = aggregate_user_profiles(cluster_sessions)
+                profiles, _ = aggregate_user_profiles(cluster_sessions)
                 
                 if not profiles:
                     tqdm.write(f"    [SKIP] Cluster {cluster_id}: No user profiles available")
                     continue
+                
+                # Use actual count of users with profiles
+                user_count = len(profiles)
                 
                 # Build prompt
                 cluster_info = format_cluster_info(meta)
@@ -474,7 +477,7 @@ def main():
                 prompt = SYSTEM_PROMPT.format(
                     cluster_info=cluster_info,
                     user_profiles=user_profiles_text,
-                    user_count=len(profiles)
+                    user_count=user_count
                 )
                 
                 # Generate persona

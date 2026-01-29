@@ -2,16 +2,16 @@
   "cluster_id": 4,
   "month": "2025-03 (March)",
   "cluster_name": "Search-Driven Navigator",
-  "generated_at": "2026-01-27T16:07:52.378056",
+  "generated_at": "2026-01-29T13:07:41.227587",
   "user_count": 2,
   "persona": {
     "title": {
       "persona_name": "The Research-Driven Tech Student",
-      "tagline": "Always searching for the best tools to optimize their work and study habits."
+      "tagline": "A focused academic seeking efficient tech solutions and value."
     },
     "demographics": {
       "age_distribution": {
-        "value": "25-35 years old",
+        "value": "30-35 years old",
         "num_of_users_in_this_age": 2
       },
       "gender_distribution": {
@@ -27,7 +27,7 @@
         "num_of_users_with_same_location_pattern": 2
       },
       "living_situation": {
-        "value": "With Roommates",
+        "value": "With Roommate",
         "num_of_users_with_this_living_situation_pattern": 2
       },
       "occupation": {
@@ -35,20 +35,19 @@
         "num_of_users_with_same_occupation_type": 2
       },
       "education_level": {
-        "value": "PhD Level",
+        "value": "PhD",
         "num_of_users_with_same_education_level": 2
       }
     },
     "psychographics": {
       "goals": [
         "Advance research in Natural Language Processing",
-        "Find efficient tools and technologies"
+        "Seeking efficient tools and technologies"
       ],
       "interests": [
-        "Natural Language Processing",
-        "Large Language Model Agents",
         "Technology",
-        "Computer Science"
+        "Computer Science",
+        "Smart Home Devices"
       ],
       "values": [
         "Efficiency",
@@ -66,9 +65,9 @@
         "Laptop",
         "Tablet"
       ],
-      "search_style": "This user heavily utilizes search to find the best product or first product, often driven by specific needs and ranking.",
-      "price_sensitivity": "They prioritize finding the cheapest product, but are influenced by price when considering higher-value items.",
-      "decision_style": "The user makes purchasing decisions based on functionality, price, and quality, though review engagement is low.",
+      "search_style": "Primarily uses search to find the 'best product' or a 'first product' based on search results and rankings.",
+      "price_sensitivity": "Prioritizes the cheapest product option, particularly focused on value for money.",
+      "decision_style": "Decision-making is influenced by functionality, price, and quality, with reviews considered but often dismissed.",
       "preferred_categories": [
         "Electronics",
         "Home Appliances",
@@ -80,7 +79,7 @@
         "Difficulty finding efficient solutions"
       ]
     },
-    "narrative": "The Research-Driven Tech Student is a dedicated PhD student constantly seeking the most efficient tools and technologies for their research. Primarily using search to guide their purchases, they value both price and functionality, favoring the best product to tackle their academic and personal needs. Driven by a desire for continuous learning and improvement, this persona is a focused and analytical shopper."
+    "narrative": "The Research-Driven Tech Student is a dedicated PhD candidate constantly seeking efficient tech tools to support his NLP research. He's a frequent online shopper, prioritizing value and functionality above all else, and heavily relies on search to navigate product options. Driven by a desire for improvement and practical solutions, he focuses on finding the best technology for his academic pursuits."
   },
   "source_users": [
     {
