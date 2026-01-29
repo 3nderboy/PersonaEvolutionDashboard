@@ -135,8 +135,11 @@ const PersonaDetailPanel = ({ persona, onClose, sessions = [], selectedMonth, on
                         </div>
                         <p className="text-slate-400">{persona.description}</p>
                         <div className="flex gap-4 mt-3 text-sm">
-                            <span className="text-slate-500">Cluster {persona.cluster_id}</span>
-                            <span className="text-sky-400">{sessionCount} sessions ({selectedMonth})</span>
+                            {/* <span className="text-slate-500">Cluster {persona.cluster_id}</span> */}
+                            <div className="flex flex-col gap-1">
+                                <span className="text-sky-400">Cluster with in total {sessionCount} sessions</span>
+                                {/* <span className="text-xs text-slate-500">{clusterPersona?.user_count ?? 0} of them have user profiles (used for Persona-Synthesis)</span> */}
+                            </div>
                         </div>
 
                         {/* Month Switcher inside Modal */}

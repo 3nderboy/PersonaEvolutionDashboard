@@ -56,6 +56,32 @@ const PersonaInfoItem = ({ label, data, fullWidth = false }) => {
 };
 
 /**
+ * HelpTooltip - Shows help text on hover with consistent styling
+ */
+const HelpTooltip = ({ children, tooltipText }) => {
+    const [showTooltip, setShowTooltip] = useState(false);
+
+    return (
+        <div
+            className="relative inline-block cursor-help"
+            onMouseEnter={() => setShowTooltip(true)}
+            onMouseLeave={() => setShowTooltip(false)}
+        >
+            <span className="border-b border-dotted border-slate-500 hover:border-sky-400 transition-colors">
+                {children}
+            </span>
+            {showTooltip && (
+                <div className="absolute z-50 bottom-full left-0 mb-2 w-72 p-3 bg-slate-900 border border-slate-600 rounded-lg shadow-xl animate-fade-in">
+                    <div className="text-xs text-slate-400">
+                        {tooltipText}
+                    </div>
+                </div>
+            )}
+        </div>
+    );
+};
+
+/**
  * ClusterPersonaCard - Displays LLM-generated cluster persona
  */
 const ClusterPersonaCard = ({ clusterPersona, clusterColor }) => {
@@ -82,12 +108,6 @@ const ClusterPersonaCard = ({ clusterPersona, clusterColor }) => {
             {/* Header */}
             <div className="bg-gradient-to-r from-sky-500/20 to-purple-500/20 p-6 border-b border-slate-700/50">
                 <div className="flex items-start gap-4">
-                    <div
-                        className="w-14 h-14 rounded-2xl flex items-center justify-center text-white font-bold text-xl shadow-lg"
-                        style={{ backgroundColor: clusterColor || '#3b82f6' }}
-                    >
-                        {title.persona_name?.[0] || '?'}
-                    </div>
                     <div className="flex-1">
                         <h2 className="text-xl font-bold text-white mb-1">
                             {title.persona_name || 'Unknown Persona'}
@@ -99,7 +119,9 @@ const ClusterPersonaCard = ({ clusterPersona, clusterColor }) => {
                         )}
                         <div className="flex gap-4 mt-2 text-xs text-slate-500">
                             {/* <span>Cluster {clusterPersona.cluster_id}</span> */}
-                            <span>{clusterPersona.user_count} users synthesized</span>
+                            <HelpTooltip tooltipText="Only users with complete profiles are used to synthesize the persona.">
+                                {clusterPersona.user_count} user profiles synthesized
+                            </HelpTooltip>
                         </div>
                     </div>
                 </div>
