@@ -274,7 +274,7 @@ export const UserProfileCard = ({ userProfile }) => {
                             <InfoItem label="Price Preference (the cheapest or most expensive product of a category)" data={p.shopping_behavior?.price_preference_cheapest_vs_expensive} />
                         </div>
                         <TagList label="Devices Used for Online Shopping" data={p.shopping_behavior?.where_used_devices} color="sky" />
-                        <TagList label="Decision Factors for Shopping" data={p.shopping_behavior?.decision_factors} color="rose" />
+                        <TagList label="Decision Factors for Shopping" data={p.shopping_behavior?.decision_factors} color="yellow" />
                         <TagList label="Preferred Categories" data={p.shopping_behavior?.preferred_categories} color="orange" />
                         <InfoItem label="Pain Points & Challenges" data={p.shopping_behavior?.pain_points_and_or_challenges} fullWidth />
                     </div>
@@ -358,6 +358,7 @@ export const TagList = ({ label, data, color = 'sky' }) => {
         emerald: 'bg-emerald-500/20 text-emerald-300',
         orange: 'bg-orange-500/20 text-orange-300',
         rose: 'bg-rose-500/20 text-rose-300',
+        yellow: 'bg-yellow-500/20 text-yellow-300',
     };
 
     const hasTooltipData = data && typeof data === 'object' && (data.confidence || data.evidence);
