@@ -4,7 +4,7 @@ import { Section, TagList } from './UserProfileView';
 /**
  * UserCountTooltip - Shows user count on hover for persona attributes
  */
-const UserCountTooltip = ({ data, children }) => {
+const UserCountTooltip = ({ data, totalUsers, children }) => {
     const [showTooltip, setShowTooltip] = useState(false);
 
     // Extract user count from any num_of_users_* field
@@ -12,9 +12,12 @@ const UserCountTooltip = ({ data, children }) => {
         ? Object.entries(data).find(([key]) => key.startsWith('num_of_users'))?.[1]
         : null;
 
-    if (!userCount) {
+    if (!userCount || !totalUsers) {
         return <>{children}</>;
     }
+
+    // Calculate confidence percentage for user count
+    const confidence = (parseInt(userCount) / parseInt(totalUsers)) * 100;
 
     return (
         <div
@@ -26,10 +29,21 @@ const UserCountTooltip = ({ data, children }) => {
                 {children}
             </span>
             {showTooltip && (
-                <div className="absolute z-50 bottom-full left-0 mb-2 px-3 py-2 bg-slate-900 border border-slate-600 rounded-lg shadow-xl animate-fade-in whitespace-nowrap">
-                    <div className="text-xs">
-                        <span className="text-slate-400">Users: </span>
-                        <span className="text-sky-400 font-medium">{userCount}</span>
+                <div className="absolute z-50 bottom-full left-0 mb-2 w-56 p-3 bg-slate-900 border border-slate-600 rounded-lg shadow-xl animate-fade-in">
+                    <div className="space-y-2">
+                        {/* Confidence progress bar */}
+                        <div>
+                            <div className="flex justify-between text-xs mb-1">
+                                <span className="text-slate-400">Users with this value:</span>
+                                <span className="text-sky-400 font-medium">{userCount} / {totalUsers}</span>
+                            </div>
+                            <div className="h-2 bg-slate-700 rounded-full overflow-hidden">
+                                <div
+                                    className="h-full bg-gradient-to-r from-emerald-500 to-sky-500 rounded-full transition-all"
+                                    style={{ width: `${confidence}%` }}
+                                />
+                            </div>
+                        </div>
                     </div>
                 </div>
             )}
@@ -40,14 +54,14 @@ const UserCountTooltip = ({ data, children }) => {
 /**
  * PersonaInfoItem - Key-value display with user count tooltip
  */
-const PersonaInfoItem = ({ label, data, fullWidth = false }) => {
+const PersonaInfoItem = ({ label, data, fullWidth = false, totalUsers }) => {
     const value = data?.value || '—';
 
     return (
         <div className={fullWidth ? 'col-span-2' : ''}>
             <div className="text-xs text-slate-500 mb-1">{label}</div>
             <div className="text-sm text-slate-200">
-                <UserCountTooltip data={data}>
+                <UserCountTooltip data={data} totalUsers={totalUsers}>
                     {value}
                 </UserCountTooltip>
             </div>
@@ -119,7 +133,7 @@ const ClusterPersonaCard = ({ clusterPersona, clusterColor }) => {
                         )}
                         <div className="flex gap-4 mt-2 text-xs text-slate-500">
                             {/* <span>Cluster {clusterPersona.cluster_id}</span> */}
-                            <HelpTooltip tooltipText="Only users with complete profiles are used to synthesize the persona.">
+                            <HelpTooltip tooltipText="Only users with complete profiles from the same cluster are used to synthesize the persona.">
                                 {clusterPersona.user_count} user profiles synthesized
                             </HelpTooltip>
                         </div>
@@ -131,13 +145,13 @@ const ClusterPersonaCard = ({ clusterPersona, clusterColor }) => {
                 {/* Demographics */}
                 <Section title="Demographics" icon="👤">
                     <div className="grid grid-cols-2 gap-4">
-                        <PersonaInfoItem label="Age Distribution" data={demographics.age_distribution} />
-                        <PersonaInfoItem label="Gender" data={demographics.gender_distribution} />
-                        <PersonaInfoItem label="Nationality" data={demographics.nationality_background} />
-                        <PersonaInfoItem label="Location" data={demographics.location_pattern} />
-                        <PersonaInfoItem label="Living Situation" data={demographics.living_situation} />
-                        <PersonaInfoItem label="Occupation" data={demographics.occupation} />
-                        <PersonaInfoItem label="Education" data={demographics.education_level} />
+                        <PersonaInfoItem label="Age Distribution" data={demographics.age_distribution} totalUsers={clusterPersona.user_count} />
+                        <PersonaInfoItem label="Gender" data={demographics.gender_distribution} totalUsers={clusterPersona.user_count} />
+                        <PersonaInfoItem label="Nationality" data={demographics.nationality_background} totalUsers={clusterPersona.user_count} />
+                        <PersonaInfoItem label="Location" data={demographics.location_pattern} totalUsers={clusterPersona.user_count} />
+                        <PersonaInfoItem label="Living Situation" data={demographics.living_situation} totalUsers={clusterPersona.user_count} />
+                        <PersonaInfoItem label="Occupation" data={demographics.occupation} totalUsers={clusterPersona.user_count} />
+                        <PersonaInfoItem label="Education" data={demographics.education_level} totalUsers={clusterPersona.user_count} />
                     </div>
                 </Section>
 
@@ -169,7 +183,7 @@ const ClusterPersonaCard = ({ clusterPersona, clusterColor }) => {
                 <Section title="Shopping Behavior" icon="🛒">
                     <div className="space-y-4">
                         <div className="grid grid-cols-2 gap-4">
-                            <PersonaInfoItem label="Frequency" data={shopping.frequency_pattern} />
+                            <PersonaInfoItem label="Frequency" data={shopping.frequency_pattern} totalUsers={clusterPersona.user_count} />
                             {shopping.preferred_devices?.length > 0 && (
                                 <TagList label="Devices" data={shopping.preferred_devices} color="sky" />
                             )}
