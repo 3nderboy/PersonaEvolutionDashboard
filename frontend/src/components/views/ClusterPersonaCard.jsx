@@ -98,7 +98,7 @@ const HelpTooltip = ({ children, tooltipText }) => {
 /**
  * ClusterPersonaCard - Displays LLM-generated cluster persona
  */
-const ClusterPersonaCard = ({ clusterPersona, clusterColor }) => {
+const ClusterPersonaCard = ({ clusterPersona, clusterName, clusterColor }) => {
     if (!clusterPersona?.persona) {
         return (
             <div className="bg-slate-800/30 rounded-xl p-6 border border-slate-700/30 text-center">
@@ -124,7 +124,7 @@ const ClusterPersonaCard = ({ clusterPersona, clusterColor }) => {
                 <div className="flex items-start gap-4">
                     <div className="flex-1">
                         <h2 className="text-xl font-bold text-white mb-1">
-                            {title.persona_name || 'Unknown Persona'}
+                            {clusterName || 'Unknown Persona'}
                         </h2>
                         {title.tagline && (
                             <p className="text-slate-400 text-sm italic">

@@ -245,6 +245,7 @@ const PersonaDetailPanel = ({ persona, onClose, sessions = [], selectedMonth, on
                         </h3>
                         <ClusterPersonaCard
                             clusterPersona={clusterPersona}
+                            clusterName={persona.name}
                             clusterColor={getClusterColor(persona.cluster_id)}
                         />
                     </div>
