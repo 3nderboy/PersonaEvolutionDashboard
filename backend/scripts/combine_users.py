@@ -8,51 +8,47 @@ Usage:
     python combine_users.py
 """
 
-import json
-from pathlib import Path
+from config import USERS_DIR
+from utils import load_json, write_json, Logger
 
-# Paths
-USERS_DIR = Path(__file__).parent.parent.parent / "frontend" / "public" / "data" / "users"
-OUTPUT_FILE = USERS_DIR / "llm_users.json"
 
 def main():
-    print("[*] Scanning for user profile files...")
+    log = Logger("combine_users")
+    log.header("Combine User Profiles")
+
+    log.step(1, "Scanning for files")
     
-    # Find all individual user JSON files (exclude special files)
-    excluded_files = {
-        "llm_users.json",
-        "extraction_errors.json"
-    }
-    
+    excluded_files = {"llm_users.json", "extraction_errors.json"}
     user_files = [
-        f for f in USERS_DIR.glob("*.json")
-        if f.name not in excluded_files
+        f for f in USERS_DIR.glob("*.json") if f.name not in excluded_files
     ]
-    
+
     if not user_files:
-        print("[!] No user profile files found!")
+        log.warning("No user profile files found!")
         return
-    
-    print(f"    Found {len(user_files)} user profile file(s)")
-    
-    # Load and combine all user profiles
+
+    log.info(f"Found {len(user_files)} user profile files")
+
+    log.step(2, "Loading profiles")
     users = []
-    for file_path in user_files:
-        try:
-            # Try UTF-8 first, fall back to cp1252 (Windows default)
-            try:
-                text = file_path.read_text(encoding="utf-8")
-            except UnicodeDecodeError:
-                text = file_path.read_text(encoding="cp1252")
-            data = json.loads(text)
-            users.append(data)
-            print(f"    [OK] Loaded {file_path.name}")
-        except Exception as e:
-            print(f"    [ERR] Error loading {file_path.name}: {e}")
+    errors = 0
     
-    # Write combined file
-    OUTPUT_FILE.write_text(json.dumps(users, indent=2, ensure_ascii=False), encoding="utf-8")
-    print(f"\n[DONE] Combined {len(users)} user profiles into {OUTPUT_FILE.name}")
+    for i, file_path in enumerate(user_files, 1):
+        log.progress(i, len(user_files), file_path.name[:12])
+        try:
+            data = load_json(file_path)
+            users.append(data)
+        except Exception as e:
+            errors += 1
+            log.error(f"{file_path.name}: {e}")
+
+    log.step(3, "Writing combined file")
+    output_file = USERS_DIR / "llm_users.json"
+    write_json(output_file, users)
+    log.success(f"Created {output_file.name}")
+
+    log.summary(processed=len(users), errors=errors)
+
 
 if __name__ == "__main__":
     main()

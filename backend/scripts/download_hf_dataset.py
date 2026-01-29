@@ -1,4 +1,12 @@
 #!/usr/bin/env python3
+"""
+Download OPeRA Dataset from HuggingFace
+
+Downloads the NEU-HAI/OPeRA dataset and saves as CSV files.
+
+Usage:
+    python download_hf_dataset.py
+"""
 
 import gc
 import os
@@ -10,8 +18,15 @@ REPO = "NEU-HAI/OPeRA"
 CONFIGS = ["full_user", "full_session", "full_action", "filtered_user", "filtered_session", "filtered_action"]
 OUTPUT = Path(__file__).parent.parent / "data" / REPO.replace("/", "__")
 
+# Import logger
+sys.path.insert(0, str(Path(__file__).parent))
+from utils import Logger
+
 
 def main() -> int:
+    log = Logger("download_hf_dataset")
+    log.header("Download OPeRA Dataset")
+
     try:
         from dotenv import load_dotenv
         load_dotenv()
@@ -20,36 +35,48 @@ def main() -> int:
 
     token = os.environ.get("HF_TOKEN")
 
+    log.step(1, "Loading dependencies")
     try:
         from datasets import load_dataset
         from datasets.utils.logging import set_verbosity_warning
         from huggingface_hub import hf_hub_download
+        log.success("Dependencies loaded")
     except ImportError:
+        log.info("Installing dependencies...")
         import subprocess
-        print("[INFO] Installing dependencies...")
         subprocess.check_call([sys.executable, "-m", "pip", "install", "datasets", "huggingface_hub"])
         from datasets import load_dataset
         from datasets.utils.logging import set_verbosity_warning
         from huggingface_hub import hf_hub_download
+        log.success("Dependencies installed")
 
     set_verbosity_warning()
     OUTPUT.mkdir(parents=True, exist_ok=True)
     cache = OUTPUT / ".cache"
 
-    print(f"[INFO] {REPO} -> {OUTPUT}\n")
+    log.info(f"Repository: {REPO}")
+    log.info(f"Output: {OUTPUT}")
 
+    log.step(2, "Downloading README")
     try:
         shutil.copy(hf_hub_download(REPO, "README.md", repo_type="dataset", token=token), OUTPUT / "README.md")
-        print("[OK] README.md")
+        log.success("README.md")
     except Exception:
-        pass
+        log.warning("README.md not available")
 
-    for cfg in CONFIGS:
+    log.step(3, "Downloading datasets")
+    processed = 0
+    skipped = 0
+    errors = 0
+
+    for i, cfg in enumerate(CONFIGS, 1):
         out = OUTPUT / cfg
         if out.exists():
-            print(f"[SKIP] {cfg}")
+            log.info(f"[SKIP] {cfg}")
+            skipped += 1
             continue
-        print(f"[...] {cfg}")
+        
+        log.progress(i, len(CONFIGS), cfg)
         try:
             ds = load_dataset(REPO, name=cfg, cache_dir=str(cache), token=token)
             out.mkdir()
@@ -57,12 +84,14 @@ def main() -> int:
                 data.to_csv(out / f"{split}.csv")
             del ds
             gc.collect()
-            print(f"[OK] {cfg}")
+            processed += 1
         except Exception as e:
-            print(f"[ERROR] {cfg}: {e}", file=sys.stderr)
+            errors += 1
+            log.error(f"{cfg}: {e}")
 
     shutil.rmtree(cache, ignore_errors=True)
-    print(f"\n[DONE] {OUTPUT}")
+    
+    log.summary(processed=processed, skipped=skipped, errors=errors)
     return 0
 
 

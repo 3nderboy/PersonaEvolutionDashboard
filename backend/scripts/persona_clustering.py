@@ -2,8 +2,8 @@
 Session-Based Behavioral Persona Generation Pipeline
 ====================================================
 
-This script implements the PersonaCraft methodology adapted for the OPeRA dataset.
-It processes behavioral action data to generate data-driven personas using:
+Processes behavioral action data from the OPeRA dataset to generate
+data-driven personas using:
 1. Behavioral Key Metrics (BKMs) extraction
 2. Session-level clustering
 3. Monthly aggregation
@@ -51,20 +51,17 @@ def load_datasets() -> Tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
     """Load and validate OPeRA datasets."""
     print("Loading datasets...")
     
-    # Load sessions
-    df_sessions = pd.read_csv(SESSION_PATH)
-    print(f"  Sessions: {len(df_sessions)} rows")
-    
-    # Load actions (large file, select only needed columns)
     action_cols = [
         'session_id', 'action_id', 'timestamp', 'action_type', 
         'click_type', 'input_text', 'rationale', 'products'
     ]
-    df_actions = pd.read_csv(ACTION_PATH, usecols=lambda c: c in action_cols)
-    print(f"  Actions: {len(df_actions)} rows")
     
-    # Load users
+    df_sessions = pd.read_csv(SESSION_PATH)
+    df_actions = pd.read_csv(ACTION_PATH, usecols=lambda c: c in action_cols)
     df_users = pd.read_csv(USER_PATH)
+    
+    print(f"  Sessions: {len(df_sessions)} rows")
+    print(f"  Actions: {len(df_actions)} rows")
     print(f"  Users: {len(df_users)} rows")
     
     return df_sessions, df_actions, df_users
@@ -452,14 +449,6 @@ def build_persona_profiles(
         
         # Get representative user info
         user_id = rep['user_id']
-        user_info = df_users[df_users['user_id'] == user_id]
-        
-        survey_data = {}
-        if len(user_info) > 0 and 'survey' in user_info.columns:
-            try:
-                survey_data = json.loads(user_info.iloc[0]['survey'].replace('""', '"'))
-            except:
-                pass
         
         # Build profile
         persona = {
@@ -487,9 +476,7 @@ def build_persona_profiles(
                 'user_id': user_id,
                 'month': rep['month'],
                 'duration_seconds': float(rep['session_duration_seconds']),
-                'action_count': int(rep['total_action_count']),
-                'demographics': survey_data.get('Demographic Information', {}),
-                'personality': survey_data.get('Personality', {})
+                'action_count': int(rep['total_action_count'])
             }
         }
         
@@ -556,25 +543,9 @@ def generate_output(
         json.dump(monthly_data, f, indent=2)
     print(f"  Created: monthly_clusters.json ({len(monthly_data)} months)")
     
-    # 3. Session details with user data (for drill-down)
-    # Build user lookup
-    user_lookup = {}
-    for _, row in df_users.iterrows():
-        user_id = row['user_id']
-        survey_data = {}
-        try:
-            survey_data = json.loads(row['survey'].replace('""', '"')) if pd.notna(row.get('survey')) else {}
-        except:
-            pass
-        user_lookup[user_id] = {
-            'demographics': survey_data.get('Demographic Information', {}),
-            'personality': survey_data.get('Personality', {}),
-            'shopping_preferences': survey_data.get('Shopping Habits', {})
-        }
-    
+    # 3. Session details (for drill-down)
     session_details = []
     for _, session in df_bkm_norm.iterrows():
-        user_data = user_lookup.get(session['user_id'], {})
         session_record = {
             'session_id': session['session_id'],
             'user_id': session['user_id'],
@@ -582,8 +553,7 @@ def generate_output(
             'cluster_id': int(session['cluster_id']),
             'pca_x': float(session['pca_x']),
             'pca_y': float(session['pca_y']),
-            'behavioral_metrics': {col: float(session[col]) for col in bkm_columns},
-            'user': user_data
+            'behavioral_metrics': {col: float(session[col]) for col in bkm_columns}
         }
         session_details.append(session_record)
     
@@ -625,9 +595,9 @@ def generate_output(
 # =============================================================================
 
 def run_pipeline():
-    """Execute the full PersonaCraft pipeline."""
+    """Execute the full persona generation pipeline."""
     print("=" * 60)
-    print("PersonaCraft Pipeline - Behavioral Persona Generation")
+    print("Behavioral Persona Generation Pipeline")
     print("=" * 60)
     
     try:

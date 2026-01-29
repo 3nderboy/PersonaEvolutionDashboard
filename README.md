@@ -39,7 +39,14 @@ The project follows a modern **Client–Server architecture** to separate data-h
 ├── /backend                 # Python/ipynb-Notebook Stuff
 │   ├── /data                # Downloaded datasets (json)
 │   ├── /scripts             # Utility scripts
-│   │   └── download_hf_dataset.py
+│   │   ├── config.py        # Central configuration
+│   │   ├── /prompts         # LLM prompt templates
+│   │   ├── /utils           # Shared utilities (LLM client, file helpers)
+│   │   ├── /models          # Pydantic models for validation
+│   │   ├── extract_users.py
+│   │   ├── extract_personas.py
+│   │   ├── combine_users.py
+│   │   └── persona_clustering.py
 │   ├── /analysis            # Logic from notebook
 │   │   ├── clustering.py    # K-Means, DBSCAN logic
 │   │   ├── preprocessing.py # Data Cleaning
@@ -125,9 +132,9 @@ python scripts/download_hf_dataset.py
 python scripts/persona_clustering.py
 ```
 
-### 2. LLM User Profile Extraction (Optional)
+### 2. LLM Extraction (Optional)
 
-Generate rich user profile data from interview transcripts using an LLM.
+Generate user profiles and cluster personas from interview transcripts using LLM.
 
 #### How It Works
 
@@ -148,28 +155,19 @@ Generate rich user profile data from interview transcripts using an LLM.
 #### Run Extraction
 
 ```bash
-cd backend
+cd backend/scripts
 
-# Extract user profiles from transcripts
-python scripts/extract_users.py
+# 1. Extract user profiles from transcripts → /users/{user_id}.json
+python extract_users.py
 
-# Combine individual files for the frontend
-python scripts/combine_users.py
+# 2. Combine user profiles → /users/llm_users.json
+python combine_users.py
+
+# 3. Generate cluster personas → /personas/cluster_personas/*.json
+python extract_personas.py
 ```
 
-> **Note:** The extraction script is **resumable** — press `Ctrl+C` to stop, run again to continue.
-
-#### Output
-
-Each extracted user profile is saved as an individual JSON file:
-```
-frontend/public/data/users/{user_id}.json
-```
-
-The combined file for the frontend:
-```
-frontend/public/data/users/llm_users.json
-```
+Use `--provider openai` for OpenAI instead of Ollama.
 
 ### 3. Frontend Setup (Dashboard)
 The frontend visualizes the generated data.
