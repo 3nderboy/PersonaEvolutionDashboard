@@ -32,7 +32,7 @@ The project follows a modern **Client–Server architecture** to separate data-h
 ```text
 /PersonaEvolutionDashboard
 │
-├── /.github                 # Deployment for GitHub-Pages
+├── /.github                 # Deployment for GitHub-Pages (future GitLab-Page)
 │   ├── /workflows           
 │   │   ├── deploy.yml       
 │
