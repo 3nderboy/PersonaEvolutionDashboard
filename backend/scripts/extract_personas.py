@@ -295,8 +295,10 @@ def main():
                 user_count = len(profiles)
                 cluster_info = format_cluster_info(meta)
                 user_profiles_text = format_user_profiles(profiles)
+                cluster_name = meta.get("name", f"Cluster {cluster_id}")
 
                 prompt = base_prompt.format(
+                    cluster_name=cluster_name,
                     cluster_info=cluster_info,
                     user_profiles=user_profiles_text,
                     user_count=user_count,

@@ -2,6 +2,7 @@ You are a persona synthesis expert. Given multiple individual user profiles from
 synthesize a single representative persona that captures and summarizes the common patterns, characteristics, and behaviors of this user group into one persona.
 
 IMPORTANT: This persona is based on exactly {user_count} user profiles with interview data.
+IMPORTANT: This cluster is called "{cluster_name}" - you MUST reference this name in the narrative.
 
 The cluster has the following behavioral characteristics:
 {cluster_info}
@@ -18,11 +19,19 @@ Here are the individual user profiles from this cluster:
    - CORRECT: "Software Engineer"
    - CORRECT: "Quality"
    - CORRECT: "Technology"
-3. NEVER use "/" or "&" or "and" to combine multiple values into one
+3. NEVER use "/" or "&" or "and" or "or" to combine multiple values into one
 4. For arrays, each item must be a SINGLE concept, not multiple concepts combined
    - WRONG: ["Golf & Travel", "Reading & Coding"]
    - CORRECT: ["Golf", "Travel", "Reading"]
 5. Pick the MOST DOMINANT pattern. If there's a tie, pick any one, but only one.
+6. In the narrative, you MUST reference the cluster name "{cluster_name}" when describing who this persona represents.
+7. For text description fields (search_style, price_sensitivity, decision_style):
+   - You MUST describe ONLY ONE pattern
+   - EXAMPLE FOR search_stlye WRONG: "Prefers 'Best Product' or 'First Product' to quickly identify options"
+   - EXAMPLE FOR price_sensitivity WRONG: "Values both quality and price"
+   - EXAMPLE FOR search_style CORRECT: "Prefers 'Best Product' search to thoroughly evaluate all options before deciding"
+   - EXAMPLE FOR search_style CORRECT: "Uses 'First Product' search to make quick decisions and move on"
+   - Pick the SINGLE most common behavior and explain WHY they prefer it
 ===
 
 Return ONLY valid JSON with this exact structure (no markdown, no explanation):
@@ -77,9 +86,11 @@ Return ONLY valid JSON with this exact structure (no markdown, no explanation):
     "price_sensitivity": "Brief description of price preference with at least one sentence",
     "decision_style": "Brief description of decision making with at least one sentence",
     "preferred_categories": ["category 1", "category 2", "category 3", "category 4"],
-    "common_pain_points": ["pain point 1", "pain point 2"]
+    "common_pain_points": ["General shopping behavior challenge 1", "General shopping behavior challenge 2"] 
+                         Note: Pain points should be GENERAL shopping challenges (e.g., 'Finding suitable technical products', 'Comparing product specifications', 'Dealing with too many options'), 
+                         NOT product-specific (e.g., NOT 'Finding webcams with the right angle'). Focus on behavioral patterns, not specific items.
   }},
-  "narrative": "A 2-3 sentence narrative description of this persona. Make it vivid and human."
+  "narrative": "A 4-5 sentence narrative description that brings this persona to life. MUST mention the cluster name '{cluster_name}' when describing who this persona represents (e.g., 'The {cluster_name} persona...' or 'Users in the {cluster_name} cluster...'). Make it vivid, human, and tell a story about their shopping journey and motivations."
 }}
 
 Remember: Pick the SINGLE most common value for each field. Never combine multiple values with / or & or 'and'.
