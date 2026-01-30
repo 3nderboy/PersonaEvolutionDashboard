@@ -3,34 +3,362 @@
     "total_sessions": 368,
     "clusters": [
       {
-        "cluster_id": 3,
-        "pca_x": 0.41514064328383876,
-        "pca_y": 0.5255765384789209,
-        "session_count": 79
+        "cluster_id": 0,
+        "pca_x": 0.41281696780384614,
+        "pca_y": -0.15039581752043274,
+        "session_count": 98,
+        "behavioral_metrics": {
+          "session_duration_seconds": {
+            "value": 0.5654839917618422,
+            "z_score": 0.20317888203273324
+          },
+          "action_density": {
+            "value": 0.45756880733944955,
+            "z_score": -0.14497327890682435
+          },
+          "total_action_count": {
+            "value": 0.5915129813393248,
+            "z_score": 0.29004681440746694
+          },
+          "purchase_intent_ratio": {
+            "value": 0.45525182550084253,
+            "z_score": 0.0527478870630012
+          },
+          "search_ratio": {
+            "value": 0.6192075454034826,
+            "z_score": 0.5962547896467116
+          },
+          "product_exploration_ratio": {
+            "value": 0.7736495974536605,
+            "z_score": 0.9967074573931526
+          },
+          "review_engagement_ratio": {
+            "value": 0.0,
+            "z_score": -0.5534537939229842
+          },
+          "filter_usage_ratio": {
+            "value": 0.09915043999251077,
+            "z_score": 0.20850735032259246
+          },
+          "option_selection_ratio": {
+            "value": 0.27426134827019494,
+            "z_score": -0.057175512902237956
+          },
+          "input_ratio": {
+            "value": 0.6232213068713724,
+            "z_score": 0.5619417909230969
+          }
+        },
+        "distinguishing_traits": {
+          "high": [
+            {
+              "metric": "product_exploration_ratio",
+              "z_score": 0.9967074573931526
+            },
+            {
+              "metric": "search_ratio",
+              "z_score": 0.5962547896467116
+            }
+          ],
+          "low": [
+            {
+              "metric": "review_engagement_ratio",
+              "z_score": -0.5534537939229842
+            },
+            {
+              "metric": "action_density",
+              "z_score": -0.14497327890682435
+            }
+          ]
+        }
       },
       {
         "cluster_id": 1,
         "pca_x": -0.52379073925058,
-        "pca_y": -0.1689143643977625,
-        "session_count": 72
+        "pca_y": -0.16891436439776233,
+        "session_count": 72,
+        "behavioral_metrics": {
+          "session_duration_seconds": {
+            "value": 0.37933231396534145,
+            "z_score": -0.44503989387383586
+          },
+          "action_density": {
+            "value": 0.5160550458715595,
+            "z_score": 0.059418134744263024
+          },
+          "total_action_count": {
+            "value": 0.2529625382262997,
+            "z_score": -0.7989084663175214
+          },
+          "purchase_intent_ratio": {
+            "value": 0.526105377166157,
+            "z_score": 0.24623190862543853
+          },
+          "search_ratio": {
+            "value": 0.025356778797145773,
+            "z_score": -0.9440829275642579
+          },
+          "product_exploration_ratio": {
+            "value": 0.19778924566768608,
+            "z_score": -0.4957748077629931
+          },
+          "review_engagement_ratio": {
+            "value": 0.08739487767584098,
+            "z_score": -0.3220650443382531
+          },
+          "filter_usage_ratio": {
+            "value": 0.013857033639143727,
+            "z_score": -0.17678290680634945
+          },
+          "option_selection_ratio": {
+            "value": 0.0,
+            "z_score": -0.7576272354956972
+          },
+          "input_ratio": {
+            "value": 0.0553644240570846,
+            "z_score": -0.9100819830272403
+          }
+        },
+        "distinguishing_traits": {
+          "high": [
+            {
+              "metric": "purchase_intent_ratio",
+              "z_score": 0.24623190862543853
+            },
+            {
+              "metric": "action_density",
+              "z_score": 0.059418134744263024
+            }
+          ],
+          "low": [
+            {
+              "metric": "search_ratio",
+              "z_score": -0.9440829275642579
+            },
+            {
+              "metric": "input_ratio",
+              "z_score": -0.9100819830272403
+            },
+            {
+              "metric": "total_action_count",
+              "z_score": -0.7989084663175214
+            },
+            {
+              "metric": "option_selection_ratio",
+              "z_score": -0.7576272354956972
+            }
+          ]
+        }
       },
       {
         "cluster_id": 2,
-        "pca_x": -0.6455878460224398,
-        "pca_y": 0.288890685265429,
-        "session_count": 61
+        "pca_x": -0.6455878460224396,
+        "pca_y": 0.2888906852654289,
+        "session_count": 61,
+        "behavioral_metrics": {
+          "session_duration_seconds": {
+            "value": 0.4011505489547298,
+            "z_score": -0.3690642714960232
+          },
+          "action_density": {
+            "value": 0.56087381561137,
+            "z_score": 0.2160459489982628
+          },
+          "total_action_count": {
+            "value": 0.3778199729282599,
+            "z_score": -0.3973016581672709
+          },
+          "purchase_intent_ratio": {
+            "value": 0.5822116107685366,
+            "z_score": 0.39944454873962787
+          },
+          "search_ratio": {
+            "value": 0.0557790645209806,
+            "z_score": -0.8651732135767108
+          },
+          "product_exploration_ratio": {
+            "value": 0.16436682207850806,
+            "z_score": -0.5823971534596178
+          },
+          "review_engagement_ratio": {
+            "value": 0.013216273123778013,
+            "z_score": -0.5184620759458258
+          },
+          "filter_usage_ratio": {
+            "value": 0.0,
+            "z_score": -0.23937836737162355
+          },
+          "option_selection_ratio": {
+            "value": 0.8648292976387425,
+            "z_score": 1.4511097050211967
+          },
+          "input_ratio": {
+            "value": 0.059745826440066166,
+            "z_score": -0.8987243176256556
+          }
+        },
+        "distinguishing_traits": {
+          "high": [
+            {
+              "metric": "option_selection_ratio",
+              "z_score": 1.4511097050211967
+            },
+            {
+              "metric": "purchase_intent_ratio",
+              "z_score": 0.39944454873962787
+            }
+          ],
+          "low": [
+            {
+              "metric": "input_ratio",
+              "z_score": -0.8987243176256556
+            },
+            {
+              "metric": "search_ratio",
+              "z_score": -0.8651732135767108
+            }
+          ]
+        }
       },
       {
-        "cluster_id": 0,
-        "pca_x": 0.41281696780384625,
-        "pca_y": -0.15039581752043274,
-        "session_count": 98
+        "cluster_id": 3,
+        "pca_x": 0.41514064328383876,
+        "pca_y": 0.525576538478921,
+        "session_count": 79,
+        "behavioral_metrics": {
+          "session_duration_seconds": {
+            "value": 0.6740506329113924,
+            "z_score": 0.5812304583778171
+          },
+          "action_density": {
+            "value": 0.5026419695738011,
+            "z_score": 0.012543558865980457
+          },
+          "total_action_count": {
+            "value": 0.8143992180544266,
+            "z_score": 1.0069655170978073
+          },
+          "purchase_intent_ratio": {
+            "value": 0.31182499129021024,
+            "z_score": -0.3389163277970589
+          },
+          "search_ratio": {
+            "value": 0.44682673324817096,
+            "z_score": 0.1491312333302445
+          },
+          "product_exploration_ratio": {
+            "value": 0.545523168040878,
+            "z_score": 0.40546228995624806
+          },
+          "review_engagement_ratio": {
+            "value": 0.8838903364882127,
+            "z_score": 1.7867552111017106
+          },
+          "filter_usage_ratio": {
+            "value": 0.06141853443270236,
+            "z_score": 0.03806351161747261
+          },
+          "option_selection_ratio": {
+            "value": 0.33629950063871794,
+            "z_score": 0.10126726792387027
+          },
+          "input_ratio": {
+            "value": 0.41709731738474043,
+            "z_score": 0.02761805181110297
+          }
+        },
+        "distinguishing_traits": {
+          "high": [
+            {
+              "metric": "review_engagement_ratio",
+              "z_score": 1.7867552111017106
+            },
+            {
+              "metric": "total_action_count",
+              "z_score": 1.0069655170978073
+            }
+          ],
+          "low": [
+            {
+              "metric": "purchase_intent_ratio",
+              "z_score": -0.3389163277970589
+            },
+            {
+              "metric": "action_density",
+              "z_score": 0.012543558865980457
+            }
+          ]
+        }
       },
       {
         "cluster_id": 4,
-        "pca_x": 0.23637955301489322,
-        "pca_y": -0.5870597578044203,
-        "session_count": 58
+        "pca_x": 0.2363795530148931,
+        "pca_y": -0.5870597578044208,
+        "session_count": 58,
+        "behavioral_metrics": {
+          "session_duration_seconds": {
+            "value": 0.4513207845618474,
+            "z_score": -0.19436109880830832
+          },
+          "action_density": {
+            "value": 0.47813192027839285,
+            "z_score": -0.07311152427628657
+          },
+          "total_action_count": {
+            "value": 0.3608035431825372,
+            "z_score": -0.45203539551022937
+          },
+          "purchase_intent_ratio": {
+            "value": 0.30656833280607404,
+            "z_score": -0.3532709987992308
+          },
+          "search_ratio": {
+            "value": 0.725245175577349,
+            "z_score": 0.871296551626533
+          },
+          "product_exploration_ratio": {
+            "value": 0.0,
+            "z_score": -1.00839377950173
+          },
+          "review_engagement_ratio": {
+            "value": 0.0,
+            "z_score": -0.5534537939229842
+          },
+          "filter_usage_ratio": {
+            "value": 0.06783850047453338,
+            "z_score": 0.06706399914365176
+          },
+          "option_selection_ratio": {
+            "value": 0.051150743435621635,
+            "z_score": -0.626990430209814
+          },
+          "input_ratio": {
+            "value": 0.8261032900980704,
+            "z_score": 1.0878614577514774
+          }
+        },
+        "distinguishing_traits": {
+          "high": [
+            {
+              "metric": "input_ratio",
+              "z_score": 1.0878614577514774
+            },
+            {
+              "metric": "search_ratio",
+              "z_score": 0.871296551626533
+            }
+          ],
+          "low": [
+            {
+              "metric": "product_exploration_ratio",
+              "z_score": -1.00839377950173
+            },
+            {
+              "metric": "option_selection_ratio",
+              "z_score": -0.626990430209814
+            }
+          ]
+        }
       }
     ]
   },
@@ -38,22 +366,226 @@
     "total_sessions": 12,
     "clusters": [
       {
-        "cluster_id": 4,
-        "pca_x": -0.03830026617673293,
-        "pca_y": -0.7001150633507481,
-        "session_count": 2
+        "cluster_id": 0,
+        "pca_x": 0.4134199535911762,
+        "pca_y": -0.18929469645480523,
+        "session_count": 6,
+        "behavioral_metrics": {
+          "session_duration_seconds": {
+            "value": 0.5550458715596329,
+            "z_score": 0.498061394570454
+          },
+          "action_density": {
+            "value": 0.4686544342507646,
+            "z_score": -0.43401802509775184
+          },
+          "total_action_count": {
+            "value": 0.643922018348624,
+            "z_score": 0.6469330200218945
+          },
+          "purchase_intent_ratio": {
+            "value": 0.342125382262997,
+            "z_score": 0.08359973810087727
+          },
+          "search_ratio": {
+            "value": 0.6924694189602447,
+            "z_score": 0.34710300851622333
+          },
+          "product_exploration_ratio": {
+            "value": 0.6819571865443427,
+            "z_score": 0.9238115323704253
+          },
+          "review_engagement_ratio": {
+            "value": 0.0,
+            "z_score": 0.0
+          },
+          "filter_usage_ratio": {
+            "value": 0.0,
+            "z_score": 0.0
+          },
+          "option_selection_ratio": {
+            "value": 0.1337920489296636,
+            "z_score": -0.5149993313321667
+          },
+          "input_ratio": {
+            "value": 0.507262996941896,
+            "z_score": 0.30849206079334646
+          }
+        },
+        "distinguishing_traits": {
+          "high": [
+            {
+              "metric": "product_exploration_ratio",
+              "z_score": 0.9238115323704253
+            },
+            {
+              "metric": "total_action_count",
+              "z_score": 0.6469330200218945
+            }
+          ],
+          "low": [
+            {
+              "metric": "option_selection_ratio",
+              "z_score": -0.5149993313321667
+            },
+            {
+              "metric": "action_density",
+              "z_score": -0.43401802509775184
+            }
+          ]
+        }
       },
       {
         "cluster_id": 2,
-        "pca_x": -0.6676821009836608,
-        "pca_y": 0.18780788107889018,
-        "session_count": 4
+        "pca_x": -0.6676821009836603,
+        "pca_y": 0.18780788107889015,
+        "session_count": 4,
+        "behavioral_metrics": {
+          "session_duration_seconds": {
+            "value": 0.2752293577981651,
+            "z_score": -0.33621993454984916
+          },
+          "action_density": {
+            "value": 0.7178899082568808,
+            "z_score": 0.3444682262467726
+          },
+          "total_action_count": {
+            "value": 0.349197247706422,
+            "z_score": -0.38521464358261814
+          },
+          "purchase_intent_ratio": {
+            "value": 0.41341743119266056,
+            "z_score": 0.2628106709263207
+          },
+          "search_ratio": {
+            "value": 0.14621559633027525,
+            "z_score": -0.9329233119216691
+          },
+          "product_exploration_ratio": {
+            "value": 0.0,
+            "z_score": -0.9238115323704253
+          },
+          "review_engagement_ratio": {
+            "value": 0.0,
+            "z_score": 0.0
+          },
+          "filter_usage_ratio": {
+            "value": 0.0,
+            "z_score": 0.0
+          },
+          "option_selection_ratio": {
+            "value": 0.9100567023445465,
+            "z_score": 1.175697555153394
+          },
+          "input_ratio": {
+            "value": 0.15051605504587157,
+            "z_score": -0.5573732496890312
+          }
+        },
+        "distinguishing_traits": {
+          "high": [
+            {
+              "metric": "option_selection_ratio",
+              "z_score": 1.175697555153394
+            },
+            {
+              "metric": "action_density",
+              "z_score": 0.3444682262467726
+            }
+          ],
+          "low": [
+            {
+              "metric": "search_ratio",
+              "z_score": -0.9329233119216691
+            },
+            {
+              "metric": "product_exploration_ratio",
+              "z_score": -0.9238115323704253
+            }
+          ]
+        }
       },
       {
-        "cluster_id": 0,
-        "pca_x": 0.4134199535911763,
-        "pca_y": -0.18929469645480537,
-        "session_count": 6
+        "cluster_id": 4,
+        "pca_x": -0.03830026617673288,
+        "pca_y": -0.7001150633507478,
+        "session_count": 2,
+        "behavioral_metrics": {
+          "session_duration_seconds": {
+            "value": 0.11238532110091744,
+            "z_score": -0.821744314611665
+          },
+          "action_density": {
+            "value": 0.8038990825688073,
+            "z_score": 0.6131176227997137
+          },
+          "total_action_count": {
+            "value": 0.125,
+            "z_score": -1.1703697729004476
+          },
+          "purchase_intent_ratio": {
+            "value": 0.0,
+            "z_score": -0.7764205561552728
+          },
+          "search_ratio": {
+            "value": 0.8962155963302754,
+            "z_score": 0.8245375982946677
+          },
+          "product_exploration_ratio": {
+            "value": 0.0,
+            "z_score": -0.9238115323704253
+          },
+          "review_engagement_ratio": {
+            "value": 0.0,
+            "z_score": 0.0
+          },
+          "filter_usage_ratio": {
+            "value": 0.0,
+            "z_score": 0.0
+          },
+          "option_selection_ratio": {
+            "value": 0.0,
+            "z_score": -0.8063971163102881
+          },
+          "input_ratio": {
+            "value": 0.45814220183486243,
+            "z_score": 0.18927031699802319
+          }
+        },
+        "distinguishing_traits": {
+          "high": [
+            {
+              "metric": "search_ratio",
+              "z_score": 0.8245375982946677
+            },
+            {
+              "metric": "action_density",
+              "z_score": 0.6131176227997137
+            }
+          ],
+          "low": [
+            {
+              "metric": "total_action_count",
+              "z_score": -1.1703697729004476
+            },
+            {
+              "metric": "product_exploration_ratio",
+              "z_score": -0.9238115323704253
+            },
+            {
+              "metric": "session_duration_seconds",
+              "z_score": -0.821744314611665
+            },
+            {
+              "metric": "option_selection_ratio",
+              "z_score": -0.8063971163102881
+            },
+            {
+              "metric": "purchase_intent_ratio",
+              "z_score": -0.7764205561552728
+            }
+          ]
+        }
       }
     ]
   },
@@ -61,34 +593,362 @@
     "total_sessions": 57,
     "clusters": [
       {
-        "cluster_id": 3,
-        "pca_x": 0.3787926625730646,
-        "pca_y": 0.5739927151541421,
-        "session_count": 7
-      },
-      {
         "cluster_id": 0,
         "pca_x": 0.31564838046436755,
-        "pca_y": -0.09817980371520084,
-        "session_count": 12
+        "pca_y": -0.09817980371520074,
+        "session_count": 12,
+        "behavioral_metrics": {
+          "session_duration_seconds": {
+            "value": 0.5351681957186544,
+            "z_score": 0.19528362036575217
+          },
+          "action_density": {
+            "value": 0.45202599388379205,
+            "z_score": -0.10265661030169103
+          },
+          "total_action_count": {
+            "value": 0.5420489296636085,
+            "z_score": 0.5465318488218723
+          },
+          "purchase_intent_ratio": {
+            "value": 0.5220756880733944,
+            "z_score": 0.27193938201528695
+          },
+          "search_ratio": {
+            "value": 0.5669915902140673,
+            "z_score": 0.7161233097097304
+          },
+          "product_exploration_ratio": {
+            "value": 0.8254969418960244,
+            "z_score": 1.2355440872650858
+          },
+          "review_engagement_ratio": {
+            "value": 0.0,
+            "z_score": -0.5906409954119862
+          },
+          "filter_usage_ratio": {
+            "value": 0.15940366972477063,
+            "z_score": 0.4950004332917106
+          },
+          "option_selection_ratio": {
+            "value": 0.3339067278287462,
+            "z_score": -0.07662221104576256
+          },
+          "input_ratio": {
+            "value": 0.533256880733945,
+            "z_score": 0.7658519564697387
+          }
+        },
+        "distinguishing_traits": {
+          "high": [
+            {
+              "metric": "product_exploration_ratio",
+              "z_score": 1.2355440872650858
+            },
+            {
+              "metric": "input_ratio",
+              "z_score": 0.7658519564697387
+            }
+          ],
+          "low": [
+            {
+              "metric": "review_engagement_ratio",
+              "z_score": -0.5906409954119862
+            },
+            {
+              "metric": "action_density",
+              "z_score": -0.10265661030169103
+            }
+          ]
+        }
       },
       {
         "cluster_id": 1,
         "pca_x": -0.4888335277801196,
-        "pca_y": -0.1302230636938516,
-        "session_count": 14
-      },
-      {
-        "cluster_id": 4,
-        "pca_x": 0.01778471386876996,
-        "pca_y": -0.5240711519491168,
-        "session_count": 9
+        "pca_y": -0.13022306369385148,
+        "session_count": 14,
+        "behavioral_metrics": {
+          "session_duration_seconds": {
+            "value": 0.38040629095674966,
+            "z_score": -0.3288536452216411
+          },
+          "action_density": {
+            "value": 0.5031127129750982,
+            "z_score": 0.06417035379498576
+          },
+          "total_action_count": {
+            "value": 0.10853538663171691,
+            "z_score": -0.8607718003787597
+          },
+          "purchase_intent_ratio": {
+            "value": 0.3992463958060289,
+            "z_score": -0.04164971248642441
+          },
+          "search_ratio": {
+            "value": 0.0,
+            "z_score": -0.7806122485297945
+          },
+          "product_exploration_ratio": {
+            "value": 0.32118283093053746,
+            "z_score": -0.0048955887249483195
+          },
+          "review_engagement_ratio": {
+            "value": 0.188564875491481,
+            "z_score": -0.11158163129389803
+          },
+          "filter_usage_ratio": {
+            "value": 0.0,
+            "z_score": -0.23356884647240297
+          },
+          "option_selection_ratio": {
+            "value": 0.0,
+            "z_score": -0.8383236339993406
+          },
+          "input_ratio": {
+            "value": 0.06544888597640892,
+            "z_score": -0.549910936106232
+          }
+        },
+        "distinguishing_traits": {
+          "high": [
+            {
+              "metric": "action_density",
+              "z_score": 0.06417035379498576
+            },
+            {
+              "metric": "product_exploration_ratio",
+              "z_score": -0.0048955887249483195
+            }
+          ],
+          "low": [
+            {
+              "metric": "total_action_count",
+              "z_score": -0.8607718003787597
+            },
+            {
+              "metric": "option_selection_ratio",
+              "z_score": -0.8383236339993406
+            },
+            {
+              "metric": "search_ratio",
+              "z_score": -0.7806122485297945
+            }
+          ]
+        }
       },
       {
         "cluster_id": 2,
-        "pca_x": -0.6238205953595642,
-        "pca_y": 0.48613004294306295,
-        "session_count": 15
+        "pca_x": -0.6238205953595641,
+        "pca_y": 0.4861300429430627,
+        "session_count": 15,
+        "behavioral_metrics": {
+          "session_duration_seconds": {
+            "value": 0.4853211009174309,
+            "z_score": 0.02646481442779353
+          },
+          "action_density": {
+            "value": 0.4507645259938837,
+            "z_score": -0.10677601475987752
+          },
+          "total_action_count": {
+            "value": 0.38837920489296635,
+            "z_score": 0.0476778501003786
+          },
+          "purchase_intent_ratio": {
+            "value": 0.5879204892966361,
+            "z_score": 0.44004432841761626
+          },
+          "search_ratio": {
+            "value": 0.05305810397553517,
+            "z_score": -0.6405502930377021
+          },
+          "product_exploration_ratio": {
+            "value": 0.05,
+            "z_score": -0.6719123063209327
+          },
+          "review_engagement_ratio": {
+            "value": 0.29047687308868503,
+            "z_score": 0.14733136423440427
+          },
+          "filter_usage_ratio": {
+            "value": 0.0,
+            "z_score": -0.23356884647240297
+          },
+          "option_selection_ratio": {
+            "value": 0.9020642201834862,
+            "z_score": 1.2194474225385565
+          },
+          "input_ratio": {
+            "value": 0.0,
+            "z_score": -0.7339933299371199
+          }
+        },
+        "distinguishing_traits": {
+          "high": [
+            {
+              "metric": "option_selection_ratio",
+              "z_score": 1.2194474225385565
+            },
+            {
+              "metric": "purchase_intent_ratio",
+              "z_score": 0.44004432841761626
+            }
+          ],
+          "low": [
+            {
+              "metric": "input_ratio",
+              "z_score": -0.7339933299371199
+            },
+            {
+              "metric": "product_exploration_ratio",
+              "z_score": -0.6719123063209327
+            }
+          ]
+        }
+      },
+      {
+        "cluster_id": 3,
+        "pca_x": 0.3787926625730644,
+        "pca_y": 0.573992715154142,
+        "session_count": 7,
+        "behavioral_metrics": {
+          "session_duration_seconds": {
+            "value": 0.7165792922673656,
+            "z_score": 0.8096745858849198
+          },
+          "action_density": {
+            "value": 0.45937090432503264,
+            "z_score": -0.07867133326160267
+          },
+          "total_action_count": {
+            "value": 0.7739187418086502,
+            "z_score": 1.2992447409936791
+          },
+          "purchase_intent_ratio": {
+            "value": 0.21559633027522937,
+            "z_score": -0.5105171682202274
+          },
+          "search_ratio": {
+            "value": 0.40203145478374835,
+            "z_score": 0.2806641165718771
+          },
+          "product_exploration_ratio": {
+            "value": 0.46690694626474444,
+            "z_score": 0.35353573508440794
+          },
+          "review_engagement_ratio": {
+            "value": 0.8935124508519003,
+            "z_score": 1.6793761826071736
+          },
+          "filter_usage_ratio": {
+            "value": 0.0,
+            "z_score": -0.23356884647240297
+          },
+          "option_selection_ratio": {
+            "value": 0.3823722149410223,
+            "z_score": 0.03393629952277134
+          },
+          "input_ratio": {
+            "value": 0.40776539973787684,
+            "z_score": 0.41289297355494514
+          }
+        },
+        "distinguishing_traits": {
+          "high": [
+            {
+              "metric": "review_engagement_ratio",
+              "z_score": 1.6793761826071736
+            },
+            {
+              "metric": "total_action_count",
+              "z_score": 1.2992447409936791
+            },
+            {
+              "metric": "session_duration_seconds",
+              "z_score": 0.8096745858849198
+            }
+          ],
+          "low": [
+            {
+              "metric": "purchase_intent_ratio",
+              "z_score": -0.5105171682202274
+            },
+            {
+              "metric": "filter_usage_ratio",
+              "z_score": -0.23356884647240297
+            }
+          ]
+        }
+      },
+      {
+        "cluster_id": 4,
+        "pca_x": 0.017784713868769824,
+        "pca_y": -0.5240711519491169,
+        "session_count": 9,
+        "behavioral_metrics": {
+          "session_duration_seconds": {
+            "value": 0.3527013251783893,
+            "z_score": -0.42268296987748855
+          },
+          "action_density": {
+            "value": 0.5680428134556574,
+            "z_score": 0.2762037694133175
+          },
+          "total_action_count": {
+            "value": 0.22591743119266056,
+            "z_score": -0.4797175465579171
+          },
+          "purchase_intent_ratio": {
+            "value": 0.1671763506625892,
+            "z_score": -0.6341357064551284
+          },
+          "search_ratio": {
+            "value": 0.7157237512742101,
+            "z_score": 1.1087441491625278
+          },
+          "product_exploration_ratio": {
+            "value": 0.0,
+            "z_score": -0.7948951506454021
+          },
+          "review_engagement_ratio": {
+            "value": 0.0,
+            "z_score": -0.5906409954119862
+          },
+          "filter_usage_ratio": {
+            "value": 0.1111111111111111,
+            "z_score": 0.2742748081673309
+          },
+          "option_selection_ratio": {
+            "value": 0.08142201834862386,
+            "z_score": -0.6525853362442036
+          },
+          "input_ratio": {
+            "value": 0.5228083588175331,
+            "z_score": 0.7364643068913963
+          }
+        },
+        "distinguishing_traits": {
+          "high": [
+            {
+              "metric": "search_ratio",
+              "z_score": 1.1087441491625278
+            },
+            {
+              "metric": "input_ratio",
+              "z_score": 0.7364643068913963
+            }
+          ],
+          "low": [
+            {
+              "metric": "product_exploration_ratio",
+              "z_score": -0.7948951506454021
+            },
+            {
+              "metric": "option_selection_ratio",
+              "z_score": -0.6525853362442036
+            }
+          ]
+        }
       }
     ]
   }

@@ -489,8 +489,8 @@ def build_persona_profiles(
 # PHASE 5: MONTHLY AGGREGATION
 # =============================================================================
 
-def aggregate_by_month(df_bkm_norm: pd.DataFrame) -> Dict:
-    """Aggregate cluster data by month."""
+def aggregate_by_month(df_bkm_norm: pd.DataFrame, bkm_columns: List[str]) -> Dict:
+    """Aggregate cluster data by month with z-scores and traits."""
     print("Aggregating by month...")
     
     monthly_data = {}
@@ -498,15 +498,62 @@ def aggregate_by_month(df_bkm_norm: pd.DataFrame) -> Dict:
     for month in df_bkm_norm['month'].unique():
         month_sessions = df_bkm_norm[df_bkm_norm['month'] == month]
         
+        # Calculate monthly population statistics
+        monthly_mean = month_sessions[bkm_columns].mean()
+        monthly_std = month_sessions[bkm_columns].std()
+        
         cluster_positions = []
-        for cluster_id in month_sessions['cluster_id'].unique():
+        for cluster_id in sorted(month_sessions['cluster_id'].unique()):
             cluster_data = month_sessions[month_sessions['cluster_id'] == cluster_id]
+            
+            # Calculate cluster averages for this month
+            cluster_mean = cluster_data[bkm_columns].mean()
+            
+            # Calculate z-scores: (cluster_mean - population_mean) / population_std
+            behavioral_metrics = {}
+            all_z_scores = []  # Track all z-scores for fallback
+            
+            for col in bkm_columns:
+                z_score = (cluster_mean[col] - monthly_mean[col]) / (monthly_std[col] + 1e-6)
+                behavioral_metrics[col] = {
+                    'value': float(cluster_mean[col]),
+                    'z_score': float(z_score)
+                }
+                all_z_scores.append({'metric': col, 'z_score': float(z_score)})
+            
+            # Identify distinguishing traits (|z| > 0.75)
+            high_traits = [t for t in all_z_scores if t['z_score'] > 0.75]
+            low_traits = [t for t in all_z_scores if t['z_score'] < -0.75]
+            
+            # Sort traits by absolute z-score
+            high_traits.sort(key=lambda x: x['z_score'], reverse=True)
+            low_traits.sort(key=lambda x: x['z_score'])
+            
+            # Ensure we always show at least top 2 traits, even if below threshold
+            if len(high_traits) < 2:
+                # Get all traits sorted by z-score, take top ones not already in high_traits
+                all_sorted = sorted(all_z_scores, key=lambda x: x['z_score'], reverse=True)
+                for trait in all_sorted:
+                    if trait not in high_traits and len(high_traits) < 2:
+                        high_traits.append(trait)
+            
+            if len(low_traits) < 2:
+                # Get all traits sorted by z-score ascending, take bottom ones not already in low_traits
+                all_sorted = sorted(all_z_scores, key=lambda x: x['z_score'])
+                for trait in all_sorted:
+                    if trait not in low_traits and len(low_traits) < 2:
+                        low_traits.append(trait)
             
             cluster_positions.append({
                 'cluster_id': int(cluster_id),
                 'pca_x': float(cluster_data['pca_x'].mean()),
                 'pca_y': float(cluster_data['pca_y'].mean()),
-                'session_count': len(cluster_data)
+                'session_count': len(cluster_data),
+                'behavioral_metrics': behavioral_metrics,
+                'distinguishing_traits': {
+                    'high': high_traits,
+                    'low': low_traits
+                }
             })
         
         monthly_data[month] = {
@@ -623,7 +670,7 @@ def run_pipeline():
         )
         
         # Phase 5: Monthly Aggregation
-        monthly_data = aggregate_by_month(df_bkm_norm)
+        monthly_data = aggregate_by_month(df_bkm_norm, bkm_columns)
         
         # Phase 6: Output
         generate_output(personas, monthly_data, df_bkm_norm, df_users, bkm_columns)
