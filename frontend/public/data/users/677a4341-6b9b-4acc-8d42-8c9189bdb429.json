@@ -3,107 +3,108 @@
   "profile": {
     "title": {
       "user_name": "PhD Student",
-      "two_word_summary": "Tech-savvy Researcher",
+      "two_word_summary": "Busy Researcher",
       "confidence_overall": "0.85"
     },
     "demographics": {
       "age_range": {
-        "value": "25-34",
+        "value": "25-35",
         "confidence": "0.95",
-        "evidence": "Participant describes daily routine including early wake-up, late bedtimes, and spending significant time on research and leisure activities, suggesting a likely age range."
+        "evidence": "Participant describes a 'Phd. Student' lifestyle, common tech usage, and late-night study habits, suggesting a likely age range."
       },
       "gender": {
         "value": "Male",
         "confidence": "0.60",
-        "evidence": "Based on conversational tone and interests (gaming, tech-related purchases)."
+        "evidence": "Implied through language and interests (gaming, tinkering with tech)."
       },
       "nationality_background": {
         "value": "USA",
         "confidence": "0.90",
-        "evidence": "References to Boston, a common American city, and usage of English."
+        "evidence": "Mention of Boston, a major US city, and references to familiar brands (Black & Decker)."
       },
       "location": {
         "value": "Boston, MA",
         "confidence": "1.00",
-        "evidence": "Explicitly states 'I live in Boston now'."
+        "evidence": "Explicitly stated."
       },
       "living_situation": {
-        "value": "With Roommate",
+        "value": "Living with Roommate",
         "confidence": "1.00",
-        "evidence": "States 'I live with my roommate, who's also a Phd. Student'."
+        "evidence": "Explicitly stated."
       },
       "occupation": {
-        "value": "PhD Student",
+        "value": "PhD Student (Computer Science)",
         "confidence": "1.00",
-        "evidence": "States 'I am a [ORG_MASKED] Phd. Student in [ORG_MASKED] University'."
+        "evidence": "Explicitly stated."
       },
       "education": {
         "value": "PhD",
         "confidence": "1.00",
-        "evidence": "States 'I am a [ORG_MASKED] Phd. Student'."
+        "evidence": "Explicitly stated."
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Academic Research, Personal Productivity, Technological Exploration, Relaxation and Enjoyment",
+        "value": "Academic Achievement, Personal Productivity, Technological Exploration",
         "confidence": "0.75",
-        "evidence": "Expresses dedication to research, managing multiple projects, interests in gaming and photography, and a desire for balance in their life."
+        "evidence": "Driven by PhD research, constantly seeking efficient solutions, interest in gadgets (e-iron, vacuum, hard drive)."
       },
       "interests": {
         "value": [
-          "Computer Science",
+          "Computer Science Research",
           "Gaming",
           "Photography",
           "Reading",
           "Travel (occasional)"
         ],
         "confidence": "0.90",
-        "evidence": "Explicitly mentions computer science, gaming, photography, reading, and a desire for travel."
+        "evidence": "Explicitly stated throughout the interview."
       },
       "values": {
         "value": [
           "Efficiency",
           "Continuous Learning",
-          "Quality",
-          "Personal Fulfillment"
+          "Practicality",
+          "Intellectual Stimulation"
         ],
-        "confidence": "0.65",
-        "evidence": "Implied by the desire to maximize productivity, the pursuit of knowledge, a focus on product quality, and the desire for personal satisfaction."
+        "confidence": "0.80",
+        "evidence": "Reflected in multiple responses, like prioritizing useful purchases, multitasking, and seeking efficient solutions."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
-        "confidence": "0.80",
-        "evidence": "Makes frequent purchases on Amazon, suggesting regular online shopping activity."
+        "confidence": "0.85",
+        "evidence": "Frequent purchases of both essential and somewhat impulsive items, suggesting regular Amazon usage."
       },
       "where_used_devices": {
         "value": [
           "Smartphone",
           "Desktop"
         ],
-        "confidence": "0.95",
-        "evidence": "Describes using a smartphone and desktop computer for various tasks."
+        "confidence": "1.00",
+        "evidence": "Participant describes using devices to browse, research, and make purchases."
       },
       "search_style_best_vs_first": {
         "value": "Best Product / First Product",
         "confidence": "0.70",
-        "evidence": "Shows a tendency to prioritize the highest-rated or most popular products initially."
+        "evidence": "Initially gravitates towards the 'Amazon's Choice' and lowest price options, but ultimately conducts extensive research before finalizing purchases."
       },
       "price_preference_cheapest_vs_expensive": {
-        "value": "Cheapest Product",
+        "value": "Cheapest Product / Most Expensive Product",
         "confidence": "0.60",
-        "evidence": "Indicates a preference for finding the most affordable options when possible, but also willing to invest in quality when necessary."
+        "evidence": "Acknowledges price as a factor, but prioritizes functionality and value over purely low-cost options."
       },
       "decision_factors": {
         "value": [
-          "Product Reviews",
           "Price",
+          "Product Reviews",
           "Features",
-          "Utility"
+          "Brand Reputation",
+          "Usability"
         ],
-        "confidence": "0.90",
-        "evidence": "Emphasizes the importance of reviews, price, features, and the practical usefulness of products."
+        "confidence": "0.95",
+        "evidence": "Consistently prioritizes these factors during the purchasing process."
       },
       "preferred_categories": {
         "value": [
@@ -112,15 +113,14 @@
           "Tech Accessories",
           "Books"
         ],
-        "confidence": "0.85",
-        "evidence": "Purchases of an ironing board, handheld vacuum, hard drive, and earplugs suggests a preference for these categories."
+        "confidence": "0.80",
+        "evidence": "Purchases reflect interests in these categories."
       },
       "pain_points_and_or_challenges": {
-        "value": "Difficulty Focusing, Overcommitment, Impulse Buying",
-        "confidence": "0.95",
-        "evidence": "Expresses struggles with concentration and a tendency to take on too many projects, alongside occasional impulse purchases."
+        "value": "Overwhelm, Difficulty Focusing, Time Constraints",
+        "confidence": "0.90",
+        "evidence": "Expresses struggle with multitasking, difficulty concentrating, and limited time availability."
       }
     }
-  },
-  "survey_data": "{\"Demographic Information\": {\"Gender\": \"Male\", \"Age\": \"25-34 years old\", \"City\": \"Malden, MA\", \"Education level\": \"Doctoral degree or current doctoral student (PhD, JD, MD, DDS etc.)\", \"Living situation\": \"Live together with a roommate\", \"Yearly household income or stipend\": \"$50,000-$74,999\", \"Employment status\": \"Student\"}, \"Self Description\": {\"Two sentence description\": \"I am a PhD student in computer science, specializing in Large Language Models for Code. My daily work includes conducting experiments, analyze datasets, and collaborate with other researchers.\"}, \"Shopping Preference\": {\"Online shopping frequency\": \"Once every couple of weeks\", \"Monthly online shopping spend $\": \"50\", \"Amazon Prime membership\": \"Yes\", \"To what extent do you agree with the following statements\": {\"I tend to shop more during holidays.\": \"Neither agree or disagree\", \"Online Ads attract my attention and are a good source of information.\": \"Somewhat disagree\", \"I usually do a lot research (e.g. reading online reviews) before making purchase.\": \"Somewhat agree\", \"I prioritize delivery speed and delivery fee of the product.\": \"Somewhat agree\", \"Getting high-quality online products is very important for me.\": \"Strongly agree\", \"The more expensive online product brands are usually my choice.\": \"Somewhat disagree\", \"The more I learn about online products, the harder it seems to choose the best.\": \"Somewhat agree\", \"I shop quickly for online products, buying the first product or brand I find that seems good enough.\": \"Neither agree or disagree\", \"Once I find a brand I like, I stick with it.\": \"Neither agree or disagree\", \"I would buy a new or different brand of product just to see what it is like.\": \"Neither agree or disagree\", \"I enjoy shopping for online products just for the fun of it.\": \"Neither agree or disagree\", \"I look carefully to find the best value for money when shopping online.\": \"Somewhat agree\"}}, \"Personality\": {\"MBTI personality type\": \"ENFP\", \"Big Five Scores\": {\"Extraversion\": \"High\", \"Agreeableness\": \"High\", \"Conscientiousness\": \"High\", \"Emotional Stability\": \"Low\", \"Intellect\": \"High\"}}}"
+  }
 }

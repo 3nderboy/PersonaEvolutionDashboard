@@ -10,73 +10,73 @@
       "age_range": {
         "value": "25-35",
         "confidence": "0.98",
-        "evidence": "Participant mentions being a PhD student, implying a recent graduate or early-career stage."
+        "evidence": "Participant is a PhD student, suggesting an age range of 25-35."
       },
       "gender": {
         "value": "Male",
         "confidence": "0.95",
-        "evidence": "Participant's language and conversational style."
+        "evidence": "Participant's language and interests align with typical male preferences."
       },
       "nationality_background": {
         "value": "USA",
         "confidence": "0.85",
-        "evidence": "Participant lives in Boston, a major US city."
+        "evidence": "References to Boston and universities, indicating a likely US background."
       },
       "location": {
-        "value": "Boston, MA",
+        "value": "Boston",
         "confidence": "1.00",
-        "evidence": "Explicit statement: \"leaving the in Boston\""
+        "evidence": "Participant states 'leaving the in Boston'."
       },
       "living_situation": {
         "value": "With Roommates",
         "confidence": "1.00",
-        "evidence": "Explicit statement: \"Yeah. The city is modern, and I live with my roommates\""
+        "evidence": "Participant states 'Yeah. The city is modern, and I live with my roommates.'"
       },
       "occupation": {
-        "value": "PhD Student in Electrical and Computer Engineering",
+        "value": "PhD Student - Electrical and Computer Engineering",
         "confidence": "1.00",
-        "evidence": "Multiple direct statements: \"PhD student in [ORG_MASKED] University\", \"major is electrical and computer engineering\", describes micro fabrication technology and power electronics devices."
+        "evidence": "Participant explicitly states 'I'm the Phd student in [ORG_MASKED] University and my major is electrical and computer engineering.'"
       },
       "education": {
         "value": "PhD",
         "confidence": "1.00",
-        "evidence": "Explicit statement: \"I'm the Phd student\""
+        "evidence": "Participant states 'I'm the Phd student...'"
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Academic achievement, career advancement in power electronics, knowledge acquisition",
-        "confidence": "0.90",
-        "evidence": "Participant's focus on PhD studies, work on micro fabrication technology, reading to refresh knowledge."
+        "value": "Academic achievement, personal development, maintaining a healthy lifestyle.",
+        "confidence": "0.85",
+        "evidence": "Participant's focus on PhD work, gym activities, reading, and desire for efficiency suggests these goals."
       },
       "interests": {
         "value": [
-          "Power Electronics",
-          "Micro Fabrication",
-          "Dog Ownership",
+          "Microfabrication technology",
+          "Power electronics",
+          "Dog ownership",
           "Cycling",
           "Reading"
         ],
-        "confidence": "0.85",
-        "evidence": "Participant’s work with power electronics devices, mention of clean room experiments, mention of dog toys and poop bags, mention of cycling and reading."
+        "confidence": "0.90",
+        "evidence": "Participant's description of his research, mention of a dog, and evening reading activities."
       },
       "values": {
         "value": [
           "Efficiency",
           "Focus",
-          "Innovation",
-          "Continuous Learning",
-          "Practicality"
+          "Quality",
+          "Value for money",
+          "Continuous learning"
         ],
         "confidence": "0.80",
-        "evidence": "Participant’s emphasis on efficient planning, focus on work, interest in innovative technologies, reading to refresh knowledge, and purchasing practical items like dog toys."
+        "evidence": "Participantâ€™s emphasis on efficiency, planning, and considering price indicates these values."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
         "confidence": "0.75",
-        "evidence": "Participant states: \"maybe one or 2 times a week\""
+        "evidence": "Participant states 'maybe one or 2 times a week'."
       },
       "where_used_devices": {
         "value": [
@@ -84,42 +84,41 @@
           "Desktop"
         ],
         "confidence": "0.90",
-        "evidence": "Participant uses the internet to purchase items and searches."
+        "evidence": "Participant uses a smartphone and engages in computer-based research."
       },
       "search_style_best_vs_first": {
-        "value": "Best Product",
+        "value": "Cheapest Product",
         "confidence": "0.60",
-        "evidence": "Implied preference - participant generally ignores sponsored products."
+        "evidence": "Participant explicitly states 'I think the price is the most important thing.'"
       },
       "price_preference_cheapest_vs_expensive": {
         "value": "Cheapest Product",
-        "confidence": "0.70",
-        "evidence": "Participant states: \"I don't want to spend too much money on this thing\""
+        "confidence": "0.90",
+        "evidence": "Participant consistently prioritizes the lowest prices, especially when buying pet toys."
       },
       "decision_factors": {
         "value": [
           "Price",
-          "Product Quality (as perceived from reviews)",
-          "Brand (specifically when buying clothes/shoes)"
+          "Quality",
+          "Brand (occasionally)"
         ],
         "confidence": "0.85",
-        "evidence": "Participant’s statements regarding price, reading reviews, and preference for established brands for certain items."
+        "evidence": "Participantâ€™s repeated emphasis on price, and occasional consideration of brands."
       },
       "preferred_categories": {
         "value": [
           "Pet Supplies",
           "Electronics (Power Electronics)",
-          "Clothing/Shoes"
+          "Toys"
         ],
-        "confidence": "0.80",
-        "evidence": "Participant's purchase of dog toys and poop bags, and mention of buying clothes/shoes."
+        "confidence": "0.95",
+        "evidence": "Participantâ€™s purchases of dog toys and microfabrication devices."
       },
       "pain_points_and_or_challenges": {
-        "value": "Overspending on non-essential items, dealing with low-quality products despite positive reviews",
-        "confidence": "0.75",
-        "evidence": "Participant's concern about spending too much money and their cautious approach to sponsored products."
+        "value": "Avoiding overspending, finding reliable products",
+        "confidence": "0.70",
+        "evidence": "Participantâ€™s focus on price indicates a potential pain point related to overspending."
       }
     }
-  },
-  "survey_data": "{\"Demographic Information\": {\"Gender\": \"Male\", \"Age\": \"25-34 years old\", \"City\": \"malden\", \"Education level\": \"Doctoral degree or current doctoral student (PhD, JD, MD, DDS etc.)\", \"Living situation\": \"live together\", \"Yearly household income or stipend\": \"$25,000-$49,999\", \"Employment status\": \"Full-time employee,Student\"}, \"Self Description\": {\"Two sentence description\": \"I am a PhD student in Electrical and Computer Engineering, specializing in microfabrication and IC deisgn. I frequently conduct the experiments in cleanroom and collaborate with industries to ensure our process flow and fabrication are correct.\"}, \"Shopping Preference\": {\"Online shopping frequency\": \"Once to twice a week\", \"Monthly online shopping spend $\": \"200\", \"Amazon Prime membership\": \"Yes\", \"To what extent do you agree with the following statements\": {\"I tend to shop more during holidays.\": \"Somewhat agree\", \"Online Ads attract my attention and are a good source of information.\": \"Somewhat agree\", \"I usually do a lot research (e.g. reading online reviews) before making purchase.\": \"Strongly agree\", \"I prioritize delivery speed and delivery fee of the product.\": \"Strongly agree\", \"Getting high-quality online products is very important for me.\": \"Strongly agree\", \"The more expensive online product brands are usually my choice.\": \"Neither agree or disagree\", \"The more I learn about online products, the harder it seems to choose the best.\": \"Neither agree or disagree\", \"I shop quickly for online products, buying the first product or brand I find that seems good enough.\": \"Somewhat disagree\", \"Once I find a brand I like, I stick with it.\": \"Strongly agree\", \"I would buy a new or different brand of product just to see what it is like.\": \"Neither agree or disagree\", \"I enjoy shopping for online products just for the fun of it.\": \"Strongly disagree\", \"I look carefully to find the best value for money when shopping online.\": \"Strongly agree\"}}, \"Personality\": {\"MBTI personality type\": \"ENFj\", \"Big Five Scores\": {\"Extraversion\": \"High\", \"Agreeableness\": \"Extremely high\", \"Conscientiousness\": \"Extremely high\", \"Emotional Stability\": \"Medium\", \"Intellect\": \"Extremely high\"}}}"
+  }
 }

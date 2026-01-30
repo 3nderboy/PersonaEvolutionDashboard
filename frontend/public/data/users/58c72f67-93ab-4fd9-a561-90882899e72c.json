@@ -15,17 +15,17 @@
       "gender": {
         "value": "Female",
         "confidence": "0.85",
-        "evidence": "Contextual clues in conversation - references to 'cohort', 'friends', and mentions of personal shopping habits."
+        "evidence": "Participant's language and self-identification (e.g., 'I' often)."
       },
       "nationality_background": {
         "value": "USA",
         "confidence": "0.99",
-        "evidence": "Participant resides in Irvine, California."
+        "evidence": "Participant lives in Irvine, California."
       },
       "location": {
         "value": "Irvine, California",
         "confidence": "1.00",
-        "evidence": "Explicitly stated multiple times."
+        "evidence": "Explicitly stated."
       },
       "living_situation": {
         "value": "Living Alone",
@@ -40,87 +40,89 @@
       "education": {
         "value": "PhD Candidate",
         "confidence": "1.00",
-        "evidence": "Explicitly stated multiple times."
+        "evidence": "Explicitly stated."
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Academic research success, maintaining a healthy work-life balance, personal development.",
-        "confidence": "0.85",
-        "evidence": "Participant’s discussions of lab work, research survey drafting, scheduling, and prioritizing time off suggest a focus on academic achievement and well-being."
+        "value": "Pursuing advanced knowledge, conducting research, achieving academic success, maintaining a healthy work-life balance.",
+        "confidence": "0.90",
+        "evidence": "Participant discusses research projects, lab work, attending classes, and expressing a desire to not work 'too much.'"
       },
       "interests": {
         "value": [
           "Research",
+          "Academic Work",
           "Hiking",
+          "Snow Sports",
           "Cooking",
-          "Travel",
-          "Snow sports"
+          "Television",
+          "Books"
         ],
-        "confidence": "0.75",
-        "evidence": "References to lab work, hiking spa, cooking, skiing equipment, and travel suggest these are interests."
+        "confidence": "0.80",
+        "evidence": "Participant mentions lab work, hiking, snow sports, cooking, watching TV, and reading books.  References to 'survey drafting' indicates research interest."
       },
       "values": {
         "value": [
           "Responsibility",
           "Collaboration",
-          "Logical Thinking",
-          "Flexibility"
+          "Reasonableness",
+          "Flexibility",
+          "Independence"
         ],
         "confidence": "0.75",
-        "evidence": "Participant describes themselves as responsible and collaborative in their research project, prioritizes logical thinking, and values flexibility in their schedule."
+        "evidence": "Participant describes trying to be 'responsible for their work,' 'collaborative' in their research, â€˜follow the logic and be reasonable,â€™ and demonstrates a desire for â€˜flexible schedulesâ€™."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
-        "confidence": "0.75",
-        "evidence": "Participant mentions grocery shopping 'sometimes on work days, because there’s a like a grocery store, and like across the street’ and purchasing equipment for hobbies."
+        "confidence": "0.70",
+        "evidence": "Participant states â€˜grocery shopping on weekends more, but sometimes I also do on work daysâ€™."
       },
       "where_used_devices": {
         "value": [
           "Smartphone",
           "Desktop"
         ],
-        "confidence": "0.90",
-        "evidence": "Participant uses smartphone for grocery shopping and mentions laptop use for email and homework."
+        "confidence": "0.85",
+        "evidence": "Participant uses Smartphone to shop and mention desktop computer."
       },
       "search_style_best_vs_first": {
-        "value": "Best Product / First Product",
+        "value": "First Product",
         "confidence": "0.60",
-        "evidence": "Participant’s preference for looking at top-ranked products on Amazon, rather than starting with sponsored listings."
+        "evidence": "Participant states â€˜I guess, like I prefer to purchase offlineâ€™."
       },
       "price_preference_cheapest_vs_expensive": {
         "value": "Cheapest Product",
         "confidence": "0.50",
-        "evidence": "Participant’s emphasis on finding affordable options for household items and equipment."
+        "evidence": "Participantâ€™s general attitude towards searching for products on Amazon."
       },
       "decision_factors": {
         "value": [
-          "Price",
-          "Reviews",
-          "Product Specifications",
-          "Ease of Assembly"
+          "Ease of Assembly",
+          "Size",
+          "Product Reviews",
+          "Intuitive Descriptions"
         ],
         "confidence": "0.80",
-        "evidence": "Participant prioritizes price, reviews, product dimensions, and assembly ease when making purchases."
+        "evidence": "Participant emphasizes the importance of reviews, pictures, and considering the size of products when making decisions."
       },
       "preferred_categories": {
         "value": [
           "Home Goods",
           "Electronics",
-          "Sports & Outdoors",
-          "Health & Personal Care"
+          "Hobbies",
+          "Clothing"
         ],
         "confidence": "0.70",
-        "evidence": "Items purchased (desk, chair, kitchen items, survey tools, ski equipment, nail tools) fall within these categories."
+        "evidence": "Participant purchases desk, chair, kitchen items, ski equipment, and nail tools."
       },
       "pain_points_and_or_challenges": {
-        "value": "Difficulty in accurately assessing product suitability based on descriptions alone, balancing academic workload with personal life.",
-        "confidence": "0.85",
-        "evidence": "Participant explicitly states concern about matching product descriptions with actual user experiences, and struggles to balance research and personal life."
+        "value": "Bias in Sponsored Products, Difficulty in Assessing Product Suitability Without Hands-on Experience",
+        "confidence": "0.90",
+        "evidence": "Participant expresses concern about sponsored products and states that they are 'worried like some like companies. They pay for the ad or something like that, so the result could be biased.'"
       }
     }
-  },
-  "survey_data": "{\"Demographic Information\": {\"Gender\": \"Female\", \"Age\": \"18-24 years old\", \"City\": \"Irvine\", \"Education level\": \"Doctoral degree or current doctoral student (PhD, JD, MD, DDS etc.)\", \"Living situation\": \"live alone\", \"Yearly household income or stipend\": \"$25,000-$49,999\", \"Employment status\": \"Part-time employee,Student\"}, \"Self Description\": {\"Two sentence description\": \"I am a PhD student in informatics, studying human-computer interaction and health informatics. I read relevant literature, design and conduct human studies, and do data analysis. I also attend academic seminars, present my findings at conferences, and participate in lab meetings to refine research directions.\"}, \"Shopping Preference\": {\"Online shopping frequency\": \"Once to twice a week\", \"Monthly online shopping spend $\": \"50-150\", \"Amazon Prime membership\": \"Yes\", \"To what extent do you agree with the following statements\": {\"I tend to shop more during holidays.\": \"Strongly agree\", \"Online Ads attract my attention and are a good source of information.\": \"Neither agree or disagree\", \"I usually do a lot research (e.g. reading online reviews) before making purchase.\": \"Somewhat agree\", \"I prioritize delivery speed and delivery fee of the product.\": \"Somewhat agree\", \"Getting high-quality online products is very important for me.\": \"Somewhat agree\", \"The more expensive online product brands are usually my choice.\": \"Somewhat disagree\", \"The more I learn about online products, the harder it seems to choose the best.\": \"Neither agree or disagree\", \"I shop quickly for online products, buying the first product or brand I find that seems good enough.\": \"Somewhat disagree\", \"Once I find a brand I like, I stick with it.\": \"Somewhat agree\", \"I would buy a new or different brand of product just to see what it is like.\": \"Neither agree or disagree\", \"I enjoy shopping for online products just for the fun of it.\": \"Neither agree or disagree\", \"I look carefully to find the best value for money when shopping online.\": \"Somewhat agree\"}}, \"Personality\": {\"MBTI personality type\": \"ENFJ\", \"Big Five Scores\": {\"Extraversion\": \"High\", \"Agreeableness\": \"Extremely high\", \"Conscientiousness\": \"High\", \"Emotional Stability\": \"High\", \"Intellect\": \"High\"}}}"
+  }
 }

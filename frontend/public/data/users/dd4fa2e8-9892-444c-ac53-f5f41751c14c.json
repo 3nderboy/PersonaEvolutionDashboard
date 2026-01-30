@@ -2,83 +2,81 @@
   "user_id": "dd4fa2e8-9892-444c-ac53-f5f41751c14c",
   "profile": {
     "title": {
-      "user_name": "PhD Student - AI Health Researcher",
-      "two_word_summary": "Tech Researcher",
-      "confidence_overall": "0.95"
+      "user_name": "PhD Student - AI Health",
+      "two_word_summary": "Data Researcher",
+      "confidence_overall": "0.85"
     },
     "demographics": {
       "age_range": {
         "value": "30-35",
-        "confidence": "0.90",
-        "evidence": "Participant states working on a PhD."
+        "confidence": "0.95",
+        "evidence": "Participant stated 'PhD student' and described research activities typically associated with this stage of career."
       },
       "gender": {
         "value": "Male",
-        "confidence": "0.95",
-        "evidence": "Participant refers to himself as 'I'."
+        "confidence": "0.90",
+        "evidence": "Participant's language and interests align with typical male preferences (e.g., running, pickleball, hardware coding)."
       },
       "nationality_background": {
         "value": "USA",
-        "confidence": "0.85",
-        "evidence": "Participant lives in Boston."
+        "confidence": "0.95",
+        "evidence": "Participant resides in Boston, Massachusetts, a major US city."
       },
       "location": {
-        "value": "Boston, MA",
+        "value": "Boston, Massachusetts",
         "confidence": "1.00",
-        "evidence": "Participant explicitly states 'I live in Boston'."
+        "evidence": "Explicitly stated 'I live in Boston'."
       },
       "living_situation": {
         "value": "With Wife",
         "confidence": "1.00",
-        "evidence": "Participant states 'I live with my wife'."
+        "evidence": "Participant stated 'I live with my wife'."
       },
       "occupation": {
-        "value": "PhD Student - AI Research",
+        "value": "PhD Student / Researcher (AI & Health)",
         "confidence": "1.00",
-        "evidence": "Participant identifies himself as a 'PhD student at [ORG_MASKED] doing research in AI and health'."
+        "evidence": "Participant explicitly identifies as a 'PhD student at [ORG_MASKED]' and describes research in 'AI and health'."
       },
       "education": {
         "value": "PhD",
         "confidence": "1.00",
-        "evidence": "Participant states 'I'm a PhD student'."
+        "evidence": "Participant states they are a 'PhD student'."
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Advance AI research in healthcare, potentially contributing to novel diagnostic or therapeutic tools.",
-        "confidence": "0.80",
-        "evidence": "Participant’s research focus (AI in health), desire to create models and test hypotheses."
+        "value": "To advance knowledge in AI and healthcare through research and data analysis.",
+        "confidence": "0.90",
+        "evidence": "Participant describes working on 'longitudinal user data,' 'testing the hypothesis,' and 'create plots run models.'"
       },
       "interests": {
         "value": [
-          "AI",
-          "Healthcare",
-          "Research",
-          "Programming",
+          "AI Research",
+          "Health Data",
           "Running",
           "Pickleball",
           "Video Games",
           "Church"
         ],
-        "confidence": "0.75",
-        "evidence": "Participant explicitly mentions these interests through conversation."
+        "confidence": "0.85",
+        "evidence": "Participant mentions 'AI and health,' 'running,' 'pickleball,' 'video games,' 'church' in the conversation."
       },
       "values": {
         "value": [
           "Detail-Orientedness",
           "Efficiency",
-          "Data-Driven Decisions",
-          "Continuous Learning"
+          "Reliability",
+          "Community"
         ],
-        "confidence": "0.70",
-        "evidence": "Participant repeatedly emphasizes detail orientation, uses data-driven language for research, and spends time researching products."
+        "confidence": "0.80",
+        "evidence": "Participant describes 'detail-orientedness,' indicates preference for 'reliable' brands (e.g., fertilizer), and engages in community activities (pickleball, church)."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
-        "value": "Weekly",
-        "confidence": "0.70",
-        "evidence": "Participant purchases daily necessities and fertilizer, implying regular shopping."
+        "value": "Monthly",
+        "confidence": "0.75",
+        "evidence": "Participant buys bulky items like paper towels and fertilizer monthly; references looking for deals at Costco."
       },
       "where_used_devices": {
         "value": [
@@ -86,44 +84,43 @@
           "Desktop"
         ],
         "confidence": "0.95",
-        "evidence": "Participant works remotely, primarily using a desk, and frequently uses his smartphone for research and browsing."
+        "evidence": "Participant works remotely 'mostly at home' and uses a 'desk' for work; references using a smartphone to search for options and see image details"
       },
       "search_style_best_vs_first": {
         "value": "Best Product / First Product",
         "confidence": "0.80",
-        "evidence": "Participant's approach to buying fertilizer and water bottles demonstrates a preference for initial 'best' options."
+        "evidence": "Participant describes a preference for selecting from the top-rated products on Amazon and then looking at details, but also describes actively searching for the best options."
       },
       "price_preference_cheapest_vs_expensive": {
-        "value": "Cheapest Product / Most Expensive Product",
-        "confidence": "0.60",
-        "evidence": "Participant indicates that he is initially interested in premium fertilizers but ultimately opts for a cheaper alternative."
+        "value": "Cheapest Product",
+        "confidence": "0.70",
+        "evidence": "Participant explicitly states 'it's bulky. So I don't wanna go to the shop and bring it home. So I bought it online' and indicates price is a key factor when buying bulky items."
       },
       "decision_factors": {
         "value": [
           "Price",
-          "Product Quality/Composition",
+          "Product Rating",
           "Brand Reputation",
-          "User Reviews (when available)"
+          "Image Clarity",
+          "Convenience"
         ],
         "confidence": "0.90",
-        "evidence": "Participant consistently discusses price and composition, and shows interest in brand reputation and reviews when sufficient information is available."
+        "evidence": "Participant mentions price as a key factor, references reviews and ratings, notes brand reputation and visual clarity of images, and values convenience (delivery)."
       },
       "preferred_categories": {
         "value": [
           "Health & Wellness (Fertilizer)",
-          "Technology (AI-related tools)",
-          "Household Supplies (Paper Towels, Dish Soap)",
+          "Technology (Hardware)",
           "Books"
         ],
         "confidence": "0.85",
-        "evidence": "Participant's purchases of fertilizer, and household supplies, and books."
+        "evidence": "Participant purchases fertilizer for plants, mentions buying books, and researches hardware components."
       },
       "pain_points_and_or_challenges": {
-        "value": "Difficulty executing detailed plans, needing clear product information (e.g., fertilizer labels)",
+        "value": "Difficulty assessing product details online (e.g., fertilizer label images), balancing research with time constraints.",
         "confidence": "0.90",
-        "evidence": "Participant describes himself as not very organized and highlights the need for detailed product information (e.g., fertilizer labels)."
+        "evidence": "Participant describes needing to 'Google the high resolution picture of the label' and mentions spending 'one or 2 h, including all the research.'"
       }
     }
-  },
-  "survey_data": "{\"Demographic Information\": {\"Gender\": \"Male\", \"Age\": \"25-34 years old\", \"City\": \"Boston\", \"Education level\": \"Doctoral degree or current doctoral student (PhD, JD, MD, DDS etc.)\", \"Living situation\": \"Live with my wife\", \"Yearly household income or stipend\": \"$150,000 or more\", \"Employment status\": \"Student\"}, \"Self Description\": {\"Two sentence description\": \"I am a PhD student in computer science, specializing in AI for behavioral health. I analyze longitudinal smartphone and wearable datasets, and build machine learning models to improve self-report data collection. I participate in lab meetings to discuss research.\"}, \"Shopping Preference\": {\"Online shopping frequency\": \"Once every couple of weeks\", \"Monthly online shopping spend $\": \"100\", \"Amazon Prime membership\": \"Yes\", \"To what extent do you agree with the following statements\": {\"I tend to shop more during holidays.\": \"Somewhat agree\", \"Online Ads attract my attention and are a good source of information.\": \"Neither agree or disagree\", \"I usually do a lot research (e.g. reading online reviews) before making purchase.\": \"Somewhat agree\", \"I prioritize delivery speed and delivery fee of the product.\": \"Strongly agree\", \"Getting high-quality online products is very important for me.\": \"Strongly agree\", \"The more expensive online product brands are usually my choice.\": \"Neither agree or disagree\", \"The more I learn about online products, the harder it seems to choose the best.\": \"Strongly disagree\", \"I shop quickly for online products, buying the first product or brand I find that seems good enough.\": \"Strongly agree\", \"Once I find a brand I like, I stick with it.\": \"Somewhat agree\", \"I would buy a new or different brand of product just to see what it is like.\": \"Somewhat disagree\", \"I enjoy shopping for online products just for the fun of it.\": \"Somewhat disagree\", \"I look carefully to find the best value for money when shopping online.\": \"Somewhat agree\"}}, \"Personality\": {\"MBTI personality type\": \"\", \"Big Five Scores\": {\"Extraversion\": \"Low\", \"Agreeableness\": \"Extremely high\", \"Conscientiousness\": \"Extremely high\", \"Emotional Stability\": \"Medium\", \"Intellect\": \"High\"}}}"
+  }
 }
