@@ -719,6 +719,9 @@ const PersonaClusterView = () => {
                                                         />
                                                         <span className="text-xs text-slate-300">Session</span>
                                                     </div>
+                                                    <div className="text-xs text-slate-500 mt-1">
+                                                        Click to view details
+                                                    </div>
                                                 </div>
                                             );
                                         }
@@ -732,7 +735,7 @@ const PersonaClusterView = () => {
                                                     <span className="font-semibold text-white">{data.name}</span>
                                                 </div>
                                                 <div className="text-sm text-slate-400">
-                                                    {data.session_count} sessions
+                                                    Cluster with in total {data.session_count} sessions
                                                 </div>
                                                 <div className="text-xs text-slate-500 mt-1">
                                                     Click to view details

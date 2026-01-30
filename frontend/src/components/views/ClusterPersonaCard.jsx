@@ -226,14 +226,9 @@ const ClusterPersonaCard = ({ clusterPersona, clusterName, clusterColor }) => {
 
             {/* Footer */}
             <div className="px-6 py-4 bg-slate-900/50 border-t border-slate-700/50">
-                <div className="flex items-center justify-between">
-                    <div className="text-xs text-slate-500">
-                        Generated: <span className="text-slate-400">{new Date(clusterPersona.generated_at).toLocaleDateString()}</span>
-                    </div>
-                    <div className="text-xs text-slate-500 flex items-center gap-1">
-                        <span className="border-b border-dotted border-slate-500">Hover</span>
-                        <span>values for user counts</span>
-                    </div>
+                <div className="text-xs text-slate-500 flex items-center gap-1">
+                    <span className="border-b border-dotted border-slate-500">Hover</span>
+                    <span>over the values for user counts.</span>
                 </div>
             </div>
         </div>
