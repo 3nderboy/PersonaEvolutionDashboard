@@ -3,80 +3,80 @@
   "profile": {
     "title": {
       "user_name": "[NAME_MASKED]",
-      "two_word_summary": "Online Shopping Habits",
+      "two_word_summary": "Tech Professor",
       "confidence_overall": "0.85"
     },
     "demographics": {
       "age_range": {
-        "value": "35-45",
+        "value": "45-54",
         "confidence": "0.95",
-        "evidence": "Participant states they are a university professor, implying a likely age range."
+        "evidence": "Participant’s profession as a university professor, common age range for this role."
       },
       "gender": {
         "value": "Male",
-        "confidence": "0.60",
-        "evidence": "Implied by common interest in car maintenance and purchasing products for a household."
+        "confidence": "0.90",
+        "evidence": "Participant’s language and references to his wife."
       },
       "nationality_background": {
         "value": "USA",
-        "confidence": "0.90",
-        "evidence": "References to common products and brands available in the US market."
+        "confidence": "0.95",
+        "evidence": "References to Boston and California, common locations within the USA."
       },
       "location": {
         "value": "Boston, California",
-        "confidence": "0.70",
-        "evidence": "Mentions living in these cities."
+        "confidence": "0.90",
+        "evidence": "Participant mentions living in these cities."
       },
       "living_situation": {
-        "value": "With Wife",
-        "confidence": "1.00",
-        "evidence": "Explicitly states 'I live with my wife'."
+        "value": "With Partner",
+        "confidence": "0.95",
+        "evidence": "Participant states ‘I live with my wife’."
       },
       "occupation": {
         "value": "University Professor",
         "confidence": "1.00",
-        "evidence": "Explicitly states 'I'm currently university professor'."
+        "evidence": "Explicitly stated by the participant."
       },
       "education": {
-        "value": "Master's Degree or higher",
-        "confidence": "0.75",
-        "evidence": "Holding a university professorship suggests a postgraduate education level."
+        "value": "Master’s Degree or Higher",
+        "confidence": "0.80",
+        "evidence": "Holding a university professorship typically requires this level of education."
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Convenience, Efficiency, Quality, Exploring new experiences",
-        "confidence": "0.80",
-        "evidence": "Desire for quick solutions (window washer fluid), valuing established brands, interest in travel and trying new foods, minimizing decision-making effort."
+        "value": "Maintain a structured routine, achieve fitness goals, explore new cultures and experiences, minimize decision fatigue.",
+        "confidence": "0.75",
+        "evidence": "References to planning, exercise habits, travel, and preference for familiar routines."
       },
       "interests": {
         "value": [
           "Travel",
-          "Food",
+          "New Food",
           "Technology",
-          "Cars",
-          "Reading"
+          "Fitness",
+          "Academic Research"
         ],
-        "confidence": "0.70",
-        "evidence": "Explicit mentions of travel and trying new food, reference to iPhones and laptops, and interest in purchasing a Tesla."
+        "confidence": "0.85",
+        "evidence": "Participant’s desire to travel to new places, try new food, and purchasing a Tesla."
       },
       "values": {
         "value": [
           "Quality",
           "Efficiency",
-          "Value",
-          "Brand Reputation",
-          "Social Norms"
+          "Convenience",
+          "Social Connection (forced)",
+          "Order"
         ],
-        "confidence": "0.75",
-        "evidence": "Prioritizes brand reputation for quality, seeks efficient solutions, looks for the best value, considers social norms when purchasing."
+        "confidence": "0.80",
+        "evidence": "Participant’s focus on quality products, preference for efficient shopping, and desire for organized routines."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
         "confidence": "0.90",
-        "evidence": "States 'we typically go online shopping 2 or 3 times a week'."
+        "evidence": "Participant mentions shopping ‘twice or 3 times’ per week."
       },
       "where_used_devices": {
         "value": [
@@ -85,44 +85,43 @@
           "Desktop"
         ],
         "confidence": "0.95",
-        "evidence": "Implied by online shopping habits."
+        "evidence": "Participant shops via multiple platforms, including Amazon."
       },
       "search_style_best_vs_first": {
-        "value": "First Product",
-        "confidence": "0.80",
-        "evidence": "Indicates relying on popular choices and recommendations (e.g., 'the one that most people bought')."
+        "value": "Best Product / First Product",
+        "confidence": "0.60",
+        "evidence": "Participant initially considers the most highly rated products when choosing, but also looks for the lowest price."
       },
       "price_preference_cheapest_vs_expensive": {
         "value": "Cheapest Product",
         "confidence": "0.70",
-        "evidence": "Focuses on finding the most cost-effective options."
+        "evidence": "Participant consistently chooses the most affordable option when available, prioritizing value."
       },
       "decision_factors": {
         "value": [
           "Price",
           "Brand Reputation",
           "Customer Reviews",
-          "Availability"
+          "Convenience"
         ],
         "confidence": "0.90",
-        "evidence": "Explicitly states these are key factors in purchasing decisions."
+        "evidence": "Participant explicitly states these factors influence his purchasing decisions."
       },
       "preferred_categories": {
         "value": [
-          "Household Supplies",
-          "Electronics",
+          "Household Essentials",
+          "Technology",
           "Clothing",
           "Travel Accessories"
         ],
-        "confidence": "0.85",
-        "evidence": "Mentions purchasing items like toilet paper, dishwasher detergent, car fluids, and clothing."
+        "confidence": "0.80",
+        "evidence": "Participant’s purchases of toilet paper, car fluids, and Tesla accessories, as well as clothing."
       },
       "pain_points_and_or_challenges": {
-        "value": "Overwhelming Options, Difficulty in Determining Quality, Time Constraints",
-        "confidence": "0.80",
-        "evidence": "Expresses frustration with the number of choices, concern about product quality, and desire for efficient shopping."
+        "value": "Decision fatigue, time constraints, complexity of choosing between similar products.",
+        "confidence": "0.85",
+        "evidence": "Participant’s difficulty in determining the best windshield washer fluid and his preference for streamlined online shopping experiences."
       }
     }
-  },
-  "survey_data": "{\"Demographic Information\": {\"Gender\": \"Male\", \"Age\": \"35-44 years old\", \"City\": \"Palo Alto\", \"Education level\": \"Doctoral degree or current doctoral student (PhD, JD, MD, DDS etc.)\", \"Living situation\": \"live together with my wife\", \"Yearly household income or stipend\": \"$150,000 or more\", \"Employment status\": \"Full-time employee\"}, \"Self Description\": {\"Two sentence description\": \"I am an Associate Professor at [ORG_MASKED] University, jointly appointed at [ORG_MASKED] and [ORG_MASKED]. I lead the [ORG_MASKED] Lab, and is also the Founding Director of the [ORG_MASKED] Graduate Program. [NAME_MASKED] is also a Visiting Scholar at [ORG_MASKED] University. My research lies at the intersection of human-computer interaction (HCI) and artificial intelligence (AI), with a focus on the exploration, development, and evaluation of human-centered AI (HCAI) systems.\"}, \"Shopping Preference\": {\"Online shopping frequency\": \"Once to twice a week\", \"Monthly online shopping spend $\": \"300\", \"Amazon Prime membership\": \"Yes\", \"To what extent do you agree with the following statements\": {\"I tend to shop more during holidays.\": \"Strongly agree\", \"Online Ads attract my attention and are a good source of information.\": \"Somewhat disagree\", \"I usually do a lot research (e.g. reading online reviews) before making purchase.\": \"Somewhat agree\", \"I prioritize delivery speed and delivery fee of the product.\": \"Somewhat agree\", \"Getting high-quality online products is very important for me.\": \"Somewhat agree\", \"The more expensive online product brands are usually my choice.\": \"Somewhat agree\", \"The more I learn about online products, the harder it seems to choose the best.\": \"Somewhat disagree\", \"I shop quickly for online products, buying the first product or brand I find that seems good enough.\": \"Neither agree or disagree\", \"Once I find a brand I like, I stick with it.\": \"Strongly agree\", \"I would buy a new or different brand of product just to see what it is like.\": \"Somewhat disagree\", \"I enjoy shopping for online products just for the fun of it.\": \"Strongly disagree\", \"I look carefully to find the best value for money when shopping online.\": \"Strongly agree\"}}, \"Personality\": {\"MBTI personality type\": \"ISFJ\", \"Big Five Scores\": {\"Extraversion\": \"High\", \"Agreeableness\": \"Extremely high\", \"Conscientiousness\": \"High\", \"Emotional Stability\": \"Medium\", \"Intellect\": \"High\"}}}"
+  }
 }

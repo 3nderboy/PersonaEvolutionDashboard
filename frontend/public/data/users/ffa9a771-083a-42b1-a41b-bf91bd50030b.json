@@ -2,82 +2,81 @@
   "user_id": "ffa9a771-083a-42b1-a41b-bf91bd50030b",
   "profile": {
     "title": {
-      "user_name": "PhD Student",
-      "two_word_summary": "Robotics Researcher",
+      "user_name": "PhD Student - Robotics",
+      "two_word_summary": "Tech Enthusiast Researcher",
       "confidence_overall": "0.85"
     },
     "demographics": {
       "age_range": {
-        "value": "25-34",
+        "value": "25-35",
         "confidence": "0.95",
-        "evidence": "Participant explicitly states being a PhD student and describes daily schedule and activities aligning with a typical graduate student age range."
+        "evidence": "Participant describes a PhD student lifestyle, typical for this age range."
       },
       "gender": {
         "value": "Male",
         "confidence": "0.90",
-        "evidence": "Participant uses masculine pronouns (I, me) consistently throughout the conversation."
+        "evidence": "Participant's language and interests align with common male tech interests."
       },
       "nationality_background": {
         "value": "USA",
         "confidence": "0.80",
-        "evidence": "Participant lives in Boston, a city in the United States."
+        "evidence": "References to Boston, a predominantly US city."
       },
       "location": {
         "value": "Boston, MA",
         "confidence": "1.00",
-        "evidence": "Participant explicitly states 'I live in Boston.'"
+        "evidence": "Explicitly states 'I live in Boston.'"
       },
       "living_situation": {
         "value": "With Friend",
         "confidence": "0.75",
-        "evidence": "Participant states 'I live with my friend.'"
+        "evidence": "States 'I live with my friend.'"
       },
       "occupation": {
-        "value": "PhD Student (Computer Science)",
+        "value": "PhD Student (Computer Science - Robotics)",
         "confidence": "1.00",
-        "evidence": "Participant explicitly states 'I'm a PhD student in computer science at [ORG_MASKED] University.'"
+        "evidence": "Directly states 'I'm I'm a Phd student in computer science at [ORG_MASKED] University.'"
       },
       "education": {
         "value": "PhD",
         "confidence": "1.00",
-        "evidence": "Participant explicitly states 'I'm a PhD student.'"
+        "evidence": "Directly states 'I'm I'm a Phd student...'"
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "To advance knowledge in robotics and human-robot interaction, contributing to developing practical applications for home environments.",
+        "value": "To develop and optimize robotic systems for human-robot collaboration, particularly in home environments.",
         "confidence": "0.90",
-        "evidence": "Participant describes developing frameworks for decision-making in robots and exploring human-centered environments within the kitchen, indicating a research-oriented goal."
+        "evidence": "Discusses developing frameworks for decision-making processes in robots and collaboration with humans in home environments."
       },
       "interests": {
         "value": [
           "Robotics",
-          "Human-Robot Interaction",
           "Artificial Intelligence",
-          "Cooking",
-          "Netflix",
-          "Social Media"
+          "Human-Computer Interaction",
+          "Social Media",
+          "Netflix"
         ],
         "confidence": "0.85",
-        "evidence": "Explicitly mentioned interests throughout the transcript (robotics, human-robot interaction, AI), plus entertainment interests (Netflix, social media) and a practical interest (cooking)."
+        "evidence": "Explicitly mentions 'robotics,' 'AI,' 'human-centered environments,' 'social media' (Instagram, Netflix)"
       },
       "values": {
         "value": [
           "Collaboration",
-          "Practicality",
-          "Healthy Lifestyle",
-          "Quality of Product",
-          "Interpersonal Connections"
+          "Efficiency",
+          "User Experience",
+          "Health",
+          "Cleanliness"
         ],
         "confidence": "0.80",
-        "evidence": "Participant expresses a preference for working with people, valuing the usefulness and practicality of products (toothpaste), and describes a healthy lifestyle with gym visits and social activities."
+        "evidence": "Values are inferred from interest in human-robot collaboration, optimizing tasks, valuing a 'nice' person to work with, and concerns about ingredients in toothpaste."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
         "confidence": "0.70",
-        "evidence": "Participant recently bought a toothpaste online and is considering purchasing more for travel, indicating regular online shopping."
+        "evidence": "Purchases necessities like toothpaste weekly and mentions frequent trips to Korea."
       },
       "where_used_devices": {
         "value": [
@@ -85,44 +84,42 @@
           "Desktop"
         ],
         "confidence": "0.95",
-        "evidence": "Participant uses smartphone to buy and research products, and mentions browsing YouTube for information."
+        "evidence": "Uses smartphone and desktop for research and product selection (Youtube, Amazon)."
       },
       "search_style_best_vs_first": {
         "value": "Best Product / First Product",
         "confidence": "0.60",
-        "evidence": "Participant expresses indecision and spends a week researching toothpaste options, indicating a deliberate approach to finding the 'best' product."
+        "evidence": "Describes a process of researching multiple options and considering reviews before making a decision."
       },
       "price_preference_cheapest_vs_expensive": {
         "value": "Cheapest Product",
         "confidence": "0.50",
-        "evidence": "Participant explicitly states prioritizing the cheapest option for toothpaste, though ultimately chooses a more expensive one based on specific features."
+        "evidence": "States a specific price comparison for toothpaste ($6 in Korea vs. $20 in the US), indicating a focus on cost."
       },
       "decision_factors": {
         "value": [
-          "Ingredients",
-          "Anti-Cavity Properties",
-          "Foam Level",
-          "Reviews",
-          "Price"
+          "Ingredient Quality",
+          "User Reviews",
+          "Personability",
+          "Functionality"
         ],
-        "confidence": "0.95",
-        "evidence": "Participant lists specific factors considered when choosing toothpaste, including ingredients (sodium sulfate-free), anti-cavity properties, foam level, reviews, and price."
+        "confidence": "0.85",
+        "evidence": "Discusses concerns about SLS, sodium sulfate, and prefers to work with 'nice' people, reviews and the functionality of the product."
       },
       "preferred_categories": {
         "value": [
           "Beauty Products",
-          "Travel Essentials",
-          "Technology"
+          "Robotics Components",
+          "Consumer Electronics"
         ],
-        "confidence": "0.75",
-        "evidence": "Participant purchases toothpaste, implying interest in beauty products, and uses Amazon for travel items."
+        "confidence": "0.70",
+        "evidence": "Purchases toothpaste and mentions beauty products from Korea."
       },
       "pain_points_and_or_challenges": {
-        "value": "Indecisiveness, Difficulty in making quick purchasing decisions",
-        "confidence": "1.00",
-        "evidence": "Participant repeatedly expresses indecision and spends a significant amount of time researching products, highlighting this as a key pain point."
+        "value": "Indecisiveness, difficulty trusting online reviews, time spent researching products.",
+        "confidence": "0.90",
+        "evidence": "Describes spending a week researching toothpaste and struggling to make a decision, expresses skepticism about online reviews and admits to being indecisive."
       }
     }
-  },
-  "survey_data": "{\"Demographic Information\": {\"Gender\": \"Female\", \"Age\": \"25-34 years old\", \"City\": \"Boston\", \"Education level\": \"Doctoral degree or current doctoral student (PhD, JD, MD, DDS etc.)\", \"Living situation\": \"alone\", \"Yearly household income or stipend\": \"$50,000-$74,999\", \"Employment status\": \"Student\"}, \"Self Description\": {\"Two sentence description\": \"I am a PhD student in computer science, specializing in robotics. My daily work include devloping and optimizing deep learning models for perception and decision-making process.\"}, \"Shopping Preference\": {\"Online shopping frequency\": \"Once every couple of weeks\", \"Monthly online shopping spend $\": \"50\", \"Amazon Prime membership\": \"Yes\", \"To what extent do you agree with the following statements\": {\"I tend to shop more during holidays.\": \"Strongly disagree\", \"Online Ads attract my attention and are a good source of information.\": \"Strongly agree\", \"I usually do a lot research (e.g. reading online reviews) before making purchase.\": \"Strongly disagree\", \"I prioritize delivery speed and delivery fee of the product.\": \"Neither agree or disagree\", \"Getting high-quality online products is very important for me.\": \"Somewhat disagree\", \"The more expensive online product brands are usually my choice.\": \"Somewhat agree\", \"The more I learn about online products, the harder it seems to choose the best.\": \"Neither agree or disagree\", \"I shop quickly for online products, buying the first product or brand I find that seems good enough.\": \"Strongly agree\", \"Once I find a brand I like, I stick with it.\": \"Somewhat disagree\", \"I would buy a new or different brand of product just to see what it is like.\": \"Neither agree or disagree\", \"I enjoy shopping for online products just for the fun of it.\": \"Strongly agree\", \"I look carefully to find the best value for money when shopping online.\": \"Somewhat disagree\"}}, \"Personality\": {\"MBTI personality type\": \"esfj\", \"Big Five Scores\": {\"Extraversion\": \"Extremely high\", \"Agreeableness\": \"Extremely high\", \"Conscientiousness\": \"Extremely high\", \"Emotional Stability\": \"High\", \"Intellect\": \"High\"}}}"
+  }
 }

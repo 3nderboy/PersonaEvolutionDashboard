@@ -3,106 +3,106 @@
   "profile": {
     "title": {
       "user_name": "Research Assistant",
-      "two_word_summary": "AI Research Shopping",
-      "confidence_overall": "0.90"
+      "two_word_summary": "Online Shopping Habits",
+      "confidence_overall": "0.85"
     },
     "demographics": {
       "age_range": {
         "value": "25-34",
         "confidence": "0.95",
-        "evidence": "Participant states they are a PhD student, suggesting an age range of 25-34."
+        "evidence": "Participant states 'I think I am half in terms of introverted or extroverted. I think I'm half and if I in the weekend. If I stay at home, I'm pretty laid back, and just don't want to do anything but in terms of work I think I am goal oriented.'"
       },
       "gender": {
         "value": "Female",
-        "confidence": "0.80",
-        "evidence": "Participant frequently mentions a dog, indicating a likely female owner."
+        "confidence": "0.90",
+        "evidence": "Participant frequently mentions a dog, indicating likely female ownership."
       },
       "nationality_background": {
         "value": "USA",
-        "confidence": "0.90",
-        "evidence": "Participant is a student at Northeastern University, a US institution."
+        "confidence": "0.98",
+        "evidence": "Participant states 'I live in Boston', indicating US residency."
       },
       "location": {
         "value": "Boston, MA",
         "confidence": "1.00",
-        "evidence": "Participant explicitly states they live in Boston."
+        "evidence": "Participant states 'I live in Boston right now, and I live by myself just because I have a dog, so I just don't want to disturb others. So I just live in a studio in Boston.'"
       },
       "living_situation": {
         "value": "Living Alone",
         "confidence": "1.00",
-        "evidence": "Participant states they live alone with a dog."
+        "evidence": "Participant states 'I live by myself just because I have a dog, so I just don't want to disturb others. So I just live in a studio in Boston.'"
       },
       "occupation": {
         "value": "Research Assistant",
         "confidence": "1.00",
-        "evidence": "Participant directly states they work as a research assistant."
+        "evidence": "Participant states 'I'm a research assistant in a a lab at [ORG_MASKED].'"
       },
       "education": {
-        "value": "PhD Candidate",
-        "confidence": "1.00",
-        "evidence": "Participant explicitly states they are a PhD student."
+        "value": "PhD Student",
+        "confidence": "0.95",
+        "evidence": "Participant states '…from Northeastern University.'"
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Improving pet health, exploring AI applications in healthcare, convenience, cost-effectiveness",
-        "confidence": "0.85",
-        "evidence": "Participant purchased dog dental treats to improve pet health, expressed interest in AI applications in healthcare, and prioritized cost-effectiveness when purchasing a hair dryer."
+        "value": "Maintain pet’s health, convenience, and potentially explore AI applications in healthcare.",
+        "confidence": "0.75",
+        "evidence": "Participant purchases dog dental treats based on a recommendation, driven by concern for the dog's health. Also mentions interest in AI applications related to clinician workflow."
       },
       "interests": {
         "value": [
-          "Dog Health & Wellness",
-          "AI in Healthcare",
-          "Technology (hair dryers, electronic toothbrushes)",
-          "Travel (viewing sunsets)"
+          "Dog Care",
+          "Technology (AI)",
+          "Travel",
+          "Healthy Lifestyle"
         ],
-        "confidence": "0.75",
-        "evidence": "Purchase of dental treats, discussion of AI in healthcare workflow, purchase of electronic toothbrush and hair dryer, and mention of traveling."
+        "confidence": "0.80",
+        "evidence": "Purchase of dog dental treats, interest in AI applications in healthcare, mentions weekend activities like travel and sunsets."
       },
       "values": {
         "value": [
-          "Health & Well-being (of pet)",
-          "Efficiency (convenience)",
-          "Value for money (cost-effectiveness)",
-          "Reliability"
+          "Health",
+          "Convenience",
+          "Efficiency",
+          "Value"
         ],
         "confidence": "0.70",
-        "evidence": "Purchase of dental treats (health), quick decision-making for hair dryer (efficiency), prioritizing cost-effectiveness, and relying on recommendations (reliability)."
+        "evidence": "Concern for the dog’s health driving treat purchase, prioritizing cost-effectiveness when buying a hair dryer, desire for convenient delivery options via Target app."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Monthly",
         "confidence": "0.60",
-        "evidence": "Participant states they haven't shopped on Amazon in a long time, suggesting infrequent purchases."
+        "evidence": "Participant states '…I haven't wore a shop on Amazon for a long time.' and '…I think I use Amazon. The items I bought from Amazon is, are less than 20 items'"
       },
       "where_used_devices": {
         "value": [
           "Smartphone",
           "Desktop"
         ],
-        "confidence": "0.80",
-        "evidence": "Participant uses Amazon website and likely uses smartphone for browsing and purchases."
+        "confidence": "0.90",
+        "evidence": "Participant likely uses smartphone for browsing and desktop for purchase decisions."
       },
       "search_style_best_vs_first": {
         "value": "First Product",
-        "confidence": "0.70",
-        "evidence": "Participant primarily relies on recommendations and first search results."
+        "confidence": "0.80",
+        "evidence": "Participant states '…I type the item. And also I type the brand.' indicating a search-first approach."
       },
       "price_preference_cheapest_vs_expensive": {
         "value": "Cheapest Product",
-        "confidence": "0.60",
-        "evidence": "Participant prioritizes cost-effectiveness when selecting products."
+        "confidence": "0.70",
+        "evidence": "Participant prioritizes cost-effectiveness when purchasing items like the hair dryer."
       },
       "decision_factors": {
         "value": [
-          "Brand Recommendation",
-          "Product Features (size, suitability)",
-          "Reviews",
+          "Recommendation",
+          "Product Reviews",
+          "Brand Reputation",
           "Price"
         ],
-        "confidence": "0.90",
-        "evidence": "Participant's purchase decisions are heavily influenced by recommendations, product features, reviews, and price."
+        "confidence": "0.85",
+        "evidence": "Purchase of dental treats based on recommendation, consideration of product reviews, brand preference, and price."
       },
       "preferred_categories": {
         "value": [
@@ -110,15 +110,14 @@
           "Electronics",
           "Household Goods"
         ],
-        "confidence": "0.80",
-        "evidence": "Participant purchased dental treats, a hair dryer, and alcohol prep pads."
+        "confidence": "0.90",
+        "evidence": "Purchase of dog dental treats, hair dryer, and electronic toothbrush heads."
       },
       "pain_points_and_or_challenges": {
-        "value": "Time constraints, difficulty finding suitable products, reliance on recommendations",
-        "confidence": "0.85",
-        "evidence": "Participant's delay in purchasing dental treats due to time constraints, and reliance on recommendations from a friend."
+        "value": "Time constraints, desire for convenient shopping options, potential overwhelm with choices.",
+        "confidence": "0.80",
+        "evidence": "Hesitation to buy items immediately, reliance on Target app for faster delivery, stating 'I don’t know how the item is right.'"
       }
     }
-  },
-  "survey_data": "{\"Demographic Information\": {\"Gender\": \"Female\", \"Age\": \"25-34 years old\", \"City\": \"Boston\", \"Education level\": \"Graduate degree or current grad student (MA, MS, MBA, etc.)\", \"Living situation\": \"Alone\", \"Yearly household income or stipend\": \"Prefer not to say\", \"Employment status\": \"Student\"}, \"Self Description\": {\"Two sentence description\": \"I\\u2019m a research assistant focused on HCI field, especially in healthcare field. I design interview protocol, conduct interviews with clinicians and analysis the transcript. \"}, \"Shopping Preference\": {\"Online shopping frequency\": \"Once every couple of weeks\", \"Monthly online shopping spend $\": \"100\", \"Amazon Prime membership\": \"No\", \"To what extent do you agree with the following statements\": {\"I tend to shop more during holidays.\": \"Strongly disagree\", \"Online Ads attract my attention and are a good source of information.\": \"Strongly disagree\", \"I usually do a lot research (e.g. reading online reviews) before making purchase.\": \"Somewhat disagree\", \"I prioritize delivery speed and delivery fee of the product.\": \"Strongly agree\", \"Getting high-quality online products is very important for me.\": \"Strongly agree\", \"The more expensive online product brands are usually my choice.\": \"Somewhat agree\", \"The more I learn about online products, the harder it seems to choose the best.\": \"Somewhat disagree\", \"I shop quickly for online products, buying the first product or brand I find that seems good enough.\": \"Somewhat agree\", \"Once I find a brand I like, I stick with it.\": \"Neither agree or disagree\", \"I would buy a new or different brand of product just to see what it is like.\": \"Neither agree or disagree\", \"I enjoy shopping for online products just for the fun of it.\": \"Somewhat agree\", \"I look carefully to find the best value for money when shopping online.\": \"Somewhat disagree\"}}, \"Personality\": {\"MBTI personality type\": \"\", \"Big Five Scores\": {\"Extraversion\": \"High\", \"Agreeableness\": \"High\", \"Conscientiousness\": \"High\", \"Emotional Stability\": \"Extremely high\", \"Intellect\": \"High\"}}}"
+  }
 }

@@ -15,9 +15,6 @@ const DashboardLayout = ({ children }) => {
       <div className="flex-1 p-6 overflow-x-hidden">
         {children}
       </div>
-      <footer className="h-10 border-t border-slate-800 flex items-center px-6 text-xs text-slate-600 bg-slate-900/50">
-        Persona Evolution Dashboard - Not finished
-      </footer>
     </main>
   );
 };

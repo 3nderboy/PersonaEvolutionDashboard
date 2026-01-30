@@ -10,122 +10,119 @@
       "age_range": {
         "value": "25-34",
         "confidence": "0.95",
-        "evidence": "Participant's description of studying at a Master's level and using tech like Zoom and coding suggests a likely age range."
+        "evidence": "Participant is a graduate student, suggesting an age range of 25-34."
       },
       "gender": {
-        "value": "Male",
-        "confidence": "0.70",
-        "evidence": "Participant's language and choices (e.g., 'work out', 'yoga') are more commonly associated with males."
+        "value": "Female",
+        "confidence": "0.60",
+        "evidence": "Participant discusses contact lens dryness and needing recommendations from an optometrist, which is statistically more common in females."
       },
       "nationality_background": {
         "value": "USA",
-        "confidence": "0.60",
-        "evidence": "Location specified as Cambridge, Massachusetts, strongly suggests a U.S. background."
+        "confidence": "0.90",
+        "evidence": "Participant lives in Cambridge, Massachusetts – a predominantly US location."
       },
       "location": {
         "value": "Cambridge, Massachusetts",
         "confidence": "1.00",
-        "evidence": "Explicitly stated location."
+        "evidence": "Explicitly stated in the transcript: '…specifically in Cambridge, massachusetts…'"
       },
       "living_situation": {
         "value": "With Roommate",
         "confidence": "1.00",
-        "evidence": "Explicitly stated living situation."
+        "evidence": "Explicitly stated in the transcript: '…I live with a roommate…'"
       },
       "occupation": {
         "value": "Student / Part-time Work (Service Industry)",
-        "confidence": "0.90",
-        "evidence": "Multiple mentions of student status and part-time work in the service industry."
+        "confidence": "0.95",
+        "evidence": "Participant states: '…I was a student, and I also do a little bit of like part time work as well. In the service industry…'"
       },
       "education": {
-        "value": "Master's Degree",
+        "value": "Master's Degree (Computer Science)",
         "confidence": "1.00",
-        "evidence": "Explicitly stated completion of a Master's degree."
+        "evidence": "Participant states: '…I finished my master…'"
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Academic achievement, practical skill development (writing tools), maintaining eye health, exploring hobbies",
-        "confidence": "0.80",
-        "evidence": "References to Master's studies, research focus, tutoring, exercise, and social activities."
+        "value": "Improve eyesight, pursue computer science research, and maintain a comfortable lifestyle.",
+        "confidence": "0.75",
+        "evidence": "Participant's interest in eye drops, research into HCI, and desire to 'see if there’s anything new' all contribute to these goals."
       },
       "interests": {
         "value": [
           "Computer Science",
-          "Writing Tools",
           "HCI",
+          "Writing Tools",
           "Yoga",
           "Social Media",
-          "Gaming"
+          "Technology",
+          "Eye Drops"
         ],
-        "confidence": "0.75",
-        "evidence": "Research focus in HCI and writing tools, mentions of coding, and activity of scrolling through social media; interest in games mentioned."
+        "confidence": "0.80",
+        "evidence": "Participant’s major (Computer Science & HCI), specific research focus (writing tools), mention of exercises/yoga, and browsing social media, and purchase of eye drops"
       },
       "values": {
         "value": [
-          "Efficiency",
-          "Quality",
           "Value for Money",
-          "Practicality",
-          "Knowledge"
+          "Quality",
+          "Convenience",
+          "Information",
+          "Practicality"
         ],
         "confidence": "0.70",
-        "evidence": "Prioritization of price, reading reviews for quality, preference for functional items (sponges), and methodical approach to problem-solving."
+        "evidence": "Participant repeatedly prioritizes price and reading reviews; mentions checking product details and shipping options."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
-        "confidence": "0.75",
-        "evidence": "Participant frequently uses Amazon for both research and purchases."
+        "confidence": "0.65",
+        "evidence": "Participant frequently shops on Amazon, referencing both recent and past purchases (eye drops, phone cases, sponges)."
       },
       "where_used_devices": {
         "value": [
           "Smartphone",
-          "Desktop"
+          "Computer"
         ],
-        "confidence": "0.95",
-        "evidence": "Participant uses a computer for research and coding, and a smartphone for browsing and potentially ordering."
+        "confidence": "1.00",
+        "evidence": "Participant uses a computer for research and coding and a smartphone for browsing and social media."
       },
       "search_style_best_vs_first": {
         "value": "First Product",
-        "confidence": "0.60",
-        "evidence": "Participant stated: 'I don't really browse Amazon... I already know what I want to buy.'"
+        "confidence": "0.70",
+        "evidence": "Participant states: ‘I don’t really browse Amazon. So I know what I want to buy’."
       },
       "price_preference_cheapest_vs_expensive": {
         "value": "Cheapest Product",
         "confidence": "0.85",
-        "evidence": "Explicitly states 'price is the most important thing for me...'"
+        "evidence": "Participant consistently prioritizes the lowest price when making purchases."
       },
       "decision_factors": {
         "value": [
           "Price",
           "Product Reviews",
-          "Quality",
+          "Product Quality",
           "Quantity",
-          "Shipping",
-          "Packaging/Extras"
+          "Shipping Options"
         ],
         "confidence": "0.90",
-        "evidence": "Detailed breakdown of factors considered during purchasing decisions, including price, reviews, quality, and quantity."
+        "evidence": "Participant’s detailed explanation of purchasing criteria reflects these factors."
       },
       "preferred_categories": {
         "value": [
+          "Tech Gadgets (Phone Cases, AirPods Cases)",
           "Eye Drops",
-          "Phone Cases",
-          "Phone Protectors",
-          "Sponges",
-          "Games"
+          "Office Supplies (Sponges)"
         ],
         "confidence": "0.80",
-        "evidence": "Specific product categories purchased (eye drops, phone cases) and interest in games."
+        "evidence": "Participant’s explicit purchases of these items."
       },
       "pain_points_and_or_challenges": {
-        "value": "Overwhelming choice, sponsored products, navigating Amazon's sorting options",
-        "confidence": "0.95",
-        "evidence": "Expresses frustration with sponsored products and difficulty filtering Amazon's vast selection."
+        "value": "Information overload, difficulty filtering sponsored products, ensuring product authenticity.",
+        "confidence": "0.75",
+        "evidence": "Participant expresses frustration with sponsored products and the need to double-check product details."
       }
     }
-  },
-  "survey_data": "{\"Demographic Information\": {\"Gender\": \"Female\", \"Age\": \"25-34 years old\", \"City\": \"Cambridge\", \"Education level\": \"Graduate degree or current grad student (MA, MS, MBA, etc.)\", \"Living situation\": \"Roommate\", \"Yearly household income or stipend\": \"$25,000-$49,999\", \"Employment status\": \"Student\"}, \"Self Description\": {\"Two sentence description\": \"sdfsdf\"}, \"Shopping Preference\": {\"Online shopping frequency\": \"\", \"Monthly online shopping spend $\": \"\", \"Amazon Prime membership\": \"\", \"To what extent do you agree with the following statements\": {\"I tend to shop more during holidays.\": \"\", \"Online Ads attract my attention and are a good source of information.\": \"\", \"I usually do a lot research (e.g. reading online reviews) before making purchase.\": \"\", \"I prioritize delivery speed and delivery fee of the product.\": \"\", \"Getting high-quality online products is very important for me.\": \"\", \"The more expensive online product brands are usually my choice.\": \"\", \"The more I learn about online products, the harder it seems to choose the best.\": \"\", \"I shop quickly for online products, buying the first product or brand I find that seems good enough.\": \"\", \"Once I find a brand I like, I stick with it.\": \"\", \"I would buy a new or different brand of product just to see what it is like.\": \"\", \"I enjoy shopping for online products just for the fun of it.\": \"\", \"I look carefully to find the best value for money when shopping online.\": \"\"}}, \"Personality\": {\"MBTI personality type\": \"\", \"Big Five Scores\": {\"Extraversion\": \"Extremely low\", \"Agreeableness\": \"Extremely low\", \"Conscientiousness\": \"Extremely low\", \"Emotional Stability\": \"Extremely low\", \"Intellect\": \"Extremely low\"}}}"
+  }
 }

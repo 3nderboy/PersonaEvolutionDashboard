@@ -135,8 +135,11 @@ const PersonaDetailPanel = ({ persona, onClose, sessions = [], selectedMonth, on
                         </div>
                         <p className="text-slate-400">{persona.description}</p>
                         <div className="flex gap-4 mt-3 text-sm">
-                            <span className="text-slate-500">Cluster {persona.cluster_id}</span>
-                            <span className="text-sky-400">{sessionCount} sessions ({selectedMonth})</span>
+                            {/* <span className="text-slate-500">Cluster {persona.cluster_id}</span> */}
+                            <div className="flex flex-col gap-1">
+                                <span className="text-sky-400">Cluster with in total {sessionCount} sessions</span>
+                                {/* <span className="text-xs text-slate-500">{clusterPersona?.user_count ?? 0} of them have user profiles (used for Persona-Synthesis)</span> */}
+                            </div>
                         </div>
 
                         {/* Month Switcher inside Modal */}
@@ -242,6 +245,7 @@ const PersonaDetailPanel = ({ persona, onClose, sessions = [], selectedMonth, on
                         </h3>
                         <ClusterPersonaCard
                             clusterPersona={clusterPersona}
+                            clusterName={persona.name}
                             clusterColor={getClusterColor(persona.cluster_id)}
                         />
                     </div>
@@ -360,7 +364,21 @@ const SessionDetailPanel = ({ session, personas, userProfiles, onClose }) => {
                                     </div>
                                 );
                             }
-                            return null;
+                            // No user profile available
+                            return (
+                                <div>
+                                    <h3 className="text-sm font-semibold text-slate-400 uppercase tracking-wider mb-3">
+                                        User Profile
+                                    </h3>
+                                    <div className="bg-slate-800/30 rounded-xl p-6 border border-slate-700/30 text-center">
+                                        <div className="text-4xl mb-3">📝</div>
+                                        <div className="text-slate-400 mb-2">No user profile available for this session</div>
+                                        <div className="text-slate-500 text-sm max-w-md mx-auto">
+                                            User profiles are generated from interview transcripts. This user has no transcript data available.
+                                        </div>
+                                    </div>
+                                </div>
+                            );
                         })()
                     )}
                 </div>
@@ -701,6 +719,9 @@ const PersonaClusterView = () => {
                                                         />
                                                         <span className="text-xs text-slate-300">Session</span>
                                                     </div>
+                                                    <div className="text-xs text-slate-500 mt-1">
+                                                        Click to view details
+                                                    </div>
                                                 </div>
                                             );
                                         }
@@ -714,7 +735,7 @@ const PersonaClusterView = () => {
                                                     <span className="font-semibold text-white">{data.name}</span>
                                                 </div>
                                                 <div className="text-sm text-slate-400">
-                                                    {data.session_count} sessions
+                                                    Cluster with in total {data.session_count} sessions
                                                 </div>
                                                 <div className="text-xs text-slate-500 mt-1">
                                                     Click to view details

@@ -2,17 +2,17 @@
   "cluster_id": 1,
   "month": "2025-05 (May)",
   "cluster_name": "Action-Oriented Shopper",
-  "generated_at": "2026-01-27T16:12:47.310009",
-  "user_count": 11,
+  "generated_at": "2026-01-30T16:51:18.583888",
+  "user_count": 7,
   "persona": {
     "title": {
-      "persona_name": "The Rapid Shopper",
-      "tagline": "Driven by immediate needs and value, this user buys quickly and decisively.",
+      "persona_name": "The Rapid Acquisitionist",
+      "tagline": "Prioritizes speed and value when making purchasing decisions.",
       "user_profiles": 7
     },
     "demographics": {
       "age_distribution": {
-        "value": "25-35 years old",
+        "value": "25-34 years old",
         "num_of_users_in_this_age": 7
       },
       "gender_distribution": {
@@ -24,38 +24,36 @@
         "num_of_users_from_with_this_nationality": 7
       },
       "location_pattern": {
-        "value": "Boston, California",
-        "num_of_users_with_same_location_pattern": 3
+        "value": "Boston & Seattle",
+        "num_of_users_with_same_location_pattern": 7
       },
       "living_situation": {
-        "value": "Living with Roommates",
-        "num_of_users_with_this_living_situation_pattern": 4
+        "value": "Living Alone",
+        "num_of_users_with_this_living_situation_pattern": 5
       },
       "occupation": {
-        "value": "PhD Student",
-        "num_of_users_with_same_occupation_type": 3
+        "value": "Project Manager / AI Model Improvement Specialist",
+        "num_of_users_with_same_occupation_type": 7
       },
       "education_level": {
-        "value": "Master's Degree",
-        "num_of_users_with_same_education_level": 4
+        "value": "Bachelor's Degree or higher",
+        "num_of_users_with_same_education_level": 7
       }
     },
     "psychographics": {
       "goals": [
-        "Acquire new products quickly",
-        "Find the best deals",
-        "Solve immediate needs"
+        "Professional Advancement",
+        "Innovation & Efficiency"
       ],
       "interests": [
-        "Electronics",
-        "Gaming",
-        "Tech",
-        "Shopping"
+        "AI Technology",
+        "Technical Innovation",
+        "Fitness"
       ],
       "values": [
-        "Value for Money",
         "Efficiency",
-        "Convenience"
+        "Quality",
+        "Customer Satisfaction"
       ]
     },
     "shopping_behavior": {
@@ -67,20 +65,20 @@
         "Smartphone",
         "Desktop"
       ],
-      "search_style": "Prefers searching for 'Best Product' or 'First Product' based on immediate needs and reviews.",
-      "price_sensitivity": "Highly price-sensitive, prioritizing the cheapest product option.",
-      "decision_style": "Makes quick purchase decisions based on price, reviews, and immediate availability.",
+      "search_style": "Prefers ‘Best Product’ search to thoroughly evaluate all options before deciding, driven by a desire for optimal performance and value.",
+      "price_sensitivity": "Values the cheapest product, prioritizing a balance of quality and affordability for efficient spending.",
+      "decision_style": "Makes quick decisions, often defaulting to the ‘First Product’ search to rapidly identify viable solutions and minimize cognitive load.",
       "preferred_categories": [
+        "Beauty & Personal Care",
         "Electronics",
-        "Gaming Accessories",
-        "Pet Supplies"
+        "Household Goods"
       ],
       "common_pain_points": [
-        "Overwhelming product options",
-        "Difficulty comparing products"
+        "Dealing with too many options",
+        "Comparing product specifications"
       ]
     },
-    "narrative": "The Rapid Shopper is a decisive user who prioritizes getting what they need quickly and affordably. Driven by immediate demands and a focus on value, they swiftly scan options and jump on deals. This user is often frustrated by the complexity of online shopping and seeks straightforward solutions."
+    "narrative": "The Rapid Acquisitionist represents a key segment within the Action-Oriented Shopper cluster – individuals intensely focused on acquiring the best product quickly and efficiently. Driven by a desire for professional advancement and innovative solutions, this persona typically uses ‘Best Product’ searches to thoroughly evaluate options. Their primary motivation is to minimize decision fatigue and streamline the purchasing process, leading them to consistently select the cheapest product. Ultimately, The Rapid Acquisitionist seeks value, quality, and speed when making a purchase, aligning perfectly with the core behaviors of the Action-Oriented Shopper cluster."
   },
   "source_users": [
     {
@@ -93,19 +91,19 @@
     },
     {
       "user_id": "4711841a-9bbc-4763-bcb2-c5cf78aebacb",
-      "summary": "Student Amazon Shopper"
+      "summary": "Tech Student"
     },
     {
       "user_id": "47395b78-6336-4546-b97c-7becdf065356",
-      "summary": "Data Student"
+      "summary": "Data Analysis Student"
     },
     {
       "user_id": "7f0c8207-6a6f-49cd-9d7e-17987cfafcb9",
-      "summary": "Computer Science PhD"
+      "summary": "Tech Enthusiast Learner"
     },
     {
       "user_id": "b6a822a0-090b-4c1d-ac6e-da3bf4a2b643",
-      "summary": "Online Shopping Habits"
+      "summary": "Tech Professor"
     },
     {
       "user_id": "d0440235-fc42-4bfe-89ca-efe949a44287",

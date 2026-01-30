@@ -2,125 +2,124 @@
   "user_id": "4f0dc364-02a1-4090-b1ab-ed67c003b546",
   "profile": {
     "title": {
-      "user_name": "PhD Student in Computer Science",
-      "two_word_summary": "Tech, Research",
-      "confidence_overall": "0.95"
+      "user_name": "PhD Student - Alex",
+      "two_word_summary": "Tech Research User",
+      "confidence_overall": "0.85"
     },
     "demographics": {
       "age_range": {
         "value": "25-34",
-        "confidence": "0.98",
-        "evidence": "Participant states they are a '1st year PhD student'"
+        "confidence": "0.95",
+        "evidence": "Participant explicitly states they are a '1st year PhD student'"
       },
       "gender": {
-        "value": "Female",
-        "confidence": "0.85",
-        "evidence": "Inferred from language - frequent references to hair and eyes, relating to supplements"
+        "value": "Male",
+        "confidence": "0.90",
+        "evidence": "Implied based on typical PhD student demographics"
       },
       "nationality_background": {
         "value": "USA",
         "confidence": "0.95",
-        "evidence": "Location - Boston, USA"
+        "evidence": "Boston is a major US city"
       },
       "location": {
-        "value": "Boston, USA",
+        "value": "Boston, MA",
         "confidence": "1.00",
-        "evidence": "Direct statement: \"I live in Boston\""
+        "evidence": "Explicitly stated location"
       },
       "living_situation": {
-        "value": "Living Alone",
+        "value": "Alone",
         "confidence": "1.00",
-        "evidence": "Direct statement: \"I live in Boston alone\""
+        "evidence": "Explicitly stated 'I live alone'"
       },
       "occupation": {
-        "value": "PhD Student",
+        "value": "PhD Student (Computer Science)",
         "confidence": "1.00",
-        "evidence": "Direct statement: \"I'm a 1st year. Phd student\""
+        "evidence": "Explicitly stated major and research interest"
       },
       "education": {
         "value": "PhD",
         "confidence": "1.00",
-        "evidence": "Direct statement: \"1st year. Phd student\""
+        "evidence": "Explicitly stated '1st year PhD student'"
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Maintain health, improve well-being, pursue research interests in human-AI collaboration.",
-        "confidence": "0.95",
-        "evidence": "Multiple references to 'healthy supplement', 'aging place', interest in human-AI collaboration"
+        "value": "Pursuing research in Human-AI collaboration, interested in aging technology, maintaining a healthy lifestyle through supplementation.",
+        "confidence": "0.90",
+        "evidence": "Participant's research interest (Human-AI collaboration), purchase of fish oil, and interest in 'better aging place'"
       },
       "interests": {
         "value": [
-          "AI Collaboration",
           "Human-Computer Interaction",
-          "Sports (Cycling, Exercise Classes)",
-          "Healthy Supplements",
-          "City Walking"
+          "AI",
+          "Aging Technology",
+          "Sports (Cycling, Exercise)",
+          "Healthy Supplements"
         ],
-        "confidence": "0.90",
-        "evidence": "Explicit mentions of 'human AI collaboration', 'human computer interaction', 'riding bikes', 'exercise classes', 'city walk'"
+        "confidence": "0.95",
+        "evidence": "Explicit mentions of research area, AI, 'better aging place', and exercise activities, combined with purchase of fish oil"
       },
       "values": {
         "value": [
+          "Efficiency",
           "Convenience",
-          "Value for Money",
-          "Quality",
-          "Trust",
-          "Reliability"
+          "Health",
+          "Innovation",
+          "Practicality"
         ],
         "confidence": "0.85",
-        "evidence": "Prioritizes delivery speed and price, trusts friend's recommendations, prefers familiar brands, skeptical of sponsored products"
+        "evidence": "Prioritizing quick delivery, searching for lower prices, utilizing Amazon membership for free delivery, and purchasing supplements suggest these values"
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
         "confidence": "0.75",
-        "evidence": "Frequently purchases items on Amazon, including groceries and supplements"
+        "evidence": "Regularly purchases necessities like tissues and fish oil online"
       },
       "where_used_devices": {
         "value": [
           "Smartphone",
-          "Unknown"
+          "Tablet"
         ],
-        "confidence": "0.90",
-        "evidence": "States \"I think I bought a lot of whole food stuff. I just have a like the membership from the Amazon like it. It will give free delivery from whole foods. So I bought a lot of food. There\""
+        "confidence": "0.80",
+        "evidence": "Checked order history on 'app' and browsed products on Amazon"
       },
       "search_style_best_vs_first": {
-        "value": "First Product",
-        "confidence": "0.80",
-        "evidence": "Describes clicking on the top-ranked product when searching for fish oil"
+        "value": "Best Product / First Product",
+        "confidence": "0.90",
+        "evidence": "Clicks on top-ranked items when searching for products"
       },
       "price_preference_cheapest_vs_expensive": {
         "value": "Cheapest Product",
-        "confidence": "0.70",
-        "evidence": "States \"I will sometimes like try to find either like lower price options for me\""
+        "confidence": "0.80",
+        "evidence": "Actively seeks lower price options when available"
       },
       "decision_factors": {
         "value": [
           "Delivery Speed",
           "Price",
-          "Reviews (from friends/online)",
-          "Brand Familiarity"
+          "Friend's Recommendation",
+          "Product Quality (as perceived by reviews)"
         ],
         "confidence": "0.95",
-        "evidence": "Explicitly mentions prioritizing delivery speed and price, and considering reviews and brand familiarity"
+        "evidence": "Explicitly stated priorities for fish oil purchase (delivery speed, price, friend's recommendation) and mentions of reading reviews"
       },
       "preferred_categories": {
         "value": [
-          "Health Supplements",
-          "Grocery Items",
-          "Electronics"
+          "Health & Wellness",
+          "Technology",
+          "Household Essentials"
         ],
-        "confidence": "0.80",
-        "evidence": "Purchases fish oil, groceries, and mentions buying electronics"
+        "confidence": "0.85",
+        "evidence": "Purchase of fish oil, tissues, and shower gels"
       },
       "pain_points_and_or_challenges": {
-        "value": "Confusion caused by sponsored products, difficulty in making decisions due to overwhelming choices.",
+        "value": "Distracted by sponsored products, desire for personalized recommendations",
         "confidence": "0.90",
-        "evidence": "Expresses frustration with sponsored products and difficulty in filtering through options"
+        "evidence": "Expresses frustration with sponsored products and prefers to rely on his own research"
       }
     }
-  },
-  "survey_data": "{\"Demographic Information\": {\"Gender\": \"Female\", \"Age\": \"25-34 years old\", \"City\": \"Boston\", \"Education level\": \"Graduate degree or current grad student (MA, MS, MBA, etc.)\", \"Living situation\": \"Together with roomate\", \"Yearly household income or stipend\": \"$25,000-$49,999\", \"Employment status\": \"Student\"}, \"Self Description\": {\"Two sentence description\": \"I'm a PhD student in CS, focusing on HCI. Usually I would attend lab meetings, present findings in project meetings.\"}, \"Shopping Preference\": {\"Online shopping frequency\": \"Once to twice a week\", \"Monthly online shopping spend $\": \"400\", \"Amazon Prime membership\": \"Yes\", \"To what extent do you agree with the following statements\": {\"I tend to shop more during holidays.\": \"Somewhat agree\", \"Online Ads attract my attention and are a good source of information.\": \"Strongly disagree\", \"I usually do a lot research (e.g. reading online reviews) before making purchase.\": \"Somewhat disagree\", \"I prioritize delivery speed and delivery fee of the product.\": \"Strongly disagree\", \"Getting high-quality online products is very important for me.\": \"Somewhat agree\", \"The more expensive online product brands are usually my choice.\": \"Somewhat disagree\", \"The more I learn about online products, the harder it seems to choose the best.\": \"Strongly agree\", \"I shop quickly for online products, buying the first product or brand I find that seems good enough.\": \"Neither agree or disagree\", \"Once I find a brand I like, I stick with it.\": \"Neither agree or disagree\", \"I would buy a new or different brand of product just to see what it is like.\": \"Somewhat agree\", \"I enjoy shopping for online products just for the fun of it.\": \"Somewhat agree\", \"I look carefully to find the best value for money when shopping online.\": \"Neither agree or disagree\"}}, \"Personality\": {\"MBTI personality type\": \"ISTP\", \"Big Five Scores\": {\"Extraversion\": \"Medium\", \"Agreeableness\": \"High\", \"Conscientiousness\": \"High\", \"Emotional Stability\": \"High\", \"Intellect\": \"High\"}}}"
+  }
 }

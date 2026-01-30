@@ -8,19 +8,19 @@
     },
     "demographics": {
       "age_range": {
-        "value": "22-25",
-        "confidence": "0.98",
-        "evidence": "Participant is pursuing a master's degree, indicating a likely age range of 22-25."
+        "value": "25-34",
+        "confidence": "0.90",
+        "evidence": "Participant is pursuing a Master's degree, suggesting an age range of 25-34."
       },
       "gender": {
         "value": "Male",
-        "confidence": "0.85",
-        "evidence": "Participant's language and interests align with a male profile."
+        "confidence": "0.80",
+        "evidence": "No explicit statement of gender, but the language and interests align with a male profile."
       },
       "nationality_background": {
         "value": "USA",
-        "confidence": "0.90",
-        "evidence": "Participant lives in Boston, Massachusetts."
+        "confidence": "0.95",
+        "evidence": "Living in Boston, Massachusetts."
       },
       "location": {
         "value": "Boston, Massachusetts",
@@ -28,9 +28,9 @@
         "evidence": "Explicitly stated in the transcript."
       },
       "living_situation": {
-        "value": "Living with 9 people in a 5-bed apartment",
+        "value": "Living with Others",
         "confidence": "1.00",
-        "evidence": "Explicitly stated in the transcript."
+        "evidence": "Living in a 5-bed apartment with around 9 people."
       },
       "occupation": {
         "value": "Data Science Student",
@@ -38,65 +38,62 @@
         "evidence": "Explicitly stated in the transcript."
       },
       "education": {
-        "value": "Master's Degree in Data Science",
+        "value": "Master's Degree",
         "confidence": "1.00",
         "evidence": "Explicitly stated in the transcript."
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Career advancement in data science, continuous learning, personal project development, job opportunities",
-        "confidence": "0.95",
-        "evidence": "Participant mentions pursuing a master's, working on personal projects, participating in hackathons, and applying for full-time jobs."
+        "value": "Career Advancement in Data Science, Continuous Learning",
+        "confidence": "0.85",
+        "evidence": "Pursuing a Master's, working on personal projects, participating in hackathons, applying for full-time jobs, and mentioning staying updated with technology."
       },
       "interests": {
         "value": [
           "Data Science",
           "Technology",
-          "Apple products",
-          "Gym",
-          "Gardening",
           "Hackathons",
-          "Software Development"
+          "Physical Activity",
+          "Gardening"
         ],
-        "confidence": "0.80",
-        "evidence": "References to data science, Apple products, gym, Jamaica Plain, hackathons, and software development."
+        "confidence": "0.75",
+        "evidence": "References to data science, technology, hackathons, gym, and spending time in Jamaica Plain gardens."
       },
       "values": {
         "value": [
           "Quality",
-          "Value for Money",
           "Brand Reputation",
-          "Continuous Learning",
-          "Social Interaction"
+          "Value for Money",
+          "Continuous Learning"
         ],
-        "confidence": "0.75",
-        "evidence": "Participant prioritizes webcam quality, looks for brand reputation, and values price. Expresses a desire for continuous learning and enjoys social interaction."
+        "confidence": "0.70",
+        "evidence": "Prioritizing webcam quality, considering brand reputation when choosing Logitech, and focusing on price when purchasing."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
-        "confidence": "0.70",
-        "evidence": "Participant regularly orders items on Amazon, suggesting a weekly purchase frequency."
+        "confidence": "0.60",
+        "evidence": "Regularly orders items on Amazon, including electronics and clothing."
       },
       "where_used_devices": {
         "value": [
           "Smartphone",
           "Desktop"
         ],
-        "confidence": "0.90",
-        "evidence": "Participant uses a laptop for work and online shopping, as well as a smartphone."
+        "confidence": "0.80",
+        "evidence": "Using a laptop for studying and browsing, and presumably a smartphone for mobile shopping."
       },
       "search_style_best_vs_first": {
         "value": "Best Product / First Product",
-        "confidence": "0.60",
-        "evidence": "Participant initially searches for the best products and then evaluates them."
+        "confidence": "0.50",
+        "evidence": "Sometimes looking for the 'best' product, but also willing to consider initial recommendations."
       },
       "price_preference_cheapest_vs_expensive": {
-        "value": "Cheapest Product / Most Expensive Product",
-        "confidence": "0.50",
-        "evidence": "Participant prioritizes value for money and is willing to compromise on features to stay within budget."
+        "value": "Cheapest Product",
+        "confidence": "0.60",
+        "evidence": "Prioritizes price when purchasing, indicating a preference for the cheapest product within acceptable quality."
       },
       "decision_factors": {
         "value": [
@@ -105,25 +102,23 @@
           "Price",
           "Reviews"
         ],
-        "confidence": "0.95",
-        "evidence": "Participant explicitly mentions considering webcam quality, brand reputation, price, and reviews when making purchasing decisions."
+        "confidence": "0.90",
+        "evidence": "Explicitly mentions these as factors in his webcam purchase and general shopping decisions."
       },
       "preferred_categories": {
         "value": [
           "Electronics",
           "Clothing",
-          "Software",
-          "Gadgets"
+          "Home Goods"
         ],
         "confidence": "0.70",
-        "evidence": "Participant purchases earphones, webcams, paint, shoes, and electronics."
+        "evidence": "Orders earphones, webcams, paints, and sandals – all falling under these categories."
       },
       "pain_points_and_or_challenges": {
-        "value": "Finding a webcam with the right angle and features",
+        "value": "Poor Webcam Angle, Limited Laptop Screen",
         "confidence": "1.00",
-        "evidence": "Participant returned the webcam due to the wide angle."
+        "evidence": "His purchase of a webcam was driven by the need for a larger screen and a problematic webcam angle."
       }
     }
-  },
-  "survey_data": "{\"Demographic Information\": {\"Gender\": \"Male\", \"Age\": \"25-34 years old\", \"City\": \"boston\", \"Education level\": \"Graduate degree or current grad student (MA, MS, MBA, etc.)\", \"Living situation\": \"living with friends\", \"Yearly household income or stipend\": \"Less than $25,000\", \"Employment status\": \"Student\"}, \"Self Description\": {\"Two sentence description\": \"I am a MS student at [ORG_MASKED] University studying data science. An absolute learner with curious mindset, always seeking to expand knowledge and improve.\"}, \"Shopping Preference\": {\"Online shopping frequency\": \"Less than once a month\", \"Monthly online shopping spend $\": \"20\", \"Amazon Prime membership\": \"No\", \"To what extent do you agree with the following statements\": {\"I tend to shop more during holidays.\": \"Strongly agree\", \"Online Ads attract my attention and are a good source of information.\": \"Somewhat agree\", \"I usually do a lot research (e.g. reading online reviews) before making purchase.\": \"Strongly disagree\", \"I prioritize delivery speed and delivery fee of the product.\": \"Somewhat disagree\", \"Getting high-quality online products is very important for me.\": \"Somewhat agree\", \"The more expensive online product brands are usually my choice.\": \"Somewhat disagree\", \"The more I learn about online products, the harder it seems to choose the best.\": \"Neither agree or disagree\", \"I shop quickly for online products, buying the first product or brand I find that seems good enough.\": \"Strongly disagree\", \"Once I find a brand I like, I stick with it.\": \"Neither agree or disagree\", \"I would buy a new or different brand of product just to see what it is like.\": \"Somewhat agree\", \"I enjoy shopping for online products just for the fun of it.\": \"Somewhat disagree\", \"I look carefully to find the best value for money when shopping online.\": \"Strongly agree\"}}, \"Personality\": {\"MBTI personality type\": \"\", \"Big Five Scores\": {\"Extraversion\": \"High\", \"Agreeableness\": \"Extremely high\", \"Conscientiousness\": \"Extremely high\", \"Emotional Stability\": \"Extremely high\", \"Intellect\": \"High\"}}}"
+  }
 }

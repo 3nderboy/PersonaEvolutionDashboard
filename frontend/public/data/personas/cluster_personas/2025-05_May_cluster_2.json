@@ -2,12 +2,12 @@
   "cluster_id": 2,
   "month": "2025-05 (May)",
   "cluster_name": "Decisive Buyer",
-  "generated_at": "2026-01-27T16:13:09.493856",
-  "user_count": 6,
+  "generated_at": "2026-01-30T16:51:36.220874",
+  "user_count": 3,
   "persona": {
     "title": {
-      "persona_name": "The Value-Driven Student",
-      "tagline": "Always seeking the best deal and most reliable product.",
+      "persona_name": "The Efficiency-Driven Professional",
+      "tagline": "Prioritizes value and speed in online purchases, focusing on clear options and reliable information.",
       "user_profiles": 3
     },
     "demographics": {
@@ -24,7 +24,7 @@
         "num_of_users_from_with_this_nationality": 3
       },
       "location_pattern": {
-        "value": "Boston",
+        "value": "Boston, California",
         "num_of_users_with_same_location_pattern": 3
       },
       "living_situation": {
@@ -42,21 +42,22 @@
     },
     "psychographics": {
       "goals": [
-        "Finding Quality Products",
-        "Convenience",
-        "Finding Reasonable Prices"
+        "Achieve career goals in data science",
+        "Maintain a structured lifestyle",
+        "Explore new technologies"
       ],
       "interests": [
-        "Computer Games",
-        "Shopping",
-        "Finance",
-        "AI",
-        "Data Management"
+        "Data Science",
+        "Artificial Intelligence",
+        "Technology",
+        "Travel",
+        "Fitness"
       ],
       "values": [
         "Quality",
-        "Value",
-        "Efficiency"
+        "Efficiency",
+        "Practicality",
+        "Convenience"
       ]
     },
     "shopping_behavior": {
@@ -66,36 +67,36 @@
       },
       "preferred_devices": [
         "Smartphone",
-        "Desktop"
+        "Laptop"
       ],
-      "search_style": "Prefers searching for 'Best Product' or 'First Product', indicating a strong desire for immediate solutions and top-rated options.",
-      "price_sensitivity": "Highly price-sensitive, prioritizing the cheapest product while still demanding quality and good reviews. They carefully evaluate value for money.",
-      "decision_style": "Makes decisions based on price, brand reputation, customer reviews, and availability, demonstrating a pragmatic and rational approach.",
+      "search_style": "Prefers 'Best Product' search to thoroughly evaluate all options before deciding, ensuring they're selecting the top-rated items available.",
+      "price_sensitivity": "Values a good balance between price and quality, primarily seeking the cheapest product that meets their core requirements, prioritizing value for money.",
+      "decision_style": "Makes quick decisions when presented with clear, concise options, reflecting a desire for efficiency and minimizing the time spent researching and comparing products.",
       "preferred_categories": [
         "Household Goods",
-        "Health & Wellness",
         "Electronics",
-        "Gift Items"
+        "Clothing",
+        "Health & Wellness"
       ],
       "common_pain_points": [
-        "Finding Reliable Products",
-        "Balancing Price and Quality"
+        "Decision fatigue due to overwhelming product choices",
+        "Difficulty quickly assessing product value and quality"
       ]
     },
-    "narrative": "The Value-Driven Student is a practical and analytical shopper constantly seeking the best possible product at the most reasonable price. They meticulously research options, prioritize reviews and ratings, and value efficiency in their purchasing decisions. Driven by a desire for quality and convenience, they are a key target for products offering demonstrable value and reliable performance."
+    "narrative": "The Decisive Buyer persona represents a highly active online shopper driven by efficiency and a need to quickly identify the best solutions. These users, largely graduate students and young professionals, are intensely focused on value and are prepared to invest time to evaluate options. The 'Decisive Buyer' cluster consistently demonstrates a high action density and option selection ratio, highlighting a prioritization of direct decision-making over extensive browsing. Ultimately, this persona seeks to streamline their shopping experience and quickly find products that align with their specific needs and goals, recognizing their time as a valuable resource."
   },
   "source_users": [
     {
       "user_id": "4363ae6f-d1a1-4790-abe3-ffab842ac201",
-      "summary": "Graduate Student Shopper"
+      "summary": "Student Shopper"
     },
     {
       "user_id": "47395b78-6336-4546-b97c-7becdf065356",
-      "summary": "Data Student"
+      "summary": "Data Analysis Student"
     },
     {
       "user_id": "b6a822a0-090b-4c1d-ac6e-da3bf4a2b643",
-      "summary": "Online Shopping Habits"
+      "summary": "Tech Professor"
     }
   ]
 }

@@ -2,52 +2,52 @@
   "user_id": "518a849c-3fd6-4aa0-87f2-bbbe3a622f0c",
   "profile": {
     "title": {
-      "user_name": "Participant",
+      "user_name": "Alex",
       "two_word_summary": "Research Student",
-      "confidence_overall": "0.95"
+      "confidence_overall": "0.90"
     },
     "demographics": {
       "age_range": {
         "value": "22-25",
-        "confidence": "0.98",
-        "evidence": "Participant's description as a 1st year Ph.D. student, typical age range for this level of study."
+        "confidence": "0.95",
+        "evidence": "Participant stated '1st year Ph, student' and 'very close to second year'."
       },
       "gender": {
         "value": "Male",
-        "confidence": "0.95",
-        "evidence": "Participant's language and references to hobbies (guitar, video games, dog)."
+        "confidence": "0.90",
+        "evidence": "Participant's language and interests align with typical male interests."
       },
       "nationality_background": {
         "value": "USA",
-        "confidence": "0.85",
-        "evidence": "Residence in Boston (USA)."
+        "confidence": "0.80",
+        "evidence": "Participant lives in Boston."
       },
       "location": {
-        "value": "Boston, MA",
+        "value": "Boston",
         "confidence": "1.00",
-        "evidence": "Explicitly stated location: 'live in Boston.'"
+        "evidence": "Participant explicitly states 'I live in Boston'."
       },
       "living_situation": {
         "value": "Living Alone",
-        "confidence": "1.00",
-        "evidence": "States: 'I live by myself.'"
+        "confidence": "0.95",
+        "evidence": "Participant states 'I'm living in a studio that is quite small. And however, it's close to school. Yeah. And oh, as I you, as I have said before, I live by myself.'"
       },
       "occupation": {
-        "value": "Ph.D. Student",
+        "value": "Graduate Student (Cryptography Research)",
         "confidence": "1.00",
-        "evidence": "Explicitly states: 'I am now a 1st year Ph.D. student.'"
+        "evidence": "Participant explicitly states '1st year Ph, student, yeah. Yeah, very close to second year. And I'm conducting research in the area of cryptography and mainly about proof building proof systems.'"
       },
       "education": {
-        "value": "Ph.D. Student",
-        "confidence": "1.00",
-        "evidence": "Explicitly states: 'I am now a 1st year Ph.D. student.'"
+        "value": "Ph.D. Candidate",
+        "confidence": "0.95",
+        "evidence": "Participant states '1st year Ph, student' and 'research in the area of cryptography'."
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Pursuing academic knowledge and research in cryptography, building proof systems, and potentially contributing to the field.",
+        "value": "Pursuing advanced knowledge in cryptography, developing proof systems, and potentially contributing to advancements in the field.",
         "confidence": "0.95",
-        "evidence": "References to research in cryptography, building proof systems, reading papers, and discussing with a professor."
+        "evidence": "Participant describes research on 'proof building proof systems' and reading papers to 'learn something'."
       },
       "interests": {
         "value": [
@@ -56,72 +56,70 @@
           "Cooking",
           "Guitar",
           "Video Games",
-          "Dogs"
+          "Socializing with Friends and Family"
         ],
-        "confidence": "0.90",
-        "evidence": "Explicit mentions of cryptography, proof systems, cooking, guitar, video games, and owning a dog."
+        "confidence": "0.85",
+        "evidence": "Participant mentions research in cryptography, reading papers about proof systems, mentions cooking, playing guitar, playing video games, and socializing."
       },
       "values": {
         "value": [
-          "Accuracy",
-          "Innovation",
+          "Intellectual Curiosity",
           "Efficiency",
-          "Community (family, friends)"
+          "Social Connection",
+          "Self-Improvement"
         ],
         "confidence": "0.80",
-        "evidence": "Desire for secure systems (accuracy), development of new systems (innovation), efficiency in problem-solving (efficiency), and reliance on family and friends for support (community)."
+        "evidence": "Implied by research focus, mentions efficient problem-solving, and engagement in hobbies and social activities."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
         "confidence": "0.75",
-        "evidence": "Mention of purchasing food, dog supplies, and potentially other items on a regular basis."
+        "evidence": "Participant browses social media for products and occasionally makes purchases."
       },
       "where_used_devices": {
         "value": [
           "Smartphone",
           "Desktop"
         ],
-        "confidence": "0.95",
-        "evidence": "States: 'browsing on my phone' and 'think, mainly I will be working on my computer.'"
+        "confidence": "0.90",
+        "evidence": "Participant mentions browsing social media and searching on Amazon using a phone and likely a computer."
       },
       "search_style_best_vs_first": {
         "value": "Best Product / First Product",
         "confidence": "0.60",
-        "evidence": "Preference for products that appear first in search results, influenced by social media advertisements and recommendations."
+        "evidence": "Participant describes looking for visually appealing products on social media and then searching for similar items on Amazon."
       },
       "price_preference_cheapest_vs_expensive": {
         "value": "Cheapest Product",
-        "confidence": "0.80",
-        "evidence": "Explicitly states: 'I choose the one with a very cheap price.'"
+        "confidence": "0.70",
+        "evidence": "Participant chooses products with the lowest prices, particularly when combined with positive reviews."
       },
       "decision_factors": {
         "value": [
           "Brand Reputation",
-          "Number of Positive Reviews",
-          "Functionality",
-          "Price"
+          "Positive Reviews",
+          "Price",
+          "Functionality"
         ],
-        "confidence": "0.90",
-        "evidence": "Prioritizes brand reputation, considers the number of positive reviews, evaluates functionality, and is mindful of price."
+        "confidence": "0.85",
+        "evidence": "Participant prioritizes brands, considers customer reviews, and looks for functional products (e.g., a food slicer)."
       },
       "preferred_categories": {
         "value": [
-          "Food & Cooking Supplies",
-          "Pet Supplies",
-          "Technology (Slicers)",
-          "Musical Instruments"
+          "Food & Beverage",
+          "Hobbies & Crafts",
+          "Technology"
         ],
-        "confidence": "0.85",
-        "evidence": "Purchases of food, dog supplies, a food slicer, and a guitar."
+        "confidence": "0.70",
+        "evidence": "Participant purchases food items, a food slicer, and mentions playing guitar and video games."
       },
       "pain_points_and_or_challenges": {
-        "value": "Difficulty slicing food, complex problem-solving in cryptography",
-        "confidence": "0.95",
-        "evidence": "Expresses annoyance at difficulty slicing food, and describes complex research in cryptography as requiring intuitive analysis and mathematics."
+        "value": "Difficulty with manual tasks (e.g., slicing food)",
+        "confidence": "0.90",
+        "evidence": "Participant explicitly states difficulty slicing food and seeks a product to address this."
       }
     }
-  },
-  "survey_data": "{\"Demographic Information\": {\"Gender\": \"Female\", \"Age\": \"18-24 years old\", \"City\": \"Boston\", \"Education level\": \"Doctoral degree or current doctoral student (PhD, JD, MD, DDS etc.)\", \"Living situation\": \"Live alone\", \"Yearly household income or stipend\": \"$25,000-$49,999\", \"Employment status\": \"Student\"}, \"Self Description\": {\"Two sentence description\": \"I am a PhD student in computer science, specializing in cryptography. My research focuses on proof systems. I often conduct theoretical research, write and prove formal security models. I also attend academic seminars, present my work at conferences, and join lab meetings to discuss research ideas and directions.\"}, \"Shopping Preference\": {\"Online shopping frequency\": \"Once to twice a week\", \"Monthly online shopping spend $\": \"200\", \"Amazon Prime membership\": \"Yes\", \"To what extent do you agree with the following statements\": {\"I tend to shop more during holidays.\": \"Strongly agree\", \"Online Ads attract my attention and are a good source of information.\": \"Somewhat disagree\", \"I usually do a lot research (e.g. reading online reviews) before making purchase.\": \"Somewhat agree\", \"I prioritize delivery speed and delivery fee of the product.\": \"Somewhat agree\", \"Getting high-quality online products is very important for me.\": \"Somewhat agree\", \"The more expensive online product brands are usually my choice.\": \"Neither agree or disagree\", \"The more I learn about online products, the harder it seems to choose the best.\": \"Strongly agree\", \"I shop quickly for online products, buying the first product or brand I find that seems good enough.\": \"Somewhat disagree\", \"Once I find a brand I like, I stick with it.\": \"Somewhat agree\", \"I would buy a new or different brand of product just to see what it is like.\": \"Somewhat disagree\", \"I enjoy shopping for online products just for the fun of it.\": \"Strongly agree\", \"I look carefully to find the best value for money when shopping online.\": \"Somewhat agree\"}}, \"Personality\": {\"MBTI personality type\": \"INFP\", \"Big Five Scores\": {\"Extraversion\": \"Low\", \"Agreeableness\": \"Extremely high\", \"Conscientiousness\": \"Medium\", \"Emotional Stability\": \"Low\", \"Intellect\": \"High\"}}}"
+  }
 }

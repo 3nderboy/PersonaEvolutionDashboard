@@ -2,79 +2,83 @@
   "cluster_id": 0,
   "month": "2025-03 (March)",
   "cluster_name": "Curious Browser",
-  "generated_at": "2026-01-27T16:08:09.855480",
-  "user_count": 3,
+  "generated_at": "2026-01-30T16:50:52.315081",
+  "user_count": 2,
   "persona": {
     "title": {
-      "persona_name": "The Diligent Explorer",
-      "tagline": "Always seeking value and new experiences, but overwhelmed by choice."
+      "persona_name": "The Research Explorer",
+      "tagline": "Driven by knowledge and options, constantly investigating and comparing products.",
+      "user_profiles": 0
     },
     "demographics": {
       "age_distribution": {
         "value": "21-34 years old",
-        "num_of_users_in_this_age": "2"
+        "num_of_users_in_this_age": 2
       },
       "gender_distribution": {
         "value": "Female",
-        "num_of_users_of_this_gender": "1"
+        "num_of_users_of_this_gender": 1
       },
       "nationality_background": {
         "value": "American",
-        "num_of_users_from_with_this_nationality": "2"
+        "num_of_users_from_with_this_nationality": 2
       },
       "location_pattern": {
-        "value": "California",
-        "num_of_users_with_same_location_pattern": "2"
+        "value": "Irvine, California",
+        "num_of_users_with_same_location_pattern": 1
       },
       "living_situation": {
-        "value": "Alone",
-        "num_of_users_with_this_living_situation_pattern": "1"
+        "value": "Living Alone",
+        "num_of_users_with_this_living_situation_pattern": 1
       },
       "occupation": {
         "value": "PhD Student",
-        "num_of_users_with_same_occupation_type": "1"
+        "num_of_users_with_same_occupation_type": 1
       },
       "education_level": {
-        "value": "Master's Degree or higher",
-        "num_of_users_with_same_education_level": "1"
+        "value": "PhD Candidate",
+        "num_of_users_with_same_education_level": 1
       }
     },
     "psychographics": {
       "goals": [
-        "Academic Success",
-        "Personal Growth"
+        "Pursuing advanced knowledge",
+        "Conducting research"
       ],
       "interests": [
-        "Travel",
-        "Technology"
+        "Research",
+        "Academic Work",
+        "Hiking"
       ],
       "values": [
-        "Value",
-        "Quality"
+        "Responsibility",
+        "Independence"
       ]
     },
     "shopping_behavior": {
       "frequency_pattern": {
         "value": "Weekly",
-        "num_of_users_with_this_frequency": "2"
+        "num_of_users_with_this_frequency": 2
       },
       "preferred_devices": [
         "Smartphone",
         "Desktop"
       ],
-      "search_style": "Prefers searching for 'Best' or 'First' product options, indicating a desire for top recommendations and frequently searches for products.",
-      "price_sensitivity": "Primarily driven by the cheapest product option, suggesting a focus on cost-effectiveness.",
-      "decision_style": "Makes purchasing decisions based on price, reviews, and product specifications, showcasing a methodical approach to evaluating products.",
+      "search_style": "Prefers 'First Product' search to make quick decisions and move on, driven by a need for efficiency and rapid information gathering.",
+      "price_sensitivity": "Values a 'Cheapest Product' to align with their budget-conscious PhD student lifestyle, prioritizing affordability without compromising on essential features.",
+      "decision_style": "Prefers 'Best Product' search to thoroughly evaluate all options before deciding, reflecting a desire for quality and a detailed understanding of their options.",
       "preferred_categories": [
+        "Home Goods",
         "Electronics",
-        "Home Goods"
+        "Hobbies",
+        "Clothing"
       ],
       "common_pain_points": [
-        "Overwhelming Options",
-        "Difficulty in Determining Quality"
+        "Bias in Sponsored Products",
+        "Difficulty in Assessing Product Suitability Without Hands-on Experience"
       ]
     },
-    "narrative": "The Diligent Explorer is a curious individual who enjoys exploring a wide range of products, often getting lost in the vast options available online. Driven by a desire for value and convenience, they’re frequently searching for the best deals and reliable recommendations, though they sometimes struggle to filter through the noise and find exactly what they need.  This user prioritizes price and brand reputation, looking for trustworthy choices that align with their personal aspirations."
+    "narrative": "The Curious Browser persona represents a highly engaged user who thrives on exploring a vast range of product options.  This individual, like those in the Curious Browser cluster, spends a significant amount of time examining product details and reading reviews. Driven by a desire for knowledge and a methodical approach to problem-solving, they consistently explore multiple product pages, seeking the 'best' or 'first' product based on their criteria.  This user prioritizes features and reviews to ensure a suitable purchase, often balancing convenience with a thorough evaluation process. "
   },
   "source_users": [
     {
@@ -83,7 +87,7 @@
     },
     {
       "user_id": "b6a822a0-090b-4c1d-ac6e-da3bf4a2b643",
-      "summary": "Online Shopping Habits"
+      "summary": "Tech Professor"
     }
   ]
 }

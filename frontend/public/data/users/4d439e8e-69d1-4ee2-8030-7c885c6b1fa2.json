@@ -2,127 +2,125 @@
   "user_id": "4d439e8e-69d1-4ee2-8030-7c885c6b1fa2",
   "profile": {
     "title": {
-      "user_name": "PhD Student - Alex",
-      "two_word_summary": "Research & Relax",
-      "confidence_overall": "0.85"
+      "user_name": "PhD Student - Sarah",
+      "two_word_summary": "Tech-savvy Researcher",
+      "confidence_overall": "0.95"
     },
     "demographics": {
       "age_range": {
         "value": "25-34",
-        "confidence": "0.95",
-        "evidence": "Participant states they are a PhD student, which aligns with this age range."
+        "confidence": "0.98",
+        "evidence": "Participant stated being a PhD student, a common age range for doctoral candidates."
       },
       "gender": {
         "value": "Female",
-        "confidence": "0.60",
-        "evidence": "Participant’s tone and expressed emotional responses during the interview suggest a female identity."
+        "confidence": "0.95",
+        "evidence": "Participant's language and self-description (e.g., 'my cat,' 'I cook for myself')."
       },
       "nationality_background": {
         "value": "USA",
-        "confidence": "0.90",
-        "evidence": "Participant lives in Pittsburgh, PA – a city in the United States."
+        "confidence": "0.85",
+        "evidence": "Participant lived in Pittsburgh, USA."
       },
       "location": {
         "value": "Pittsburgh, PA",
         "confidence": "1.00",
-        "evidence": "Explicitly stated in the transcript: \"I live in Pittsburgh.\""
+        "evidence": "Explicitly stated."
       },
       "living_situation": {
-        "value": "With Cat",
-        "confidence": "1.00",
-        "evidence": "Participant states: \"I live with my cat...\""
+        "value": "Living Alone",
+        "confidence": "0.90",
+        "evidence": "Stated 'I live with my cat in, and just like, you know, one b 1 b apartment.'"
       },
       "occupation": {
-        "value": "PhD Student, HCI Researcher",
+        "value": "PhD Student / HCI Researcher",
         "confidence": "1.00",
-        "evidence": "Participant explicitly identifies as a \"PhD student at [ORG_MASKED] University\" and mentions research in HCI."
+        "evidence": "Multiple direct statements: 'Phd student,' 'HCI,' 'research.'"
       },
       "education": {
         "value": "PhD",
         "confidence": "1.00",
-        "evidence": "Participant states they are a \"PhD student.\""
+        "evidence": "Explicitly stated."
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "To complete PhD research, maintain a healthy lifestyle (including pet care), and find relaxing activities.",
-        "confidence": "0.80",
-        "evidence": "Motivations revealed through discussions about research, pet health, cooking, and shopping as a stress reliever."
+        "value": "Improve pet health, reduce stress through relaxation techniques (online shopping), advance research in HCI.",
+        "confidence": "0.90",
+        "evidence": "Participant's motivations include ensuring their cat's digestive health, utilizing online shopping for stress relief, and pursuing research in HCI."
       },
       "interests": {
         "value": [
-          "Automated Vehicles Research",
-          "HCI",
-          "Cat Care",
-          "Cooking",
+          "Pet care",
+          "Online shopping",
+          "Technology",
+          "Research",
           "Skiing",
           "Audiobooks",
-          "Hiking",
-          "Online Shopping"
+          "Hiking"
         ],
-        "confidence": "0.75",
-        "evidence": "Explicitly stated interests throughout the transcript: \"Automated vehicles,\" \"HCI,\" \"cat care,\" specific hobbies (skiing, hiking), and shopping habits."
+        "confidence": "0.80",
+        "evidence": "Explicitly stated interests: cat care, online shopping, skiing, audiobooks, hiking."
       },
       "values": {
         "value": [
-          "Health & Wellbeing (for pet)",
-          "Self-Sufficiency (cooking)",
-          "Quality of Products",
-          "Relaxation"
+          "Health",
+          "Quality",
+          "Relaxation",
+          "Efficiency",
+          "Value"
         ],
-        "confidence": "0.70",
-        "evidence": "Values inferred from choices regarding pet care, cooking, product selection (ceramic bowls), and use of shopping as a relaxation method."
+        "confidence": "0.75",
+        "evidence": "Values inferred from preferences (ceramic vs. plastic bowls), desire for efficient research processes, seeking deals, and emphasizing quality reviews."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
-        "confidence": "0.90",
-        "evidence": "Participant states: \"I shop on Amazon like almost every week.\""
+        "confidence": "0.95",
+        "evidence": "Participant stated 'I shop on Amazon like almost every week.'"
       },
       "where_used_devices": {
         "value": [
           "Smartphone",
           "Desktop"
         ],
-        "confidence": "0.95",
-        "evidence": "Participant uses online shopping through a \"Smartphone\" and \"Desktop\"."
+        "confidence": "0.90",
+        "evidence": "Implied use of smartphones for browsing and desktop for detailed research and purchasing."
       },
       "search_style_best_vs_first": {
         "value": "Best Product",
-        "confidence": "0.70",
-        "evidence": "Participant initially searches for \"the one that I like\" and later focuses on finding \"ceramic slow eating bowls.\""
+        "confidence": "0.80",
+        "evidence": "Participantâ€™s focus on finding bowls that looked 'nice' and were 'ceramic.'"
       },
       "price_preference_cheapest_vs_expensive": {
         "value": "Cheapest Product",
         "confidence": "0.60",
-        "evidence": "Participant initially considered \"something that looks nice, but it's like over $20,\" indicating price sensitivity."
+        "evidence": "Initial consideration of price-friendly bowls, but ultimately prioritized ceramic quality."
       },
       "decision_factors": {
         "value": [
-          "Product Material (ceramic vs. plastic)",
-          "Pet Health",
-          "Reviews & Ratings",
+          "Ceramic quality",
+          "Pet health",
+          "Reviews",
           "Price"
         ],
-        "confidence": "0.85",
-        "evidence": "Participant’s concerns about plastic bowls and the need for reviews directly indicate these as decision factors."
+        "confidence": "0.95",
+        "evidence": "Participant's stated criteria: ceramic material, health benefits for the cat, reading reviews, and affordability."
       },
       "preferred_categories": {
         "value": [
-          "Pet Supplies",
-          "Personal Care Items",
-          "Home Goods"
+          "Pet supplies",
+          "Personal care products"
         ],
-        "confidence": "0.80",
-        "evidence": "Participant purchases a \"slow eating bowl for my cat\" and indicates buying \"personal care items\"."
+        "confidence": "1.00",
+        "evidence": "Explicitly stated purchases."
       },
       "pain_points_and_or_challenges": {
-        "value": "Misinformation on Amazon, difficulty distinguishing between plastic and ceramic bowls, lack of reliable reviews for sponsored products.",
-        "confidence": "0.90",
-        "evidence": "Participant’s frustration with finding true ceramic bowls and concerns about sponsored product reviews highlight these pain points."
+        "value": "Difficulty finding genuinely ceramic products on Amazon, misleading reviews, cat's eating habits.",
+        "confidence": "1.00",
+        "evidence": "Participantâ€™s frustration with plastic bowls, reliance on reviews, and concern for the cat's digestive health."
       }
     }
-  },
-  "survey_data": "{\"Demographic Information\": {\"Gender\": \"Female\", \"Age\": \"25-34 years old\", \"City\": \"Pittsburgh\", \"Education level\": \"Doctoral degree or current doctoral student (PhD, JD, MD, DDS etc.)\", \"Living situation\": \"\", \"Yearly household income or stipend\": \"$25,000-$49,999\", \"Employment status\": \"Student\"}, \"Self Description\": {\"Two sentence description\": \"I am a PhD student in human-computer interaction, specializing in user experience with automation systems. I improve the system by designing better interactive interfaces that facilitate human-automation communication. I design experiments and as well as interviews to collect user's objective behaviors and subjective responses. I also enjoy online shopping and love to seach for the best deals.\"}, \"Shopping Preference\": {\"Online shopping frequency\": \"Once to twice a week\", \"Monthly online shopping spend $\": \"500\", \"Amazon Prime membership\": \"Yes\", \"To what extent do you agree with the following statements\": {\"I tend to shop more during holidays.\": \"Strongly agree\", \"Online Ads attract my attention and are a good source of information.\": \"Somewhat disagree\", \"I usually do a lot research (e.g. reading online reviews) before making purchase.\": \"Strongly agree\", \"I prioritize delivery speed and delivery fee of the product.\": \"Neither agree or disagree\", \"Getting high-quality online products is very important for me.\": \"Strongly agree\", \"The more expensive online product brands are usually my choice.\": \"Strongly disagree\", \"The more I learn about online products, the harder it seems to choose the best.\": \"Strongly disagree\", \"I shop quickly for online products, buying the first product or brand I find that seems good enough.\": \"Strongly disagree\", \"Once I find a brand I like, I stick with it.\": \"Neither agree or disagree\", \"I would buy a new or different brand of product just to see what it is like.\": \"Strongly agree\", \"I enjoy shopping for online products just for the fun of it.\": \"Strongly agree\", \"I look carefully to find the best value for money when shopping online.\": \"Strongly agree\"}}, \"Personality\": {\"MBTI personality type\": \"ESFP\", \"Big Five Scores\": {\"Extraversion\": \"High\", \"Agreeableness\": \"Extremely high\", \"Conscientiousness\": \"High\", \"Emotional Stability\": \"Low\", \"Intellect\": \"Extremely high\"}}}"
+  }
 }

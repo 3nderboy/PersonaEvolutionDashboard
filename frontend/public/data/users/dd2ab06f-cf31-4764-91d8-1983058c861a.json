@@ -2,119 +2,124 @@
   "user_id": "dd2ab06f-cf31-4764-91d8-1983058c861a",
   "profile": {
     "title": {
-      "user_name": "PhD Student",
-      "two_word_summary": "Online Shopper",
-      "confidence_overall": "0.95"
+      "user_name": "PhD Student - Nashville",
+      "two_word_summary": "Online Shopper - Data",
+      "confidence_overall": "0.85"
     },
     "demographics": {
       "age_range": {
         "value": "25-34",
-        "confidence": "0.90",
-        "evidence": "Participant is a PhD student, suggesting an age range of approximately 25-34."
+        "confidence": "0.95",
+        "evidence": "Participant identifies as a second-year PhD student, suggesting a typical age range for doctoral studies."
       },
       "gender": {
         "value": "Female",
         "confidence": "0.60",
-        "evidence": "Based on purchase of makeup remover, a product typically associated with female consumers."
+        "evidence": "Based on purchase of 'hat for women' and makeup remover."
       },
       "nationality_background": {
         "value": "USA",
-        "confidence": "0.80",
-        "evidence": "Participant lives in Nashville, Tennessee - a city within the United States."
+        "confidence": "0.99",
+        "evidence": "Living in Nashville, Tennessee."
       },
       "location": {
         "value": "Nashville, Tennessee",
         "confidence": "1.00",
-        "evidence": "Explicitly stated in the transcript: 'i'm living in Nashville, Tennessee.'"
+        "evidence": "Explicitly stated in the transcript."
       },
       "living_situation": {
         "value": "With Roommate",
         "confidence": "1.00",
-        "evidence": "Explicitly stated in the transcript: 'i'm living in a condo with my roommate.'"
+        "evidence": "Explicitly stated in the transcript."
       },
       "occupation": {
         "value": "PhD Student",
         "confidence": "1.00",
-        "evidence": "Explicitly stated in the transcript: 'I'm a second year PhD student...'"
+        "evidence": "Explicitly stated in the transcript."
       },
       "education": {
-        "value": "PhD Level",
+        "value": "PhD Candidate",
         "confidence": "1.00",
-        "evidence": "Explicitly stated in the transcript: 'I'm a second year PhD, student...'"
+        "evidence": "Explicitly stated in the transcript."
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Convenience, Efficiency, Routine Maintenance",
-        "confidence": "0.75",
-        "evidence": "Participant frequently buys small, regularly used items like makeup remover, indicating a focus on convenience and efficiency.  The trip preparations highlight a need for efficient preparation."
+        "value": "Completing PhD research, managing time effectively, and self-care",
+        "confidence": "0.70",
+        "evidence": "References to research study, data analysis, and taking medicine suggests a focus on academic goals and well-being.  Also mention of planning for deadlines."
       },
       "interests": {
         "value": [
+          "Makeup",
+          "Research",
+          "Data Analysis",
           "Social Media",
-          "News",
-          "Shopping",
           "Travel"
         ],
-        "confidence": "0.80",
-        "evidence": "Participant mentioned browsing social media and news websites. They engage in online shopping and travel preparation."
+        "confidence": "0.65",
+        "evidence": "Purchase of makeup remover, mention of social media and news websites, and travel preparations."
       },
       "values": {
         "value": [
+          "Reliability",
           "Value for Money",
-          "Quality (when seeking familiar brands)",
-          "Trust in Reviews"
+          "Trustworthy Reviews",
+          "Convenience"
         ],
-        "confidence": "0.65",
-        "evidence": "Participant prioritized price and discounts, indicating a value for money.  They expressed a preference for familiar brands and a reliance on reviews, demonstrating a desire for quality and trustworthy products."
+        "confidence": "0.60",
+        "evidence": "Emphasis on brands, considering reviews, and prioritizing quick delivery from Amazon suggests an appreciation for these values."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
-        "confidence": "0.85",
-        "evidence": "Participant frequently purchases small items and uses online shopping as a regular activity, suggesting weekly shopping behavior."
+        "confidence": "0.75",
+        "evidence": "Shopping online for fun, frequent purchases of everyday items like makeup remover."
       },
       "where_used_devices": {
         "value": [
-          "Smartphone"
+          "Smartphone",
+          "Unknown"
         ],
-        "confidence": "1.00",
-        "evidence": "Participant states they 'use my phone to view some like social media or some news website.'"
+        "confidence": "0.80",
+        "evidence": "Participant uses their phone to view social media and shop online, implying smartphone use.  'Unknown' for other devices."
       },
       "search_style_best_vs_first": {
         "value": "First Product",
         "confidence": "0.70",
-        "evidence": "Participant describes browsing the first page of Amazon recommendations."
+        "evidence": "Starts with the first product on Amazon's page when searching for recommendations."
       },
       "price_preference_cheapest_vs_expensive": {
         "value": "Cheapest Product",
         "confidence": "0.60",
-        "evidence": "Participant prioritizes finding products on sale or with discounts."
+        "evidence": "Expresses a willingness to buy products quickly if the price is right."
       },
       "decision_factors": {
         "value": [
           "Price",
-          "Brand Familiarity",
-          "Review Ratings"
+          "Brand (when relevant)",
+          "Reviews",
+          "Convenience",
+          "Quality (based on reviews)"
         ],
-        "confidence": "0.90",
-        "evidence": "Participant explicitly mentions price as a factor and relies on reviews, particularly those with pictures."
+        "confidence": "0.85",
+        "evidence": "Explicitly mentions price and reviews as key factors.  Also indicates brand preference for certain product categories."
       },
       "preferred_categories": {
         "value": [
-          "Beauty & Personal Care",
-          "Travel Essentials"
+          "Makeup",
+          "Health & Personal Care",
+          "Travel Accessories"
         ],
-        "confidence": "0.80",
-        "evidence": "Purchase of makeup remover and items for travel indicate a preference for these categories."
+        "confidence": "0.90",
+        "evidence": "Purchases of makeup remover and hat for women, along with travel preparations."
       },
       "pain_points_and_or_challenges": {
-        "value": "Time constraints, Difficulty in researching higher-priced items",
-        "confidence": "0.70",
-        "evidence": "Participant highlights the time required to research expensive items like cameras."
+        "value": "Time constraints, balancing research with personal needs, managing complex research projects",
+        "confidence": "0.75",
+        "evidence": "Mention of research study, data analysis, scheduling, and taking medicine suggests these pain points."
       }
     }
-  },
-  "survey_data": "{\"Demographic Information\": {\"Gender\": \"Female\", \"Age\": \"25-34 years old\", \"City\": \"Nashville\", \"Education level\": \"Graduate degree or current grad student (MA, MS, MBA, etc.)\", \"Living situation\": \"roommate\", \"Yearly household income or stipend\": \"$25,000-$49,999\", \"Employment status\": \"Student\"}, \"Self Description\": {\"Two sentence description\": \"I am a PhD student in computer science, specializing in software engineering. I frequently conduct experiments, analyze human related datasets. I also attend academic seminars, present my findings at conferences, and participate in lab meetings to refine research directions. \"}, \"Shopping Preference\": {\"Online shopping frequency\": \"More than three times a week\", \"Monthly online shopping spend $\": \"100-500\", \"Amazon Prime membership\": \"Yes\", \"To what extent do you agree with the following statements\": {\"I tend to shop more during holidays.\": \"Strongly agree\", \"Online Ads attract my attention and are a good source of information.\": \"Somewhat agree\", \"I usually do a lot research (e.g. reading online reviews) before making purchase.\": \"Strongly agree\", \"I prioritize delivery speed and delivery fee of the product.\": \"Strongly agree\", \"Getting high-quality online products is very important for me.\": \"Strongly agree\", \"The more expensive online product brands are usually my choice.\": \"Somewhat agree\", \"The more I learn about online products, the harder it seems to choose the best.\": \"Neither agree or disagree\", \"I shop quickly for online products, buying the first product or brand I find that seems good enough.\": \"Somewhat disagree\", \"Once I find a brand I like, I stick with it.\": \"Somewhat disagree\", \"I would buy a new or different brand of product just to see what it is like.\": \"Neither agree or disagree\", \"I enjoy shopping for online products just for the fun of it.\": \"Strongly agree\", \"I look carefully to find the best value for money when shopping online.\": \"Strongly agree\"}}, \"Personality\": {\"MBTI personality type\": \"isfp\", \"Big Five Scores\": {\"Extraversion\": \"Medium\", \"Agreeableness\": \"High\", \"Conscientiousness\": \"Medium\", \"Emotional Stability\": \"Low\", \"Intellect\": \"Medium\"}}}"
+  }
 }

@@ -4,126 +4,127 @@
     "title": {
       "user_name": "Machine Learning Engineer",
       "two_word_summary": "Tech Enthusiast",
-      "confidence_overall": "0.95"
+      "confidence_overall": "0.90"
     },
     "demographics": {
       "age_range": {
         "value": "30-40",
-        "confidence": "0.90",
-        "evidence": "Participant stated 'I've been in this position for 2 years yearly.'"
+        "confidence": "0.95",
+        "evidence": "Participant states 'I've been in this position for 2 years yearly.'"
       },
       "gender": {
         "value": "Male",
-        "confidence": "0.85",
-        "evidence": "Implied from professional background and language used."
+        "confidence": "0.80",
+        "evidence": "Implied through conversational tone and references to family life."
       },
       "nationality_background": {
         "value": "USA",
-        "confidence": "0.95",
-        "evidence": "Living in California (Palo Alto)."
+        "confidence": "0.90",
+        "evidence": "Context of living in California."
       },
       "location": {
         "value": "Palo Alto, California",
         "confidence": "1.00",
-        "evidence": "Explicitly stated."
+        "evidence": "Explicitly stated: 'Currently, I'm in California, specifically in Palo Alto.'"
       },
       "living_situation": {
         "value": "With Family",
         "confidence": "1.00",
-        "evidence": "Explicitly stated."
+        "evidence": "Explicitly stated: 'So I live with my family.'"
       },
       "occupation": {
         "value": "Machine Learning Engineer",
         "confidence": "1.00",
-        "evidence": "Explicitly stated."
+        "evidence": "Explicitly stated: 'a machine learning engineer at a tech company.'"
       },
       "education": {
         "value": "PhD in HCI",
         "confidence": "0.95",
-        "evidence": "Explicitly stated."
+        "evidence": "Participant mentions being a 'like Hci researcher. So during my Phd. Life, I was also like.'"
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Continuous learning, professional development, maintaining a balanced lifestyle, exploring new experiences.",
+        "value": "Continuous Learning, Technical Growth, Personal Fulfillment, Enjoyment of Technology",
         "confidence": "0.85",
-        "evidence": "Participant mentions research, personal projects, road trips, desire to find 'something fun to do'."
+        "evidence": "References to 'small tasks related to some machine learning things', 'interesting restaurant', 'hosting parties', 'hanging out with friends', 'find something fun to do'."
       },
       "interests": {
         "value": [
           "Machine Learning",
+          "Technology",
           "Hiking",
           "Restaurants",
           "Socializing",
-          "Personal Projects",
-          "Technology"
+          "Gadgets"
         ],
-        "confidence": "0.90",
-        "evidence": "Explicitly stated: 'machine learning things', 'hiking hard', 'find an interesting restaurant', 'host some parties', 'personal project'."
+        "confidence": "0.75",
+        "evidence": "Explicitly mentioned activities like working on 'machine learning things', 'road trip', 'hiking', 'hanging out with friends', referring to 'gadgets'."
       },
       "values": {
         "value": [
-          "Quality",
-          "Convenience",
           "Organization",
-          "Personal Growth",
-          "Social Connection"
+          "Calmness",
+          "Efficiency",
+          "Personal Preference",
+          "Quality",
+          "Convenience"
         ],
         "confidence": "0.80",
-        "evidence": "Participant prioritizes quality for certain products, values organized task management, seeks personal growth and social connection."
+        "evidence": "Participant describes themselves as 'pretty calm', 'organized', 'enjoying a calm time', 'personal preference' regarding product choices."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
-        "confidence": "0.75",
-        "evidence": "Grocery shopping frequently, purchasing household items regularly."
+        "confidence": "0.70",
+        "evidence": "Participant regularly buys groceries and other necessities, suggesting a weekly or more frequent purchase pattern."
       },
       "where_used_devices": {
         "value": [
           "Smartphone",
+          "Tablet",
           "Desktop"
         ],
-        "confidence": "0.95",
-        "evidence": "Uses smartphone for quick purchases, uses desktop for more detailed research."
+        "confidence": "0.90",
+        "evidence": "Participant uses devices for online shopping and research."
       },
       "search_style_best_vs_first": {
-        "value": "Best Product / First Product",
-        "confidence": "0.60",
-        "evidence": "Searching for specific brands, prioritizing top-selling products."
+        "value": "Specific Keyword / Best Option",
+        "confidence": "0.80",
+        "evidence": "Participant explicitly states 'search for the keywords like, I have a specific brand of the toilet paper that I like.'"
       },
       "price_preference_cheapest_vs_expensive": {
-        "value": "Cheapest Product / Sometimes Expensive Product",
-        "confidence": "0.50",
-        "evidence": "Prioritizes quality over the lowest price for essential items, but willing to spend more on specialized items."
+        "value": "Quality over Cheapest",
+        "confidence": "0.85",
+        "evidence": "Participant prioritizes 'quality' and 'personal preference' when selecting products, indicating a preference for better products over the cheapest options."
       },
       "decision_factors": {
         "value": [
-          "Quality",
-          "Brand Reputation",
-          "Reviews",
-          "Functionality",
-          "Personal Preference"
+          "Product Quality",
+          "Personal Preference",
+          "Convenience",
+          "Price (Secondary)"
         ],
         "confidence": "0.90",
-        "evidence": "Consistently prioritizes quality, reads reviews, considers functionality, and relies heavily on personal preference."
+        "evidence": "Participant’s stated priorities consistently reflect these factors."
       },
       "preferred_categories": {
         "value": [
-          "Electronics",
-          "Household Goods",
           "Vitamin Supplements",
-          "Grocery"
+          "Toiletries",
+          "Electronics",
+          "Grocery Items",
+          "Household Supplies"
         ],
-        "confidence": "0.95",
-        "evidence": "Explicitly purchases electronics, household goods, vitamins, and groceries online."
+        "confidence": "0.80",
+        "evidence": "Participant’s purchasing history reflects these categories."
       },
       "pain_points_and_or_challenges": {
-        "value": "Time constraints for grocery shopping, difficulty finding detailed information on new products.",
-        "confidence": "0.80",
-        "evidence": "Expresses desire for convenient grocery delivery, struggles to find detailed information on new products without extensive research."
+        "value": "Time Constraints, Information Overload, Decision Fatigue",
+        "confidence": "0.70",
+        "evidence": "Participant mentions the time spent on research and the effort required to make purchase decisions."
       }
     }
-  },
-  "survey_data": "{\"Demographic Information\": {\"Gender\": \"Female\", \"Age\": \"25-34 years old\", \"City\": \"Palo Alto\", \"Education level\": \"Doctoral degree or current doctoral student (PhD, JD, MD, DDS etc.)\", \"Living situation\": \"\", \"Yearly household income or stipend\": \"$150,000 or more\", \"Employment status\": \"Full-time employee\"}, \"Self Description\": {\"Two sentence description\": \"I\\u2019m a machine learning engineer in a tech company\"}, \"Shopping Preference\": {\"Online shopping frequency\": \"Once to twice a week\", \"Monthly online shopping spend $\": \"2000\", \"Amazon Prime membership\": \"Yes\", \"To what extent do you agree with the following statements\": {\"I tend to shop more during holidays.\": \"Somewhat agree\", \"Online Ads attract my attention and are a good source of information.\": \"Somewhat agree\", \"I usually do a lot research (e.g. reading online reviews) before making purchase.\": \"Somewhat disagree\", \"I prioritize delivery speed and delivery fee of the product.\": \"Somewhat agree\", \"Getting high-quality online products is very important for me.\": \"Strongly disagree\", \"The more expensive online product brands are usually my choice.\": \"Strongly disagree\", \"The more I learn about online products, the harder it seems to choose the best.\": \"Somewhat disagree\", \"I shop quickly for online products, buying the first product or brand I find that seems good enough.\": \"Somewhat agree\", \"Once I find a brand I like, I stick with it.\": \"Strongly agree\", \"I would buy a new or different brand of product just to see what it is like.\": \"Somewhat agree\", \"I enjoy shopping for online products just for the fun of it.\": \"Strongly disagree\", \"I look carefully to find the best value for money when shopping online.\": \"Somewhat agree\"}}, \"Personality\": {\"MBTI personality type\": \"\", \"Big Five Scores\": {\"Extraversion\": \"Medium\", \"Agreeableness\": \"High\", \"Conscientiousness\": \"Medium\", \"Emotional Stability\": \"Medium\", \"Intellect\": \"High\"}}}"
+  }
 }
