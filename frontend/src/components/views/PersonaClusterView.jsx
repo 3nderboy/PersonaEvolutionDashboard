@@ -54,7 +54,7 @@ const InfoTooltip = ({ text }) => {
 };
 
 // Persona Detail Panel Component
-const PersonaDetailPanel = ({ persona, onClose, sessions = [], selectedMonth, onMonthChange, availableMonths = [], clusterPersona, monthlyMetricsData }) => {
+const PersonaDetailPanel = ({ persona, onClose, sessions = [], selectedMonth, onMonthChange, availableMonths = [], clusterPersona, monthlyMetricsData, monthlyData = {} }) => {
 
     // Filter sessions for this persona in this month
     const monthSessions = useMemo(() => {
@@ -152,21 +152,31 @@ const PersonaDetailPanel = ({ persona, onClose, sessions = [], selectedMonth, on
 
                         {/* Month Switcher inside Modal */}
                         <div className="flex gap-2 mt-4">
-                            {availableMonths.map(m => (
-                                <button
-                                    key={m}
-                                    onClick={() => onMonthChange && onMonthChange(m)}
-                                    className={`
-                                        px-3 py-1.5 rounded-lg text-xs font-medium transition-all
-                                        ${selectedMonth === m
-                                            ? 'bg-sky-500/20 text-sky-300 border border-sky-500/50'
-                                            : 'bg-slate-800 text-slate-400 border border-slate-700 hover:bg-slate-700 hover:text-white'
-                                        }
-                                    `}
-                                >
-                                    {m}
-                                </button>
-                            ))}
+                            {availableMonths.map(m => {
+                                // Check if cluster exists in this month
+                                const clusterExistsInMonth = monthlyData[m]?.clusters?.some(c => c.cluster_id === persona.cluster_id);
+                                const isDisabled = !clusterExistsInMonth;
+
+                                return (
+                                    <button
+                                        key={m}
+                                        onClick={() => !isDisabled && onMonthChange && onMonthChange(m)}
+                                        disabled={isDisabled}
+                                        className={`
+                                            px-3 py-1.5 rounded-lg text-xs font-medium transition-all
+                                            ${selectedMonth === m
+                                                ? 'bg-sky-500/20 text-sky-300 border border-sky-500/50'
+                                                : isDisabled
+                                                    ? 'bg-slate-900 text-slate-600 border border-slate-800 cursor-not-allowed opacity-50'
+                                                    : 'bg-slate-800 text-slate-400 border border-slate-700 hover:bg-slate-700 hover:text-white cursor-pointer'
+                                            }
+                                        `}
+                                        title={isDisabled ? `This cluster does not exist in ${m}` : ''}
+                                    >
+                                        {m}
+                                    </button>
+                                );
+                            })}
                         </div>
                     </div>
                     <button
@@ -856,6 +866,7 @@ const PersonaClusterView = () => {
                     availableMonths={sortedMonths}
                     clusterPersona={clusterPersonas[`${selectedMonth}_${selectedPersona.cluster_id}`]}
                     monthlyMetricsData={monthlyData[selectedMonth]?.clusters?.find(c => c.cluster_id === selectedPersona.cluster_id)}
+                    monthlyData={monthlyData}
                 />
             )}
 
