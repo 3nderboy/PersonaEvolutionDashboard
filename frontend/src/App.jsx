@@ -5,6 +5,7 @@ import DashboardLayout from './components/layout/DashboardLayout.jsx';
 import OverviewView from './components/views/OverviewView.jsx';
 import PersonaClusterView from './components/views/PersonaClusterView.jsx';
 import UserProfileView from './components/views/UserProfileView.jsx';
+import DocumentationView from './components/views/DocumentationView.jsx';
 
 // Main App Component
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
                         <Route path="/" element={<OverviewView />} />
                         <Route path="/personas" element={<PersonaClusterView />} />
                         <Route path="/users" element={<UserProfileView />} />
+                        <Route path="/documentation" element={<DocumentationView />} />
                         <Route path="*" element={<Navigate to="/" replace />} />
                     </Routes>
                 </DashboardLayout>

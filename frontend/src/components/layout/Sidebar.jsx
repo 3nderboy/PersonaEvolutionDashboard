@@ -28,6 +28,11 @@ const Sidebar = () => {
           <span className="text-xl mr-3">🎭</span>
           <span className="font-medium">User Profiles</span>
         </NavLink>
+
+        <NavLink to="/documentation" className={({ isActive }) => `flex items-center px-4 py-3 rounded-xl transition-all duration-200 group ${isActive ? 'bg-sky-500 text-white shadow-lg shadow-sky-500/25' : 'text-slate-400 hover:bg-slate-800 hover:text-white'}`}>
+          <span className="text-xl mr-3">📚</span>
+          <span className="font-medium">Documentation</span>
+        </NavLink>
       </nav>
 
       {/* Info */}
