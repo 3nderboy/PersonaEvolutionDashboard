@@ -3,122 +3,122 @@
   "profile": {
     "title": {
       "user_name": "Participant",
-      "two_word_summary": "Student Shopper",
+      "two_word_summary": "Tech-savvy Student",
       "confidence_overall": "0.85"
     },
     "demographics": {
       "age_range": {
         "value": "20-29",
         "confidence": "0.95",
-        "evidence": "Participant mentions being an active student at university, common age range for university students."
+        "evidence": "Participant describes using an Apple Watch and being comfortable with online shopping and newer electronics."
       },
       "gender": {
         "value": "Male",
-        "confidence": "0.60",
-        "evidence": "Participant's language and interests align with typical male student behavior (gym, sports, electronics)."
+        "confidence": "0.75",
+        "evidence": "Participant’s language and interests align with common male interests (gym, exploring tourist sites, sports)."
       },
       "nationality_background": {
         "value": "USA",
-        "confidence": "0.70",
-        "evidence": "Participant resides in Boston, USA."
+        "confidence": "0.90",
+        "evidence": "References to Boston, universities, and Amazon usage are consistent with a US demographic."
       },
       "location": {
-        "value": "Boston, USA",
+        "value": "Boston, MA",
         "confidence": "1.00",
-        "evidence": "Participant states ‘I’m calling based in Boston’."
+        "evidence": "Explicitly states ‘calling based in Boston’."
       },
       "living_situation": {
         "value": "With Friends",
-        "confidence": "0.80",
-        "evidence": "Participant states ‘I live with my friends in an apartment’."
+        "confidence": "0.95",
+        "evidence": "States ‘I live with my friends in an apartment’."
       },
       "occupation": {
-        "value": "Student",
+        "value": "Student (Computer Science)",
         "confidence": "1.00",
-        "evidence": "Participant states ‘I'm a Cs student at [ORG_MASKED] University’."
+        "evidence": "Identifies as a ‘Cs student at [ORG_MASKED] University’."
       },
       "education": {
-        "value": "University (Undergraduate)",
-        "confidence": "0.95",
-        "evidence": "Participant’s statement ‘I’m a Cs student’."
+        "value": "Undergraduate Degree (Computer Science)",
+        "confidence": "0.80",
+        "evidence": "Takes online courses and is a CS student."
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Convenience, affordability, maintaining a healthy lifestyle.",
-        "confidence": "0.75",
-        "evidence": "Participant’s purchasing decisions regarding price, quick purchases, gym visits, and interest in daily necessities."
+        "value": "To acquire useful technology and personal items, to maintain a healthy lifestyle, to explore new experiences.",
+        "confidence": "0.85",
+        "evidence": "Interested in electronics (Apple Watch), gym, exploring Boston, and buying daily necessities suggests a desire for practicality and self-improvement."
       },
       "interests": {
         "value": [
           "Electronics",
-          "Personal Health Care",
-          "Books",
-          "Sports/Fitness",
-          "Travel"
+          "Sports (gym, running, sports)",
+          "Travel/Tourism (Boston sites)",
+          "Personal Care Products",
+          "Technology"
         ],
-        "confidence": "0.85",
-        "evidence": "Participant’s purchase history (Apple Watch, humidifier, bottles), mentions of gym, restaurants, and exploration of tourist sites."
+        "confidence": "0.95",
+        "evidence": "Multiple references to Apple Watch, gym, exploring tourist sites, personal care products, and technology across the transcript."
       },
       "values": {
         "value": [
           "Value for Money",
-          "Brand Recognition",
           "Convenience",
-          "Social Connection"
+          "Brand Reliability",
+          "Practicality"
         ],
-        "confidence": "0.80",
-        "evidence": "Participant’s preference for discounted products, brand preference (Apple), quick purchasing decisions, and social activities with friends."
+        "confidence": "0.90",
+        "evidence": "Prioritizes price and brand when purchasing electronics, prefers fast delivery, and buys daily necessities."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
-        "confidence": "0.70",
-        "evidence": "Participant purchases a humidifier and books weekly."
+        "confidence": "0.75",
+        "evidence": "Frequently purchases items on Amazon, including a humidifier and books."
       },
       "where_used_devices": {
         "value": [
-          "Smartphone"
+          "Smartphone",
+          "Desktop"
         ],
-        "confidence": "1.00",
-        "evidence": "Participant states 'I just scroll down the Amazon toys and find like the best, I think, and I just bought it' using a smartphone."
+        "confidence": "0.90",
+        "evidence": "Uses a smartphone to browse and purchase items on Amazon, and describes using a desktop."
       },
       "search_style_best_vs_first": {
         "value": "Best Product",
         "confidence": "0.60",
-        "evidence": "Participant states 'I try to find that the one within that selected several within my budget’."
+        "evidence": "States he tries to find the ‘best’ product within his budget."
       },
       "price_preference_cheapest_vs_expensive": {
         "value": "Cheapest Product",
-        "confidence": "0.80",
-        "evidence": "Participant states ‘I think it's so dry in the winter. So I decide to buy a humidifier. I think my budget is less than 50’."
+        "confidence": "0.70",
+        "evidence": "Explicitly states he looks for products within his budget and prioritizes price."
       },
       "decision_factors": {
         "value": [
           "Price",
           "Brand",
-          "Color",
-          "Ratings",
-          "Sales"
+          "Reviews",
+          "Discount"
         ],
-        "confidence": "0.90",
-        "evidence": "Participant’s explanation of humidifier purchase (price, color, size), and electronics purchase (brand)."
+        "confidence": "0.95",
+        "evidence": "Consistently prioritizes price and brand, checks reviews, and looks for discounts."
       },
       "preferred_categories": {
         "value": [
           "Electronics",
-          "Personal Health Care",
+          "Personal Care Products",
           "Books",
           "Daily Necessities"
         ],
         "confidence": "1.00",
-        "evidence": "Participant’s purchase history covers these categories."
+        "evidence": "Explicitly lists these categories as frequently purchased items."
       },
       "pain_points_and_or_challenges": {
-        "value": "Overwhelmed by sponsored products",
-        "confidence": "0.85",
-        "evidence": "Participant explicitly states a negative view towards sponsored products and prefers to skip them."
+        "value": "Overwhelmed by sponsored products, reliance on quick purchase decisions.",
+        "confidence": "0.80",
+        "evidence": "Expresses a negative sentiment towards sponsored products and tends to make quick, impulsive purchases."
       }
     }
   }

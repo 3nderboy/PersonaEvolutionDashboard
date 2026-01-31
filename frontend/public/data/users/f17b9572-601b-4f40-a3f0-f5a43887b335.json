@@ -10,75 +10,76 @@
       "age_range": {
         "value": "25-34",
         "confidence": "0.95",
-        "evidence": "Participant is a graduate student, suggesting an age range of 25-34."
+        "evidence": "Participant's references to finishing a master's degree and using contact lenses suggests a likely age range."
       },
       "gender": {
         "value": "Female",
-        "confidence": "0.60",
-        "evidence": "Participant discusses contact lens dryness and needing recommendations from an optometrist, which is statistically more common in females."
+        "confidence": "0.70",
+        "evidence": "Participant's description of her daily routine and interest in eye drops, as well as her preference for certain color options for accessories (airpods case) suggests a female identity."
       },
       "nationality_background": {
         "value": "USA",
         "confidence": "0.90",
-        "evidence": "Participant lives in Cambridge, Massachusetts – a predominantly US location."
+        "evidence": "Participant's residence in Cambridge, Massachusetts, strongly implies US nationality."
       },
       "location": {
         "value": "Cambridge, Massachusetts",
         "confidence": "1.00",
-        "evidence": "Explicitly stated in the transcript: '…specifically in Cambridge, massachusetts…'"
+        "evidence": "Explicitly stated in the transcript: \"currently, I am living, I guess specifically in Cambridge, massachusetts\""
       },
       "living_situation": {
         "value": "With Roommate",
         "confidence": "1.00",
-        "evidence": "Explicitly stated in the transcript: '…I live with a roommate…'"
+        "evidence": "Participant states: \"I live with a roommate. Currently.\""
       },
       "occupation": {
-        "value": "Student / Part-time Work (Service Industry)",
+        "value": "Student / Part-time Tutor",
         "confidence": "0.95",
-        "evidence": "Participant states: '…I was a student, and I also do a little bit of like part time work as well. In the service industry…'"
+        "evidence": "Participant states: \"I was a student, and I also do a little bit of like part time work as well. In the service industry.\" and \"I do kind of like Zoom Meetings, and I specifically do like tutoring for, like English as a second language learners.\""
       },
       "education": {
-        "value": "Master's Degree (Computer Science)",
+        "value": "Master's Degree",
         "confidence": "1.00",
-        "evidence": "Participant states: '…I finished my master…'"
+        "evidence": "Participant states: \"so I was a student, and I just finished my master.\""
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Improve eyesight, pursue computer science research, and maintain a comfortable lifestyle.",
-        "confidence": "0.75",
-        "evidence": "Participant's interest in eye drops, research into HCI, and desire to 'see if there’s anything new' all contribute to these goals."
+        "value": "Achieving academic success, improving communication skills, maintaining eye health, exploring technology and new gadgets.",
+        "confidence": "0.80",
+        "evidence": "Participant’s studies, tutoring work, interest in eye drops, and purchasing games and phone cases all point towards these goals."
       },
       "interests": {
         "value": [
           "Computer Science",
-          "HCI",
+          "HCI (Human-Computer Interaction)",
           "Writing Tools",
-          "Yoga",
-          "Social Media",
+          "Online Learning",
           "Technology",
-          "Eye Drops"
+          "Gadgets",
+          "Social Media",
+          "Games"
         ],
-        "confidence": "0.80",
-        "evidence": "Participant’s major (Computer Science & HCI), specific research focus (writing tools), mention of exercises/yoga, and browsing social media, and purchase of eye drops"
+        "confidence": "0.90",
+        "evidence": "Participant’s major in Computer Science and Hci, her work with writing tools, and purchases of games and phone cases strongly indicate these interests. References to scrolling social media further supports this."
       },
       "values": {
         "value": [
-          "Value for Money",
-          "Quality",
+          "Value for Quality",
+          "Value for Price",
+          "Value for Reviews",
           "Convenience",
-          "Information",
-          "Practicality"
+          "Efficiency"
         ],
-        "confidence": "0.70",
-        "evidence": "Participant repeatedly prioritizes price and reading reviews; mentions checking product details and shipping options."
+        "confidence": "0.85",
+        "evidence": "Participant’s strong focus on price, reading reviews, checking product contents, and using Prime all indicate these values."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
-        "confidence": "0.65",
-        "evidence": "Participant frequently shops on Amazon, referencing both recent and past purchases (eye drops, phone cases, sponges)."
+        "confidence": "0.75",
+        "evidence": "Participant’s purchases of eye drops, sponges, and games suggest a regular shopping frequency."
       },
       "where_used_devices": {
         "value": [
@@ -86,42 +87,43 @@
           "Computer"
         ],
         "confidence": "1.00",
-        "evidence": "Participant uses a computer for research and coding and a smartphone for browsing and social media."
+        "evidence": "Participant’s use of Zoom, coding, and browsing Amazon on a computer, combined with her frequent use of her phone, indicates these devices."
       },
       "search_style_best_vs_first": {
         "value": "First Product",
-        "confidence": "0.70",
-        "evidence": "Participant states: ‘I don’t really browse Amazon. So I know what I want to buy’."
+        "confidence": "0.60",
+        "evidence": "Participant states she’ll do research outside of Amazon, and then she'll go to Amazon and choose the specific product."
       },
       "price_preference_cheapest_vs_expensive": {
         "value": "Cheapest Product",
-        "confidence": "0.85",
-        "evidence": "Participant consistently prioritizes the lowest price when making purchases."
+        "confidence": "0.80",
+        "evidence": "Participant’s stated focus on price as the most important factor, and her willingness to wait longer for non-Prime shipments, indicates a preference for the cheapest product."
       },
       "decision_factors": {
         "value": [
           "Price",
           "Product Reviews",
           "Product Quality",
-          "Quantity",
-          "Shipping Options"
+          "Shipping Time",
+          "Product Contents"
         ],
-        "confidence": "0.90",
-        "evidence": "Participant’s detailed explanation of purchasing criteria reflects these factors."
+        "confidence": "1.00",
+        "evidence": "Participant explicitly outlines these factors as influencing her purchasing decisions throughout the transcript."
       },
       "preferred_categories": {
         "value": [
-          "Tech Gadgets (Phone Cases, AirPods Cases)",
-          "Eye Drops",
-          "Office Supplies (Sponges)"
+          "Technology",
+          "Books",
+          "Gadgets",
+          "Accessories"
         ],
-        "confidence": "0.80",
-        "evidence": "Participant’s explicit purchases of these items."
+        "confidence": "0.90",
+        "evidence": "Participant’s purchases of eye drops, sponges, games, and phone cases indicate these categories are of interest."
       },
       "pain_points_and_or_challenges": {
-        "value": "Information overload, difficulty filtering sponsored products, ensuring product authenticity.",
-        "confidence": "0.75",
-        "evidence": "Participant expresses frustration with sponsored products and the need to double-check product details."
+        "value": "Information overload, difficulty comparing products, uncertainty about product quality.",
+        "confidence": "0.70",
+        "evidence": "Participant’s process of researching products both online and offline, coupled with her careful reading of reviews and checking product contents, highlights these pain points."
       }
     }
   }

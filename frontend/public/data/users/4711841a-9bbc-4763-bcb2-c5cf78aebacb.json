@@ -10,16 +10,16 @@
       "age_range": {
         "value": "20-25",
         "confidence": "0.95",
-        "evidence": "Participant is a student, common age range for college students."
+        "evidence": "Participant’s description of being a student at university, typical student activity and purchase habits align with this age range."
       },
       "gender": {
         "value": "Male",
-        "confidence": "0.90",
-        "evidence": "Participant states he lives with his boyfriend."
+        "confidence": "0.80",
+        "evidence": "Participant describes living with a boyfriend."
       },
       "nationality_background": {
         "value": "USA",
-        "confidence": "0.98",
+        "confidence": "0.90",
         "evidence": "Participant lives in San Jose, California."
       },
       "location": {
@@ -35,62 +35,62 @@
       "occupation": {
         "value": "Student",
         "confidence": "1.00",
-        "evidence": "Participant states he is a student at [ORG_MASKED] University."
+        "evidence": "Participant explicitly states he is a student at [ORG_MASKED] University."
       },
       "education": {
-        "value": "University (Bachelor's)",
-        "confidence": "0.85",
-        "evidence": "Participant is a student at a university."
+        "value": "University Undergraduate",
+        "confidence": "0.95",
+        "evidence": "Participant attends [ORG_MASKED] University."
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Convenience, Solving immediate needs, Finding solutions quickly",
+        "value": "Convenience and quick solutions to immediate needs",
         "confidence": "0.90",
-        "evidence": "Participant frequently uses Amazon for convenience, highlights speed of delivery and finding items not available locally."
+        "evidence": "Participant prioritizes speed of delivery, searches directly on Amazon, and often makes impulsive purchases without extensive research."
       },
       "interests": {
         "value": [
           "Snowboarding",
           "Technology",
-          "Household Gadgets"
+          "Home Maintenance"
         ],
         "confidence": "0.75",
-        "evidence": "Participant mentions snowboarding and purchasing electronic gadgets like humidifiers and water filters. Mentions technology use regarding searching for products."
+        "evidence": "Participant frequently mentions snowboarding and purchasing items like humidifiers and drain cleaners.  References to technology (Amazon Prime) indicates tech interest."
       },
       "values": {
         "value": [
           "Efficiency",
           "Practicality",
-          "Value"
+          "Convenience"
         ],
-        "confidence": "0.70",
-        "evidence": "Participant prioritizes fast delivery, doesn't spend much time researching products, and focuses on purchasing items that solve immediate problems."
+        "confidence": "0.85",
+        "evidence": "Participant’s actions reflect a prioritization of these values: quick delivery, direct searches, and reliance on Amazon for convenience."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
         "confidence": "0.70",
-        "evidence": "Participant describes purchasing household necessities and gadgets on a regular basis."
+        "evidence": "Participant regularly purchases household items and accessories like humidifiers and drain cleaners, suggesting frequent online shopping."
       },
       "where_used_devices": {
         "value": [
           "Smartphone",
-          "Tablet"
+          "Desktop"
         ],
         "confidence": "0.80",
-        "evidence": "Participant uses Amazon on a smartphone and likely a tablet given his description of searching for products."
+        "evidence": "Participant uses Amazon on both smartphones and desktop computers."
       },
       "search_style_best_vs_first": {
-        "value": "First Product",
-        "confidence": "0.85",
-        "evidence": "Participant often selects the top recommendations on Amazon without significant research."
+        "value": "First",
+        "confidence": "0.70",
+        "evidence": "Participant states he often chooses the top recommendations on Amazon without conducting extensive searches."
       },
       "price_preference_cheapest_vs_expensive": {
         "value": "Cheapest Product",
-        "confidence": "0.75",
-        "evidence": "Participant's focus on convenience and speed drives him to prioritize the most affordable options."
+        "confidence": "0.60",
+        "evidence": "Participant frequently prioritizes the most convenient and readily available options, rather than seeking out the cheapest."
       },
       "decision_factors": {
         "value": [
@@ -98,22 +98,22 @@
           "Speed of Delivery",
           "Availability"
         ],
-        "confidence": "0.95",
-        "evidence": "Participant repeatedly emphasizes the importance of these factors in his purchasing decisions."
+        "confidence": "0.90",
+        "evidence": "Participant's decision-making is heavily influenced by these factors, as reflected in his reliance on Amazon Prime and direct searches."
       },
       "preferred_categories": {
         "value": [
-          "Household Supplies",
+          "Household Goods",
           "Electronics",
           "Sports Equipment"
         ],
         "confidence": "0.80",
-        "evidence": "Participant's purchases include humidifiers, water filters, and snowboarding gear."
+        "evidence": "Participant purchases items such as humidifiers, drain cleaners, and snowboarding equipment."
       },
       "pain_points_and_or_challenges": {
-        "value": "Limited time, difficulty finding specific items locally",
-        "confidence": "0.90",
-        "evidence": "Participant states he needs items 'fast' and cannot find them in local stores."
+        "value": "Lack of time for detailed research, impulsive purchases",
+        "confidence": "0.95",
+        "evidence": "Participant explicitly states he doesn’t want to spend time reading reviews and often makes spontaneous purchases based on immediate needs."
       }
     }
   }

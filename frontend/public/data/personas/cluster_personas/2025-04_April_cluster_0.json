@@ -2,12 +2,12 @@
   "cluster_id": 0,
   "month": "2025-04 (April)",
   "cluster_name": "Curious Browser",
-  "generated_at": "2026-01-30T16:50:16.305523",
+  "generated_at": "2026-01-31T13:56:03.033237",
   "user_count": 23,
   "persona": {
     "title": {
-      "persona_name": "The Research Explorer",
-      "tagline": "A detail-oriented shopper driven by continuous learning and value.",
+      "persona_name": "The Data-Driven Explorer",
+      "tagline": "A tech-savvy individual constantly seeking the best value and exploring new technologies.",
       "user_profiles": 23
     },
     "demographics": {
@@ -21,64 +21,64 @@
       },
       "nationality_background": {
         "value": "American",
-        "num_of_users_from_with_this_nationality": 22
+        "num_of_users_from_with_this_nationality": 21
       },
       "location_pattern": {
-        "value": "Boston, MA",
-        "num_of_users_with_same_location_pattern": 15
+        "value": "Boston",
+        "num_of_users_with_same_location_pattern": 12
       },
       "living_situation": {
-        "value": "Living with Others",
-        "num_of_users_with_this_living_situation_pattern": 14
+        "value": "Living with Roommates",
+        "num_of_users_with_this_living_situation_pattern": 15
       },
       "occupation": {
-        "value": "Data Science Student",
-        "num_of_users_with_same_occupation_type": 10
+        "value": "Student",
+        "num_of_users_with_same_occupation_type": 19
       },
       "education_level": {
         "value": "Master's Degree",
-        "num_of_users_with_same_education_level": 17
+        "num_of_users_with_same_education_level": 18
       }
     },
     "psychographics": {
       "goals": [
-        "Career Advancement",
-        "Continuous Learning"
+        "Career progression in Data Science",
+        "Continuous learning and skill development"
       ],
       "interests": [
         "Data Science",
         "Technology",
-        "Physical Activity"
+        "Hackathons"
       ],
       "values": [
         "Quality",
-        "Brand Reputation",
-        "Value for Money"
+        "Value for Money",
+        "Brand Reputation"
       ]
     },
     "shopping_behavior": {
       "frequency_pattern": {
         "value": "Weekly",
-        "num_of_users_with_this_frequency": 20
+        "num_of_users_with_this_frequency": 21
       },
       "preferred_devices": [
         "Smartphone",
         "Desktop"
       ],
-      "search_style": "Prefers 'Best Product' search to thoroughly evaluate all options before deciding, prioritizing detailed specifications and positive user reviews.",
-      "price_sensitivity": "Values products with a strong brand reputation and a competitive price point, actively seeking deals and discounts.",
-      "decision_style": "Makes purchasing decisions based on a combination of quality, brand, and price, often consulting online reviews to mitigate uncertainty.",
+      "search_style": "Prefers 'Best Product' search to thoroughly evaluate all options before deciding, demonstrating a strong desire for information and comparison.",
+      "price_sensitivity": "Values both quality and price, actively seeking the cheapest product while prioritizing established brands and positive reviews.",
+      "decision_style": "Primarily driven by brand reputation, price, user reviews, and product compatibility, highlighting a cautious and research-oriented decision-making process.",
       "preferred_categories": [
         "Electronics",
         "Clothing",
         "Home Goods"
       ],
       "common_pain_points": [
-        "Difficulty comparing product specifications online",
-        "Information overload when researching new technologies"
+        "Finding webcams with the correct angle and image quality",
+        "Dealing with sponsored product recommendations"
       ]
     },
-    "narrative": "The Research Explorer represents a key segment within the Curious Browser cluster – individuals driven by a strong desire for continuous learning and exploration.  These users are typically data science students or professionals who meticulously investigate product details, prioritizing quality and brand reputation alongside affordability.  They're constantly seeking out the 'best product' through extensive searches, fueled by a need to stay informed and make well-considered purchasing decisions.  This inquisitive nature, combined with their active exploration of multiple product pages, aligns perfectly with the behavioral patterns observed in the Curious Browser cluster, indicating a genuine interest in discovering new technologies and solutions."
+    "narrative": "The Curious Browser persona represents a tech-savvy individual in their late 20s, consistently exploring online options and prioritizing the best value. This user spends a significant amount of time researching products across various categories, driven by a desire for both quality and cost-effectiveness.  Their frequent browsing, especially their intense use of 'Best Product' searches, reflects a desire for thorough information and comparison. This individual is constantly seeking to expand their knowledge and skills, especially within the field of data science and emerging technologies, making them a valuable target for companies offering innovative solutions."
   },
   "source_users": [
     {
@@ -87,7 +87,7 @@
     },
     {
       "user_id": "03a4f3ea-bfb7-4ba9-a7e5-5033f6958ce1",
-      "summary": "Tech-savvy Researcher"
+      "summary": "Tech-savvy Student"
     },
     {
       "user_id": "2a543033-db85-4372-a66f-741945f7337a",
@@ -99,7 +99,7 @@
     },
     {
       "user_id": "3a65c43e-e4e3-4280-8ea3-526cc99b9553",
-      "summary": "PhD Student"
+      "summary": "Engineering Student"
     },
     {
       "user_id": "3f39da26-3cd2-4290-b84c-667762cc59fa",
@@ -115,7 +115,7 @@
     },
     {
       "user_id": "4f0dc364-02a1-4090-b1ab-ed67c003b546",
-      "summary": "Tech Research User"
+      "summary": "Tech & Health"
     },
     {
       "user_id": "518a849c-3fd6-4aa0-87f2-bbbe3a622f0c",
@@ -123,7 +123,7 @@
     },
     {
       "user_id": "5632b752-29ff-4501-9a85-10490d494777",
-      "summary": "PhD Student Shopping"
+      "summary": "Data-Driven Scholar"
     },
     {
       "user_id": "58c72f67-93ab-4fd9-a561-90882899e72c",
@@ -131,23 +131,23 @@
     },
     {
       "user_id": "677a4341-6b9b-4acc-8d42-8c9189bdb429",
-      "summary": "Busy Researcher"
+      "summary": "Tech-savvy Gamer"
     },
     {
       "user_id": "680c63e0-6620-465b-a9ad-2a187fdf481e",
-      "summary": "Tech Educator Relaxed"
+      "summary": "Tech Professor"
     },
     {
       "user_id": "74b9cc8a-a89a-4e2a-941a-6e89b42e18bf",
-      "summary": "Student Shopper"
+      "summary": "Tech-savvy Student"
     },
     {
       "user_id": "7f0c8207-6a6f-49cd-9d7e-17987cfafcb9",
-      "summary": "Tech Enthusiast Learner"
+      "summary": "Tech Enthusiast Researcher"
     },
     {
       "user_id": "85aeec61-2d4e-489d-93bf-76c928d2d795",
-      "summary": "Analytical Researcher"
+      "summary": "Academic Researcher"
     },
     {
       "user_id": "9f15f02a-4e02-4920-8065-4feb712032d7",
@@ -155,7 +155,7 @@
     },
     {
       "user_id": "b6a822a0-090b-4c1d-ac6e-da3bf4a2b643",
-      "summary": "Tech Professor"
+      "summary": "Tech Professor Shopping"
     },
     {
       "user_id": "d0440235-fc42-4bfe-89ca-efe949a44287",
@@ -167,11 +167,11 @@
     },
     {
       "user_id": "dd4fa2e8-9892-444c-ac53-f5f41751c14c",
-      "summary": "Data Researcher"
+      "summary": "Data Focused Researcher"
     },
     {
       "user_id": "fa0c574d-59f9-4dd8-aa8b-47c90f219b83",
-      "summary": "Tech Student Shopper"
+      "summary": "Student Shopper"
     }
   ]
 }

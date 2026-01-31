@@ -5,8 +5,8 @@
     "description": "Explores many product pages",
     "session_count": 116,
     "centroid": {
-      "pca_x": 0.40279623389565855,
-      "pca_y": -0.1470061718992556
+      "pca_x": 0.40279623389565866,
+      "pca_y": -0.14700617189925563
     },
     "behavioral_metrics": {
       "session_duration_seconds": {
@@ -82,7 +82,7 @@
     "session_count": 86,
     "centroid": {
       "pca_x": -0.5181000304065515,
-      "pca_y": -0.16261578056224196
+      "pca_y": -0.16261578056224213
     },
     "behavioral_metrics": {
       "session_duration_seconds": {
@@ -157,8 +157,8 @@
     "description": "High purchase intent with detailed product customization",
     "session_count": 80,
     "centroid": {
-      "pca_x": -0.6426111992712114,
-      "pca_y": 0.32081892462065825
+      "pca_x": -0.6426111992712117,
+      "pca_y": 0.3208189246206584
     },
     "behavioral_metrics": {
       "session_duration_seconds": {
@@ -233,8 +233,8 @@
     "description": "Focuses on product reviews before deciding",
     "session_count": 86,
     "centroid": {
-      "pca_x": 0.4121820867143573,
-      "pca_y": 0.5295173900687646
+      "pca_x": 0.4121820867143572,
+      "pca_y": 0.5295173900687645
     },
     "behavioral_metrics": {
       "session_duration_seconds": {
@@ -309,8 +309,8 @@
     "description": "Heavy search and text input usage",
     "session_count": 69,
     "centroid": {
-      "pca_x": 0.19990544880187333,
-      "pca_y": -0.5821208180710136
+      "pca_x": 0.19990544880187344,
+      "pca_y": -0.5821208180710133
     },
     "behavioral_metrics": {
       "session_duration_seconds": {

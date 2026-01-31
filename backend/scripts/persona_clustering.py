@@ -13,11 +13,9 @@ Output: JSON files for dashboard consumption
 """
 
 import json
-import os
 import traceback
 from datetime import datetime
-from pathlib import Path
-from typing import Dict, List, Tuple, Any
+from typing import Dict, List, Tuple
 
 import numpy as np
 import pandas as pd
@@ -27,49 +25,48 @@ from sklearn.preprocessing import QuantileTransformer
 from sklearn.metrics import silhouette_score
 from tqdm import tqdm
 
-# --- CONFIGURATION ---
-BASE_DIR = Path(__file__).parent.parent
-DATA_DIR = BASE_DIR / "data" / "NEU-HAI__OPeRA"
-OUTPUT_DIR = BASE_DIR.parent / "frontend" / "public" / "data" / "personas"
+from config import (
+    SESSION_CSV,
+    ACTION_CSV,
+    USER_CSV,
+    PERSONAS_DIR,
+    CLUSTER_CONFIG,
+)
+from utils import Logger
 
-# Use filtered version (cleaner action space: click, input, terminate)
-SESSION_PATH = DATA_DIR / "filtered_session" / "train.csv"
-ACTION_PATH = DATA_DIR / "filtered_action" / "train.csv"
-USER_PATH = DATA_DIR / "filtered_user" / "train.csv"
-
-# Clustering parameters
-MIN_CLUSTERS = 5
-MAX_CLUSTERS = 5
-RANDOM_STATE = 42
+# Clustering parameters from config
+MIN_CLUSTERS = CLUSTER_CONFIG["min_clusters"]
+MAX_CLUSTERS = CLUSTER_CONFIG["max_clusters"]
+RANDOM_STATE = CLUSTER_CONFIG["random_state"]
 
 
 # =============================================================================
 # PHASE 1: DATA LOADING AND VALIDATION
 # =============================================================================
 
-def load_datasets() -> Tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
+def load_datasets(log: Logger) -> Tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
     """Load and validate OPeRA datasets."""
-    print("Loading datasets...")
+    log.info("Loading datasets...")
     
     action_cols = [
         'session_id', 'action_id', 'timestamp', 'action_type', 
         'click_type', 'input_text', 'rationale', 'products'
     ]
     
-    df_sessions = pd.read_csv(SESSION_PATH)
-    df_actions = pd.read_csv(ACTION_PATH, usecols=lambda c: c in action_cols)
-    df_users = pd.read_csv(USER_PATH)
+    df_sessions = pd.read_csv(SESSION_CSV)
+    df_actions = pd.read_csv(ACTION_CSV, usecols=lambda c: c in action_cols)
+    df_users = pd.read_csv(USER_CSV)
     
-    print(f"  Sessions: {len(df_sessions)} rows")
-    print(f"  Actions: {len(df_actions)} rows")
-    print(f"  Users: {len(df_users)} rows")
+    log.detail("Sessions", f"{len(df_sessions)} rows")
+    log.detail("Actions", f"{len(df_actions)} rows")
+    log.detail("Users", f"{len(df_users)} rows")
     
     return df_sessions, df_actions, df_users
 
 
-def parse_session_timestamps(df_sessions: pd.DataFrame) -> pd.DataFrame:
+def parse_session_timestamps(df_sessions: pd.DataFrame, log: Logger) -> pd.DataFrame:
     """Extract start/end times and assign to 3 equal-sized time periods (tertiles)."""
-    print("Parsing session timestamps...")
+    log.info("Parsing session timestamps...")
     
     def extract_times(session_id: str) -> Tuple[str, str]:
         parts = session_id.split('_')
@@ -98,7 +95,7 @@ def parse_session_timestamps(df_sessions: pd.DataFrame) -> pd.DataFrame:
     # Filter to valid timestamps
     valid_mask = df_sessions['start_dt'].notna()
     df_valid = df_sessions[valid_mask].copy()
-    print(f"  Valid sessions with timestamps: {len(df_valid)}/{len(df_sessions)}")
+    log.detail("Valid sessions", f"{len(df_valid)}/{len(df_sessions)}")
     
     # Sort by start time for consistent processing
     df_valid = df_valid.sort_values('start_dt').reset_index(drop=True)
@@ -108,7 +105,7 @@ def parse_session_timestamps(df_sessions: pd.DataFrame) -> pd.DataFrame:
     
     # Report distribution
     period_counts = df_valid['month'].value_counts().sort_index()
-    print(f"  Period distribution: {dict(period_counts)}")
+    log.detail("Months", len(period_counts))
     
     return df_valid
 
@@ -117,7 +114,7 @@ def parse_session_timestamps(df_sessions: pd.DataFrame) -> pd.DataFrame:
 # PHASE 2: BEHAVIORAL KEY METRICS (BKMs)
 # =============================================================================
 
-def calculate_bkms(df_sessions: pd.DataFrame, df_actions: pd.DataFrame) -> pd.DataFrame:
+def calculate_bkms(df_sessions: pd.DataFrame, df_actions: pd.DataFrame, log: Logger) -> pd.DataFrame:
     """
     Calculate Behavioral Key Metrics for each session.
     
@@ -133,7 +130,7 @@ def calculate_bkms(df_sessions: pd.DataFrame, df_actions: pd.DataFrame) -> pd.Da
     9. option_selection_ratio - Purchase specification
     10. input_ratio - Active text entry
     """
-    print("Calculating Behavioral Key Metrics...")
+    log.info("Calculating Behavioral Key Metrics...")
     
     # Group actions by session
     session_groups = df_actions.groupby('session_id')
@@ -202,14 +199,14 @@ def calculate_bkms(df_sessions: pd.DataFrame, df_actions: pd.DataFrame) -> pd.Da
         bkm_records.append(bkm)
     
     df_bkm = pd.DataFrame(bkm_records)
-    print(f"  Computed BKMs for {len(df_bkm)} sessions")
+    log.success(f"Computed BKMs for {len(df_bkm)} sessions")
     
     return df_bkm
 
 
-def normalize_bkms(df_bkm: pd.DataFrame) -> Tuple[pd.DataFrame, QuantileTransformer, List[str]]:
+def normalize_bkms(df_bkm: pd.DataFrame, log: Logger) -> Tuple[pd.DataFrame, QuantileTransformer, List[str]]:
     """Normalize BKM values using Quantile Transformation (Percentile Ranks)."""
-    print("Normalizing BKMs (QuantileTransformer)...")
+    log.info("Normalizing BKMs (QuantileTransformer)...")
     
     bkm_columns = [
         'session_duration_seconds', 'action_density', 'total_action_count',
@@ -231,9 +228,9 @@ def normalize_bkms(df_bkm: pd.DataFrame) -> Tuple[pd.DataFrame, QuantileTransfor
 # PHASE 3: CLUSTERING
 # =============================================================================
 
-def find_optimal_clusters(X: np.ndarray) -> int:
+def find_optimal_clusters(X: np.ndarray, log: Logger) -> int:
     """Find optimal number of clusters using silhouette score."""
-    print("Finding optimal cluster count...")
+    log.info("Finding optimal cluster count...")
     
     scores = {}
     for k in range(MIN_CLUSTERS, MAX_CLUSTERS + 1):
@@ -241,22 +238,22 @@ def find_optimal_clusters(X: np.ndarray) -> int:
         labels = kmeans.fit_predict(X)
         score = silhouette_score(X, labels)
         scores[k] = score
-        print(f"  k={k}: silhouette={score:.4f}")
+        log.detail(f"k={k}", f"silhouette={score:.4f}")
     
     optimal_k = max(scores, key=scores.get)
-    print(f"  Optimal k={optimal_k} (silhouette={scores[optimal_k]:.4f})")
+    log.success(f"Optimal k={optimal_k} (silhouette={scores[optimal_k]:.4f})")
     
     return optimal_k
 
 
-def cluster_sessions(df_bkm_norm: pd.DataFrame, bkm_columns: List[str]) -> Tuple[pd.DataFrame, KMeans, int]:
+def cluster_sessions(df_bkm_norm: pd.DataFrame, bkm_columns: List[str], log: Logger) -> Tuple[pd.DataFrame, KMeans, int]:
     """Perform K-Means clustering on session BKM vectors."""
-    print("Clustering sessions...")
+    log.info("Clustering sessions...")
     
     X = df_bkm_norm[bkm_columns].values
     
     # Find optimal k
-    optimal_k = find_optimal_clusters(X)
+    optimal_k = find_optimal_clusters(X, log)
     
     # Fit final model
     kmeans = KMeans(n_clusters=optimal_k, random_state=RANDOM_STATE, n_init=10)
@@ -264,25 +261,24 @@ def cluster_sessions(df_bkm_norm: pd.DataFrame, bkm_columns: List[str]) -> Tuple
     
     # Report cluster sizes
     cluster_sizes = df_bkm_norm['cluster_id'].value_counts().sort_index()
-    print("  Cluster sizes:")
     for cluster_id, size in cluster_sizes.items():
-        print(f"    Cluster {cluster_id}: {size} sessions")
+        log.detail(f"Cluster {cluster_id}", f"{size} sessions")
     
     return df_bkm_norm, kmeans, optimal_k
 
 
-def compute_cluster_centroids(df_bkm_norm: pd.DataFrame, bkm_columns: List[str]) -> pd.DataFrame:
+def compute_cluster_centroids(df_bkm_norm: pd.DataFrame, bkm_columns: List[str], log: Logger) -> pd.DataFrame:
     """Compute mean BKM vector for each cluster."""
-    print("Computing cluster centroids...")
+    log.info("Computing cluster centroids...")
     
     centroids = df_bkm_norm.groupby('cluster_id')[bkm_columns].mean().reset_index()
     
     return centroids
 
 
-def apply_pca(df_bkm_norm: pd.DataFrame, centroids: pd.DataFrame, bkm_columns: List[str]) -> Tuple[pd.DataFrame, pd.DataFrame, PCA]:
+def apply_pca(df_bkm_norm: pd.DataFrame, centroids: pd.DataFrame, bkm_columns: List[str], log: Logger) -> Tuple[pd.DataFrame, pd.DataFrame, PCA]:
     """Apply PCA for 2D visualization."""
-    print("Applying PCA for visualization...")
+    log.info("Applying PCA for visualization...")
     
     pca = PCA(n_components=2, random_state=RANDOM_STATE)
     
@@ -297,7 +293,7 @@ def apply_pca(df_bkm_norm: pd.DataFrame, centroids: pd.DataFrame, bkm_columns: L
     centroids['pca_x'] = centroids_2d[:, 0]
     centroids['pca_y'] = centroids_2d[:, 1]
     
-    print(f"  Explained variance: {pca.explained_variance_ratio_.sum():.2%}")
+    log.detail("Explained variance", f"{pca.explained_variance_ratio_.sum():.2%}")
     
     return df_bkm_norm, centroids, pca
 
@@ -306,9 +302,9 @@ def apply_pca(df_bkm_norm: pd.DataFrame, centroids: pd.DataFrame, bkm_columns: L
 # PHASE 4: PERSONA CONSTRUCTION
 # =============================================================================
 
-def identify_cluster_traits(centroids: pd.DataFrame, df_bkm: pd.DataFrame, bkm_columns: List[str]) -> Dict[int, Dict]:
+def identify_cluster_traits(centroids: pd.DataFrame, df_bkm: pd.DataFrame, bkm_columns: List[str], log: Logger) -> Dict[int, Dict]:
     """Identify distinguishing traits for each cluster."""
-    print("Identifying cluster traits...")
+    log.info("Identifying cluster traits...")
     
     # Compute overall means and stds
     overall_mean = df_bkm[bkm_columns].mean()
@@ -399,9 +395,9 @@ def generate_persona_name(traits: Dict, cluster_id: int) -> Tuple[str, str]:
     return fallback_names[cluster_id % len(fallback_names)]
 
 
-def select_representative_sessions(df_bkm_norm: pd.DataFrame, centroids: pd.DataFrame, bkm_columns: List[str]) -> pd.DataFrame:
+def select_representative_sessions(df_bkm_norm: pd.DataFrame, centroids: pd.DataFrame, bkm_columns: List[str], log: Logger) -> pd.DataFrame:
     """Select session closest to centroid for each cluster."""
-    print("Selecting representative sessions...")
+    log.info("Selecting representative sessions...")
     
     representatives = []
     
@@ -429,10 +425,11 @@ def build_persona_profiles(
     representatives: pd.DataFrame,
     df_bkm_norm: pd.DataFrame,
     df_users: pd.DataFrame,
-    bkm_columns: List[str]
+    bkm_columns: List[str],
+    log: Logger
 ) -> List[Dict]:
     """Build complete persona profiles."""
-    print("Building persona profiles...")
+    log.info("Building persona profiles...")
     
     personas = []
     
@@ -489,9 +486,9 @@ def build_persona_profiles(
 # PHASE 5: MONTHLY AGGREGATION
 # =============================================================================
 
-def aggregate_by_month(df_bkm_norm: pd.DataFrame, bkm_columns: List[str]) -> Dict:
+def aggregate_by_month(df_bkm_norm: pd.DataFrame, bkm_columns: List[str], log: Logger) -> Dict:
     """Aggregate cluster data by month with z-scores and traits."""
-    print("Aggregating by month...")
+    log.info("Aggregating by month...")
     
     monthly_data = {}
     
@@ -501,18 +498,18 @@ def aggregate_by_month(df_bkm_norm: pd.DataFrame, bkm_columns: List[str]) -> Dic
         # Calculate monthly population statistics
         monthly_mean = month_sessions[bkm_columns].mean()
         monthly_std = month_sessions[bkm_columns].std()
-        
+
         cluster_positions = []
         for cluster_id in sorted(month_sessions['cluster_id'].unique()):
             cluster_data = month_sessions[month_sessions['cluster_id'] == cluster_id]
             
             # Calculate cluster averages for this month
             cluster_mean = cluster_data[bkm_columns].mean()
-            
+
             # Calculate z-scores: (cluster_mean - population_mean) / population_std
             behavioral_metrics = {}
             all_z_scores = []  # Track all z-scores for fallback
-            
+
             for col in bkm_columns:
                 z_score = (cluster_mean[col] - monthly_mean[col]) / (monthly_std[col] + 1e-6)
                 behavioral_metrics[col] = {
@@ -520,15 +517,15 @@ def aggregate_by_month(df_bkm_norm: pd.DataFrame, bkm_columns: List[str]) -> Dic
                     'z_score': float(z_score)
                 }
                 all_z_scores.append({'metric': col, 'z_score': float(z_score)})
-            
+
             # Identify distinguishing traits (|z| > 0.75)
             high_traits = [t for t in all_z_scores if t['z_score'] > 0.75]
             low_traits = [t for t in all_z_scores if t['z_score'] < -0.75]
-            
+
             # Sort traits by absolute z-score
             high_traits.sort(key=lambda x: x['z_score'], reverse=True)
             low_traits.sort(key=lambda x: x['z_score'])
-            
+
             # Ensure we always show at least top 2 traits, even if below threshold
             if len(high_traits) < 2:
                 # Get all traits sorted by z-score, take top ones not already in high_traits
@@ -536,14 +533,14 @@ def aggregate_by_month(df_bkm_norm: pd.DataFrame, bkm_columns: List[str]) -> Dic
                 for trait in all_sorted:
                     if trait not in high_traits and len(high_traits) < 2:
                         high_traits.append(trait)
-            
+
             if len(low_traits) < 2:
                 # Get all traits sorted by z-score ascending, take bottom ones not already in low_traits
                 all_sorted = sorted(all_z_scores, key=lambda x: x['z_score'])
                 for trait in all_sorted:
                     if trait not in low_traits and len(low_traits) < 2:
                         low_traits.append(trait)
-            
+
             cluster_positions.append({
                 'cluster_id': int(cluster_id),
                 'pca_x': float(cluster_data['pca_x'].mean()),
@@ -573,22 +570,23 @@ def generate_output(
     monthly_data: Dict,
     df_bkm_norm: pd.DataFrame,
     df_users: pd.DataFrame,
-    bkm_columns: List[str]
+    bkm_columns: List[str],
+    log: Logger
 ) -> None:
     """Generate JSON output files for dashboard."""
-    print("Generating output files...")
+    log.step(6, "Generating output files")
     
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    PERSONAS_DIR.mkdir(parents=True, exist_ok=True)
     
     # 1. Personas
-    with open(OUTPUT_DIR / "personas.json", 'w') as f:
+    with open(PERSONAS_DIR / "personas.json", 'w') as f:
         json.dump(personas, f, indent=2)
-    print(f"  Created: personas.json ({len(personas)} personas)")
+    log.success(f"personas.json ({len(personas)} personas)")
     
     # 2. Monthly cluster positions
-    with open(OUTPUT_DIR / "monthly_clusters.json", 'w') as f:
+    with open(PERSONAS_DIR / "monthly_clusters.json", 'w') as f:
         json.dump(monthly_data, f, indent=2)
-    print(f"  Created: monthly_clusters.json ({len(monthly_data)} months)")
+    log.success(f"monthly_clusters.json ({len(monthly_data)} months)")
     
     # 3. Session details (for drill-down)
     session_details = []
@@ -604,9 +602,9 @@ def generate_output(
         }
         session_details.append(session_record)
     
-    with open(OUTPUT_DIR / "sessions.json", 'w') as f:
+    with open(PERSONAS_DIR / "sessions.json", 'w') as f:
         json.dump(session_details, f, indent=2)
-    print(f"  Created: sessions.json ({len(session_details)} sessions)")
+    log.success(f"sessions.json ({len(session_details)} sessions)")
     
     # 4. Metadata with fixed PCA bounds
     pca_x_min = float(df_bkm_norm['pca_x'].min())
@@ -632,9 +630,9 @@ def generate_output(
         }
     }
     
-    with open(OUTPUT_DIR / "metadata.json", 'w') as f:
+    with open(PERSONAS_DIR / "metadata.json", 'w') as f:
         json.dump(metadata, f, indent=2)
-    print(f"  Created: metadata.json")
+    log.success("metadata.json")
 
 
 # =============================================================================
@@ -643,45 +641,51 @@ def generate_output(
 
 def run_pipeline():
     """Execute the full persona generation pipeline."""
-    print("=" * 60)
-    print("Behavioral Persona Generation Pipeline")
-    print("=" * 60)
+    log = Logger("persona_clustering")
+    log.header("Behavioral Persona Generation Pipeline")
     
     try:
         # Phase 1: Data Loading
-        df_sessions, df_actions, df_users = load_datasets()
-        df_sessions = parse_session_timestamps(df_sessions)
+        log.step(1, "Loading data")
+        df_sessions, df_actions, df_users = load_datasets(log)
+        df_sessions = parse_session_timestamps(df_sessions, log)
         
         # Phase 2: BKM Calculation
-        df_bkm = calculate_bkms(df_sessions, df_actions)
-        df_bkm_norm, scaler, bkm_columns = normalize_bkms(df_bkm)
+        log.step(2, "Calculating behavioral metrics")
+        df_bkm = calculate_bkms(df_sessions, df_actions, log)
+        df_bkm_norm, scaler, bkm_columns = normalize_bkms(df_bkm, log)
         
         # Phase 3: Clustering
-        df_bkm_norm, kmeans, optimal_k = cluster_sessions(df_bkm_norm, bkm_columns)
-        centroids = compute_cluster_centroids(df_bkm_norm, bkm_columns)
-        df_bkm_norm, centroids, pca = apply_pca(df_bkm_norm, centroids, bkm_columns)
+        log.step(3, "Clustering sessions")
+        df_bkm_norm, kmeans, optimal_k = cluster_sessions(df_bkm_norm, bkm_columns, log)
+        centroids = compute_cluster_centroids(df_bkm_norm, bkm_columns, log)
+        df_bkm_norm, centroids, pca = apply_pca(df_bkm_norm, centroids, bkm_columns, log)
         
         # Phase 4: Persona Construction
-        cluster_traits = identify_cluster_traits(centroids, df_bkm, bkm_columns)
-        representatives = select_representative_sessions(df_bkm_norm, centroids, bkm_columns)
+        log.step(4, "Constructing personas")
+        cluster_traits = identify_cluster_traits(centroids, df_bkm, bkm_columns, log)
+        representatives = select_representative_sessions(df_bkm_norm, centroids, bkm_columns, log)
         personas = build_persona_profiles(
             centroids, cluster_traits, representatives, 
-            df_bkm_norm, df_users, bkm_columns
+            df_bkm_norm, df_users, bkm_columns, log
         )
         
         # Phase 5: Monthly Aggregation
-        monthly_data = aggregate_by_month(df_bkm_norm, bkm_columns)
-        
+        log.step(5, "Aggregating by month")
+        monthly_data = aggregate_by_month(df_bkm_norm, bkm_columns, log)
+
         # Phase 6: Output
-        generate_output(personas, monthly_data, df_bkm_norm, df_users, bkm_columns)
+        generate_output(personas, monthly_data, df_bkm_norm, df_users, bkm_columns, log)
         
-        print("=" * 60)
-        print("Pipeline completed successfully!")
-        print(f"Output directory: {OUTPUT_DIR}")
-        print("=" * 60)
+        log.summary(
+            processed=len(df_bkm_norm),
+            skipped=0,
+            errors=0
+        )
+        log.info(f"Output: {PERSONAS_DIR}")
         
     except Exception as e:
-        print(f"Pipeline failed: {e}")
+        log.error(f"Pipeline failed: {e}")
         traceback.print_exc()
         raise
 

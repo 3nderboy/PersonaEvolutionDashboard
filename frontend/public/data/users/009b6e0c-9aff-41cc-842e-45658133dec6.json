@@ -2,25 +2,25 @@
   "user_id": "009b6e0c-9aff-41cc-842e-45658133dec6",
   "profile": {
     "title": {
-      "user_name": "Participant",
+      "user_name": "Participant [NAME_MASKED]",
       "two_word_summary": "Data Science Student",
       "confidence_overall": "0.95"
     },
     "demographics": {
       "age_range": {
-        "value": "25-34",
+        "value": "22-25",
         "confidence": "0.90",
-        "evidence": "Participant is pursuing a Master's degree, suggesting an age range of 25-34."
+        "evidence": "Participant is pursuing a Master's degree, which aligns with the typical age range for graduate students."
       },
       "gender": {
         "value": "Male",
-        "confidence": "0.80",
-        "evidence": "No explicit statement of gender, but the language and interests align with a male profile."
+        "confidence": "0.85",
+        "evidence": "Participant's language and demeanor during the interview suggests male identity."
       },
       "nationality_background": {
         "value": "USA",
         "confidence": "0.95",
-        "evidence": "Living in Boston, Massachusetts."
+        "evidence": "Participant lives in Boston, Massachusetts, indicating a background in the United States."
       },
       "location": {
         "value": "Boston, Massachusetts",
@@ -28,14 +28,14 @@
         "evidence": "Explicitly stated in the transcript."
       },
       "living_situation": {
-        "value": "Living with Others",
+        "value": "Living with others",
         "confidence": "1.00",
-        "evidence": "Living in a 5-bed apartment with around 9 people."
+        "evidence": "Participant lives in a 5-bed apartment with approximately 9 people."
       },
       "occupation": {
-        "value": "Data Science Student",
-        "confidence": "1.00",
-        "evidence": "Explicitly stated in the transcript."
+        "value": "Student, aspiring Data Scientist",
+        "confidence": "0.95",
+        "evidence": "Currently pursuing a Master's in Data Science; actively seeking full-time job opportunities."
       },
       "education": {
         "value": "Master's Degree",
@@ -45,9 +45,9 @@
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Career Advancement in Data Science, Continuous Learning",
-        "confidence": "0.85",
-        "evidence": "Pursuing a Master's, working on personal projects, participating in hackathons, applying for full-time jobs, and mentioning staying updated with technology."
+        "value": "Career progression in Data Science, continuous learning and skill development, exploring new technologies.",
+        "confidence": "0.90",
+        "evidence": "Participant expresses interest in full-time job opportunities, mentions keeping updated with newest technology, and participating in hackathons."
       },
       "interests": {
         "value": [
@@ -55,55 +55,58 @@
           "Technology",
           "Hackathons",
           "Physical Activity",
-          "Gardening"
+          "Travel (India)"
         ],
-        "confidence": "0.75",
-        "evidence": "References to data science, technology, hackathons, gym, and spending time in Jamaica Plain gardens."
+        "confidence": "0.85",
+        "evidence": "Participant's field of study (Data Science), participation in hackathons, gym activities, mention of travel to India."
       },
       "values": {
         "value": [
           "Quality",
-          "Brand Reputation",
           "Value for Money",
-          "Continuous Learning"
+          "Brand Reputation",
+          "Learning",
+          "Social Connection"
         ],
-        "confidence": "0.70",
-        "evidence": "Prioritizing webcam quality, considering brand reputation when choosing Logitech, and focusing on price when purchasing."
+        "confidence": "0.80",
+        "evidence": "Participant’s focus on webcam quality, budget considerations, preference for well-known brands like Logitech, and desire for learning new things."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
-        "confidence": "0.60",
-        "evidence": "Regularly orders items on Amazon, including electronics and clothing."
+        "confidence": "0.70",
+        "evidence": "Participant orders items regularly, and purchases from Amazon frequently (earphones, webcam, paint, shoes)."
       },
       "where_used_devices": {
         "value": [
           "Smartphone",
-          "Desktop"
+          "Desktop",
+          "Laptop"
         ],
-        "confidence": "0.80",
-        "evidence": "Using a laptop for studying and browsing, and presumably a smartphone for mobile shopping."
+        "confidence": "1.00",
+        "evidence": "Participant uses smartphones, laptops (for study and work), and a desktop computer."
       },
       "search_style_best_vs_first": {
-        "value": "Best Product / First Product",
-        "confidence": "0.50",
-        "evidence": "Sometimes looking for the 'best' product, but also willing to consider initial recommendations."
+        "value": "First",
+        "confidence": "0.60",
+        "evidence": "Participant initially searches for the ‘first’ product based on initial search results."
       },
       "price_preference_cheapest_vs_expensive": {
         "value": "Cheapest Product",
-        "confidence": "0.60",
-        "evidence": "Prioritizes price when purchasing, indicating a preference for the cheapest product within acceptable quality."
+        "confidence": "0.70",
+        "evidence": "Participant prioritizes products within a reasonable budget."
       },
       "decision_factors": {
         "value": [
           "Quality",
           "Brand Reputation",
           "Price",
-          "Reviews"
+          "User Reviews",
+          "Compatibility"
         ],
-        "confidence": "0.90",
-        "evidence": "Explicitly mentions these as factors in his webcam purchase and general shopping decisions."
+        "confidence": "0.95",
+        "evidence": "Participant explicitly states these factors as considerations when purchasing products."
       },
       "preferred_categories": {
         "value": [
@@ -111,13 +114,13 @@
           "Clothing",
           "Home Goods"
         ],
-        "confidence": "0.70",
-        "evidence": "Orders earphones, webcams, paints, and sandals – all falling under these categories."
+        "confidence": "0.80",
+        "evidence": "Participant purchases earphones, webcam, paint, and shoes - all falling under these categories."
       },
       "pain_points_and_or_challenges": {
-        "value": "Poor Webcam Angle, Limited Laptop Screen",
-        "confidence": "1.00",
-        "evidence": "His purchase of a webcam was driven by the need for a larger screen and a problematic webcam angle."
+        "value": "Finding webcams with the correct angle and image quality, dealing with sponsored product recommendations.",
+        "confidence": "0.90",
+        "evidence": "Participant returns the webcam due to its wide angle, and expresses skepticism towards sponsored products."
       }
     }
   }

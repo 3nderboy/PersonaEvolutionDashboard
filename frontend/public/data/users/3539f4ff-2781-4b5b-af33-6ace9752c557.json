@@ -4,118 +4,120 @@
     "title": {
       "user_name": "Participant",
       "two_word_summary": "Gaming Enthusiast",
-      "confidence_overall": "0.90"
+      "confidence_overall": "0.95"
     },
     "demographics": {
       "age_range": {
         "value": "25-34",
-        "confidence": "0.95",
-        "evidence": "Participant's work as a contract role, mention of graduating last year, and references to current trends like Switch controllers."
+        "confidence": "0.90",
+        "evidence": "Participant's work experience (master's degree last year) and interests (playing games, TV shows)"
       },
       "gender": {
         "value": "Male",
-        "confidence": "0.80",
-        "evidence": "References to gaming consoles (PlayStation 5, Nintendo Switch), interest in game controllers, and comments about 'grabbing deals.'"
+        "confidence": "0.85",
+        "evidence": "Participant’s language (e.g., ‘girlfriend’, ‘guys’) and interests (gaming)"
       },
       "nationality_background": {
         "value": "USA",
-        "confidence": "0.99",
-        "evidence": "Explicit mention of living in Arkansas (Bentonville)."
+        "confidence": "0.95",
+        "evidence": "Location in Arkansas, USA"
       },
       "location": {
         "value": "Bentonville, Arkansas",
         "confidence": "1.00",
-        "evidence": "Explicit statement: \"I'm currently living in Bentonville.\""
+        "evidence": "Participant states ‘I’m in Arkansas, Bentonville’"
       },
       "living_situation": {
-        "value": "With Partner",
-        "confidence": "0.95",
-        "evidence": "Participant states: \"I'm currently living with my girlfriend.\""
+        "value": "Living with Partner",
+        "confidence": "1.00",
+        "evidence": "Participant states ‘I’m currently living with my girlfriend’"
       },
       "occupation": {
         "value": "Contract Researcher/Content Creator",
-        "confidence": "1.00",
-        "evidence": "Participant describes their role as a \"contract researcher and content creator\" and works on a \"contract role\"."
+        "confidence": "0.90",
+        "evidence": "Participant describes work at a startup company as ‘researcher and content creator’"
       },
       "education": {
-        "value": "Master's Degree in Game Science and Design",
+        "value": "Master's Degree",
         "confidence": "1.00",
-        "evidence": "Participant states: \"I graduated from [ORG_MASKED] last year. I did. My master's in game science and design bef.\""
+        "evidence": "Participant states ‘I graduated from [ORG_MASKED] last year. I did. My master’s in game science and design bef.’"
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Seeking full-time employment, collecting items (especially tech gadgets), learning new things, achieving value for money.",
-        "confidence": "0.90",
-        "evidence": "Participant states: \"searching for a full-time job,\" \"collecting these small things…even if I don’t know whether I’ll be using them in long term or not,\" \"want to get good at it,\" \"feels like you're able to connect with people and work and you know you can get good at it.\""
+        "value": "Enjoying leisure time, learning new things, collecting items, getting good at games",
+        "confidence": "0.95",
+        "evidence": "Quotes include: ‘I like to learn new things…’, ‘I like to collect these these small things…’, ‘I like to get good at it’"
       },
       "interests": {
         "value": [
-          "Gaming (PlayStation 5, Nintendo Switch)",
+          "Gaming",
           "TV Shows",
-          "Collecting Gadgets (phone cases, game controllers, electronics)"
+          "Collecting (phone cases, controllers, Lego)",
+          "Tech"
         ],
-        "confidence": "0.95",
-        "evidence": "Frequent references to gaming consoles, specific products purchased (PlayStation 5 controller, Nintendo Switch controller, phone cases, makeup products, Lego), and activities (watching TV shows)."
+        "confidence": "1.00",
+        "evidence": "Participant repeatedly mentions playing games, watching TV shows, collecting items, and using tech devices"
       },
       "values": {
         "value": [
           "Value for Money",
           "Quality",
-          "Informed Decisions",
+          "Community (Reddit)",
           "Convenience"
         ],
         "confidence": "0.85",
-        "evidence": "Participant frequently discusses seeking deals and comparing products, prioritizing quality, researching products on Reddit, and mentioning the convenience of Amazon."
+        "evidence": "Participant’s behavior around deals, research on Reddit, and preference for user reviews"
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
         "confidence": "0.80",
-        "evidence": "Participant mentions regularly shopping on Amazon and searching for deals, and actively looking for electric toothbrushes daily."
+        "evidence": "Participant frequently shops on Amazon and uses Reddit for research"
       },
       "where_used_devices": {
         "value": [
           "Smartphone",
           "Desktop"
         ],
-        "confidence": "0.90",
-        "evidence": "Participant uses smartphone to shop and search on Amazon and Reddit, as well as desktop."
+        "confidence": "0.95",
+        "evidence": "Participant primarily uses smartphone and desktop to shop and research"
       },
       "search_style_best_vs_first": {
         "value": "Best Product / First Product",
-        "confidence": "0.70",
-        "evidence": "Participant mentions scanning sponsored products and comparing them to non-sponsored ones, indicating a search style influenced by both 'best' and 'first' options."
+        "confidence": "0.75",
+        "evidence": "Participant uses the first product that appears on Amazon and frequently compares products"
       },
       "price_preference_cheapest_vs_expensive": {
         "value": "Cheapest Product",
-        "confidence": "0.85",
-        "evidence": "Participant frequently states a desire to find the 'best deal' and actively seeks out discounts and sales."
+        "confidence": "0.80",
+        "evidence": "Participant prioritizes finding the cheapest deals and utilizes discounts like Black Friday"
       },
       "decision_factors": {
         "value": [
           "Price",
-          "Reviews",
-          "Quality",
-          "Availability of Deals"
+          "Reviews & Ratings",
+          "Brand Reputation",
+          "Reddit Recommendations"
         ],
         "confidence": "1.00",
-        "evidence": "Participant explicitly mentions considering price, reading reviews, and checking for deals as key factors in their purchasing decisions."
+        "evidence": "Participant explicitly states these factors as important during their decision-making process"
       },
       "preferred_categories": {
         "value": [
-          "Video Games",
-          "Electronics (Toothbrushes, Phone Cases, Controllers)",
-          "Collectibles"
+          "Gaming Accessories",
+          "Electronics",
+          "Collectible Items",
+          "Home Goods (comforters)"
         ],
-        "confidence": "0.95",
-        "evidence": "Participant's purchases consistently fall within these categories (PlayStation 5 controller, Nintendo Switch controller, phone cases, electric toothbrushes, Lego)."
+        "confidence": "0.90",
+        "evidence": "Participant purchases controllers, phone cases, Lego, and comforters"
       },
       "pain_points_and_or_challenges": {
-        "value": "Difficulty comparing products online, information overload, uncertainty about quality.",
-        "confidence": "0.90",
-        "evidence": "Participant’s comments about confusion between sponsored and non-sponsored products, the need for extensive research, and experiences with low-quality products highlight these pain points."
+        "value": "Finding reliable information, dealing with low-quality products, managing returns",
+        "confidence": "0.95",
+        "evidence": "Participant’s experience with the comforter, returning items, and seeking information on Reddit"
       }
     }
   }

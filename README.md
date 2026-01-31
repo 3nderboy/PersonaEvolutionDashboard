@@ -36,48 +36,34 @@ The project follows a modern **Client–Server architecture** to separate data-h
 │   ├── /workflows           
 │   │   ├── deploy.yml       
 │
-├── /backend                 # Python/ipynb-Notebook Stuff
-│   ├── /data                # Downloaded datasets (json)
-│   ├── /scripts             # Utility scripts
-│   │   ├── config.py        # Central configuration
-│   │   ├── /prompts         # LLM prompt templates
-│   │   ├── /utils           # Shared utilities (LLM client, file helpers)
-│   │   ├── /models          # Pydantic models for validation
+├── /backend                 # Python data processing
+│   ├── /data                # Downloaded datasets (CSV)
+│   │   └── /NEU-HAI__OPeRA  # OPeRA dataset files
+│   ├── /scripts             # Data processing scripts
+│   │   ├── config.py        # Central configuration (paths, LLM settings)
+│   │   ├── run_pipeline.py  # Pipeline orchestrator (run all scripts)
+│   │   ├── download_hf_dataset.py
+│   │   ├── persona_clustering.py
 │   │   ├── extract_users.py
 │   │   ├── extract_personas.py
 │   │   ├── combine_users.py
-│   │   └── persona_clustering.py
-│   ├── /analysis            # Logic from notebook
-│   │   ├── clustering.py    # K-Means, DBSCAN logic
-│   │   ├── preprocessing.py # Data Cleaning
-│   │   └── evolution.py     # Logic for persona evolution
-│   ├── main.py              # API-Server (FastAPI)
-│   └── requirements.txt     # Python Libraries
+│   │   ├── /prompts         # LLM prompt templates
+│   │   ├── /utils           # Shared utilities (LLM client, file helpers, logger)
+│   │   └── /models          # Pydantic models for LLM response validation
+│   └── requirements.txt     # Python dependencies
 │
-├── /frontend                # React-Stuff (Vite)
-│   ├── /public              # Web-Application Icon
+├── /frontend                # React dashboard (Vite)
+│   ├── /public              
+│   │   └── /data            # Generated JSON data (output from backend)
+│   │       ├── /personas    # Clustering output
+│   │       └── /users       # LLM-extracted user profiles
 │   ├── /src
-│   │   ├── /assets          # Images and Fonts
-│   │   ├── /components      # UI Components (Sidebar, Charts...)
-│   │   │   ├── /common      # Buttons, Inputs, Icons
-│   │   │   ├── /charts      # ClusterChart, RadarChart
-│   │   │   ├── /dashboard   # Elements of the dashboard (ClusterOverview, PersonaPanel)
-│   │   │   ├── /icons       # Icons.jsx which gets all the used icons
-│   │   │   └── /layout      # Dashboard-Layout, Sidebar, Header
-│   │   ├── /services        # Communication with backend (fetch/axios)
-│   │   ├── /data            # Mock-Data
-│   │   ├── /style           # CSS
-│   │   ├── App.jsx          # Routing and Layout-Building
-│   │   └── main.jsx
-│   ├── eslint.config.js
-│   ├── index.html
-│   ├── package-lock.json
-│   ├── package.json
-│   ├── postcss.config.js
-│   ├── tailwind.config.js
-│   └── vite.config.js
+│   │   ├── /components      # UI Components
+│   │   ├── /services        # Data fetching
+│   │   └── /style           # CSS
+│   └── package.json
 │
-├── .gitignore
+├── /docs                    # Documentation
 └── README.md
 ```
 
@@ -115,44 +101,54 @@ The backend processes the OPeRA dataset and generates the JSON files required by
 ```bash
 cd backend
 
-# 1. Install Python dependencies
+# Install Python dependencies
 pip install -r requirements.txt
+```
 
-# 2. Download OPeRA Dataset
-# This downloads the necessary CSV files to backend/data/NEU-HAI__OPeRA
+#### Option A: Single Command (Recommended)
+
+Run the entire core pipeline with one command:
+
+```bash
+# Core pipeline: Download data + Generate personas (fast, no LLM)
+python scripts/run_pipeline.py
+
+# Full pipeline: Core + LLM extraction (requires Ollama or OpenAI)
+python scripts/run_pipeline.py --all
+
+# LLM only: Run extraction steps if data already exists
+python scripts/run_pipeline.py --llm
+```
+
+#### Option B: Step by Step
+
+Run each script individually:
+
+```bash
+# 1. Download OPeRA Dataset → backend/data/NEU-HAI__OPeRA/
 python scripts/download_hf_dataset.py
 
-# 3. Run Persona Generation Pipeline
-# This processes independent sessions, clusters them, and generates:
-# - metadata.json
-# - personas.json
-# - sessions.json
-# - monthly_clusters.json
-# Output goes to: frontend/public/data/personas/
+# 2. Generate Personas → frontend/public/data/personas/
+#    Output: personas.json, sessions.json, metadata.json, monthly_clusters.json
 python scripts/persona_clustering.py
 ```
 
 ### 2. LLM Extraction (Optional)
 
-Generate user profiles and cluster personas from interview transcripts using LLM.
+Enrich personas with LLM-extracted user profiles from interview transcripts.
 
-#### How It Works
+| Script | Description | Output |
+|--------|-------------|--------|
+| `extract_users.py` | Extract user profiles from transcripts | `users/{user_id}.json` |
+| `combine_users.py` | Merge all profiles into single file | `users/llm_users.json` |
+| `extract_personas.py` | Generate cluster-level personas | `personas/cluster_personas/*.json` |
 
-| Phase | Description |
-|-------|-------------|
-| **1. Load** | Reads interview transcripts from `backend/data/NEU-HAI__OPeRA/user.csv` |
-| **2. Extract** | Sends each transcript to the LLM with a structured prompt |
-| **3. Save** | Stores result as `frontend/public/data/users/{user_id}.json` |
-| **4. Combine** | Merges all user profiles into `llm_users.json` for the frontend |
-
-#### Provider Options
+#### LLM Provider Options
 
 | Provider | Setup | Cost |
 |----------|-------|------|
 | **Ollama (Local)** | Install [Ollama](https://ollama.ai/), run `ollama pull gemma3` | Free |
 | **OpenAI** | Set `OPENAI_API_KEY` in `backend/.env` | ~$0.01/user |
-
-#### Run Extraction
 
 ```bash
 cd backend/scripts
@@ -185,18 +181,28 @@ npm run dev
 Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 
-## Data Analysis Workflow
+## Dataset Fields Reference
 
-The core logic of this project is validated in our Jupyter Notebooks before implementation in the backend.
+The scripts use specific fields from the OPeRA dataset:
 
-1. Preprocessing: Merging implicit behavior, explicit feedback, and demographic data.
+| Field | Source CSV | Used By | Purpose |
+|-------|-----------|---------|---------|
+| `session_id` | filtered_session | `persona_clustering.py` | Unique session identifier, contains timestamps |
+| `user_id` | filtered_session, filtered_user | All scripts | Links sessions to users |
+| `action_type` | filtered_action | `persona_clustering.py` | Behavioral metric: click, input, terminate |
+| `click_type` | filtered_action | `persona_clustering.py` | Shopping intent: purchase, search, filter, review |
+| `interview_transcript` | filtered_user | `extract_users.py` | LLM input for user profile extraction |
 
-2. Clustering: Applying K-Means (for spherical, balanced clusters) and maybe further DBSCAN (for density-based outlier detection) on normalized data.
+### Generated Output Files
 
-3. Evolution Mapping:
-  - We compare Cluster Centers ($C_t$) at time $t$ with centers at $t+1$.
-  - If a center shifts significantly but retains overlap, it is Drifting.
-  - If a cluster divides into multiple distinct centers, it is Splitting.
+| File | Script | Content |
+|------|--------|---------|
+| `personas.json` | `persona_clustering.py` | Cluster definitions with behavioral metrics |
+| `sessions.json` | `persona_clustering.py` | Individual session data with PCA coordinates |
+| `metadata.json` | `persona_clustering.py` | Pipeline metadata and PCA bounds |
+| `monthly_clusters.json` | `persona_clustering.py` | Cluster positions aggregated by month |
+| `users/{id}.json` | `extract_users.py` | LLM-extracted user profiles |
+| `cluster_personas/*.json` | `extract_personas.py` | LLM-generated cluster persona narratives |
 
 
 ## Technologies
@@ -209,17 +215,6 @@ Data Science: Pandas, Scikit-learn, NumPy.
 ## Used Dataset
 
 The dashboard uses the **OPeRA dataset** from [NEU-HAI on HuggingFace](https://huggingface.co/datasets/NEU-HAI/OPeRA).
-
-## Project Status & Roadmap
-
-[x] Phase 1: Concept & Analysis (Data exploration in Python Notebooks).
-
-[x] Phase 2: Frontend Prototype (React Dashboard with mock data architecture).
-
-[ ] Phase 3: Backend Integration (Get/load the data in the frontend and connecting React to Python API).
-
-[ ] Phase 4: Real-time Evolution (Processing the full dataset dynamically).
-
 
 ## Authors
 IP5 Team - FHNW
