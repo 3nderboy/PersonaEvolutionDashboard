@@ -17,16 +17,21 @@ const CLUSTER_COLORS = [
 
 const getClusterColor = (clusterId) => CLUSTER_COLORS[clusterId % CLUSTER_COLORS.length];
 
-// Format BKM names for display
+// Format BKM names for display - maps technical names to full display names
 const formatMetricName = (name) => {
-    return name
-        .replace(/_/g, ' ')
-        .replace(/ratio/gi, '')
-        .replace(/seconds/gi, '')
-        .trim()
-        .split(' ')
-        .map(w => w.charAt(0).toUpperCase() + w.slice(1))
-        .join(' ');
+    const metricNameMap = {
+        'session_duration_seconds': 'Session Duration',
+        'action_density': 'Action Density',
+        'total_action_count': 'Total Action Count',
+        'purchase_intent_ratio': 'Purchase Intent Ratio',
+        'search_ratio': 'Search Ratio',
+        'product_exploration_ratio': 'Product Exploration Ratio',
+        'review_engagement_ratio': 'Review Engagement Ratio',
+        'filter_usage_ratio': 'Filter Usage Ratio',
+        'option_selection_ratio': 'Option Selection Ratio',
+        'input_ratio': 'Input Ratio'
+    };
+    return metricNameMap[name] || name;
 };
 
 // Info tooltip component for explanations

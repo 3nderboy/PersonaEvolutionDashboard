@@ -36,16 +36,16 @@ const OverviewView = () => {
 
     // Compute radar data from personas' behavioral metrics
     const bkmLabels = {
-        'session_duration_seconds': 'Duration',
-        'action_density': 'Activity',
-        'total_action_count': 'Actions',
-        'purchase_intent_ratio': 'Purchase Intent',
-        'search_ratio': 'Search',
-        'product_exploration_ratio': 'Exploration',
-        'review_engagement_ratio': 'Reviews',
-        'filter_usage_ratio': 'Filtering',
-        'option_selection_ratio': 'Options',
-        'input_ratio': 'Input'
+        'session_duration_seconds': 'Session Duration',
+        'action_density': 'Action Density',
+        'total_action_count': 'Total Action Count',
+        'purchase_intent_ratio': 'Purchase Intent Ratio',
+        'search_ratio': 'Search Ratio',
+        'product_exploration_ratio': 'Product Exploration Ratio',
+        'review_engagement_ratio': 'Review Engagement Ratio',
+        'filter_usage_ratio': 'Filter Usage Ratio',
+        'option_selection_ratio': 'Option Selection Ratio',
+        'input_ratio': 'Input Ratio'
     };
 
     // Build radar data
