@@ -3,123 +3,122 @@
   "profile": {
     "title": {
       "user_name": "PhD Student",
-      "two_word_summary": "Busy Researcher",
+      "two_word_summary": "Tech-savvy Gamer",
       "confidence_overall": "0.85"
     },
     "demographics": {
       "age_range": {
-        "value": "25-35",
+        "value": "25-34",
         "confidence": "0.95",
-        "evidence": "Participant describes a 'Phd. Student' lifestyle, common tech usage, and late-night study habits, suggesting a likely age range."
+        "evidence": "Participant's description of 'late' wake-up times, late-night work sessions, and reliance on technology suggests a young professional."
       },
       "gender": {
         "value": "Male",
-        "confidence": "0.60",
-        "evidence": "Implied through language and interests (gaming, tinkering with tech)."
+        "confidence": "0.80",
+        "evidence": "Language and interests (gaming, tinkering with tech) are traditionally associated with males."
       },
       "nationality_background": {
         "value": "USA",
-        "confidence": "0.90",
-        "evidence": "Mention of Boston, a major US city, and references to familiar brands (Black & Decker)."
+        "confidence": "0.99",
+        "evidence": "References to Boston, a common American city, and typical American tech interests."
       },
       "location": {
         "value": "Boston, MA",
         "confidence": "1.00",
-        "evidence": "Explicitly stated."
+        "evidence": "Explicitly stated in the transcript."
       },
       "living_situation": {
         "value": "Living with Roommate",
         "confidence": "1.00",
-        "evidence": "Explicitly stated."
+        "evidence": "Directly stated in the transcript."
       },
       "occupation": {
-        "value": "PhD Student (Computer Science)",
+        "value": "PhD Student in Computer Science",
         "confidence": "1.00",
-        "evidence": "Explicitly stated."
+        "evidence": "Multiple direct statements throughout the transcript."
       },
       "education": {
-        "value": "PhD",
+        "value": "PhD Level",
         "confidence": "1.00",
-        "evidence": "Explicitly stated."
+        "evidence": "Explicitly states 'PhD Student'."
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Academic Achievement, Personal Productivity, Technological Exploration",
+        "value": "Academic achievement, personal productivity, maintaining a balanced lifestyle (though currently struggling to achieve it)",
         "confidence": "0.75",
-        "evidence": "Driven by PhD research, constantly seeking efficient solutions, interest in gadgets (e-iron, vacuum, hard drive)."
+        "evidence": "Driven by research obligations and advisor guidance, while also seeking a degree of personal fulfillment through hobbies and relaxation."
       },
       "interests": {
         "value": [
-          "Computer Science Research",
+          "Computer Science",
           "Gaming",
           "Photography",
           "Reading",
           "Travel (occasional)"
         ],
         "confidence": "0.90",
-        "evidence": "Explicitly stated throughout the interview."
+        "evidence": "Explicitly stated interests: computer science, gaming, photography, reading. Implied interest in travel through 'micro traveling'."
       },
       "values": {
         "value": [
           "Efficiency",
-          "Continuous Learning",
           "Practicality",
-          "Intellectual Stimulation"
+          "Continuous Learning",
+          "Self-Improvement (struggling to implement)",
+          "Value for Money"
         ],
-        "confidence": "0.80",
-        "evidence": "Reflected in multiple responses, like prioritizing useful purchases, multitasking, and seeking efficient solutions."
+        "confidence": "0.85",
+        "evidence": "Participant's focus on efficient time management, purchasing practical items, researching products, and consideration of price demonstrates these values."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
-        "confidence": "0.85",
-        "evidence": "Frequent purchases of both essential and somewhat impulsive items, suggesting regular Amazon usage."
+        "confidence": "0.70",
+        "evidence": "Participant frequently engages in online purchases, particularly on Amazon, indicating a regular shopping habit."
       },
       "where_used_devices": {
         "value": [
           "Smartphone",
           "Desktop"
         ],
-        "confidence": "1.00",
-        "evidence": "Participant describes using devices to browse, research, and make purchases."
+        "confidence": "0.95",
+        "evidence": "Participant uses a smartphone and desktop for online shopping and researching products."
       },
       "search_style_best_vs_first": {
         "value": "Best Product / First Product",
-        "confidence": "0.70",
-        "evidence": "Initially gravitates towards the 'Amazon's Choice' and lowest price options, but ultimately conducts extensive research before finalizing purchases."
+        "confidence": "0.60",
+        "evidence": "The participant appears to be influenced by Amazon's 'Best Seller' ranking and sometimes by simply the first product listed."
       },
       "price_preference_cheapest_vs_expensive": {
-        "value": "Cheapest Product / Most Expensive Product",
-        "confidence": "0.60",
-        "evidence": "Acknowledges price as a factor, but prioritizes functionality and value over purely low-cost options."
+        "value": "Cheapest Product",
+        "confidence": "0.75",
+        "evidence": "The participant often prioritizes the lowest price, particularly for lower-cost items."
       },
       "decision_factors": {
         "value": [
           "Price",
           "Product Reviews",
           "Features",
-          "Brand Reputation",
-          "Usability"
+          "Practicality"
         ],
-        "confidence": "0.95",
-        "evidence": "Consistently prioritizes these factors during the purchasing process."
+        "confidence": "0.90",
+        "evidence": "The participant consistently emphasizes price, reviews, features, and practicality when making purchasing decisions."
       },
       "preferred_categories": {
         "value": [
           "Electronics",
-          "Home Goods",
-          "Tech Accessories",
-          "Books"
+          "Home Goods (ironing board, vacuum)",
+          "Software/Tech Accessories"
         ],
         "confidence": "0.80",
-        "evidence": "Purchases reflect interests in these categories."
+        "evidence": "Participant purchases items such as an ironing board, a handheld vacuum, and a hard drive, indicating preferences in these categories."
       },
       "pain_points_and_or_challenges": {
-        "value": "Overwhelm, Difficulty Focusing, Time Constraints",
-        "confidence": "0.90",
-        "evidence": "Expresses struggle with multitasking, difficulty concentrating, and limited time availability."
+        "value": "Time management, difficulty focusing on single tasks, impulsiveness, overcommitment",
+        "confidence": "0.95",
+        "evidence": "The participant frequently describes struggles with time management, difficulty focusing, and impulsive purchasing behaviors."
       }
     }
   }

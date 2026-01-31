@@ -12,15 +12,12 @@ import gc
 import os
 import shutil
 import sys
-from pathlib import Path
+
+from config import OPERA_DATA_DIR
+from utils import Logger
 
 REPO = "NEU-HAI/OPeRA"
 CONFIGS = ["full_user", "full_session", "full_action", "filtered_user", "filtered_session", "filtered_action"]
-OUTPUT = Path(__file__).parent.parent / "data" / REPO.replace("/", "__")
-
-# Import logger
-sys.path.insert(0, str(Path(__file__).parent))
-from utils import Logger
 
 
 def main() -> int:
@@ -51,15 +48,15 @@ def main() -> int:
         log.success("Dependencies installed")
 
     set_verbosity_warning()
-    OUTPUT.mkdir(parents=True, exist_ok=True)
-    cache = OUTPUT / ".cache"
+    OPERA_DATA_DIR.mkdir(parents=True, exist_ok=True)
+    cache = OPERA_DATA_DIR / ".cache"
 
     log.info(f"Repository: {REPO}")
-    log.info(f"Output: {OUTPUT}")
+    log.info(f"Output: {OPERA_DATA_DIR}")
 
     log.step(2, "Downloading README")
     try:
-        shutil.copy(hf_hub_download(REPO, "README.md", repo_type="dataset", token=token), OUTPUT / "README.md")
+        shutil.copy(hf_hub_download(REPO, "README.md", repo_type="dataset", token=token), OPERA_DATA_DIR / "README.md")
         log.success("README.md")
     except Exception:
         log.warning("README.md not available")
@@ -70,7 +67,7 @@ def main() -> int:
     errors = 0
 
     for i, cfg in enumerate(CONFIGS, 1):
-        out = OUTPUT / cfg
+        out = OPERA_DATA_DIR / cfg
         if out.exists():
             log.info(f"[SKIP] {cfg}")
             skipped += 1

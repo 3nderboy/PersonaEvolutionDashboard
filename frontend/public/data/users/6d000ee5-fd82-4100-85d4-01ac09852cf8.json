@@ -3,19 +3,19 @@
   "profile": {
     "title": {
       "user_name": "[NAME_MASKED]",
-      "two_word_summary": "Tech-savvy Scientist",
+      "two_word_summary": "Plant Scientist",
       "confidence_overall": "0.85"
     },
     "demographics": {
       "age_range": {
         "value": "35-44",
-        "confidence": "0.95",
-        "evidence": "Participant states he wakes up at 9 or 10 am, spends time coding and researching, and engages in activities like playing computer games, suggesting a likely age range."
+        "confidence": "0.90",
+        "evidence": "Participant stated they wake up at 9 or 10 am, suggesting an adult age range."
       },
       "gender": {
         "value": "Male",
-        "confidence": "0.90",
-        "evidence": "Participant refers to his wife, implying a heterosexual relationship."
+        "confidence": "0.80",
+        "evidence": "Participant’s pronouns and typical male interests (computer games)."
       },
       "nationality_background": {
         "value": "USA",
@@ -25,98 +25,98 @@
       "location": {
         "value": "San Jose, California",
         "confidence": "1.00",
-        "evidence": "Explicitly stated in the transcript."
+        "evidence": "Directly stated by the participant."
       },
       "living_situation": {
-        "value": "With Partner",
+        "value": "With Wife",
         "confidence": "0.95",
-        "evidence": "Participant states he lives with his wife."
+        "evidence": "Participant explicitly states 'I lived with my wife'."
       },
       "occupation": {
-        "value": "Plant Scientist / Researcher",
-        "confidence": "0.95",
-        "evidence": "Explicitly states this multiple times."
+        "value": "Plant Scientist / Research Scientist",
+        "confidence": "1.00",
+        "evidence": "Directly stated by the participant."
       },
       "education": {
-        "value": "Bachelor's / Master's (Inferred)",
-        "confidence": "0.75",
-        "evidence": "Job title suggests a higher level of education, potentially a Master's degree."
+        "value": "Bachelor’s Degree or Higher",
+        "confidence": "0.70",
+        "evidence": "Work as a plant scientist generally requires a higher education level."
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Improve research, maintain well-being, explore new technologies, maintain a good lifestyle",
-        "confidence": "0.70",
-        "evidence": "Participant’s work involves research, and he engages in activities like playing games and shopping for wellness products (biotix)."
+        "value": "To improve navigation experience, stay current in research, and potentially optimize personal wellness (dental port).",
+        "confidence": "0.80",
+        "evidence": "Multiple references to research, product improvement, dental alignment, and a desire to optimize personal wellness."
       },
       "interests": {
         "value": [
           "Plant Science",
           "Computer Games",
           "Technology",
-          "Wellness/Health"
+          "Dentistry"
         ],
-        "confidence": "0.80",
-        "evidence": "Explicit mentions of research, coding, games, dental port, and the purchase of biotix."
+        "confidence": "0.75",
+        "evidence": "Explicit mentions of plant science research, computer games, and interest in dental port."
       },
       "values": {
         "value": [
+          "Evidence-based decision making",
+          "Customer feedback",
           "Efficiency",
-          "Evidence-Based Decisions",
-          "Customer Satisfaction",
-          "Value for Money"
+          "Reliability"
         ],
-        "confidence": "0.75",
-        "evidence": "Participant’s focus on customer reviews, price comparisons, and the importance of evidence when evaluating products aligns with these values."
+        "confidence": "0.70",
+        "evidence": "Emphasis on customer reviews (length, images), importance of strong evidence, and desire for efficient solutions."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
         "confidence": "0.60",
-        "evidence": "Participant regularly purchases items like coffee and dental products, suggesting frequent online shopping."
+        "evidence": "Purchase of a coffee cup every 4 weeks and a subscription to a product suggests regular shopping habits."
       },
       "where_used_devices": {
         "value": [
           "Smartphone",
           "Tablet"
         ],
-        "confidence": "0.85",
-        "evidence": "Participant uses the Amazon app extensively for shopping."
+        "confidence": "0.80",
+        "evidence": "Participant uses the Amazon app."
       },
       "search_style_best_vs_first": {
-        "value": "Best Product / First Product",
-        "confidence": "0.70",
-        "evidence": "Participant initially focuses on the first product that appears in the search results for the dental port."
+        "value": "Best Product",
+        "confidence": "0.90",
+        "evidence": "Participant states 'I care about 2 things. The 1st is the price, and the second is the customer use'."
       },
       "price_preference_cheapest_vs_expensive": {
         "value": "Cheapest Product",
-        "confidence": "0.75",
-        "evidence": "Participant explicitly states that he filters by price when searching for products."
+        "confidence": "0.80",
+        "evidence": "Participant filters by price first."
       },
       "decision_factors": {
         "value": [
           "Price",
-          "Customer Reviews",
-          "Review Length",
-          "Image Presence"
+          "Customer Reviews (Length & Images)",
+          "Strong Reviews",
+          "Evidence of Effectiveness"
         ],
-        "confidence": "0.90",
-        "evidence": "Participant consistently prioritizes these factors when making purchase decisions."
+        "confidence": "0.95",
+        "evidence": "Participant explicitly lists these as key considerations."
       },
       "preferred_categories": {
         "value": [
-          "Health & Wellness",
+          "Dental Products",
           "Technology",
-          "Hobbies"
+          "Coffee"
         ],
-        "confidence": "0.65",
-        "evidence": "Purchase of biotix and interest in computer games and dental products."
+        "confidence": "0.85",
+        "evidence": "Recent purchases of dental port and coffee cups."
       },
       "pain_points_and_or_challenges": {
-        "value": "Skepticism towards overly positive reviews, difficulty with conflicting opinions",
-        "confidence": "0.80",
-        "evidence": "Participant’s skepticism regarding 5-star reviews and his preference for longer, image-supported reviews reflect a desire for more credible information."
+        "value": "Suspicious of overly positive reviews, distrust of short reviews",
+        "confidence": "0.90",
+        "evidence": "Participant’s strong preference for longer reviews with images and skepticism of purely 5-star reviews."
       }
     }
   }

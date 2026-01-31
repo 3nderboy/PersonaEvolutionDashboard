@@ -2,121 +2,125 @@
   "user_id": "47395b78-6336-4546-b97c-7becdf065356",
   "profile": {
     "title": {
-      "user_name": "Graduate Student",
-      "two_word_summary": "Data Analysis Student",
+      "user_name": "Student_Data_Analyst",
+      "two_word_summary": "Tech-Savvy Graduate",
       "confidence_overall": "0.85"
     },
     "demographics": {
       "age_range": {
-        "value": "25-34",
+        "value": "22-25",
         "confidence": "0.95",
-        "evidence": "Participant states they are a graduate student, indicating an age range common for graduate studies."
+        "evidence": "Participant explicitly states 'graduate student' and refers to 'spring quarter' and 'finals'."
       },
       "gender": {
-        "value": "Unknown",
-        "confidence": "0.60",
-        "evidence": "Participant uses gender-neutral language throughout the interview."
+        "value": "Male",
+        "confidence": "0.70",
+        "evidence": "Participant's language leans towards a male perspective ('I', 'my', 'guys')."
       },
       "nationality_background": {
         "value": "USA",
         "confidence": "0.90",
-        "evidence": "Participant lives in San Francisco, a major US city."
+        "evidence": "Participant lives in San Francisco, a predominantly American city."
       },
       "location": {
         "value": "San Francisco, California",
         "confidence": "1.00",
-        "evidence": "Participant explicitly states they live in San Francisco."
+        "evidence": "Participant explicitly states 'in San Francisco'."
       },
       "living_situation": {
         "value": "With Roommates",
         "confidence": "1.00",
-        "evidence": "Participant states they 'are living with my roommates.'"
+        "evidence": "Participant states 'living with my roommates'."
       },
       "occupation": {
-        "value": "Graduate Student, Remote Intern",
-        "confidence": "0.95",
-        "evidence": "Participant explicitly identifies themselves as a graduate student and a remote intern."
+        "value": "Graduate Student / Remote Intern",
+        "confidence": "1.00",
+        "evidence": "Participant identifies as a graduate student and describes remote internship activities."
       },
       "education": {
         "value": "Master's Degree in Business Analytics",
         "confidence": "1.00",
-        "evidence": "Participant states they are pursuing a 'taught master program in business analytics.'"
+        "evidence": "Participant explicitly states 'like a taught master program in business analytics'."
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Career Advancement in Data Science, Transition to Data Roles, Learning About AI",
+        "value": "Career Development, Data Skills Acquisition, Startup Interest",
         "confidence": "0.90",
-        "evidence": "Participant repeatedly mentions seeking a data role internship and expressing interest in learning about AI."
+        "evidence": "Participant expresses desire for a data role, interest in startups, and actively seeks networking opportunities ('looking for a job that's definitely true')."
       },
       "interests": {
         "value": [
-          "Data Science",
+          "Data Analytics",
           "Artificial Intelligence",
           "Networking",
-          "Experimenting with new technologies"
+          "Tech Industry",
+          "Travel (weather)"
         ],
         "confidence": "0.80",
-        "evidence": "Participant expresses interest in data roles, AI, networking events, and experimentation."
+        "evidence": "Participant's mention of 'computer sciences', 'data management', 'AI', 'coffee chat', and positive reaction to good weather indicate these interests."
       },
       "values": {
         "value": [
+          "Efficiency",
           "Practicality",
-          "Learning",
-          "Career Growth",
-          "Flexibility"
+          "Continuous Learning",
+          "Convenience",
+          "Quality"
         ],
         "confidence": "0.75",
-        "evidence": "Participant's actions (seeking flexible work, focusing on learning, transitioning to data roles) reflect these values."
+        "evidence": "Participant's focus on 'remote intern', preference for convenient delivery ('Amazon'), careful review of product ratings, and emphasis on 'good size' and 'good price' reflect these values."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
         "confidence": "0.70",
-        "evidence": "Participant frequently browses Amazon and makes purchases, indicating regular usage."
+        "evidence": "Participant describes browsing for gifts for 2 weeks, and consistently purchasing items on Amazon."
       },
       "where_used_devices": {
         "value": [
           "Smartphone",
-          "Laptop"
+          "Desktop"
         ],
         "confidence": "0.85",
-        "evidence": "Participant mentions browsing Amazon on a smartphone and conducting research on a laptop."
+        "evidence": "Participant describes searching on Amazon via multiple devices and making purchases primarily on a smartphone."
       },
       "search_style_best_vs_first": {
         "value": "First Product",
         "confidence": "0.60",
-        "evidence": "Participant generally starts by searching on Amazon and then compares options."
+        "evidence": "Participant describes initially browsing and comparing products on Amazon ('several in my cart') before making a final purchase."
       },
       "price_preference_cheapest_vs_expensive": {
         "value": "Cheapest Product",
         "confidence": "0.50",
-        "evidence": "Participant states they typically look for the 'cheapest' product, but acknowledges willingness to spend more if quality is high."
+        "evidence": "Participant mentions considering price, but primarily prioritizes quality and ratings."
       },
       "decision_factors": {
         "value": [
+          "Quality",
           "Price",
           "Reviews",
-          "Convenience (Amazon Delivery)",
-          "Product Relevance"
+          "Convenience",
+          "Industry Trends"
         ],
-        "confidence": "0.95",
-        "evidence": "Participant explicitly lists these as key decision factors."
+        "confidence": "0.90",
+        "evidence": "Participant consistently considers quality, price, reviews, and convenience; expresses interest in a promising AI industry."
       },
       "preferred_categories": {
         "value": [
           "Electronics",
-          "Gift Items",
-          "Office Supplies"
+          "Gifts",
+          "Home Goods (electric kettle)",
+          "Books (implied)"
         ],
-        "confidence": "0.70",
-        "evidence": "Participant purchases an electric kettle and gift items, and mentions buying office supplies."
+        "confidence": "0.75",
+        "evidence": "Participant purchases an electric kettle and describes browsing for gifts, indicates interest in tech and reading."
       },
       "pain_points_and_or_challenges": {
-        "value": "Difficulty transitioning from marketing to data roles, navigating the job market",
-        "confidence": "0.90",
-        "evidence": "Participant expresses frustration with the difficulty of finding a data role internship and highlights their background in marketing."
+        "value": "Transitioning to Data Roles, Competition in the Market",
+        "confidence": "0.80",
+        "evidence": "Participant expresses difficulty finding data internships and acknowledges competition."
       }
     }
   }

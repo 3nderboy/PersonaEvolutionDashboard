@@ -190,7 +190,7 @@ const ClusterPersonaCard = ({ clusterPersona, clusterName, clusterColor }) => {
                         </div>
                         {shopping.search_style && (
                             <div>
-                                <div className="text-xs text-slate-500 mb-1">Search Style</div>
+                                <div className="text-xs text-slate-500 mb-1">Search Style (search for the best product in a category or buy the first one you find)</div>
                                 <div className="text-sm text-slate-300">{shopping.search_style}</div>
                             </div>
                         )}

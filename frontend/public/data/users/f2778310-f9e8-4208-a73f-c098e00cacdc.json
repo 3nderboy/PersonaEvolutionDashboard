@@ -4,126 +4,124 @@
     "title": {
       "user_name": "Machine Learning Engineer",
       "two_word_summary": "Tech Enthusiast",
-      "confidence_overall": "0.90"
+      "confidence_overall": "0.95"
     },
     "demographics": {
       "age_range": {
         "value": "30-40",
-        "confidence": "0.95",
-        "evidence": "Participant states 'I've been in this position for 2 years yearly.'"
+        "confidence": "0.90",
+        "evidence": "Participant stated 'been in this position for 2 years'"
       },
       "gender": {
         "value": "Male",
-        "confidence": "0.80",
-        "evidence": "Implied through conversational tone and references to family life."
+        "confidence": "0.85",
+        "evidence": "Implied through language and interests (e.g., road trips, hiking, personal projects)"
       },
       "nationality_background": {
         "value": "USA",
-        "confidence": "0.90",
-        "evidence": "Context of living in California."
+        "confidence": "0.95",
+        "evidence": "Participant's location is Palo Alto, California"
       },
       "location": {
         "value": "Palo Alto, California",
         "confidence": "1.00",
-        "evidence": "Explicitly stated: 'Currently, I'm in California, specifically in Palo Alto.'"
+        "evidence": "Directly stated in the transcript"
       },
       "living_situation": {
         "value": "With Family",
         "confidence": "1.00",
-        "evidence": "Explicitly stated: 'So I live with my family.'"
+        "evidence": "Participant states 'live with my family'"
       },
       "occupation": {
         "value": "Machine Learning Engineer",
         "confidence": "1.00",
-        "evidence": "Explicitly stated: 'a machine learning engineer at a tech company.'"
+        "evidence": "Directly stated in the transcript"
       },
       "education": {
         "value": "PhD in HCI",
-        "confidence": "0.95",
-        "evidence": "Participant mentions being a 'like Hci researcher. So during my Phd. Life, I was also like.'"
+        "confidence": "0.90",
+        "evidence": "Participant mentions being 'trained as a like Hci researcher. So during my Phd. Life'"
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Continuous Learning, Technical Growth, Personal Fulfillment, Enjoyment of Technology",
-        "confidence": "0.85",
-        "evidence": "References to 'small tasks related to some machine learning things', 'interesting restaurant', 'hosting parties', 'hanging out with friends', 'find something fun to do'."
+        "value": "Seeking fulfilling work, maintaining a healthy lifestyle, exploring personal interests.",
+        "confidence": "0.80",
+        "evidence": "Participant expresses interest in exercise, personal projects, and social activities; mentions desire to 'kill the time' and 'find something fun'"
       },
       "interests": {
         "value": [
           "Machine Learning",
-          "Technology",
           "Hiking",
+          "Road Trips",
           "Restaurants",
-          "Socializing",
-          "Gadgets"
+          "Social Activities",
+          "Personal Projects",
+          "Vitamin Supplements"
         ],
-        "confidence": "0.75",
-        "evidence": "Explicitly mentioned activities like working on 'machine learning things', 'road trip', 'hiking', 'hanging out with friends', referring to 'gadgets'."
+        "confidence": "0.95",
+        "evidence": "Directly stated interests throughout the transcript"
       },
       "values": {
         "value": [
-          "Organization",
-          "Calmness",
-          "Efficiency",
-          "Personal Preference",
           "Quality",
-          "Convenience"
+          "Organization",
+          "Personal Preference",
+          "Efficiency",
+          "Community"
         ],
-        "confidence": "0.80",
-        "evidence": "Participant describes themselves as 'pretty calm', 'organized', 'enjoying a calm time', 'personal preference' regarding product choices."
+        "confidence": "0.85",
+        "evidence": "Participant prioritizes product quality, emphasizes organized work habits, and makes purchasing decisions based on personal preference. Also value efficiency due to online shopping."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
-        "confidence": "0.70",
-        "evidence": "Participant regularly buys groceries and other necessities, suggesting a weekly or more frequent purchase pattern."
+        "confidence": "0.75",
+        "evidence": "Participant purchases groceries and other necessities on a weekly basis"
       },
       "where_used_devices": {
         "value": [
           "Smartphone",
-          "Tablet",
           "Desktop"
         ],
         "confidence": "0.90",
-        "evidence": "Participant uses devices for online shopping and research."
+        "evidence": "Participant uses Amazon primarily through a smartphone, and occasionally through a desktop"
       },
       "search_style_best_vs_first": {
-        "value": "Specific Keyword / Best Option",
+        "value": "Specific Keyword",
         "confidence": "0.80",
-        "evidence": "Participant explicitly states 'search for the keywords like, I have a specific brand of the toilet paper that I like.'"
+        "evidence": "Participant describes searching for specific brands or products on Amazon"
       },
       "price_preference_cheapest_vs_expensive": {
-        "value": "Quality over Cheapest",
-        "confidence": "0.85",
-        "evidence": "Participant prioritizes 'quality' and 'personal preference' when selecting products, indicating a preference for better products over the cheapest options."
+        "value": "Quality over Price",
+        "confidence": "0.90",
+        "evidence": "Participant emphasizes 'care a lot about the quality' when choosing products, particularly vitamins"
       },
       "decision_factors": {
         "value": [
-          "Product Quality",
-          "Personal Preference",
+          "Quality",
+          "Brand Preference",
           "Convenience",
-          "Price (Secondary)"
+          "User Reviews (when applicable)"
         ],
-        "confidence": "0.90",
-        "evidence": "Participant’s stated priorities consistently reflect these factors."
+        "confidence": "0.95",
+        "evidence": "Participant consistently prioritizes quality and brand preference, and checks user reviews when necessary"
       },
       "preferred_categories": {
         "value": [
-          "Vitamin Supplements",
-          "Toiletries",
-          "Electronics",
           "Grocery Items",
-          "Household Supplies"
+          "Electronics",
+          "Supplements",
+          "Household Goods"
         ],
-        "confidence": "0.80",
-        "evidence": "Participant’s purchasing history reflects these categories."
+        "confidence": "0.95",
+        "evidence": "Participant's purchasing history includes these categories"
       },
       "pain_points_and_or_challenges": {
-        "value": "Time Constraints, Information Overload, Decision Fatigue",
-        "confidence": "0.70",
-        "evidence": "Participant mentions the time spent on research and the effort required to make purchase decisions."
+        "value": "Time Constraints, Complexity of New Products, Overwhelming Information",
+        "confidence": "0.85",
+        "evidence": "Participant expresses frustration with the time required to research new products and describes the difficulty of navigating large product selections"
       }
     }
   }

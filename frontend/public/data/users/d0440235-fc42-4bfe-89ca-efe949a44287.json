@@ -10,113 +10,118 @@
       "age_range": {
         "value": "30-40",
         "confidence": "0.95",
-        "evidence": "Participant's description of managing a team and reviewing project roadmaps suggests an experienced professional likely within this range."
+        "evidence": "Participant describes managing a team, using terminology related to project roadmaps and sprint planning. References a 'new role as a manager role.'"
       },
       "gender": {
         "value": "Male",
-        "confidence": "0.90",
-        "evidence": "Participant's use of terms like 'define resources' and 'figure out a reason' aligns with common male communication patterns observed in interviews."
+        "confidence": "0.80",
+        "evidence": "Participant's language and discussion of management roles are consistent with a male profile."
       },
       "nationality_background": {
         "value": "USA",
         "confidence": "0.70",
-        "evidence": "Participant's references to Seattle and using ChatGPT suggest a background within the United States."
+        "evidence": "Location mentioned as Seattle, a major US city."
       },
       "location": {
         "value": "Seattle, WA",
         "confidence": "1.00",
-        "evidence": "Explicitly stated in the transcript."
+        "evidence": "Explicitly stated: \"I live in Seattle.\""
       },
       "living_situation": {
         "value": "Living Alone",
-        "confidence": "1.00",
-        "evidence": "Participant states: 'I just live by myself.'"
+        "confidence": "0.90",
+        "evidence": "States: \"I rented an apartment and I work for [ORG_MASKED]. So basically do some AI models to improve his shopping business. I just live by myself.\""
       },
       "occupation": {
-        "value": "Project Manager / AI Model Improvement Specialist",
+        "value": "AI Model Improvement Specialist / Project Manager",
         "confidence": "0.95",
-        "evidence": "Participant states 'do some AI models to improve his shopping business' and later states 'take a new role as a manager role.'"
+        "evidence": "Works for [ORG_MASKED] improving AI models.  Takes on a new role as a manager, managing customer engagement and team resources."
       },
       "education": {
-        "value": "Bachelor's Degree or higher",
-        "confidence": "0.80",
-        "evidence": "Participant's technical discussions regarding AI models and project planning implies a higher level of education."
+        "value": "Bachelor's Degree or Equivalent",
+        "confidence": "0.60",
+        "evidence": "References technical reports and papers suggesting a technical background, likely necessitating a higher education level."
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Professional Advancement, Innovation, and Efficiency",
+        "value": "Improve AI models, contribute to team success, maintain technical expertise, achieve professional growth, improve business performance",
         "confidence": "0.90",
-        "evidence": "Participant's focus on roadmap planning, resource allocation, and communication with customers indicates a drive for professional growth and optimizing processes."
+        "evidence": "References roadmap planning, resource management, customer alignment, and innovation.  Desire to provide guidance for the team's next direction."
       },
       "interests": {
         "value": [
-          "AI Technology",
-          "Project Management",
+          "AI",
+          "Machine Learning",
           "Technical Innovation",
-          "Fitness"
+          "Project Management",
+          "Gym",
+          "Piano"
         ],
-        "confidence": "0.85",
-        "evidence": "Participant's work with AI models, project planning, and interest in reviewing technical reports and papers. Additionally, mentions of going to the gym."
+        "confidence": "0.80",
+        "evidence": "References AI models, technical reports, customer feedback, gym visits, and playing the piano."
       },
       "values": {
         "value": [
           "Efficiency",
           "Quality",
           "Customer Satisfaction",
-          "Innovation"
+          "Innovation",
+          "Teamwork"
         ],
-        "confidence": "0.80",
-        "evidence": "Participant's emphasis on efficient resource allocation, ensuring product quality, aligning with customer expectations, and seeking innovative solutions."
+        "confidence": "0.75",
+        "evidence": "Emphasis on efficient resource planning, ensuring high-quality models, aligning with customer expectations, driving innovation, and collaborating with a team."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
-        "confidence": "0.75",
-        "evidence": "Participant makes multiple purchases throughout the interview session, suggesting regular shopping activity."
+        "confidence": "0.70",
+        "evidence": "Participant recently purchased items (body trimmer, shoes, calculator, hairdryer) suggests regular shopping activity."
       },
       "where_used_devices": {
         "value": [
           "Smartphone",
-          "Desktop"
+          "Tablet"
         ],
-        "confidence": "0.90",
-        "evidence": "Participant uses the Amazon app and mentions searching online."
+        "confidence": "0.85",
+        "evidence": "References using the Amazon app and searching for products on the web."
       },
       "search_style_best_vs_first": {
-        "value": "Best Product / First Product",
-        "confidence": "0.60",
-        "evidence": "Participant's reliance on ChatGPT recommendations and choosing products based on quickest delivery and highest purchase numbers suggests a pragmatic search style."
+        "value": "First",
+        "confidence": "0.75",
+        "evidence": "States: \"I just so I get a recommendation from chat GPT...\" and \"I choose one with the quickest delivery, and the the highest number of purchases.\""
       },
       "price_preference_cheapest_vs_expensive": {
-        "value": "Cheapest Product",
-        "confidence": "0.50",
-        "evidence": "Participant prioritizes quickest delivery and highest purchase numbers, hinting at a preference for value-oriented options."
+        "value": "Cheapest",
+        "confidence": "0.60",
+        "evidence": "Prioritizes quickest delivery and highest number of purchases, which are often associated with lower prices."
       },
       "decision_factors": {
         "value": [
           "Delivery Speed",
-          "Purchase Volume",
-          "Product Rating",
-          "Functionality"
+          "Purchase Number",
+          "Rating",
+          "Functionality",
+          "Appearance (for certain items)"
         ],
-        "confidence": "0.95",
-        "evidence": "Participant consistently mentions these factors when making purchasing decisions."
+        "confidence": "0.90",
+        "evidence": "Expressly states prioritizing delivery speed and purchase number.  Also considers rating and appearance based on the product category."
       },
       "preferred_categories": {
         "value": [
-          "Beauty & Personal Care",
-          "Electronics",
-          "Household Goods"
+          "AI Models",
+          "Fitness Equipment",
+          "Fashion",
+          "Electronics"
         ],
-        "confidence": "0.70",
-        "evidence": "Purchases of body trimmer, razor, slippers, and calculator imply interest in these categories."
+        "confidence": "0.80",
+        "evidence": "Purchases body trimmer, shoes, calculator, hairdryer indicating interest in these categories."
       },
       "pain_points_and_or_challenges": {
-        "value": "Communication bottlenecks, resource allocation challenges, technical complexity",
-        "confidence": "0.80",
-        "evidence": "Participant describes aggressive behavior during 'war' scenarios related to resource definition and team management, reflecting challenges in communication and coordination."
+        "value": "Resource allocation, communication with stakeholders, managing expectations, technical challenges related to infrastructure access",
+        "confidence": "0.85",
+        "evidence": "Discusses roadmap planning, resource planning, communication with customers and senior leaders, managing infrastructure access for model training."
       }
     }
   }

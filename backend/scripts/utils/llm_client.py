@@ -9,12 +9,7 @@ from typing import Type, TypeVar
 import requests
 from pydantic import BaseModel, ValidationError
 
-import sys
-from pathlib import Path
-
-# Add parent directory to path for imports when run as script
-sys.path.insert(0, str(Path(__file__).parent.parent))
-
+# Import config from parent package (scripts/)
 from config import (
     OLLAMA_URL,
     OLLAMA_MODEL,

@@ -8,73 +8,75 @@
     },
     "demographics": {
       "age_range": {
-        "value": "35-45",
+        "value": "35-50",
         "confidence": "0.95",
-        "evidence": "Participant mentioned driving around with traffic, suggesting a professional lifestyle with potential commute challenges, which aligns with the 35-45 age range."
+        "evidence": "Participant's work as an applied scientist and daily routine described."
       },
       "gender": {
         "value": "Male",
-        "confidence": "0.80",
-        "evidence": "The participant's language and references (e.g., 'security shoes') are consistent with a male perspective."
+        "confidence": "0.90",
+        "evidence": "Participant's language and references to activities like jogging and hiking."
       },
       "nationality_background": {
         "value": "USA",
-        "confidence": "0.90",
-        "evidence": "Participant lived in California and spoke about a company policy, common in the USA business environment."
+        "confidence": "0.98",
+        "evidence": "Participant's residence in California and references to US-based companies like Amazon."
       },
       "location": {
         "value": "Manlo Park, California",
         "confidence": "1.00",
-        "evidence": "Explicitly stated by the participant."
+        "evidence": "Explicitly stated in the transcript."
       },
       "living_situation": {
-        "value": "With Wife",
-        "confidence": "1.00",
-        "evidence": "Explicitly stated by the participant."
+        "value": "With Partner",
+        "confidence": "0.95",
+        "evidence": "Participant states 'living with my wife'."
       },
       "occupation": {
         "value": "Applied Scientist",
-        "confidence": "0.98",
-        "evidence": "Directly stated by the participant."
+        "confidence": "1.00",
+        "evidence": "Explicitly stated in the transcript."
       },
       "education": {
-        "value": "Bachelor's Degree or higher",
-        "confidence": "0.70",
-        "evidence": "The role of 'Applied Scientist' suggests a higher level of education."
+        "value": "Bachelor's or Master's Degree",
+        "confidence": "0.75",
+        "evidence": "Role as Applied Scientist implies advanced education."
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Professional Success, Practicality, Safety",
-        "confidence": "0.85",
-        "evidence": "Emphasis on achieving career goals (writing code, project goals), practical considerations (composite toe shoes for a specific work task), and prioritizing safety (protecting feet)."
+        "value": "Achieve professional goals, maintain health and fitness, enjoy leisure time",
+        "confidence": "0.80",
+        "evidence": "Participant expresses desire to achieve short-term and career goals, engages in exercise, and spends time on leisure activities."
       },
       "interests": {
         "value": [
           "Technology",
-          "Hiking",
-          "Travel (implicitly through discussions of different brands)",
-          "Gadgets"
+          "Fitness",
+          "Travel",
+          "Shopping",
+          "Cooking"
         ],
-        "confidence": "0.75",
-        "evidence": "Interest in brands, software development (coding), and activities like hiking (observed during weekends) suggest a broad range of interests."
+        "confidence": "0.70",
+        "evidence": "References to software development, composite toe shoes (safety), jogging, hiking, and purchasing groceries and dining out."
       },
       "values": {
         "value": [
           "Efficiency",
-          "Reliability",
           "Safety",
-          "Value"
+          "Quality",
+          "Value",
+          "Convenience"
         ],
-        "confidence": "0.80",
-        "evidence": "Prioritizing efficient driving (avoiding traffic), reliable brands, safety (composite toe shoes), and cost-conscious purchasing (price preference and discount seeking) reflects these values."
+        "confidence": "0.65",
+        "evidence": "Prioritizing ph value of water, considering brand and price when purchasing, seeking safety with composite toe shoes, researching brands before buying, and skipping sponsored products."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
-        "confidence": "0.70",
-        "evidence": "Participant frequently purchases items like laundry liquid and other daily essentials, suggesting regular online shopping habits."
+        "confidence": "0.85",
+        "evidence": "Participant regularly purchases items like laundry detergent, water, and groceries."
       },
       "where_used_devices": {
         "value": [
@@ -82,41 +84,43 @@
           "Desktop"
         ],
         "confidence": "0.90",
-        "evidence": "Participant uses a smartphone for searching and purchasing, and mentions reviewing websites."
+        "evidence": "Participant uses a smartphone and desktop for research and purchasing."
       },
       "search_style_best_vs_first": {
         "value": "First Product",
         "confidence": "0.80",
-        "evidence": "The participant predominantly relies on the first product shown in the search results."
+        "evidence": "Participant usually begins with the first organic product in search results."
       },
       "price_preference_cheapest_vs_expensive": {
         "value": "Cheapest Product",
-        "confidence": "0.75",
-        "evidence": "The participant often selects the cheapest option available, particularly when comparing brands."
+        "confidence": "0.70",
+        "evidence": "Participant frequently chooses the lowest priced product when options are comparable."
       },
       "decision_factors": {
         "value": [
-          "Brand",
           "Price",
-          "Quantity",
-          "Reviews"
+          "Brand",
+          "Quality",
+          "Reviews",
+          "Availability"
         ],
-        "confidence": "0.95",
-        "evidence": "The participant consistently mentions brand, price, quantity and reviews as the most important factors when making purchases."
+        "confidence": "0.85",
+        "evidence": "Participant explicitly states that price, brand, and quality are the most important factors for purchases."
       },
       "preferred_categories": {
         "value": [
-          "Household Goods",
-          "Workwear",
-          "Electronics (implied by composite toe shoes)"
+          "Shoes",
+          "Household Supplies",
+          "Food & Beverage",
+          "Tools"
         ],
-        "confidence": "0.80",
-        "evidence": "Purchase of laundry liquid, composite toe shoes, and general daily essentials indicate a preference for these categories."
+        "confidence": "0.90",
+        "evidence": "Participant’s recent purchases of composite toe shoes, laundry detergent, drinking water, and a tool set."
       },
       "pain_points_and_or_challenges": {
-        "value": "Traffic, Finding Reliable Products, Time Constraints",
-        "confidence": "0.85",
-        "evidence": "Participant's concern about traffic delays and his desire to avoid them, his focus on reliable brands, and his efforts to reduce shopping time reflect these pain points."
+        "value": "Traffic, time management, finding reliable information, balancing work and personal life",
+        "confidence": "0.75",
+        "evidence": "Participant mentions traffic delays, describes a busy workday, and indicates a desire to avoid traffic."
       }
     }
   }

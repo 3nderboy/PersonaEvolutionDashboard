@@ -17,20 +17,49 @@ const CLUSTER_COLORS = [
 
 const getClusterColor = (clusterId) => CLUSTER_COLORS[clusterId % CLUSTER_COLORS.length];
 
-// Format BKM names for display
+// Format BKM names for display - maps technical names to full display names
 const formatMetricName = (name) => {
-    return name
-        .replace(/_/g, ' ')
-        .replace(/ratio/gi, '')
-        .replace(/seconds/gi, '')
-        .trim()
-        .split(' ')
-        .map(w => w.charAt(0).toUpperCase() + w.slice(1))
-        .join(' ');
+    const metricNameMap = {
+        'session_duration_seconds': 'Session Duration',
+        'action_density': 'Action Density',
+        'total_action_count': 'Total Action Count',
+        'purchase_intent_ratio': 'Purchase Intent Ratio',
+        'search_ratio': 'Search Ratio',
+        'product_exploration_ratio': 'Product Exploration Ratio',
+        'review_engagement_ratio': 'Review Engagement Ratio',
+        'filter_usage_ratio': 'Filter Usage Ratio',
+        'option_selection_ratio': 'Option Selection Ratio',
+        'input_ratio': 'Input Ratio'
+    };
+    return metricNameMap[name] || name;
+};
+
+// Info tooltip component for explanations
+const InfoTooltip = ({ text }) => {
+    const [show, setShow] = useState(false);
+
+    return (
+        <div
+            className="relative inline-block"
+            onMouseEnter={() => setShow(true)}
+            onMouseLeave={() => setShow(false)}
+        >
+            <div className="w-4 h-4 rounded-full bg-slate-700 text-slate-400 hover:bg-slate-600 hover:text-sky-400 flex items-center justify-center text-xs cursor-help transition-colors">
+                i
+            </div>
+            {show && (
+                <div className="absolute z-50 left-0 top-6 w-72 p-3 bg-slate-900 border border-slate-600 rounded-lg shadow-xl animate-fade-in">
+                    <div className="text-xs text-slate-300 leading-relaxed">
+                        {text}
+                    </div>
+                </div>
+            )}
+        </div>
+    );
 };
 
 // Persona Detail Panel Component
-const PersonaDetailPanel = ({ persona, onClose, sessions = [], selectedMonth, onMonthChange, availableMonths = [], clusterPersona }) => {
+const PersonaDetailPanel = ({ persona, onClose, sessions = [], selectedMonth, onMonthChange, availableMonths = [], clusterPersona, monthlyMetricsData, monthlyData = {} }) => {
 
     // Filter sessions for this persona in this month
     const monthSessions = useMemo(() => {
@@ -41,33 +70,16 @@ const PersonaDetailPanel = ({ persona, onClose, sessions = [], selectedMonth, on
         );
     }, [sessions, selectedMonth, persona]);
 
-    // Calculate monthly average metrics
+    // Monthly averages and z-scores from monthly cluster data
     const monthlyMetrics = useMemo(() => {
-        if (monthSessions.length === 0 || !persona) return persona?.behavioral_metrics;
+        // Use monthly metrics data if available (includes pre-calculated z-scores)
+        if (monthlyMetricsData?.behavioral_metrics) {
+            return monthlyMetricsData.behavioral_metrics;
+        }
 
-        const sums = {};
-        const count = monthSessions.length;
-        const keys = Object.keys(monthSessions[0].behavioral_metrics);
-
-        keys.forEach(key => sums[key] = 0);
-
-        monthSessions.forEach(s => {
-            Object.entries(s.behavioral_metrics).forEach(([key, val]) => {
-                sums[key] += val;
-            });
-        });
-
-        const avgs = {};
-        keys.forEach(key => {
-            // Keep original Z-Score for reference (as we can't recompute it easily), but update Value
-            avgs[key] = {
-                value: sums[key] / count,
-                z_score: persona.behavioral_metrics[key]?.z_score || 0
-            };
-        });
-
-        return avgs;
-    }, [monthSessions, persona]);
+        // Fallback to global archetype data if monthly data not available
+        return persona?.behavioral_metrics || {};
+    }, [monthlyMetricsData, persona]);
 
     // Finds representative session for this month (closest to monthly average)
     const monthRepSession = useMemo(() => {
@@ -98,7 +110,8 @@ const PersonaDetailPanel = ({ persona, onClose, sessions = [], selectedMonth, on
 
     const metrics = monthlyMetrics || {};
     const rep = monthRepSession || {};
-    const traits = persona.distinguishing_traits || { high: [], low: [] };
+    // Use monthly distinguishing traits if available, otherwise fall back to global
+    const traits = monthlyMetricsData?.distinguishing_traits || persona.distinguishing_traits || { high: [], low: [] };
     const sessionCount = monthSessions.length > 0 ? monthSessions.length : 0;
 
     // Prepare radar data
@@ -108,12 +121,12 @@ const PersonaDetailPanel = ({ persona, onClose, sessions = [], selectedMonth, on
         fullMark: 1
     }));
 
-    // Prepare bar data for z-scores (Using Global Archetype Z-Scores)
-    const barData = Object.entries(persona.behavioral_metrics) // Use global for Z-scores
+    // Prepare bar data for z-scores (Using Monthly Z-Scores if available)
+    const barData = Object.entries(metrics)
         .map(([key, data]) => ({
             metric: formatMetricName(key),
             z_score: data.z_score,
-            fill: data.z_score > 1 ? '#22c55e' : data.z_score < -1 ? '#ef4444' : '#64748b'
+            fill: data.z_score > 0.75 ? '#22c55e' : data.z_score < -0.75 ? '#ef4444' : '#64748b'
         }))
         .sort((a, b) => b.z_score - a.z_score);
 
@@ -144,21 +157,31 @@ const PersonaDetailPanel = ({ persona, onClose, sessions = [], selectedMonth, on
 
                         {/* Month Switcher inside Modal */}
                         <div className="flex gap-2 mt-4">
-                            {availableMonths.map(m => (
-                                <button
-                                    key={m}
-                                    onClick={() => onMonthChange && onMonthChange(m)}
-                                    className={`
-                                        px-3 py-1.5 rounded-lg text-xs font-medium transition-all
-                                        ${selectedMonth === m
-                                            ? 'bg-sky-500/20 text-sky-300 border border-sky-500/50'
-                                            : 'bg-slate-800 text-slate-400 border border-slate-700 hover:bg-slate-700 hover:text-white'
-                                        }
-                                    `}
-                                >
-                                    {m}
-                                </button>
-                            ))}
+                            {availableMonths.map(m => {
+                                // Check if cluster exists in this month
+                                const clusterExistsInMonth = monthlyData[m]?.clusters?.some(c => c.cluster_id === persona.cluster_id);
+                                const isDisabled = !clusterExistsInMonth;
+
+                                return (
+                                    <button
+                                        key={m}
+                                        onClick={() => !isDisabled && onMonthChange && onMonthChange(m)}
+                                        disabled={isDisabled}
+                                        className={`
+                                            px-3 py-1.5 rounded-lg text-xs font-medium transition-all
+                                            ${selectedMonth === m
+                                                ? 'bg-sky-500/20 text-sky-300 border border-sky-500/50'
+                                                : isDisabled
+                                                    ? 'bg-slate-900 text-slate-600 border border-slate-800 cursor-not-allowed opacity-50'
+                                                    : 'bg-slate-800 text-slate-400 border border-slate-700 hover:bg-slate-700 hover:text-white cursor-pointer'
+                                            }
+                                        `}
+                                        title={isDisabled ? `This cluster does not exist in ${m}` : ''}
+                                    >
+                                        {m}
+                                    </button>
+                                );
+                            })}
                         </div>
                     </div>
                     <button
@@ -173,9 +196,12 @@ const PersonaDetailPanel = ({ persona, onClose, sessions = [], selectedMonth, on
                     {/* Distinguishing Traits */}
                     {traits.high.length > 0 && (
                         <div>
-                            <h3 className="text-sm font-semibold text-slate-400 uppercase tracking-wider mb-3">
-                                Distinguishing Traits
-                            </h3>
+                            <div className="flex items-center gap-2 mb-3">
+                                <h3 className="text-sm font-semibold text-slate-400 uppercase tracking-wider">
+                                    Distinguishing Traits
+                                </h3>
+                                <InfoTooltip text="Behavioral metrics that significantly distinguish this cluster from others. Generated by calculating Z-scores (standard deviations from the mean) for each behavioral metric across all users. Traits with Z-scores > +0.75σ (green, ↑) indicate this cluster scores higher than average; traits with Z-scores < -0.75σ (red, ↓) indicate lower than average (but the two top traits are always shown, even if below threshold, ensures every cluster has distinguishing traits). These traits help you understand what makes this cluster's shopping behavior unique compared to other user segments." />
+                            </div>
                             <div className="flex flex-wrap gap-2">
                                 {traits.high.map((t, i) => (
                                     <span key={i} className="px-3 py-1.5 bg-green-500/20 text-green-300 rounded-full text-sm">
@@ -202,6 +228,18 @@ const PersonaDetailPanel = ({ persona, onClose, sessions = [], selectedMonth, on
                                         <PolarGrid stroke="#334155" />
                                         <PolarAngleAxis dataKey="metric" tick={{ fill: '#94a3b8', fontSize: 10 }} />
                                         <PolarRadiusAxis domain={[0, 1]} tick={false} axisLine={false} />
+                                        <Tooltip
+                                            contentStyle={{
+                                                backgroundColor: '#0f172a',
+                                                borderColor: '#475569',
+                                                borderRadius: '0.5rem',
+                                                fontSize: 12
+                                            }}
+                                            itemStyle={{
+                                                color: '#38bdf8'
+                                            }}
+                                            formatter={(value) => [value.toFixed(3), 'Value']}
+                                        />
                                         <Radar
                                             dataKey="value"
                                             stroke={getClusterColor(persona.cluster_id)}
@@ -221,10 +259,18 @@ const PersonaDetailPanel = ({ persona, onClose, sessions = [], selectedMonth, on
                                 <ResponsiveContainer width="100%" height="100%">
                                     <BarChart data={barData} layout="vertical" margin={{ left: 80 }}>
                                         <CartesianGrid strokeDasharray="3 3" stroke="#334155" />
-                                        <XAxis type="number" domain={[-3, 7]} tick={{ fill: '#94a3b8', fontSize: 10 }} />
+                                        <XAxis type="number" domain={[-3, 4]} tick={{ fill: '#94a3b8', fontSize: 10 }} />
                                         <YAxis type="category" dataKey="metric" tick={{ fill: '#94a3b8', fontSize: 10 }} width={75} />
                                         <Tooltip
-                                            contentStyle={{ backgroundColor: '#1e293b', borderColor: '#334155', fontSize: 12 }}
+                                            contentStyle={{
+                                                backgroundColor: '#0f172a',
+                                                borderColor: '#475569',
+                                                borderRadius: '0.5rem',
+                                                fontSize: 12
+                                            }}
+                                            itemStyle={{
+                                                color: '#38bdf8'
+                                            }}
                                             formatter={(value) => [`${value.toFixed(2)}σ`, 'Z-Score']}
                                         />
                                         <Bar dataKey="z_score" radius={[0, 4, 4, 0]}>
@@ -240,9 +286,12 @@ const PersonaDetailPanel = ({ persona, onClose, sessions = [], selectedMonth, on
 
                     {/* Cluster Persona */}
                     <div>
-                        <h3 className="text-sm font-semibold text-slate-400 uppercase tracking-wider mb-4">
-                            Cluster Persona
-                        </h3>
+                        <div className="flex items-center gap-2 mb-4">
+                            <h3 className="text-sm font-semibold text-slate-400 uppercase tracking-wider">
+                                Persona of this Cluster (Synthesized by a LLM)
+                            </h3>
+                            <InfoTooltip text="A synthesized persona representing this cluster's behavioral patterns. Generated by a LLM from individual/different user profiles who share similar shopping behaviors. This persona aggregates common demographics, psychographics and shopping preferences to help understand the typical user in this cluster." />
+                        </div>
                         <ClusterPersonaCard
                             clusterPersona={clusterPersona}
                             clusterName={persona.name}
@@ -577,11 +626,11 @@ const PersonaClusterView = () => {
             {/* Header */}
             <div className="border-b border-slate-800 pb-6">
                 <h1 className="text-3xl font-bold text-white tracking-tight mb-2">
-                    Behavioral Persona Clusters
+                    Persona Evolution Dashboard
                 </h1>
                 <p className="text-slate-400 max-w-3xl">
-                    Sessions clustered by Behavioral Key Metrics. Each cluster represents a distinct
-                    shopping behavior pattern. Click a cluster to view persona details.
+                    Sessions from users clustered by Behavioral Key Metrics. Each cluster represents a distinct
+                    shopping behavior pattern. Click a cluster to view details about the distinguishing traits and persona details.
                 </p>
                 <div className="flex gap-4 mt-4 text-sm">
                     <span className="text-slate-500">
@@ -792,41 +841,46 @@ const PersonaClusterView = () => {
                 <div className="bg-slate-800/30 rounded-xl p-6 border border-slate-700/30">
                     <h3 className="text-lg font-semibold text-white mb-4">Personas</h3>
                     <div className="space-y-3">
-                        {personas.map(persona => {
-                            const monthCluster = monthlyData[selectedMonth]?.clusters?.find(
-                                c => c.cluster_id === persona.cluster_id
-                            );
-                            const sessionCount = monthCluster?.session_count || 0;
+                        {personas
+                            .filter(persona => {
+                                // Only show personas that exist in the selected month
+                                const monthCluster = monthlyData[selectedMonth]?.clusters?.find(
+                                    c => c.cluster_id === persona.cluster_id
+                                );
+                                return monthCluster && monthCluster.session_count > 0;
+                            })
+                            .map(persona => {
+                                const monthCluster = monthlyData[selectedMonth]?.clusters?.find(
+                                    c => c.cluster_id === persona.cluster_id
+                                );
+                                const sessionCount = monthCluster?.session_count || 0;
 
-                            return (
-                                <button
-                                    key={persona.cluster_id}
-                                    onClick={() => setSelectedPersona(persona)}
-                                    className="w-full text-left p-4 bg-slate-800/50 hover:bg-slate-700/50 rounded-lg border border-slate-700/50 hover:border-slate-600 transition group"
-                                >
-                                    <div className="flex items-center gap-3 mb-2">
-                                        <div
-                                            className="w-3 h-3 rounded-full flex-shrink-0"
-                                            style={{ backgroundColor: getClusterColor(persona.cluster_id) }}
-                                        />
-                                        <span className="font-semibold text-white group-hover:text-sky-400 transition">
-                                            {persona.name}
-                                        </span>
-                                    </div>
-                                    <p className="text-xs text-slate-400 mb-2 line-clamp-2">
-                                        {persona.description}
-                                    </p>
-                                    <div className="flex justify-between text-xs">
-                                        <span className="text-slate-500">
-                                            {sessionCount} sessions this month
-                                        </span>
-                                        <span className="text-slate-500">
-                                            {persona.session_count} total
-                                        </span>
-                                    </div>
-                                </button>
-                            );
-                        })}
+                                return (
+                                    <button
+                                        key={persona.cluster_id}
+                                        onClick={() => setSelectedPersona(persona)}
+                                        className="w-full text-left p-4 bg-slate-800/50 hover:bg-slate-700/50 rounded-lg border border-slate-700/50 hover:border-slate-600 transition group"
+                                    >
+                                        <div className="flex items-center gap-3 mb-2">
+                                            <div
+                                                className="w-3 h-3 rounded-full flex-shrink-0"
+                                                style={{ backgroundColor: getClusterColor(persona.cluster_id) }}
+                                            />
+                                            <span className="font-semibold text-white group-hover:text-sky-400 transition">
+                                                {persona.name}
+                                            </span>
+                                        </div>
+                                        <p className="text-xs text-slate-400 mb-2 line-clamp-2">
+                                            {persona.description}
+                                        </p>
+                                        <div className="flex justify-between text-xs">
+                                            <span className="text-slate-500">
+                                                {sessionCount} sessions this month
+                                            </span>
+                                        </div>
+                                    </button>
+                                );
+                            })}
                     </div>
                 </div>
             </div>
@@ -841,6 +895,8 @@ const PersonaClusterView = () => {
                     onMonthChange={setSelectedMonth}
                     availableMonths={sortedMonths}
                     clusterPersona={clusterPersonas[`${selectedMonth}_${selectedPersona.cluster_id}`]}
+                    monthlyMetricsData={monthlyData[selectedMonth]?.clusters?.find(c => c.cluster_id === selectedPersona.cluster_id)}
+                    monthlyData={monthlyData}
                 />
             )}
 
