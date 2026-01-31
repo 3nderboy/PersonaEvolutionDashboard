@@ -17,7 +17,9 @@ from config import OPERA_DATA_DIR
 from utils import Logger
 
 REPO = "NEU-HAI/OPeRA"
-CONFIGS = ["full_user", "full_session", "full_action", "filtered_user", "filtered_session", "filtered_action"]
+# Only download filtered datasets (cleaner action space)
+# Full datasets excluded - filtered versions recommended for persona research
+CONFIGS = ["filtered_user", "filtered_session", "filtered_action"]
 
 
 def main() -> int:
@@ -47,6 +49,7 @@ def main() -> int:
         from huggingface_hub import hf_hub_download
         log.success("Dependencies installed")
 
+    # HuggingFace: reduce logging to warnings only (suppress progress bars)
     set_verbosity_warning()
     OPERA_DATA_DIR.mkdir(parents=True, exist_ok=True)
     cache = OPERA_DATA_DIR / ".cache"
@@ -80,12 +83,13 @@ def main() -> int:
             for split, data in ds.items():
                 data.to_csv(out / f"{split}.csv")
             del ds
-            gc.collect()
+            gc.collect()  # Force garbage collection to free memory between downloads
             processed += 1
         except Exception as e:
             errors += 1
             log.error(f"{cfg}: {e}")
 
+    # shutil.rmtree: Python standard library for recursive directory deletion
     shutil.rmtree(cache, ignore_errors=True)
     
     log.summary(processed=processed, skipped=skipped, errors=errors)

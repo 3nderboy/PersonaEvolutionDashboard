@@ -40,9 +40,7 @@ MAX_CLUSTERS = CLUSTER_CONFIG["max_clusters"]
 RANDOM_STATE = CLUSTER_CONFIG["random_state"]
 
 
-# =============================================================================
 # PHASE 1: DATA LOADING AND VALIDATION
-# =============================================================================
 
 def load_datasets(log: Logger) -> Tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
     """Load and validate OPeRA datasets."""
@@ -110,9 +108,7 @@ def parse_session_timestamps(df_sessions: pd.DataFrame, log: Logger) -> pd.DataF
     return df_valid
 
 
-# =============================================================================
 # PHASE 2: BEHAVIORAL KEY METRICS (BKMs)
-# =============================================================================
 
 def calculate_bkms(df_sessions: pd.DataFrame, df_actions: pd.DataFrame, log: Logger) -> pd.DataFrame:
     """
@@ -224,9 +220,7 @@ def normalize_bkms(df_bkm: pd.DataFrame, log: Logger) -> Tuple[pd.DataFrame, Qua
     return df_bkm_norm, scaler, bkm_columns
 
 
-# =============================================================================
 # PHASE 3: CLUSTERING
-# =============================================================================
 
 def find_optimal_clusters(X: np.ndarray, log: Logger) -> int:
     """Find optimal number of clusters using silhouette score."""
@@ -298,9 +292,7 @@ def apply_pca(df_bkm_norm: pd.DataFrame, centroids: pd.DataFrame, bkm_columns: L
     return df_bkm_norm, centroids, pca
 
 
-# =============================================================================
 # PHASE 4: PERSONA CONSTRUCTION
-# =============================================================================
 
 def identify_cluster_traits(centroids: pd.DataFrame, df_bkm: pd.DataFrame, bkm_columns: List[str], log: Logger) -> Dict[int, Dict]:
     """Identify distinguishing traits for each cluster."""
@@ -482,9 +474,7 @@ def build_persona_profiles(
     return personas
 
 
-# =============================================================================
 # PHASE 5: MONTHLY AGGREGATION
-# =============================================================================
 
 def aggregate_by_month(df_bkm_norm: pd.DataFrame, bkm_columns: List[str], log: Logger) -> Dict:
     """Aggregate cluster data by month with z-scores and traits."""
@@ -561,9 +551,7 @@ def aggregate_by_month(df_bkm_norm: pd.DataFrame, bkm_columns: List[str], log: L
     return monthly_data
 
 
-# =============================================================================
 # PHASE 6: OUTPUT GENERATION
-# =============================================================================
 
 def generate_output(
     personas: List[Dict],
@@ -635,9 +623,7 @@ def generate_output(
     log.success("metadata.json")
 
 
-# =============================================================================
 # MAIN PIPELINE
-# =============================================================================
 
 def run_pipeline():
     """Execute the full persona generation pipeline."""
