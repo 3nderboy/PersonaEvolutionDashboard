@@ -223,6 +223,18 @@ const PersonaDetailPanel = ({ persona, onClose, sessions = [], selectedMonth, on
                                         <PolarGrid stroke="#334155" />
                                         <PolarAngleAxis dataKey="metric" tick={{ fill: '#94a3b8', fontSize: 10 }} />
                                         <PolarRadiusAxis domain={[0, 1]} tick={false} axisLine={false} />
+                                        <Tooltip
+                                            contentStyle={{
+                                                backgroundColor: '#0f172a',
+                                                borderColor: '#475569',
+                                                borderRadius: '0.5rem',
+                                                fontSize: 12
+                                            }}
+                                            itemStyle={{
+                                                color: '#38bdf8'
+                                            }}
+                                            formatter={(value) => [value.toFixed(3), 'Value']}
+                                        />
                                         <Radar
                                             dataKey="value"
                                             stroke={getClusterColor(persona.cluster_id)}
@@ -242,10 +254,18 @@ const PersonaDetailPanel = ({ persona, onClose, sessions = [], selectedMonth, on
                                 <ResponsiveContainer width="100%" height="100%">
                                     <BarChart data={barData} layout="vertical" margin={{ left: 80 }}>
                                         <CartesianGrid strokeDasharray="3 3" stroke="#334155" />
-                                        <XAxis type="number" domain={[-3, 7]} tick={{ fill: '#94a3b8', fontSize: 10 }} />
+                                        <XAxis type="number" domain={[-3, 4]} tick={{ fill: '#94a3b8', fontSize: 10 }} />
                                         <YAxis type="category" dataKey="metric" tick={{ fill: '#94a3b8', fontSize: 10 }} width={75} />
                                         <Tooltip
-                                            contentStyle={{ backgroundColor: '#1e293b', borderColor: '#334155', fontSize: 12 }}
+                                            contentStyle={{
+                                                backgroundColor: '#0f172a',
+                                                borderColor: '#475569',
+                                                borderRadius: '0.5rem',
+                                                fontSize: 12
+                                            }}
+                                            itemStyle={{
+                                                color: '#38bdf8'
+                                            }}
                                             formatter={(value) => [`${value.toFixed(2)}σ`, 'Z-Score']}
                                         />
                                         <Bar dataKey="z_score" radius={[0, 4, 4, 0]}>
