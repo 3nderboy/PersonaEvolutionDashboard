@@ -601,11 +601,11 @@ const PersonaClusterView = () => {
             {/* Header */}
             <div className="border-b border-slate-800 pb-6">
                 <h1 className="text-3xl font-bold text-white tracking-tight mb-2">
-                    Behavioral Persona Clusters
+                    Persona Evolution Dashboard
                 </h1>
                 <p className="text-slate-400 max-w-3xl">
-                    Sessions clustered by Behavioral Key Metrics. Each cluster represents a distinct
-                    shopping behavior pattern. Click a cluster to view persona details.
+                    Sessions from users clustered by Behavioral Key Metrics. Each cluster represents a distinct
+                    shopping behavior pattern. Click a cluster to view details about the distinguishing traits and persona details.
                 </p>
                 <div className="flex gap-4 mt-4 text-sm">
                     <span className="text-slate-500">
