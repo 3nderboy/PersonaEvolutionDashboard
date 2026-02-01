@@ -81,6 +81,10 @@ The project follows a modern **Client–Server architecture** to separate data-h
 
 **Comparative Analysis**: Side-by-side comparison of different timeframes/timestamps (for example Initial Launch vs. Post-Update).
 
+**Dynamic Persona Naming**: Instead of static labels, personas are named dynamically based on their dominant behaviors (e.g., "Search-Driven Explorer" vs. "Decisive Filter-User") using a semantic feature descriptor engine.
+
+**Confidence & Evidence UI**: Every generated attribute (e.g., "High Price Preference") is displayed with a confidence score and a "hover-for-evidence" tooltip, showing the exact data signal that led to the conclusion. This prevents "blind trust" in the AI.
+
 ### Possible upcoming features:  
 **Cluster Centroids**: Instead of the Cluster Map, a radar chart which shows the different clusters and their behavior could make more sense. We would have more axes and therefore it would be easier to understand, how a cluster or a specific user behaves. This would also need a so-called **Axes Breakdown**, an explanation for the different axes of the radar chart.
 

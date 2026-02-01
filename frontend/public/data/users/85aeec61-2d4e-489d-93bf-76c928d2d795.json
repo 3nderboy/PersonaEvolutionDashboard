@@ -2,101 +2,97 @@
   "user_id": "85aeec61-2d4e-489d-93bf-76c928d2d795",
   "profile": {
     "title": {
-      "user_name": "Researcher_P",
-      "two_word_summary": "Academic Researcher",
+      "user_name": "Researcher",
+      "two_word_summary": "Academic Research",
       "confidence_overall": "0.95"
     },
     "demographics": {
       "age_range": {
-        "value": "35-45",
+        "value": "35-55",
         "confidence": "0.90",
-        "evidence": "Participant mentions working with Alexa Echo devices, implying a tech-savvy professional with likely experience in a field requiring technology."
+        "evidence": "Participant's work as 'academic research' and references to 'Alexa Echo' and 'experiment' suggests a professional adult age range."
       },
       "gender": {
         "value": "Male",
         "confidence": "0.85",
-        "evidence": "Participant uses male pronouns throughout the interview."
+        "evidence": "Participant's language and technical descriptions align with a male profile."
       },
       "nationality_background": {
         "value": "USA",
         "confidence": "0.95",
-        "evidence": "Participant states they live in Boston, indicating US nationality."
+        "evidence": "Participant resides in Boston, implying a background within the United States."
       },
       "location": {
         "value": "Boston, MA",
         "confidence": "1.00",
-        "evidence": "Participant explicitly states 'I do academic research in Boston'."
+        "evidence": "Explicitly stated location."
       },
       "living_situation": {
-        "value": "Living Alone",
-        "confidence": "1.00",
-        "evidence": "Participant states 'I live alone'."
+        "value": "Alone",
+        "confidence": "0.95",
+        "evidence": "Participant states they 'live alone'."
       },
       "occupation": {
         "value": "Academic Researcher",
         "confidence": "1.00",
-        "evidence": "Participant repeatedly states they 'do academic research' and mentions research meetings, writing papers, and experiments."
+        "evidence": "Explicitly stated occupation."
       },
       "education": {
-        "value": "Master's Degree or Ph.D.",
+        "value": "Master's Degree or Higher",
         "confidence": "0.80",
-        "evidence": "The nature of their research (human-computing action and NLP) and the research meetings suggest a higher level of education."
+        "evidence": "The role of 'academic research' implies a higher level of education."
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Conducting rigorous research, achieving research goals, understanding human-computer interaction, publishing research papers.",
+        "value": "Conducting research, documenting findings, staying current with technology, and potentially publishing research papers.",
         "confidence": "0.90",
-        "evidence": "Participant's work described as 'research in Boston,'  'writing papers,' 'doing experiment,'  interest in 'human computing action and natural language processing' suggests a drive for knowledge and publication."
+        "evidence": "References to 'research experiments,' 'writing papers,' and using 'Alexa' for 'research purposes' indicate research-oriented motivations."
       },
       "interests": {
         "value": [
-          "Artificial Intelligence",
-          "Natural Language Processing",
           "Human-Computer Interaction",
-          "Research",
-          "Technology",
-          "Audio Recording Devices"
+          "Natural Language Processing",
+          "Audio Recording Technology",
+          "Research Methodology"
         ],
-        "confidence": "0.95",
-        "evidence": "Explicit mentions of 'human computing action and natural language processing,' interest in Alexa Echo devices, YouTube videos on research topics."
+        "confidence": "0.85",
+        "evidence": "Explicit mentions of 'Human computing action and natural language processing' alongside interest in Alexa for voice recording."
       },
       "values": {
         "value": [
           "Accuracy",
-          "Objectivity",
-          "Data-Driven Insights",
           "Efficiency",
+          "Data-Driven Decision Making",
           "Continuous Learning"
         ],
-        "confidence": "0.85",
-        "evidence": "Emphasis on 'research meetings,' 'writing papers,' careful research into 'recording qualities' and 'research topics' indicates valuing accuracy, objectivity, and data-driven insights."
+        "confidence": "0.75",
+        "evidence": "Participant’s focus on finding the 'best performing' product, researching audio quality, and trusting self-conducted research aligns with valuing accuracy and data-driven decision making."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Monthly",
-        "confidence": "0.75",
-        "evidence": "Participant purchases necessities like shampoo and face moisturizer monthly, indicating a regular shopping habit, likely not daily."
+        "confidence": "0.70",
+        "evidence": "Participant's purchasing of 'daily use items' suggests a monthly or less frequent buying pattern."
       },
       "where_used_devices": {
         "value": [
           "Desktop",
-          "Smartphone",
-          "Tablet"
+          "Smartphone"
         ],
         "confidence": "0.90",
-        "evidence": "Participant uses a desktop to conduct research, a smartphone for browsing and potentially ordering, and possibly a tablet for taking notes or reviewing research materials."
+        "evidence": "Participant conducts research on 'Youtube' and 'Bilibi' and makes purchases on 'Amazon,' indicating the use of both desktop and smartphone devices."
       },
       "search_style_best_vs_first": {
-        "value": "First",
+        "value": "First Product",
         "confidence": "0.80",
-        "evidence": "Participant initially searches for 'Alexa Echo' and then filters based on research articles and reviews, suggesting they prioritize finding the top-ranked product first."
+        "evidence": "Participant initially searches for 'Alexa Echo' and focuses on the first options presented."
       },
       "price_preference_cheapest_vs_expensive": {
-        "value": "Cheapest",
+        "value": "Cheapest Product",
         "confidence": "0.85",
-        "evidence": "Participant explicitly states 'I just find the wise, the cheapest' when choosing the Alexa Echo device, prioritizing the lowest price."
+        "evidence": "Participant explicitly states 'I just find the wise, the cheapest'."
       },
       "decision_factors": {
         "value": [
@@ -104,21 +100,22 @@
           "Price",
           "Functionality"
         ],
-        "confidence": "1.00",
-        "evidence": "Participant repeatedly states these as the primary factors influencing their purchasing decisions."
+        "confidence": "0.95",
+        "evidence": "Participant’s emphasis on ‘recording quality’ and ‘price’ as primary factors in their purchasing decisions."
       },
       "preferred_categories": {
         "value": [
           "Electronics",
-          "Personal Care Products"
+          "Audio Equipment",
+          "Daily Necessities"
         ],
-        "confidence": "0.90",
-        "evidence": "Participant buys electronics (Alexa Echo) and personal care items (shampoo, face moisturizer)."
+        "confidence": "0.80",
+        "evidence": "Purchase of 'electronics,' 'audio equipment,' and 'daily use items' indicates a preference for these categories."
       },
       "pain_points_and_or_challenges": {
-        "value": "Lack of reliable, unbiased information for purchasing decisions.",
-        "confidence": "0.80",
-        "evidence": "Participant’s preference for conducting their own research and distrust of sponsored products, suggests a desire to overcome the challenge of identifying trustworthy product information."
+        "value": "Difficulty finding reliable product reviews and distinguishing between sponsored and un-sponsored products.",
+        "confidence": "0.90",
+        "evidence": "Participant’s skepticism towards reviews and filtering out sponsored products demonstrate a key pain point."
       }
     }
   }

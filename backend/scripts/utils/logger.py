@@ -45,10 +45,7 @@ class Logger:
     def header(self, title: str):
         """Print script header."""
         self.start_time = datetime.now()
-        line = "=" * 60
-        print(f"\n{Colors.BOLD}{line}{Colors.RESET}")
-        print(f"{Colors.BOLD}{Colors.INFO}  {title}{Colors.RESET}")
-        print(f"{Colors.BOLD}{line}{Colors.RESET}\n")
+        print(f"\n{Colors.BOLD}{Colors.INFO}# {title}{Colors.RESET}\n")
     
     def step(self, number: int, description: str):
         """Print numbered step header."""

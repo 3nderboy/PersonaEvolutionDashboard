@@ -3,127 +3,128 @@
   "profile": {
     "title": {
       "user_name": "PhD Student - Chicago",
-      "two_word_summary": "Data-Driven Scholar",
+      "two_word_summary": "Data Driven Chill",
       "confidence_overall": "0.85"
     },
     "demographics": {
       "age_range": {
-        "value": "25-35",
+        "value": "25-34",
         "confidence": "0.95",
-        "evidence": "Participant states they are a 3rd year PhD student."
+        "evidence": "Participant stated they are a '3rd year' PhD student."
       },
       "gender": {
         "value": "Male",
         "confidence": "0.90",
-        "evidence": "Participant's language and references."
+        "evidence": "Participant's language and self-description."
       },
       "nationality_background": {
         "value": "USA",
         "confidence": "1.00",
-        "evidence": "Participant lives in Chicago."
+        "evidence": "Participant's location is Chicago, USA."
       },
       "location": {
         "value": "Chicago, IL",
         "confidence": "1.00",
-        "evidence": "Participant states they live in Chicago."
+        "evidence": "Explicitly stated."
       },
       "living_situation": {
         "value": "With Roommates",
         "confidence": "1.00",
-        "evidence": "Participant lives with 2 roommates."
+        "evidence": "Explicitly stated."
       },
       "occupation": {
-        "value": "Graduate Student (Cancer Biology PhD)",
+        "value": "PhD Student - Cancer Biology",
         "confidence": "1.00",
-        "evidence": "Participant states they are a PhD student in cancer biology."
+        "evidence": "Explicitly stated."
       },
       "education": {
         "value": "PhD",
         "confidence": "1.00",
-        "evidence": "Participant states they are a PhD student."
+        "evidence": "Explicitly stated."
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Academic success, pursuing research in cancer biology, maintaining a balanced lifestyle, convenience.",
-        "confidence": "0.75",
-        "evidence": "Participant's statements about their research, daily routine, and desire for convenient shopping."
+        "value": "Complete PhD successfully, manage daily life efficiently, maintain social connections.",
+        "confidence": "0.80",
+        "evidence": "Participant’s statement about planning, managing time, checking emails, working with PI, preparing for future, preventing cat damage."
       },
       "interests": {
         "value": [
           "Data Analysis",
-          "Cancer Research",
           "Gaming",
           "Rock Climbing",
           "Cooking",
-          "Plants"
+          "Plants",
+          "Skiing"
         ],
-        "confidence": "0.65",
-        "evidence": "Participant mentions working with bio information, playing video games, going to the gym, rock climbing, cooking, and having plants."
+        "confidence": "0.75",
+        "evidence": "Participant mentioned data analysis, gaming, rock climbing, cooking, plants, and skiing on weekends."
       },
       "values": {
         "value": [
           "Efficiency",
-          "Reliability",
-          "Quality",
+          "Organization",
+          "Relaxation",
           "Convenience",
           "Social Connection"
         ],
-        "confidence": "0.60",
-        "evidence": "Participant prioritizes next-day delivery, checks product dimensions, and values relationships with roommates and lab colleagues."
+        "confidence": "0.70",
+        "evidence": "Participant’s emphasis on planning, calendars, avoiding crowded events, and cooking with roommates."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
-        "confidence": "0.80",
-        "evidence": "Participant buys items like laundry detergent, toothpaste, and toiletries weekly."
+        "confidence": "0.85",
+        "evidence": "Participant frequently purchases items like toothpaste, laundry detergent, and random small items."
       },
       "where_used_devices": {
         "value": [
           "Smartphone",
           "Desktop"
         ],
-        "confidence": "1.00",
-        "evidence": "Participant uses a smartphone and computer for shopping and research."
+        "confidence": "0.95",
+        "evidence": "Participant primarily uses a computer for data analysis and conducts shopping on a smartphone."
       },
       "search_style_best_vs_first": {
-        "value": "First Product",
-        "confidence": "0.70",
-        "evidence": "Participant initially looks for the cheapest product when shopping."
+        "value": "Best Product / First Product",
+        "confidence": "0.60",
+        "evidence": "Participant stated they look for the cheapest product, but also considers quality."
       },
       "price_preference_cheapest_vs_expensive": {
         "value": "Cheapest Product",
-        "confidence": "0.85",
-        "evidence": "Participant states they look for the 'cheapest one they can find' when buying items."
+        "confidence": "0.70",
+        "evidence": "Participant explicitly stated they look for the cheapest product available."
       },
       "decision_factors": {
         "value": [
           "Price",
           "Color",
           "Size",
-          "Reviews (Low Star)",
-          "Convenience (Next Day Delivery)"
+          "Product Quality",
+          "Delivery Time",
+          "Reviews"
         ],
         "confidence": "0.90",
-        "evidence": "Participant prioritizes these factors when purchasing items."
+        "evidence": "Participant’s justifications for purchasing items (e.g., color, size, quality, delivery time, reviews)."
       },
       "preferred_categories": {
         "value": [
           "Household Supplies",
           "Electronics",
-          "Clothing",
+          "Apparel",
           "Baby Products",
           "Sports Supplies",
           "Gardening Supplies"
         ],
         "confidence": "0.80",
-        "evidence": "Participant buys items such as laundry detergent, earbuds, a bracelet, and potting soil."
+        "evidence": "Participant’s purchase history (e.g., toothpaste, laundry detergent, airtag case, protein powder)."
       },
       "pain_points_and_or_challenges": {
-        "value": "Difficulty finding items, messy Amazon interface, time constraints",
-        "confidence": "0.70",
-        "evidence": "Participant expresses frustration with the Amazon interface and prioritizes next-day delivery due to time constraints."
+        "value": "Difficulty finding items, time constraints, overwhelmed by information",
+        "confidence": "0.75",
+        "evidence": "Participant's annoyance with Amazon’s user interface, skipping reviews, preferring quick delivery."
       }
     }
   }

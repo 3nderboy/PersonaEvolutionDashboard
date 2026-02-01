@@ -2,123 +2,121 @@
   "user_id": "2af67bcd-8d3b-4d77-9834-4219fbf93540",
   "profile": {
     "title": {
-      "user_name": "Software Engineer - Bay Area",
-      "two_word_summary": "Tech Enthusiast, Online Shopper",
+      "user_name": "Software Engineer",
+      "two_word_summary": "Tech Enthusiast",
       "confidence_overall": "0.95"
     },
     "demographics": {
       "age_range": {
         "value": "30-40",
         "confidence": "0.98",
-        "evidence": "Participant's language and interests align with typical tech professional demographic."
+        "evidence": "Participant describes working with 'recent bestsellers' and 'experiments with models', aligning with a tech professional in this age range."
       },
       "gender": {
         "value": "Male",
-        "confidence": "0.95",
-        "evidence": "Participant's description of himself and his activities."
+        "confidence": "0.85",
+        "evidence": "The participant's language and interests (golf, accessories) are commonly associated with male consumers."
       },
       "nationality_background": {
         "value": "USA",
-        "confidence": "1.00",
-        "evidence": "Participant resides in the Bay Area."
+        "confidence": "0.90",
+        "evidence": "Participant resides in 'Bay Area', a highly concentrated tech hub in California."
       },
       "location": {
         "value": "Bay Area, California",
         "confidence": "1.00",
-        "evidence": "Explicitly stated."
+        "evidence": "Explicitly stated by the participant."
       },
       "living_situation": {
-        "value": "With Wife",
+        "value": "Living with Wife",
         "confidence": "1.00",
-        "evidence": "Explicitly stated."
+        "evidence": "Explicitly stated by the participant."
       },
       "occupation": {
-        "value": "Software Engineering and Development",
+        "value": "Software Engineer and Development",
         "confidence": "1.00",
-        "evidence": "Explicitly stated."
+        "evidence": "Explicitly stated by the participant."
       },
       "education": {
-        "value": "Bachelor's Degree or Higher (Likely)",
-        "confidence": "0.85",
-        "evidence": "Role as a Software Engineer typically requires this level of education."
+        "value": "Bachelor's Degree in Computer Science or related field (likely)",
+        "confidence": "0.80",
+        "evidence": "Occupation as a Software Engineer suggests a strong educational background."
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Continuous Learning, Automation, Connecting with Others, Improving Efficiency",
-        "confidence": "0.90",
-        "evidence": "Desire to automate tasks, interest in exploring new things, communication-focused, valuing efficient workflows."
+        "value": "Continuous Learning, Automation, Building Connections, Experimentation",
+        "confidence": "0.95",
+        "evidence": "Participant expresses interest in learning new things, automating tasks, building connections, and experimenting with models."
       },
       "interests": {
         "value": [
           "Software Development",
           "Golf",
-          "Data Preparation",
-          "Online Reviews",
-          "Technology"
+          "Data Analysis (Model Training)",
+          "Online Reading (Books, Articles)"
         ],
-        "confidence": "0.95",
-        "evidence": "Explicitly stated interests and activities."
+        "confidence": "0.90",
+        "evidence": "References to software development, model training, reading, and golf activities."
       },
       "values": {
         "value": [
           "Quality",
           "Efficiency",
           "Connection",
-          "Innovation",
-          "Practicality"
+          "Innovation"
         ],
         "confidence": "0.85",
-        "evidence": "Prioritizes quality of materials (teeth), automation of repetitive tasks, actively seeking connections, valuing innovative approaches, seeking practical solutions."
+        "evidence": "Participant values quality materials, efficient automation, building connections, and innovation/exploration."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Monthly",
-        "confidence": "0.80",
-        "evidence": "Purchases golf accessories frequently, but subscribes to routine items monthly."
+        "confidence": "0.75",
+        "evidence": "Regular purchase of golf accessories and subscription to shampoo/cream delivery, coupled with occasional Amazon browsing."
       },
       "where_used_devices": {
         "value": [
           "Smartphone",
           "Desktop"
         ],
-        "confidence": "1.00",
-        "evidence": "Participant uses devices for research and purchasing."
+        "confidence": "0.95",
+        "evidence": "Participant uses smartphones for quick purchases and desktops for more in-depth research."
       },
       "search_style_best_vs_first": {
-        "value": "Best",
-        "confidence": "0.75",
-        "evidence": "Prefers to find the 'best' product based on user reviews and functionality."
+        "value": "First Product",
+        "confidence": "0.70",
+        "evidence": "Participant initially searches for recommended products based on suggestions."
       },
       "price_preference_cheapest_vs_expensive": {
-        "value": "Cheapest",
+        "value": "Cheapest Product",
         "confidence": "0.60",
-        "evidence": "Initially seeks cheaper plastic golf teeth but prioritizes quality over price in the end."
+        "evidence": "Participant primarily focuses on finding the most affordable options, particularly for golf accessories."
       },
       "decision_factors": {
         "value": [
           "Material Quality",
           "Functionality",
-          "Brand Reputation",
-          "User Reviews",
+          "Price",
           "Delivery Time"
         ],
-        "confidence": "1.00",
-        "evidence": "Explicitly stated factors influencing purchase decisions."
+        "confidence": "0.90",
+        "evidence": "Participant prioritizes material quality, functionality, price, and delivery time when making purchases."
       },
       "preferred_categories": {
         "value": [
           "Golf Accessories",
-          "Personal Care Products (Shampoos, Creams)"
+          "Personal Care (Shampoo, Cream)",
+          "Books"
         ],
-        "confidence": "1.00",
-        "evidence": "Explicitly stated categories purchased."
+        "confidence": "0.95",
+        "evidence": "Explicitly stated purchases in these categories."
       },
       "pain_points_and_or_challenges": {
-        "value": "Frustration with low-quality products, difficulty finding specific items, annoyance with repetitive tasks",
+        "value": "Finding specific, high-quality products; dealing with unreliable brands; long delivery times.",
         "confidence": "0.90",
-        "evidence": "Expresses frustration with Timu's poor quality and annoyance with repetitive tasks."
+        "evidence": "Participant expresses frustration with unreliable brands and a preference for quick delivery."
       }
     }
   }

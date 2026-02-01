@@ -10,73 +10,71 @@
       "age_range": {
         "value": "35-50",
         "confidence": "0.95",
-        "evidence": "Participant's work as an applied scientist and daily routine described."
+        "evidence": "Participant's work as an applied scientist and daily routine (driving, work hours, evening activities) suggests an age range of 35-50."
       },
       "gender": {
         "value": "Male",
         "confidence": "0.90",
-        "evidence": "Participant's language and references to activities like jogging and hiking."
+        "evidence": "Participant’s language and interests align with typical male preferences (e.g., focus on security and practicality with shoe purchase)."
       },
       "nationality_background": {
         "value": "USA",
-        "confidence": "0.98",
-        "evidence": "Participant's residence in California and references to US-based companies like Amazon."
+        "confidence": "0.80",
+        "evidence": "Location in Manlo Park, California, suggests a US nationality background."
       },
       "location": {
         "value": "Manlo Park, California",
         "confidence": "1.00",
-        "evidence": "Explicitly stated in the transcript."
+        "evidence": "Explicitly stated location."
       },
       "living_situation": {
-        "value": "With Partner",
-        "confidence": "0.95",
-        "evidence": "Participant states 'living with my wife'."
+        "value": "With Wife",
+        "confidence": "1.00",
+        "evidence": "Explicitly stated living situation."
       },
       "occupation": {
         "value": "Applied Scientist",
         "confidence": "1.00",
-        "evidence": "Explicitly stated in the transcript."
+        "evidence": "Explicitly stated occupation."
       },
       "education": {
-        "value": "Bachelor's or Master's Degree",
+        "value": "Bachelor’s Degree or Higher",
         "confidence": "0.75",
-        "evidence": "Role as Applied Scientist implies advanced education."
+        "evidence": "Work as an applied scientist typically requires a bachelor’s degree or higher in a STEM field."
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Achieve professional goals, maintain health and fitness, enjoy leisure time",
+        "value": "Achieve career goals, maintain work-life balance, prioritize safety and practicality.",
         "confidence": "0.80",
-        "evidence": "Participant expresses desire to achieve short-term and career goals, engages in exercise, and spends time on leisure activities."
+        "evidence": "References to career goals (project goals, career goals), desire to avoid traffic (work hours), emphasis on safety with shoe purchase, and daily routines."
       },
       "interests": {
         "value": [
           "Technology",
-          "Fitness",
-          "Travel",
-          "Shopping",
-          "Cooking"
+          "Hiking",
+          "Cooking",
+          "Travel (implied by RTO policy)"
         ],
         "confidence": "0.70",
-        "evidence": "References to software development, composite toe shoes (safety), jogging, hiking, and purchasing groceries and dining out."
+        "evidence": "Work as applied scientist indicates an interest in technology. Hiking and cooking mentioned as weekend activities.  RTO policy suggests a desire for travel."
       },
       "values": {
         "value": [
           "Efficiency",
           "Safety",
-          "Quality",
-          "Value",
-          "Convenience"
+          "Practicality",
+          "Organization"
         ],
-        "confidence": "0.65",
-        "evidence": "Prioritizing ph value of water, considering brand and price when purchasing, seeking safety with composite toe shoes, researching brands before buying, and skipping sponsored products."
+        "confidence": "0.75",
+        "evidence": "Prioritizing efficiency (avoiding traffic), focusing on safety (composite toe shoes), purchasing practical items (daily essentials), and organizing information (filtering reviews) all point to these values."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
         "confidence": "0.85",
-        "evidence": "Participant regularly purchases items like laundry detergent, water, and groceries."
+        "evidence": "Purchases of daily essentials, laundry liquid, and occasional items like shoes suggest a weekly shopping frequency."
       },
       "where_used_devices": {
         "value": [
@@ -84,43 +82,41 @@
           "Desktop"
         ],
         "confidence": "0.90",
-        "evidence": "Participant uses a smartphone and desktop for research and purchasing."
+        "evidence": "Participant uses smartphone for research (brands of shoes) and potentially desktop for online purchases."
       },
       "search_style_best_vs_first": {
         "value": "First Product",
-        "confidence": "0.80",
-        "evidence": "Participant usually begins with the first organic product in search results."
+        "confidence": "0.70",
+        "evidence": "Participant often starts with the first organic product in search results, indicating a preference for the initial results."
       },
       "price_preference_cheapest_vs_expensive": {
         "value": "Cheapest Product",
-        "confidence": "0.70",
-        "evidence": "Participant frequently chooses the lowest priced product when options are comparable."
+        "confidence": "0.60",
+        "evidence": "Participant explicitly states budget limit and prioritizes discount products."
       },
       "decision_factors": {
         "value": [
-          "Price",
           "Brand",
-          "Quality",
-          "Reviews",
-          "Availability"
+          "Price",
+          "Quantity"
         ],
-        "confidence": "0.85",
-        "evidence": "Participant explicitly states that price, brand, and quality are the most important factors for purchases."
+        "confidence": "0.95",
+        "evidence": "Participant consistently mentions these factors as the most important when purchasing items."
       },
       "preferred_categories": {
         "value": [
+          "Electronics (implied by applied scientist)",
+          "Daily Essentials",
           "Shoes",
-          "Household Supplies",
-          "Food & Beverage",
-          "Tools"
+          "Health & Wellness"
         ],
-        "confidence": "0.90",
-        "evidence": "Participant’s recent purchases of composite toe shoes, laundry detergent, drinking water, and a tool set."
+        "confidence": "0.80",
+        "evidence": "Work as applied scientist suggests an interest in electronics. Daily essentials, shoes, and health & wellness products are directly purchased."
       },
       "pain_points_and_or_challenges": {
-        "value": "Traffic, time management, finding reliable information, balancing work and personal life",
-        "confidence": "0.75",
-        "evidence": "Participant mentions traffic delays, describes a busy workday, and indicates a desire to avoid traffic."
+        "value": "Time constraints, traffic, navigating complex information.",
+        "confidence": "0.80",
+        "evidence": "Participant mentions avoiding traffic, desire to complete work early, and difficulty filtering information (reading reviews)."
       }
     }
   }

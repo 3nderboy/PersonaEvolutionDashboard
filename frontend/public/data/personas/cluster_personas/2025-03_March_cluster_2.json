@@ -1,76 +1,114 @@
 {
   "cluster_id": 2,
   "month": "2025-03 (March)",
-  "cluster_name": "Decisive Buyer",
-  "generated_at": "2026-01-31T13:56:23.833913",
+  "cluster_name": "Decisive Detail-Oriented User",
+  "generated_at": "2026-01-31T22:06:04.625306",
   "user_count": 3,
   "persona": {
     "title": {
-      "persona_name": "",
-      "tagline": "",
-      "user_profiles": 0
+      "persona_name": "Dylan the Decisive Detailer",
+      "tagline": "Analytical shopper prioritizing quality, convenience, and efficiency.",
+      "user_profiles": 3,
+      "confidence_level": "High"
     },
     "demographics": {
       "age_distribution": {
-        "value": "",
-        "num_of_users_in_this_age": 0
+        "value": "25-34",
+        "confidence": "Medium",
+        "support_count": 2
       },
       "gender_distribution": {
-        "value": "",
-        "num_of_users_of_this_gender": 0
-      },
-      "nationality_background": {
-        "value": "",
-        "num_of_users_from_with_this_nationality": 0
-      },
-      "location_pattern": {
-        "value": "",
-        "num_of_users_with_same_location_pattern": 0
-      },
-      "living_situation": {
-        "value": "",
-        "num_of_users_with_this_living_situation_pattern": 0
+        "value": "Male",
+        "confidence": "High",
+        "support_count": 3
       },
       "occupation": {
-        "value": "",
-        "num_of_users_with_same_occupation_type": 0
+        "value": "Software Engineer or University Professor",
+        "confidence": "High",
+        "support_count": 2
       },
-      "education_level": {
-        "value": "",
-        "num_of_users_with_same_education_level": 0
+      "nationality_background": {
+        "value": "USA",
+        "confidence": "High",
+        "support_count": 3
+      },
+      "location": {
+        "value": "Coastal Areas (Boston or Bay Area)",
+        "confidence": "Medium",
+        "support_count": 2
+      },
+      "living_situation": {
+        "value": "With a Partner or Roommates",
+        "confidence": "High",
+        "support_count": 3
+      },
+      "education": {
+        "value": "Bachelor's Degree or Higher",
+        "confidence": "High",
+        "support_count": 2
       }
     },
     "psychographics": {
-      "goals": [],
-      "interests": [],
-      "values": []
+      "goals": [
+        "Achieving Professional Success",
+        "Maintaining a Balanced Lifestyle"
+      ],
+      "values": [
+        "Quality",
+        "Efficiency",
+        "Convenience"
+      ],
+      "interests": [
+        "Technology",
+        "Research",
+        "Learning"
+      ],
+      "confidence": "High"
     },
     "shopping_behavior": {
-      "frequency_pattern": {
-        "value": "",
-        "num_of_users_with_this_frequency": 0
+      "frequency": {
+        "value": "Weekly",
+        "confidence": "Medium",
+        "support_count": 2
       },
-      "preferred_devices": [],
-      "search_style": "",
-      "price_sensitivity": "",
-      "decision_style": "",
-      "preferred_categories": [],
-      "common_pain_points": []
+      "preferred_devices": [
+        "Smartphone",
+        "Desktop"
+      ],
+      "preferred_categories": [
+        "Electronics",
+        "Pet Supplies"
+      ],
+      "search_style": {
+        "value": "First Product search to quickly identify options",
+        "confidence": "High",
+        "support_count": 3
+      },
+      "decision_style": {
+        "value": "Review-Driven: prioritizing high-quality, affordable products",
+        "confidence": "High",
+        "support_count": 3
+      },
+      "pain_points": [
+        "Time constraints",
+        "Difficulty finding specific items"
+      ],
+      "confidence": "High"
     },
-    "narrative": ""
+    "narrative": "This persona, Dylan the Decisive Detailer, represents the 'Decisive Detail-Oriented User' cluster. He is an analytical shopper who prioritizes quality, convenience, and efficiency in his purchasing decisions. Based on the behavioral metrics, it's clear that this user group values high-quality products and is willing to spend time researching to make informed decisions. Dylan's occupation as a software engineer or university professor aligns with the demographics of this cluster. His goals, values, and interests further support the idea that he is a detail-oriented individual who prioritizes quality and convenience in his shopping behavior."
   },
   "source_users": [
     {
       "user_id": "03a4f3ea-bfb7-4ba9-a7e5-5033f6958ce1",
-      "summary": "Tech-savvy Student"
+      "summary": "Tech-savvy Researcher"
     },
     {
       "user_id": "2af67bcd-8d3b-4d77-9834-4219fbf93540",
-      "summary": "Tech Enthusiast, Online Shopper"
+      "summary": "Tech Enthusiast"
     },
     {
       "user_id": "b6a822a0-090b-4c1d-ac6e-da3bf4a2b643",
-      "summary": "Tech Professor Shopping"
+      "summary": "Tech University Professor"
     }
   ]
 }

@@ -1,93 +1,119 @@
 {
   "cluster_id": 4,
   "month": "2025-05 (May)",
-  "cluster_name": "Search-Driven Navigator",
-  "generated_at": "2026-01-31T13:57:08.329334",
+  "cluster_name": "Interactive Search-Driven User",
+  "generated_at": "2026-01-31T22:13:10.983249",
   "user_count": 6,
   "persona": {
     "title": {
-      "persona_name": "The Data-Driven Optimizer",
-      "tagline": "A meticulous and efficiency-focused shopper prioritizing data and value.",
-      "user_profiles": 6
+      "persona_name": "Search-Driven Alex",
+      "tagline": "Interactive user seeking convenience, quality, and value in online shopping experiences",
+      "user_profiles": 6,
+      "confidence_level": "High"
     },
     "demographics": {
       "age_distribution": {
-        "value": "25-35 years old",
-        "num_of_users_in_this_age": 6
+        "value": "25-34",
+        "confidence": "High",
+        "support_count": 4
       },
       "gender_distribution": {
-        "value": "Male",
-        "num_of_users_of_this_gender": 6
-      },
-      "nationality_background": {
-        "value": "American",
-        "num_of_users_from_with_this_nationality": 6
-      },
-      "location_pattern": {
-        "value": "San Francisco, California",
-        "num_of_users_with_same_location_pattern": 6
-      },
-      "living_situation": {
-        "value": "With Roommates",
-        "num_of_users_with_this_living_situation_pattern": 4
+        "value": "Mixed (Female & Male)",
+        "confidence": "Medium",
+        "support_count": 3
       },
       "occupation": {
-        "value": "Software Engineer",
-        "num_of_users_with_same_occupation_type": 6
+        "value": "Graduate Student / Remote Intern, Assistant Professor, Postdoc Researcher in Computer Science, University Professor, AI Model Engineer, Student",
+        "confidence": "High",
+        "support_count": 6
       },
-      "education_level": {
-        "value": "Master's Degree",
-        "num_of_users_with_same_education_level": 6
+      "nationality_background": {
+        "value": "USA (Diverse backgrounds)",
+        "confidence": "Medium",
+        "support_count": 4
+      },
+      "location": {
+        "value": "West Coast & Midwest (San Francisco, Santa Barbara, Boston, Seattle, Allendale), Distributed",
+        "confidence": "High",
+        "support_count": 5
+      },
+      "living_situation": {
+        "value": "Living with Roommates or Alone",
+        "confidence": "Medium",
+        "support_count": 4
+      },
+      "education": {
+        "value": "Master's Degree, Post-Doctoral Degree, Bachelor's Degree (Computer Science & Business)",
+        "confidence": "High",
+        "support_count": 6
       }
     },
     "psychographics": {
       "goals": [
-        "Career Development",
-        "Data Skills Acquisition"
-      ],
-      "interests": [
-        "Data Analytics",
-        "Artificial Intelligence",
-        "Tech Industry"
+        "Career advancement in data roles",
+        "Maintain a relaxed work environment and achieve a healthy work-life balance",
+        "Improve business performance through AI models, career advancement"
       ],
       "values": [
-        "Efficiency",
-        "Practicality",
-        "Continuous Learning"
-      ]
+        "Convenience",
+        "Quality",
+        "Value"
+      ],
+      "interests": [
+        "AI, Data Analytics, Music, Technology, Networking",
+        "Computer Science, Fitness (gym), Travel (occasional trips to Texas), Entertainment (TV, chatting with friends)",
+        "AI/Machine Learning, Technology, Fitness, Shopping, Productivity"
+      ],
+      "confidence": "High"
     },
     "shopping_behavior": {
-      "frequency_pattern": {
+      "frequency": {
         "value": "Weekly",
-        "num_of_users_with_this_frequency": 6
+        "confidence": "Medium",
+        "support_count": 6
       },
       "preferred_devices": [
         "Smartphone",
         "Desktop"
       ],
-      "search_style": "Prefers 'Best Product' search to thoroughly evaluate all options before deciding, rapidly comparing specifications and user reviews to identify the most optimal solution based on technical requirements.",
-      "price_sensitivity": "Values price, but is primarily driven by quality and functionality, aiming to find the most cost-effective product that meets his needs and benchmarks.",
-      "decision_style": "Makes decisions quickly based on data and online reviews, prioritizing products with high ratings and detailed specifications to minimize risk and maximize value.",
       "preferred_categories": [
+        "Gifts",
+        "Electronics (small)",
+        "Kitchenware",
+        "Sports Nutrition",
         "Electronics",
         "Home Goods",
-        "Books"
+        "Automotive Parts",
+        "Tech Gadgets",
+        "Fashion",
+        "Makeup"
       ],
-      "common_pain_points": [
-        "Transitioning to Data Roles",
-        "Competition in the Market"
-      ]
+      "search_style": {
+        "value": "Prefers 'First Product' search to quickly identify options",
+        "confidence": "High",
+        "support_count": 5
+      },
+      "decision_style": {
+        "value": "Review-Driven decision style, prioritizes Quality and Value",
+        "confidence": "Medium",
+        "support_count": 4
+      },
+      "pain_points": [
+        "Difficulty transitioning to data roles, limited experience in data, navigating startup environment",
+        "Finding high-quality products at competitive prices, ensuring positive customer experiences"
+      ],
+      "confidence": "High"
     },
-    "narrative": "The Search-Driven Navigator persona represents a highly engaged shopper deeply invested in finding the absolute best product. This individual, like the other users within the Search-Driven Navigator cluster, is characterized by an extraordinary reliance on search and a relentless pursuit of information. Driven by a desire for efficiency and continuous learning, they use extensive search queries to meticulously compare options, prioritizing quality, price, and robust reviews.  Ultimately, this persona values a streamlined purchasing process and relies heavily on data-driven decision-making to achieve their goals."
+    "narrative": "The Interactive Search-Driven User persona, Alex, represents a diverse group of individuals who rely heavily on search functionality and input forms to navigate online shopping platforms. This persona is characterized by high action density, prioritizing convenience, quality, and value in their purchasing decisions. With a focus on weekly frequency and preferred devices such as smartphones and desktops, Alex is driven by a Review-Driven decision style, seeking Quality and Value above all else."
   },
   "source_users": [
     {
       "user_id": "47395b78-6336-4546-b97c-7becdf065356",
-      "summary": "Tech-Savvy Graduate"
+      "summary": "Tech Student"
     },
     {
       "user_id": "680c63e0-6620-465b-a9ad-2a187fdf481e",
-      "summary": "Tech Professor"
+      "summary": "Tech Educator Relaxed"
     },
     {
       "user_id": "9f15f02a-4e02-4920-8065-4feb712032d7",
@@ -95,15 +121,15 @@
     },
     {
       "user_id": "b6a822a0-090b-4c1d-ac6e-da3bf4a2b643",
-      "summary": "Tech Professor Shopping"
+      "summary": "Tech University Professor"
     },
     {
       "user_id": "d0440235-fc42-4bfe-89ca-efe949a44287",
-      "summary": "Tech Project Manager"
+      "summary": "AI Engineer Seattle"
     },
     {
       "user_id": "d1f1414b-f059-43fe-838b-9a05c751d3c5",
-      "summary": "Tech Student Gamer"
+      "summary": "Tech Student"
     }
   ]
 }

@@ -2,123 +2,122 @@
   "user_id": "ffa9a771-083a-42b1-a41b-bf91bd50030b",
   "profile": {
     "title": {
-      "user_name": "Participant",
-      "two_word_summary": "Tech PhD Student",
+      "user_name": "PhD Student - Robotics",
+      "two_word_summary": "Tech-focused researcher",
       "confidence_overall": "0.85"
     },
     "demographics": {
       "age_range": {
         "value": "25-35",
-        "confidence": "0.95",
-        "evidence": "Participant describes a daily schedule, mentions going to the gym, and using social media, suggesting a demographic within this range."
+        "confidence": "0.90",
+        "evidence": "Participant describes daily schedule, indicating a stage of life typical of a PhD student."
       },
       "gender": {
         "value": "Male",
-        "confidence": "0.80",
-        "evidence": "Participant's language and references to activities (gym, social media, Netflix) are consistent with a male demographic."
+        "confidence": "0.95",
+        "evidence": "Participant uses masculine pronouns (I, me, my) consistently throughout the interview."
       },
       "nationality_background": {
         "value": "USA",
         "confidence": "0.90",
-        "evidence": "Participant lives in Boston, implying a US background."
+        "evidence": "References to Boston (city) and mentions of typical American purchases (toothpaste)."
       },
       "location": {
         "value": "Boston, MA",
         "confidence": "1.00",
-        "evidence": "Explicitly stated in the transcript."
+        "evidence": "Explicitly states \"I live in Boston.\""
       },
       "living_situation": {
-        "value": "Living with a friend",
-        "confidence": "0.95",
-        "evidence": "Participant states \"I live with my friend to be to be apartment\""
+        "value": "Living with a Friend",
+        "confidence": "0.80",
+        "evidence": "States \"I live with my friend to be to be apartment\""
       },
       "occupation": {
-        "value": "PhD Student (Computer Science)",
+        "value": "PhD Student in Computer Science (Robotics Specialization)",
         "confidence": "1.00",
-        "evidence": "Participant explicitly states \"PhD student in computer science at [ORG_MASKED] University\""
+        "evidence": "Directly states \"I'm I'm a Phd student in computer science at [ORG_MASKED] University.\" and describes work involving robotics and decision-making processes."
       },
       "education": {
         "value": "PhD Level",
         "confidence": "1.00",
-        "evidence": "Participant identifies as a PhD student."
+        "evidence": "Explicitly states \"PhD student\""
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Achieving academic success, understanding robotics and human-robot interaction, optimizing system performance.",
-        "confidence": "0.85",
-        "evidence": "Participant's research focus on robotics frameworks and decision-making processes, and desire to optimize task outcomes."
+        "value": "To develop advanced robotics for human-centered environments, particularly in collaborative tasks like cooking.",
+        "confidence": "0.90",
+        "evidence": "Discusses developing frameworks for robot decision-making, interaction with humans in home environments, and optimizing task outcomes."
       },
       "interests": {
         "value": [
           "Robotics",
           "Artificial Intelligence",
           "Human-Computer Interaction",
-          "Social Media (Instagram, Netflix)",
-          "Travel (Korea)"
+          "Cooking",
+          "Social Media (Instagram, Netflix)"
         ],
-        "confidence": "0.80",
-        "evidence": "References to robotics, AI, HRI, social media platforms, and frequent trips to Korea."
+        "confidence": "0.75",
+        "evidence": "Explicitly mentions specialization in robotics, describes research involving human-robot interaction, and references Netflix and social media usage."
       },
       "values": {
         "value": [
-          "Functionality",
-          "Health",
-          "Social Connection",
-          "Quality",
-          "Safety"
+          "Collaboration",
+          "Efficiency",
+          "Health and Wellness (gym)",
+          "Ingredient Safety"
         ],
-        "confidence": "0.75",
-        "evidence": "Participant's focus on toothpaste ingredients (anti-cavity, SLS-free), gym visits, socializing with friends, and preferences for functional products."
+        "confidence": "0.70",
+        "evidence": "Expresses a preference for working with others, prioritizing optimizing task outcomes, mentions gym attendance, and emphasizing ingredients like SLS-free toothpaste."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
-        "confidence": "0.70",
-        "evidence": "Participant recently purchased a toothpaste, suggesting regular online shopping."
+        "confidence": "0.85",
+        "evidence": "Purchases toothpaste regularly, driven by a need for a consumable item."
       },
       "where_used_devices": {
         "value": [
           "Smartphone",
-          "Desktop"
+          "Tablet"
         ],
-        "confidence": "0.90",
-        "evidence": "Participant searches for products on Amazon and uses Youtube to research."
+        "confidence": "0.95",
+        "evidence": "Uses smartphone to search for products and review options, refers to Youtube for research."
       },
       "search_style_best_vs_first": {
         "value": "Best Product / First Product",
         "confidence": "0.60",
-        "evidence": "Participant described spending 'a week' searching for the right toothpaste, indicating a preference for finding the 'best' or 'first' product."
+        "evidence": "Indicates a process of searching for and considering multiple options (Youtube, asking friends) before making a purchase."
       },
       "price_preference_cheapest_vs_expensive": {
         "value": "Cheapest Product",
-        "confidence": "0.50",
-        "evidence": "Participant initially considered a cheaper Colgate toothpaste, but ultimately prioritized functionality and ingredient quality over price."
+        "confidence": "0.70",
+        "evidence": "Primarily focused on the best value for the ingredients and features, even if it means paying more initially."
       },
       "decision_factors": {
         "value": [
-          "Ingredient Quality (SLS-free, Artificial color free)",
+          "Ingredient Safety (SLS-free)",
           "Reviews (though skeptical)",
           "Functionality (anti-cavity)",
-          "Brand Reputation"
+          "Human-Robot Interaction"
         ],
-        "confidence": "0.85",
-        "evidence": "Detailed discussion of toothpaste ingredients, reliance on dentist reviews, and overall functionality as key decision factors."
+        "confidence": "0.90",
+        "evidence": "Highlights specific ingredients (SLS), reviews (despite skepticism), and the utility of the product in his research area."
       },
       "preferred_categories": {
         "value": [
-          "Beauty Products",
-          "Electronics (Robotics related)",
-          "Travel Goods"
+          "Beauty & Personal Care",
+          "Technology (Robotics)",
+          "Health & Wellness"
         ],
-        "confidence": "0.70",
-        "evidence": "Participant purchases toothpaste and mentions going to Korea for beauty products and travel goods."
+        "confidence": "0.80",
+        "evidence": "Purchases toothpaste, highlighting an interest in skincare products."
       },
       "pain_points_and_or_challenges": {
-        "value": "Indecisiveness, over-researching, difficulty trusting online reviews",
-        "confidence": "0.90",
-        "evidence": "Participant explicitly states \"I'm very indecisive\" and expresses skepticism towards Amazon reviews."
+        "value": "Indecisiveness, extensive research process, difficulty trusting online reviews",
+        "confidence": "1.00",
+        "evidence": "Repeatedly describes a lengthy decision-making process and expresses skepticism towards online reviews."
       }
     }
   }

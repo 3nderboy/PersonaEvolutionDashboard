@@ -3,122 +3,124 @@
   "profile": {
     "title": {
       "user_name": "[NAME_MASKED]",
-      "two_word_summary": "Tech-savvy Researcher",
-      "confidence_overall": "0.95"
+      "two_word_summary": "Tech-savvy researcher",
+      "confidence_overall": "0.85"
     },
     "demographics": {
       "age_range": {
         "value": "25-34",
-        "confidence": "0.90",
-        "evidence": "Participant describes being a 'master's student' and 'research assistant'."
+        "confidence": "0.95",
+        "evidence": "Participant is a master's student and describes spending significant time researching, suggesting an age range likely within this bracket."
       },
       "gender": {
         "value": "Male",
-        "confidence": "0.85",
-        "evidence": "Participant uses masculine pronouns ('he', 'him') consistently throughout the interview."
+        "confidence": "0.80",
+        "evidence": "Participant's language and interests (gaming, hiking, climbing) are typically associated with males."
       },
       "nationality_background": {
         "value": "USA",
-        "confidence": "0.95",
-        "evidence": "Participant states 'I live in California'."
+        "confidence": "0.90",
+        "evidence": "Participant lives in California."
       },
       "location": {
         "value": "San Diego, California",
         "confidence": "1.00",
-        "evidence": "Participant explicitly states 'San Diego specifically'."
+        "evidence": "Explicitly stated."
       },
       "living_situation": {
-        "value": "With Roommates",
+        "value": "Living with Roommates",
         "confidence": "1.00",
-        "evidence": "Participant states 'I rent a room in single family house. I have to 3 roommates'."
+        "evidence": "Explicitly stated."
       },
       "occupation": {
         "value": "Research Assistant, Master's Student",
         "confidence": "1.00",
-        "evidence": "Participant explicitly states 'research assistant' and 'master's student'."
+        "evidence": "Explicitly stated."
       },
       "education": {
         "value": "Master's Degree",
         "confidence": "1.00",
-        "evidence": "Participant explicitly states 'master's student'."
+        "evidence": "Explicitly stated."
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Reduce eye strain through optimized lighting, explore new hobbies (climbing, gaming).",
+        "value": "Seeking solutions for eye strain, improving productivity, exploring new hobbies.",
         "confidence": "0.90",
-        "evidence": "Participant purchases a blue light blocking glasses, mentions playing video games, and starting climbing and indoor climbing."
+        "evidence": "Purchase of blue light glasses, interest in hiking and climbing, desire for more free time."
       },
       "interests": {
         "value": [
           "Computer Science",
-          "AI",
+          "Artificial Intelligence",
           "Gaming",
           "Hiking",
           "Climbing",
-          "Technology"
+          "Technology",
+          "Blue Light Blocking Glasses"
         ],
-        "confidence": "0.85",
-        "evidence": "Participant’s job is in AI, mentions playing games on Steam, hiking, climbing, and discusses technology trends (sponsored products)."
+        "confidence": "0.95",
+        "evidence": "Participant's studies, hobbies, and online purchases reveal these interests."
       },
       "values": {
         "value": [
           "Efficiency",
-          "Value for Money",
           "Quality",
-          "Convenience"
+          "Value",
+          "Convenience",
+          "Personal Well-being"
         ],
-        "confidence": "0.80",
-        "evidence": "Participant's purchasing decisions (choosing cheaper products, prioritizing ratings and reviews, skipping sponsored products)."
+        "confidence": "0.85",
+        "evidence": "Participant's focus on price and ratings in product selection, preference for high-quality products, and concern for eye strain."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
         "confidence": "0.75",
-        "evidence": "Participant buys food and supplements 'a lot' and regularly purchases items on Amazon."
+        "evidence": "Participant shops for groceries with roommates and purchases items online regularly."
       },
       "where_used_devices": {
         "value": [
-          "Desktop",
-          "Smartphone"
+          "Smartphone",
+          "Desktop"
         ],
-        "confidence": "0.95",
-        "evidence": "Participant shops online using a 'smartphone' and indicates they also use a 'computer' for work."
+        "confidence": "0.90",
+        "evidence": "Participant uses a smartphone for online shopping and a desktop for research."
       },
       "search_style_best_vs_first": {
-        "value": "First Product",
+        "value": "First",
         "confidence": "0.80",
-        "evidence": "Participant states 'I already determined. Only search for that specific product'."
+        "evidence": "Participant primarily searches Amazon's first page of results."
       },
       "price_preference_cheapest_vs_expensive": {
-        "value": "Cheapest Product",
+        "value": "Cheapest",
         "confidence": "0.70",
-        "evidence": "Participant explicitly chooses a 'cheaper option' for the blue light glasses."
+        "evidence": "Participant prioritizes price when purchasing the blue light glasses."
       },
       "decision_factors": {
         "value": [
           "Price",
           "Ratings",
           "Reviews",
-          "Number of Purchases"
+          "Brand Reputation"
         ],
-        "confidence": "0.90",
-        "evidence": "Participant's explanation of choosing the glasses - 'rating is it's like 4.7 or something'. "
+        "confidence": "0.95",
+        "evidence": "Participant explicitly mentions these factors when choosing products."
       },
       "preferred_categories": {
         "value": [
           "Books",
           "Food & Supplements",
-          "Electronics (Blue Light Glasses)"
+          "Technology (Blue Light Blocking Glasses)"
         ],
-        "confidence": "0.85",
-        "evidence": "Participant states they 'buy a lot of random stuff there, actually... a lot of random stuff... a lot of books. and also it's like food and supplements a lot by that. A lot.'"
+        "confidence": "0.90",
+        "evidence": "Participant’s stated purchasing habits."
       },
       "pain_points_and_or_challenges": {
-        "value": "Difficulty in finding relevant product recommendations on Amazon, information overload on the homepage.",
-        "confidence": "0.95",
-        "evidence": "Participant expresses frustration with the Amazon homepage and suggests an AI tool to provide better recommendations."
+        "value": "Eye Strain, Limited Time, Difficulty Discovering Relevant Products on Amazon",
+        "confidence": "0.90",
+        "evidence": "Participant’s purchase of blue light glasses, expressed desire for AI to improve product recommendations, and frustration with Amazon's landing page."
       }
     }
   }

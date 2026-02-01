@@ -4,7 +4,7 @@ const DocumentationView = () => {
     return (
         <div className="flex h-full">
             <div className="flex-1 overflow-y-auto p-8 max-w-5xl mx-auto">
-                <h1 className="text-3xl font-bold text-white mb-8">Persona Evolution Dashboard Documentation</h1>
+                <h1 className="text-3xl font-bold text-white mb-8">Proto-Persona Evolution Dashboard Documentation</h1>
 
                 <div className="space-y-10">
                     {/* Overview */}
@@ -13,7 +13,7 @@ const DocumentationView = () => {
                             <span>🎯</span> Dashboard Overview
                         </h2>
                         <p className="text-slate-300 leading-relaxed mb-4">
-                            The Persona Evolution Dashboard helps you understand how user shopping behaviors change over time by analyzing sessions from the OPeRA dataset.
+                            The Proto-Persona Evolution Dashboard helps you understand how user shopping behaviors change over time by analyzing sessions from the OPeRA dataset.
                         </p>
                         <ul className="space-y-2text-slate-300">
                             <li className="flex items-start gap-2">
@@ -50,7 +50,7 @@ const DocumentationView = () => {
                                 <p className="text-slate-300 text-sm">Click cluster centroids in the scatter plot to view detailed persona information.</p>
                             </div>
                             <div className="bg-slate-900/50 p-4 rounded-lg">
-                                <h3 className="text-lg font-semibold text-sky-400 mb-2">3. Analyze Personas</h3>
+                                <h3 className="text-lg font-semibold text-sky-400 mb-2">3. Analyze Proto-Personas</h3>
                                 <p className="text-slate-300 text-sm">View distinguishing traits, behavioral profiles, and z-score analysis for each cluster.</p>
                             </div>
                         </div>
@@ -223,10 +223,10 @@ const DocumentationView = () => {
                                 </p>
                             </div>
                             <div>
-                                <h3 className="text-xl font-semibold text-white mb-2">Personas vs User Profiles</h3>
+                                <h3 className="text-xl font-semibold text-white mb-2">Proto-Personas vs User Profiles</h3>
                                 <div className="grid md:grid-cols-2 gap-4 mt-3">
                                     <div className="bg-sky-500/10 border border-sky-500/30 rounded-lg p-4">
-                                        <div className="font-sem ibold text-sky-300 mb-2">Cluster Personas</div>
+                                        <div className="font-sem ibold text-sky-300 mb-2">Cluster Proto-Personas</div>
                                         <ul className="text-sm text-slate-300 space-y-1">
                                             <li>• Cluster-level aggregation</li>
                                             <li>• Synthesized by LLM</li>

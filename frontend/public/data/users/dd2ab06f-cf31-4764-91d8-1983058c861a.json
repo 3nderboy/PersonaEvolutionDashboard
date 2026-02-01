@@ -2,121 +2,121 @@
   "user_id": "dd2ab06f-cf31-4764-91d8-1983058c861a",
   "profile": {
     "title": {
-      "user_name": "PhD Student - Nashville",
-      "two_word_summary": "Online Shopper - Student",
-      "confidence_overall": "0.90"
+      "user_name": "PhD Student",
+      "two_word_summary": "Tech-Savvy Shopper",
+      "confidence_overall": "0.85"
     },
     "demographics": {
       "age_range": {
         "value": "25-34",
         "confidence": "0.95",
-        "evidence": "Participant is a second-year Ph.D. student, a typical age range for doctoral candidates."
+        "evidence": "Participant is a PhD student, indicating an age range consistent with doctoral studies."
       },
       "gender": {
         "value": "Female",
-        "confidence": "0.80",
-        "evidence": "The participant's purchase of makeup remover and women's hats suggests a female identity."
+        "confidence": "0.60",
+        "evidence": "Based on purchase choices (makeup remover, women's hats)."
       },
       "nationality_background": {
         "value": "USA",
-        "confidence": "1.00",
+        "confidence": "0.90",
         "evidence": "Participant resides in Nashville, Tennessee."
       },
       "location": {
         "value": "Nashville, Tennessee",
         "confidence": "1.00",
-        "evidence": "Explicitly stated in the transcript."
+        "evidence": "Directly stated in the transcript."
       },
       "living_situation": {
         "value": "With Roommate",
         "confidence": "1.00",
-        "evidence": "Explicitly stated in the transcript."
+        "evidence": "Directly stated in the transcript."
       },
       "occupation": {
-        "value": "Ph.D. Student",
+        "value": "PhD Student",
         "confidence": "1.00",
-        "evidence": "Explicitly stated in the transcript."
+        "evidence": "Directly stated in the transcript."
       },
       "education": {
-        "value": "Ph.D.",
+        "value": "PhD Level",
         "confidence": "1.00",
-        "evidence": "Explicitly stated in the transcript."
+        "evidence": "Directly stated in the transcript."
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Complete Ph.D. research, manage daily life, maintain personal well-being",
+        "value": "Academic Success, Convenience, Self-Care",
         "confidence": "0.75",
-        "evidence": "Participant's description of research study, daily routine, and use of medication suggests these goals."
+        "evidence": "Focus on research, efficient shopping for daily needs, and occasional personal care purchases."
       },
       "interests": {
         "value": [
-          "Research",
-          "Makeup",
-          "Travel",
           "Social Media",
-          "Online Shopping"
+          "News Websites",
+          "Online Shopping",
+          "Research"
         ],
-        "confidence": "0.85",
-        "evidence": "Mention of research study, interest in makeup remover, mentions of travel, social media usage, and online shopping."
+        "confidence": "0.90",
+        "evidence": "Frequent mentions of browsing these online sources and researching products."
       },
       "values": {
         "value": [
           "Efficiency",
-          "Convenience",
-          "Quality",
-          "Value"
+          "Value",
+          "Trust",
+          "Quality"
         ],
-        "confidence": "0.65",
-        "evidence": "Prioritizing quick delivery of makeup remover, considering brand quality (for makeup), and looking for sales suggest these values."
+        "confidence": "0.80",
+        "evidence": "Prioritizing price discounts, checking reviews, and considering brand reputation."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
-        "confidence": "0.80",
-        "evidence": "Regular online shopping behavior (makeup remover, women's hats, searching for deals)."
+        "confidence": "0.85",
+        "evidence": "Regularly purchases items like makeup remover and occasional clothing."
       },
       "where_used_devices": {
         "value": [
-          "Smartphone"
+          "Smartphone",
+          "Unknown"
         ],
-        "confidence": "1.00",
-        "evidence": "Participant states they 'use my phone to view some like social media or some news website'."
+        "confidence": "0.95",
+        "evidence": "Primarily shops on her smartphone, with the potential for desktop usage."
       },
       "search_style_best_vs_first": {
-        "value": "First",
+        "value": "First Product",
         "confidence": "0.70",
-        "evidence": "Participant frequently searches the first page of recommendations on Amazon."
+        "evidence": "Initially focusing on the first product appearing in search results."
       },
       "price_preference_cheapest_vs_expensive": {
-        "value": "Cheapest",
+        "value": "Cheapest Product",
         "confidence": "0.60",
-        "evidence": "Prioritizes finding discounts and sales, especially for larger purchases like a camera."
+        "evidence": "Primarily concerned with finding deals and discounts."
       },
       "decision_factors": {
         "value": [
           "Price",
-          "Brand (for certain products)",
           "Reviews",
+          "Brand (sometimes)",
           "Product Quality"
         ],
         "confidence": "0.90",
-        "evidence": "Explicitly stated reasons for purchases and review reading."
+        "evidence": "Explicitly stated prioritization of these factors during the shopping process."
       },
       "preferred_categories": {
         "value": [
-          "Makeup",
-          "Travel Essentials",
-          "Household Items"
+          "Beauty/Cosmetics",
+          "Personal Care",
+          "Clothing"
         ],
-        "confidence": "0.80",
-        "evidence": "Purchases of makeup remover, women's hats, and travel items."
+        "confidence": "0.95",
+        "evidence": "Purchase history of makeup remover, women's hats, and dye hair."
       },
       "pain_points_and_or_challenges": {
-        "value": "Time constraints, managing research deadlines, balancing personal and academic life",
-        "confidence": "0.85",
-        "evidence": "Participant’s mention of deadlines, research study, and use of medication suggests these pain points."
+        "value": "Time Constraints, Information Overload",
+        "confidence": "0.80",
+        "evidence": "Expresses a desire for efficient shopping and difficulty discerning quality information."
       }
     }
   }

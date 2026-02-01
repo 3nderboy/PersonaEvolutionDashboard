@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Section, TagList } from './UserProfileView';
+import { Section, TagList } from "./UserProfileCard";
 
 /**
  * UserCountTooltip - Shows user count on hover for persona attributes
@@ -7,10 +7,8 @@ import { Section, TagList } from './UserProfileView';
 const UserCountTooltip = ({ data, totalUsers, children }) => {
     const [showTooltip, setShowTooltip] = useState(false);
 
-    // Extract user count from any num_of_users_* field
-    const userCount = data && typeof data === 'object'
-        ? Object.entries(data).find(([key]) => key.startsWith('num_of_users'))?.[1]
-        : null;
+    // Extract user count from support_count field
+    const userCount = data?.support_count;
 
     if (!userCount || !totalUsers) {
         return <>{children}</>;
@@ -95,17 +93,32 @@ const HelpTooltip = ({ children, tooltipText }) => {
     );
 };
 
+const ConfidenceBadge = ({ level }) => {
+    const colors = {
+        High: "bg-emerald-500/20 text-emerald-300 border-emerald-500/30",
+        Medium: "bg-amber-500/20 text-amber-300 border-amber-500/30",
+        Low: "bg-rose-500/20 text-rose-300 border-rose-500/30"
+    };
+    const colorClass = colors[level] || colors.Medium;
+
+    return (
+        <span className={`text-[10px] px-2 py-0.5 rounded border ${colorClass} uppercase tracking-wide font-medium`}>
+            {level || 'Unknown'} Confidence
+        </span>
+    );
+};
+
 /**
  * ClusterPersonaCard - Displays LLM-generated cluster persona
  */
-const ClusterPersonaCard = ({ clusterPersona, clusterName, clusterColor }) => {
+const ClusterPersonaCard = ({ clusterPersona, clusterName }) => {
     if (!clusterPersona?.persona) {
         return (
             <div className="bg-slate-800/30 rounded-xl p-6 border border-slate-700/30 text-center">
                 <div className="text-4xl mb-3">🔮</div>
-                <div className="text-slate-400">No cluster persona available for this month</div>
+                <div className="text-slate-400">No proto-persona available for this month</div>
                 <div className="text-slate-500 text-sm mt-2">
-                    Run the extraction script to generate cluster personas
+                    Run the extraction script to generate proto-personas
                 </div>
             </div>
         );
@@ -116,6 +129,7 @@ const ClusterPersonaCard = ({ clusterPersona, clusterName, clusterColor }) => {
     const demographics = p.demographics || {};
     const psychographics = p.psychographics || {};
     const shopping = p.shopping_behavior || {};
+    // const validation = p.socratic_validation || {};
 
     return (
         <div className="bg-slate-800/50 border border-slate-700/50 rounded-xl overflow-hidden">
@@ -123,16 +137,18 @@ const ClusterPersonaCard = ({ clusterPersona, clusterName, clusterColor }) => {
             <div className="bg-gradient-to-r from-sky-500/20 to-purple-500/20 p-6 border-b border-slate-700/50">
                 <div className="flex items-start gap-4">
                     <div className="flex-1">
-                        <h2 className="text-xl font-bold text-white mb-1">
-                            {clusterName || 'Unknown Persona'}
-                        </h2>
+                        <div className="flex justify-between items-start">
+                            <h2 className="text-xl font-bold text-white mb-1">
+                                {clusterName || 'Unknown Proto-Persona'}
+                            </h2>
+                            {title.confidence_level && <ConfidenceBadge level={title.confidence_level} />}
+                        </div>
                         {title.tagline && (
                             <p className="text-slate-400 text-sm italic">
                                 "{title.tagline}"
                             </p>
                         )}
                         <div className="flex gap-4 mt-2 text-xs text-slate-500">
-                            {/* <span>Cluster {clusterPersona.cluster_id}</span> */}
                             <HelpTooltip tooltipText="Only different users with complete profiles from the same cluster are used to synthesize the persona.">
                                 {clusterPersona.user_count} different user profiles synthesized
                             </HelpTooltip>
@@ -148,63 +164,57 @@ const ClusterPersonaCard = ({ clusterPersona, clusterName, clusterColor }) => {
                         <PersonaInfoItem label="Age Distribution" data={demographics.age_distribution} totalUsers={clusterPersona.user_count} />
                         <PersonaInfoItem label="Gender" data={demographics.gender_distribution} totalUsers={clusterPersona.user_count} />
                         <PersonaInfoItem label="Nationality" data={demographics.nationality_background} totalUsers={clusterPersona.user_count} />
-                        <PersonaInfoItem label="Location" data={demographics.location_pattern} totalUsers={clusterPersona.user_count} />
+                        <PersonaInfoItem label="Location" data={demographics.location} totalUsers={clusterPersona.user_count} />
                         <PersonaInfoItem label="Living Situation" data={demographics.living_situation} totalUsers={clusterPersona.user_count} />
                         <PersonaInfoItem label="Occupation" data={demographics.occupation} totalUsers={clusterPersona.user_count} />
-                        <PersonaInfoItem label="Education" data={demographics.education_level} totalUsers={clusterPersona.user_count} />
+                        <PersonaInfoItem label="Education" data={demographics.education} totalUsers={clusterPersona.user_count} />
                     </div>
-                </Section>
+                </Section >
 
                 {/* Psychographics */}
-                {(psychographics.goals?.length > 0 || psychographics.interests?.length > 0 || psychographics.values?.length > 0) && (
-                    <Section title="Psychographics" icon="🧠">
-                        <div className="space-y-4">
-                            {psychographics.goals?.length > 0 && (
-                                <div>
-                                    <div className="text-xs text-slate-500 mb-1">Goals</div>
-                                    <div className="text-sm text-slate-300">{psychographics.goals.join(', ')}</div>
-                                </div>
-                            )}
-                            {(psychographics.interests?.length > 0 || psychographics.values?.length > 0) && (
-                                <div className="grid grid-cols-2 gap-4">
-                                    {psychographics.interests?.length > 0 && (
-                                        <TagList label="Interests" data={psychographics.interests} color="purple" />
-                                    )}
-                                    {psychographics.values?.length > 0 && (
-                                        <TagList label="Values" data={psychographics.values} color="emerald" />
-                                    )}
-                                </div>
-                            )}
-                        </div>
-                    </Section>
-                )}
+                {
+                    (psychographics.goals?.length > 0 || psychographics.interests?.length > 0 || psychographics.values?.length > 0) && (
+                        <Section title="Psychographics" icon="🧠">
+                            <div className="space-y-4">
+                                {psychographics.goals?.length > 0 && (
+                                    <div>
+                                        <div className="text-xs text-slate-500 mb-1">Goals</div>
+                                        <div className="text-sm text-slate-300">{psychographics.goals.join(', ')}</div>
+                                    </div>
+                                )}
+                                {(psychographics.interests?.length > 0 || psychographics.values?.length > 0) && (
+                                    <div className="grid grid-cols-2 gap-4">
+                                        {psychographics.interests?.length > 0 && (
+                                            <TagList label="Interests" data={psychographics.interests} color="purple" />
+                                        )}
+                                        {psychographics.values?.length > 0 && (
+                                            <TagList label="Values" data={psychographics.values} color="emerald" />
+                                        )}
+                                    </div>
+                                )}
+                            </div>
+                        </Section>
+                    )
+                }
 
                 {/* Shopping Behavior */}
                 <Section title="Shopping Behavior" icon="🛒">
                     <div className="space-y-4">
                         <div className="grid grid-cols-2 gap-4">
-                            <PersonaInfoItem label="Frequency" data={shopping.frequency_pattern} totalUsers={clusterPersona.user_count} />
+                            <PersonaInfoItem label="Frequency" data={shopping.frequency} totalUsers={clusterPersona.user_count} />
                             {shopping.preferred_devices?.length > 0 && (
                                 <TagList label="Devices" data={shopping.preferred_devices} color="sky" />
                             )}
                         </div>
-                        {shopping.search_style && (
-                            <div>
-                                <div className="text-xs text-slate-500 mb-1">Search Style (search for the best product in a category or buy the first one you find)</div>
-                                <div className="text-sm text-slate-300">{shopping.search_style}</div>
-                            </div>
-                        )}
+
+                        <div className="grid grid-cols-2 gap-4">
+                            <PersonaInfoItem label="Search Style" data={shopping.search_style} totalUsers={clusterPersona.user_count} />
+                            <PersonaInfoItem label="Decision Style" data={shopping.decision_style} totalUsers={clusterPersona.user_count} />
+                        </div>
+
+                        {/* Price Sensitivity (Optional) */}
                         {shopping.price_sensitivity && (
-                            <div>
-                                <div className="text-xs text-slate-500 mb-1">Price Sensitivity</div>
-                                <div className="text-sm text-slate-300">{shopping.price_sensitivity}</div>
-                            </div>
-                        )}
-                        {shopping.decision_style && (
-                            <div>
-                                <div className="text-xs text-slate-500 mb-1">Decision Style</div>
-                                <div className="text-sm text-slate-300">{shopping.decision_style}</div>
-                            </div>
+                            <PersonaInfoItem label="Price Sensitivity" data={shopping.price_sensitivity} totalUsers={clusterPersona.user_count} />
                         )}
                         {shopping.preferred_categories?.length > 0 && (
                             <TagList label="Preferred Categories" data={shopping.preferred_categories} color="orange" />
@@ -216,22 +226,17 @@ const ClusterPersonaCard = ({ clusterPersona, clusterName, clusterColor }) => {
                 </Section>
 
                 {/* Narrative */}
-                {p.narrative && (
-                    <div className="bg-slate-900/50 rounded-xl p-4 border border-slate-700/30">
-                        <div className="text-xs text-slate-500 mb-2 uppercase tracking-wide">Persona Narrative</div>
-                        <p className="text-sm text-slate-300 leading-relaxed">{p.narrative}</p>
-                    </div>
-                )}
-            </div>
+                {
+                    p.narrative && (
+                        <div className="bg-slate-900/50 rounded-xl p-4 border border-slate-700/30">
+                            <div className="text-xs text-slate-500 mb-2 uppercase tracking-wide">Proto-Persona Narrative (Hypothesis)</div>
+                            <p className="text-sm text-slate-300 leading-relaxed">{p.narrative}</p>
+                        </div>
+                    )
+                }
+            </div >
 
-            {/* Footer */}
-            <div className="px-6 py-4 bg-slate-900/50 border-t border-slate-700/50">
-                <div className="text-xs text-slate-500 flex items-center gap-1">
-                    <span className="border-b border-dotted border-slate-500">Hover</span>
-                    <span>over the values for user counts.</span>
-                </div>
-            </div>
-        </div>
+        </div >
     );
 };
 

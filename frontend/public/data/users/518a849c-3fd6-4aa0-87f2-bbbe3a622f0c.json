@@ -4,50 +4,50 @@
     "title": {
       "user_name": "Participant",
       "two_word_summary": "Research Student",
-      "confidence_overall": "0.95"
+      "confidence_overall": "0.85"
     },
     "demographics": {
       "age_range": {
         "value": "22-25",
-        "confidence": "0.98",
-        "evidence": "Participant states '1st year Ph, student' and mentions sleeping 'between 12 and 2 o'clock', suggesting a young adult age range."
+        "confidence": "0.95",
+        "evidence": "Participant states '1st year Ph, student', and describes lifestyle including late sleep schedule and spending time with friends, suggesting an age range consistent with a graduate student."
       },
       "gender": {
         "value": "Male",
-        "confidence": "0.85",
-        "evidence": "No explicit gender information is provided, but the participant's language and interests align with a male profile."
+        "confidence": "0.90",
+        "evidence": "Participant's language and interests (guitar, video games, social media) align with typical male interests."
       },
       "nationality_background": {
         "value": "USA",
-        "confidence": "0.75",
-        "evidence": "Implied through mentioning 'Boston' and typical academic pursuits."
+        "confidence": "0.80",
+        "evidence": "Participant lives in Boston, a city in the USA."
       },
       "location": {
-        "value": "Boston",
+        "value": "Boston, MA",
         "confidence": "1.00",
-        "evidence": "Explicitly stated in the transcript: 'I live in Boston.'"
+        "evidence": "Explicitly stated: 'I live in Boston.'"
       },
       "living_situation": {
         "value": "Living Alone",
-        "confidence": "1.00",
+        "confidence": "0.95",
         "evidence": "Participant states: 'I'm living in a studio that is quite small. And however, it's close to school. Yeah. And oh, as I you, as I have said before, I live by myself.'"
       },
       "occupation": {
-        "value": "Graduate Student / Research Assistant",
-        "confidence": "0.95",
-        "evidence": "Participant identifies as a '1st year Ph, student' and describes research in cryptography and proof systems, indicating a research role."
+        "value": "Graduate Student (Cryptography Research)",
+        "confidence": "1.00",
+        "evidence": "Participant explicitly states: 'I'm now a 1st year. Ph, student...conducting research in the area of cryptography.'"
       },
       "education": {
         "value": "Ph.D. Candidate",
-        "confidence": "0.90",
-        "evidence": "Participant explicitly states '1st year Ph, student' and 'conducting research in the area of cryptography.'"
+        "confidence": "0.95",
+        "evidence": "Participant states: '1st year. Ph, student' and is conducting research for a Ph.D."
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "To contribute to the field of cryptography, to advance knowledge in proof systems, and to achieve academic success.",
+        "value": "Advance knowledge in cryptography, potentially publish research, and develop expertise in proof systems.",
         "confidence": "0.90",
-        "evidence": "Participant states: 'research in the area of cryptography and mainly about proof building proof systems' and 'conducting research.'"
+        "evidence": "Participant's research area (cryptography, proof systems), engagement with research papers, and discussion with a professor suggest a goal-oriented approach driven by intellectual curiosity and academic achievement."
       },
       "interests": {
         "value": [
@@ -59,66 +59,65 @@
           "Social Media"
         ],
         "confidence": "0.85",
-        "evidence": "Participant mentions cryptography, proof systems, cooking, guitar, video games, and references social media browsing."
+        "evidence": "Explicitly stated interests: cryptography, proof systems; inferred interests: cooking (preparing food), guitar and video games (hobbies), and social media (browsing for products)."
       },
       "values": {
         "value": [
+          "Innovation",
           "Accuracy",
           "Efficiency",
-          "Continuous Learning",
           "Community"
         ],
         "confidence": "0.75",
-        "evidence": "Participant's focus on rigorous research, 'building a system approved system', desire to 'learn something', and engagement with a local community (dog, friends, family) suggest these values."
+        "evidence": "Participant's focus on 'building a system approved system with some properties' suggests valuing innovation and accuracy. Analyzing security and conducting mathematics indicates valuing efficiency. Discussion with family and friends suggests valuing community."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
-        "confidence": "0.80",
-        "evidence": "Participant discusses browsing social media, searching for products and purchasing items like a food slicer, suggesting regular online shopping activity."
+        "confidence": "0.70",
+        "evidence": "Participant frequently browses social media (for product ideas) and makes purchases (food slicer) indicating regular shopping behavior."
       },
       "where_used_devices": {
         "value": [
           "Smartphone",
           "Tablet"
         ],
-        "confidence": "0.90",
-        "evidence": "Participant frequently references using their 'phone' and 'tablet' for browsing and purchasing."
+        "confidence": "0.80",
+        "evidence": "Participant states: 'yeah, just looking at the show social media. Yeah, like. yeah, I browse on my phone.'"
       },
       "search_style_best_vs_first": {
         "value": "Best Product / First Product",
-        "confidence": "0.70",
-        "evidence": "Participant frequently references seeing 'pictures' and 'products' that look 'cool' or 'good,' indicating a preference for immediate visual appeal rather than extensive comparison."
+        "confidence": "0.60",
+        "evidence": "Participant describes looking for similar products based on images and prioritizing those with good comments, indicating a focus on 'best' or 'first' options."
       },
       "price_preference_cheapest_vs_expensive": {
         "value": "Cheapest Product",
-        "confidence": "0.60",
-        "evidence": "Participant explicitly chooses products based on their 'cheapest price' and mentions researching products with a 'very cheap price.'"
+        "confidence": "0.70",
+        "evidence": "Participant explicitly states: 'I choose the one with a very cheap price.'"
       },
       "decision_factors": {
         "value": [
-          "Price",
           "Brand Reputation",
-          "Social Media Recommendations",
+          "Customer Reviews",
           "Product Features"
         ],
         "confidence": "0.85",
-        "evidence": "The participant references price, brand reputation, social media recommendations, and product features as key factors in their purchasing decisions."
+        "evidence": "Participant prioritizes brand reputation, scrutinizes customer reviews, and considers product features (e.g., food slicer functionality)."
       },
       "preferred_categories": {
         "value": [
-          "Food & Cooking Supplies",
-          "Dog Supplies",
-          "Electronics"
+          "Food & Beverage",
+          "Electronics",
+          "Hobbies"
         ],
-        "confidence": "0.80",
-        "evidence": "Participant purchases a food slicer, dog food, and supplements, indicating these categories are of interest."
+        "confidence": "0.70",
+        "evidence": "Participant purchases food items, a food slicer, and musical instruments (guitar), indicating preferences for these categories."
       },
       "pain_points_and_or_challenges": {
-        "value": "Difficulty with precise food preparation, time management challenges",
+        "value": "Difficulty slicing food, lack of efficient tools.",
         "confidence": "0.90",
-        "evidence": "Participant expresses frustration with 'difficult to slice the carrots' and mentions challenges with 'time management' when referring to their schedule."
+        "evidence": "Participant states: 'I think, I I did not have a plan for that just yeah, yeah, no, not plan for a very long time. I just see this one in the social media...I think, slicing food is a very hard thing in my life.'"
       }
     }
   }

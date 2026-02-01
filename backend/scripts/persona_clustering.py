@@ -1,6 +1,5 @@
 """
 Session-Based Behavioral Persona Generation Pipeline
-====================================================
 
 Processes behavioral action data from the OPeRA dataset to generate
 data-driven personas using:
@@ -35,9 +34,25 @@ from config import (
 from utils import Logger
 
 # Clustering parameters from config
+# Clustering parameters from config
 MIN_CLUSTERS = CLUSTER_CONFIG["min_clusters"]
 MAX_CLUSTERS = CLUSTER_CONFIG["max_clusters"]
 RANDOM_STATE = CLUSTER_CONFIG["random_state"]
+
+
+# FEATURE DESCRIPTORS (Dynamic Naming)
+# Maps features to (Adjective, Description)
+FEATURE_DESCRIPTORS = {
+    "filter_usage_ratio": ("Filter-Focused", "uses filters extensively to narrow options"),
+    "session_duration_seconds": ("Deliberate", "spends significant time exploring before deciding"),
+    "purchase_intent_ratio": ("Decisive", "converts quickly once a decision is made"),
+    "product_exploration_ratio": ("Explorer", "views many pages when evaluating options"),
+    "option_selection_ratio": ("Detail-Oriented", "focuses on product options and configuration"),
+    "search_ratio": ("Search-Driven", "relies on search functionality over navigation"),
+    "review_engagement_ratio": ("Research-Minded", "heavily engages with reviews"),
+
+    "input_ratio": ("Interactive", "high interaction with input forms")
+}
 
 
 # PHASE 1: DATA LOADING AND VALIDATION
@@ -336,55 +351,48 @@ def identify_cluster_traits(centroids: pd.DataFrame, df_bkm: pd.DataFrame, bkm_c
 
 
 def generate_persona_name(traits: Dict, cluster_id: int) -> Tuple[str, str]:
-    """Generate a unique persona name based on cluster traits."""
+    """
+    Generate a unique persona name based on cluster traits using dynamic Descriptors.
+    Replaces hardcoded logic with adaptive 'Feature + Feature + User' naming.
+    """
+    # Extract feature names from high traits (sorted by z-score descending)
     high_traits = [t[0] for t in traits['high_traits']]
-    low_traits = [t[0] for t in traits['low_traits']]
     
-    # Rule-based naming with unique fallbacks
-    if 'purchase_intent_ratio' in high_traits:
-        if 'option_selection_ratio' in high_traits:
-            return "Decisive Buyer", "High purchase intent with detailed product customization"
-        return "Action-Oriented Shopper", "Quick to make purchase decisions"
+    adjectives = []
+    tagline_parts = []
     
-    if 'review_engagement_ratio' in high_traits:
-        if 'filter_usage_ratio' in high_traits:
-            return "Methodical Researcher", "Extensively reads reviews and uses filters"
-        return "Informed Evaluator", "Focuses on product reviews before deciding"
-    
-    if 'search_ratio' in high_traits:
-        if 'input_ratio' in high_traits:
-            return "Search-Driven Navigator", "Heavy search and text input usage"
-        return "Goal-Directed Seeker", "Uses search to find specific products"
-    
-    if 'product_exploration_ratio' in high_traits:
-        return "Curious Browser", "Explores many product pages"
-    
-    if 'filter_usage_ratio' in high_traits:
-        return "Criteria-Driven Shopper", "Relies heavily on filters to narrow options"
-    
-    if 'option_selection_ratio' in high_traits:
-        return "Detail-Oriented Selector", "Focuses on product options and quantities"
-    
-    if 'action_density' in high_traits:
-        if 'session_duration_seconds' in low_traits:
-            return "Quick Scanner", "High activity in short time windows"
-        return "Engaged Explorer", "Active engagement throughout session"
-    
-    if 'session_duration_seconds' in high_traits:
-        return "Deliberate Shopper", "Takes time to make decisions"
-    
-    if 'input_ratio' in high_traits:
-        return "Active Searcher", "Frequently uses text input"
-    
-    # Fallback with cluster ID to ensure uniqueness
-    fallback_names = [
-        ("Moderate Browser", "Balanced browsing behavior"),
-        ("Steady Shopper", "Consistent shopping patterns"),
-        ("Typical User", "Average across all metrics"),
-        ("General Shopper", "No extreme behavioral tendencies"),
-        ("Neutral Navigator", "Middle-ground shopping style"),
-    ]
-    return fallback_names[cluster_id % len(fallback_names)]
+    # Process top 3 high traits
+    for feat_name in high_traits:
+        desc = FEATURE_DESCRIPTORS.get(feat_name)
+        if desc:
+            adjectives.append(desc[0])
+            tagline_parts.append(desc[1])
+        else:
+            # Fallback for unknown features
+            clean_name = feat_name.replace('_', ' ').title()
+            tagline_parts.append(f"characterized by high {clean_name}")
+            
+    # Construct Name
+    if adjectives:
+        # Take top 2 adjectives for name to keep it concise
+        name_adjectives = [adj for adj in adjectives[:2] if adj not in ["User", "Shopper"]]
+        if not name_adjectives:
+             name = "Distinct Segment"
+        else:
+             name = " ".join(name_adjectives) + " User"
+    else:
+        name = f"Cluster {cluster_id} Segment"
+        
+    # Construct Tagline
+    if tagline_parts:
+        tagline = "; ".join(tagline_parts)
+        tagline = tagline[0].upper() + tagline[1:]
+        if not tagline.endswith('.'):
+            tagline += '.'
+    else:
+        tagline = "A unique behavioral segment identified in the data."
+        
+    return name, tagline
 
 
 def select_representative_sessions(df_bkm_norm: pd.DataFrame, centroids: pd.DataFrame, bkm_columns: List[str], log: Logger) -> pd.DataFrame:

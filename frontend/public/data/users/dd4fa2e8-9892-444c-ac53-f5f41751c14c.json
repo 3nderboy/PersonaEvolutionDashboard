@@ -2,83 +2,83 @@
   "user_id": "dd4fa2e8-9892-444c-ac53-f5f41751c14c",
   "profile": {
     "title": {
-      "user_name": "PhD Student - AI Research",
-      "two_word_summary": "Data Focused Researcher",
+      "user_name": "PhD Student - AI & Health",
+      "two_word_summary": "Data Analyst",
       "confidence_overall": "0.85"
     },
     "demographics": {
       "age_range": {
-        "value": "30-40",
+        "value": "30-35",
         "confidence": "0.95",
-        "evidence": "Participant stated they are a 'PhD student' implying an age range of 30-40."
+        "evidence": "Participant states working on a PhD, implying an age range of 30-35."
       },
       "gender": {
         "value": "Male",
         "confidence": "0.90",
-        "evidence": "Participant’s pronouns are he/him"
+        "evidence": "Participant's language and phrasing suggests a male perspective."
       },
       "nationality_background": {
         "value": "USA",
-        "confidence": "0.75",
-        "evidence": "Participant lives in Boston, indicating US residency."
+        "confidence": "0.80",
+        "evidence": "Implied by the context of living in Boston and referencing research in AI, which is predominantly a US-centric field."
       },
       "location": {
         "value": "Boston, MA",
         "confidence": "1.00",
-        "evidence": "Participant explicitly states 'I live in Boston'."
+        "evidence": "Explicitly stated in the transcript: \"I live in Boston\"."
       },
       "living_situation": {
         "value": "With Wife",
         "confidence": "1.00",
-        "evidence": "Participant states 'I live with my wife'."
+        "evidence": "Explicitly stated in the transcript: \"So I live with my wife.\""
       },
       "occupation": {
-        "value": "PhD Student - AI Research",
+        "value": "PhD Student (AI & Health)",
         "confidence": "1.00",
-        "evidence": "Participant explicitly states 'I'm a PhD student at [ORG_MASKED] doing research in AI and health.'"
+        "evidence": "Repeatedly referred to as a 'PhD student' and specified research area as 'AI and health.'"
       },
       "education": {
         "value": "PhD",
         "confidence": "1.00",
-        "evidence": "Participant explicitly states 'I'm a PhD student'."
+        "evidence": "Explicitly stated as a 'PhD student.'"
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Conducting impactful research in AI for health, seeking professional fulfillment and potentially career advancement.",
-        "confidence": "0.80",
-        "evidence": "Participant's research focus, participation in a PhD program, and desire for a 'good' rating from the product on Amazon."
+        "value": "To contribute to advancements in AI for healthcare, driven by a desire for intellectual challenge and impact.",
+        "confidence": "0.75",
+        "evidence": "Participant's work on AI in health, pursuing a PhD, and mentioning 'research' indicates a goal-oriented and intellectually driven individual."
       },
       "interests": {
         "value": [
+          "Data Analysis",
           "AI",
           "Healthcare",
-          "Data Analysis",
           "Running",
           "Pickleball",
-          "Video Games",
+          "Gaming",
           "Church"
         ],
-        "confidence": "0.70",
-        "evidence": "Participant mentions research in AI and health, programming, data analysis, running, pickleball, video games, and attending church."
+        "confidence": "0.80",
+        "evidence": "Explicitly stated activities: 'researching AI and health', running, pickleball, and attending church. Also mentioned video games."
       },
       "values": {
         "value": [
-          "Detail-orientedness",
           "Accuracy",
+          "Detail",
           "Efficiency",
-          "Community",
-          "Health"
+          "Health",
+          "Community"
         ],
         "confidence": "0.65",
-        "evidence": "Participant’s emphasis on specific product details, time spent researching, interest in exercise and community activities, and choice of fertilizer demonstrates these values."
+        "evidence": "Observed values: meticulous review of fertilizer compositions (detail), prioritizing efficiency in shopping, commitment to health (exercise, church), and interest in community activities (pickleball)."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
-        "confidence": "0.75",
-        "evidence": "Participant purchases necessities like paper towels and dish soap on a regular basis; purchases fertilizer annually."
+        "confidence": "0.70",
+        "evidence": "Participant regularly purchases necessities (paper towels, dish soap) and occasional items (fertilizer) suggesting a weekly shopping pattern."
       },
       "where_used_devices": {
         "value": [
@@ -86,44 +86,41 @@
           "Desktop"
         ],
         "confidence": "0.90",
-        "evidence": "Participant works remotely, primarily at a desk using a computer, and uses a smartphone for various tasks including research and shopping."
+        "evidence": "Participant works remotely, stating they 'mostly work at home' and uses a 'desk'. They also engages in extensive online research."
       },
       "search_style_best_vs_first": {
         "value": "Best Product / First Product",
-        "confidence": "0.85",
-        "evidence": "Participant explicitly states he 'usually just go for it' when a product has a good rating and often skips sponsored products."
+        "confidence": "0.80",
+        "evidence": "Participant frequently selects the first available option, prioritizing convenience and speed."
       },
       "price_preference_cheapest_vs_expensive": {
         "value": "Cheapest Product",
-        "confidence": "0.70",
-        "evidence": "Participant chooses the cheaper fertilizer option over a more expensive premium one."
+        "confidence": "0.60",
+        "evidence": "Participant consistently seeks the most affordable options, particularly for items like fertilizer."
       },
       "decision_factors": {
         "value": [
-          "Product Quality",
           "Price",
-          "User Reviews",
-          "Brand Reputation",
-          "Quantity"
+          "Availability",
+          "Reviews (selective)",
+          "Brand Reputation (limited)"
         ],
-        "confidence": "0.95",
-        "evidence": "Participant’s justifications for purchasing products – considering factors like the ‘composition of chemicals’, price, user reviews (with specific focus on recency), and brand reputation are explicitly stated."
+        "confidence": "0.85",
+        "evidence": "Participant explicitly considers price and availability. Reviews are considered only when product ratings are low, and brand reputation is a secondary consideration."
       },
       "preferred_categories": {
         "value": [
-          "Fertilizers",
-          "Books",
-          "Daily Necessities",
-          "Electronics (implied)",
-          "Home Goods (implied)"
+          "Health & Wellness",
+          "Gardening",
+          "Household Goods"
         ],
-        "confidence": "0.80",
-        "evidence": "Participant purchases fertilizer, books, paper towels, dish soap, and mentions searching for water bottles."
+        "confidence": "0.70",
+        "evidence": "Purchase history includes fertilizer, dish soap, and papers, demonstrating a preference for these categories."
       },
       "pain_points_and_or_challenges": {
-        "value": "Difficulty interpreting product specifications, particularly with chemicals; time spent researching products; potential price premiums.",
+        "value": "Time-consuming research process, difficulty interpreting product information (especially labels), and managing multiple choices.",
         "confidence": "0.90",
-        "evidence": "Participant's detailed scrutiny of fertilizer labels, time spent researching products on Amazon, and comparison of prices indicate these pain points."
+        "evidence": "Repeatedly mentions lengthy research processes (e.g., researching fertilizer), struggles with interpreting product labels, and the need to navigate multiple product options."
       }
     }
   }

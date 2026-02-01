@@ -16,6 +16,7 @@ from config import (
     OPENAI_API_KEY,
     OPENAI_MODEL,
 )
+from .logger import Logger
 
 T = TypeVar("T", bound=BaseModel)
 
@@ -25,6 +26,7 @@ class LLMClient:
 
     def __init__(self, provider: str = "ollama"):
         self.provider = provider
+        self.log = Logger("llm_client")
         if provider == "openai" and not OPENAI_API_KEY:
             raise ValueError("OPENAI_API_KEY not set in environment")
 
@@ -60,8 +62,10 @@ class LLMClient:
 
                 return response_model.model_validate(raw_response)
 
-            except ValidationError as e:
+            except (ValidationError, ValueError) as e:
                 last_error = e
+                # self.log.warning(f"Validation failed: {e}") 
+                # Reduced noise: only log if debug is on or it's a critical failure later
                 if attempt < max_retries:
                     continue
                 raise ValueError(
@@ -70,7 +74,9 @@ class LLMClient:
 
             except json.JSONDecodeError as e:
                 last_error = e
+                self.log.warning(f"JSON Decode failed: {e}")
                 if attempt < max_retries:
+                    self.log.info("Retrying...")
                     continue
                 raise ValueError(f"LLM returned invalid JSON: {e}") from e
 

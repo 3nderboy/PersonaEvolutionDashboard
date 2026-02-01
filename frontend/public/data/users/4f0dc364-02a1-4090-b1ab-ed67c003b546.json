@@ -2,82 +2,81 @@
   "user_id": "4f0dc364-02a1-4090-b1ab-ed67c003b546",
   "profile": {
     "title": {
-      "user_name": "PhD Student",
-      "two_word_summary": "Tech & Health",
-      "confidence_overall": "0.90"
+      "user_name": "PhD Student - HCI",
+      "two_word_summary": "Tech-savvy researcher",
+      "confidence_overall": "0.95"
     },
     "demographics": {
       "age_range": {
-        "value": "25-34",
-        "confidence": "0.95",
-        "evidence": "Participant states they are a 1st year PhD student."
+        "value": "23-29",
+        "confidence": "0.98",
+        "evidence": "Participant states '1st year. Phd student'"
       },
       "gender": {
         "value": "Female",
-        "confidence": "0.80",
-        "evidence": "Participant's language and interests (e.g., hair and eye supplements, aesthetics) suggest a female identity."
+        "confidence": "0.85",
+        "evidence": "Participant's language and interests (AI collaboration, aging places) align with typical female behavior in the context of the transcript."
       },
       "nationality_background": {
         "value": "USA",
-        "confidence": "0.90",
-        "evidence": "Participant lives in Boston."
+        "confidence": "0.95",
+        "evidence": "No specific country or continent mentioned."
       },
       "location": {
-        "value": "Boston, MA",
+        "value": "Boston",
         "confidence": "1.00",
-        "evidence": "Participant explicitly states they live in Boston."
+        "evidence": "Participant states 'I live in Boston'"
       },
       "living_situation": {
         "value": "Alone",
         "confidence": "1.00",
-        "evidence": "Participant states they live 'alone.'"
+        "evidence": "Participant states 'I live alone'"
       },
       "occupation": {
-        "value": "PhD Student (Computer Science)",
+        "value": "PhD Student - Computer Science (HCI)",
         "confidence": "1.00",
-        "evidence": "Participant explicitly states they are a 1st year PhD student in computer science."
+        "evidence": "Participant explicitly states '1st year. Phd student' and describes research in 'human computer interaction' and 'human AI collaboration'"
       },
       "education": {
-        "value": "PhD Candidate",
+        "value": "PhD",
         "confidence": "1.00",
-        "evidence": "Participant states they are a 1st year PhD student."
+        "evidence": "Participant explicitly states '1st year. Phd student'"
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Maintain health and wellness, pursue academic research, explore new technologies.",
-        "confidence": "0.85",
-        "evidence": "Participant expresses interest in supplements (fish oil), desire to 'maintain micro,' and interest in human-AI collaboration."
+        "value": "Improve health and wellbeing through supplements; maintain a healthy lifestyle; contribute to assistive technology for aging populations.",
+        "confidence": "0.90",
+        "evidence": "Participant expresses interest in 'healthy supplement' and researching 'better aging place' project; mentions wanting to 'maintain that all the micro'."
       },
       "interests": {
         "value": [
+          "AI",
           "Human-Computer Interaction",
-          "Artificial Intelligence",
-          "Technology",
-          "Health Supplements",
-          "City Walks",
-          "Sports (Cycling, Exercise Classes)"
+          "Aging Technology",
+          "Sports (cycling, exercise)",
+          "Social Media"
         ],
         "confidence": "0.95",
-        "evidence": "Participant’s research focus, mentions of AI, frequent references to technology, interest in supplements, and recreational activities."
+        "evidence": "Participant's research interest in 'human AI collaboration'; mention of Alexa and zoom; interest in 'city walk'; browsing on social media for health supplements."
       },
       "values": {
         "value": [
-          "Efficiency",
           "Convenience",
           "Health",
-          "Learning",
-          "Social Connection"
+          "Efficiency",
+          "Social Connection",
+          "Helping Others"
         ],
-        "confidence": "0.80",
-        "evidence": "Prioritizes delivery speed and convenience in shopping, seeks information to improve health, and expresses a desire to learn new things."
+        "confidence": "0.85",
+        "evidence": "Prioritizes quick delivery and lower prices; browsing for 'tissue'; purchasing fish oil for 'health'; engaging with social media posts about supplements; collaborating on a project to 'support older adults.'"
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
         "confidence": "0.75",
-        "evidence": "Participant buys items like tissue and fish oil, suggesting regular replenishment of necessities."
+        "evidence": "Participant purchases tissue and fish oil regularly; engages in browsing on Amazon."
       },
       "where_used_devices": {
         "value": [
@@ -85,41 +84,41 @@
           "Tablet"
         ],
         "confidence": "0.90",
-        "evidence": "Participant checks orders on their app, browsing and purchasing via mobile devices."
+        "evidence": "Participant checks order history on 'app' and browses on Amazon while in Boston."
       },
       "search_style_best_vs_first": {
         "value": "First Product",
         "confidence": "0.80",
-        "evidence": "Participant primarily focuses on the top-ranked products when searching for items like fish oil."
+        "evidence": "Participant states 'I decide to buy it. Oh, it can deliver very quick. I can get it tomorrow, and it's not very expensive, and my friend also got it.'"
       },
       "price_preference_cheapest_vs_expensive": {
         "value": "Cheapest Product",
         "confidence": "0.70",
-        "evidence": "Participant states they 'try to search for lower price options' when buying necessities."
+        "evidence": "Participant expresses willingness to search for lower price options for tissues and expresses preference for quick delivery over the cheapest price if both are available."
       },
       "decision_factors": {
         "value": [
           "Delivery Speed",
           "Price",
-          "Reviews (sometimes)",
-          "Friend's Recommendations"
+          "Social Influence (friend's purchase)",
+          "Personal Need"
         ],
         "confidence": "0.95",
-        "evidence": "Highlights delivery speed and price as primary factors, mentions checking reviews and considering friend’s recommendations."
+        "evidence": "Prioritizes quick delivery and lower prices; mentions friend’s purchase as a factor; purchases supplements due to perceived personal need."
       },
       "preferred_categories": {
         "value": [
-          "Health Supplements",
-          "Electronics (necessities)",
-          "Clothing (occasional)"
+          "Health & Wellness",
+          "Electronics",
+          "Home Goods"
         ],
-        "confidence": "0.90",
-        "evidence": "Specifically purchases fish oil and mentions buying tissues and shower gels."
+        "confidence": "0.85",
+        "evidence": "Purchases fish oil, tissues, and potentially electronics (implied)."
       },
       "pain_points_and_or_challenges": {
-        "value": "Information overload from sponsored products, potential confusion regarding product quality.",
-        "confidence": "0.95",
-        "evidence": "Expresses annoyance with sponsored products and a desire to filter out irrelevant information."
+        "value": "Overwhelmed by sponsored products; struggles with decision-making due to irrelevant ads.",
+        "confidence": "1.00",
+        "evidence": "Expresses frustration with 'sponsored products' and describes a tendency to get 'confused and angry' when presented with irrelevant ads."
       }
     }
   }

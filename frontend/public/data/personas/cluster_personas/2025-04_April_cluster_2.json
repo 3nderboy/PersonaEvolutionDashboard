@@ -1,84 +1,107 @@
 {
   "cluster_id": 2,
   "month": "2025-04 (April)",
-  "cluster_name": "Decisive Buyer",
-  "generated_at": "2026-01-31T13:55:53.192066",
+  "cluster_name": "Decisive Detail-Oriented User",
+  "generated_at": "2026-01-31T22:00:00.411517",
   "user_count": 21,
   "persona": {
     "title": {
-      "persona_name": "The Calculated Consumer",
-      "tagline": "A tech-savvy individual who prioritizes features and value when making purchasing decisions.",
-      "user_profiles": 21
+      "persona_name": "Decisive Detail-Oriented Alex",
+      "tagline": "Tech-savvy, detail-oriented, and decisive online shopper.",
+      "user_profiles": 21,
+      "confidence_level": "High"
     },
     "demographics": {
       "age_distribution": {
-        "value": "25-34 years old",
-        "num_of_users_in_this_age": 13
+        "value": "25-34",
+        "confidence": "High",
+        "support_count": 9
       },
       "gender_distribution": {
         "value": "Male",
-        "num_of_users_of_this_gender": 16
-      },
-      "nationality_background": {
-        "value": "American",
-        "num_of_users_from_with_this_nationality": 19
-      },
-      "location_pattern": {
-        "value": "Boston",
-        "num_of_users_with_same_location_pattern": 8
-      },
-      "living_situation": {
-        "value": "With Roommates",
-        "num_of_users_with_this_living_situation_pattern": 17
+        "confidence": "High",
+        "support_count": 12
       },
       "occupation": {
-        "value": "PhD Student",
-        "num_of_users_with_same_occupation_type": 11
+        "value": "Graduate Student / PhD Student / Researcher / Data Science Student",
+        "confidence": "Medium",
+        "support_count": 8
       },
-      "education_level": {
-        "value": "Master's Degree",
-        "num_of_users_with_same_education_level": 13
+      "nationality_background": {
+        "value": "USA",
+        "confidence": "High",
+        "support_count": 15
+      },
+      "location": {
+        "value": "Boston, MA / San Diego, CA / San Jose, California / Los Angeles, CA / Palo Alto, California",
+        "confidence": "Medium",
+        "support_count": 6
+      },
+      "living_situation": {
+        "value": "Living with Roommates / Living Alone / With Family",
+        "confidence": "Medium",
+        "support_count": 4
+      },
+      "education": {
+        "value": "Master's Degree or PhD Candidate",
+        "confidence": "High",
+        "support_count": 10
       }
     },
     "psychographics": {
       "goals": [
-        "Career progression in Data Science",
-        "Achieving a Phd degree"
-      ],
-      "interests": [
-        "Data Science",
-        "Natural Language Processing",
-        "Technology"
+        "Career advancement",
+        "Academic success",
+        "Personal growth"
       ],
       "values": [
         "Quality",
+        "Efficiency",
         "Value for Money",
-        "Brand Reputation"
-      ]
+        "Continuous Learning"
+      ],
+      "interests": [
+        "Data Science",
+        "Technology",
+        "Gaming",
+        "Travel (occasional)"
+      ],
+      "confidence": "High"
     },
     "shopping_behavior": {
-      "frequency_pattern": {
+      "frequency": {
         "value": "Weekly",
-        "num_of_users_with_this_frequency": 18
+        "confidence": "High",
+        "support_count": 17
       },
       "preferred_devices": [
         "Smartphone",
-        "Desktop"
+        "Desktop",
+        "Laptop"
       ],
-      "search_style": "Prefers 'Best Product' search to thoroughly evaluate all options before deciding, prioritizing features and technical specifications.",
-      "price_sensitivity": "Values products with good quality and brand reputation while being mindful of price, often opting for the 'Cheapest Product' option.",
-      "decision_style": "Makes quick decisions based on brand reputation, price and user reviews, focusing on immediate needs and potential value.",
       "preferred_categories": [
         "Electronics",
         "Clothing",
-        "Home Goods"
+        "Home Goods",
+        "Software"
       ],
-      "common_pain_points": [
-        "Finding webcams with the correct angle and image quality",
-        "Dealing with sponsored product recommendations"
-      ]
+      "search_style": {
+        "value": "Best Product search to thoroughly evaluate all options before deciding",
+        "confidence": "High",
+        "support_count": 12
+      },
+      "decision_style": {
+        "value": "Review-driven, weighing product quality and customer reviews",
+        "confidence": "Medium",
+        "support_count": 6
+      },
+      "pain_points": [
+        "Difficulty finding high-quality products at competitive prices",
+        "Time constraints"
+      ],
+      "confidence": "High"
     },
-    "narrative": "The Decisive Buyer persona represents a highly motivated and detail-oriented individual deeply invested in acquiring top-tier tech and essential goods. This persona, driven by a desire for career advancement and self-improvement, approaches shopping with a strong focus on quality, brand reputation, and value for money. They are characterized by their immediate intention to purchase, using ‘Best Product’ or ‘First Product’ searches to rapidly assess and select items.  The Decisive Buyer clusters exhibits a strong preference for customizable options and detailed product information to ensure that their purchases meet their exacting standards and contribute to their goals."
+    "narrative": "The Decisive Detail-Oriented User persona represents individuals who are highly tech-savvy, detail-oriented, and decisive in their online shopping habits. They are typically graduate students or researchers in STEM fields, aged between 25-34, living with roommates or alone, and based in the United States. These users value quality, efficiency, and continuous learning, and tend to prefer weekly frequency of use on their smartphones or desktops. When searching for products, they favor best product search to thoroughly evaluate all options before deciding, weighing product quality and customer reviews. This persona is crucial for understanding the online shopping behavior of individuals who seek high-quality products at competitive prices, despite facing time constraints."
   },
   "source_users": [
     {
@@ -87,15 +110,15 @@
     },
     {
       "user_id": "03a4f3ea-bfb7-4ba9-a7e5-5033f6958ce1",
-      "summary": "Tech-savvy Student"
+      "summary": "Tech-savvy Researcher"
     },
     {
       "user_id": "3a65c43e-e4e3-4280-8ea3-526cc99b9553",
-      "summary": "Engineering Student"
+      "summary": "PhD Student"
     },
     {
       "user_id": "3f39da26-3cd2-4290-b84c-667762cc59fa",
-      "summary": "Tech-savvy Researcher"
+      "summary": "Tech-savvy researcher"
     },
     {
       "user_id": "4363ae6f-d1a1-4790-abe3-ffab842ac201",
@@ -103,15 +126,15 @@
     },
     {
       "user_id": "4711841a-9bbc-4763-bcb2-c5cf78aebacb",
-      "summary": "Tech Student"
+      "summary": "Tech-savvy Student"
     },
     {
       "user_id": "47395b78-6336-4546-b97c-7becdf065356",
-      "summary": "Tech-Savvy Graduate"
+      "summary": "Tech Student"
     },
     {
       "user_id": "4d439e8e-69d1-4ee2-8030-7c885c6b1fa2",
-      "summary": "Tech-savvy Researcher"
+      "summary": "Tech-savvy researcher"
     },
     {
       "user_id": "518a849c-3fd6-4aa0-87f2-bbbe3a622f0c",
@@ -119,7 +142,7 @@
     },
     {
       "user_id": "5632b752-29ff-4501-9a85-10490d494777",
-      "summary": "Data-Driven Scholar"
+      "summary": "Data Driven Chill"
     },
     {
       "user_id": "58c72f67-93ab-4fd9-a561-90882899e72c",
@@ -127,23 +150,23 @@
     },
     {
       "user_id": "677a4341-6b9b-4acc-8d42-8c9189bdb429",
-      "summary": "Tech-savvy Gamer"
+      "summary": "Tech Enthusiast Gamer"
     },
     {
       "user_id": "680c63e0-6620-465b-a9ad-2a187fdf481e",
-      "summary": "Tech Professor"
+      "summary": "Tech Educator Relaxed"
     },
     {
       "user_id": "74b9cc8a-a89a-4e2a-941a-6e89b42e18bf",
-      "summary": "Tech-savvy Student"
+      "summary": "Tech-Savvy Student"
     },
     {
       "user_id": "7f0c8207-6a6f-49cd-9d7e-17987cfafcb9",
-      "summary": "Tech Enthusiast Researcher"
+      "summary": "Tech Researcher"
     },
     {
       "user_id": "85aeec61-2d4e-489d-93bf-76c928d2d795",
-      "summary": "Academic Researcher"
+      "summary": "Academic Research"
     },
     {
       "user_id": "9f15f02a-4e02-4920-8065-4feb712032d7",
@@ -151,11 +174,11 @@
     },
     {
       "user_id": "b6a822a0-090b-4c1d-ac6e-da3bf4a2b643",
-      "summary": "Tech Professor Shopping"
+      "summary": "Tech University Professor"
     },
     {
       "user_id": "dd4fa2e8-9892-444c-ac53-f5f41751c14c",
-      "summary": "Data Focused Researcher"
+      "summary": "Data Analyst"
     },
     {
       "user_id": "f2778310-f9e8-4208-a73f-c098e00cacdc",

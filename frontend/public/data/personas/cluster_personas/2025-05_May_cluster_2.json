@@ -1,63 +1,103 @@
 {
   "cluster_id": 2,
   "month": "2025-05 (May)",
-  "cluster_name": "Decisive Buyer",
-  "generated_at": "2026-01-31T13:57:11.299656",
+  "cluster_name": "Decisive Detail-Oriented User",
+  "generated_at": "2026-01-31T22:14:28.120691",
   "user_count": 3,
   "persona": {
     "title": {
-      "persona_name": "",
-      "tagline": "",
-      "user_profiles": 0
+      "persona_name": "Alex Chen",
+      "tagline": "Practical, detail-oriented graduate students seeking quality products at affordable prices with minimal time investment.",
+      "user_profiles": 3,
+      "confidence_level": "High"
     },
     "demographics": {
       "age_distribution": {
-        "value": "",
-        "num_of_users_in_this_age": 0
+        "value": "25-34",
+        "confidence": "High",
+        "support_count": 0
       },
       "gender_distribution": {
-        "value": "",
-        "num_of_users_of_this_gender": 0
-      },
-      "nationality_background": {
-        "value": "",
-        "num_of_users_from_with_this_nationality": 0
-      },
-      "location_pattern": {
-        "value": "",
-        "num_of_users_with_same_location_pattern": 0
-      },
-      "living_situation": {
-        "value": "",
-        "num_of_users_with_this_living_situation_pattern": 0
+        "value": "Mixed (2 males, 1 female)",
+        "confidence": "Medium",
+        "support_count": 3
       },
       "occupation": {
-        "value": "",
-        "num_of_users_with_same_occupation_type": 0
+        "value": "Graduate Student/Remote Intern/University Professor",
+        "confidence": "High",
+        "support_count": 0
       },
-      "education_level": {
-        "value": "",
-        "num_of_users_with_same_education_level": 0
+      "nationality_background": {
+        "value": "USA",
+        "confidence": "High",
+        "support_count": 3
+      },
+      "location": {
+        "value": "Coastal cities (Jersey City, San Francisco, Boston)",
+        "confidence": "Medium",
+        "support_count": 0
+      },
+      "living_situation": {
+        "value": "Living with Roommates/With Wife",
+        "confidence": "High",
+        "support_count": 0
+      },
+      "education": {
+        "value": "Master's Degree or Higher",
+        "confidence": "High",
+        "support_count": 2
       }
     },
     "psychographics": {
-      "goals": [],
-      "interests": [],
-      "values": []
+      "goals": [
+        "Practicality, efficiency, and self-improvement through education",
+        "Career advancement in data roles",
+        "Achieving professional success"
+      ],
+      "values": [
+        "Quality",
+        "Price",
+        "Convenience"
+      ],
+      "interests": [
+        "Technology",
+        "Data Analytics",
+        "Research"
+      ],
+      "confidence": "High"
     },
     "shopping_behavior": {
-      "frequency_pattern": {
-        "value": "",
-        "num_of_users_with_this_frequency": 0
+      "frequency": {
+        "value": "Weekly",
+        "confidence": "High",
+        "support_count": 3
       },
-      "preferred_devices": [],
-      "search_style": "",
-      "price_sensitivity": "",
-      "decision_style": "",
-      "preferred_categories": [],
-      "common_pain_points": []
+      "preferred_devices": [
+        "Smartphone",
+        "Desktop"
+      ],
+      "preferred_categories": [
+        "Household Goods",
+        "Health & Wellness",
+        "Electronics (small)",
+        "Travel Essentials"
+      ],
+      "search_style": {
+        "value": "Uses 'Best Product' search to thoroughly evaluate all options before deciding",
+        "confidence": "High",
+        "support_count": 2
+      },
+      "decision_style": {
+        "value": "Driven by price, quality, and reviews",
+        "confidence": "Medium",
+        "support_count": 0
+      },
+      "pain_points": [
+        "Finding products with good quality and durability at a reasonable price"
+      ],
+      "confidence": "High"
     },
-    "narrative": ""
+    "narrative": "The Decisive Detail-Oriented User represents graduate students, remote interns, and university professors who value practicality, efficiency, and self-improvement. They prioritize quality products at affordable prices, often using 'Best Product' search to thoroughly evaluate options before deciding. With limited time, they rely on reviews and product information to make informed decisions."
   },
   "source_users": [
     {
@@ -66,11 +106,11 @@
     },
     {
       "user_id": "47395b78-6336-4546-b97c-7becdf065356",
-      "summary": "Tech-Savvy Graduate"
+      "summary": "Tech Student"
     },
     {
       "user_id": "b6a822a0-090b-4c1d-ac6e-da3bf4a2b643",
-      "summary": "Tech Professor Shopping"
+      "summary": "Tech University Professor"
     }
   ]
 }

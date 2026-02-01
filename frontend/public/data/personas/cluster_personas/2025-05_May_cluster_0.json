@@ -1,100 +1,115 @@
 {
   "cluster_id": 0,
   "month": "2025-05 (May)",
-  "cluster_name": "Curious Browser",
-  "generated_at": "2026-01-31T13:56:50.462929",
+  "cluster_name": "Explorer Interactive User",
+  "generated_at": "2026-01-31T22:10:10.322411",
   "user_count": 6,
   "persona": {
     "title": {
-      "persona_name": "The Product Explorer",
-      "tagline": "Driven by curiosity and a desire to deeply understand product features.",
-      "user_profiles": 6
+      "persona_name": "Eager Explorer",
+      "tagline": "Highly interactive and research-driven user seeking quality and efficiency in online shopping experiences",
+      "user_profiles": 6,
+      "confidence_level": "High"
     },
     "demographics": {
       "age_distribution": {
-        "value": "25-35 years old",
-        "num_of_users_in_this_age": 6
+        "value": "25-34",
+        "confidence": "High",
+        "support_count": 4
       },
       "gender_distribution": {
-        "value": "Male",
-        "num_of_users_of_this_gender": 6
-      },
-      "nationality_background": {
-        "value": "American",
-        "num_of_users_from_with_this_nationality": 6
-      },
-      "location_pattern": {
-        "value": "Boston, California & Palo Alto, California",
-        "num_of_users_with_same_location_pattern": 6
-      },
-      "living_situation": {
-        "value": "Living With Roommates / With Family / With Friends",
-        "num_of_users_with_this_living_situation_pattern": 6
+        "value": "Mixed (Male & Female)",
+        "confidence": "Medium",
+        "support_count": 2
       },
       "occupation": {
-        "value": "Ph.D. Student / Graduate Student / Machine Learning Engineer",
-        "num_of_users_with_same_occupation_type": 6
+        "value": "Student/Graduate Student",
+        "confidence": "High",
+        "support_count": 4
       },
-      "education_level": {
-        "value": "Ph.D. / Master's Degree",
-        "num_of_users_with_same_education_level": 6
+      "nationality_background": {
+        "value": "USA",
+        "confidence": "High",
+        "support_count": 6
+      },
+      "location": {
+        "value": "Urban (Boston, San Francisco, Palo Alto)",
+        "confidence": "Medium",
+        "support_count": 3
+      },
+      "living_situation": {
+        "value": "Shared Apartment/Roommates",
+        "confidence": "High",
+        "support_count": 4
+      },
+      "education": {
+        "value": "Postgraduate (PhD/Master's)",
+        "confidence": "High",
+        "support_count": 6
       }
     },
     "psychographics": {
       "goals": [
-        "Achieving a Phd degree",
-        "Career Development",
-        "Seeking fulfilling work"
-      ],
-      "interests": [
-        "Natural Language Processing",
-        "Data Analytics",
-        "Machine Learning"
+        "Achieving personal goals",
+        "Staying healthy and productive"
       ],
       "values": [
-        "Reliability",
         "Efficiency",
-        "Quality"
-      ]
+        "Quality",
+        "Cost-Effectiveness"
+      ],
+      "interests": [
+        "Technology",
+        "Research",
+        "Personal Development"
+      ],
+      "confidence": "High"
     },
     "shopping_behavior": {
-      "frequency_pattern": {
+      "frequency": {
         "value": "Weekly",
-        "num_of_users_with_this_frequency": 6
+        "confidence": "High",
+        "support_count": 6
       },
       "preferred_devices": [
         "Smartphone",
         "Desktop"
       ],
-      "search_style": "The Curious Browser persona uses 'Best Product' searches to thoroughly evaluate a large number of product options, demonstrating a desire for comprehensive information before committing to a purchase. This approach reflects a high level of research and a commitment to finding the most optimal solution.",
-      "price_sensitivity": "This persona prioritizes 'Cheapest Product' when considering options, emphasizing cost-effectiveness alongside brand reputation and reviews, indicating a balance between value and budget.",
-      "decision_style": "Driven by a desire for accuracy and efficiency, the Curious Browser persona employs 'Best Product' searches to eliminate extraneous choices and concentrate on the most highly-rated options. This methodical approach reflects a preference for data-driven decision-making and a measured pace.",
       "preferred_categories": [
         "Electronics",
         "Pet Supplies",
-        "Food & Cooking Supplies",
-        "Household Supplies"
+        "Personal Care"
       ],
-      "common_pain_points": [
-        "Time spent researching products",
-        "Decision fatigue",
-        "Overwhelming information"
-      ]
+      "search_style": {
+        "value": "Product Review-Driven",
+        "confidence": "Medium",
+        "support_count": 3
+      },
+      "decision_style": {
+        "value": "Price-Quality Balance",
+        "confidence": "High",
+        "support_count": 4
+      },
+      "pain_points": [
+        "Time constraints",
+        "Difficulty finding specific items"
+      ],
+      "confidence": "Medium"
     },
-    "narrative": "The Curious Browser persona represents a digitally engaged individual, primarily male, aged 25-35, with a strong interest in technology and a commitment to learning. This persona is defined by a relentless exploration of product pages, driven by a desire to deeply understand the features and benefits of different options.  Users in the Curious Browser cluster frequently employ search terms like 'Best Product' to thoroughly evaluate multiple choices, suggesting a preference for data-driven decision-making.  Their high action density reflects a continuous cycle of investigation and exploration, indicative of a discerning shopper always seeking the most informed solution."
+    "narrative": "The 'Eager Explorer' persona represents the typical user in the 'Explorer Interactive User' cluster. They are highly research-driven, frequently seeking quality and efficiency in online shopping experiences. With a focus on postgraduate education, they have a strong affinity for technology and personal development. Their decision-making process is influenced by product reviews, price-quality balance, and convenience. As users with time constraints, they struggle to find specific items online, highlighting the importance of user-friendly search functionality."
   },
   "source_users": [
     {
       "user_id": "03a4f3ea-bfb7-4ba9-a7e5-5033f6958ce1",
-      "summary": "Tech-savvy Student"
+      "summary": "Tech-savvy Researcher"
     },
     {
       "user_id": "47395b78-6336-4546-b97c-7becdf065356",
-      "summary": "Tech-Savvy Graduate"
+      "summary": "Tech Student"
     },
     {
       "user_id": "4d439e8e-69d1-4ee2-8030-7c885c6b1fa2",
-      "summary": "Tech-savvy Researcher"
+      "summary": "Tech-savvy researcher"
     },
     {
       "user_id": "518a849c-3fd6-4aa0-87f2-bbbe3a622f0c",
@@ -102,7 +117,7 @@
     },
     {
       "user_id": "b6a822a0-090b-4c1d-ac6e-da3bf4a2b643",
-      "summary": "Tech Professor Shopping"
+      "summary": "Tech University Professor"
     },
     {
       "user_id": "f2778310-f9e8-4208-a73f-c098e00cacdc",

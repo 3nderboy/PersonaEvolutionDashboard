@@ -1,65 +1,91 @@
 # Research Foundations
 
-> Thesis preparation document with academic references and methodology documentation.
+> **Strategic Implementation & Validation of Generative Persona Systems**
+>
+> This document serves as the theoretical basis for the project, aligning software capabilities with UX research standards (Nielsen Norman Group, 2025).
 
-## Dataset: OPeRA
+---
 
-**Source:** [NEU-HAI/OPeRA](https://huggingface.co/datasets/NEU-HAI/OPeRA) on HuggingFace
+## 1. Ontology: The "Proto-Persona" Definition
 
-This project uses the **filtered version** of OPeRA for cleaner action space (14 distinct click_types vs 47 in full dataset).
+To maintain scientific integrity, this project explicitly classifies its output as **Proto-Personas** (or Data-Driven Archetypes), not Qualitative Personas.
 
-**Limitations:**
-- E-commerce domain only (may not generalize to other domains)
-- English-speaking users (Amazon.com marketplace)
-- Simulated shopping tasks (not natural browsing behavior)
+| Type | Data Source | Method | Project Status |
+|------|-------------|--------|----------------|
+| **Qualitative Persona** | Ethnographic interviews, field observation (Contextual Inquiry) | Empathy-driven synthesis | ❌ Out of Scope (Requires primary research) |
+| **Data-Driven Persona** | Quantitative analytics (Logs, CRM) | Statistical clustering | ✅ **Implemented** (Phase 1: Clustering) |
+| **Proto-Persona** | Heuristics, Assumptions, Synthetic Data | Generative Hypotheses | ✅ **Implemented** (Phase 2: LLM Narrative) |
 
-## Behavioral Key Metrics (BKMs)
+**Implication:** The tool does not generate "facts" about users. It generates **structured hypotheses** to serve as a "Cognitive Scaffold" for researchers, prioritizing where to conduct deep qualitative inquiry.
 
-All BKM definitions, formulas, and reasoning are documented in:
-- **Specification:** [bkm-specification.json](../backend/data/NEU-HAI__OPeRA/bkm-specification.json)
-- **Generator Prompt:** [analyze_dataset.txt](../backend/scripts/prompts/analyze_dataset.txt)
+---
 
-The specification is dataset-specific and generated via LLM analysis of the dataset schema.
+## 2. Capabilities & Limitations
 
-**TODO:** Add academic citations for metric selection methodology
+### 2.1 Capabilities (What the Tool Does)
+*   **Pattern Synthesis:** Aggregates thousands of interaction points into coherent behavioral clusters.
+*   **Assumption Structuring:** Forces explicit definition of user traits (e.g., "Technological Competence").
+*   **Heuristic Simulation:** Applies UX laws (e.g., Jacob’s Law) to predict likely behaviors based on interaction logs.
 
-## Clustering: K-Means
+### 2.2 Limitations (The "Ethnographic Deficit")
+*   **Context Blindness:** The tool cannot "see" the external context (e.g., a noisy environment, time pressure from a boss) which heavily influences behavior.
+*   **Behavior vs. Intent:** It observes *what* happened (e.g., Pogo-Sticking between pages) but cannot definitively know *why* (Frustration vs. Comparison Strategy).
+*   **Hallucination Risk:** Generative models tend to "smooth out" human irrationality, creating personas that are too consistent to be real.
 
-The project uses K-Means clustering with centroids to represent persona archetypes.
+---
 
-**Configuration:**
-- Fixed cluster count: 5 (based on [NN/g persona scope guidance](https://www.nngroup.com/articles/persona-scope/))
-- Normalization: QuantileTransformer (uniform distribution 0-1)
-- Features: 7 BKMs from specification `recommended_features`
+## 3. Methodology: "Confidence Modeling & Evidence"
 
-**TODO:** Research and cite centroid-based persona representation methods
+To counter the "Illusion of Competence," the system implements a **Confidence Modeling** engine. Instead of asserting false certainty, the tool qualifies its hypotheses.
 
-## LLM Configuration
+**Mechanism:**
+1.  **Detect Behavior:** e.g., High rate of search usage.
+2.  **Generate Hypothesis:** "User likely prefers directed search over browsing."
+3.  **Assign Confidence:** The LLM assigns a score (High/Medium/Low) based on the strength of the signal (e.g., z-score magnitude).
+4.  **Provide Evidence:** It cites specific data points (e.g., "Search ratio is 2.5σ above average") to justify the narrative.
 
-| Provider | Model | Use Case |
-|----------|-------|----------|
-| Ollama (default) | gemma3 | Local, reproducible, free |
-| OpenAI | gpt-4o-mini | Cloud alternative |
+This transforms the tool from a "Creative Writer" to a **"Forensic Analyst"**, forcing the system to show its work and flag uncertain conclusions.
 
-**Note:** This project does not measure LLM output quality. LLM is used for enrichment only (user profile summarization, persona narratives).
+---
 
-**TODO:** Document how to add other LLM providers (Anthropic, etc.)
+## 4. Validation Workflow (From Proto to Refined)
 
-## Limitations
+This section defines the "Future Work" necessary to transform a generated Proto-Persona into a Validated Persona.
 
-1. **Fixed cluster count** - Always generates 5 personas regardless of dataset size
-2. **Dataset-specific BKMs** - Formulas designed for OPeRA, need regeneration for other datasets
-3. **No LLM quality evaluation** - Outputs not validated against ground truth
-4. **Session-level analysis** - User-level evolution not directly modeled
+### Step 1: Hypothesis Generation (Automated)
+*   **Input:** OPeRA dataset logs.
+*   **Output:** Proto-Persona "Strategic Selector" with hypothesis: *"Uses filters to manage choice overload."*
 
-## Component Reusability
+### Step 2: Qualitative Verification (Manual / "Small N")
+*   **Method:** Recruit 3-5 users matching the cluster criteria.
+*   **Activity:** Usability test focusing on filter interaction.
+*   **Goal:** Validate if they *actually* use filters to manage choice, or if they use them because the sorting logic is broken.
 
-### Fully Reusable (`/utils`)
-- `logger.py` - Standardized logging
-- `llm_client.py` - Ollama/OpenAI abstraction
-- `file_helpers.py` - Safe file operations
-- Clustering pipeline structure
+### Step 3: Refinement
+*   Update the persona: "Strategic Selector" $\to$ "Overwhelmed Filterer" (if validation shows frustration).
 
-### Dataset-Specific (regenerate for new dataset)
-- BKM calculation formulas in `calculate_bkms()`
-- Prompt templates for LLM extraction
+---
+
+## 5. Dataset Foundation: OPeRA
+
+*   **Source:** [NEU-HAI/OPeRA](https://huggingface.co/datasets/NEU-HAI/OPeRA)
+*   **Version:** Filtered (cleaner action space: 14 click types).
+*   **Relevance:** Unlike generic text datasets, OPeRA provides ground-truth logs of shopping behavior, allowing the LLM to ground its narratives in actual click-stream data rather than pure hallucination.
+
+---
+
+## 6. Scientific Legitimacy (Thesis Argument)
+
+For the written thesis, the project is framed not as "Automating UX Research," but as **"Optimizing the Pre-Research Phase."**
+
+> "In accordance with Nielsen Norman Group findings, this tool substitutes the 'blank page' problem with data-driven Proto-Personas. It mitigates the risk of bias by replacing random assumptions with statistically significant behavioral clusters, providing a rigid framework for subsequent qualitative validation."
+
+---
+
+## 7. Component Reusability
+
+| Component | Status | Reusability |
+|-----------|--------|-------------|
+| **Clustering Pipeline** | Stable | **High:** Works with any user/session/action CSV structure. |
+| **Socratic Prompt** | New | **Medium:** Tuned for E-commerce, adaptable to other domains. |
+| **BKM Specification** | Dataset-Specific | **Low:** Must be regenerated for new datasets (e.g., if analyzing a game instead of a shop). |

@@ -3,19 +3,19 @@
   "profile": {
     "title": {
       "user_name": "Student_SJ",
-      "two_word_summary": "Tech Student",
+      "two_word_summary": "Tech-savvy Student",
       "confidence_overall": "0.85"
     },
     "demographics": {
       "age_range": {
         "value": "20-25",
         "confidence": "0.95",
-        "evidence": "Participant’s description of being a student at university, typical student activity and purchase habits align with this age range."
+        "evidence": "Participant identifies as a student, common age range for university students."
       },
       "gender": {
         "value": "Male",
-        "confidence": "0.80",
-        "evidence": "Participant describes living with a boyfriend."
+        "confidence": "0.70",
+        "evidence": "Participant refers to 'boyfriend' and discusses snowboarding/electronics."
       },
       "nationality_background": {
         "value": "USA",
@@ -25,95 +25,97 @@
       "location": {
         "value": "San Jose, California",
         "confidence": "1.00",
-        "evidence": "Participant states he lives in San Jose."
+        "evidence": "Explicitly stated location."
       },
       "living_situation": {
         "value": "With Partner",
         "confidence": "1.00",
-        "evidence": "Participant states he lives with his boyfriend."
+        "evidence": "Participant states 'I live with my boyfriend'."
       },
       "occupation": {
         "value": "Student",
         "confidence": "1.00",
-        "evidence": "Participant explicitly states he is a student at [ORG_MASKED] University."
+        "evidence": "Explicitly stated occupation."
       },
       "education": {
-        "value": "University Undergraduate",
-        "confidence": "0.95",
-        "evidence": "Participant attends [ORG_MASKED] University."
+        "value": "University Student",
+        "confidence": "1.00",
+        "evidence": "Explicitly stated education level."
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Convenience and quick solutions to immediate needs",
-        "confidence": "0.90",
-        "evidence": "Participant prioritizes speed of delivery, searches directly on Amazon, and often makes impulsive purchases without extensive research."
+        "value": "Convenience, Solving immediate needs, Quick Solutions",
+        "confidence": "0.80",
+        "evidence": "Participant prioritizes fast delivery, buying items readily available on Amazon, and purchasing items for immediate needs (e.g., knee injury, blocked bathtub)."
       },
       "interests": {
         "value": [
           "Snowboarding",
-          "Technology",
-          "Home Maintenance"
+          "Electronics",
+          "Tech",
+          "Travel (potential)"
         ],
         "confidence": "0.75",
-        "evidence": "Participant frequently mentions snowboarding and purchasing items like humidifiers and drain cleaners.  References to technology (Amazon Prime) indicates tech interest."
+        "evidence": "Participant actively engages in snowboarding, purchases electronic items, and uses Amazon for various needs."
       },
       "values": {
         "value": [
           "Efficiency",
-          "Practicality",
-          "Convenience"
+          "Convenience",
+          "Practicality"
         ],
         "confidence": "0.85",
-        "evidence": "Participant’s actions reflect a prioritization of these values: quick delivery, direct searches, and reliance on Amazon for convenience."
+        "evidence": "Participant's purchasing decisions are driven by speed, availability, and practicality (e.g., humidifier for snowboarding)."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
         "confidence": "0.70",
-        "evidence": "Participant regularly purchases household items and accessories like humidifiers and drain cleaners, suggesting frequent online shopping."
+        "evidence": "Participant frequently utilizes Amazon for a variety of needs and describes recent purchases."
       },
       "where_used_devices": {
         "value": [
           "Smartphone",
-          "Desktop"
+          "Tablet"
         ],
-        "confidence": "0.80",
-        "evidence": "Participant uses Amazon on both smartphones and desktop computers."
+        "confidence": "0.90",
+        "evidence": "Participant utilizes Amazon through a smartphone, suggests using a tablet and browsing the web."
       },
       "search_style_best_vs_first": {
         "value": "First",
-        "confidence": "0.70",
-        "evidence": "Participant states he often chooses the top recommendations on Amazon without conducting extensive searches."
+        "confidence": "0.80",
+        "evidence": "Participant indicates they typically purchase the top recommendations on Amazon."
       },
       "price_preference_cheapest_vs_expensive": {
         "value": "Cheapest Product",
         "confidence": "0.60",
-        "evidence": "Participant frequently prioritizes the most convenient and readily available options, rather than seeking out the cheapest."
+        "evidence": "Participant mentions prioritizing convenience over cost and selecting the most convenient options."
       },
       "decision_factors": {
         "value": [
           "Convenience",
-          "Speed of Delivery",
-          "Availability"
+          "Delivery Time",
+          "Availability",
+          "Speed"
         ],
-        "confidence": "0.90",
-        "evidence": "Participant's decision-making is heavily influenced by these factors, as reflected in his reliance on Amazon Prime and direct searches."
+        "confidence": "0.95",
+        "evidence": "Participant explicitly states that convenience and delivery time are key factors in their purchasing decisions."
       },
       "preferred_categories": {
         "value": [
-          "Household Goods",
           "Electronics",
-          "Sports Equipment"
+          "Household Supplies",
+          "Health & Wellness"
         ],
-        "confidence": "0.80",
-        "evidence": "Participant purchases items such as humidifiers, drain cleaners, and snowboarding equipment."
+        "confidence": "0.85",
+        "evidence": "Participant purchases electronic drainage drink, humidifier, and a bandage."
       },
       "pain_points_and_or_challenges": {
-        "value": "Lack of time for detailed research, impulsive purchases",
-        "confidence": "0.95",
-        "evidence": "Participant explicitly states he doesn’t want to spend time reading reviews and often makes spontaneous purchases based on immediate needs."
+        "value": "Limited time, difficulty finding items locally",
+        "confidence": "0.90",
+        "evidence": "Participant mentions difficulty finding items locally and prioritizing fast delivery."
       }
     }
   }

@@ -1,84 +1,105 @@
 {
   "cluster_id": 1,
   "month": "2025-04 (April)",
-  "cluster_name": "Action-Oriented Shopper",
-  "generated_at": "2026-01-31T13:55:43.501966",
+  "cluster_name": "Decisive Explorer User",
+  "generated_at": "2026-01-31T21:58:02.912163",
   "user_count": 23,
   "persona": {
     "title": {
-      "persona_name": "The Rapid Responder",
-      "tagline": "Driven by immediate needs and quick decisions, prioritizing value and efficiency.",
-      "user_profiles": 23
+      "persona_name": "The Decisive Explorer",
+      "tagline": "Quickly identifies and evaluates options to make informed purchasing decisions",
+      "user_profiles": 23,
+      "confidence_level": "High"
     },
     "demographics": {
       "age_distribution": {
-        "value": "25-34 years old",
-        "num_of_users_in_this_age": 13
+        "value": "25-34",
+        "confidence": "High",
+        "support_count": 11
       },
       "gender_distribution": {
         "value": "Male",
-        "num_of_users_of_this_gender": 17
-      },
-      "nationality_background": {
-        "value": "American",
-        "num_of_users_from_with_this_nationality": 22
-      },
-      "location_pattern": {
-        "value": "Boston",
-        "num_of_users_with_same_location_pattern": 11
-      },
-      "living_situation": {
-        "value": "Living with Roommates",
-        "num_of_users_with_this_living_situation_pattern": 15
+        "confidence": "High",
+        "support_count": 17
       },
       "occupation": {
-        "value": "Software Engineer",
-        "num_of_users_with_same_occupation_type": 17
+        "value": "Student/Graduate Student/PhD Student",
+        "confidence": "High",
+        "support_count": 19
       },
-      "education_level": {
-        "value": "Master's Degree",
-        "num_of_users_with_same_education_level": 18
+      "nationality_background": {
+        "value": "USA",
+        "confidence": "High",
+        "support_count": 23
+      },
+      "location": {
+        "value": "Coastal cities in USA (Boston, San Francisco, Palo Alto)",
+        "confidence": "Medium",
+        "support_count": 7
+      },
+      "living_situation": {
+        "value": "Shared Apartment/Roommate",
+        "confidence": "High",
+        "support_count": 16
+      },
+      "education": {
+        "value": "Master's Degree or Higher",
+        "confidence": "Medium",
+        "support_count": 12
       }
     },
     "psychographics": {
       "goals": [
-        "Career progression in Data Science",
-        "Achieving a Phd degree"
-      ],
-      "interests": [
-        "Data Science",
-        "Technology",
-        "Gaming"
+        "Academic Success",
+        "Continuous Learning",
+        "Career Advancement"
       ],
       "values": [
         "Quality",
-        "Value for Money",
-        "Brand Reputation"
-      ]
+        "Efficiency",
+        "Value for Money"
+      ],
+      "interests": [
+        "Technology",
+        "Gaming",
+        "Travel",
+        "Hiking",
+        "Cycling"
+      ],
+      "confidence": "High"
     },
     "shopping_behavior": {
-      "frequency_pattern": {
+      "frequency": {
         "value": "Weekly",
-        "num_of_users_with_this_frequency": 21
+        "confidence": "High",
+        "support_count": 20
       },
       "preferred_devices": [
-        "Smartphone",
+        "Mobile",
         "Desktop"
       ],
-      "search_style": "Prefers ‘Best Product’ search to thoroughly evaluate all options before deciding, prioritizing efficiency and quickly moving to the top results.",
-      "price_sensitivity": "Values both quality and price, actively seeking the cheapest product options while maintaining a focus on brand reputation and user reviews.",
-      "decision_style": "Makes quick decisions, often defaulting to the first product that meets a basic set of criteria – quality, price, and brand reputation – to avoid lengthy research processes.",
       "preferred_categories": [
         "Electronics",
-        "Clothing",
+        "Pet Supplies",
         "Home Goods"
       ],
-      "common_pain_points": [
-        "Dealing with sponsored product recommendations",
-        "Time spent researching products"
-      ]
+      "search_style": {
+        "value": "Best Product Search to thoroughly evaluate all options before deciding",
+        "confidence": "High",
+        "support_count": 14
+      },
+      "decision_style": {
+        "value": "Review-Driven Decision Making",
+        "confidence": "High",
+        "support_count": 17
+      },
+      "pain_points": [
+        "Difficulty finding high-quality products at competitive prices",
+        "Time Constraints"
+      ],
+      "confidence": "High"
     },
-    "narrative": "The Rapid Responder embodies the core traits of the Action-Oriented Shopper cluster, driven by a desire for immediate solutions and efficient purchases. This persona is a young professional – most likely a Software Engineer or Data Scientist – constantly seeking tools and resources that boost their career and personal life. Their shopping behavior is characterized by a rapid decision-making process, prioritizing the ‘Best Product’ search and focusing on key factors like quality, price, and brand reputation to quickly identify suitable options.  They're acutely aware of their limited time and actively avoid getting bogged down in excessive research, reflecting the ‘Action-Oriented Shopper’ cluster's tendency to move swiftly towards purchase decisions. This persona is a perfect example of how users within the Action-Oriented Shopper cluster make purchasing choices."
+    "narrative": "The Decisive Explorer persona represents the 'Decisive Explorer User' cluster. They are highly action-dense and quick to convert once a decision is made, preferring to view many pages when evaluating options. This persona values quality, efficiency, and value for money, with a focus on continuous learning and career advancement. They are tech-savvy and frequently use mobile devices to search and make purchases, often relying on reviews to inform their decisions. Their pain points include difficulty finding high-quality products at competitive prices and time constraints in their research process."
   },
   "source_users": [
     {
@@ -87,23 +108,23 @@
     },
     {
       "user_id": "03a4f3ea-bfb7-4ba9-a7e5-5033f6958ce1",
-      "summary": "Tech-savvy Student"
+      "summary": "Tech-savvy Researcher"
     },
     {
       "user_id": "2a543033-db85-4372-a66f-741945f7337a",
-      "summary": "Online Shopping Habits"
+      "summary": "AI Research Shopping"
     },
     {
       "user_id": "3539f4ff-2781-4b5b-af33-6ace9752c557",
-      "summary": "Gaming Enthusiast"
+      "summary": "Game Enthusiast"
     },
     {
       "user_id": "3a65c43e-e4e3-4280-8ea3-526cc99b9553",
-      "summary": "Engineering Student"
+      "summary": "PhD Student"
     },
     {
       "user_id": "3f39da26-3cd2-4290-b84c-667762cc59fa",
-      "summary": "Tech-savvy Researcher"
+      "summary": "Tech-savvy researcher"
     },
     {
       "user_id": "4363ae6f-d1a1-4790-abe3-ffab842ac201",
@@ -111,15 +132,15 @@
     },
     {
       "user_id": "4711841a-9bbc-4763-bcb2-c5cf78aebacb",
-      "summary": "Tech Student"
+      "summary": "Tech-savvy Student"
     },
     {
       "user_id": "47395b78-6336-4546-b97c-7becdf065356",
-      "summary": "Tech-Savvy Graduate"
+      "summary": "Tech Student"
     },
     {
       "user_id": "4d439e8e-69d1-4ee2-8030-7c885c6b1fa2",
-      "summary": "Tech-savvy Researcher"
+      "summary": "Tech-savvy researcher"
     },
     {
       "user_id": "518a849c-3fd6-4aa0-87f2-bbbe3a622f0c",
@@ -127,7 +148,7 @@
     },
     {
       "user_id": "5632b752-29ff-4501-9a85-10490d494777",
-      "summary": "Data-Driven Scholar"
+      "summary": "Data Driven Chill"
     },
     {
       "user_id": "58c72f67-93ab-4fd9-a561-90882899e72c",
@@ -135,27 +156,27 @@
     },
     {
       "user_id": "677a4341-6b9b-4acc-8d42-8c9189bdb429",
-      "summary": "Tech-savvy Gamer"
+      "summary": "Tech Enthusiast Gamer"
     },
     {
       "user_id": "680c63e0-6620-465b-a9ad-2a187fdf481e",
-      "summary": "Tech Professor"
+      "summary": "Tech Educator Relaxed"
     },
     {
       "user_id": "6d000ee5-fd82-4100-85d4-01ac09852cf8",
-      "summary": "Plant Scientist"
+      "summary": "Plant Scientist Researcher"
     },
     {
       "user_id": "74b9cc8a-a89a-4e2a-941a-6e89b42e18bf",
-      "summary": "Tech-savvy Student"
+      "summary": "Tech-Savvy Student"
     },
     {
       "user_id": "7f0c8207-6a6f-49cd-9d7e-17987cfafcb9",
-      "summary": "Tech Enthusiast Researcher"
+      "summary": "Tech Researcher"
     },
     {
       "user_id": "85aeec61-2d4e-489d-93bf-76c928d2d795",
-      "summary": "Academic Researcher"
+      "summary": "Academic Research"
     },
     {
       "user_id": "9f15f02a-4e02-4920-8065-4feb712032d7",
@@ -163,11 +184,11 @@
     },
     {
       "user_id": "b6a822a0-090b-4c1d-ac6e-da3bf4a2b643",
-      "summary": "Tech Professor Shopping"
+      "summary": "Tech University Professor"
     },
     {
       "user_id": "dd4fa2e8-9892-444c-ac53-f5f41751c14c",
-      "summary": "Data Focused Researcher"
+      "summary": "Data Analyst"
     },
     {
       "user_id": "f2778310-f9e8-4208-a73f-c098e00cacdc",

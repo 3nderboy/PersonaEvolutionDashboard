@@ -10,16 +10,16 @@
       "age_range": {
         "value": "21-25",
         "confidence": "0.98",
-        "evidence": "Participant identifies as a 1st year PhD student, which aligns with the typical age range for doctoral programs."
+        "evidence": "Participant states they are a 1st year PhD student, implying an age range of 21-25."
       },
       "gender": {
         "value": "Male",
-        "confidence": "0.95",
-        "evidence": "The participant’s language and manner of speaking leans towards a male persona."
+        "confidence": "0.85",
+        "evidence": "No explicit gender mention, but the participant's language and tone suggest a male identity, which is a reasonable assumption given the context of a young academic student."
       },
       "nationality_background": {
         "value": "USA",
-        "confidence": "0.99",
+        "confidence": "0.95",
         "evidence": "Participant lives in Irvine, California."
       },
       "location": {
@@ -29,97 +29,100 @@
       },
       "living_situation": {
         "value": "Living Alone",
-        "confidence": "0.98",
-        "evidence": "Participant states, 'I live mostly by myself in a 1 b one b apartment.'"
+        "confidence": "1.00",
+        "evidence": "Participant states 'I live mostly by myself in a 1 b one b apartment.'"
       },
       "occupation": {
         "value": "PhD Student",
         "confidence": "1.00",
-        "evidence": "Repeatedly stated throughout the interview."
+        "evidence": "Directly stated in the transcript."
       },
       "education": {
-        "value": "Doctorate (PhD)",
+        "value": "PhD Candidate",
         "confidence": "1.00",
-        "evidence": "Explicitly stated as a '1st year PhD student.'"
+        "evidence": "Directly stated in the transcript."
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Academic Success, Research Contribution, Personal Development",
-        "confidence": "0.85",
-        "evidence": "Participant’s emphasis on research, lab work, and graduate studies suggests a goal of academic success and contributing to their field. Expressed desire to grow and develop."
+        "value": "Academic Success, Research, Balancing Work & Life, Contributing to Field",
+        "confidence": "0.80",
+        "evidence": "Participant mentions researching, working on a survey, grading tasks, and a desire to balance work with a social life."
       },
       "interests": {
         "value": [
           "Research",
+          "Survey Design",
           "Hiking",
+          "Exercise",
           "Cooking",
-          "Traveling",
-          "Skiing",
-          "Electronics"
+          "Reading",
+          "Snow Sports"
         ],
         "confidence": "0.75",
-        "evidence": "Participant mentions lab work, hiking, cooking, some references to travel (moving to Irvine), and electronics purchases."
+        "evidence": "References to research, survey drafting, hiking, exercise, cooking, reading, and mentions of skiing equipment suggest these interests."
       },
       "values": {
         "value": [
           "Responsibility",
-          "Logic",
+          "Collaboration",
           "Flexibility",
-          "Collaboration"
+          "Logic",
+          "Practicality",
+          "Open-Mindedness"
         ],
         "confidence": "0.70",
-        "evidence": "Participant describes themselves as 'responsible,' ‘logical’ and values scheduling and collaborating within a research setting."
+        "evidence": "Participant describes themselves as responsible, collaborative, and values flexibility; they also express a preference for logic and practicality, and an open-mindedness when evaluating reviews."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
         "confidence": "0.70",
-        "evidence": "Participant states ‘grocery shopping on weekends more, but sometimes I also do on work days.’ and later, “I purchase something like saloons kind of set tool set tool set for for my nails”."
+        "evidence": "Participant states 'I sometimes go to grocery stores a little bit farther away, sometimes to like hiking spa' and ‘I guess, like I may have purchased something on Amazon, fresh, or mostly most of the time.’"
       },
       "where_used_devices": {
         "value": [
           "Smartphone",
           "Desktop"
         ],
-        "confidence": "0.80",
-        "evidence": "Participant frequently refers to using devices for research, communication, and shopping."
+        "confidence": "0.90",
+        "evidence": "Participant uses their smartphone to go grocery shopping."
       },
       "search_style_best_vs_first": {
         "value": "First Product",
         "confidence": "0.60",
-        "evidence": "Participant indicates a preference for looking at the first results in non-sponsored listings."
+        "evidence": "Participant stated, ‘But I definitely not like super leaning towards the sponsored product’"
       },
       "price_preference_cheapest_vs_expensive": {
         "value": "Cheapest Product",
         "confidence": "0.50",
-        "evidence": "Implied by preference for first results and aversion to sponsored products."
+        "evidence": "Participant doesn't specify a price preference explicitly, but leans towards more accessible and less expensive options."
       },
       "decision_factors": {
         "value": [
-          "Reviews",
+          "Product Reviews",
           "Ease of Assembly",
-          "Size",
-          "Color"
+          "Dimensions/Fit",
+          "Visual Information"
         ],
         "confidence": "0.85",
-        "evidence": "Participant frequently references reviews, considers size, and is concerned with the ease of assembly for products."
+        "evidence": "Participant heavily relies on reviews and visual information (pictures) when making purchasing decisions."
       },
       "preferred_categories": {
         "value": [
-          "Electronics",
           "Home Goods",
-          "Hobbies",
-          "Personal Care"
+          "Electronics",
+          "Outdoor Gear",
+          "Hobbies"
         ],
-        "confidence": "0.75",
-        "evidence": "Participant purchases items like a desk, chair, kitchen supplies, nail tools, and car decorations."
+        "confidence": "0.70",
+        "evidence": "Participant buys furniture, kitchen items, skiing equipment, and tools for hobbies."
       },
       "pain_points_and_or_challenges": {
-        "value": "Bias in Online Recommendations, Uncertainty about Product Quality",
-        "confidence": "0.90",
-        "evidence": "Participant expresses concern about biased recommendations and uncertainty regarding product quality based on review content."
+        "value": "Information Overload, Difficulty Assessing Product Suitability, Ensuring Accuracy of Reviews",
+        "confidence": "0.75",
+        "evidence": "Participant expresses concern about biased reviews and the need for detailed information to make informed decisions."
       }
     }
   }

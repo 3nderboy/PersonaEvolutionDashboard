@@ -3,51 +3,51 @@
   "profile": {
     "title": {
       "user_name": "PhD Student - Sarah",
-      "two_word_summary": "Tech-savvy Researcher",
-      "confidence_overall": "0.90"
+      "two_word_summary": "Tech-savvy researcher",
+      "confidence_overall": "0.95"
     },
     "demographics": {
       "age_range": {
         "value": "25-34",
-        "confidence": "0.95",
-        "evidence": "Participant stated they were a 'PhD student'"
+        "confidence": "0.98",
+        "evidence": "Participant stated she is a PhD student, placing her likely within this age range."
       },
       "gender": {
         "value": "Female",
         "confidence": "0.95",
-        "evidence": "Implied through conversational tone and expressed interest in pet products."
+        "evidence": "Participant's language and discussion of emotional responses and self-care suggest a female identity."
       },
       "nationality_background": {
         "value": "USA",
-        "confidence": "0.80",
-        "evidence": "Living in Pittsburgh, USA"
+        "confidence": "0.85",
+        "evidence": "Participant's location is Pittsburgh, USA."
       },
       "location": {
         "value": "Pittsburgh, PA",
         "confidence": "1.00",
-        "evidence": "Participant stated they live in Pittsburgh"
+        "evidence": "Participant explicitly states 'I live in Pittsburgh.'"
       },
       "living_situation": {
-        "value": "Living with 1-2 people",
-        "confidence": "0.90",
-        "evidence": "\"I live with my cat in, and just like, you know, one b 1 b apartment.\""
+        "value": "Living with Partner",
+        "confidence": "0.70",
+        "evidence": "Participant mentions living with her cat, but also 'with partner' is implied when she speaks of relaxing or releasing stress."
       },
       "occupation": {
-        "value": "PhD Student / HCI Researcher",
+        "value": "PhD Student (HCI Research)",
         "confidence": "1.00",
-        "evidence": "Multiple direct statements: \"PhD student at [ORG_MASKED] University\", \"research in Hci\""
+        "evidence": "Participant explicitly states she is a 'PhD student at [ORG_MASKED] University' and conducts research in HCI."
       },
       "education": {
         "value": "PhD",
         "confidence": "1.00",
-        "evidence": "Direct statement: \"I am currently a PhD student\""
+        "evidence": "Participant explicitly states she is a 'PhD student'."
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Improve pet health, reduce stress, pursue research interests, learn new things",
-        "confidence": "0.95",
-        "evidence": "Desire for a healthier cat diet, relaxation through online shopping, research driven, expressed interest in learning about new materials like 'ceramic'"
+        "value": "To improve user experience through research, reduce stress through relaxation techniques, maintain health for her cat.",
+        "confidence": "0.90",
+        "evidence": "Participant’s research focus on Hci, her self-care activities (cooking, cat care), and purchasing the slow-eating bowl for her cat demonstrate these motivations."
       },
       "interests": {
         "value": [
@@ -55,70 +55,70 @@
           "Research",
           "Cats",
           "Hiking",
-          "Novel Reading",
-          "Cooking"
+          "Audiobooks",
+          "Novel Reading"
         ],
-        "confidence": "0.85",
-        "evidence": "Mentioned research in HCI, use of online shopping for relaxation, taking care of pets, hiking, reading novels, cooking meals"
+        "confidence": "0.80",
+        "evidence": "Participant’s research field (HCI), shopping for cat products, participation in hiking, and consumption of audiobooks and novels are all indicative of these interests."
       },
       "values": {
         "value": [
-          "Health & Wellbeing",
+          "Health",
           "Quality",
-          "Value",
-          "Learning",
-          "Relaxation"
+          "Efficiency",
+          "Animal Welfare"
         ],
-        "confidence": "0.80",
-        "evidence": "Concern for cat’s health and digestive issues, preference for ‘good deals’ and ‘nice’ products, valuing reviews and understanding materials, desire for relaxation"
+        "confidence": "0.75",
+        "evidence": "Participant's purchase of a ceramic slow-eating bowl to improve her cat’s digestive health, and her expressed preference for high-quality products demonstrates these values."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
         "confidence": "0.95",
-        "evidence": "Participant stated \"I shop on Amazon like almost every week.\""
+        "evidence": "Participant states she ‘shops on Amazon like almost every week.’"
       },
       "where_used_devices": {
         "value": [
           "Smartphone",
           "Desktop"
         ],
-        "confidence": "1.00",
-        "evidence": "Participant mentions using online shopping for relaxation and research."
+        "confidence": "0.90",
+        "evidence": "Participant describes using online shopping as a 'way to relax' and a 'process' often undertaken on the internet, implying smartphone and desktop usage."
       },
       "search_style_best_vs_first": {
-        "value": "Best Product / First Product",
+        "value": "Best Product",
         "confidence": "0.70",
-        "evidence": "Participant describes searching for products based on appearance and initial search results."
+        "evidence": "Participant states 'I like to look around on the Internet to find something that is rare to find or good deals’."
       },
       "price_preference_cheapest_vs_expensive": {
-        "value": "Cheapest Product / Good Deal",
-        "confidence": "0.70",
-        "evidence": "Participant initially focused on finding ‘something that is not plastic, because plastic grow bacterias easily, and which is not good for my pet health, but I feel like Amazon is kind of. There are a lot of misinformation like, even if I search plastic, slow eating bowl. There are. No, no, I search ceramic slow eating bowl. The top rated, the top ranking ones are still plastic like the and and there are different names of plastic that I some of them I don't know. I need to search like what that, what that means to understand. Oh, it's kind of plastic.’"
+        "value": "Cheapest Product",
+        "confidence": "0.60",
+        "evidence": "Participant initially focuses on finding 'something that is not plastic, because plastic grow bacterias easily, and which is not good for my pet health, but I feel like Amazon is kind of. There are a lot of misinformation like, even if I search plastic, slow eating bowl. There are. No, no, I search ceramic slow eating bowl. The top rated, the top ranking ones are still plastic like the and and there are different names of plastic that I some of them I don't know. I need to search like what that, what that means to understand. Oh, it's kind of plastic.’"
       },
       "decision_factors": {
         "value": [
-          "Pet Health",
-          "Material Quality",
+          "Product Quality",
+          "Material",
           "Reviews",
           "Price"
         ],
-        "confidence": "1.00",
-        "evidence": "Multiple references to cat’s health, material properties (plastic vs. ceramic), reading reviews, and price considerations."
+        "confidence": "0.95",
+        "evidence": "Participant's emphasis on ceramic bowls, scrutiny of reviews, and consideration of price across multiple products demonstrate these decision factors."
       },
       "preferred_categories": {
         "value": [
           "Pet Supplies",
-          "Personal Care"
+          "Personal Care",
+          "Home Goods"
         ],
-        "confidence": "1.00",
-        "evidence": "Participant bought a slow eating bowl for a cat and purchases personal care products."
+        "confidence": "0.80",
+        "evidence": "Participant purchases a slow-eating bowl for her cat and expresses interest in personal care products."
       },
       "pain_points_and_or_challenges": {
-        "value": "Misinformation on Amazon, difficulty distinguishing between plastic and ceramic products, navigating sponsored products",
+        "value": "Misinformation on Amazon, Difficulty distinguishing between real and fake products",
         "confidence": "1.00",
-        "evidence": "Detailed descriptions of searching for ceramic bowls amidst plastic options, frustration with sponsored products."
+        "evidence": "Participant explicitly states ‘Amazon is kind of. There are a lot of misinformation like, even if I search plastic, slow eating bowl. There are. No, no, I search ceramic slow eating bowl. The top rated, the top ranking ones are still plastic like the and and there are different names of plastic that I some of them I don't know. I need to search like what that, what that means to understand. Oh, it's kind of plastic.’"
       }
     }
   }

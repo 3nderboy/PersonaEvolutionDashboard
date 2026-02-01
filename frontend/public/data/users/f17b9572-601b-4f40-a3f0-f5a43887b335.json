@@ -4,126 +4,125 @@
     "title": {
       "user_name": "Participant",
       "two_word_summary": "Tech Student",
-      "confidence_overall": "0.85"
+      "confidence_overall": "0.90"
     },
     "demographics": {
       "age_range": {
         "value": "25-34",
         "confidence": "0.95",
-        "evidence": "Participant's references to finishing a master's degree and using contact lenses suggests a likely age range."
+        "evidence": "Participant's description of studying as a recent master's student."
       },
       "gender": {
         "value": "Female",
-        "confidence": "0.70",
-        "evidence": "Participant's description of her daily routine and interest in eye drops, as well as her preference for certain color options for accessories (airpods case) suggests a female identity."
+        "confidence": "0.85",
+        "evidence": "Participant's conversational style and references to personal experiences like dry eyes and contact lenses."
       },
       "nationality_background": {
         "value": "USA",
-        "confidence": "0.90",
-        "evidence": "Participant's residence in Cambridge, Massachusetts, strongly implies US nationality."
+        "confidence": "0.99",
+        "evidence": "Participant resides in Cambridge, Massachusetts."
       },
       "location": {
         "value": "Cambridge, Massachusetts",
         "confidence": "1.00",
-        "evidence": "Explicitly stated in the transcript: \"currently, I am living, I guess specifically in Cambridge, massachusetts\""
+        "evidence": "Explicitly stated location."
       },
       "living_situation": {
         "value": "With Roommate",
         "confidence": "1.00",
-        "evidence": "Participant states: \"I live with a roommate. Currently.\""
+        "evidence": "Explicitly stated living situation."
       },
       "occupation": {
         "value": "Student / Part-time Tutor",
-        "confidence": "0.95",
-        "evidence": "Participant states: \"I was a student, and I also do a little bit of like part time work as well. In the service industry.\" and \"I do kind of like Zoom Meetings, and I specifically do like tutoring for, like English as a second language learners.\""
+        "confidence": "1.00",
+        "evidence": "Explicitly stated work and study roles."
       },
       "education": {
         "value": "Master's Degree",
         "confidence": "1.00",
-        "evidence": "Participant states: \"so I was a student, and I just finished my master.\""
+        "evidence": "Explicitly stated educational attainment."
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Achieving academic success, improving communication skills, maintaining eye health, exploring technology and new gadgets.",
+        "value": "Academic success, pursuing a career in HCI, improving vision, exploring personal interests.",
         "confidence": "0.80",
-        "evidence": "Participant’s studies, tutoring work, interest in eye drops, and purchasing games and phone cases all point towards these goals."
+        "evidence": "References to master's studies, research focus on writing tools, addressing dry eyes, and interest in gadgets."
       },
       "interests": {
         "value": [
           "Computer Science",
-          "HCI (Human-Computer Interaction)",
+          "HCI",
           "Writing Tools",
-          "Online Learning",
-          "Technology",
-          "Gadgets",
+          "Yoga",
           "Social Media",
-          "Games"
+          "Gaming",
+          "Travel (indicated by visiting new cities)"
         ],
-        "confidence": "0.90",
-        "evidence": "Participant’s major in Computer Science and Hci, her work with writing tools, and purchases of games and phone cases strongly indicate these interests. References to scrolling social media further supports this."
+        "confidence": "0.75",
+        "evidence": "Explicit mentions of computer science, HCI, writing tools, yoga, and scrolling on social media.  Also, mentions of gaming and purchasing items like phone cases which suggests an interest in technology and accessories."
       },
       "values": {
         "value": [
-          "Value for Quality",
-          "Value for Price",
-          "Value for Reviews",
-          "Convenience",
-          "Efficiency"
+          "Efficiency",
+          "Value for Money",
+          "Quality",
+          "Reliability (Prime Shipping)"
         ],
         "confidence": "0.85",
-        "evidence": "Participant’s strong focus on price, reading reviews, checking product contents, and using Prime all indicate these values."
+        "evidence": "Emphasis on finding the best price, reading reviews to assess product quality, considering shipping options, and the use of Amazon Prime."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
-        "confidence": "0.75",
-        "evidence": "Participant’s purchases of eye drops, sponges, and games suggest a regular shopping frequency."
+        "confidence": "0.70",
+        "evidence": "Participant routinely browses Amazon for various items, suggesting frequent use."
       },
       "where_used_devices": {
         "value": [
           "Smartphone",
-          "Computer"
+          "Laptop"
         ],
         "confidence": "1.00",
-        "evidence": "Participant’s use of Zoom, coding, and browsing Amazon on a computer, combined with her frequent use of her phone, indicates these devices."
+        "evidence": "Participant primarily uses a smartphone for browsing and purchasing, and references using a laptop for research and coding."
       },
       "search_style_best_vs_first": {
         "value": "First Product",
-        "confidence": "0.60",
-        "evidence": "Participant states she’ll do research outside of Amazon, and then she'll go to Amazon and choose the specific product."
+        "confidence": "0.80",
+        "evidence": "Participant states, \"I already know what I want to buy... I just have to choose the right product.\" Indicating a preference for the initial search result."
       },
       "price_preference_cheapest_vs_expensive": {
         "value": "Cheapest Product",
-        "confidence": "0.80",
-        "evidence": "Participant’s stated focus on price as the most important factor, and her willingness to wait longer for non-Prime shipments, indicates a preference for the cheapest product."
+        "confidence": "0.90",
+        "evidence": "Participant consistently prioritizes the lowest price when making purchasing decisions."
       },
       "decision_factors": {
         "value": [
           "Price",
           "Product Reviews",
           "Product Quality",
-          "Shipping Time",
-          "Product Contents"
+          "Color (for certain items)",
+          "Shipping"
         ],
         "confidence": "1.00",
-        "evidence": "Participant explicitly outlines these factors as influencing her purchasing decisions throughout the transcript."
+        "evidence": "Explicitly stated decision factors throughout the transcript."
       },
       "preferred_categories": {
         "value": [
-          "Technology",
-          "Books",
-          "Gadgets",
-          "Accessories"
+          "Eye Drops",
+          "Phone Accessories",
+          "Gaming",
+          "Sponges",
+          "Digital Codes"
         ],
-        "confidence": "0.90",
-        "evidence": "Participant’s purchases of eye drops, sponges, games, and phone cases indicate these categories are of interest."
+        "confidence": "0.85",
+        "evidence": "Items explicitly purchased by the participant during the conversation."
       },
       "pain_points_and_or_challenges": {
-        "value": "Information overload, difficulty comparing products, uncertainty about product quality.",
-        "confidence": "0.70",
-        "evidence": "Participant’s process of researching products both online and offline, coupled with her careful reading of reviews and checking product contents, highlights these pain points."
+        "value": "Difficulty filtering sponsored products, ensuring product accuracy, and finding the best deal.",
+        "confidence": "0.95",
+        "evidence": "Participant's reactions to sponsored products and their detailed approach to researching products."
       }
     }
   }

@@ -1,84 +1,102 @@
 {
   "cluster_id": 3,
   "month": "2025-04 (April)",
-  "cluster_name": "Informed Evaluator",
-  "generated_at": "2026-01-31T13:55:33.291461",
+  "cluster_name": "Research-Minded Explorer User",
+  "generated_at": "2026-01-31T21:56:12.414651",
   "user_count": 22,
   "persona": {
     "title": {
-      "persona_name": "The Diligent Evaluator",
-      "tagline": "A detail-oriented shopper who prioritizes reviews and thorough research before making a purchase.",
-      "user_profiles": 22
+      "persona_name": "Research Explorer",
+      "tagline": "Data-driven decision maker with a passion for product quality and value",
+      "user_profiles": 22,
+      "confidence_level": "High"
     },
     "demographics": {
       "age_distribution": {
-        "value": "25-34 years old",
-        "num_of_users_in_this_age": 14
+        "value": "25-34",
+        "confidence": "High",
+        "support_count": 8
       },
       "gender_distribution": {
         "value": "Male",
-        "num_of_users_of_this_gender": 16
-      },
-      "nationality_background": {
-        "value": "American",
-        "num_of_users_from_with_this_nationality": 21
-      },
-      "location_pattern": {
-        "value": "Boston, Massachusetts",
-        "num_of_users_with_same_location_pattern": 9
-      },
-      "living_situation": {
-        "value": "Living with Roommates",
-        "num_of_users_with_this_living_situation_pattern": 16
+        "confidence": "High",
+        "support_count": 14
       },
       "occupation": {
-        "value": "Software Engineer",
-        "num_of_users_with_same_occupation_type": 13
+        "value": "PhD Student / Researcher",
+        "confidence": "High",
+        "support_count": 10
       },
-      "education_level": {
-        "value": "Master's Degree",
-        "num_of_users_with_same_education_level": 18
+      "nationality_background": {
+        "value": "USA",
+        "confidence": "High",
+        "support_count": 18
+      },
+      "location": {
+        "value": "Urban Centers (e.g. Boston, San Jose)",
+        "confidence": "Medium",
+        "support_count": 6
+      },
+      "living_situation": {
+        "value": "Shared Apartment/ Roommate",
+        "confidence": "High",
+        "support_count": 8
+      },
+      "education": {
+        "value": "Master's Degree or PhD Candidate",
+        "confidence": "High",
+        "support_count": 12
       }
     },
     "psychographics": {
       "goals": [
-        "Career progression in Data Science",
-        "Continuous learning and skill development"
+        "Achieving academic success",
+        "Pursuing research interests"
+      ],
+      "values": [
+        "Quality",
+        "Efficiency",
+        "Value for Money"
       ],
       "interests": [
         "Data Science",
         "Technology",
-        "Travel"
+        "Gaming"
       ],
-      "values": [
-        "Quality",
-        "Value for Money",
-        "Brand Reputation"
-      ]
+      "confidence": "High"
     },
     "shopping_behavior": {
-      "frequency_pattern": {
+      "frequency": {
         "value": "Weekly",
-        "num_of_users_with_this_frequency": 20
+        "confidence": "High",
+        "support_count": 16
       },
       "preferred_devices": [
         "Smartphone",
         "Desktop"
       ],
-      "search_style": "Prefers 'Best Product' search to thoroughly evaluate all options before deciding, driven by the need to find the highest quality product at the best price.",
-      "price_sensitivity": "Values both quality and price, focusing on finding products that represent good value for their investment and researching brand reputation to ensure quality.",
-      "decision_style": "Makes decisions based on a combination of factors including brand reputation, price, and most importantly, user reviews and ratings, reflecting a desire for data-driven purchasing.",
       "preferred_categories": [
         "Electronics",
-        "Clothing",
-        "Home Goods"
+        "Software",
+        "Gaming"
       ],
-      "common_pain_points": [
-        "Dealing with sponsored product recommendations",
-        "Finding webcams with the correct angle and image quality"
-      ]
+      "search_style": {
+        "value": "Best Product search to thoroughly evaluate all options before deciding",
+        "confidence": "High",
+        "support_count": 12
+      },
+      "decision_style": {
+        "value": "Review-Driven decision making with a focus on product quality and price",
+        "confidence": "High",
+        "support_count": 10
+      },
+      "pain_points": [
+        "Difficulty finding high-quality products at competitive prices",
+        "Ensuring accuracy of reviews"
+      ],
+      "confidence": "High"
     },
-    "narrative": "The Informed Evaluator persona represents a key segment within the e-commerce platform, characterized by a meticulous approach to shopping. These users prioritize extensive research, particularly through product reviews, before committing to a purchase. They are driven by a desire for quality, value, and brand credibility, carefully weighing these factors against price considerations.  This cluster's high engagement with reviews and exploration indicates a strong reliance on community-sourced feedback to inform their decisions – a core trait of the Informed Evaluator cluster.  Ultimately, their goal is to make informed choices, reflecting a commitment to rational decision-making and a desire for long-term satisfaction with their purchases."
+    "narrative": "The Research Explorer persona represents the dominant pattern within the 'Research-Minded Explorer User' cluster. They are characterized by their data-driven approach to decision making, prioritizing product quality and value for money. With a focus on academic success and research interests, they engage in frequent online shopping, primarily using smartphones and desktops to evaluate options thoroughly before making a purchase. Their preferred categories include electronics, software, and gaming, with a strong emphasis on reviews and ratings when making decisions."
   },
   "source_users": [
     {
@@ -87,15 +105,15 @@
     },
     {
       "user_id": "03a4f3ea-bfb7-4ba9-a7e5-5033f6958ce1",
-      "summary": "Tech-savvy Student"
+      "summary": "Tech-savvy Researcher"
     },
     {
       "user_id": "3539f4ff-2781-4b5b-af33-6ace9752c557",
-      "summary": "Gaming Enthusiast"
+      "summary": "Game Enthusiast"
     },
     {
       "user_id": "3a65c43e-e4e3-4280-8ea3-526cc99b9553",
-      "summary": "Engineering Student"
+      "summary": "PhD Student"
     },
     {
       "user_id": "4363ae6f-d1a1-4790-abe3-ffab842ac201",
@@ -103,11 +121,11 @@
     },
     {
       "user_id": "4711841a-9bbc-4763-bcb2-c5cf78aebacb",
-      "summary": "Tech Student"
+      "summary": "Tech-savvy Student"
     },
     {
       "user_id": "4d439e8e-69d1-4ee2-8030-7c885c6b1fa2",
-      "summary": "Tech-savvy Researcher"
+      "summary": "Tech-savvy researcher"
     },
     {
       "user_id": "518a849c-3fd6-4aa0-87f2-bbbe3a622f0c",
@@ -115,7 +133,7 @@
     },
     {
       "user_id": "5632b752-29ff-4501-9a85-10490d494777",
-      "summary": "Data-Driven Scholar"
+      "summary": "Data Driven Chill"
     },
     {
       "user_id": "58c72f67-93ab-4fd9-a561-90882899e72c",
@@ -123,27 +141,27 @@
     },
     {
       "user_id": "677a4341-6b9b-4acc-8d42-8c9189bdb429",
-      "summary": "Tech-savvy Gamer"
+      "summary": "Tech Enthusiast Gamer"
     },
     {
       "user_id": "680c63e0-6620-465b-a9ad-2a187fdf481e",
-      "summary": "Tech Professor"
+      "summary": "Tech Educator Relaxed"
     },
     {
       "user_id": "6d000ee5-fd82-4100-85d4-01ac09852cf8",
-      "summary": "Plant Scientist"
+      "summary": "Plant Scientist Researcher"
     },
     {
       "user_id": "74b9cc8a-a89a-4e2a-941a-6e89b42e18bf",
-      "summary": "Tech-savvy Student"
+      "summary": "Tech-Savvy Student"
     },
     {
       "user_id": "7f0c8207-6a6f-49cd-9d7e-17987cfafcb9",
-      "summary": "Tech Enthusiast Researcher"
+      "summary": "Tech Researcher"
     },
     {
       "user_id": "85aeec61-2d4e-489d-93bf-76c928d2d795",
-      "summary": "Academic Researcher"
+      "summary": "Academic Research"
     },
     {
       "user_id": "9f15f02a-4e02-4920-8065-4feb712032d7",
@@ -151,11 +169,11 @@
     },
     {
       "user_id": "d1f1414b-f059-43fe-838b-9a05c751d3c5",
-      "summary": "Tech Student Gamer"
+      "summary": "Tech Student"
     },
     {
       "user_id": "dd4fa2e8-9892-444c-ac53-f5f41751c14c",
-      "summary": "Data Focused Researcher"
+      "summary": "Data Analyst"
     },
     {
       "user_id": "f17b9572-601b-4f40-a3f0-f5a43887b335",

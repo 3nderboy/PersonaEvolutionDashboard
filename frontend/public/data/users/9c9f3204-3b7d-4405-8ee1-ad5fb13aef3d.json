@@ -2,52 +2,52 @@
   "user_id": "9c9f3204-3b7d-4405-8ee1-ad5fb13aef3d",
   "profile": {
     "title": {
-      "user_name": "PhD Student - Boston",
-      "two_word_summary": "Tech Research Student",
+      "user_name": "PhD Student",
+      "two_word_summary": "Tech Research",
       "confidence_overall": "0.85"
     },
     "demographics": {
       "age_range": {
         "value": "30-35",
-        "confidence": "0.95",
-        "evidence": "Participant stated ‘I usually wake up between like 8 am. To 10 pm.’ This suggests an age range consistent with a PhD student engaged in research."
+        "confidence": "0.90",
+        "evidence": "Participant is a PhD student, suggesting an age range of 30-35."
       },
       "gender": {
         "value": "Male",
-        "confidence": "0.90",
-        "evidence": "Participant’s language and expressed preferences align with typical male shopping behaviors (e.g., focusing on functionality, price over aesthetics)."
+        "confidence": "0.70",
+        "evidence": "Participant's language and interests align with a male profile."
       },
       "nationality_background": {
         "value": "USA",
-        "confidence": "0.99",
-        "evidence": "Participant's location is Boston, USA."
+        "confidence": "0.95",
+        "evidence": "Participant lives in Boston, USA, and references US-based companies and products."
       },
       "location": {
         "value": "Boston, MA",
         "confidence": "1.00",
-        "evidence": "Explicitly stated: ‘I live in Boston’"
+        "evidence": "Explicitly stated multiple times."
       },
       "living_situation": {
         "value": "With Roommate",
-        "confidence": "0.95",
-        "evidence": "Participant stated ‘I live with with a roommate.’"
+        "confidence": "1.00",
+        "evidence": "Explicitly stated."
       },
       "occupation": {
-        "value": "PhD Student in Computer Science",
+        "value": "PhD Student in Computer Science (NLP & HCI)",
         "confidence": "1.00",
-        "evidence": "Explicitly stated: ‘I am a Phd student’ and ‘majoring computer science.’"
+        "evidence": "Multiple direct statements."
       },
       "education": {
-        "value": "PhD Level",
+        "value": "PhD",
         "confidence": "1.00",
-        "evidence": "Explicitly stated: ‘I am a Phd student’"
+        "evidence": "Explicitly stated."
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "To efficiently conduct research, improve technical skills, and optimize workflow.",
+        "value": "To advance research in natural language processing and human-computer interaction; to improve his workflow and productivity.",
         "confidence": "0.80",
-        "evidence": "Participant’s research focus (NLP, HCI), detailed explanation of daily work, and focus on functional purchases (display link hub) suggest these motivations."
+        "evidence": "Participant's research field, desire to quickly learn new things, and purchasing of a display link hub all point to these motivations."
       },
       "interests": {
         "value": [
@@ -55,70 +55,70 @@
           "Natural Language Processing",
           "Human-Computer Interaction",
           "Skiing",
-          "Technology Gadgets"
+          "Electronics",
+          "Shopping for gadgets"
         ],
-        "confidence": "0.75",
-        "evidence": "Explicitly stated research field, mentions of skiing, and purchases of tech gadgets (display link hub, airtags, etc.)."
+        "confidence": "0.90",
+        "evidence": "Explicitly stated research areas, mentions of specific tech products, and shopping habits."
       },
       "values": {
         "value": [
           "Efficiency",
-          "Value for Money",
           "Functionality",
-          "Reliability",
+          "Value for Money",
           "Learning"
         ],
-        "confidence": "0.70",
-        "evidence": "Participant prioritizes price and functionality, seeks reliable solutions, enjoys learning new things, and demonstrates a desire for efficient processes."
+        "confidence": "0.75",
+        "evidence": "Prioritizing features like display link, choosing the cheapest option when appropriate, and expressing a desire to learn quickly reflects these values."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
         "confidence": "0.70",
-        "evidence": "Participant regularly shops online, with multiple purchases mentioned each month."
+        "evidence": "Shopping for groceries, clothes, and electronics suggests regular purchases."
       },
       "where_used_devices": {
         "value": [
           "Smartphone",
           "Desktop"
         ],
-        "confidence": "0.90",
-        "evidence": "Participant uses online platforms via smartphone (mentioned shopping for clothes) and mentions conducting research at school (presumably using a desktop)."
+        "confidence": "0.95",
+        "evidence": "Participant uses his smartphone and desktop to search for products and place orders."
       },
       "search_style_best_vs_first": {
-        "value": "First Product",
-        "confidence": "0.80",
-        "evidence": "Participant’s described research process – initially searching for display link hubs – aligns with the ‘first product’ approach."
+        "value": "Best Product / First Product",
+        "confidence": "0.60",
+        "evidence": "Participant often prioritizes products based on relevance and availability."
       },
       "price_preference_cheapest_vs_expensive": {
         "value": "Cheapest Product",
-        "confidence": "0.85",
-        "evidence": "Participant consistently prioritizes the lowest price when making purchases (e.g., display link hub, espresso machine)."
+        "confidence": "0.80",
+        "evidence": "Explicitly states a preference for the cheapest option when functionality is similar."
       },
       "decision_factors": {
         "value": [
-          "Price",
           "Functionality",
-          "Brand (for specific product types)"
+          "Price",
+          "Brand (sometimes)",
+          "Reviews (but not prioritized)"
         ],
-        "confidence": "0.95",
-        "evidence": "Participant explicitly states these as key factors in their decision-making process."
+        "confidence": "0.90",
+        "evidence": "Consistent emphasis on these factors throughout the interview."
       },
       "preferred_categories": {
         "value": [
           "Electronics",
           "Computer Accessories",
-          "Home Goods",
-          "Clothing (occasionally)"
+          "Clothing"
         ],
-        "confidence": "0.80",
-        "evidence": "Participant’s purchases include a display link hub, espresso machine, windshield repair kit, and clothing."
+        "confidence": "0.85",
+        "evidence": "Purchases of an espresso machine, display link hub, and clothing indicate these categories."
       },
       "pain_points_and_or_challenges": {
-        "value": "Limited time, difficulty finding functional solutions for research needs.",
-        "confidence": "0.90",
-        "evidence": "Participant’s need for the display link hub and desire to avoid making meals highlight time constraints and challenges in setting up an efficient research environment."
+        "value": "Limited monitor output on his Thunderbolt hub, inefficient workflow, lack of time for cooking.",
+        "confidence": "1.00",
+        "evidence": "Explicitly stated needs and frustrations."
       }
     }
   }

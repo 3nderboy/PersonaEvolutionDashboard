@@ -1,91 +1,109 @@
 {
   "cluster_id": 4,
   "month": "2025-03 (March)",
-  "cluster_name": "Search-Driven Navigator",
-  "generated_at": "2026-01-31T13:56:20.900694",
+  "cluster_name": "Interactive Search-Driven User",
+  "generated_at": "2026-01-31T22:04:45.816248",
   "user_count": 2,
   "persona": {
     "title": {
-      "persona_name": "The Researching Phd Student",
-      "tagline": "Driven by efficiency and detailed information, seeking the best value.",
-      "user_profiles": 0
+      "persona_name": "Interactive Searcher",
+      "tagline": "Thrifty PhD students seeking efficiency in search-driven e-commerce",
+      "user_profiles": 2,
+      "confidence_level": "High"
     },
     "demographics": {
       "age_distribution": {
-        "value": "25-35 years old",
-        "num_of_users_in_this_age": 2
+        "value": "25-35",
+        "confidence": "High",
+        "support_count": 0
       },
       "gender_distribution": {
         "value": "Male",
-        "num_of_users_of_this_gender": 2
+        "confidence": "Medium",
+        "support_count": 0
+      },
+      "occupation": {
+        "value": "PhD Student (Computer Science - NLP)",
+        "confidence": "High",
+        "support_count": 0
       },
       "nationality_background": {
-        "value": "American",
-        "num_of_users_from_with_this_nationality": 2
+        "value": "USA",
+        "confidence": "Medium",
+        "support_count": 0
       },
-      "location_pattern": {
-        "value": "Boston",
-        "num_of_users_with_same_location_pattern": 2
+      "location": {
+        "value": "Boston, MA (US East Coast)",
+        "confidence": "High",
+        "support_count": 2
       },
       "living_situation": {
         "value": "With Roommates",
-        "num_of_users_with_this_living_situation_pattern": 2
+        "confidence": "Medium",
+        "support_count": 0
       },
-      "occupation": {
-        "value": "PhD Student",
-        "num_of_users_with_same_occupation_type": 2
-      },
-      "education_level": {
-        "value": "PhD Level",
-        "num_of_users_with_same_education_level": 2
+      "education": {
+        "value": "PhD Candidate",
+        "confidence": "High",
+        "support_count": 2
       }
     },
     "psychographics": {
       "goals": [
-        "Achieving a Phd degree",
-        "Improving technical skills"
-      ],
-      "interests": [
-        "Natural Language Processing",
-        "Large Language Models"
+        "Achieving a PhD",
+        "Pursuing research interests in large language models"
       ],
       "values": [
         "Efficiency",
-        "Value for Money"
-      ]
+        "Research"
+      ],
+      "interests": [
+        "Natural Language Processing",
+        "Large Language Models",
+        "Cats"
+      ],
+      "confidence": "High"
     },
     "shopping_behavior": {
-      "frequency_pattern": {
+      "frequency": {
         "value": "Weekly",
-        "num_of_users_with_this_frequency": 2
+        "confidence": "Medium",
+        "support_count": 2
       },
       "preferred_devices": [
         "Smartphone",
         "Desktop"
       ],
-      "search_style": "Prefers 'Best Product' search to thoroughly evaluate all options before deciding. This allows for a comprehensive comparison of features and specifications crucial for academic research.",
-      "price_sensitivity": "Values 'Cheapest Product' primarily, driven by budgetary constraints common for graduate students but also considers functionality and brand reputation for specific product types.",
-      "decision_style": "Makes quick decisions and moves on, often selecting products based on a 'First Product' search for immediate needs. This reflects a prioritization of efficiency in research.",
       "preferred_categories": [
         "Electronics",
-        "Pet Supplies",
-        "Computer Accessories"
+        "Pet Supplies"
       ],
-      "common_pain_points": [
-        "Finding suitable technical products",
-        "Comparing product specifications"
-      ]
+      "search_style": {
+        "value": "Uses 'First Product' search to make quick decisions and move on",
+        "confidence": "Medium",
+        "support_count": 1
+      },
+      "decision_style": {
+        "value": "Primarily driven by functionality, price, and brand reputation",
+        "confidence": "High",
+        "support_count": 2
+      },
+      "pain_points": [
+        "Time spent researching",
+        "Potential distrust of sponsored products"
+      ],
+      "confidence": "High"
     },
-    "narrative": "The Search-Driven Navigator persona represents a highly engaged and analytical customer, deeply focused on finding the most effective solutions for their research and academic pursuits. Driven by a strong desire for efficiency, this individual meticulously uses search to identify the best products based on function and price.  Users in the Search-Driven Navigator cluster prioritize detailed information and rigorous evaluation, often employing extensive searches to validate their choices. This persona’s frequent and focused searching behavior, combined with a preference for practical, value-driven options, underscores their commitment to productivity and achieving their goals."
+    "narrative": "This persona represents the Interactive Search-Driven User cluster, characterized by high action density and reliance on search functionality. They are primarily PhD students in computer science with research interests in natural language processing and large language models. Their shopping behavior is driven by a need for efficiency, functionality, and price sensitivity. As a result, they often use 'First Product' search to quickly identify options and make decisions."
   },
   "source_users": [
     {
       "user_id": "03a4f3ea-bfb7-4ba9-a7e5-5033f6958ce1",
-      "summary": "Tech-savvy Student"
+      "summary": "Tech-savvy Researcher"
     },
     {
       "user_id": "9c9f3204-3b7d-4405-8ee1-ad5fb13aef3d",
-      "summary": "Tech Research Student"
+      "summary": "Tech Research"
     }
   ]
 }
