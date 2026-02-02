@@ -3,24 +3,24 @@
   "profile": {
     "title": {
       "user_name": "[NAME_MASKED]",
-      "two_word_summary": "Plant Scientist Researcher",
+      "two_word_summary": "Plant Scientist",
       "confidence_overall": "0.85"
     },
     "demographics": {
       "age_range": {
         "value": "35-44",
         "confidence": "0.95",
-        "evidence": "Participant states waking up at 9-10 am, which aligns with the typical age range for this demographic."
+        "evidence": "Participant states waking up at 9 or 10 am, typical coding hours of 2-3 hours, and a 4-5 pm work block. This aligns with a professional career."
       },
       "gender": {
         "value": "Male",
         "confidence": "0.90",
-        "evidence": "Participant's language and behavior throughout the interview suggests male identity."
+        "evidence": "Participant's name is masculine."
       },
       "nationality_background": {
         "value": "USA",
         "confidence": "0.98",
-        "evidence": "Participant lives in San Jose, California."
+        "evidence": "States living in San Jose, California."
       },
       "location": {
         "value": "San Jose, California",
@@ -28,94 +28,91 @@
         "evidence": "Explicitly stated in the transcript."
       },
       "living_situation": {
-        "value": "With Partner",
-        "confidence": "0.75",
-        "evidence": "Participant states 'I lived with my wife'."
+        "value": "With Wife",
+        "confidence": "0.95",
+        "evidence": "States 'I lived with my wife'."
       },
       "occupation": {
-        "value": "Plant Scientist / Researcher",
+        "value": "Plant Scientist / Research Scientist",
         "confidence": "1.00",
-        "evidence": "Explicitly stated in the transcript."
+        "evidence": "Explicitly states 'plant scientist' and describes research and modeling work."
       },
       "education": {
-        "value": "Bachelor's / Master's Degree (Implied)",
-        "confidence": "0.60",
-        "evidence": "Participant's work involves 'modeling work' and 'research' suggesting a higher level of education."
+        "value": "Bachelor's or Master's Degree",
+        "confidence": "0.75",
+        "evidence": "The work described – research, modeling, and a product navigation experience – is typically associated with a higher education level."
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Improve customer experience, Stay updated with research, Learning new things, Following recommendations",
-        "confidence": "0.80",
-        "evidence": "Participant mentions improving navigation experience, researching latest research papers, coding work, and expressed willingness to learn new things."
+        "value": "Improve Customer Navigation Experience, Learn New Skills, Maintain Physical Health (through occasional coding training)",
+        "confidence": "0.70",
+        "evidence": "Work described as improving navigation experience, interest in coding training."
       },
       "interests": {
         "value": [
-          "Plant Science",
-          "Coding",
           "Computer Games",
-          "Dental Care"
+          "Dental Care",
+          "Coffee"
         ],
-        "confidence": "0.70",
-        "evidence": "Participant's work is in plant science, he mentions coding, plays computer games, and purchases a dental port."
+        "confidence": "0.80",
+        "evidence": "Explicitly states playing computer games, purchasing dental port and coffee."
       },
       "values": {
         "value": [
-          "Accuracy",
           "Customer Satisfaction",
-          "Evidence-Based Decisions",
-          "Efficiency"
+          "Data Accuracy",
+          "Continuous Learning"
         ],
-        "confidence": "0.65",
-        "evidence": "Participant’s focus on accurate reviews with images, preference for strong evidence, and his desire to follow recommendations."
+        "confidence": "0.60",
+        "evidence": "Focus on improving navigation, preference for high-rated reviews, willingness to learn new things."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
-        "value": "Monthly",
-        "confidence": "0.75",
-        "evidence": "Participant buys a coffee cup every 4 weeks and a dental port, suggesting regular purchases."
+        "value": "Weekly",
+        "confidence": "0.65",
+        "evidence": "Purchases dental port every 4 weeks and coffee regularly, suggests regular online shopping."
       },
       "where_used_devices": {
         "value": [
           "Smartphone",
           "Tablet"
         ],
-        "confidence": "0.80",
-        "evidence": "Participant uses the Amazon app on a smartphone."
+        "confidence": "0.85",
+        "evidence": "States using the Amazon app."
       },
       "search_style_best_vs_first": {
-        "value": "First",
-        "confidence": "0.85",
-        "evidence": "Participant primarily uses the 'First' product in search results."
+        "value": "Best Product / First Product",
+        "confidence": "0.90",
+        "evidence": "Prioritizes highly rated products, specifically focusing on 5-star reviews."
       },
       "price_preference_cheapest_vs_expensive": {
-        "value": "Cheapest",
-        "confidence": "0.90",
-        "evidence": "Participant explicitly states they filter by price first."
+        "value": "Cheapest Product",
+        "confidence": "0.80",
+        "evidence": "States price should not be higher than $100."
       },
       "decision_factors": {
         "value": [
           "Price",
-          "Customer Reviews (Length & Images)",
-          "Evidence"
+          "Customer Reviews (length & images)"
         ],
         "confidence": "1.00",
-        "evidence": "Participant clearly prioritizes price, review length, and the presence of images when making decisions."
+        "evidence": "Explicitly mentions these as key considerations."
       },
       "preferred_categories": {
         "value": [
-          "Health & Wellness",
-          "Technology",
-          "Home & Garden"
+          "Dental Care",
+          "Coffee",
+          "Software"
         ],
-        "confidence": "0.50",
-        "evidence": "Purchase of dental port and coffee cup suggests these categories."
+        "confidence": "0.70",
+        "evidence": "Purchases dental port and coffee, mentions software development work."
       },
       "pain_points_and_or_challenges": {
-        "value": "Unconvincing 5-star reviews, Conflict resolution with colleagues",
-        "confidence": "0.80",
-        "evidence": "Participant’s skepticism of overly positive reviews and his description of conflict resolution."
+        "value": "Conflict Resolution, Unconvincing Reviews",
+        "confidence": "0.75",
+        "evidence": "Expresses difficulty resolving conflicts with colleagues, doubts the validity of overly positive reviews."
       }
     }
   }

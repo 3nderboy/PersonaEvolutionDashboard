@@ -10,101 +10,101 @@
       "age_range": {
         "value": "20-29",
         "confidence": "0.95",
-        "evidence": "Participant is a university student, suggesting a likely age range."
+        "evidence": "Participant is a Cs student at university, suggesting a likely age range of 20-29."
       },
       "gender": {
         "value": "Male",
-        "confidence": "0.60",
-        "evidence": "Based on language and interests (gym, exploring tourist sites)."
+        "confidence": "0.75",
+        "evidence": "Based on the participant's language and interests (gym, sports, exploring), a male identity is the most probable."
       },
       "nationality_background": {
         "value": "USA",
-        "confidence": "0.75",
-        "evidence": "Participant lives in Boston, USA."
+        "confidence": "0.60",
+        "evidence": "Participant lives in Boston, which is a major city in the United States."
       },
       "location": {
-        "value": "Boston, USA",
+        "value": "Boston, MA",
         "confidence": "1.00",
-        "evidence": "Explicitly stated in the transcript."
+        "evidence": "Participant states they live in Boston."
       },
       "living_situation": {
         "value": "With Friends",
         "confidence": "0.80",
-        "evidence": "Participant states 'I live with my friends in an apartment.'"
+        "evidence": "Participant lives in an apartment with friends."
       },
       "occupation": {
-        "value": "Student (Computer Science)",
+        "value": "University Student (Computer Science)",
         "confidence": "1.00",
-        "evidence": "Participant identifies as a 'Cs student' at [ORG_MASKED] University."
+        "evidence": "Participant is a Cs student at [ORG_MASKED] University."
       },
       "education": {
         "value": "Bachelor's Degree (Computer Science)",
         "confidence": "0.70",
-        "evidence": "Participant is studying for a degree in Computer Science."
+        "evidence": "Participant is studying for a Cs degree, indicating pursuit of a Bachelor's degree."
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Achieve academic success, maintain social life, improve personal well-being",
-        "confidence": "0.75",
-        "evidence": "Participant discusses coursework, gym visits, and social activities."
+        "value": "Achieving academic success, maintaining a social life, exploring new experiences, and potentially securing a full-time job.",
+        "confidence": "0.90",
+        "evidence": "Participant’s involvement in clubs, gym activities, and job searching indicates a desire for academic and professional success, alongside a social life and exploration."
       },
       "interests": {
         "value": [
-          "Technology (computers, electronics)",
-          "Fitness (gym, sports)",
-          "Travel (exploring tourist sites)",
-          "Entertainment (movies)"
+          "Technology (Computer Science)",
+          "Fitness (Gym, Sports)",
+          "Travel (Exploring tourist sites)",
+          "Movies"
         ],
-        "confidence": "0.90",
-        "evidence": "Participant mentions specific interests throughout the transcript."
+        "confidence": "0.95",
+        "evidence": "Participant’s coursework, gym visits, restaurant exploration, and movie-going activities directly reflect these interests."
       },
       "values": {
         "value": [
-          "Efficiency",
-          "Value for Money",
-          "Convenience",
-          "Social Connection"
+          "Value for Quality",
+          "Value for Price",
+          "Value for Convenience",
+          "Value for Social Connection"
         ],
-        "confidence": "0.80",
-        "evidence": "Participant's decision-making process reflects these values (e.g., quickly buying, using filters, opting for discounts)."
+        "confidence": "0.85",
+        "evidence": "Participant’s purchasing habits (brand preference, discount seeking, fast delivery) and social activities (spending time with friends) suggest these values."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
         "confidence": "0.70",
-        "evidence": "Participant regularly purchases items online, including electronics and daily necessities."
+        "evidence": "Participant frequently shops online (Amazon) and searches for products, suggesting a weekly shopping pattern."
       },
       "where_used_devices": {
         "value": [
           "Smartphone",
-          "Tablet"
+          "Desktop"
         ],
-        "confidence": "0.85",
-        "evidence": "Participant primarily uses a smartphone to browse and purchase items on Amazon."
+        "confidence": "0.90",
+        "evidence": "Participant uses Amazon primarily on a smartphone and also browses and researches products on a desktop computer."
       },
       "search_style_best_vs_first": {
-        "value": "Best Product",
+        "value": "Best Product / First Product",
         "confidence": "0.60",
-        "evidence": "Participant indicates a preference for finding the 'best' product based on criteria like rating and sales volume."
+        "evidence": "Participant indicates a preference for quickly finding ‘the best’ product, often prioritizing the first option they find."
       },
       "price_preference_cheapest_vs_expensive": {
         "value": "Cheapest Product",
-        "confidence": "0.70",
-        "evidence": "Participant explicitly states they look for products within a budget."
+        "confidence": "0.75",
+        "evidence": "Participant repeatedly prioritizes finding the cheapest product, especially for electronics."
       },
       "decision_factors": {
         "value": [
-          "Price",
           "Brand",
-          "Customer Reviews",
+          "Price",
+          "Reviews (High Ratings)",
+          "Discounts",
           "Color",
-          "Sales Volume",
-          "Discount"
+          "Size"
         ],
-        "confidence": "0.90",
-        "evidence": "Participant's purchasing decisions are driven by a combination of these factors."
+        "confidence": "0.95",
+        "evidence": "Participant explicitly states these factors influence their purchase decisions."
       },
       "preferred_categories": {
         "value": [
@@ -114,12 +114,12 @@
           "Daily Necessities"
         ],
         "confidence": "1.00",
-        "evidence": "Participant lists categories they frequently purchase from Amazon."
+        "evidence": "Participant’s shopping history aligns with these categories."
       },
       "pain_points_and_or_challenges": {
-        "value": "Skepticism towards sponsored products",
+        "value": "Difficulty researching products, skepticism towards sponsored products",
         "confidence": "0.80",
-        "evidence": "Participant expresses a negative opinion and avoidance of sponsored products."
+        "evidence": "Participant admits to limited research on some purchases and expresses aversion to sponsored products."
       }
     }
   }

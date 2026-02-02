@@ -3,120 +3,119 @@
   "profile": {
     "title": {
       "user_name": "Research Assistant",
-      "two_word_summary": "AI Research Shopping",
+      "two_word_summary": "Online Shopping Habits",
       "confidence_overall": "0.85"
     },
     "demographics": {
       "age_range": {
         "value": "25-34",
         "confidence": "0.95",
-        "evidence": "Participant describes working as a 'research assistant' at a university lab and living in Boston, aligning with the typical age range of graduate students and young professionals."
+        "evidence": "Participant states 'I'm a research assistant' and describes typical activities and purchases aligning with this age group."
       },
       "gender": {
         "value": "Female",
-        "confidence": "0.80",
-        "evidence": "Participant's language and interests (dog, shopping, Boston lifestyle) are consistent with a female demographic."
+        "confidence": "0.90",
+        "evidence": "Participant's purchasing behavior (dog treats, hair dryer, etc.) aligns with typical female consumer trends."
       },
       "nationality_background": {
         "value": "USA",
-        "confidence": "1.00",
-        "evidence": "Participant resides in Boston, Massachusetts, a major city in the United States."
+        "confidence": "0.98",
+        "evidence": "Participant lives in Boston, Massachusetts - a major US city."
       },
       "location": {
-        "value": "Boston, MA",
+        "value": "Boston, Massachusetts",
         "confidence": "1.00",
-        "evidence": "Participant explicitly states 'I live in Boston right now'."
+        "evidence": "Explicitly stated in the transcript."
       },
       "living_situation": {
         "value": "Living Alone",
-        "confidence": "0.90",
-        "evidence": "Participant states 'I just live in a studio in Boston. I have a dog, so I just don't want to disturb others'."
+        "confidence": "0.95",
+        "evidence": "Participant states 'I just live in a studio in Boston. I have a dog, so I just don't want to disturb others.'"
       },
       "occupation": {
         "value": "Research Assistant",
         "confidence": "1.00",
-        "evidence": "Participant explicitly states 'I'm a research assistant in a a lab at [ORG_MASKED]'."
+        "evidence": "Explicitly stated in the transcript."
       },
       "education": {
         "value": "PhD Student",
-        "confidence": "0.95",
-        "evidence": "Participant identifies as a 'PhD. Student from Northeastern University'."
+        "confidence": "1.00",
+        "evidence": "Explicitly stated in the transcript."
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Interested in AI applications in healthcare, motivated by improving clinician workflows and patient outcomes.",
-        "confidence": "0.85",
-        "evidence": "Participant discusses working on a project to explore AI's role in clinician workflows for serious illness patients, referencing conversations about patient values and goals."
+        "value": "Convenience, Practicality, Dog’s Wellbeing",
+        "confidence": "0.80",
+        "evidence": "Purchase of dog treats driven by a recommendation and concern for the dog’s health; purchase of a hair dryer driven by convenience; purchase of daily necessities driven by a desire for efficient delivery."
       },
       "interests": {
         "value": [
-          "AI Research",
-          "Dog Care",
-          "Shopping",
+          "Dogs",
+          "Technology",
           "Travel",
-          "Technology"
+          "Reading"
         ],
-        "confidence": "0.90",
-        "evidence": "The participant's work, dog ownership, Amazon purchases, and mentions of travel and technology provide evidence of these interests."
+        "confidence": "0.75",
+        "evidence": "Purchase of dog treats, discussion of travel, mentions of reading literature for papers, and interest in electronic devices (hair dryer, electronic toothbrush)."
       },
       "values": {
         "value": [
           "Health",
           "Efficiency",
-          "Innovation",
-          "Animal Welfare"
+          "Value"
         ],
-        "confidence": "0.75",
-        "evidence": "Participant's focus on AI for patient health, the dental treats for their dog, and their interest in efficient workflows suggest these values."
+        "confidence": "0.70",
+        "evidence": "Concern for dog’s health drives treat purchase; preference for cost-effective hair dryer; desire for efficient delivery options (target app)."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Monthly",
         "confidence": "0.70",
-        "evidence": "Participant states they haven't 'worn a shop on Amazon for a long time', implying infrequent purchases."
+        "evidence": "Participant states 'Amazon. You need to wait for at least one or 2 days, but you know, sometimes I just need it immediately. So I I use the target apps, and it could could deliver within 3 h.'"
       },
       "where_used_devices": {
         "value": [
           "Smartphone",
           "Desktop"
         ],
-        "confidence": "0.80",
-        "evidence": "The interview is conducted, and the participant utilizes a smartphone and desktop to navigate Amazon."
+        "confidence": "0.90",
+        "evidence": "Participant uses Amazon through a website (desktop) and states ‘I uber back, and I chat with the lady she she has a like a very healthy dog, also like for 8 or 9 years old, and I just ask for did you like you know? Take brush your dog’s teeth or not’ - indicating smartphone use."
       },
       "search_style_best_vs_first": {
         "value": "First Product",
-        "confidence": "0.75",
-        "evidence": "Participant describes directly searching for a brand name on Amazon when looking for products."
+        "confidence": "0.85",
+        "evidence": "Participant describes a specific recommendation leading to a direct purchase of a specific brand of dental treats."
       },
       "price_preference_cheapest_vs_expensive": {
         "value": "Cheapest Product",
         "confidence": "0.60",
-        "evidence": "Participant expresses a preference for finding a cost-effective product when purchasing items like hair dryers."
+        "evidence": "Participant prioritizes cost-effectiveness when buying a hair dryer."
       },
       "decision_factors": {
         "value": [
           "Brand Recommendation",
-          "Product Reviews",
-          "Suitability for Dog"
+          "Dog’s Needs",
+          "Price",
+          "Reviews"
         ],
         "confidence": "0.90",
-        "evidence": "Participant explicitly mentions relying on a recommendation, reading reviews, and considering product suitability for their dog when making purchasing decisions."
+        "evidence": "Purchase of dental treats based on a recommendation; concern for dog's needs (size, suitability); consideration of price; reliance on reviews."
       },
       "preferred_categories": {
         "value": [
           "Pet Supplies",
           "Electronics",
-          "Health & Personal Care"
+          "Household Goods"
         ],
-        "confidence": "0.85",
-        "evidence": "The participant buys dog dental treats, hair dryers, and phone screen cleaning pads - all falling within these categories."
+        "confidence": "0.80",
+        "evidence": "Purchases of dog treats, hair dryer, and electronic toothbrush head."
       },
       "pain_points_and_or_challenges": {
-        "value": "Laziness, Time Constraints",
-        "confidence": "0.80",
-        "evidence": "The participant expresses 'laziness' regarding brushing their dog's teeth and mentions time constraints when considering purchasing items."
+        "value": "Time constraints, need for immediate delivery",
+        "confidence": "0.85",
+        "evidence": "Participant's use of the Target app to bypass Amazon's delivery times suggests a pain point related to delivery time."
       }
     }
   }

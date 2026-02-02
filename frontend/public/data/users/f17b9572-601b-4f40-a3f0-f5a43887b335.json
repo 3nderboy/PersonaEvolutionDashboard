@@ -3,126 +3,127 @@
   "profile": {
     "title": {
       "user_name": "Participant",
-      "two_word_summary": "Tech Student",
-      "confidence_overall": "0.90"
+      "two_word_summary": "Tech-Savvy Student",
+      "confidence_overall": "0.85"
     },
     "demographics": {
       "age_range": {
-        "value": "25-34",
+        "value": "22-29",
         "confidence": "0.95",
-        "evidence": "Participant's description of studying as a recent master's student."
+        "evidence": "Participant's description of studying at a Master's level and recent purchase of eye drops suggests a likely age range."
       },
       "gender": {
         "value": "Female",
-        "confidence": "0.85",
-        "evidence": "Participant's conversational style and references to personal experiences like dry eyes and contact lenses."
+        "confidence": "0.70",
+        "evidence": "Participant's phrasing (e.g., 'my eyes get dry') and the focus on eye drops leans towards a female identifier."
       },
       "nationality_background": {
         "value": "USA",
-        "confidence": "0.99",
-        "evidence": "Participant resides in Cambridge, Massachusetts."
+        "confidence": "0.60",
+        "evidence": "Participant lives in Cambridge, Massachusetts, strongly suggesting U.S. nationality."
       },
       "location": {
         "value": "Cambridge, Massachusetts",
         "confidence": "1.00",
-        "evidence": "Explicitly stated location."
+        "evidence": "Explicitly stated in the transcript."
       },
       "living_situation": {
         "value": "With Roommate",
         "confidence": "1.00",
-        "evidence": "Explicitly stated living situation."
+        "evidence": "Explicitly stated in the transcript."
       },
       "occupation": {
         "value": "Student / Part-time Tutor",
-        "confidence": "1.00",
-        "evidence": "Explicitly stated work and study roles."
+        "confidence": "0.90",
+        "evidence": "Explicitly stated in the transcript."
       },
       "education": {
-        "value": "Master's Degree",
+        "value": "Master's Degree Candidate in Computer Science (HCI)",
         "confidence": "1.00",
-        "evidence": "Explicitly stated educational attainment."
+        "evidence": "Explicitly stated in the transcript."
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Academic success, pursuing a career in HCI, improving vision, exploring personal interests.",
+        "value": "To improve eyesight and continue academic research, prioritize efficient solutions and practical application.",
         "confidence": "0.80",
-        "evidence": "References to master's studies, research focus on writing tools, addressing dry eyes, and interest in gadgets."
+        "evidence": "Participant’s need for eye drops, interest in writing tools, and focus on efficient research methods suggest these motivations."
       },
       "interests": {
         "value": [
           "Computer Science",
-          "HCI",
           "Writing Tools",
+          "Eye Drops",
           "Yoga",
           "Social Media",
-          "Gaming",
-          "Travel (indicated by visiting new cities)"
+          "Gaming"
         ],
         "confidence": "0.75",
-        "evidence": "Explicit mentions of computer science, HCI, writing tools, yoga, and scrolling on social media.  Also, mentions of gaming and purchasing items like phone cases which suggests an interest in technology and accessories."
+        "evidence": "Explicitly stated interests (HCI, writing tools, eye drops), inferred interests (social media, gaming) and a hobby (yoga)."
       },
       "values": {
         "value": [
           "Efficiency",
           "Value for Money",
           "Quality",
-          "Reliability (Prime Shipping)"
+          "Practicality",
+          "Research"
         ],
         "confidence": "0.85",
-        "evidence": "Emphasis on finding the best price, reading reviews to assess product quality, considering shipping options, and the use of Amazon Prime."
+        "evidence": "Participant's emphasis on price, reading reviews for quality, and methodical approach to problem-solving reflects these values."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
         "confidence": "0.70",
-        "evidence": "Participant routinely browses Amazon for various items, suggesting frequent use."
+        "evidence": "Participant’s purchase of eye drops and sponges, as well as occasional purchases of phone cases and accessories, indicates regular online shopping."
       },
       "where_used_devices": {
         "value": [
           "Smartphone",
-          "Laptop"
+          "Computer"
         ],
         "confidence": "1.00",
-        "evidence": "Participant primarily uses a smartphone for browsing and purchasing, and references using a laptop for research and coding."
+        "evidence": "Participant uses a computer for research and coding and a smartphone for browsing and social media."
       },
       "search_style_best_vs_first": {
         "value": "First Product",
-        "confidence": "0.80",
-        "evidence": "Participant states, \"I already know what I want to buy... I just have to choose the right product.\" Indicating a preference for the initial search result."
+        "confidence": "0.60",
+        "evidence": "Participant stated they generally go to Amazon and choose the right product, based on research."
       },
       "price_preference_cheapest_vs_expensive": {
         "value": "Cheapest Product",
-        "confidence": "0.90",
-        "evidence": "Participant consistently prioritizes the lowest price when making purchasing decisions."
+        "confidence": "0.80",
+        "evidence": "Participant explicitly prioritizes the lowest price and considers shipping costs."
       },
       "decision_factors": {
         "value": [
           "Price",
-          "Product Reviews",
+          "Reviews",
           "Product Quality",
-          "Color (for certain items)",
-          "Shipping"
+          "Quantity",
+          "Shipping",
+          "Color"
         ],
-        "confidence": "1.00",
-        "evidence": "Explicitly stated decision factors throughout the transcript."
+        "confidence": "0.95",
+        "evidence": "Participant’s detailed explanation of purchase decisions demonstrates these factors are paramount."
       },
       "preferred_categories": {
         "value": [
           "Eye Drops",
-          "Phone Accessories",
-          "Gaming",
+          "Phone Cases",
+          "Protectors",
           "Sponges",
-          "Digital Codes"
+          "Gaming Accessories"
         ],
-        "confidence": "0.85",
-        "evidence": "Items explicitly purchased by the participant during the conversation."
+        "confidence": "0.70",
+        "evidence": "Explicitly stated purchases."
       },
       "pain_points_and_or_challenges": {
-        "value": "Difficulty filtering sponsored products, ensuring product accuracy, and finding the best deal.",
-        "confidence": "0.95",
-        "evidence": "Participant's reactions to sponsored products and their detailed approach to researching products."
+        "value": "Information overload, difficulty filtering sponsored products, need for detailed product information.",
+        "confidence": "0.85",
+        "evidence": "Participant's actions regarding sponsored products and seeking detailed product information reflect these pain points."
       }
     }
   }

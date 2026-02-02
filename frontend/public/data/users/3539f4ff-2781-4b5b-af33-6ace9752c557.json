@@ -3,121 +3,121 @@
   "profile": {
     "title": {
       "user_name": "Participant",
-      "two_word_summary": "Game Enthusiast",
-      "confidence_overall": "0.90"
+      "two_word_summary": "Game & Shopping",
+      "confidence_overall": "0.85"
     },
     "demographics": {
       "age_range": {
         "value": "25-34",
         "confidence": "0.95",
-        "evidence": "Participant mentions graduating last year and current work in a startup, suggesting a typical age range."
+        "evidence": "Participant's work as a contract role, references to graduating last year, and purchase behavior (game controllers, phone cases, electric toothbrushes)."
       },
       "gender": {
         "value": "Male",
-        "confidence": "0.85",
-        "evidence": "Participant's interest in gaming controllers and purchasing habits."
+        "confidence": "0.70",
+        "evidence": "References to his girlfriend, interest in games and tech."
       },
       "nationality_background": {
         "value": "USA",
-        "confidence": "0.90",
-        "evidence": "Participant resides in Arkansas, a US state."
+        "confidence": "0.99",
+        "evidence": "Mentions of Arkansas, Bentonville, and using Amazon."
       },
       "location": {
         "value": "Bentonville, Arkansas",
-        "confidence": "1.00",
-        "evidence": "Explicitly stated in the transcript."
+        "confidence": "0.99",
+        "evidence": "Explicitly states living in Bentonville, Arkansas."
       },
       "living_situation": {
         "value": "Living with Partner",
-        "confidence": "1.00",
-        "evidence": "Explicitly stated in the transcript."
+        "confidence": "0.99",
+        "evidence": "States he is currently living with his girlfriend."
       },
       "occupation": {
         "value": "Contract Researcher/Content Creator",
         "confidence": "0.95",
-        "evidence": "Explicitly stated in the transcript."
+        "evidence": "Describes his role at a startup, working as a researcher and content creator."
       },
       "education": {
-        "value": "Master's Degree",
+        "value": "Master's Degree in Game Science and Design",
         "confidence": "1.00",
-        "evidence": "Explicitly stated in the transcript."
+        "evidence": "States he graduated with a master's degree in game science and design from [ORG_MASKED]."
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Value deals and finding the best value for money, collecting items (particularly collectibles), and engaging in gaming.",
-        "confidence": "0.95",
-        "evidence": "Participant frequently searches for deals, actively buys collectibles, expresses enjoyment in playing games, and mentions wanting to get good at gaming."
+        "value": "Seeking full-time employment, enjoys learning new things, value convenience and deals",
+        "confidence": "0.80",
+        "evidence": "Searching for a full-time job, interest in learning, seeking deals and discounts, impulsive purchasing behavior."
       },
       "interests": {
         "value": [
           "Gaming",
-          "Electronics",
+          "Tech (phone cases, controllers, electric toothbrushes)",
           "TV Shows",
-          "Collecting (LEGOs, Phone Cases)",
-          "Amazon Deals"
+          "Collecting"
         ],
-        "confidence": "1.00",
-        "evidence": "Explicitly stated throughout the transcript (e.g., playing games, buying controllers, collecting items, looking for deals on Amazon)."
+        "confidence": "0.95",
+        "evidence": "Frequent mentions of playing games, purchasing tech gadgets, watching TV shows, and collecting small items."
       },
       "values": {
         "value": [
           "Value for Money",
-          "Quality",
           "Convenience",
+          "Quality",
           "Learning"
         ],
-        "confidence": "0.90",
-        "evidence": "Participant prioritizes deals and reviews, expresses a concern for product quality, appreciates convenience, and indicates a desire to learn new things."
+        "confidence": "0.85",
+        "evidence": "Prioritizes good deals and discounts, seeking convenient solutions, assessing product quality, and pursuing learning opportunities."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
-        "confidence": "0.80",
-        "evidence": "Participant mentions frequently shopping on Amazon, especially during Black Friday, and actively searching for deals daily."
+        "confidence": "0.75",
+        "evidence": "Regularly shops on Amazon, mentions Black Friday deals, and actively searches for deals on various products."
       },
       "where_used_devices": {
         "value": [
           "Smartphone",
           "Desktop"
         ],
-        "confidence": "0.95",
-        "evidence": "Participant uses a smartphone and desktop to shop on Amazon."
+        "confidence": "0.90",
+        "evidence": "Primarily uses his smartphone and desktop computer for online shopping."
       },
       "search_style_best_vs_first": {
         "value": "Best Product / First Product",
-        "confidence": "0.75",
-        "evidence": "Participant's approach to finding products on Amazon – initially looking at the top results, then reading reviews."
+        "confidence": "0.60",
+        "evidence": "States he typically looks at the top-rated products first but also considers sponsored products."
       },
       "price_preference_cheapest_vs_expensive": {
         "value": "Cheapest Product",
         "confidence": "0.70",
-        "evidence": "Participant expresses a willingness to purchase products when they are on sale, and actively seeks deals."
+        "evidence": "Frequently seeks out the best deals and discounts, willing to purchase cheaper alternatives if they offer good value."
       },
       "decision_factors": {
         "value": [
           "Price",
           "Reviews",
-          "Brand Reputation",
-          "Product Quality"
+          "Quality",
+          "Deals"
         ],
-        "confidence": "1.00",
-        "evidence": "Participant consistently emphasizes price, reviews, brand reputation, and quality as key factors in his purchasing decisions."
+        "confidence": "0.95",
+        "evidence": "Considers price, user reviews, product quality, and availability of deals when making purchasing decisions."
       },
       "preferred_categories": {
         "value": [
-          "Gaming",
-          "Electronics",
-          "Toys/Collectibles"
+          "Video Games",
+          "Tech Gadgets",
+          "Collectibles",
+          "Home Goods"
         ],
-        "confidence": "0.95",
-        "evidence": "Participant's purchases of controllers, phone cases, game accessories, and LEGOs confirm these categories."
+        "confidence": "0.80",
+        "evidence": "Purchases game controllers, phone cases, electric toothbrushes, and collectible items."
       },
       "pain_points_and_or_challenges": {
-        "value": "Difficulty comparing products, reliance on reviews, potential for low-quality products",
-        "confidence": "0.90",
-        "evidence": "Participant expresses confusion with sponsored products, relies heavily on reviews, and describes a past experience with a low-quality product."
+        "value": "Information Overload, Difficulty Comparing Products, Returns Process",
+        "confidence": "0.85",
+        "evidence": "Experiences confusion comparing products on Amazon, mentions the hassle of returning items, and relies heavily on Reddit for information."
       }
     }
   }

@@ -10,17 +10,17 @@
       "age_range": {
         "value": "22-25",
         "confidence": "0.90",
-        "evidence": "Participant is pursuing a Master's degree, suggesting an age range of 22-25."
+        "evidence": "Participant is pursuing a master's degree, suggesting a likely age range of 22-25."
       },
       "gender": {
         "value": "Male",
-        "confidence": "0.80",
-        "evidence": "No explicit gender information is provided, but the participant's language and interests align more with a male profile."
+        "confidence": "0.85",
+        "evidence": "No specific indicators of gender were provided in the transcript."
       },
       "nationality_background": {
         "value": "USA",
         "confidence": "0.95",
-        "evidence": "Participant is living in Boston, Massachusetts."
+        "evidence": "Participant lives in Boston, Massachusetts."
       },
       "location": {
         "value": "Boston, Massachusetts",
@@ -28,38 +28,37 @@
         "evidence": "Explicitly stated in the transcript."
       },
       "living_situation": {
-        "value": "With Friends",
-        "confidence": "0.75",
-        "evidence": "Living in a 5-bed apartment with approximately 9 people suggests a shared living situation with friends."
+        "value": "Living with Others",
+        "confidence": "1.00",
+        "evidence": "Participant lives in a 5-bed apartment with approximately 9 people."
       },
       "occupation": {
-        "value": "Data Science Student / Job Seeker",
-        "confidence": "0.95",
-        "evidence": "Explicitly stated multiple times in the transcript."
+        "value": "Data Science Student",
+        "confidence": "1.00",
+        "evidence": "Explicitly stated in the transcript."
       },
       "education": {
-        "value": "Master's Degree in Data Science",
+        "value": "Master's Degree",
         "confidence": "1.00",
         "evidence": "Explicitly stated in the transcript."
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Career advancement in data science, continuous learning, personal project development",
-        "confidence": "0.85",
-        "evidence": "Participant mentions applying for jobs, working on personal projects, and participating in hackathons."
+        "value": "Career advancement in data science, learning new technologies, and potentially full-time job opportunities.",
+        "confidence": "0.90",
+        "evidence": "Participant’s pursuit of a master's degree, participation in hackathons, and active job searching."
       },
       "interests": {
         "value": [
           "Data Science",
           "Technology",
-          "Gadgets",
-          "Gym",
-          "Jamaica Plain",
-          "Gardens"
+          "Hackathons",
+          "Physical Activity",
+          "Gardening"
         ],
-        "confidence": "0.80",
-        "evidence": "References to data science, technology, electronic devices, gym activities, and local locations."
+        "confidence": "0.75",
+        "evidence": "References to data science, technology, hackathons, gym, and Jamaica Plain gardens."
       },
       "values": {
         "value": [
@@ -68,59 +67,57 @@
           "Value for Money",
           "Continuous Learning"
         ],
-        "confidence": "0.70",
-        "evidence": "Participant's priorities regarding webcam angle, brand preference (Logitech), budget considerations, and seeking new knowledge."
+        "confidence": "0.80",
+        "evidence": "Emphasis on webcam quality, brand preference (Logitech), consideration of price, and desire to learn new technologies."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
-        "value": "Weekly",
-        "confidence": "0.60",
-        "evidence": "Participant regularly orders items from Amazon and other online platforms."
+        "value": "Monthly",
+        "confidence": "0.70",
+        "evidence": "Regularly ordering paints and shoes, and occasional electronics purchases."
       },
       "where_used_devices": {
         "value": [
           "Smartphone",
-          "Desktop",
-          "Laptop"
+          "Desktop"
         ],
         "confidence": "0.90",
-        "evidence": "Participant uses a laptop for studying and shopping, and mentions smartphones."
+        "evidence": "Participant uses a laptop and smartphone for online shopping and research."
       },
       "search_style_best_vs_first": {
         "value": "Best Product / First Product",
-        "confidence": "0.50",
-        "evidence": "Participant initially looks for 'best' products, but eventually considers the first product available within budget."
+        "confidence": "0.60",
+        "evidence": "Participant initially prioritizes 'best' products but considers 'first' products and sponsorship products."
       },
       "price_preference_cheapest_vs_expensive": {
-        "value": "Cheapest Product / Value for Money",
-        "confidence": "0.75",
-        "evidence": "Participant prioritizes affordable products while also considering quality and brand reputation."
+        "value": "Cheapest Product / Sometimes Expensive Product",
+        "confidence": "0.70",
+        "evidence": "Expresses concern about price and prioritizes quality, willing to pay more for established brands."
       },
       "decision_factors": {
         "value": [
-          "Product Quality",
+          "Quality",
           "Brand Reputation",
           "Price",
-          "Customer Reviews"
+          "User Reviews"
         ],
-        "confidence": "0.90",
-        "evidence": "Participant explicitly states these factors as important considerations."
+        "confidence": "1.00",
+        "evidence": "Explicitly stated decision factors during the webcam purchase."
       },
       "preferred_categories": {
         "value": [
           "Electronics",
           "Clothing",
-          "Home Goods",
-          "Software"
+          "Home Goods"
         ],
-        "confidence": "0.60",
-        "evidence": "Participant purchases earphones, webcams, paints, and shoes, indicating an interest in these categories."
+        "confidence": "0.80",
+        "evidence": "Orders earphones, webcam, paints, sandals, and shoes."
       },
       "pain_points_and_or_challenges": {
-        "value": "Finding high-quality webcams at an affordable price, managing multiple commitments (studies, projects, job search)",
-        "confidence": "0.80",
-        "evidence": "Participant's return of the webcam due to an unsuitable angle and difficulty balancing study, projects, and job searching."
+        "value": "Poor webcam angle, unsatisfactory product quality.",
+        "confidence": "1.00",
+        "evidence": "Returns webcam due to poor angle."
       }
     }
   }

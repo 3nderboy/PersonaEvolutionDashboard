@@ -322,9 +322,8 @@ def main():
                     source_users=profiles,
                 )
 
-                # Show full name and confidence in detail log
-                confidence = persona.title.confidence_level or "Unknown"
-                log.detail(f"  → {cluster_name} ({confidence})", f"{elapsed:.1f}s")
+                # Show full name in detail log
+                log.detail(f"  → {cluster_name}", f"{elapsed:.1f}s")
                 processed += 1
 
             except KeyboardInterrupt:

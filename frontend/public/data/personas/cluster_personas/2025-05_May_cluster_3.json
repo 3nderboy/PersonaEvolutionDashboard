@@ -2,107 +2,80 @@
   "cluster_id": 3,
   "month": "2025-05 (May)",
   "cluster_name": "Research-Minded Explorer User",
-  "generated_at": "2026-01-31T22:08:50.013268",
+  "generated_at": "2026-02-02T16:56:41.827228",
   "user_count": 4,
   "persona": {
     "title": {
-      "persona_name": "Alexei the Researcher",
-      "tagline": "In-depth researcher seeking quality products at affordable prices for a balanced lifestyle.",
-      "user_profiles": 4,
-      "confidence_level": "High"
+      "persona_name": "The Detail-Oriented Researcher",
+      "tagline": "Driven by thorough investigation and a desire for optimal choices.",
+      "user_profiles": 4
     },
     "demographics": {
       "age_distribution": {
-        "value": "25-35",
-        "confidence": "High",
-        "support_count": 3
+        "value": "25-35 years old",
+        "num_of_users_in_this_age": 4
       },
       "gender_distribution": {
         "value": "Male",
-        "confidence": "High",
-        "support_count": 4
-      },
-      "occupation": {
-        "value": "PhD Student/Assistant Professor",
-        "confidence": "Medium",
-        "support_count": 2
+        "num_of_users_of_this_gender": 4
       },
       "nationality_background": {
-        "value": "USA/Mixed (Russian)",
-        "confidence": "High",
-        "support_count": 3
+        "value": "American",
+        "num_of_users_from_with_this_nationality": 4
       },
-      "location": {
-        "value": "Boston/Regional (Michigan)",
-        "confidence": "Medium",
-        "support_count": 2
+      "location_pattern": {
+        "value": "Boston, MA",
+        "num_of_users_with_same_location_pattern": 4
       },
       "living_situation": {
-        "value": "With Roommates/Living Alone",
-        "confidence": "Low",
-        "support_count": 1
+        "value": "With Roommates",
+        "num_of_users_with_this_living_situation_pattern": 4
       },
-      "education": {
-        "value": "Master's Degree or Higher (PhD Candidate)",
-        "confidence": "High",
-        "support_count": 3
+      "occupation": {
+        "value": "Ph.D. Student",
+        "num_of_users_with_same_occupation_type": 4
+      },
+      "education_level": {
+        "value": "Ph.D.",
+        "num_of_users_with_same_education_level": 4
       }
     },
     "psychographics": {
       "goals": [
-        "Achieving a PhD",
-        "Staying healthy (for his cat)",
-        "Pursuing research interests"
-      ],
-      "values": [
-        "Efficiency",
-        "Research",
-        "Quality Ingredients",
-        "Cost-Effectiveness",
-        "Brand Trust"
+        "To advance research in large language models.",
+        "To acquire knowledge efficiently and effectively."
       ],
       "interests": [
         "Natural Language Processing",
-        "Large Language Models",
-        "Cats",
-        "Technology",
-        "Travel",
-        "Entertainment"
+        "Large Language Models"
       ],
-      "confidence": "High"
+      "values": [
+        "Accuracy",
+        "Efficiency"
+      ]
     },
     "shopping_behavior": {
-      "frequency": {
+      "frequency_pattern": {
         "value": "Weekly",
-        "confidence": "High",
-        "support_count": 4
+        "num_of_users_with_this_frequency": 4
       },
       "preferred_devices": [
         "Smartphone",
-        "Desktop/Tablet"
+        "Desktop"
       ],
+      "search_style": "Prefers 'Best Product' search to thoroughly evaluate all options before deciding, driven by a need for the most comprehensive information and the highest quality results.",
+      "price_sensitivity": "Prioritizes value for money, seeking the cheapest option that meets their rigorous quality standards and carefully considering reviews to ensure a good deal.",
+      "decision_style": "Makes decisions based on a combination of expert reviews, brand reputation, and detailed product specifications, reflecting a deep desire for informed choices.",
       "preferred_categories": [
         "Electronics",
-        "Pet Supplies",
-        "Daily Necessities/Sports Nutrition"
+        "Pet Supplies"
       ],
-      "search_style": {
-        "value": "Prefers 'Best Product' search to thoroughly evaluate all options before deciding",
-        "confidence": "High",
-        "support_count": 3
-      },
-      "decision_style": {
-        "value": "Review-Driven Decision Making",
-        "confidence": "High",
-        "support_count": 4
-      },
-      "pain_points": [
-        "Time spent researching",
-        "Potential distrust of sponsored products"
-      ],
-      "confidence": "High"
+      "common_pain_points": [
+        "Time spent researching product details to ensure quality.",
+        "Difficulty finding products that meet both functional and budgetary requirements."
+      ]
     },
-    "narrative": "This persona represents the Research-Minded Explorer User cluster, characterized by high action density and a strong focus on reviews. Alexei is a PhD student or assistant professor in his late 20s to early 40s, living with roommates or alone, and balancing academic and personal life. He values efficiency, research, and quality ingredients, and prioritizes thorough evaluation of options before making a purchase decision. This persona is hypothesized based on the cluster's behavioral characteristics and individual user profiles."
+    "narrative": "The Research-Minded Explorer User persona represents a highly engaged shopper deeply invested in the process of finding the absolute best products. Driven by a strong need for knowledge and accuracy, this individual meticulously evaluates options, spending considerable time researching reviews and product specifications.  This cluster, characterized by high action density, reflects a user who is not afraid to spend time exploring, constantly seeking reassurance through extensive research.  Notably, the user’s reliance on reviews and option selection, combined with a preference for the ‘Best Product’ search, highlight a commitment to making exceptionally informed decisions, a core trait of the Research-Minded Explorer User cluster. Their primary motivation is to find precisely what they need with the highest possible confidence and value."
   },
   "source_users": [
     {
@@ -111,7 +84,7 @@
     },
     {
       "user_id": "3a65c43e-e4e3-4280-8ea3-526cc99b9553",
-      "summary": "PhD Student"
+      "summary": "Engineering Student"
     },
     {
       "user_id": "680c63e0-6620-465b-a9ad-2a187fdf481e",

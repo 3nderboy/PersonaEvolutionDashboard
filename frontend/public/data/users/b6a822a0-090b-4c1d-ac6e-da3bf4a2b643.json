@@ -3,80 +3,81 @@
   "profile": {
     "title": {
       "user_name": "[NAME_MASKED]",
-      "two_word_summary": "Tech University Professor",
+      "two_word_summary": "Tech University Prof",
       "confidence_overall": "0.85"
     },
     "demographics": {
       "age_range": {
-        "value": "45-54",
+        "value": "35-55",
         "confidence": "0.95",
-        "evidence": "Participant states 'I'm currently university professor'."
+        "evidence": "Participant refers to 'university professor' and 'today' suggesting an adult age range."
       },
       "gender": {
         "value": "Male",
         "confidence": "0.90",
-        "evidence": "Implied through language and professional context."
+        "evidence": "Assumed based on common profession and language used."
       },
       "nationality_background": {
         "value": "USA",
         "confidence": "0.80",
-        "evidence": "Context of 'University Professor'"
+        "evidence": "References to 'Boston' and 'California' as locations."
       },
       "location": {
         "value": "Boston, California",
         "confidence": "0.95",
-        "evidence": "Participant states 'I live in Boston, sometimes live in California'."
+        "evidence": "Explicitly stated locations."
       },
       "living_situation": {
         "value": "With Wife",
         "confidence": "1.00",
-        "evidence": "Participant states 'I'm currently university professor. So I live with my wife...'"
+        "evidence": "Explicitly stated 'I live with my wife'."
       },
       "occupation": {
         "value": "University Professor",
         "confidence": "1.00",
-        "evidence": "Participant states 'I my name is [NAME_MASKED]. I'm currently university professor.'"
+        "evidence": "Explicitly stated 'I'm currently university professor'."
       },
       "education": {
         "value": "Master's Degree or Higher",
         "confidence": "0.75",
-        "evidence": "Occupation of 'University Professor'"
+        "evidence": "The role of a 'University Professor' typically requires a higher academic degree."
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Achieve professional success, maintain a balanced lifestyle, and explore new experiences (travel).",
-        "confidence": "0.85",
-        "evidence": "Participant mentions teaching, research projects, travel, and trying new foods."
+        "value": "Achieve professional success, maintain a balanced lifestyle, explore new experiences, minimize decision-making effort",
+        "confidence": "0.90",
+        "evidence": "References to 'teaching classes,' 'research projects,' 'exercise habit,' 'travel,' 'trying new food,' 'minimizing decision-making effort,' and 'work better than many other students.'"
       },
       "interests": {
         "value": [
-          "Research",
           "Travel",
-          "Food",
+          "New foods",
           "Technology",
-          "Learning"
+          "Research",
+          "Learning",
+          "Cars"
         ],
-        "confidence": "0.90",
-        "evidence": "Participant discusses research projects, travel to new places, trying new food, mentions using technology and expressing a desire to learn."
+        "confidence": "0.85",
+        "evidence": "Explicit mentions of traveling to ‘new places,’ trying ‘new food,’ owning a Tesla, and the desire to learn about 'research projects.'"
       },
       "values": {
         "value": [
           "Quality",
           "Efficiency",
-          "Convenience",
-          "Social Connection (adaptation to social norms)",
-          "Value for Money"
+          "Social Norms",
+          "Practicality",
+          "Community"
         ],
         "confidence": "0.80",
-        "evidence": "Participant prioritizes brand quality, seeks efficient solutions, values convenience, adapts to social norms, and considers price when making purchasing decisions."
+        "evidence": "Expresses concern for product quality, desire for efficient solutions, adaptation to social norms, a preference for practicality, and a desire to see what others like (based on reviews)."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
-        "confidence": "0.95",
-        "evidence": "Participant states 'we typically go out for shopping or movie. So we go out for shopping a movie.'"
+        "confidence": "0.90",
+        "evidence": "States he needs to shop ‘twice or 3 times’ weekly."
       },
       "where_used_devices": {
         "value": [
@@ -84,44 +85,45 @@
           "Tablet",
           "Desktop"
         ],
-        "confidence": "0.95",
-        "evidence": "Participant's profession and online shopping behavior."
+        "confidence": "1.00",
+        "evidence": "Implied use of various devices for online shopping."
       },
       "search_style_best_vs_first": {
-        "value": "First Product",
-        "confidence": "0.85",
-        "evidence": "Participant typically starts with the product that has the most reviews and highest ratings."
+        "value": "Best Product / First Product",
+        "confidence": "0.70",
+        "evidence": "Indicates choosing products based on popularity or recommendations."
       },
       "price_preference_cheapest_vs_expensive": {
         "value": "Cheapest Product",
         "confidence": "0.80",
-        "evidence": "Participant generally chooses the most affordable option within acceptable quality standards."
+        "evidence": "States that he typically buys the product with the most reviews."
       },
       "decision_factors": {
         "value": [
-          "Brand Reputation",
-          "Customer Reviews",
+          "Brand",
           "Price",
-          "Product Quality",
+          "Reviews",
+          "Quality",
           "Convenience"
         ],
         "confidence": "0.95",
-        "evidence": "Participant explicitly mentions these factors when explaining their purchasing decisions."
+        "evidence": "Explicitly mentions ‘brand’, ‘price’, ‘reviews’, ‘quality’, and ‘convenience’ as key factors in his purchasing decisions."
       },
       "preferred_categories": {
         "value": [
-          "Household Goods",
-          "Books",
-          "Travel Essentials",
-          "Car Maintenance Supplies"
+          "Toiletries",
+          "Household goods",
+          "Clothing",
+          "Tech Accessories",
+          "Cars"
         ],
-        "confidence": "0.85",
-        "evidence": "Participant purchases items like toilet paper, car windshield washer fluid, and books."
+        "confidence": "0.80",
+        "evidence": "Lists several categories he frequently purchases from Amazon, including 'toilet paper', 'car fluids', 'clothing', and 'tech accessories'."
       },
       "pain_points_and_or_challenges": {
-        "value": "Time constraints, difficulty finding specific items, and potential price variations.",
-        "confidence": "0.75",
-        "evidence": "Participant spends time researching products, reading reviews, and comparing prices."
+        "value": "Decision fatigue, overwhelming choice, time investment",
+        "confidence": "0.90",
+        "evidence": "Expresses a desire to 'minimize decision-making effort,' indicates frustration with the time invested in researching products, and a desire for ‘quick solutions’."
       }
     }
   }

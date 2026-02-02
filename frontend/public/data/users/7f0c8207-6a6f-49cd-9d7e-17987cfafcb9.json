@@ -3,122 +3,126 @@
   "profile": {
     "title": {
       "user_name": "PhD Student - Alex",
-      "two_word_summary": "Tech Researcher",
+      "two_word_summary": "Tech-Savvy Researcher",
       "confidence_overall": "0.85"
     },
     "demographics": {
       "age_range": {
         "value": "25-34",
         "confidence": "0.95",
-        "evidence": "Participant stated studying at a PhD level, which typically aligns with this age range."
+        "evidence": "Participant explicitly states 'PhD student' and references 'typical day' suggesting an age range common for doctoral candidates."
       },
       "gender": {
         "value": "Male",
-        "confidence": "0.90",
-        "evidence": "Participant's language and phrasing (e.g., 'I', 'my') suggests male identity."
+        "confidence": "0.60",
+        "evidence": "No direct indication of gender in the transcript."
       },
       "nationality_background": {
         "value": "USA",
-        "confidence": "0.80",
-        "evidence": "Participant resides in Blacksburg, Virginia, indicating a US location."
+        "confidence": "0.75",
+        "evidence": "Participant lives in Blacksburg, Virginia – a location within the United States."
       },
       "location": {
         "value": "Blacksburg, Virginia",
         "confidence": "1.00",
-        "evidence": "Explicitly stated in the transcript."
+        "evidence": "Participant states 'I live in Blacksburg, Virginia.'"
       },
       "living_situation": {
         "value": "Living Alone",
-        "confidence": "0.95",
+        "confidence": "0.90",
         "evidence": "Participant states 'I'm studying computer science machine learning. And I live by myself.'"
       },
       "occupation": {
-        "value": "PhD Student - Computer Science (Machine Learning)",
+        "value": "PhD Student (Computer Science/Machine Learning)",
         "confidence": "1.00",
-        "evidence": "Multiple direct statements confirming this role."
+        "evidence": "Participant explicitly states 'PhD student' and details their field of study."
       },
       "education": {
         "value": "PhD",
         "confidence": "1.00",
-        "evidence": "Explicitly stated multiple times."
+        "evidence": "Participant explicitly states 'PhD student.'"
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Continuous Learning, Technical Skill Development, Research Advancement",
+        "value": "To advance knowledge in computer science through research and publication, maintain a healthy work-life balance with personal interests and fitness.",
         "confidence": "0.80",
-        "evidence": "References to studying, research duties, desire for new challenges, and interest in deeper understanding."
+        "evidence": "Participant describes a structured daily routine including research, meetings, gym workouts, and cooking.  Expresses a desire to 'deepen their understanding' and acknowledges 'new challenges'."
       },
       "interests": {
         "value": [
           "Machine Learning",
           "Coding",
-          "Computer Science",
           "Cycling",
           "Hiking",
-          "Shopping (Tech/Cat Supplies)"
+          "Cat Care",
+          "Reading",
+          "Shopping (specifically Nail Polish)"
         ],
-        "confidence": "0.75",
-        "evidence": "Explicit mentions of these interests throughout the transcript."
+        "confidence": "0.70",
+        "evidence": "Participant mentions 'computer science machine learning', discusses coding extensively, references cycling and hiking, and describes purchasing cat-related items. Also mentions reading and shopping."
       },
       "values": {
         "value": [
+          "Intellectual Curiosity",
+          "Self-Improvement",
+          "Work-Life Balance",
           "Quality",
-          "Efficiency",
-          "Innovation",
-          "Community (Friends)"
+          "Community (friends)"
         ],
-        "confidence": "0.70",
-        "evidence": "Concern for product quality, optimizing workflow, embracing new technologies, and spending time with friends."
+        "confidence": "0.65",
+        "evidence": "Participant's desire to 'know something behind that' (research), constantly seeking 'new things', and balancing work with fitness and social activities suggest these values."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
-        "confidence": "0.70",
-        "evidence": "Frequent online purchases (nail polish, cat supplies) and willingness to purchase items quickly."
+        "confidence": "0.75",
+        "evidence": "Participant frequently purchases items for both personal use (food, gym) and pet care, suggesting regular shopping habits."
       },
       "where_used_devices": {
         "value": [
           "Smartphone",
-          "Laptop"
+          "Desktop"
         ],
         "confidence": "0.90",
-        "evidence": "References to 'packing food to the lab' and spending 'the whole day' at a computer."
+        "evidence": "Participant engages in online shopping and research primarily on Amazon, utilizing a desktop computer for complex tasks and a smartphone for quick purchases."
       },
       "search_style_best_vs_first": {
         "value": "Best Product / First Product",
-        "confidence": "0.60",
-        "evidence": "Prefers to buy immediately when a product is found, suggests a desire for the best or first available option."
+        "confidence": "0.50",
+        "evidence": "Participant frequently states 'I want to know is this good', suggesting a preference for finding the 'best' or 'first' product."
       },
       "price_preference_cheapest_vs_expensive": {
         "value": "Cheapest Product",
-        "confidence": "0.50",
-        "evidence": "Willing to purchase items on discount and compare prices."
+        "confidence": "0.40",
+        "evidence": "Participant explicitly states they 'compare the price' and choose the 'cheapest product' when available."
       },
       "decision_factors": {
         "value": [
           "Product Quality",
           "Shipping Speed",
           "Brand Reputation",
-          "Reviews"
+          "Price",
+          "Reviews (especially with images)"
         ],
         "confidence": "0.85",
-        "evidence": "Strong emphasis on these factors during nail polish and cat supply purchases."
+        "evidence": "Participant repeatedly emphasizes product quality, shipping speed, and relies heavily on reviews with images to make purchasing decisions."
       },
       "preferred_categories": {
         "value": [
-          "Electronics (implied - computer science)",
-          "Nail Polish",
-          "Cat Supplies"
+          "Electronics (Computer Science Tools)",
+          "Pet Supplies",
+          "Beauty/Cosmetics (Nail Polish)",
+          "Fitness Equipment"
         ],
-        "confidence": "0.90",
-        "evidence": "Explicitly purchased nail polish and cat supplies."
+        "confidence": "0.70",
+        "evidence": "Participant purchases cat food and toys, nail polish, and references fitness equipment, indicating these categories are of interest."
       },
       "pain_points_and_or_challenges": {
-        "value": "Slow Shipping, Product Quality Concerns (especially with sponsored products)",
-        "confidence": "0.90",
-        "evidence": "Expresses frustration with shipping times and skepticism about sponsored products."
+        "value": "Slow Shipping, Lack of Availability in Local Stores, Difficulty Evaluating Sponsored Products",
+        "confidence": "0.80",
+        "evidence": "Participant expresses frustration with slow shipping times and difficulties finding products available locally.  Also highlights concerns about sponsored product credibility."
       }
     }
   }

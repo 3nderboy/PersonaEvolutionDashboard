@@ -2,81 +2,81 @@
   "user_id": "47395b78-6336-4546-b97c-7becdf065356",
   "profile": {
     "title": {
-      "user_name": "Graduate Student",
-      "two_word_summary": "Tech Student",
+      "user_name": "student_data_analyst",
+      "two_word_summary": "tech_student_shopper",
       "confidence_overall": "0.85"
     },
     "demographics": {
       "age_range": {
-        "value": "25-34",
+        "value": "22-25",
         "confidence": "0.95",
-        "evidence": "Participant describes experiences with finals, student prime, and recent quarter start, aligning with this age range."
+        "evidence": "Participant mentions being a graduate student and recent moves."
       },
       "gender": {
         "value": "Female",
         "confidence": "0.70",
-        "evidence": "Participant's language reflects a common style (e.g., 'I feel like,' 'you know'), and expresses empathy and consideration for others."
+        "evidence": "Participant’s language suggests a thoughtful and considerate personality, aligning with common female behavioral patterns in the transcript."
       },
       "nationality_background": {
         "value": "USA",
-        "confidence": "0.99",
-        "evidence": "Participant's location is San Francisco, and all interactions are in English."
+        "confidence": "0.90",
+        "evidence": "Participant lives in San Francisco."
       },
       "location": {
-        "value": "San Francisco",
+        "value": "San Francisco, California",
         "confidence": "1.00",
-        "evidence": "Participant explicitly states 'I'm in San Francisco.'"
+        "evidence": "Explicitly stated multiple times."
       },
       "living_situation": {
-        "value": "Living with Roommates",
+        "value": "With Roommates",
         "confidence": "1.00",
-        "evidence": "Participant states 'I'm living with my roommates.'"
+        "evidence": "Explicitly stated."
       },
       "occupation": {
-        "value": "Graduate Student / Remote Intern",
+        "value": "Graduate Student, Remote Intern",
         "confidence": "0.95",
-        "evidence": "Participant identifies as a 'graduate student' and mentions 'remote intern' work."
+        "evidence": "Explicitly stated multiple times."
       },
       "education": {
         "value": "Master's Degree in Business Analytics",
         "confidence": "1.00",
-        "evidence": "Participant explicitly states 'a like taught master program in business analytics.'"
+        "evidence": "Explicitly stated."
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Career advancement in data roles, seeking startup opportunities, learning from tech leaders",
+        "value": "Career Development, Learning, Seeking Relevant Experience, Transitioning to Data Roles",
         "confidence": "0.90",
-        "evidence": "Participant explicitly states their desire to transition into data roles, interest in startups, and interest in learning from C-level executives and product people."
+        "evidence": "Participant discusses internship, networking, recruiting, desired data role, and interest in AI startups."
       },
       "interests": {
         "value": [
-          "AI",
-          "Data Analytics",
+          "Data Analysis",
+          "Artificial Intelligence",
           "Music",
-          "Technology",
-          "Networking"
+          "Travel (implicit through wanting to send gifts)",
+          "Technology"
         ],
         "confidence": "0.80",
-        "evidence": "Participant mentions 'AI' and 'data roles,' 'music' as a gift interest, references 'tech guys', and expresses interest in 'networking.'"
+        "evidence": "References to data management, AI, musical gifts, and the interest in technology are clear from the transcript."
       },
       "values": {
         "value": [
+          "Reliability",
           "Convenience",
-          "Quality",
           "Value",
-          "Learning",
-          "Reliability"
+          "Quality",
+          "Learning"
         ],
         "confidence": "0.75",
-        "evidence": "Participant prioritizes convenience of delivery, considers product quality and price, values learning opportunities, and expresses a need for reliable products."
+        "evidence": "Prioritizes convenient delivery, reviews, and quality when making purchasing decisions."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
-        "confidence": "0.75",
-        "evidence": "Participant regularly shops on Amazon, primarily for gifts and small items, and mentions browsing multiple times to make a decision."
+        "confidence": "0.70",
+        "evidence": "Participant frequently uses Amazon for various purchases (gifts, everyday items)."
       },
       "where_used_devices": {
         "value": [
@@ -84,42 +84,42 @@
           "Laptop"
         ],
         "confidence": "0.90",
-        "evidence": "Participant uses Amazon on a smartphone and laptop."
+        "evidence": "Participant uses a smartphone to search and purchase items and describes using a laptop for browsing."
       },
       "search_style_best_vs_first": {
-        "value": "First Product",
-        "confidence": "0.80",
-        "evidence": "Participant generally starts their search with a specific product in mind, using keywords and filtering options."
+        "value": "First",
+        "confidence": "0.85",
+        "evidence": "Participant typically searches Amazon first when looking for products."
       },
       "price_preference_cheapest_vs_expensive": {
         "value": "Cheapest Product",
         "confidence": "0.60",
-        "evidence": "Participant frequently considers price, but doesn't prioritize it as much as convenience and quality."
+        "evidence": "Participant prioritizes value for money over the absolute cheapest option."
       },
       "decision_factors": {
         "value": [
-          "Price",
-          "Quality",
           "Reviews",
-          "Convenience",
+          "Ratings",
+          "Convenience (Shipping)",
+          "Price",
           "Relevance"
         ],
         "confidence": "0.95",
-        "evidence": "Participant explicitly lists these factors as important considerations throughout the interview."
+        "evidence": "Participant emphasizes reviews, ratings, shipping convenience, and price when making decisions."
       },
       "preferred_categories": {
         "value": [
+          "Electronics (Electric Kettle)",
           "Gifts",
-          "Electronics (small)",
-          "Kitchenware"
+          "Tech Gadgets"
         ],
-        "confidence": "0.85",
-        "evidence": "Participant purchases gifts, an electric kettle, and likely kitchenware based on their lifestyle."
+        "confidence": "0.80",
+        "evidence": "Explicitly mentions purchasing an electric kettle and gifts."
       },
       "pain_points_and_or_challenges": {
-        "value": "Difficulty transitioning to data roles, limited experience in data, navigating startup environment",
+        "value": "Difficulty Transitioning to Data Roles, Limited Experience in Data Fields",
         "confidence": "0.90",
-        "evidence": "Participant expresses challenges in finding data internships, limited experience, and interest in learning from startup tech teams."
+        "evidence": "Participant expresses challenges in finding a data internship and acknowledges a background in marketing operations."
       }
     }
   }

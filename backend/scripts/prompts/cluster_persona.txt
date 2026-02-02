@@ -1,7 +1,8 @@
-You are a persona synthesis expert. Given multiple individual user profiles from an e-commerce behavioral cluster, synthesize a single **Proto-Persona (Hypothesis)** that captures the common patterns.
+You are a persona synthesis expert. Given multiple individual user profiles from an e-commerce behavioral cluster,
+synthesize a single representative persona that captures and summarizes the common patterns, characteristics, and behaviors of this user group into one persona.
 
 IMPORTANT: This persona is based on exactly {user_count} user profiles with interview data.
-IMPORTANT: This cluster is called "{cluster_name}".
+IMPORTANT: This cluster is called "{cluster_name}" - you MUST reference this name in the narrative.
 
 The cluster has the following behavioral characteristics:
 {cluster_info}
@@ -12,7 +13,7 @@ Here are the individual user profiles from this cluster:
 === CRITICAL RULES - YOU MUST FOLLOW THESE EXACTLY ===
 1. The "user_profiles" field in title MUST be exactly: {user_count}
 2. For ALL fields asking for a single value, you MUST provide ONLY ONE value
-   - WRONG: "Software Engineering and Development / University Professor" 
+   - WRONG: "Software Engineering and Development / University Professor"
    - WRONG: "Quality & Functionality"
    - WRONG: "Technology & Data Analysis"
    - CORRECT: "Software Engineer"
@@ -31,83 +32,65 @@ Here are the individual user profiles from this cluster:
    - EXAMPLE FOR search_style CORRECT: "Prefers 'Best Product' search to thoroughly evaluate all options before deciding"
    - EXAMPLE FOR search_style CORRECT: "Uses 'First Product' search to make quick decisions and move on"
    - Pick the SINGLE most common behavior and explain WHY they prefer it
-8. **Mandatory Value Assignment:** NEVER return "Unknown" or "--". 
-   - If data is mixed: State "Mixed" or describe the variety (e.g., "Mixed (Students & Professionals)").
-   - If data is missing: Make a reasonable hypothesis based on the behavioral metrics or typical user demographics.
-   - Example: If occupation is missing but age is 22, hypothesize "Student/Entry Level".
-   - You are generating a **Proto-Persona Hypothesis**, so educated guesses are expected and required.
+===
 
-Return ONLY valid JSON with this exact structure (no markdown):
-{
-  "title": {
-    "persona_name": "A memorable persona name",
-    "tagline": "A short 5-10 word summary",
-    "user_profiles": {user_count},
-    "confidence_level": "High | Medium | Low"
-  },
-  "demographics": {
-    "age_distribution": {
-      "value": "Dominant Range (e.g. '25-34')",
-      "confidence": "High | Medium | Low",
-      "support_count": 0
-    },
-    "gender_distribution": {
-      "value": "Dominant Gender or Mixed",
-      "confidence": "High | Medium | Low",
-      "support_count": 0
-    },
-    "occupation": {
-      "value": "Dominant occupation",
-      "confidence": "High | Medium | Low",
-      "support_count": 0
-    },
-    "nationality_background": {
-      "value": "Dominant Nationality or 'Mixed'",
-      "confidence": "High | Medium | Low",
-      "support_count": 0
-    },
-    "location": {
-      "value": "Region or 'Distributed'",
-      "confidence": "High | Medium | Low",
-      "support_count": 0
-    },
-    "living_situation": {
-      "value": "Dominant Situation (e.g. 'Shared Apartment')",
-      "confidence": "High | Medium | Low",
-      "support_count": 0
-    },
-    "education": {
-      "value": "Dominant Level",
-      "confidence": "High | Medium | Low",
-      "support_count": 0
-    }
-  },
-  "psychographics": {
-    "goals": ["Goal 1", "Goal 2"],
-    "values": ["Value 1", "Value 2"],
-    "interests": ["Interest 1", "Interest 2"],
-    "confidence": "High | Medium | Low"
-  },
-  "shopping_behavior": {
-    "frequency": {
-        "value": "Daily | Weekly | Monthly",
-        "confidence": "High | Medium | Low",
-        "support_count": 0
-    },
-    "preferred_devices": ["Mobile", "Desktop"],
-    "preferred_categories": ["Cat 1", "Cat 2"],
-    "search_style": {
-        "value": "Dominant Style (e.g. 'Keyword Search')",
-        "confidence": "High | Medium | Low",
-        "support_count": 0
-    },
-    "decision_style": {
-        "value": "Dominant Style (e.g. 'Review-Driven')",
-        "confidence": "High | Medium | Low",
-        "support_count": 0
-    },
-    "pain_points": ["Pain 1", "Pain 2"],
-    "confidence": "High | Medium | Low"
-  },
-  "narrative": "A concise 4-5 sentence validation narrative. State clearly what is known and what is hypothesized."
-}
+Return ONLY valid JSON with this exact structure (no markdown, no explanation):
+{{
+  "title": {{
+    "persona_name": "A memorable persona name (e.g., 'The Pragmatic Professional')",
+    "tagline": "A short 5-10 word description of this persona",
+    "user_profiles": {user_count}
+  }},
+  "demographics": {{
+    "age_distribution": {{
+      "value": "Single age range (e.g., '25-34 years old')",
+      "num_of_users_in_this_age": "integer count"
+    }},
+    "gender_distribution": {{
+      "value": "Male OR Female (pick the dominant one)",
+      "num_of_users_of_this_gender": "integer count"
+    }},
+    "nationality_background": {{
+      "value": "Single nationality (e.g., 'American')",
+      "num_of_users_from_with_this_nationality": "integer count"
+    }},
+    "location_pattern": {{
+      "value": "Single city or area (e.g., 'Boston')",
+      "num_of_users_with_same_location_pattern": "integer count"
+    }},
+    "living_situation": {{
+      "value": "One of: Alone, With Friend, With Partner, With Friends, With Parents, With Relatives, With Family, Unknown",
+      "num_of_users_with_this_living_situation_pattern": "integer count"
+    }},
+    "occupation": {{
+      "value": "Single occupation (e.g., 'Software Engineer'). NO slashes or 'and'!",
+      "num_of_users_with_same_occupation_type": "integer count"
+    }},
+    "education_level": {{
+      "value": "Single education level (e.g., 'Master's Degree')",
+      "num_of_users_with_same_education_level": "integer count"
+    }}
+  }},
+  "psychographics": {{
+    "goals": ["single goal 1", "single goal 2"],
+    "interests": ["single interest 1", "single interest 2", "single interest 3"],
+    "values": ["single value 1", "single value 2", "single value 3"]
+  }},
+  "shopping_behavior": {{
+    "frequency_pattern": {{
+      "value": "One of: Daily, Weekly, Monthly, Rarely",
+      "num_of_users_with_this_frequency": "integer count"
+    }},
+    "preferred_devices": ["device 1", "device 2"],
+    "search_style": "Brief description of search behavior with at least one sentence",
+    "price_sensitivity": "Brief description of price preference with at least one sentence",
+    "decision_style": "Brief description of decision making with at least one sentence",
+    "preferred_categories": ["category 1", "category 2", "category 3", "category 4"],
+    "common_pain_points": ["General shopping behavior challenge 1", "General shopping behavior challenge 2"]
+                         Note: Pain points should be GENERAL shopping challenges (e.g., 'Finding suitable technical products', 'Comparing product specifications', 'Dealing with too many options'),
+                         NOT product-specific (e.g., NOT 'Finding webcams with the right angle'). Focus on behavioral patterns, not specific items.
+  }},
+  "narrative": "A 4-5 sentence narrative description that brings this persona to life. MUST mention the cluster name '{cluster_name}' when describing who this persona represents (e.g., 'The {cluster_name} persona...' or 'Users in the {cluster_name} cluster...'). Make it vivid, human, and tell a story about their shopping journey and motivations."
+}}
+
+Remember: Pick the SINGLE most common value for each field. Never combine multiple values with / or & or 'and'.

@@ -2,80 +2,81 @@
   "user_id": "ffa9a771-083a-42b1-a41b-bf91bd50030b",
   "profile": {
     "title": {
-      "user_name": "PhD Student - Robotics",
+      "user_name": "PhD Student",
       "two_word_summary": "Tech-focused researcher",
       "confidence_overall": "0.85"
     },
     "demographics": {
       "age_range": {
         "value": "25-35",
-        "confidence": "0.90",
-        "evidence": "Participant describes daily schedule, indicating a stage of life typical of a PhD student."
+        "confidence": "0.95",
+        "evidence": "Participant’s language and referencing of recent experiences (flight booking, Korea trips) suggests a young professional."
       },
       "gender": {
         "value": "Male",
-        "confidence": "0.95",
-        "evidence": "Participant uses masculine pronouns (I, me, my) consistently throughout the interview."
+        "confidence": "0.90",
+        "evidence": "Participant’s direct statements (e.g., ‘I get more energized like staying with people’)."
       },
       "nationality_background": {
         "value": "USA",
-        "confidence": "0.90",
-        "evidence": "References to Boston (city) and mentions of typical American purchases (toothpaste)."
+        "confidence": "0.80",
+        "evidence": "References to Boston, U.S. University, and typical travel to Korea."
       },
       "location": {
-        "value": "Boston, MA",
+        "value": "Boston, USA",
         "confidence": "1.00",
-        "evidence": "Explicitly states \"I live in Boston.\""
+        "evidence": "Explicitly stated in the interview."
       },
       "living_situation": {
-        "value": "Living with a Friend",
-        "confidence": "0.80",
-        "evidence": "States \"I live with my friend to be to be apartment\""
+        "value": "Living with a friend",
+        "confidence": "0.95",
+        "evidence": "‘I live with my friend to be to be apartment’"
       },
       "occupation": {
-        "value": "PhD Student in Computer Science (Robotics Specialization)",
+        "value": "PhD Student in Computer Science",
         "confidence": "1.00",
-        "evidence": "Directly states \"I'm I'm a Phd student in computer science at [ORG_MASKED] University.\" and describes work involving robotics and decision-making processes."
+        "evidence": "Directly stated in the interview."
       },
       "education": {
         "value": "PhD Level",
         "confidence": "1.00",
-        "evidence": "Explicitly states \"PhD student\""
+        "evidence": "‘PhD student at [ORG_MASKED] University’."
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "To develop advanced robotics for human-centered environments, particularly in collaborative tasks like cooking.",
+        "value": "To develop innovative robotic solutions for human-centered environments and understand the complex interplay between humans and robots.",
         "confidence": "0.90",
-        "evidence": "Discusses developing frameworks for robot decision-making, interaction with humans in home environments, and optimizing task outcomes."
+        "evidence": "Participant’s research focus on robotics, decision-making frameworks, and interactions between robots and humans."
       },
       "interests": {
         "value": [
           "Robotics",
           "Artificial Intelligence",
           "Human-Computer Interaction",
-          "Cooking",
-          "Social Media (Instagram, Netflix)"
+          "Cooking (robot assistance)",
+          "Socializing"
         ],
-        "confidence": "0.75",
-        "evidence": "Explicitly mentions specialization in robotics, describes research involving human-robot interaction, and references Netflix and social media usage."
+        "confidence": "0.85",
+        "evidence": "References to robotics development, human-robot collaboration, cooking tasks, and spending time with friends."
       },
       "values": {
         "value": [
+          "Innovation",
           "Collaboration",
-          "Efficiency",
-          "Health and Wellness (gym)",
-          "Ingredient Safety"
+          "Practicality",
+          "User-centered design",
+          "Health & Wellness (gym)"
         ],
-        "confidence": "0.70",
-        "evidence": "Expresses a preference for working with others, prioritizing optimizing task outcomes, mentions gym attendance, and emphasizing ingredients like SLS-free toothpaste."
+        "confidence": "0.80",
+        "evidence": "Emphasis on developing practical solutions, collaboration with humans, and considerations for user experience (health and fitness)."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
-        "confidence": "0.85",
-        "evidence": "Purchases toothpaste regularly, driven by a need for a consumable item."
+        "confidence": "0.75",
+        "evidence": "Buying toothpaste and other necessities, indicating regular purchases."
       },
       "where_used_devices": {
         "value": [
@@ -83,41 +84,40 @@
           "Tablet"
         ],
         "confidence": "0.95",
-        "evidence": "Uses smartphone to search for products and review options, refers to Youtube for research."
+        "evidence": "Participant extensively uses Amazon on a smartphone (implied from search behavior)."
       },
       "search_style_best_vs_first": {
         "value": "Best Product / First Product",
         "confidence": "0.60",
-        "evidence": "Indicates a process of searching for and considering multiple options (Youtube, asking friends) before making a purchase."
+        "evidence": "Participant’s detailed investigation of toothpaste options suggests a focus on finding the 'best' product initially."
       },
       "price_preference_cheapest_vs_expensive": {
         "value": "Cheapest Product",
-        "confidence": "0.70",
-        "evidence": "Primarily focused on the best value for the ingredients and features, even if it means paying more initially."
+        "confidence": "0.50",
+        "evidence": "Participant prioritizes affordability when selecting toothpaste, despite considering other factors."
       },
       "decision_factors": {
         "value": [
-          "Ingredient Safety (SLS-free)",
-          "Reviews (though skeptical)",
-          "Functionality (anti-cavity)",
-          "Human-Robot Interaction"
+          "Ingredients (anti-cavity, SLS-free)",
+          "User Reviews (though skeptical)",
+          "Brand Reputation",
+          "Functionality"
         ],
         "confidence": "0.90",
-        "evidence": "Highlights specific ingredients (SLS), reviews (despite skepticism), and the utility of the product in his research area."
+        "evidence": "Participant explicitly discusses ingredients, reviews, and brand preference as key decision-making factors."
       },
       "preferred_categories": {
         "value": [
-          "Beauty & Personal Care",
-          "Technology (Robotics)",
-          "Health & Wellness"
+          "Beauty Products",
+          "Consumer Electronics (implied by robotics research)"
         ],
-        "confidence": "0.80",
-        "evidence": "Purchases toothpaste, highlighting an interest in skincare products."
+        "confidence": "0.70",
+        "evidence": "Participant’s purchase of toothpaste and browsing habits suggest an interest in beauty products."
       },
       "pain_points_and_or_challenges": {
-        "value": "Indecisiveness, extensive research process, difficulty trusting online reviews",
+        "value": "Indecisiveness, extensive research process",
         "confidence": "1.00",
-        "evidence": "Repeatedly describes a lengthy decision-making process and expresses skepticism towards online reviews."
+        "evidence": "Participant explicitly states they are ‘very indecisive’ and spend a lot of time researching purchases."
       }
     }
   }
