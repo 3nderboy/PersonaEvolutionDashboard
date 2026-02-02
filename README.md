@@ -54,7 +54,7 @@ python run_pipeline.py --llm
 | `download_hf_dataset.py` | Downloads OPeRA dataset from HuggingFace | `backend/data/NEU-HAI__OPeRA/` |
 | `persona_clustering.py` | Clusters users by behavioral metrics using K-Means | `personas.json`, `sessions.json`, `metadata.json`, `monthly_clusters.json` |
 | `extract_users.py` | Extracts user profiles from interview transcripts via LLM | `users/{id}.json` |
-| `combine_users.py` | Merges individual profiles into single file | `users/llm_users.json` |
+| `combine_users.py` | Merges individual profiles into a single file | `users/llm_users.json` |
 | `extract_personas.py` | Generates cluster-level personas via LLM | `cluster_personas/*.json` |
 
 ### 3. LLM Provider Options
