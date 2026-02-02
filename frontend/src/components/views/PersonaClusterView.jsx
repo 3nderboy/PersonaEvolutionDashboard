@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { ScatterChart, Scatter, XAxis, YAxis, ZAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell } from 'recharts';
 import { BarChart, Bar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Radar } from 'recharts';
-import UserProfileCard from './UserProfileCard';
+import { UserProfileCard } from './UserProfileView';
 import ClusterPersonaCard from './ClusterPersonaCard';
 
 // Cluster colors matching new persona names

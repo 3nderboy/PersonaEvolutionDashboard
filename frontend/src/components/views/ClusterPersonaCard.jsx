@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Section, TagList } from "./UserProfileCard";
+import { Section, TagList } from "./UserProfileView";
 
 /**
  * UserCountTooltip - Shows user count on hover for persona attributes
