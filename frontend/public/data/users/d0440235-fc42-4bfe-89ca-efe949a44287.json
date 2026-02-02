@@ -3,63 +3,63 @@
   "profile": {
     "title": {
       "user_name": "Participant",
-      "two_word_summary": "Tech Project Manager",
+      "two_word_summary": "AI Engineer",
       "confidence_overall": "0.85"
     },
     "demographics": {
       "age_range": {
         "value": "30-40",
         "confidence": "0.95",
-        "evidence": "Participant describes managing a team, using terminology related to project roadmaps and sprint planning. References a 'new role as a manager role.'"
+        "evidence": "Participant stated waking up around 7:30 am, suggesting an adult age range."
       },
       "gender": {
         "value": "Male",
-        "confidence": "0.80",
-        "evidence": "Participant's language and discussion of management roles are consistent with a male profile."
+        "confidence": "0.90",
+        "evidence": "Participant's language and interests (gym, body trimmer) are typically associated with male preferences."
       },
       "nationality_background": {
         "value": "USA",
         "confidence": "0.70",
-        "evidence": "Location mentioned as Seattle, a major US city."
+        "evidence": "Participant's location is Seattle, USA. This is the most plausible assumption."
       },
       "location": {
-        "value": "Seattle, WA",
+        "value": "Seattle, USA",
         "confidence": "1.00",
-        "evidence": "Explicitly stated: \"I live in Seattle.\""
+        "evidence": "Participant explicitly states 'I live in Seattle'."
       },
       "living_situation": {
         "value": "Living Alone",
-        "confidence": "0.90",
-        "evidence": "States: \"I rented an apartment and I work for [ORG_MASKED]. So basically do some AI models to improve his shopping business. I just live by myself.\""
+        "confidence": "0.95",
+        "evidence": "Participant states 'I just live by myself'."
       },
       "occupation": {
-        "value": "AI Model Improvement Specialist / Project Manager",
+        "value": "AI Model Engineer",
         "confidence": "0.95",
-        "evidence": "Works for [ORG_MASKED] improving AI models.  Takes on a new role as a manager, managing customer engagement and team resources."
+        "evidence": "Participant works for [ORG_MASKED] improving AI models for a shopping business, mentions roadmap, resource planning and customer engagement."
       },
       "education": {
-        "value": "Bachelor's Degree or Equivalent",
-        "confidence": "0.60",
-        "evidence": "References technical reports and papers suggesting a technical background, likely necessitating a higher education level."
+        "value": "Bachelor’s Degree (Likely Computer Science)",
+        "confidence": "0.70",
+        "evidence": "Participant's work involves AI models and technical reports, suggesting a background in technical fields."
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Improve AI models, contribute to team success, maintain technical expertise, achieve professional growth, improve business performance",
-        "confidence": "0.90",
-        "evidence": "References roadmap planning, resource management, customer alignment, and innovation.  Desire to provide guidance for the team's next direction."
+        "value": "Improve AI models to increase shopping business revenue, stay up-to-date on technical advancements, manage a team effectively, balance work and personal life.",
+        "confidence": "0.85",
+        "evidence": "Interview transcript reveals focus on project planning, team management, customer engagement, innovation, and fitness."
       },
       "interests": {
         "value": [
           "AI",
           "Machine Learning",
           "Technical Innovation",
-          "Project Management",
-          "Gym",
-          "Piano"
+          "Fitness",
+          "Shopping",
+          "Cats"
         ],
-        "confidence": "0.80",
-        "evidence": "References AI models, technical reports, customer feedback, gym visits, and playing the piano."
+        "confidence": "0.90",
+        "evidence": "References to AI models, technical reports, gym, body trimmer, and cats throughout the transcript."
       },
       "values": {
         "value": [
@@ -67,35 +67,35 @@
           "Quality",
           "Customer Satisfaction",
           "Innovation",
-          "Teamwork"
+          "Health"
         ],
-        "confidence": "0.75",
-        "evidence": "Emphasis on efficient resource planning, ensuring high-quality models, aligning with customer expectations, driving innovation, and collaborating with a team."
+        "confidence": "0.80",
+        "evidence": "Participant’s focus on efficient resource planning, quality products, customer engagement, technological advancements, and fitness suggests these values."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
         "confidence": "0.70",
-        "evidence": "Participant recently purchased items (body trimmer, shoes, calculator, hairdryer) suggests regular shopping activity."
+        "evidence": "Participant buys items like a body trimmer and slippers, indicating regular shopping behavior."
       },
       "where_used_devices": {
         "value": [
           "Smartphone",
-          "Tablet"
+          "Laptop"
         ],
-        "confidence": "0.85",
-        "evidence": "References using the Amazon app and searching for products on the web."
+        "confidence": "0.95",
+        "evidence": "Participant uses the Amazon app and searches using ChatGPT, indicating smartphone use. Also mentions reviewing technical reports."
       },
       "search_style_best_vs_first": {
-        "value": "First",
-        "confidence": "0.75",
-        "evidence": "States: \"I just so I get a recommendation from chat GPT...\" and \"I choose one with the quickest delivery, and the the highest number of purchases.\""
+        "value": "First Product",
+        "confidence": "0.60",
+        "evidence": "Participant’s reliance on recommendations from ChatGPT and the highest number of purchases suggests a preference for first product search."
       },
       "price_preference_cheapest_vs_expensive": {
-        "value": "Cheapest",
-        "confidence": "0.60",
-        "evidence": "Prioritizes quickest delivery and highest number of purchases, which are often associated with lower prices."
+        "value": "Cheapest Product",
+        "confidence": "0.50",
+        "evidence": "Participant's priority of delivery speed and high purchase numbers suggests a focus on cost-effective options."
       },
       "decision_factors": {
         "value": [
@@ -103,25 +103,25 @@
           "Purchase Number",
           "Rating",
           "Functionality",
-          "Appearance (for certain items)"
+          "Appearance"
         ],
-        "confidence": "0.90",
-        "evidence": "Expressly states prioritizing delivery speed and purchase number.  Also considers rating and appearance based on the product category."
+        "confidence": "0.85",
+        "evidence": "Participant explicitly states these factors influence purchasing decisions for different item categories."
       },
       "preferred_categories": {
         "value": [
-          "AI Models",
-          "Fitness Equipment",
-          "Fashion",
-          "Electronics"
+          "Beauty & Personal Care",
+          "Electronics",
+          "Shoes",
+          "Fashion"
         ],
-        "confidence": "0.80",
-        "evidence": "Purchases body trimmer, shoes, calculator, hairdryer indicating interest in these categories."
+        "confidence": "0.70",
+        "evidence": "Purchase of a body trimmer, slippers, a calculator, and hair dryer indicate an interest in these categories."
       },
       "pain_points_and_or_challenges": {
-        "value": "Resource allocation, communication with stakeholders, managing expectations, technical challenges related to infrastructure access",
-        "confidence": "0.85",
-        "evidence": "Discusses roadmap planning, resource planning, communication with customers and senior leaders, managing infrastructure access for model training."
+        "value": "Delays in training stability, communication challenges with engineering teams, managing team expectations.",
+        "confidence": "0.90",
+        "evidence": "Participant describes challenges related to training system stability, communication with engineering teams, and managing team expectations."
       }
     }
   }

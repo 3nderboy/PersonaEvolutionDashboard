@@ -3,124 +3,126 @@
   "profile": {
     "title": {
       "user_name": "PhD Student - Alex",
-      "two_word_summary": "Tech Enthusiast Researcher",
-      "confidence_overall": "0.95"
+      "two_word_summary": "Tech-Savvy Researcher",
+      "confidence_overall": "0.85"
     },
     "demographics": {
       "age_range": {
         "value": "25-34",
-        "confidence": "0.98",
-        "evidence": "Participant stated studying as a PhD student, aligning with this age range."
+        "confidence": "0.95",
+        "evidence": "Participant explicitly states 'PhD student' and references 'typical day' suggesting an age range common for doctoral candidates."
       },
       "gender": {
         "value": "Male",
-        "confidence": "0.85",
-        "evidence": "Participant's language and interests align with typical male interests and behaviors."
+        "confidence": "0.60",
+        "evidence": "No direct indication of gender in the transcript."
       },
       "nationality_background": {
         "value": "USA",
-        "confidence": "0.90",
-        "evidence": "Participant lives in Blacksburg, Virginia - a predominantly American location."
+        "confidence": "0.75",
+        "evidence": "Participant lives in Blacksburg, Virginia – a location within the United States."
       },
       "location": {
         "value": "Blacksburg, Virginia",
         "confidence": "1.00",
-        "evidence": "Explicitly stated in the transcript."
+        "evidence": "Participant states 'I live in Blacksburg, Virginia.'"
       },
       "living_situation": {
         "value": "Living Alone",
-        "confidence": "1.00",
-        "evidence": "Participant states \"I'm studying computer science machine learning. And I live by myself.\""
+        "confidence": "0.90",
+        "evidence": "Participant states 'I'm studying computer science machine learning. And I live by myself.'"
       },
       "occupation": {
         "value": "PhD Student (Computer Science/Machine Learning)",
         "confidence": "1.00",
-        "evidence": "Explicitly stated in the transcript."
+        "evidence": "Participant explicitly states 'PhD student' and details their field of study."
       },
       "education": {
         "value": "PhD",
         "confidence": "1.00",
-        "evidence": "Explicitly stated in the transcript."
+        "evidence": "Participant explicitly states 'PhD student.'"
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Pursuing advanced knowledge in computer science, personal development through learning and fitness, exploring new technologies and experiences.",
-        "confidence": "0.90",
-        "evidence": "Statements about studying machine learning, working out, and exploring new places and activities."
+        "value": "To advance knowledge in computer science through research and publication, maintain a healthy work-life balance with personal interests and fitness.",
+        "confidence": "0.80",
+        "evidence": "Participant describes a structured daily routine including research, meetings, gym workouts, and cooking.  Expresses a desire to 'deepen their understanding' and acknowledges 'new challenges'."
       },
       "interests": {
         "value": [
           "Machine Learning",
-          "Computer Science",
+          "Coding",
           "Cycling",
           "Hiking",
           "Cat Care",
           "Reading",
-          "Fitness"
+          "Shopping (specifically Nail Polish)"
         ],
-        "confidence": "0.95",
-        "evidence": "Explicitly stated interests during the interview including hobbies, academic fields and products."
+        "confidence": "0.70",
+        "evidence": "Participant mentions 'computer science machine learning', discusses coding extensively, references cycling and hiking, and describes purchasing cat-related items. Also mentions reading and shopping."
       },
       "values": {
         "value": [
-          "Knowledge",
-          "Continuous Learning",
+          "Intellectual Curiosity",
           "Self-Improvement",
-          "Efficiency",
+          "Work-Life Balance",
+          "Quality",
           "Community (friends)"
         ],
-        "confidence": "0.85",
-        "evidence": "Participant's desire to 'deepen understanding', interest in new technologies, workout routine and social activities with friends."
+        "confidence": "0.65",
+        "evidence": "Participant's desire to 'know something behind that' (research), constantly seeking 'new things', and balancing work with fitness and social activities suggest these values."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
         "confidence": "0.75",
-        "evidence": "Participant frequently shops for cat supplies and occasionally for personal items like nail polish, suggesting a regular shopping pattern."
+        "evidence": "Participant frequently purchases items for both personal use (food, gym) and pet care, suggesting regular shopping habits."
       },
       "where_used_devices": {
         "value": [
-          "Desktop",
-          "Smartphone"
+          "Smartphone",
+          "Desktop"
         ],
         "confidence": "0.90",
-        "evidence": "Participant refers to 'packing the food to the lab' (laptop), mentions searching for items online, and ordering products on Amazon."
+        "evidence": "Participant engages in online shopping and research primarily on Amazon, utilizing a desktop computer for complex tasks and a smartphone for quick purchases."
       },
       "search_style_best_vs_first": {
-        "value": "First Product",
-        "confidence": "0.80",
-        "evidence": "Participant states, 'I just ordered it immediately' when seeing a discounted product on Amazon."
+        "value": "Best Product / First Product",
+        "confidence": "0.50",
+        "evidence": "Participant frequently states 'I want to know is this good', suggesting a preference for finding the 'best' or 'first' product."
       },
       "price_preference_cheapest_vs_expensive": {
         "value": "Cheapest Product",
-        "confidence": "0.60",
-        "evidence": "Participant explicitly mentions comparing prices and choosing the most affordable option."
+        "confidence": "0.40",
+        "evidence": "Participant explicitly states they 'compare the price' and choose the 'cheapest product' when available."
       },
       "decision_factors": {
         "value": [
           "Product Quality",
           "Shipping Speed",
+          "Brand Reputation",
           "Price",
-          "Brand Reputation (for cat products)"
+          "Reviews (especially with images)"
         ],
-        "confidence": "0.90",
-        "evidence": "Participant's responses consistently highlight these factors when making purchasing decisions."
+        "confidence": "0.85",
+        "evidence": "Participant repeatedly emphasizes product quality, shipping speed, and relies heavily on reviews with images to make purchasing decisions."
       },
       "preferred_categories": {
         "value": [
-          "Electronics (Computer Science)",
-          "Pet Supplies (Cat Care)",
-          "Beauty (Nail Polish)"
+          "Electronics (Computer Science Tools)",
+          "Pet Supplies",
+          "Beauty/Cosmetics (Nail Polish)",
+          "Fitness Equipment"
         ],
-        "confidence": "0.95",
-        "evidence": "Participant's shopping history includes products within these categories."
+        "confidence": "0.70",
+        "evidence": "Participant purchases cat food and toys, nail polish, and references fitness equipment, indicating these categories are of interest."
       },
       "pain_points_and_or_challenges": {
-        "value": "Slow Shipping, Product Availability, Distrust of Sponsored Products",
-        "confidence": "0.95",
-        "evidence": "Participant's frustration with shipping times, difficulty finding products in stores, and skepticism towards sponsored ads are repeatedly expressed."
+        "value": "Slow Shipping, Lack of Availability in Local Stores, Difficulty Evaluating Sponsored Products",
+        "confidence": "0.80",
+        "evidence": "Participant expresses frustration with slow shipping times and difficulties finding products available locally.  Also highlights concerns about sponsored product credibility."
       }
     }
   }

@@ -1,6 +1,6 @@
 """
-Cluster Persona Extraction Script
-Generates cluster-level persona profiles by synthesizing individual user profiles using LLM.
+Cluster Proto-Persona Extraction Script
+Generates cluster-level proto-personas (hypotheses) by synthesizing individual user profiles using LLM.
 
 Usage:
     python extract_personas.py                            # Use Ollama (default)
@@ -9,6 +9,7 @@ Usage:
 """
 
 import argparse
+import time
 from datetime import datetime
 from collections import defaultdict
 from pathlib import Path
@@ -223,10 +224,12 @@ def main():
         action="store_true",
         help="Regenerate even if already processed",
     )
+
+
     args = parser.parse_args()
 
     log = Logger("extract_personas")
-    log.header("Cluster Persona Generation")
+    log.header("Cluster Proto-Persona Generation")
 
     # Step 1: Initialize
     log.step(1, "Initializing")
@@ -234,7 +237,7 @@ def main():
     log.info(f"Provider: {args.provider.upper()} ({client.model_name})")
 
     base_prompt = load_prompt()
-    log.success("Prompt loaded")
+    log.success("Prompt: Socratic Persona Expert")
 
     # Step 2: Load data
     log.step(2, "Loading data")
@@ -270,10 +273,12 @@ def main():
         return
 
     # Step 3: Generate personas
-    log.step(3, "Generating personas")
+    log.step(3, "Generating Proto-Personas (Hypotheses)")
     errors = []
     processed = 0
     current = 0
+    extraction_times = []
+    start_time = time.time()
 
     for month, clusters in grouped.items():
         for cluster_id, cluster_sessions in clusters.items():
@@ -281,8 +286,8 @@ def main():
                 continue
 
             current += 1
-            cluster_name = cluster_meta.get(cluster_id, {}).get("name", f"C{cluster_id}")
-            log.progress(current, to_process, f"{month[:7]} {cluster_name}")
+            # Use Cluster ID in progress bar to avoid long names
+            log.progress(current, to_process, f"{month[:7]} Cluster {cluster_id}")
 
             try:
                 meta = cluster_meta.get(cluster_id, {})
@@ -297,14 +302,16 @@ def main():
                 user_profiles_text = format_user_profiles(profiles)
                 cluster_name = meta.get("name", f"Cluster {cluster_id}")
 
-                prompt = base_prompt.format(
-                    cluster_name=cluster_name,
-                    cluster_info=cluster_info,
-                    user_profiles=user_profiles_text,
-                    user_count=user_count,
-                )
+                prompt = base_prompt.replace("{cluster_name}", cluster_name)
+                prompt = prompt.replace("{cluster_info}", cluster_info)
+                prompt = prompt.replace("{user_profiles}", user_profiles_text)
+                prompt = prompt.replace("{user_count}", str(user_count))
 
+                cluster_start = time.time()
+                # Extract persona
                 persona = client.extract(prompt, ClusterPersona)
+                elapsed = time.time() - cluster_start
+                extraction_times.append(elapsed)
 
                 save_cluster_persona(
                     month=month,
@@ -315,6 +322,8 @@ def main():
                     source_users=profiles,
                 )
 
+                # Show full name in detail log
+                log.detail(f"  → {cluster_name}", f"{elapsed:.1f}s")
                 processed += 1
 
             except KeyboardInterrupt:
@@ -334,7 +343,10 @@ def main():
         write_json(error_log, errors)
         log.warning(f"Errors logged to {error_log.name}")
 
+    total_time = time.time() - start_time
+    avg_time = sum(extraction_times) / len(extraction_times) if extraction_times else 0
     log.summary(processed=processed, skipped=already_done, errors=len(errors))
+    log.info(f"Total time: {total_time:.1f}s (avg {avg_time:.1f}s/cluster)")
 
 
 if __name__ == "__main__":

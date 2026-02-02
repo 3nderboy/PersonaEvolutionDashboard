@@ -3,111 +3,109 @@
   "profile": {
     "title": {
       "user_name": "PhD Student",
-      "two_word_summary": "Tech-savvy Student",
-      "confidence_overall": "0.90"
+      "two_word_summary": "Tech-savvy Researcher",
+      "confidence_overall": "0.95"
     },
     "demographics": {
       "age_range": {
         "value": "25-35",
-        "confidence": "0.95",
-        "evidence": "Participant states they are a 1st year Phd student."
+        "confidence": "0.90",
+        "evidence": "Participant states they are a 1st year Ph.D. student, which aligns with this age range."
       },
       "gender": {
         "value": "Male",
-        "confidence": "0.90",
-        "evidence": "Implied based on common Phd student demographics."
+        "confidence": "0.85",
+        "evidence": "Based on language and self-description, assumed male."
       },
       "nationality_background": {
         "value": "USA",
-        "confidence": "0.80",
-        "evidence": "Participant lives in Boston."
+        "confidence": "0.95",
+        "evidence": "Participant lives in Boston, a major US city."
       },
       "location": {
-        "value": "Boston",
+        "value": "Boston, MA",
         "confidence": "1.00",
-        "evidence": "Explicitly stated."
+        "evidence": "Explicitly stated in the transcript."
       },
       "living_situation": {
         "value": "With Roommates",
         "confidence": "1.00",
-        "evidence": "Explicitly stated."
+        "evidence": "Explicitly stated in the transcript."
       },
       "occupation": {
-        "value": "Phd Student (Computer Science)",
+        "value": "Ph.D. Student (Computer Science - NLP)",
         "confidence": "1.00",
-        "evidence": "Explicitly stated."
+        "evidence": "Multiple explicit statements about being a Ph.D. student in Computer Science, specializing in Natural Language Processing and Large Language Model Agents."
       },
       "education": {
-        "value": "Phd Student",
+        "value": "Ph.D.",
         "confidence": "1.00",
-        "evidence": "Explicitly stated."
+        "evidence": "Explicitly stated in the transcript."
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Achieving a Phd degree, maintaining health for his cat, personal fulfillment, exploring natural language processing and large language models",
-        "confidence": "0.85",
-        "evidence": "Participant states 'I want to make my dream come true', 'keep her stay healthy', 'focus on work', and expresses interest in NLP and LLMs."
+        "value": "Achieving a Ph.D. in NLP, advancing research in large language models, and potentially a career in academia or industry.",
+        "confidence": "0.90",
+        "evidence": "Participant expresses a clear goal-oriented nature and a desire to ‘make their dream come true’ related to their Ph.D. research."
       },
       "interests": {
         "value": [
           "Natural Language Processing",
           "Large Language Models",
+          "Coding",
           "Cats",
           "Board Games",
-          "Technology (GPU, Cables)",
           "Brunch"
         ],
-        "confidence": "0.90",
-        "evidence": "Explicitly stated interests: NLP, LLMs, cats, board games, and specific tech items. Also, mentions liking brunch."
+        "confidence": "0.85",
+        "evidence": "Explicitly stated interests throughout the transcript."
       },
       "values": {
         "value": [
-          "Reliability",
-          "Health",
           "Efficiency",
-          "Cost-Effectiveness",
-          "Convenience",
-          "Brand Reputation"
+          "Accuracy",
+          "Learning",
+          "Comfort",
+          "Value for Money"
         ],
-        "confidence": "0.75",
-        "evidence": "Prioritizes trusted brands, focuses on product health and performance, considers price and ranks, and values convenience (subscription)."
+        "confidence": "0.80",
+        "evidence": "Inferred values based on decisions related to cat food (focus on health and low fat percentage), electronics (brand and price), and daily necessities (familiar brands and cheapest options)."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
-        "confidence": "0.70",
-        "evidence": "Participant regularly purchases necessities (paper, tissues, floss) and electronics, suggesting a weekly or bi-monthly shopping pattern."
+        "confidence": "0.75",
+        "evidence": "Participant purchases cat food every 2 months (scheduled delivery) and electronics/daily necessities periodically."
       },
       "where_used_devices": {
         "value": [
           "Smartphone",
           "Desktop"
         ],
-        "confidence": "0.95",
-        "evidence": "Participant uses screen sharing on a smartphone and later mentions a desktop for research."
+        "confidence": "0.90",
+        "evidence": "Participant uses a screen-sharing feature to answer questions and describes searching for information on social media and Amazon using a desktop device."
       },
       "search_style_best_vs_first": {
         "value": "First",
-        "confidence": "0.60",
-        "evidence": "Participant typically searches for 'best' products, but when researching cat food, he evaluates multiple options based on rankings and reviews."
+        "confidence": "0.80",
+        "evidence": "Participant primarily relies on ranking scores and reviews to make purchasing decisions, indicating a ‘first’ search approach."
       },
       "price_preference_cheapest_vs_expensive": {
         "value": "Cheapest",
         "confidence": "0.70",
-        "evidence": "Frequently chooses the cheapest options for cables and daily necessities.  Also, looks for discounts on subscriptions."
+        "evidence": "Participant consistently prioritizes the lowest prices within acceptable quality parameters, particularly for electronics and daily necessities."
       },
       "decision_factors": {
         "value": [
           "Brand Reputation",
           "Price",
-          "Ranking Scores",
-          "Reviews",
-          "Product Features"
+          "Product Reviews",
+          "Ingredients (for cat food)"
         ],
-        "confidence": "0.80",
-        "evidence": "Explicitly states that brand and price are important, and mentions reviewing rankings and reads reviews when purchasing expensive items."
+        "confidence": "0.95",
+        "evidence": "Participant explicitly states these as key factors in their purchasing decisions."
       },
       "preferred_categories": {
         "value": [
@@ -116,12 +114,12 @@
           "Daily Necessities"
         ],
         "confidence": "1.00",
-        "evidence": "Explicitly states purchases in these categories."
+        "evidence": "Participant purchases items within these categories."
       },
       "pain_points_and_or_challenges": {
-        "value": "Time spent researching products, potential for subscription overspending",
+        "value": "Time spent researching, ensuring product quality, and balancing budget constraints.",
         "confidence": "0.85",
-        "evidence": "Expresses a desire to minimize time spent shopping and is cautious about subscription models."
+        "evidence": "Participant's preference for quick research and consideration of ranking scores and reviews reflects a desire to minimize time spent on shopping."
       }
     }
   }

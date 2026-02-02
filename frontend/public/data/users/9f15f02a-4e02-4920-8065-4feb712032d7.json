@@ -4,77 +4,76 @@
     "title": {
       "user_name": "Postdoc Researcher",
       "two_word_summary": "Tech Researcher",
-      "confidence_overall": "0.90"
+      "confidence_overall": "0.95"
     },
     "demographics": {
       "age_range": {
         "value": "30-35",
-        "confidence": "0.95",
-        "evidence": "Participant stated 'I forgot when the study started.' Implies age range of 30-35."
+        "confidence": "0.90",
+        "evidence": "Participant mentions recent online shopping experiences (2-6 months) and describes a daily budget, suggesting an adult demographic."
       },
       "gender": {
         "value": "Male",
-        "confidence": "0.80",
-        "evidence": "Contextual - male pronouns used throughout the interview."
+        "confidence": "0.85",
+        "evidence": "Participant’s language and responses align with typical male purchasing behaviors and preferences (e.g., focusing on functionality, efficiency, and problem-solving)."
       },
       "nationality_background": {
         "value": "USA",
-        "confidence": "0.90",
-        "evidence": "Participant lived in California and Canada, suggesting a US background."
+        "confidence": "0.95",
+        "evidence": "Participant lives in California and discusses spending habits and online shopping."
       },
       "location": {
         "value": "Santa Barbara, California",
         "confidence": "1.00",
-        "evidence": "Explicitly stated 'Santa Barbara.'"
+        "evidence": "Explicitly stated in the transcript."
       },
       "living_situation": {
         "value": "With Roommate",
         "confidence": "1.00",
-        "evidence": "Participant stated 'I have roommate.'"
+        "evidence": "Explicitly stated in the transcript."
       },
       "occupation": {
         "value": "Postdoc Researcher in Computer Science",
         "confidence": "1.00",
-        "evidence": "Explicitly stated 'postdoc researcher at Santa Barbara in computer science.'"
+        "evidence": "Explicitly stated in the transcript."
       },
       "education": {
-        "value": "Post-Doctoral Degree",
-        "confidence": "0.95",
-        "evidence": "Participant's title 'Postdoc Researcher'."
+        "value": "Master's Degree or Ph.D.",
+        "confidence": "0.80",
+        "evidence": "Role as a Postdoc Researcher suggests a higher education level."
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "To efficiently manage research projects, maintain an organized home environment, and explore new technologies.",
-        "confidence": "0.75",
-        "evidence": "Participant's desire to 'finish work as soon as possible based on my plan and deadlines,' interest in cat products, and daily budget management."
+        "value": "Organized and efficient shopping, managing budget, seeking functional and practical solutions for daily needs.",
+        "confidence": "0.90",
+        "evidence": "Participant’s reasons for buying a shoe rack (reducing clutter), daily budget, and focus on relevant product features indicate these motivations."
       },
       "interests": {
         "value": [
-          "Computer Science",
-          "Cat Care",
-          "Electronics",
-          "TV Series"
+          "Technology",
+          "Cats",
+          "Electronics"
         ],
         "confidence": "0.85",
-        "evidence": "Participant's occupation, purchases of cat products, and mentions of watching TV series."
+        "evidence": "Participant’s work as a computer science researcher, purchase of cat supplies, and electronics (earphones) indicate these interests."
       },
       "values": {
         "value": [
           "Efficiency",
-          "Organization",
+          "Functionality",
           "Value for Money",
-          "Relaxation"
+          "Organization"
         ],
-        "confidence": "0.70",
-        "evidence": "Participant's focus on finishing work quickly, managing a daily budget, preference for inexpensive products, and desire for relaxation."
+        "confidence": "0.80",
+        "evidence": "Participant’s emphasis on practical considerations (shoe rack, daily budget, reviewing reviews) reflects these values."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
-        "confidence": "0.80",
-        "evidence": "Participant's purchases of cat products and electronics suggest regular shopping."
+        "confidence": "0.75",
+        "evidence": "Participant shops online for smaller items like catnip and earphones, suggesting regular purchases."
       },
       "where_used_devices": {
         "value": [
@@ -82,40 +81,41 @@
           "Desktop"
         ],
         "confidence": "0.90",
-        "evidence": "Participant uses Amazon on a smartphone and likely a desktop for research and purchase decisions."
+        "evidence": "Participant uses Amazon primarily on a smartphone, with occasional desktop browsing."
       },
       "search_style_best_vs_first": {
-        "value": "Best Product / First Product",
-        "confidence": "0.75",
-        "evidence": "Participant narrows down options on Amazon's first page."
+        "value": "Best Product",
+        "confidence": "0.80",
+        "evidence": "Participant explicitly states he looks for the 'best product' based on requirements and reviews."
       },
       "price_preference_cheapest_vs_expensive": {
         "value": "Cheapest Product",
         "confidence": "0.60",
-        "evidence": "Participant's focus on managing a daily budget suggests preference for finding the most affordable options."
+        "evidence": "Participant mentions having a daily budget and prioritizes affordability."
       },
       "decision_factors": {
         "value": [
           "Price",
+          "Functionality",
           "Reviews",
-          "Functionality"
+          "Unique Features"
         ],
-        "confidence": "0.85",
-        "evidence": "Participant's criteria for purchasing a shoe rack (difficulty of construction and price) and for cat food (reviews) demonstrates these factors."
+        "confidence": "0.95",
+        "evidence": "Participant’s responses consistently highlight these factors as influencing his purchase decisions."
       },
       "preferred_categories": {
         "value": [
           "Electronics",
           "Pet Supplies",
-          "Home Goods"
+          "Home Organization"
         ],
-        "confidence": "0.90",
-        "evidence": "Participant’s purchases of earphones, cat food, and a shoe rack."
+        "confidence": "0.85",
+        "evidence": "Participant’s purchases of earphones, cat food, and a shoe rack align with these categories."
       },
       "pain_points_and_or_challenges": {
-        "value": "Maintaining an organized home and managing spending.",
-        "confidence": "0.95",
-        "evidence": "Participant's motivation for buying a shoe rack and his daily budget management directly address these pain points."
+        "value": "Cluttered spaces, managing budget, finding reliable information.",
+        "confidence": "0.90",
+        "evidence": "Participant’s reasons for buying the shoe rack and daily budget reflect these pain points."
       }
     }
   }

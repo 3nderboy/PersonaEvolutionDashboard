@@ -10,115 +10,114 @@
       "age_range": {
         "value": "25-34",
         "confidence": "0.95",
-        "evidence": "Participant lives in Jersey City, suggests a graduate student age range."
+        "evidence": "Participant's description of being a graduate student suggests an age range of 25-34."
       },
       "gender": {
         "value": "Male",
         "confidence": "0.60",
-        "evidence": "Implied by interests in games and shopping."
+        "evidence": "No explicit information provided to determine gender."
       },
       "nationality_background": {
         "value": "USA",
         "confidence": "0.90",
-        "evidence": "Living in New Jersey, mention of coming to the United States."
+        "evidence": "Participant lives in New Jersey, USA."
       },
       "location": {
         "value": "Jersey City, New Jersey",
         "confidence": "1.00",
-        "evidence": "Direct statement."
+        "evidence": "Participant states they live in Jersey City, New Jersey."
       },
       "living_situation": {
         "value": "With Roommates",
         "confidence": "1.00",
-        "evidence": "Direct statement."
+        "evidence": "Participant states they live with 2 roommates."
       },
       "occupation": {
-        "value": "Graduate Student (Public Administration)",
+        "value": "Graduate Student",
         "confidence": "1.00",
-        "evidence": "Direct statement and detailed description."
+        "evidence": "Participant identifies as a graduate student in public administration."
       },
       "education": {
         "value": "Master's Degree",
         "confidence": "0.80",
-        "evidence": "Participant states he is a graduate student specializing in financial management and public finance."
+        "evidence": "Participant is specializing in financial management and public finance, suggesting a Master's degree level."
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Achieving financial stability and pursuing a career in public administration.",
+        "value": "Acquiring goods and services for daily life and potentially for personal enjoyment (e.g., gaming, entertainment).",
         "confidence": "0.75",
-        "evidence": "Specialization in financial management and public finance."
+        "evidence": "Participant mentions buying groceries, goods, fish oil, furniture, and entertainment items (movies). Also, expresses enjoyment of computer games."
       },
       "interests": {
         "value": [
           "Computer Games",
-          "Shopping (Online)",
+          "Shopping",
           "Movies",
-          "Central Park"
+          "Public Administration",
+          "Financial Management"
         ],
-        "confidence": "0.90",
-        "evidence": "Direct statements regarding these activities."
+        "confidence": "0.85",
+        "evidence": "Participant states they play computer games, shop online, watch movies, and studies public administration and financial management."
       },
       "values": {
         "value": [
           "Quality",
           "Price",
-          "Brand",
-          "Durability"
+          "Brand"
         ],
-        "confidence": "0.85",
-        "evidence": "Expresses prioritizing these factors when making purchases."
+        "confidence": "0.90",
+        "evidence": "Participant explicitly states importance of ‘quality, Brent and writes’ when purchasing goods and prioritizes ‘price and brand’ for furniture purchases."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
-        "confidence": "0.70",
-        "evidence": "Shopping for groceries and other necessities suggests weekly purchases."
+        "confidence": "0.60",
+        "evidence": "Participant purchases items like fish oil and laundry sanitizer, suggesting regular replenishment of necessities."
       },
       "where_used_devices": {
         "value": [
           "Smartphone",
           "Desktop"
         ],
-        "confidence": "0.95",
-        "evidence": "Uses Excel on a desktop and likely utilizes a smartphone for online shopping."
+        "confidence": "0.80",
+        "evidence": "Participant uses excel on a desktop and likely uses a smartphone for shopping and browsing."
       },
       "search_style_best_vs_first": {
-        "value": "Best Product / First Product",
-        "confidence": "0.60",
-        "evidence": "Implied by examining search results and ratings."
+        "value": "Best Product",
+        "confidence": "0.70",
+        "evidence": "Participant states they filter to one-star reviews to find the ‘best’ products."
       },
       "price_preference_cheapest_vs_expensive": {
         "value": "Cheapest Product",
-        "confidence": "0.70",
-        "evidence": "Prioritizes price when considering purchases."
+        "confidence": "0.50",
+        "evidence": "Participant’s focus on price and rating aligns with a preference for the cheapest product."
       },
       "decision_factors": {
         "value": [
           "Price",
           "Brand",
           "Quality",
-          "Ratings",
           "Reviews"
         ],
-        "confidence": "0.90",
-        "evidence": "Explicitly states these factors influence decisions."
+        "confidence": "0.95",
+        "evidence": "Participant repeatedly emphasizes price, brand, quality, and reviews as key factors in their purchase decisions."
       },
       "preferred_categories": {
         "value": [
-          "Furniture",
           "Household Goods",
-          "Food & Beverage",
-          "Health & Wellness (vitamins)"
+          "Health & Wellness",
+          "Furniture",
+          "Electronics"
         ],
         "confidence": "0.80",
-        "evidence": "Purchases of furniture, fish oil, and daily necessities."
+        "evidence": "Participant purchases laundry sanitizer, dry whole milk, fish oil, vitamins, and furniture."
       },
       "pain_points_and_or_challenges": {
-        "value": "Concerned with product durability and negative reviews.",
-        "confidence": "0.85",
-        "evidence": "Actively seeks reviews to assess durability and reacts negatively to high percentages of negative reviews."
+        "value": "Ensuring product quality and durability, finding reliable information to inform purchase decisions.",
+        "confidence": "0.70",
+        "evidence": "Participant frequently checks reviews and looks for durable products."
       }
     }
   }

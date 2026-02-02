@@ -3,122 +3,123 @@
   "profile": {
     "title": {
       "user_name": "Participant",
-      "two_word_summary": "Tech Professor",
-      "confidence_overall": "0.95"
+      "two_word_summary": "Tech Educator Relaxed",
+      "confidence_overall": "0.85"
     },
     "demographics": {
       "age_range": {
-        "value": "35-54",
-        "confidence": "0.90",
-        "evidence": "Participant's occupation as an assistant professor suggests an age range of 35-54."
+        "value": "35-44",
+        "confidence": "0.95",
+        "evidence": "Participant describes a teaching role at a university, implying an age range common for assistant professors."
       },
       "gender": {
         "value": "Male",
-        "confidence": "0.85",
-        "evidence": "Participant's language and references to activities like 'watching Tvs chatting with friends' aligns with a male profile."
+        "confidence": "0.90",
+        "evidence": "Participant's language and descriptions align with a male perspective."
       },
       "nationality_background": {
         "value": "Russian",
         "confidence": "0.70",
-        "evidence": "Participant states 'I'm Russian, maybe more Russian in this case.'"
+        "evidence": "Participant states ‘I’m Russian, maybe more Russian in this case.’"
       },
       "location": {
         "value": "Allendale, Michigan",
         "confidence": "1.00",
-        "evidence": "Participant explicitly states 'I live in Allendale, Michigan.'"
+        "evidence": "Participant explicitly states ‘I live in Allendale, Michigan.’"
       },
       "living_situation": {
         "value": "Living Alone",
-        "confidence": "0.95",
-        "evidence": "Participant states 'I live by myself.'"
+        "confidence": "1.00",
+        "evidence": "Participant states ‘I live by myself.’"
       },
       "occupation": {
-        "value": "Assistant Professor - Computer Science",
+        "value": "Assistant Professor (Computer Science)",
         "confidence": "1.00",
-        "evidence": "Participant explicitly states 'I am an assistant professor in [ORG_MASKED] University. So I teach computer science.'"
+        "evidence": "Participant directly states ‘I am an assistant professor in [ORG_MASKED] University’ and describes teaching computer science."
       },
       "education": {
-        "value": "Master's Degree or Higher",
+        "value": "Master’s Degree or Ph.D.",
         "confidence": "0.80",
-        "evidence": "Holding the position of an assistant professor usually requires a Master's degree or higher."
+        "evidence": "Occupation as an Assistant Professor indicates a doctoral-level education."
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "To create a relaxed learning environment and improve student understanding of computer science.",
-        "confidence": "0.85",
-        "evidence": "Participant states, 'I believe that only, like people like relaxed environment, and the students tend to like watch, relaxed, content instead of if you are very intense, you cannot communicate very well.'"
+        "value": "To create a relaxed learning environment for students, maintain a healthy lifestyle (gym), and explore new products and interests.",
+        "confidence": "0.90",
+        "evidence": "Participant mentions ‘relaxed environment’ and ‘students tend to like watch, relaxed, content,’ ‘work out and I consume protein after workout,’ ‘trying to look at my past.’"
       },
       "interests": {
         "value": [
-          "Computer Science",
-          "Fitness (Gym)",
-          "Technology",
+          "Gym/Fitness",
+          "Technology (Computer Science)",
           "Travel (Texas)",
-          "Home Improvement (Grocery Shopping, DIY Projects)"
+          "Home Improvement (grocery shopping, car maintenance)",
+          "Electronics"
         ],
-        "confidence": "0.75",
-        "evidence": "Participant's occupation and purchasing habits (protein, air compressor, car parts) indicate interests in these areas."
+        "confidence": "0.95",
+        "evidence": "Participant discusses working out and consuming protein, teaching computer science, mentioning a trip to Texas, and purchasing items like car parts, USB cables, and a coffee grinder."
       },
       "values": {
         "value": [
           "Relaxation",
-          "Value-driven Product Choices",
-          "Reliability (Reviews)",
-          "Cost-Effectiveness"
+          "Quality Ingredients",
+          "Value for Money",
+          "Reviews",
+          "Critical Thinking"
         ],
-        "confidence": "0.70",
-        "evidence": "Participant's preference for a 'relaxed environment,' attention to reviews, and considering price demonstrate these values."
+        "confidence": "0.85",
+        "evidence": "Participant prioritizes ‘relaxed environment,’ ‘ingredients’ as the most important factor when buying protein, states ‘price is also important,’ values ‘reviews’ and ‘critical thinking’ when evaluating products."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
-        "confidence": "0.70",
-        "evidence": "Participant recently purchased protein and mentioned a need for car parts, suggesting regular purchasing habits."
+        "confidence": "0.75",
+        "evidence": "Participant recently purchased protein and car parts, suggesting regular online purchases."
       },
       "where_used_devices": {
         "value": [
           "Smartphone",
-          "Desktop"
+          "Tablet"
         ],
         "confidence": "0.80",
-        "evidence": "Participant uses Amazon on a smartphone and mentions searching on a desktop."
+        "evidence": "Participant conducts online research and makes purchases using a smartphone and tablet."
       },
       "search_style_best_vs_first": {
-        "value": "Best Product",
-        "confidence": "0.75",
-        "evidence": "Participant states, 'Look at the ingredients.'"
+        "value": "Best Product / First Product",
+        "confidence": "0.60",
+        "evidence": "Participant indicates a preference for researching and selecting the ‘best’ protein, suggesting a desire for quality and value."
       },
       "price_preference_cheapest_vs_expensive": {
         "value": "Cheapest Product",
-        "confidence": "0.70",
-        "evidence": "Participant explicitly ranks ingredients as the most important factor, followed by price."
+        "confidence": "0.50",
+        "evidence": "Participant states 'If the price is almost the same. it’s just few dollars difference. I will. Still, I can buy.'"
       },
       "decision_factors": {
         "value": [
           "Ingredients",
           "Price",
-          "Brand",
-          "Customer Reviews"
+          "Reviews",
+          "Brand"
         ],
-        "confidence": "1.00",
-        "evidence": "Participant prioritizes these factors when making purchasing decisions."
+        "confidence": "0.95",
+        "evidence": "Participant explicitly ranks ingredients, price, and brand as important factors when purchasing protein, and relies on reviews for other purchases."
       },
       "preferred_categories": {
         "value": [
+          "Sports Nutrition",
           "Electronics",
-          "Sports & Outdoors",
-          "Home & Garden",
-          "Automotive"
+          "Automotive Parts",
+          "Home Goods"
         ],
         "confidence": "0.85",
-        "evidence": "Participant's purchases of a Xiaomi air compressor, car parts, USB cables, and car cover indicate preference for these categories."
+        "evidence": "Participant purchases protein, car parts, USB cables, and a coffee grinder."
       },
       "pain_points_and_or_challenges": {
-        "value": "Concerns about product quality and potential issues with sponsored products.",
-        "confidence": "0.80",
-        "evidence": "Participant's focus on negative reviews and skepticism towards sponsored products reflects a pain point regarding product quality."
+        "value": "Concerns about product quality and reliability, especially when reading negative reviews.",
+        "confidence": "0.90",
+        "evidence": "Participant actively seeks out negative reviews to assess potential issues and prioritizes ‘critical thinking’ when evaluating products."
       }
     }
   }

@@ -25,9 +25,7 @@ USER_CSV = OPERA_DATA_DIR / "filtered_user" / "train.csv"
 # Legacy alias for extract_users.py (uses filtered_user directory)
 DATA_DIR = OPERA_DATA_DIR / "filtered_user"
 
-# =============================================================================
 # OUTPUT PATHS
-# =============================================================================
 # User profiles (LLM extracted)
 USERS_DIR = FRONTEND_DIR / "public" / "data" / "users"
 
@@ -37,26 +35,23 @@ SESSIONS_FILE = PERSONAS_DIR / "sessions.json"
 PERSONAS_FILE = PERSONAS_DIR / "personas.json"
 CLUSTER_PERSONAS_DIR = PERSONAS_DIR / "cluster_personas"
 
-# =============================================================================
 # CLUSTERING CONFIGURATION
-# =============================================================================
 CLUSTER_CONFIG = {
+    # Number of personas to generate (fixed at 5 per NN/g recommendation)
+    # Higher values fragment the audience, lower values lose nuance
     "min_clusters": 5,
     "max_clusters": 5,
+    # Fixed seed for reproducibility - same input always yields same clusters
     "random_state": 42,
 }
 
-# =============================================================================
 # LLM CONFIGURATION
-# =============================================================================
 OLLAMA_URL = os.getenv("OLLAMA_URL", "http://localhost:11434/api/generate")
 OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "gemma3")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
 OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
 
-# =============================================================================
 # PROMPT PATHS
-# =============================================================================
 PROMPTS_DIR = SCRIPT_DIR / "prompts"
 USER_PROFILE_PROMPT = PROMPTS_DIR / "user_profile.txt"
 CLUSTER_PERSONA_PROMPT = PROMPTS_DIR / "cluster_persona.txt"

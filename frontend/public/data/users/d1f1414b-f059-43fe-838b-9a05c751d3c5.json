@@ -2,124 +2,121 @@
   "user_id": "d1f1414b-f059-43fe-838b-9a05c751d3c5",
   "profile": {
     "title": {
-      "user_name": "Student User - Alex",
-      "two_word_summary": "Tech Student Gamer",
+      "user_name": "Participant",
+      "two_word_summary": "Student Shopper",
       "confidence_overall": "0.85"
     },
     "demographics": {
       "age_range": {
-        "value": "19-25",
+        "value": "19-22",
         "confidence": "0.95",
-        "evidence": "Participant stated studying computer science and business, suggesting a student age range."
+        "evidence": "Participant mentions studying computer science and business at a campus, attending extracurricular activities like a Computer Science and Business Club, and experiencing anxiety/depression which aligns with a typical college student age range."
       },
       "gender": {
-        "value": "Male",
-        "confidence": "0.90",
-        "evidence": "Participant's language and interests (golf, club leadership) typically associated with male demographics."
+        "value": "Female",
+        "confidence": "0.70",
+        "evidence": "Participant discusses anxiety and depression, and mentions buying makeup products, which is more commonly associated with female consumers."
       },
       "nationality_background": {
         "value": "USA",
-        "confidence": "0.80",
-        "evidence": "Location of campus (Menlo Park) and common US-centric interests."
+        "confidence": "0.90",
+        "evidence": "References to Menlo Park, California (a location in the USA) and a campus."
       },
       "location": {
-        "value": "Menlo Park, CA",
-        "confidence": "1.00",
-        "evidence": "Explicitly stated location."
+        "value": "Menlo Park, California",
+        "confidence": "0.98",
+        "evidence": "Explicitly states 'I live in Menlo Park.'"
       },
       "living_situation": {
-        "value": "Living with Mom and Roommate",
-        "confidence": "1.00",
-        "evidence": "Directly stated living arrangement."
+        "value": "Living with Family and Roommate",
+        "confidence": "0.95",
+        "evidence": "States 'I live with my mom, and then we also have a spare room in which we rent out to tenants. So I also have a roommate.'"
       },
       "occupation": {
         "value": "Student",
         "confidence": "1.00",
-        "evidence": "Explicitly stated as a student."
+        "evidence": "Explicitly states 'I'm a student... studying computer science and business.'"
       },
       "education": {
-        "value": "Undergraduate - Computer Science & Business",
-        "confidence": "1.00",
-        "evidence": "Explicitly stated academic pursuits."
+        "value": "Undergraduate Degree (Computer Science & Business)",
+        "confidence": "0.90",
+        "evidence": "Details studying computer science and business at a university."
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Achieve academic success, leadership experience, pursue interests (golf, tech), and maintain mental well-being.",
-        "confidence": "0.90",
-        "evidence": "Participant’s proactive attitude, involvement in club leadership, seeking mental health support, and interest in golf."
+        "value": "Achieving academic success, self-improvement (managing anxiety/depression), engaging in extracurricular activities, maintaining a social life (making new friends).",
+        "confidence": "0.80",
+        "evidence": "References to strong academics, proactive behavior, addressing anxiety/depression, club involvement, and making new friends."
       },
       "interests": {
         "value": [
-          "Computer Science",
-          "Business",
           "Golf",
-          "Tech",
-          "Student Club Leadership",
-          "Extracurricular Activities"
+          "Makeup",
+          "Technology (Computer Science)",
+          "Student Club Activities"
         ],
-        "confidence": "0.95",
-        "evidence": "Explicitly stated interests and activities during the interview."
+        "confidence": "0.75",
+        "evidence": "Explicit mentions of golf, makeup, computer science, and involvement in a Computer Science and Business Club."
       },
       "values": {
         "value": [
-          "Proactivity",
-          "Achievement",
-          "Community Involvement",
-          "Emotional Intelligence",
-          "Openness to Feedback"
+          "Reliability (brand preference in skincare)",
+          "Value for Money",
+          "Social Connection",
+          "Self-Care"
         ],
-        "confidence": "0.85",
-        "evidence": "Participant’s self-description as proactive, efforts to improve, and engagement in club activities."
+        "confidence": "0.70",
+        "evidence": "Focus on reliable brands in skincare, budget-conscious purchasing, actively seeking social connection, and proactively addressing mental health (self-care)."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
-        "confidence": "0.70",
-        "evidence": "Recent purchases of makeup, golf balls, and necessities suggest regular shopping frequency."
+        "confidence": "0.60",
+        "evidence": "Participant mentions buying makeup regularly, and golf balls, indicating a weekly or more frequent purchase pattern."
       },
       "where_used_devices": {
         "value": [
           "Smartphone",
           "Desktop"
         ],
-        "confidence": "0.90",
-        "evidence": "Participant uses Amazon on a smartphone and mentions researching products on a desktop."
+        "confidence": "0.85",
+        "evidence": "Participant uses Amazon on a smartphone and likely a desktop computer for research and purchases."
       },
       "search_style_best_vs_first": {
         "value": "Best Product / First Product",
-        "confidence": "0.80",
-        "evidence": "Participant initially focuses on top-rated products and then filters by the best sellers."
+        "confidence": "0.70",
+        "evidence": "Participant often selects the highest-rated products and explicitly prioritizes the first product displayed on Amazon."
       },
       "price_preference_cheapest_vs_expensive": {
         "value": "Cheapest Product",
-        "confidence": "0.60",
-        "evidence": "Participant's statement about a budget of $50 and preference for products that are affordable."
+        "confidence": "0.65",
+        "evidence": "Participant states 'I don't wanna like my budget is not the highest' and often seeks the cheapest product, especially for smaller items like lipstick."
       },
       "decision_factors": {
         "value": [
-          "Reviews",
+          "Reviews (especially negative)",
           "Price",
-          "Brand (for skincare)",
-          "Color (for golf balls)"
+          "Brand Reputation",
+          "Ratings"
         ],
-        "confidence": "0.95",
-        "evidence": "Participant’s detailed review reading, price considerations, brand preference for skincare, and color preference for golf balls."
+        "confidence": "0.90",
+        "evidence": "Participant heavily relies on reviews (especially negative), price, brand reputation, and ratings when making purchase decisions."
       },
       "preferred_categories": {
         "value": [
-          "Makeup",
-          "Golf Supplies",
-          "Everyday Essentials"
+          "Beauty & Personal Care",
+          "Sports & Outdoors (Golf)",
+          "Electronics (Cables)"
         ],
-        "confidence": "0.90",
-        "evidence": "Explicit mentions of these categories during the conversation."
+        "confidence": "0.80",
+        "evidence": "Explicitly purchases makeup and golf balls, and buys cables for electronics."
       },
       "pain_points_and_or_challenges": {
-        "value": "Anxiety, Mild Depression, Finding Community, Potential for Lost Golf Balls",
-        "confidence": "0.80",
-        "evidence": "Participant’s discussion of past mental health challenges, difficulty forming connections, and concern about losing golf balls."
+        "value": "Loss of Golf Balls, Anxiety/Depression, Difficulty Making Friends",
+        "confidence": "0.85",
+        "evidence": "Participant loses golf balls frequently, experiences anxiety and depression, and struggles to make friends initially."
       }
     }
   }

@@ -3,119 +3,122 @@
   "profile": {
     "title": {
       "user_name": "Participant",
-      "two_word_summary": "Student Shopper",
+      "two_word_summary": "Tech Student Shopper",
       "confidence_overall": "0.85"
     },
     "demographics": {
       "age_range": {
-        "value": "23-29",
+        "value": "25-34",
         "confidence": "0.95",
-        "evidence": "Participant mentioned being a master's student."
+        "evidence": "Participant stated living in Los Angeles, attending graduate school, and described their lifestyle, aligning with the typical age range for graduate students."
       },
       "gender": {
-        "value": "Female",
+        "value": "Male",
         "confidence": "0.60",
-        "evidence": "Participant's language and reference to a 'roommate' suggests a female perspective."
+        "evidence": "Participant's language and interests (coding, gaming, photography) align with typical male preferences."
       },
       "nationality_background": {
         "value": "USA",
-        "confidence": "0.99",
-        "evidence": "Participant's location is Los Angeles, and references to common American shopping habits."
+        "confidence": "1.00",
+        "evidence": "Participant's location (Los Angeles), educational institution (Northeastern University), and general references all indicate a US background."
       },
       "location": {
         "value": "Los Angeles, CA",
-        "confidence": "0.99",
-        "evidence": "Explicitly stated in the transcript."
+        "confidence": "1.00",
+        "evidence": "Explicitly stated multiple times in the transcript."
       },
       "living_situation": {
-        "value": "Living with Roommate",
-        "confidence": "0.99",
-        "evidence": "Explicitly stated in the transcript."
+        "value": "With Roommate",
+        "confidence": "1.00",
+        "evidence": "Participant directly states they live with a roommate."
       },
       "occupation": {
-        "value": "Master's Student, Part-time Researcher",
-        "confidence": "0.99",
-        "evidence": "Explicitly stated in the transcript."
+        "value": "Graduate Student / Part-Time AI Developer",
+        "confidence": "0.90",
+        "evidence": "Participant identifies as a Master's student and works as a part-time AI developer."
       },
       "education": {
         "value": "Master's Degree",
-        "confidence": "0.99",
-        "evidence": "Explicitly stated in the transcript."
+        "confidence": "1.00",
+        "evidence": "Participant explicitly states they are a Master's student."
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Practical convenience, travel preparation, personal comfort",
-        "confidence": "0.80",
-        "evidence": "Purchasing a crocs for a Hawaii vacation, buying a dehumidifier for closet, buying an air purifier."
+        "value": "Practicality, Comfort, Supporting Research",
+        "confidence": "0.75",
+        "evidence": "Purchase of crocs driven by vacation needs, interest in durable items, and desire to support their research work."
       },
       "interests": {
         "value": [
+          "Computer Science",
+          "Human-Computer Interaction",
           "Photography",
-          "Technology (coding, AI)",
+          "Gaming",
           "Travel"
         ],
-        "confidence": "0.70",
-        "evidence": "Participant mentions taking pictures, working with coding and AI research, and planning a trip to Hawaii."
+        "confidence": "0.80",
+        "evidence": "Participant’s major (computer science), research area (human-computer interaction), hobbies (photography, gaming), and the reason for buying crocs (Hawaii vacation)."
       },
       "values": {
         "value": [
+          "Efficiency",
+          "Organization",
           "Quality",
-          "Price",
-          "Functionality",
-          "Efficiency"
+          "Practicality"
         ],
-        "confidence": "0.75",
-        "evidence": "Participant's decisions regarding product quality, price sensitivity, and functionality in purchases (crocs, heater, dehumidifier)."
+        "confidence": "0.70",
+        "evidence": "Goal-oriented approach to scheduling, preference for high-quality products, focus on functional needs (air purifier), and desire for efficient shopping (buying from Asian supermarkets)."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
         "confidence": "0.65",
-        "evidence": "Participant purchases items regularly, including electronics and daily necessities."
+        "evidence": "Participant frequently purchases items online, including electronics, daily necessities, and occasionally, more expensive items."
       },
       "where_used_devices": {
         "value": [
           "Smartphone",
           "Desktop"
         ],
-        "confidence": "0.90",
-        "evidence": "Participant primarily uses a smartphone for browsing and purchasing, with occasional desktop use for coding and research."
+        "confidence": "0.95",
+        "evidence": "Participant primarily uses a smartphone and desktop for online shopping and research."
       },
       "search_style_best_vs_first": {
         "value": "First",
-        "confidence": "0.70",
-        "evidence": "Participant initially searches for products on Amazon based on initial impressions and then filters down to a few choices."
+        "confidence": "0.80",
+        "evidence": "Participant stated they initially search for items, then refine their search based on the results."
       },
       "price_preference_cheapest_vs_expensive": {
         "value": "Cheapest Product",
-        "confidence": "0.80",
-        "evidence": "Participant consistently chooses the cheapest available option when purchasing items, particularly for electronics and daily necessities."
+        "confidence": "0.70",
+        "evidence": "Participant actively seeks out the cheapest options, especially when purchasing electronics and daily necessities."
       },
       "decision_factors": {
         "value": [
           "Price",
           "Quality",
           "Functionality",
-          "Reviews (when available)"
+          "Relevance"
         ],
         "confidence": "0.90",
-        "evidence": "Participant explicitly states these factors as being important in their purchasing decisions."
+        "evidence": "Participant explicitly states these factors as driving their purchasing decisions."
       },
       "preferred_categories": {
         "value": [
           "Electronics",
-          "Home Goods",
-          "Travel Accessories"
+          "Clothing (Sleepers)",
+          "Home Goods (Dehumidifier)",
+          "Grocery"
         ],
         "confidence": "0.85",
-        "evidence": "Participant purchases electronics, air purifiers, dehumidifiers, and items for travel."
+        "evidence": "Participant’s purchase history includes electronics, clothing, home goods, and groceries."
       },
       "pain_points_and_or_challenges": {
-        "value": "Difficulty finding accurate product information, preference for local shopping when feasible",
-        "confidence": "0.85",
-        "evidence": "Participant struggles to find accurate search terms, prefers to purchase items locally when possible."
+        "value": "Size uncertainty, inaccurate search terms, irrelevant ads",
+        "confidence": "0.90",
+        "evidence": "Participant’s concerns regarding size discrepancies and frustration with irrelevant ads."
       }
     }
   }

@@ -1,8 +1,8 @@
 [
   {
     "cluster_id": 0,
-    "name": "Curious Browser",
-    "description": "Explores many product pages",
+    "name": "Explorer Interactive User",
+    "description": "Views many pages when evaluating options; characterized by high Action Density; high interaction with input forms.",
     "session_count": 116,
     "centroid": {
       "pca_x": 0.40279623389565866,
@@ -77,8 +77,8 @@
   },
   {
     "cluster_id": 1,
-    "name": "Action-Oriented Shopper",
-    "description": "Quick to make purchase decisions",
+    "name": "Decisive Explorer User",
+    "description": "Characterized by high Action Density; converts quickly once a decision is made; views many pages when evaluating options.",
     "session_count": 86,
     "centroid": {
       "pca_x": -0.5181000304065515,
@@ -153,8 +153,8 @@
   },
   {
     "cluster_id": 2,
-    "name": "Decisive Buyer",
-    "description": "High purchase intent with detailed product customization",
+    "name": "Decisive Detail-Oriented User",
+    "description": "Characterized by high Action Density; converts quickly once a decision is made; focuses on product options and configuration.",
     "session_count": 80,
     "centroid": {
       "pca_x": -0.6426111992712117,
@@ -229,8 +229,8 @@
   },
   {
     "cluster_id": 3,
-    "name": "Informed Evaluator",
-    "description": "Focuses on product reviews before deciding",
+    "name": "Research-Minded Explorer User",
+    "description": "Characterized by high Action Density; heavily engages with reviews; views many pages when evaluating options.",
     "session_count": 86,
     "centroid": {
       "pca_x": 0.4121820867143572,
@@ -305,8 +305,8 @@
   },
   {
     "cluster_id": 4,
-    "name": "Search-Driven Navigator",
-    "description": "Heavy search and text input usage",
+    "name": "Interactive Search-Driven User",
+    "description": "Characterized by high Action Density; high interaction with input forms; relies on search functionality over navigation.",
     "session_count": 69,
     "centroid": {
       "pca_x": 0.19990544880187344,

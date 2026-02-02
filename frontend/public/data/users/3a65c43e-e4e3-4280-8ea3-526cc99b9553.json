@@ -4,119 +4,120 @@
     "title": {
       "user_name": "Participant",
       "two_word_summary": "Engineering Student",
-      "confidence_overall": "0.85"
+      "confidence_overall": "0.90"
     },
     "demographics": {
       "age_range": {
-        "value": "25-34",
+        "value": "25-35",
         "confidence": "0.95",
-        "evidence": "Participant is a PhD student, which typically corresponds to this age range."
+        "evidence": "Participant is a Phd student, suggesting an age range of 25-35."
       },
       "gender": {
         "value": "Male",
         "confidence": "0.90",
-        "evidence": "Participant's language and interests align with male profiles."
+        "evidence": "Participant's language and responses align with a male perspective."
       },
       "nationality_background": {
         "value": "USA",
-        "confidence": "0.80",
-        "evidence": "Participant mentions living in Boston, a major US city."
+        "confidence": "0.85",
+        "evidence": "The mention of Boston and University context suggests a US background."
       },
       "location": {
-        "value": "Boston, MA",
+        "value": "Boston",
         "confidence": "1.00",
-        "evidence": "Explicitly stated in the transcript."
+        "evidence": "Participant states \"leaving the in Boston\"."
       },
       "living_situation": {
         "value": "With Roommates",
         "confidence": "1.00",
-        "evidence": "Explicitly stated in the transcript."
+        "evidence": "Participant states \"Yeah. The city is modern, and I live with my roommates\"."
       },
       "occupation": {
-        "value": "PhD Student",
+        "value": "Phd Student (Electrical & Computer Engineering)",
         "confidence": "1.00",
-        "evidence": "Explicitly stated in the transcript."
+        "evidence": "Participant explicitly states \"I'm the Phd student in [ORG_MASKED] University and my major is electrical and computer engineering\"."
       },
       "education": {
-        "value": "PhD",
+        "value": "Ph.D.",
         "confidence": "1.00",
-        "evidence": "Explicitly stated in the transcript."
+        "evidence": "Participant states \"I'm the Phd student\"."
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "Academic achievement, personal development, maintaining a healthy lifestyle",
-        "confidence": "0.75",
-        "evidence": "Participant's focus on research, gym attendance, and reading suggest a desire for personal growth and knowledge acquisition."
+        "value": "Academic achievement, personal development, and potentially technological advancement.",
+        "confidence": "0.80",
+        "evidence": "Participant's Ph.D. studies, focus on power electronics, and reading reflect a drive for knowledge and skills."
       },
       "interests": {
         "value": [
-          "Electrical Engineering",
           "Power Electronics",
-          "Microfabrication",
-          "Dog Training/Pet Care",
-          "Cycling"
+          "Microfabrication Technology",
+          "Dog Ownership",
+          "Cycling",
+          "Reading"
         ],
-        "confidence": "0.85",
-        "evidence": "Explicitly stated in the transcript regarding his major, work, and activities."
+        "confidence": "0.75",
+        "evidence": "Participant's work involves power electronics, he mentions microfabrication, his gym activities, and reading, and owns a dog."
       },
       "values": {
         "value": [
           "Efficiency",
           "Focus",
           "Continuous Learning",
-          "Value for Money",
-          "Innovation"
+          "Quality"
         ],
         "confidence": "0.70",
-        "evidence": "Participant's emphasis on planning, concentration, and the pursuit of knowledge align with these values."
+        "evidence": "Participant expresses a need for a good plan, focuses on one thing at a time, highlights continuous learning, and seems to value good quality."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
-        "confidence": "0.80",
-        "evidence": "Participant states, 'maybe one or 2 times a week' when referring to online shopping."
+        "confidence": "0.70",
+        "evidence": "Participant states \"maybe one or 2 times a week\"."
       },
       "where_used_devices": {
         "value": [
           "Smartphone",
           "Desktop"
         ],
-        "confidence": "0.90",
-        "evidence": "Participant uses 'Github' and likely uses a smartphone and desktop for online shopping."
+        "confidence": "0.85",
+        "evidence": "Participant uses a smartphone for the interview and references Github."
       },
       "search_style_best_vs_first": {
         "value": "Best Product",
         "confidence": "0.60",
-        "evidence": "Participant indicates a preference for finding the 'best' product."
+        "evidence": "Participant implies a preference for the highest quality products."
       },
       "price_preference_cheapest_vs_expensive": {
         "value": "Cheapest Product",
-        "confidence": "0.70",
-        "evidence": "Participant explicitly states, 'I don't want to spend too much money on this thing.'"
+        "confidence": "0.60",
+        "evidence": "Participant states \"I don't want to spend too much money on this thing\"."
       },
       "decision_factors": {
         "value": [
           "Price",
-          "Product Quality",
-          "Brand (occasionally)"
+          "Quality",
+          "Brand (occasionally)",
+          "Reviews"
         ],
-        "confidence": "0.85",
-        "evidence": "Participant’s stated priorities regarding price and mentions a brand preference for certain items."
+        "confidence": "0.80",
+        "evidence": "Participant prioritizes price, and occasionally cares about brands, and pays attention to reviews."
       },
       "preferred_categories": {
         "value": [
+          "Pet Supplies",
           "Electronics",
-          "Pet Supplies"
+          "Engineering Components"
         ],
-        "confidence": "0.95",
-        "evidence": "Participant’s field of study and recent purchases indicate a preference for these categories."
+        "confidence": "0.70",
+        "evidence": "Participant purchases dog toys and pet snakes."
       },
       "pain_points_and_or_challenges": {
-        "value": "Finding high-quality products at affordable prices",
-        "confidence": "0.80",
-        "evidence": "Participant's emphasis on price and ignoring sponsored products suggests this pain point."
+        "value": "Overspending, irrelevant advertisements, difficulty finding desired products.",
+        "confidence": "0.75",
+        "evidence": "Participant dislikes sponsored products and expressed concern about spending too much money."
       }
     }
   }

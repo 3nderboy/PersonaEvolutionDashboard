@@ -9,114 +9,110 @@
     "demographics": {
       "age_range": {
         "value": "35-44",
-        "confidence": "0.90",
-        "evidence": "Participant stated they wake up at 9 or 10 am, suggesting an adult age range."
+        "confidence": "0.95",
+        "evidence": "Participant states waking up at 9 or 10 am, typical coding hours of 2-3 hours, and a 4-5 pm work block. This aligns with a professional career."
       },
       "gender": {
         "value": "Male",
-        "confidence": "0.80",
-        "evidence": "Participant’s pronouns and typical male interests (computer games)."
+        "confidence": "0.90",
+        "evidence": "Participant's name is masculine."
       },
       "nationality_background": {
         "value": "USA",
-        "confidence": "0.95",
-        "evidence": "Participant lives in San Jose, California."
+        "confidence": "0.98",
+        "evidence": "States living in San Jose, California."
       },
       "location": {
         "value": "San Jose, California",
         "confidence": "1.00",
-        "evidence": "Directly stated by the participant."
+        "evidence": "Explicitly stated in the transcript."
       },
       "living_situation": {
         "value": "With Wife",
         "confidence": "0.95",
-        "evidence": "Participant explicitly states 'I lived with my wife'."
+        "evidence": "States 'I lived with my wife'."
       },
       "occupation": {
         "value": "Plant Scientist / Research Scientist",
         "confidence": "1.00",
-        "evidence": "Directly stated by the participant."
+        "evidence": "Explicitly states 'plant scientist' and describes research and modeling work."
       },
       "education": {
-        "value": "Bachelor’s Degree or Higher",
-        "confidence": "0.70",
-        "evidence": "Work as a plant scientist generally requires a higher education level."
+        "value": "Bachelor's or Master's Degree",
+        "confidence": "0.75",
+        "evidence": "The work described – research, modeling, and a product navigation experience – is typically associated with a higher education level."
       }
     },
     "psychographics": {
       "goals_and_motivations": {
-        "value": "To improve navigation experience, stay current in research, and potentially optimize personal wellness (dental port).",
-        "confidence": "0.80",
-        "evidence": "Multiple references to research, product improvement, dental alignment, and a desire to optimize personal wellness."
+        "value": "Improve Customer Navigation Experience, Learn New Skills, Maintain Physical Health (through occasional coding training)",
+        "confidence": "0.70",
+        "evidence": "Work described as improving navigation experience, interest in coding training."
       },
       "interests": {
         "value": [
-          "Plant Science",
           "Computer Games",
-          "Technology",
-          "Dentistry"
+          "Dental Care",
+          "Coffee"
         ],
-        "confidence": "0.75",
-        "evidence": "Explicit mentions of plant science research, computer games, and interest in dental port."
+        "confidence": "0.80",
+        "evidence": "Explicitly states playing computer games, purchasing dental port and coffee."
       },
       "values": {
         "value": [
-          "Evidence-based decision making",
-          "Customer feedback",
-          "Efficiency",
-          "Reliability"
+          "Customer Satisfaction",
+          "Data Accuracy",
+          "Continuous Learning"
         ],
-        "confidence": "0.70",
-        "evidence": "Emphasis on customer reviews (length, images), importance of strong evidence, and desire for efficient solutions."
+        "confidence": "0.60",
+        "evidence": "Focus on improving navigation, preference for high-rated reviews, willingness to learn new things."
       }
     },
     "shopping_behavior": {
       "frequency_of_use": {
         "value": "Weekly",
-        "confidence": "0.60",
-        "evidence": "Purchase of a coffee cup every 4 weeks and a subscription to a product suggests regular shopping habits."
+        "confidence": "0.65",
+        "evidence": "Purchases dental port every 4 weeks and coffee regularly, suggests regular online shopping."
       },
       "where_used_devices": {
         "value": [
           "Smartphone",
           "Tablet"
         ],
-        "confidence": "0.80",
-        "evidence": "Participant uses the Amazon app."
+        "confidence": "0.85",
+        "evidence": "States using the Amazon app."
       },
       "search_style_best_vs_first": {
-        "value": "Best Product",
+        "value": "Best Product / First Product",
         "confidence": "0.90",
-        "evidence": "Participant states 'I care about 2 things. The 1st is the price, and the second is the customer use'."
+        "evidence": "Prioritizes highly rated products, specifically focusing on 5-star reviews."
       },
       "price_preference_cheapest_vs_expensive": {
         "value": "Cheapest Product",
         "confidence": "0.80",
-        "evidence": "Participant filters by price first."
+        "evidence": "States price should not be higher than $100."
       },
       "decision_factors": {
         "value": [
           "Price",
-          "Customer Reviews (Length & Images)",
-          "Strong Reviews",
-          "Evidence of Effectiveness"
+          "Customer Reviews (length & images)"
         ],
-        "confidence": "0.95",
-        "evidence": "Participant explicitly lists these as key considerations."
+        "confidence": "1.00",
+        "evidence": "Explicitly mentions these as key considerations."
       },
       "preferred_categories": {
         "value": [
-          "Dental Products",
-          "Technology",
-          "Coffee"
+          "Dental Care",
+          "Coffee",
+          "Software"
         ],
-        "confidence": "0.85",
-        "evidence": "Recent purchases of dental port and coffee cups."
+        "confidence": "0.70",
+        "evidence": "Purchases dental port and coffee, mentions software development work."
       },
       "pain_points_and_or_challenges": {
-        "value": "Suspicious of overly positive reviews, distrust of short reviews",
-        "confidence": "0.90",
-        "evidence": "Participant’s strong preference for longer reviews with images and skepticism of purely 5-star reviews."
+        "value": "Conflict Resolution, Unconvincing Reviews",
+        "confidence": "0.75",
+        "evidence": "Expresses difficulty resolving conflicts with colleagues, doubts the validity of overly positive reviews."
       }
     }
   }
